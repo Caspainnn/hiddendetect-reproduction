@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-28",
+  "seed": 20261028,
+  "sources": [
+    {"repo": "nvidia/Aegis-AI-Content-Safety-Dataset-2.0", "revision": "d86bb8bedff51d25ac834ab7838f1cc61acb7a2c", "license": "cc-by-4.0", "label": "prompt_label only", "files": ["train.json", "validation.json", "test.json"]},
+    {"repo": "JailbreakBench/JBB-Behaviors", "revision": "886acc352a31533ffbcf4ef22c744658688086fc", "license": "mit", "label": "benign/harmful behavior partition", "files": ["data/benign-behaviors.csv", "data/harmful-behaviors.csv"]},
+    {"repo": "lmsys/toxic-chat", "revision": "29df8e4dba60e1f4af4b4075c0705c5b313548a8", "license": "cc-by-nc-4.0", "label": "toxicity; separate proxy task, human_annotation=true", "files": ["data/1123/toxic-chat_annotation_test.csv"]}
+  ],
+  "excluded_gated_source": "allenai/wildguardmix; access conditions not accepted",
+  "base_model_download": false,
+  "raw_data_redistribution": false
+}
