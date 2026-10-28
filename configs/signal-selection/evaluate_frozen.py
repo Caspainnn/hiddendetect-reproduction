@@ -1,6 +1,7 @@
 """Evaluate every pre-frozen candidate with independent safe calibration."""
 import hashlib
 import json
+import math
 from pathlib import Path
 import time
 import numpy as np
@@ -12,6 +13,15 @@ ROOT = Path(__file__).resolve().parents[2]
 
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+def wilson(successes, total):
+    z = 1.959963984540054
+    p = successes / total
+    denominator = 1 + z*z / total
+    center = (p + z*z / (2*total)) / denominator
+    half = z * math.sqrt(p*(1-p)/total + z*z/(4*total*total)) / denominator
+    return [0. if successes == 0 else max(0., center-half),
+            1. if successes == total else min(1., center+half)]
 
 def metrics(y, score, threshold):
     counts = confusion(y, score, threshold)
@@ -99,6 +109,9 @@ def main():
             name = candidate['name']
             values = scores[(role, name)]
             observed = metrics(y, values, thresholds[name])
+            observed['binomial_wilson_ci95'] = {
+                'tpr': wilson(observed['tp'], observed['tp'] + observed['fn']),
+                'fpr': wilson(observed['fp'], observed['fp'] + observed['tn'])}
             boot = [metrics(y[b], values[b], thresholds[name]) for b in resamples]
             observed['ci95'] = {key: np.quantile([v[key] for v in boot], [.025, .975]).tolist()
                 for key in ('auroc', 'average_precision', 'tpr', 'fpr')}

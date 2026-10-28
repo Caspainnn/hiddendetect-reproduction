@@ -11,9 +11,11 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[2]
 
-def open_cache(directory, key, count):
+def open_cache(directory, key, count, provenance=None):
     directory.mkdir(parents=True, exist_ok=True)
-    metadata = {'manifest_sha256': key, 'count': count,
+    if provenance is None:
+        provenance = {'extractor_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
+    metadata = {'manifest_sha256': key, 'count': count, 'provenance': provenance,
                 'shapes': {'H': [count, 32, 4096], 'F': [count, 32], 'L': [count, 32000]}}
     path = directory / 'metadata.json'
     exists = path.exists()
@@ -49,6 +51,7 @@ def main():
     os.environ['HF_HUB_OFFLINE'] = '1'
     os.environ['TRANSFORMERS_OFFLINE'] = '1'
     import torch
+    import transformers
     from safetensors import safe_open
     from llava.conversation import conv_templates
     from llava.constants import IMAGE_TOKEN_INDEX
@@ -61,7 +64,11 @@ def main():
     assert hashlib.sha256(records_path.read_bytes()).hexdigest() == manifest['records_sha256']
     records = [json.loads(x) for x in records_path.read_text().splitlines()]
     key = hashlib.sha256(manifest_path.read_bytes()).hexdigest()
-    cache, start = open_cache(ROOT / 'cache/signal-selection', key, len(records))
+    provenance = {'extractor_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+        'artifact_lock_sha256': hashlib.sha256((ROOT / 'configs/artifacts-lock.json').read_bytes()).hexdigest(),
+        'torch': torch.__version__, 'transformers': transformers.__version__, 'numpy': np.__version__,
+        'llava_revision': subprocess.check_output(['git', '-C', str(ROOT / 'source/LLaVA'), 'rev-parse', 'HEAD'], text=True).strip()}
+    cache, start = open_cache(ROOT / 'cache/signal-selection', key, len(records), provenance=provenance)
     if start == len(records):
         print('CACHE_ALREADY_COMPLETE', len(records), flush=True)
         return

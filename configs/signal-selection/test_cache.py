@@ -13,6 +13,12 @@ with tempfile.TemporaryDirectory(dir=temporary_root) as folder:
     checkpoint_cache(cache, 1)
     resumed, start = open_cache(Path(folder), 'locked-manifest', 3)
     assert start == 1 and np.array_equal(resumed['F'][0], np.arange(32))
+    try:
+        open_cache(Path(folder), 'locked-manifest', 3, provenance={'extractor': 'changed'})
+    except ValueError:
+        pass
+    else:
+        raise AssertionError('Extractor/runtime drift reused cache')
     for wrong_key, wrong_count in [('changed-manifest', 3), ('locked-manifest', 4)]:
         try:
             open_cache(Path(folder), wrong_key, wrong_count)
