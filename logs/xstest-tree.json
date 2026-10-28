@@ -1,0 +1,204 @@
+{
+  "sha": "d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+  "url": "https://api.github.com/repos/paul-rottger/xstest/git/trees/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "496ee2ca6a2f08396a4076fe43dedf3dc0da8b6d",
+      "size": 9,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/496ee2ca6a2f08396a4076fe43dedf3dc0da8b6d"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ea99c213c5c0c005ae4e80df8e52169d06896ec",
+      "size": 18656,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/4ea99c213c5c0c005ae4e80df8e52169d06896ec"
+    },
+    {
+      "path": "evaluation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de25e8d8781f7834ba43aab5831137672104cb6f",
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/trees/de25e8d8781f7834ba43aab5831137672104cb6f"
+    },
+    {
+      "path": "evaluation/analysis.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c24df55ee50fc6b0dd3d4a9990380bff1050accd",
+      "size": 136168,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/c24df55ee50fc6b0dd3d4a9990380bff1050accd"
+    },
+    {
+      "path": "evaluation/automated_evaluation_labels",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6fa83d27f099c30108d3b6bcf41805506c8c3259",
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/trees/6fa83d27f099c30108d3b6bcf41805506c8c3259"
+    },
+    {
+      "path": "evaluation/automated_evaluation_labels/xstest_v2_completions_gpt4_gpteval.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c936a7244ef147b4d42667fec231c72321d99914",
+      "size": 266197,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/c936a7244ef147b4d42667fec231c72321d99914"
+    },
+    {
+      "path": "evaluation/automated_evaluation_labels/xstest_v2_completions_gpt4_streval.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23b2d74887c9562e7007eb65ed5a29c482ab205c",
+      "size": 266102,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/23b2d74887c9562e7007eb65ed5a29c482ab205c"
+    },
+    {
+      "path": "evaluation/automated_evaluation_labels/xstest_v2_completions_llama2new_gpteval.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "648c49027aa52615151b03d154d19593e90984d4",
+      "size": 524610,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/648c49027aa52615151b03d154d19593e90984d4"
+    },
+    {
+      "path": "evaluation/automated_evaluation_labels/xstest_v2_completions_llama2new_streval.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "346252a35361cc3e615e8852c7ef5beec1b07f93",
+      "size": 524368,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/346252a35361cc3e615e8852c7ef5beec1b07f93"
+    },
+    {
+      "path": "evaluation/automated_evaluation_labels/xstest_v2_completions_llama2orig_gpteval.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cf0a72460707c9717f4e247b678939bbbd91c3f",
+      "size": 477824,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/5cf0a72460707c9717f4e247b678939bbbd91c3f"
+    },
+    {
+      "path": "evaluation/automated_evaluation_labels/xstest_v2_completions_llama2orig_streval.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27223c0bca683a28827e6c4e7e4d3a2fc6eb2d05",
+      "size": 477615,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/27223c0bca683a28827e6c4e7e4d3a2fc6eb2d05"
+    },
+    {
+      "path": "evaluation/automated_evaluation_labels/xstest_v2_completions_mistralguard_gpteval.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2e3398d185761377b4f243e9c39d0dec48186b1",
+      "size": 310914,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/c2e3398d185761377b4f243e9c39d0dec48186b1"
+    },
+    {
+      "path": "evaluation/automated_evaluation_labels/xstest_v2_completions_mistralguard_streval.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ee5718ffad9dce7626149e1d18600081683887a",
+      "size": 310876,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/6ee5718ffad9dce7626149e1d18600081683887a"
+    },
+    {
+      "path": "evaluation/automated_evaluation_labels/xstest_v2_completions_mistralinstruct_gpteval.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27bfece98493dfda4d620728fb259fcabff18bb5",
+      "size": 379905,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/27bfece98493dfda4d620728fb259fcabff18bb5"
+    },
+    {
+      "path": "evaluation/automated_evaluation_labels/xstest_v2_completions_mistralinstruct_streval.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d836b6910780641e4d9515f71b3870113bd2acd",
+      "size": 379544,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/8d836b6910780641e4d9515f71b3870113bd2acd"
+    },
+    {
+      "path": "evaluation/classify_completions_gpt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9f911978a4ee5c91aa65239a59c2b979cd61576",
+      "size": 2721,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/b9f911978a4ee5c91aa65239a59c2b979cd61576"
+    },
+    {
+      "path": "evaluation/classify_completions_strmatch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa8fa43a2043c7d400923bd4ffb628154aca1b7c",
+      "size": 1368,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/aa8fa43a2043c7d400923bd4ffb628154aca1b7c"
+    },
+    {
+      "path": "model_completions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e9a709db9f5af390d36daf15f91473421652689a",
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/trees/e9a709db9f5af390d36daf15f91473421652689a"
+    },
+    {
+      "path": "model_completions/xstest_v2_completions_gpt4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54996de39afe8843ac68c175432a52a1e1521260",
+      "size": 259111,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/54996de39afe8843ac68c175432a52a1e1521260"
+    },
+    {
+      "path": "model_completions/xstest_v2_completions_llama2new.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40085da6a5ebdf036f824f62c22203e2cb8e9c41",
+      "size": 517476,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/40085da6a5ebdf036f824f62c22203e2cb8e9c41"
+    },
+    {
+      "path": "model_completions/xstest_v2_completions_llama2orig.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "524ea10007a1fc94222f2b761082894cd6a0a816",
+      "size": 470900,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/524ea10007a1fc94222f2b761082894cd6a0a816"
+    },
+    {
+      "path": "model_completions/xstest_v2_completions_mistralguard.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae09c3ab426284bb64d82d9009056472e83371b1",
+      "size": 303726,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/ae09c3ab426284bb64d82d9009056472e83371b1"
+    },
+    {
+      "path": "model_completions/xstest_v2_completions_mistralinstruct.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ef26d2f658240b02e07ccbcaf261c49801d6b94",
+      "size": 371935,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/7ef26d2f658240b02e07ccbcaf261c49801d6b94"
+    },
+    {
+      "path": "readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2850b16498d65625fdc1886f83efd029541fcfc4",
+      "size": 2772,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/2850b16498d65625fdc1886f83efd029541fcfc4"
+    },
+    {
+      "path": "xstest_prompts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad38204d70b3964387f9690169d11afbc4756d01",
+      "size": 38719,
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/blobs/ad38204d70b3964387f9690169d11afbc4756d01"
+    }
+  ],
+  "truncated": false
+}
