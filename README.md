@@ -8,11 +8,11 @@
 
 - [真实进度与下一步](progress.md)
 - [复现协议与阶段边界](protocol.md)
-- [正式PDF，L042](../../literature/papers/HiddenDetect.pdf)
+- [正式论文PDF](https://aclanthology.org/2025.acl-long.724.pdf)
 - [正式ACL条目](https://aclanthology.org/2025.acl-long.724/)
 - [作者代码](https://github.com/leigest519/HiddenDetect)
-- [P02阅读网页](../../readings/论文阅读/论文阅读记录.html#p02)
-- [10篇相关工作及开源审计](../../readings/研究笔记/内部信号安全检测与HiddenDetect特征选择-10篇调研-2026-10-27.md)
+
+本仓库是独立复现记录，不是作者官方实现。论文阅读笔记与相关工作调研保留在本地Paper项目，不随本仓库发布。
 
 ## 目录
 
@@ -29,7 +29,9 @@
 
 ## 查看代码与重跑
 
-学校服务器目录为`~/HiddenDetect-reproduction`，可用VS Code Remote-SSH打开。自己的复现分支为`reproduce/smoke`，作者源码在`source/HiddenDetect`，LLaVA在`source/LLaVA`，两者独立锁版本并从本仓库忽略。GitHub尚未推送。此目录只同步实验材料，论文PDF和阅读网站仍在本机Paper项目。
+学校服务器目录为`~/HiddenDetect-reproduction`，可用VS Code Remote-SSH打开。GitHub仓库为[Caspainnn/hiddendetect-reproduction](https://github.com/Caspainnn/hiddendetect-reproduction)。`main`保存首轮基线快照，`reproduce/smoke`保留复现工作分支。作者源码在`source/HiddenDetect`，LLaVA在`source/LLaVA`，两者独立锁版本并从本仓库忽略。此目录只同步实验材料，论文PDF和阅读网站仍在本机Paper项目。
+
+仓库保留真实运行日志和失败记录。`source/`、`data/`、`models/`、`env/`及本地缓存均不纳入Git，下载清单、revision和SHA256记录在configs中。作者代码和权重的许可分别适用，不因本复现仓库公开而取得额外分发许可。本仓库不包含作者源码或模型权重。
 
 在学校实验目录中运行以下命令会执行真实检测，须确保模型与数据已按锁定清单准备：
 
