@@ -13,3 +13,6 @@ __pycache__/
 logs/signal-selection-extraction.log
 logs/highdim-extraction.log
 logs/highdim-pilot.log
+logs/highdim-driver.log
+logs/highdim-pilot-initial-error.log
+logs/highdim-train.log
