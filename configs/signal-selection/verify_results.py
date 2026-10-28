@@ -11,6 +11,7 @@ def main():
     out = ROOT / 'results/signal-selection'
     manifest_path = Path(__file__).with_name('manifest.json')
     manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+    assert digest(ROOT / 'logs/signal-selection-download.json') == manifest['raw_lock_sha256']
     freeze = json.loads((out / 'freeze.json').read_text())
     evaluation = json.loads((out / 'evaluation.json').read_text())
     assert freeze['manifest_sha256'] == digest(manifest_path) == evaluation['manifest_sha256']

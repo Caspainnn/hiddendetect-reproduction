@@ -11,6 +11,13 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'configs'))
 from fetch_locked import fetch
 
+def save_acquisition_log(path, report):
+    if path.exists():
+        if json.loads(path.read_text(encoding='utf-8'))['files'] != report['files']:
+            raise ValueError('Immutable acquisition files changed')
+        return  # Revalidation must not rewrite a log hashed by the frozen manifest.
+    path.write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8', newline='\n')
+
 if __name__ == '__main__':
     sources = json.loads((Path(__file__).parent / 'data-sources.json').read_text())
     files = []
@@ -43,5 +50,5 @@ if __name__ == '__main__':
             target.write_bytes(data)
     with ThreadPoolExecutor(max_workers=3) as pool:
         verified = list(pool.map(fetch, files))
-    (ROOT / 'logs/signal-selection-download.json').write_text(json.dumps({'files': files, 'verified': verified}, indent=2) + '\n')
+    save_acquisition_log(ROOT / 'logs/signal-selection-download.json', {'files': files, 'verified': verified})
     print('PUBLIC_DATA_VERIFIED', len(files), sum(x['bytes'] for x in files), flush=True)
