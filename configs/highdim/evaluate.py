@@ -72,7 +72,7 @@ def main():
         rng=np.random.default_rng(20261029); labels=[np.flatnonzero(y==label) for label in (0,1)]
         resamples=[np.concatenate([rng.choice(g,len(g),replace=True) for g in labels]) for _ in range(500)]
         # Named references fixed before test inspection: information, interaction and full-pool controls.
-        references=['linear_last_vector','linear_all','interaction_all']
+        references=['linear_last_vector','linear_position_vectors','linear_all','interaction_all','raw_ridge_last']
         reference_boot={name:[metrics(y[b],scores[(role,name)][b],thresholds[name]) for b in resamples] for name in references}
         report['tests'][role]={}
         for c in freeze['candidates']:
