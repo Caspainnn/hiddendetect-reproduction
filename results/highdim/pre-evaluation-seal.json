@@ -1,0 +1,20 @@
+{
+  "status": "sealed_before_heldout_scoring",
+  "freeze_sha256": "2e37289f0e9d82d8a921d20e7729704ba64ab8bcad95f551cb1ad455e52c189b",
+  "declared_source_commit": "39c62b925c63ce031049647032f91c0900cad01f",
+  "created_utc": "2026-10-28T14:10:54.313273+00:00",
+  "source_sha256": {
+    "configs/highdim/features.py": "055a3a9e52456d2ebafafa8a2cfba0f8ee35c73836bf8431a41859ddc3c43972",
+    "configs/highdim/detectors.py": "37e11401faed0bb99c7784fa7cdd92ac7358be1fc952360829d43eee1f826715",
+    "configs/highdim/ridge.py": "e523f3be50a20a030345a8591c3f31493f6d1953028dca1fdecfe4e4e89ceea1",
+    "configs/highdim/seal.py": "f89c0dd959e90c982eb23c3e3e6a95df3cc5c255cc2cfe7653d625bd4244efb3",
+    "configs/highdim/train.py": "136beb4f28e4f34bfd7358f3161f813778eca7ee640ec8f3c120ce83b6b9c98c",
+    "configs/highdim/batch_search.py": "8c83bf76a23d86710856a5c7470e657d7ba3ff1db72881d6e4f5d79fa3f9c045",
+    "configs/highdim/evaluate.py": "b6e1e3dc5197a8682df32a29853b35e17564ce0096b319441b2b626d3a7b9189",
+    "configs/highdim/seal_code.py": "0b1dad6efe69572626e5174f130e0484012c44db2439505b5757233c84970692",
+    "configs/signal-selection/train_search.py": "34dcdcc29811800e8c8c49d4fdb675e972d83c841d26bf8487691d302371fc10",
+    "configs/signal-selection/experiment_core.py": "ad35c2e9ed29d47854ea3db7cd999ef5e07c981226ce7872c91eec13fa45cc85",
+    "configs/signal-selection/evaluate_frozen.py": "5a68b1bf3b36873904240f3987f2e223085e387094838149dfab44f2a401c9e6"
+  },
+  "scope": "training process source unchanged; dependency sidecar added before any calibration/test scoring"
+}
