@@ -2,6 +2,7 @@
 import json
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 import joblib
 import numpy as np
@@ -10,6 +11,7 @@ from features import ROOT, digest, LAYOUT
 from detectors import schema, make_matrix, columns_for_mask, raw_fit, raw_scores, fit_detector, detector_scores, fit_centroids
 from seal import verify_seal
 from ridge import raw_matrix,fit_ridge,ridge_scores
+from batch_search import batched_binary_pso
 sys.path.insert(0,str(ROOT/'configs/signal-selection'))
 from experiment_core import binary_pso, mask_key
 
@@ -33,6 +35,11 @@ def main():
     np.savez(out/'scaler.npz',mean=mean,scale=scale)
     (out/'schema.json').write_text(json.dumps(groups,indent=2)+'\n')
     candidates=[]; runs=[]
+    progress=out/'search-progress.json'
+    previous_runs=json.loads(progress.read_text()) if progress.exists() else []
+    completed={(run['head'],run['method'],run['seed']):run for run in previous_runs}
+    workers=8
+    executor=ThreadPoolExecutor(max_workers=workers)
     for label,regions in [('last',[0]),('user',[1,2,3,4]),('positions',[0,1,2,3,4])]:
         begin=time.monotonic(); raw=raw_matrix(cache,train,regions); ridge=fit_ridge(raw,yt); del raw
         raw=raw_matrix(cache,dev,regions); auc=float(roc_auc_score(yd,ridge_scores(ridge,raw))); del raw
@@ -44,19 +51,22 @@ def main():
     for head in ('linear','interaction'):
         fitted={}
         accounting={'objective_calls':0,'cache_hits':0,'new_fits':0,'fit_seconds':0.}
-        def assess(mask):
-            accounting['objective_calls']+=1
-            key=mask_key(mask)
-            if key not in fitted:
-                cols=columns_for_mask(mask,groups)
-                fit_start=time.monotonic()
-                model=raw_fit(head,zt[:,cols],yt)
-                accounting['fit_seconds']+=time.monotonic()-fit_start; accounting['new_fits']+=1
-                auc=float(roc_auc_score(yd,raw_scores(head,model,zd[:,cols])))
-                fitted[key]=(model,auc,len(cols))
-            else: accounting['cache_hits']+=1
-            model,auc,dimensions=fitted[key]
-            return auc-.02*dimensions/total
+        def fit_one(item):
+            key,mask=item; cols=columns_for_mask(mask,groups); fit_start=time.monotonic()
+            model=raw_fit(head,zt[:,cols],yt); elapsed=time.monotonic()-fit_start
+            auc=float(roc_auc_score(yd,raw_scores(head,model,zd[:,cols])))
+            return key,(model,auc,len(cols)),elapsed
+        def assess_many(masks):
+            accounting['objective_calls']+=len(masks)
+            pending={}
+            for mask in masks:
+                key=mask_key(mask)
+                if key in fitted or key in pending: accounting['cache_hits']+=1
+                else: pending[key]=mask
+            for key,value,elapsed in executor.map(fit_one,pending.items()):
+                fitted[key]=value; accounting['new_fits']+=1; accounting['fit_seconds']+=elapsed
+            return [fitted[mask_key(mask)][1]-.02*fitted[mask_key(mask)][2]/total for mask in masks]
+        def assess(mask): return assess_many([mask])[0]
         def save(name,mask):
             value=assess(mask); model,auc,dimensions=fitted[mask_key(mask)]
             path=out/(name+'.joblib'); joblib.dump(model,path)
@@ -81,24 +91,32 @@ def main():
                 'count_scope':'nonzero coefficients; implementation still reads full feature vector'})
         for seed in range(5):
             for method in ('random','bpso'):
+                if (head,method,seed) in completed:
+                    run=completed[(head,method,seed)]; mask=np.array(run['best_mask'],bool)
+                    assert np.isclose(assess(mask),run['best_fitness'],rtol=0,atol=1e-8)
+                    save('%s_%s_seed%d'%(head,method,seed),mask)
+                    runs.append({**run,'resumed_completed_run':True})
+                    print('RESUMED_COMPLETED_SEARCH',head,method,seed,flush=True)
+                    continue
                 start=time.monotonic()
                 before=accounting.copy()
                 if method=='bpso':
-                    result=binary_pso(len(groups),assess,seed=seed,budget=100,particles=10,rounds=10)
+                    result=batched_binary_pso(len(groups),assess_many,seed=seed,budget=100,particles=10,rounds=10)
                     mask=np.array(result['best_mask'],bool)
                 else:
-                    rng=np.random.default_rng(seed); values={}
-                    while len(values)<100:
+                    rng=np.random.default_rng(seed); proposals={}
+                    while len(proposals)<100:
                         proposal=rng.random(len(groups))<.5
                         if not proposal.any(): continue
                         key=mask_key(proposal)
-                        if key not in values: values[key]=assess(proposal)
+                        if key not in proposals: proposals[key]=proposal
+                    values=dict(zip(proposals,assess_many(list(proposals.values()))))
                     key=max(values,key=values.get); mask=np.array([x=='1' for x in key])
                     result={'best_mask':mask.tolist(),'best_fitness':values[key],'unique_evaluations':len(values),'evaluated_masks':list(values)}
                 actual={key:accounting[key]-before[key] for key in accounting}
                 name='%s_%s_seed%d'%(head,method,seed); save(name,mask)
                 runs.append({'head':head,'method':method,'seed':seed,**result,**actual,'seconds':time.monotonic()-start,
-                    'timing_scope':'incremental shared-cache elapsed; model fit counts exclude candidate serialization'})
+                    'workers':workers,'timing_scope':'incremental shared-cache elapsed; fit_seconds sums concurrent model wall times; counts exclude candidate serialization'})
                 # Durable progress has no calibration/test metrics.
                 (out/'search-progress.json').write_text(json.dumps(runs,indent=2)+'\n')
                 print('SEARCH_DONE',name,result['unique_evaluations'],candidates[-1]['dimensions'],round(time.monotonic()-start,2),flush=True)
@@ -111,6 +129,7 @@ def main():
         candidates.append({'name':'original_%d_%d'%(lo,hi),'kind':'interval','lo':lo,'hi':hi,'groups':hi-lo+1,
             'dimensions':hi-lo+1,'dev_auroc':float(roc_auc_score(yd,score))})
     (out/'search.json').write_text(json.dumps(runs,indent=2)+'\n')
+    executor.shutdown()
     freeze={'status':'frozen_before_calibration_and_test_scores','manifest_sha256':digest(mp),
         'train_code_sha256':digest(__file__),'detectors_code_sha256':digest(Path(__file__).with_name('detectors.py')),
         'cache_metadata_sha256':digest(directory/'metadata.json'),'schema_sha256':digest(out/'schema.json'),
@@ -123,6 +142,7 @@ def main():
         'objective':'dev AUROC - .02 * retained scalar dimensions / full scalar dimensions',
         'projection':'fixed4096->64 Rademacher, seed20261029; projected coordinates are not neurons',
         'raw_vector_controls':'three unprojected pooled-vector ridge controls, fixed lambda1, train centering, normalize sqrt(number of groups)',
+        'parallel_fits':workers,'resume_scope':'completed searches preserved, identical proposal masks/heads/budgets; no calibration or test selection',
         'seconds':time.monotonic()-began,'candidates':candidates}
     temporary=out/'freeze.tmp'; temporary.write_text(json.dumps(freeze,indent=2)+'\n'); temporary.replace(out/'freeze.json')
     print('PRETEST_FREEZE_COMPLETE',len(candidates),'SECONDS',freeze['seconds'],flush=True)

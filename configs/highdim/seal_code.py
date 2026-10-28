@@ -6,7 +6,7 @@ from datetime import datetime,timezone
 from features import ROOT,digest
 
 DEPENDENCIES=['configs/highdim/features.py','configs/highdim/detectors.py','configs/highdim/ridge.py',
-    'configs/highdim/seal.py','configs/highdim/train.py','configs/highdim/evaluate.py','configs/highdim/seal_code.py',
+    'configs/highdim/seal.py','configs/highdim/train.py','configs/highdim/batch_search.py','configs/highdim/evaluate.py','configs/highdim/seal_code.py',
     'configs/signal-selection/train_search.py','configs/signal-selection/experiment_core.py','configs/signal-selection/evaluate_frozen.py']
 
 def verify_code_seal(out):

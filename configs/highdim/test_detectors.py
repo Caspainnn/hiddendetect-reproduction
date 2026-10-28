@@ -20,3 +20,10 @@ assert roc_auc_score(yt,detector_scores(linear,test))<.65
 saved=interaction['mean'].copy(); test[:]=1e6
 assert np.array_equal(saved,interaction['mean'])
 print('PASS: group indexing, nonempty masks, train-only scaling and demonstrated nonlinear interaction capacity')
+from concurrent.futures import ThreadPoolExecutor
+for kind in ('linear','interaction'):
+    expected=detector_scores(fit_detector(kind,train,y),train)
+    with ThreadPoolExecutor(max_workers=2) as executor:
+        actual=list(executor.map(lambda _:detector_scores(fit_detector(kind,train,y),train),range(2)))
+    assert all(np.array_equal(value,expected) for value in actual)
+print('PASS: concurrent independent fits preserve serial detector predictions exactly')
