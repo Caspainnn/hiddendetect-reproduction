@@ -34,11 +34,11 @@
 
 ## Tasks
 
-- [ ] TDD pool/mask/cache and acquisition/split contracts; create fresh locked manifest before extraction.
-- [ ] Implement streaming features and64-train-row attention/resource pilot; freeze attention inclusion ruling.
-- [ ] Extract bounded full cache, verify author8-row F and input/provenance integrity.
-- [ ] TDD group indexing/head scoring; run information ablations, interaction controls and matched five-seed searches.
-- [ ] Commit pre-test freeze; evaluate all candidates once, independently recompute public point metrics/hashes.
+- [x] TDD pool/mask/cache and acquisition/split contracts; create fresh locked manifest before extraction.
+- [x] Implement streaming features and64-train-row attention/resource pilot; freeze attention inclusion ruling.
+- [x] Extract bounded full cache, verify author8-row F and input/provenance integrity.
+- [x] TDD group indexing/head scoring; run information ablations, interaction controls and matched five-seed searches.
+- [x] Commit pre-test freeze; evaluate all candidates once, independently recompute public point metrics/hashes.
 - [ ] Fresh whole-branch review, results analysis including negative findings, progress/web updates and server/GitHub branch synchronization.
 
 ## Ledger
@@ -49,3 +49,6 @@
 - 2026-10-28: resource pilot64 passed: median paired attention-forward ratio1.146 and max allocated15,251,129,344bytes. Attention included. JSONL Unicode separator issue fixed without changing frozen record bytes or split.
 - 2026-10-28: review requires actual-byte seals for every cache array and rechecking actual locked model/tokenizer files before training. Freeze seals and verify before both fitting and final scoring. Add objective/new-fit/cache-hit/fit-seconds accounting per search run; timings remain incremental shared-cache, not standalone speed claims.
 - 2026-10-28: serial training ended after six complete100-mask runs, before freeze or any heldout scoring; log has no exit reason and no running process remained. Local tool approval was separately blocked by usage limits; do not infer that caused the server exit. Preserve completed runs, resume with8 independent fit workers on16 available CPU cores, estimator threads remain1. Exact serial/batched PSO equivalence and concurrent estimator prediction checks pass. Head parameters, proposals, fitness, seeds and budgets unchanged; no post-test adaptation. Resumed timing is incremental with mixed serial/parallel phases and is not a standalone speed benchmark.
+
+- 2026-10-28: all47 candidates and11 executable dependencies frozen atd03cc5e before heldout scoring. Evaluation completed81.29s. Public verifier recomputed all141 role/candidate point metrics and source/model hashes. Independent review confirms thresholds and eight paired intervals; corrected ToxicChat positive-seed count4/5.
+- 2026-10-28: actual findings: full-vector last ridge.92837 vs union.92606 (delta CI includes0); projected concatenation harms relative to projected last; interaction tree not better; BPSO small same-task mean gain but no stable transfer or strong-baseline win. No new model or threshold selected after tests.

@@ -1,0 +1,53 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "script": "test_features.py",
+      "returncode": 0,
+      "stdout": "PASS: user masks, empty regions, unit-vector pooling, deterministic projection and provenance/prefix cache",
+      "stderr": ""
+    },
+    {
+      "script": "test_manifest.py",
+      "returncode": 0,
+      "stdout": "PASS: fresh3700, old-group exclusion, role/count/token-region contracts",
+      "stderr": ""
+    },
+    {
+      "script": "test_jsonl.py",
+      "returncode": 0,
+      "stdout": "PASS: Unicode separators inside JSON strings are not record delimiters",
+      "stderr": ""
+    },
+    {
+      "script": "test_ridge.py",
+      "returncode": 0,
+      "stdout": "PASS: full-vector ridge is training-only and score orientation is unsafe-positive",
+      "stderr": ""
+    },
+    {
+      "script": "test_seal.py",
+      "returncode": 0,
+      "stdout": "PASS: cache seal rejects same-size array corruption",
+      "stderr": ""
+    },
+    {
+      "script": "test_detectors.py",
+      "returncode": 0,
+      "stdout": "PASS: group indexing, nonempty masks, train-only scaling and demonstrated nonlinear interaction capacity\nPASS: concurrent independent fits preserve serial detector predictions exactly",
+      "stderr": ""
+    },
+    {
+      "script": "test_batch_search.py",
+      "returncode": 0,
+      "stdout": "PASS: batching preserves exact serial PSO masks, fitness and unique-evaluation order",
+      "stderr": ""
+    },
+    {
+      "script": "verify.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"manifest_rows\": 3700, \"heldout_rows\": 1500, \"candidates\": 47, \"search_counts\": {\"linear:random\": 5, \"linear:bpso\": 5, \"interaction:random\": 5, \"interaction:bpso\": 5}, \"all_point_metrics_recomputed\": true, \"all_artifact_hashes_verified\": true, \"freeze_sha256\": \"2e37289f0e9d82d8a921d20e7729704ba64ab8bcad95f551cb1ad455e52c189b\"}",
+      "stderr": ""
+    }
+  ]
+}

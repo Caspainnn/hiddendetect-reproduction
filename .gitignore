@@ -11,3 +11,5 @@ __pycache__/
 *.part
 # Raw loader warnings stay on the compute host; publish the filtered progress log.
 logs/signal-selection-extraction.log
+logs/highdim-extraction.log
+logs/highdim-pilot.log

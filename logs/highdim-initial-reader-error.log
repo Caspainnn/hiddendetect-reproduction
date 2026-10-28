@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "$HOME/HiddenDetect-reproduction/configs/highdim/extract.py", line 183, in <module>
+    if __name__=='__main__': main()
+  File "$HOME/HiddenDetect-reproduction/configs/highdim/extract.py", line 27, in main
+    rows=[json.loads(line) for line in records_path.read_text().splitlines()]
+  File "$HOME/HiddenDetect-reproduction/configs/highdim/extract.py", line 27, in <listcomp>
+    rows=[json.loads(line) for line in records_path.read_text().splitlines()]
+  File "$HOME/HiddenDetect-reproduction/env/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "$HOME/HiddenDetect-reproduction/env/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "$HOME/HiddenDetect-reproduction/env/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 71 (char 70)

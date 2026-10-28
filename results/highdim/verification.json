@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "manifest_rows": 3700,
+  "heldout_rows": 1500,
+  "candidates": 47,
+  "search_counts": {
+    "linear:random": 5,
+    "linear:bpso": 5,
+    "interaction:random": 5,
+    "interaction:bpso": 5
+  },
+  "all_point_metrics_recomputed": true,
+  "all_artifact_hashes_verified": true,
+  "freeze_sha256": "2e37289f0e9d82d8a921d20e7729704ba64ab8bcad95f551cb1ad455e52c189b"
+}
