@@ -1,0 +1,26 @@
+# Inference-only subset of the author's freeze. No web UI or training stack.
+torch==2.1.2
+torchvision==0.16.2
+transformers==4.37.2
+tokenizers==0.15.1
+accelerate==0.21.0
+peft==0.7.1  # Compatibility fix: PEFT 0.14 imports EncoderDecoderCache absent in transformers 4.37.2
+bitsandbytes==0.45.2
+numpy==1.26.4
+scikit-learn==1.2.2
+scipy==1.15.2
+pandas==2.2.3
+pillow==10.4.0
+matplotlib==3.10.0
+sentencepiece==0.1.99
+protobuf==5.29.3
+einops==0.6.1
+einops-exts==0.0.4
+timm==0.6.13
+shortuuid==1.0.13
+requests==2.32.3
+tqdm==4.67.1
+huggingface-hub==0.28.1
+safetensors==0.5.2
+psutil==7.0.0
+pyarrow==19.0.1

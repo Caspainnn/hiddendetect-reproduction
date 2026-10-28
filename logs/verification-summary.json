@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-28",
+  "sample_count": 450,
+  "unique_ids": 450,
+  "unsafe_count": 200,
+  "auroc_independent_recompute": 0.8582799999999999,
+  "all_32_layer_traces_finite": true,
+  "all_default_integrals_match": true,
+  "text_observer_hash_matches": true,
+  "selection_observer_hash_matches": true,
+  "web_progress_embedded": true,
+  "remote_tests_exit_zero": true,
+  "browser_visual_tested": false,
+  "pip_check_all_green": false
+}

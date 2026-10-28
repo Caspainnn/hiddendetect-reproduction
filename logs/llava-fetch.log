@@ -1,0 +1,1 @@
+fatal: --filter can only be used when extensions.partialClone is set

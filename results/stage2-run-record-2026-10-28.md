@@ -31,7 +31,11 @@
 
 ## 运行约束与验证
 
-环境安装使用[作者推理依赖子集](../configs/requirements-inference-author.txt)，未安装网页UI或训练栈。核心torch、transformers、accelerate等保持作者指定版本，所有实际解析出的间接依赖在安装完成后另存freeze，不能称为作者完整环境逐项相同。
+环境初次安装使用[作者推理依赖子集](../configs/requirements-inference-author.txt)，未安装网页UI或训练栈。核心torch、transformers、accelerate等保持作者指定版本，实际解析出的间接依赖另存[freeze](../logs/environment-compatible.txt)，不能称为作者完整环境逐项相同。
+
+实际复现出PEFT0.14.0与Transformers4.37.2冲突：前者导入后者不存在的EncoderDecoderCache。保留[原错误](../logs/dependency-probe.log)，只将PEFT降至0.7.1后[导入通过](../logs/peft-compat-probe.log)。最终可用[依赖配置](../configs/requirements-inference.txt)明确记载该差异。torch2.1.2+cu121已实际确认CUDA可用、识别RTX4090D，LLaVA固定提交的导入也已通过，见[安装与导入记录](../logs/llava-install.log)。这不是作者冻结环境零改动复刻。
+
+Git初次获取LLaVA遇到TLS中断，随后旧版Git2.25对手动初始化仓库使用filter时要求partialClone配置。配置仅限新建的LLaVA副本，改为固定提交、浅历史和稀疏检出后获取成功，未改全局Git设置。
 
 运行脚本直接导入并调用未修改的作者`test(samples, model_path, s=16, e=29)`。通过只读观察钩子记录前向输入长度、token哈希和32层余弦信号，保持norm、lm_head、词表首token和np.trapz不变。CLIP通过工作目录下`openai/clip-vit-large-patch14-336`本地路径别名加载相同权重，开启离线模式，防止运行时再次联网下载。
 
@@ -41,4 +45,8 @@ GPU运行前须验证依赖导入、CUDA及模型加载，运行后须验证8条
 
 ## 当前停点
 
-权重与数据已准备。依赖安装进行中，尚无模型推理结果。后续运行结果和错误将追加到本记录及progress.md，不以已下载模型代替冒烟通过。
+8条文本冒烟已实际完成：[汇总](smoke8.json)、[逐条信号](smoke8.jsonl)、[日志](../logs/smoke8.log)。含加载25.305秒，峰值已分配14,303,992,320字节（13.32GiB），峰值预留14,317,256,704字节。20个拒绝字符串在本次tokenizer下首token ID全部不同，完整拆分已保存。所有8条的32层信号有限，闭区间积分与作者输出一致，本地独立重算同样通过。
+
+450条固定默认区间的描述性复现随后完成，默认AUROC0.85828。一次前置检查因Python生成的未跟踪__pycache__误报源码变化，尚未开始模型计算即退出。现检查仅限制作者已跟踪文件不变，并关闭后续字节码写入。保留失败日志，不将这次前置退出计为模型失败。
+
+模型初始加载产生了CLIP向meta参数复制的警告。经查LLaVA完整检查点实际包含391项视觉权重，不能据此认定最终视觉权重缺失，更不能直接重载原始CLIP而覆盖微调后的视觉权重。450条运行增加最终所有参数非meta及抽取三个视觉tensor与LLaVA检查点逐项相等的检查，均已通过。之后12条校准中的8次真实图文前向也完成。最终设置、数值差异和边界见[统一结果报告](baseline-summary-2026-10-28.md)。

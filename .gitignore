@@ -4,6 +4,7 @@ data/
 models/
 cache/
 env/
+openai/
 __pycache__/
 *.pyc
 *.bundle

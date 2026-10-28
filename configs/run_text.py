@@ -29,6 +29,7 @@ def main():
     parser.add_argument('--output', default='results/smoke8')
     args = parser.parse_args()
     os.chdir(ROOT)
+    sys.dont_write_bytecode = True
     os.environ['HF_HUB_OFFLINE'] = '1'
     os.environ['TRANSFORMERS_OFFLINE'] = '1'
     import numpy as np
@@ -52,7 +53,7 @@ def main():
     author = ROOT / 'source/HiddenDetect'
     commit = subprocess.check_output(['git', '-C', str(author), 'rev-parse', 'HEAD'], text=True).strip()
     assert commit == '2fd161b1fc47c99b36fe0a299ec64ff0b816f0bb'
-    assert not subprocess.check_output(['git', '-C', str(author), 'status', '--porcelain'], text=True).strip()
+    assert not subprocess.check_output(['git', '-C', str(author), 'status', '--porcelain', '--untracked-files=no'], text=True).strip()
     sys.path.insert(0, str(author / 'code'))
     spec = importlib.util.spec_from_file_location('author_hiddendetect', author / 'code/test.py')
     module = importlib.util.module_from_spec(spec)
@@ -84,6 +85,20 @@ def main():
         tokenizer, model, processor, context = original_loader(*positional, **keyword)
         assert model.config.vocab_size == 32000 and model.config.num_hidden_layers == 32
         assert model.lm_head.out_features == 32000 and not model.training
+        meta_names = [name for name, value in model.named_parameters() if value.is_meta]
+        assert not meta_names, 'Unmaterialized parameters: ' + str(meta_names[:5])
+        from safetensors import safe_open
+        checkpoint_dir = ROOT / 'models/llava-v1.6-vicuna-7b'
+        weight_map = json.loads((checkpoint_dir / 'model.safetensors.index.json').read_text())['weight_map']
+        vision_keys = sorted(name for name in weight_map if 'vision_tower' in name)
+        assert vision_keys, 'Expected integrated vision weights in LLaVA checkpoint'
+        checked = []
+        for name in (vision_keys[0], vision_keys[len(vision_keys) // 2], vision_keys[-1]):
+            parameter = model.state_dict()[name]
+            with safe_open(checkpoint_dir / weight_map[name], framework='pt', device='cpu') as checkpoint:
+                assert torch.equal(parameter.detach().cpu(), checkpoint.get_tensor(name).to(parameter.dtype))
+            checked.append({'name': name, 'device': str(parameter.device), 'dtype': str(parameter.dtype),
+                            'matches_integrated_llava_checkpoint': True})
         model.register_forward_hook(forward_hook, with_kwargs=True)
         encodings = {word: tokenizer.encode(word, add_special_tokens=False) for word in module.refusal_lst}
         model_info.update({'load_seconds': time.monotonic() - started,
@@ -93,6 +108,9 @@ def main():
                            'vocab_size': model.config.vocab_size, 'tokenizer_length': len(tokenizer),
                            'refusal_encodings': encodings,
                            'refusal_unique_first_token_ids': sorted({x[0] for x in encodings.values()}),
+                           'meta_parameter_count': len(meta_names),
+                           'integrated_vision_weight_count': len(vision_keys),
+                           'vision_checkpoint_checks': checked,
                            'template': 'llava_v1',
                            'template_sha256': hashlib.sha256(str(module.conv_templates['llava_v1'].dict()).encode()).hexdigest(),
                            'local_vision_path_alias': 'openai/clip-vit-large-patch14-336 -> models/clip-vit-large-patch14-336'})
@@ -130,6 +148,7 @@ def main():
         for row in result_rows:
             stream.write(json.dumps(row) + '\n')
     summary = {'status': 'completed', 'purpose': 'text pipeline verification; not multimodal reproduction',
+               'evaluation_scope': manifest.get('scope', '8-sample smoke only; no performance claim'),
                'author_commit': commit, 'manifest': args.manifest,
                'torch': torch.__version__, 'transformers': transformers.__version__,
                'gpu': torch.cuda.get_device_name(), 'model': model_info,

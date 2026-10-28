@@ -1,0 +1,9 @@
+llava 1.2.2.post1 requires fastapi, which is not installed.
+llava 1.2.2.post1 requires gradio, which is not installed.
+llava 1.2.2.post1 requires gradio-client, which is not installed.
+llava 1.2.2.post1 requires httpx, which is not installed.
+llava 1.2.2.post1 requires markdown2, which is not installed.
+llava 1.2.2.post1 requires pydantic, which is not installed.
+llava 1.2.2.post1 requires uvicorn, which is not installed.
+NVIDIA GeForce RTX 4090 D, 1 MiB
+c121f0432da27facab705978f83c4ada465e46fd

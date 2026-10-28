@@ -1,0 +1,15 @@
+TORCH 2.1.2+cu121 CUDA_BUILD 12.1 CUDA_AVAILABLE True
+GPU NVIDIA GeForce RTX 4090 D
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+  File "$HOME/HiddenDetect-reproduction/env/lib/python3.10/site-packages/peft/__init__.py", line 22, in <module>
+    from .auto import (
+  File "$HOME/HiddenDetect-reproduction/env/lib/python3.10/site-packages/peft/auto.py", line 32, in <module>
+    from .mapping import MODEL_TYPE_TO_PEFT_MODEL_MAPPING
+  File "$HOME/HiddenDetect-reproduction/env/lib/python3.10/site-packages/peft/mapping.py", line 25, in <module>
+    from .mixed_model import PeftMixedModel
+  File "$HOME/HiddenDetect-reproduction/env/lib/python3.10/site-packages/peft/mixed_model.py", line 29, in <module>
+    from .peft_model import PeftModel
+  File "$HOME/HiddenDetect-reproduction/env/lib/python3.10/site-packages/peft/peft_model.py", line 37, in <module>
+    from transformers import Cache, DynamicCache, EncoderDecoderCache, PreTrainedModel
+ImportError: cannot import name 'EncoderDecoderCache' from 'transformers' ($HOME/HiddenDetect-reproduction/env/lib/python3.10/site-packages/transformers/__init__.py)

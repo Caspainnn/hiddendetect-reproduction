@@ -1,0 +1,2 @@
+PASS: strict last-layer baseline, gap retention, zero-based boundary, no invented fallback
+PASS: clean repository revision drift is rejected

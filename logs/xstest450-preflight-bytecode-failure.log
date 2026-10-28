@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "$HOME/HiddenDetect-reproduction/configs/run_text.py", line 169, in <module>
+    main()
+  File "$HOME/HiddenDetect-reproduction/configs/run_text.py", line 55, in main
+    assert not subprocess.check_output(['git', '-C', str(author), 'status', '--porcelain'], text=True).strip()
+AssertionError

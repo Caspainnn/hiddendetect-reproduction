@@ -1,0 +1,20 @@
+HEAD is now at c121f04 Update README.md
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Obtaining file://$HOME/HiddenDetect-reproduction/source/LLaVA
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: llava
+  Building editable for llava (pyproject.toml): started
+  Building editable for llava (pyproject.toml): finished with status 'done'
+  Created wheel for llava: filename=llava-1.2.2.post1-0.editable-py3-none-any.whl size=17916 sha256=aec186ed6dc2cf108db1d78e0ebd5e2edbdff522d9c20b60ac810c77e679727e
+  Stored in directory: /tmp/pip-ephem-wheel-cache-6dbwzj_x/wheels/e2/d4/7d/31b8ba321f7d7074111c5a8588a3a5391fb20af83916d807c5
+Successfully built llava
+Installing collected packages: llava
+Successfully installed llava-1.2.2.post1
+IMPORT_OK 2.1.2+cu121 4.37.2 0.7.1 True

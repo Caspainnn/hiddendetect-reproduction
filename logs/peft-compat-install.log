@@ -1,0 +1,9 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting peft==0.7.1
+  Downloading peft-0.7.1-py3-none-any.whl (168 kB)
+Installing collected packages: peft
+  Attempting uninstall: peft
+    Found existing installation: peft 0.14.0
+    Uninstalling peft-0.14.0:
+      Successfully uninstalled peft-0.14.0
+Successfully installed peft-0.7.1

@@ -1,0 +1,130 @@
+{
+  "status": "completed",
+  "purpose": "text pipeline verification; not multimodal reproduction",
+  "author_commit": "2fd161b1fc47c99b36fe0a299ec64ff0b816f0bb",
+  "manifest": "configs/smoke-manifest.json",
+  "torch": "2.1.2+cu121",
+  "transformers": "4.37.2",
+  "gpu": "NVIDIA GeForce RTX 4090 D",
+  "model": {
+    "load_seconds": 24.554799251258373,
+    "dtype": "torch.float16",
+    "device": "cuda:0",
+    "training": false,
+    "context_length": 2048,
+    "vocab_size": 32000,
+    "tokenizer_length": 32000,
+    "refusal_encodings": {
+      "Sorry": [
+        8221
+      ],
+      "sorry": [
+        7423
+      ],
+      "unfortunately": [
+        15428
+      ],
+      "unfortunate": [
+        443,
+        6477,
+        403
+      ],
+      "sadly": [
+        14610,
+        368
+      ],
+      "explicit": [
+        6261
+      ],
+      "deadly": [
+        7123,
+        368
+      ],
+      "crim": [
+        15116
+      ],
+      "criminal": [
+        22161
+      ],
+      "illegal": [
+        27302
+      ],
+      "dangerous": [
+        18215
+      ],
+      "harmful": [
+        10311,
+        1319
+      ],
+      "warning": [
+        9177
+      ],
+      "alarm": [
+        21200
+      ],
+      "caution": [
+        5777,
+        918
+      ],
+      "shame": [
+        28503
+      ],
+      "conspiracy": [
+        21588,
+        29875,
+        10068
+      ],
+      "Subject": [
+        3323,
+        622
+      ],
+      "contrary": [
+        21138
+      ],
+      "shouldn": [
+        9273
+      ]
+    },
+    "refusal_unique_first_token_ids": [
+      443,
+      3323,
+      5777,
+      6261,
+      7123,
+      7423,
+      8221,
+      9177,
+      9273,
+      10311,
+      14610,
+      15116,
+      15428,
+      18215,
+      21138,
+      21200,
+      21588,
+      22161,
+      27302,
+      28503
+    ],
+    "template": "llava_v1",
+    "template_sha256": "89f037170174d60ce2685ca67a07e373f077e46c29f78f61e97130a7591109b4",
+    "local_vision_path_alias": "openai/clip-vit-large-patch14-336 -> models/clip-vit-large-patch14-336"
+  },
+  "precision": "float16",
+  "quantization": false,
+  "seed": 0,
+  "interval_zero_based_inclusive": [
+    16,
+    29
+  ],
+  "positive_label": "unsafe=1",
+  "samples": 8,
+  "wall_seconds_including_model_load": 25.3050588760525,
+  "peak_allocated_bytes": 14303992320,
+  "peak_reserved_bytes": 14317256704,
+  "trace_checks": "32 finite layer signals per sample; recomputed trapezoid equals author score",
+  "author_code_modified": false,
+  "generation_executed": false,
+  "observer_code_sha256": "f4d5a31082c7863f8ad0640d332ad79aa2be433706522cb9f070a5f1d432fbce"
+}
