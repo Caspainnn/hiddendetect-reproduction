@@ -1,0 +1,2 @@
+ELIGIBLE_FOR_DEDUP 7535
+MANIFEST_LOCKED {"train:0": 800, "dev:0": 300, "train:1": 800, "dev:1": 300, "calibration:0": 500, "calibration:1": 500, "test_aegis:0": 500, "test_aegis:1": 500, "test_jbb:0": 100, "test_jbb:1": 100, "test_toxicchat:0": 200, "test_toxicchat:1": 200} duplicates 217

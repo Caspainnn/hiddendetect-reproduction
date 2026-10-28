@@ -1,0 +1,96 @@
+{
+  "files": [
+    {
+      "target": "data/signal-selection/raw/nvidia__Aegis-AI-Content-Safety-Dataset-2.0/train.json",
+      "bytes": 22705956,
+      "sha256": "154fba82c71d9fa73abd2ca5588a198e693ddc816c83444df180a22f613e02f6",
+      "git_blob_sha": "e26ed19d7d9200fa58c31cdf3b39734d3d28902c",
+      "url": "https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-2.0/resolve/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c/train.json",
+      "repo": "nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
+      "revision": "d86bb8bedff51d25ac834ab7838f1cc61acb7a2c",
+      "license": "cc-by-4.0"
+    },
+    {
+      "target": "data/signal-selection/raw/nvidia__Aegis-AI-Content-Safety-Dataset-2.0/validation.json",
+      "bytes": 1137821,
+      "sha256": "a97200e226ad4f6ba6a639982f817f675909bc74513859df3e8fc9a92951dfcd",
+      "git_blob_sha": "964e12cda203903e6b1f2bcc0b456207269c00a2",
+      "url": "https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-2.0/resolve/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c/validation.json",
+      "repo": "nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
+      "revision": "d86bb8bedff51d25ac834ab7838f1cc61acb7a2c",
+      "license": "cc-by-4.0"
+    },
+    {
+      "target": "data/signal-selection/raw/nvidia__Aegis-AI-Content-Safety-Dataset-2.0/test.json",
+      "bytes": 1731373,
+      "sha256": "b0a6d602260524866053cb34105194f074f2c2906e3691b68d43b9e6e9318f35",
+      "git_blob_sha": "4f37ec436b43de872dd29cf3fc112967262da7e1",
+      "url": "https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-2.0/resolve/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c/test.json",
+      "repo": "nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
+      "revision": "d86bb8bedff51d25ac834ab7838f1cc61acb7a2c",
+      "license": "cc-by-4.0"
+    },
+    {
+      "target": "data/signal-selection/raw/JailbreakBench__JBB-Behaviors/data/benign-behaviors.csv",
+      "bytes": 20570,
+      "sha256": "3cda234d21a991fa309bbfea4b6d9dae31ccdf8e9d452424b6a983e4fdc33468",
+      "git_blob_sha": "659647d082ec98df45fdeb3f334ebd7c04e61638",
+      "url": "https://huggingface.co/datasets/JailbreakBench/JBB-Behaviors/resolve/886acc352a31533ffbcf4ef22c744658688086fc/data/benign-behaviors.csv",
+      "repo": "JailbreakBench/JBB-Behaviors",
+      "revision": "886acc352a31533ffbcf4ef22c744658688086fc",
+      "license": "mit"
+    },
+    {
+      "target": "data/signal-selection/raw/JailbreakBench__JBB-Behaviors/data/harmful-behaviors.csv",
+      "bytes": 23116,
+      "sha256": "4a8ec6832056b631eb092dccc60d37a61c3d441268268888b3d006288afeffa1",
+      "git_blob_sha": "5a7549cd9de9bb327914de0800606a1af1ec8849",
+      "url": "https://huggingface.co/datasets/JailbreakBench/JBB-Behaviors/resolve/886acc352a31533ffbcf4ef22c744658688086fc/data/harmful-behaviors.csv",
+      "repo": "JailbreakBench/JBB-Behaviors",
+      "revision": "886acc352a31533ffbcf4ef22c744658688086fc",
+      "license": "mit"
+    },
+    {
+      "target": "data/signal-selection/raw/lmsys__toxic-chat/data/1123/toxic-chat_annotation_test.csv",
+      "bytes": 7026093,
+      "sha256": "4128df6d3f83d2a6e5e4d79ad207ecd2ff15c944f322188e24947fddfe46ffef",
+      "git_blob_sha": "376b4f54330781f5857f4b6fdae41062e3d4d148",
+      "url": "https://huggingface.co/datasets/lmsys/toxic-chat/resolve/29df8e4dba60e1f4af4b4075c0705c5b313548a8/data/1123/toxic-chat_annotation_test.csv",
+      "repo": "lmsys/toxic-chat",
+      "revision": "29df8e4dba60e1f4af4b4075c0705c5b313548a8",
+      "license": "cc-by-nc-4.0"
+    }
+  ],
+  "verified": [
+    {
+      "target": "data/signal-selection/raw/nvidia__Aegis-AI-Content-Safety-Dataset-2.0/train.json",
+      "status": "verified",
+      "sha256": "154fba82c71d9fa73abd2ca5588a198e693ddc816c83444df180a22f613e02f6",
+      "bytes": 22705956
+    },
+    {
+      "target": "data/signal-selection/raw/nvidia__Aegis-AI-Content-Safety-Dataset-2.0/validation.json",
+      "status": "verified",
+      "sha256": "a97200e226ad4f6ba6a639982f817f675909bc74513859df3e8fc9a92951dfcd",
+      "bytes": 1137821
+    },
+    {
+      "target": "data/signal-selection/raw/nvidia__Aegis-AI-Content-Safety-Dataset-2.0/test.json",
+      "status": "verified",
+      "sha256": "b0a6d602260524866053cb34105194f074f2c2906e3691b68d43b9e6e9318f35",
+      "bytes": 1731373
+    },
+    {
+      "target": "data/signal-selection/raw/JailbreakBench__JBB-Behaviors/data/benign-behaviors.csv",
+      "status": "already_verified"
+    },
+    {
+      "target": "data/signal-selection/raw/JailbreakBench__JBB-Behaviors/data/harmful-behaviors.csv",
+      "status": "already_verified"
+    },
+    {
+      "target": "data/signal-selection/raw/lmsys__toxic-chat/data/1123/toxic-chat_annotation_test.csv",
+      "status": "already_verified"
+    }
+  ]
+}
