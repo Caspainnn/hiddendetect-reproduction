@@ -56,7 +56,7 @@
 ### Task 4: sealed evaluation and delivery
 - [x] Evaluate pre-frozen candidates once; paired bootstrap by prompt group, report sample uncertainty and proxy label differences.
 - [x] Independent fresh-context review of leakage/search accounting and artifacts; fix material implementation errors without selecting on test outcomes.
-- [ ] Update progress/results/README and webpage, preserve experiment branch, synchronize local/server; user already authorized GitHub project publication, push this experimental branch with no merge into baseline main.
+- [x] Update progress/results/README and webpage, preserve experiment branch, synchronize local/server; user already authorized GitHub project publication, push this experimental branch with no merge into baseline main.
 
 ## Ledger
 
@@ -70,3 +70,4 @@
 - 2026-10-28: independent review found partial-cache extractor/runtime identity missing. Added provenance with a failing-then-passing test; original complete cache remains attributable to recorded old extractor SHA and replay commitb38ba84. New extractor rejects old metadata rather than relabeling it.
 - 2026-10-28: heldout evaluation complete; conditional paired bootstrap500 and finite-sample Wilson intervals retained. All point metrics/hash checks independently recomputed. Review found no unresolved material bug. Shared-cache search times are incremental, not standalone method benchmarks.
 - 2026-10-28: fusion improved Aegis discrimination over supervised F32, but not JBB; BPSO did not stably outperform equal-budget random and external recall fell. Kept every seed and negative result. No originalRCS superiority, novelty or model-forward speedup claimed.
+- 2026-10-28: delivery validation found Git newline normalization changed the acquisition-log outer hash. Preserved original bytes using a specific -text attribute and made revalidation immutable (failure-first test passed); no frozen manifest/head/threshold/score changed. Git snapshot export and server independently passed full point-metric/hash verification. GitHub experiment branch159e3f3 verified; main/reproduce/smoke both remain9a74f8e. Local progress webpage rebuilt and embedded final status checked. Final bookkeeping commit follows this verified delivery.

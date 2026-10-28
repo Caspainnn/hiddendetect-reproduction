@@ -9,3 +9,5 @@ __pycache__/
 *.pyc
 *.bundle
 *.part
+# Raw loader warnings stay on the compute host; publish the filtered progress log.
+logs/signal-selection-extraction.log

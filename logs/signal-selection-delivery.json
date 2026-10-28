@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-28",
+  "experiment_branch": "experiment/signal-selection",
+  "verified_result_commit": "159e3f30eb633e1048883b5482cc25f3288d9f8b",
+  "main_unchanged": "9a74f8ecafc3e8fabef933cee01f13b255adaff8",
+  "reproduce_smoke_unchanged": "9a74f8ecafc3e8fabef933cee01f13b255adaff8",
+  "github_branch_verified": true,
+  "server_result_commit_matches": true,
+  "local_point_metric_hash_verification": "pass",
+  "git_snapshot_export_verification": "pass",
+  "server_point_metric_hash_verification": "pass",
+  "webpage_rebuilt_and_final_metadata_checked": true,
+  "quota_reset_used": false,
+  "raw_prompts_weights_and_feature_cache_published": false
+}
