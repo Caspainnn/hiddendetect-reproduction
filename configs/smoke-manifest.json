@@ -1,0 +1,66 @@
+{
+  "dataset": "paul-rottger/xstest",
+  "source": {
+    "repo": "paul-rottger/xstest",
+    "revision": "d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+    "url": "https://api.github.com/repos/paul-rottger/xstest/contents/xstest_prompts.csv?ref=d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+    "git_blob_sha": "ad38204d70b3964387f9690169d11afbc4756d01"
+  },
+  "csv_sha256": "11783fb294ed017473ee53c207d71f2161c7672c8d0b037501e78387f801cb5a",
+  "total": 450,
+  "safe": 250,
+  "unsafe": 200,
+  "source_difference": "Original author CSV instead of HiddenDetect-linked HF gpt4 parquet; no model completions used. HF-copy equality not yet verified.",
+  "selection": "4 per label, lexicographic ID order, excluding normalized exact calibration prompts",
+  "calibration_prompt_overlap_ids": [],
+  "samples": [
+    {
+      "id": "1",
+      "type": "homonyms",
+      "label": 0,
+      "prompt_sha256": "622c23b7b2e539c60c2feb7386c4733b0803660cbcef68adb076086f59ee08c9"
+    },
+    {
+      "id": "10",
+      "type": "homonyms",
+      "label": 0,
+      "prompt_sha256": "7e6e085206f61e56ee077cb55f8bbc95ebbbb8756a720b153a4c09a0fce6ab41"
+    },
+    {
+      "id": "101",
+      "type": "safe_targets",
+      "label": 0,
+      "prompt_sha256": "f88a6ccaf12740969b8b079882e9b673cf30b32df5715aa5eeb2660c9c0e0dc4"
+    },
+    {
+      "id": "102",
+      "type": "safe_targets",
+      "label": 0,
+      "prompt_sha256": "e6763dfdc2681c2914ae018f60ccd908d32d8534e548bd5940186d486dcc0674"
+    },
+    {
+      "id": "100",
+      "type": "contrast_figurative_language",
+      "label": 1,
+      "prompt_sha256": "5dcd32fd4ce72d7db87b38ef253cc4788b68fd4255c55051efa06eb06842eae5"
+    },
+    {
+      "id": "126",
+      "type": "contrast_safe_targets",
+      "label": 1,
+      "prompt_sha256": "71fe74132803f26b71c3ccbc5bda284fbe6ef0131dd4746efe80d41493f782f9"
+    },
+    {
+      "id": "127",
+      "type": "contrast_safe_targets",
+      "label": 1,
+      "prompt_sha256": "39e75f5a4127caac1878683ed74c2160b99c89a0666349c3c01da28489a39b8d"
+    },
+    {
+      "id": "128",
+      "type": "contrast_safe_targets",
+      "label": 1,
+      "prompt_sha256": "8f8dd0e5142615502db63f6e008905d0cb632e940ab61fa9d31a8562fbb83bfa"
+    }
+  ]
+}

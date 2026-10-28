@@ -1,0 +1,10 @@
+# Author repositories, datasets and weights have separate provenance/terms.
+source/
+data/
+models/
+cache/
+env/
+__pycache__/
+*.pyc
+*.bundle
+*.part

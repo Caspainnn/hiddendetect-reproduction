@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-27",
+  "python": "3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)]",
+  "executable": "D:\\Python\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "disk": {
+    "C:/": {
+      "total": 214748360704,
+      "used": 202993651712,
+      "free": 11754708992
+    },
+    "E:/": {
+      "total": 500090007552,
+      "used": 313594478592,
+      "free": 186495528960
+    }
+  },
+  "packages": {
+    "torch": "2.3.1",
+    "torchvision": "0.18.1",
+    "transformers": null,
+    "accelerate": null,
+    "llava": null,
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scikit-learn": "1.5.1",
+    "pyarrow": null,
+    "fastparquet": null
+  },
+  "gpu": {
+    "command": [
+      "nvidia-smi"
+    ],
+    "exit_code": 0,
+    "stdout": "Tue Oct 27 16:05:41 2026       \n+---------------------------------------------------------------------------------------+\n| NVIDIA-SMI 546.30                 Driver Version: 546.30       CUDA Version: 12.3     |\n|-----------------------------------------+----------------------+----------------------+\n| GPU  Name                     TCC/WDDM  | Bus-Id        Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |\n|                                         |                      |               MIG M. |\n|=========================================+======================+======================|\n|   0  NVIDIA GeForce RTX 3060 ...  WDDM  | 00000000:01:00.0  On |                  N/A |\n| N/A   55C    P3              27W / 120W |   2069MiB /  6144MiB |     39%      Default |\n|                                         |                      |                  N/A |\n+-----------------------------------------+----------------------+----------------------+\n                                                                                         \n+---------------------------------------------------------------------------------------+\n| Processes:                                                                            |\n|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |\n|        ID   ID                                                             Usage      |\n|=======================================================================================|\n+---------------------------------------------------------------------------------------+\n",
+    "stderr": ""
+  },
+  "commit": {
+    "command": [
+      "git",
+      "-C",
+      "E:\\MyProjects\\Paper\\experiments\\HiddenDetect\\source\\HiddenDetect",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "stdout": "2fd161b1fc47c99b36fe0a299ec64ff0b816f0bb\n",
+    "stderr": ""
+  },
+  "git_status": {
+    "command": [
+      "git",
+      "-C",
+      "E:\\MyProjects\\Paper\\experiments\\HiddenDetect\\source\\HiddenDetect",
+      "status",
+      "--porcelain"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "files": {
+    "README.md": {
+      "bytes": 7816,
+      "sha256": "c1f13c2f4bbca64e63a5a7df0f066430d60d0e8dc0ae8be7c0749a790375c471"
+    },
+    "requirements.txt": {
+      "bytes": 2191,
+      "sha256": "afbb01fcdada055bc14615c6a23709f0c520aafbdf2aab2122aed52060bd4489"
+    },
+    "code/load_datasets.py": {
+      "bytes": 12088,
+      "sha256": "e437f752ba8d6726bc8145427a2c0b99f1df153358e2b9ab80f2b4ee058c7cc8"
+    },
+    "code/safety_aware_layers.py": {
+      "bytes": 10631,
+      "sha256": "7e97f933d5dbce1ce9f5c589aed547e41d7101ba9fb0ba091f0dcab84db32b7e"
+    },
+    "code/test.py": {
+      "bytes": 10394,
+      "sha256": "bab7d97cff2b90163535997d6ab116ebdfdd45f18b01e54c8fa873f2c8af83b6"
+    },
+    "code/test_qwen.py": {
+      "bytes": 7796,
+      "sha256": "6537e1bec1da02ad0aa38bc19356874f1f04e8d0a94befb3b166961aaded6ce7"
+    },
+    "data/few_shot.zip": {
+      "bytes": 6589619,
+      "sha256": "9220f5d0db5721fdc8cdf51ae9a1d191c2905c2ed71706517e5b7869d2d620ba"
+    },
+    "data/FigStep/benign_questions.csv": {
+      "bytes": 16191,
+      "sha256": "8b3ecb267df8295a29bb4d91fa3299d9818986fcc87ae86dda63ebd478a45d19"
+    },
+    "data/JailBreakV_28K/selected_JBV28K.csv": {
+      "bytes": 286504,
+      "sha256": "3c26fec70d664b7f4c19fc56945238a9d72c7933b2e1bd79be559c07c4eb33f1"
+    },
+    "data/MM-Vet/mm-vet_metadata.json": {
+      "bytes": 40263,
+      "sha256": "4c36dfa83fe4d31d035d858d4060b281327c6a4e5533fc25c69c5d2017dc49de"
+    }
+  },
+  "few_shot_archive": [
+    {
+      "path": "few_shot/",
+      "bytes": 0
+    },
+    {
+      "path": "few_shot/unsafe4.png",
+      "bytes": 10816
+    },
+    {
+      "path": "few_shot/safe2.png",
+      "bytes": 1925829
+    },
+    {
+      "path": "few_shot/unsafe2.png",
+      "bytes": 281156
+    },
+    {
+      "path": "few_shot/safe4.png",
+      "bytes": 846413
+    },
+    {
+      "path": "few_shot/few_shot.json",
+      "bytes": 2740
+    },
+    {
+      "path": "few_shot/safe1.png",
+      "bytes": 108953
+    },
+    {
+      "path": "few_shot/safe3.png",
+      "bytes": 1399438
+    },
+    {
+      "path": "few_shot/safe5.png",
+      "bytes": 37495
+    },
+    {
+      "path": "few_shot/unsafe1.png",
+      "bytes": 190120
+    },
+    {
+      "path": "few_shot/unsafe3.png",
+      "bytes": 1804864
+    }
+  ],
+  "few_shot_summary": {
+    "few_shot/few_shot.json": {
+      "count": 12,
+      "unsafe": 6,
+      "safe": 6,
+      "text_only": 4,
+      "image_paths": [
+        "data/few_shot/safe1.png",
+        "data/few_shot/safe2.png",
+        "data/few_shot/safe3.png",
+        "data/few_shot/safe4.png",
+        "data/few_shot/unsafe1.png",
+        "data/few_shot/unsafe2.png",
+        "data/few_shot/unsafe3.png",
+        "data/few_shot/unsafe4.png"
+      ]
+    }
+  },
+  "school_gpu": {
+    "source": "user confirmation",
+    "access": "SSH",
+    "os": "Linux",
+    "reported_free_storage_gb": 60,
+    "reported_gpu": "RTX 4090 24GB",
+    "remote_inspected": false
+  }
+}

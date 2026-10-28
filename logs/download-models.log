@@ -1,0 +1,25 @@
+FETCHFETCH models/llava-v1.6-vicuna-7b/config.json  models/llava-v1.6-vicuna-7b/generation_config.json1681
+ 170
+FETCH models/llava-v1.6-vicuna-7b/model-00001-of-00003.safetensors 4938993632FETCH
+ models/llava-v1.6-vicuna-7b/model-00002-of-00003.safetensors 4947390880
+VERIFIED models/llava-v1.6-vicuna-7b/config.json
+FETCH models/llava-v1.6-vicuna-7b/model-00003-of-00003.safetensors 4239524944
+VERIFIED models/llava-v1.6-vicuna-7b/generation_config.json
+FETCH models/llava-v1.6-vicuna-7b/model.safetensors.index.json 73215
+VERIFIED models/llava-v1.6-vicuna-7b/model.safetensors.index.json
+FETCH models/llava-v1.6-vicuna-7b/special_tokens_map.json 438
+VERIFIED models/llava-v1.6-vicuna-7b/special_tokens_map.json
+FETCH models/llava-v1.6-vicuna-7b/tokenizer.model 499723
+VERIFIED models/llava-v1.6-vicuna-7b/tokenizer.model
+FETCH models/llava-v1.6-vicuna-7b/tokenizer_config.json 936
+VERIFIED models/llava-v1.6-vicuna-7b/tokenizer_config.json
+FETCH models/clip-vit-large-patch14-336/config.json 4757
+VERIFIED models/clip-vit-large-patch14-336/config.json
+FETCH models/clip-vit-large-patch14-336/preprocessor_config.json 316
+VERIFIED models/clip-vit-large-patch14-336/preprocessor_config.json
+FETCH models/clip-vit-large-patch14-336/pytorch_model.bin 1711974081
+VERIFIED models/clip-vit-large-patch14-336/pytorch_model.bin
+VERIFIED models/llava-v1.6-vicuna-7b/model-00003-of-00003.safetensors
+VERIFIED models/llava-v1.6-vicuna-7b/model-00001-of-00003.safetensors
+VERIFIED models/llava-v1.6-vicuna-7b/model-00002-of-00003.safetensors
+ALL_ARTIFACTS_VERIFIED

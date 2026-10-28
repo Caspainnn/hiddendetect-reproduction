@@ -1,0 +1,6 @@
+{
+  "torch": "2.3.1+cpu",
+  "cuda_build": null,
+  "cuda_available": false,
+  "device_count": 0
+}

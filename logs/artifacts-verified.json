@@ -1,0 +1,77 @@
+{
+  "files": [
+    {
+      "target": "models/llava-v1.6-vicuna-7b/config.json",
+      "status": "verified",
+      "sha256": "7b21de0f57c8aa84d752cfb021b5018e4979a23809e29dfcf2c4d31e49b217dd",
+      "bytes": 1681
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/generation_config.json",
+      "status": "verified",
+      "sha256": "c0c3e65ffae56c31cd78c33b34687bcfa8cb338e6bd1bf914525e478fa4ffff6",
+      "bytes": 170
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/model-00001-of-00003.safetensors",
+      "status": "verified",
+      "sha256": "f61fd54d6e47f55db4452dd5a263cb5323d1b8077cad86bf536ae0e6b46b5df5",
+      "bytes": 4938993632
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/model-00002-of-00003.safetensors",
+      "status": "verified",
+      "sha256": "a5219e366b4da0d6df6116a2b71c6bceea0b77dfcc5fdec4fa774f0f26c39ec4",
+      "bytes": 4947390880
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/model-00003-of-00003.safetensors",
+      "status": "verified",
+      "sha256": "52a8836fee344f7582a208e4c01d218aa53fa3a3edbfab4538f50aecd57c1646",
+      "bytes": 4239524944
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/model.safetensors.index.json",
+      "status": "verified",
+      "sha256": "3aa4216f08f95215796622b2fec456eb0caa3472b9e709b046cb386b77a1efb1",
+      "bytes": 73215
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/special_tokens_map.json",
+      "status": "verified",
+      "sha256": "719833ff26ac897a3ec8ed946028a135de2a351470af59b4008744ab1f0ee9b7",
+      "bytes": 438
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/tokenizer.model",
+      "status": "verified",
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+      "bytes": 499723
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/tokenizer_config.json",
+      "status": "verified",
+      "sha256": "e3d348c5c498caa305b77317e0aa4157e60f49bc1fa37e061273cc0b9a5efb52",
+      "bytes": 936
+    },
+    {
+      "target": "models/clip-vit-large-patch14-336/config.json",
+      "status": "verified",
+      "sha256": "51b1c14aabcdf639c4a0370eeda1010b773bbe1df78319c7d0f5882c22ac0ac0",
+      "bytes": 4757
+    },
+    {
+      "target": "models/clip-vit-large-patch14-336/preprocessor_config.json",
+      "status": "verified",
+      "sha256": "d253881f65322dc546df59cf925a408e5538b8ecb5a1b496cdd36af9992686d4",
+      "bytes": 316
+    },
+    {
+      "target": "models/clip-vit-large-patch14-336/pytorch_model.bin",
+      "status": "verified",
+      "sha256": "c6032c2e0caae3dc2d4fba35535fa6307dbb49df59c7e182b1bc4b3329b81801",
+      "bytes": 1711974081
+    }
+  ],
+  "wall_seconds": 351.2041241880506
+}

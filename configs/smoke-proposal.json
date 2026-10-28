@@ -1,0 +1,35 @@
+{
+  "status": "samples_locked_weights_verified_environment_installing",
+  "author_commit": "2fd161b1fc47c99b36fe0a299ec64ff0b816f0bb",
+  "llava_commit": "c121f0432da27facab705978f83c4ada465e46fd",
+  "target": "school Linux RTX 4090 D 24564MiB; remotely verified",
+  "model": "liuhaotian/llava-v1.6-vicuna-7b",
+  "model_revision": "ModelScope mirror 9bc88088944aefd1a04cb8e60f7799855c680b44; official weight SHA256 matched",
+  "precision": "float16",
+  "quantization": false,
+  "batch_size": 1,
+  "template": "llava_v1",
+  "layer_interval_zero_based_inclusive": [
+    16,
+    29
+  ],
+  "score": "numpy.trapz(last-position vocabulary-logit cosine similarities)",
+  "positive_label": "unsafe=1",
+  "dataset": "paul-rottger/xstest",
+  "split": "original CSV",
+  "dataset_revision": "d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+  "sample_ids": [
+    "1",
+    "10",
+    "101",
+    "102",
+    "100",
+    "126",
+    "127",
+    "128"
+  ],
+  "sampling_proposal": "4 safe + 4 contrast, stable ID order; save IDs and hashes before run",
+  "threshold": null,
+  "purpose": "pipeline smoke only; no paper metric comparison",
+  "download_gate": "SSH configured, remote storage and driver checked, weight terms and revisions checked"
+}
