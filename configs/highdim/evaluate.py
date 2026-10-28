@@ -7,6 +7,8 @@ import joblib
 import numpy as np
 from features import ROOT,digest,LAYOUT
 from detectors import make_matrix,columns_for_mask,raw_scores,detector_scores
+from seal import verify_seal
+from ridge import raw_matrix,ridge_scores
 sys.path.insert(0,str(ROOT/'configs/signal-selection'))
 from experiment_core import conservative_threshold
 from evaluate_frozen import metrics,wilson
@@ -23,6 +25,8 @@ def main():
     for c in freeze['candidates']:
         if 'file' in c: assert digest(out/c['file'])==c['sha256']
     directory=ROOT/'cache/highdim'; assert digest(directory/'metadata.json')==freeze['cache_metadata_sha256']
+    assert digest(directory/'seal.json')==freeze['cache_seal_sha256']
+    verify_seal(directory,json.loads((directory/'seal.json').read_text()))
     assert json.loads((directory/'checkpoint.json').read_text())['next_index']==len(rows)
     cache={name:np.load(directory/(name+'.npy'),mmap_mode='r') for name in LAYOUT}
     groups=json.loads((out/'schema.json').read_text()); refs=np.load(out/'centroids.npy')
@@ -34,6 +38,7 @@ def main():
         for c in freeze['candidates']:
             if c['kind']=='interval': values=np.trapz(np.asarray(cache['F'][ix,c['lo']:c['hi']+1],dtype=np.float64),axis=1)
             elif c['kind']=='logit': values=detector_scores(joblib.load(out/c['file']),cache['L'][ix])
+            elif c['kind']=='raw_ridge': values=ridge_scores(joblib.load(out/c['file']),raw_matrix(cache,ix,c['regions']))
             else:
                 columns=columns_for_mask(c['mask'],groups)
                 values=raw_scores(c['head'],joblib.load(out/c['file']),z[:,columns])

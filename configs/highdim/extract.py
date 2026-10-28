@@ -9,7 +9,7 @@ import sys
 import time
 from pathlib import Path
 import numpy as np
-from features import ROOT, digest, read_jsonl, projection_matrix, open_cache, checkpoint, TRACE_NAMES, ATTENTION_NAMES, MODULE_NAMES
+from features import ROOT, digest, read_jsonl, projection_matrix, open_cache, checkpoint, TRACE_NAMES, ATTENTION_NAMES, MODULE_NAMES, LAYOUT
 
 def main():
     parser=argparse.ArgumentParser(); parser.add_argument('--pilot-only',action='store_true'); args=parser.parse_args()
@@ -173,7 +173,7 @@ def main():
         if (i+1)%100==0: print('CACHED',i+1,'/',len(rows),'SECONDS',round(time.monotonic()-began,2),flush=True)
     report={'status':'complete','rows':len(rows),'resumed_at':start,'manifest_sha256':key,'extractor_sha256':code,
         'seconds_this_run':time.monotonic()-began,'maximum_allocated_bytes':peak,'attention_enabled':enabled,
-        'cache_bytes':sum((cache['directory']/(name+'.npy')).stat().st_size for name in values),
+        'cache_bytes':sum((cache['directory']/(name+'.npy')).stat().st_size for name in LAYOUT),
         'trace_names':TRACE_NAMES,'attention_names':ATTENTION_NAMES,'module_names':MODULE_NAMES,
         'normalization':'unit raw decoder-layer vectors; module/norm summaries separate; author F boundary preserved',
         'base_model_training':False,'generation':False}
