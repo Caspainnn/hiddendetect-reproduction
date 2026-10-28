@@ -9,6 +9,7 @@ from features import ROOT,digest,LAYOUT
 from detectors import make_matrix,columns_for_mask,raw_scores,detector_scores
 from seal import verify_seal
 from ridge import raw_matrix,ridge_scores
+from seal_code import verify_code_seal
 sys.path.insert(0,str(ROOT/'configs/signal-selection'))
 from experiment_core import conservative_threshold
 from evaluate_frozen import metrics,wilson
@@ -17,6 +18,7 @@ def main():
     began=time.monotonic(); out=ROOT/'results/highdim'; target=out/'evaluation.json'
     if target.exists(): print('ALREADY_EVALUATED'); return
     freeze_path=out/'freeze.json'; freeze=json.loads(freeze_path.read_text()); freeze_hash=digest(freeze_path)
+    verify_code_seal(out)
     mp=Path(__file__).with_name('manifest.json'); manifest=json.loads(mp.read_text()); rows=manifest['samples']
     assert digest(mp)==freeze['manifest_sha256']
     assert digest(Path(__file__).with_name('detectors.py'))==freeze['detectors_code_sha256']
@@ -48,6 +50,7 @@ def main():
     for c in freeze['candidates']:
         thresholds[c['name']]=conservative_threshold(scores[('calibration',c['name'])][cy==0],.05)
     report={'freeze_sha256':freeze_hash,'manifest_sha256':freeze['manifest_sha256'],'code_sha256':digest(__file__),
+        'pre_evaluation_seal_sha256':digest(out/'pre-evaluation-seal.json'),
         'threshold_rule':'strict score > independent safe calibration95% order statistic; no test retuning',
         'calibration_safe_rows':int((cy==0).sum()),'thresholds':thresholds,'calibration':{},'tests':{},
         'bootstrap':{'iterations':500,'seed':20261029,'unit':'one row per deduplicated prompt group',

@@ -7,6 +7,7 @@ import numpy as np
 from features import ROOT,digest,read_jsonl
 sys.path.insert(0,str(ROOT/'configs/signal-selection'))
 from evaluate_frozen import metrics
+from seal_code import verify_code_seal
 
 def main():
     out=ROOT/'results/highdim'; mp=Path(__file__).with_name('manifest.json')
@@ -15,6 +16,9 @@ def main():
     assert manifest['old_manifest_sha256']==digest(ROOT/'configs/signal-selection/manifest.json')
     assert freeze['manifest_sha256']==evaluation['manifest_sha256']==digest(mp)
     assert evaluation['freeze_sha256']==digest(out/'freeze.json')
+    assert evaluation['pre_evaluation_seal_sha256']==digest(out/'pre-evaluation-seal.json')
+    verify_code_seal(out)
+    assert freeze['cache_seal_sha256']==digest(ROOT/'logs/highdim-cache-seal.json')
     assert evaluation['scores_sha256']==digest(out/'heldout-scores.jsonl')
     for name,key in [('schema.json','schema_sha256'),('centroids.npy','centroids_sha256'),('scaler.npz','scaler_sha256'),('search.json','search_sha256')]: assert digest(out/name)==freeze[key]
     groups=json.loads((out/'schema.json').read_text()); assert groups[0]['start']==0
