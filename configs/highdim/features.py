@@ -21,6 +21,10 @@ MODULE_NAMES = ['attention_last_norm','attention_user_mean_norm','attention_user
 
 def digest(path): return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
+def read_jsonl(path):
+    with Path(path).open(encoding='utf-8') as stream:
+        return [json.loads(line) for line in stream if line.strip()]
+
 def regions_from_offsets(offsets, user_span):
     start, end = user_span
     indices = np.array([i for i,(a,b) in enumerate(offsets) if b > a and b > start and a < end], dtype=int)

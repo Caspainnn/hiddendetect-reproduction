@@ -9,7 +9,7 @@ import sys
 import time
 from pathlib import Path
 import numpy as np
-from features import ROOT, digest, projection_matrix, open_cache, checkpoint, TRACE_NAMES, ATTENTION_NAMES, MODULE_NAMES
+from features import ROOT, digest, read_jsonl, projection_matrix, open_cache, checkpoint, TRACE_NAMES, ATTENTION_NAMES, MODULE_NAMES
 
 def main():
     parser=argparse.ArgumentParser(); parser.add_argument('--pilot-only',action='store_true'); args=parser.parse_args()
@@ -24,7 +24,7 @@ def main():
     torch.manual_seed(0)
     mp=Path(__file__).with_name('manifest.json'); manifest=json.loads(mp.read_text()); key=digest(mp)
     records_path=ROOT/'data/highdim/records.jsonl'; assert digest(records_path)==manifest['records_sha256']
-    rows=[json.loads(line) for line in records_path.read_text().splitlines()]
+    rows=read_jsonl(records_path)
     code=digest(__file__)
     author=ROOT/'source/HiddenDetect'
     assert subprocess.check_output(['git','-C',str(author),'rev-parse','HEAD'],text=True).strip()=='2fd161b1fc47c99b36fe0a299ec64ff0b816f0bb'

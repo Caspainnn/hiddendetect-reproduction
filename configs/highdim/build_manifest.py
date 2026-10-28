@@ -7,7 +7,7 @@ import sys
 import zipfile
 from collections import Counter,defaultdict
 import numpy as np
-from features import ROOT, regions_from_offsets, digest
+from features import ROOT, regions_from_offsets, digest, read_jsonl
 sys.path.insert(0,str(ROOT/'configs/signal-selection'))
 from experiment_core import normalize_prompt, prompt_label
 from build_manifest import remove_later_duplicates
@@ -21,7 +21,7 @@ def main():
     marker='HIGH_DIM_USER_CONTENT_46f5a981'
     conv=conv_templates['llava_v1'].copy(); conv.append_message(conv.roles[0],marker); conv.append_message(conv.roles[1],None)
     prefix,suffix=conv.get_prompt().split(marker)
-    old=[json.loads(line) for line in (ROOT/'data/signal-selection/records.jsonl').read_text().splitlines()]
+    old=read_jsonl(ROOT/'data/signal-selection/records.jsonl')
     old_ids={x['id'] for x in old}
     excluded=[{'id':x['id'],'prompt':x['prompt'],'role':'excluded','label':x['label']} for x in old]
     for x in csv.DictReader((ROOT/'data/xstest_prompts.csv').read_text(encoding='utf-8-sig').splitlines()):
