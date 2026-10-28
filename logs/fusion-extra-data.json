@@ -1,0 +1,12 @@
+{
+  "repo": "lmsys/toxic-chat",
+  "revision": "29df8e4dba60e1f4af4b4075c0705c5b313548a8",
+  "url": "https://huggingface.co/datasets/lmsys/toxic-chat/resolve/29df8e4dba60e1f4af4b4075c0705c5b313548a8/data/1123/toxic-chat_annotation_train.csv",
+  "relative_path": "data/signal-selection/raw/lmsys__toxic-chat/data/1123/toxic-chat_annotation_train.csv",
+  "bytes": 7134932,
+  "sha256": "0099077aa4c7183040b11d44d2e6852c293ee2fd78a0ffe47ee12b4d1ecd727e",
+  "git_blob_sha1": "dbc99e1b2648e53636e9c5b6d9f60f8964ab9682",
+  "license": "cc-by-nc-4.0",
+  "scope": "safe-source calibration only, human_annotation=true and toxicity0",
+  "excluded_gated_source": "allenai/wildjailbreak, auto gate not accepted"
+}

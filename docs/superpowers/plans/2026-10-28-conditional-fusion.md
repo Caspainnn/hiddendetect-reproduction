@@ -45,3 +45,4 @@ Training-fold-only expert preprocessing; no same-row label in OOF expert fit; no
 ## Ledger
 
 - 2026-10-28: user requests next feasible round through complete verification, without questions. This is the second improvement attempt after the highdim attempt; artifact folder conditional-fusion distinguishes it from earlier64-feature and highdim rounds.
+- 2026-10-28: count-only audit before new model inference found official unused Aegis60/class and ToxicChat25/class after dedup, below the planned Toxic minimum. Preserve these as small supplemental official-partition checks. Add a disjoint prospective ToxicChat-train holdout of min(200,available unsafe,available safe-400) rounded down5, >=100/class; safe calibration400 remains separate. Rebuild/freeze manifest before any model scores. This improves precision without reusing old tests; prospective train-partition holdouts are not official-test or unseen-source evidence.
