@@ -1,0 +1,2 @@
+CANDIDATES 4732 OLD_EXCLUSIONS 5262
+MANIFEST_LOCKED {"train:0": 800, "dev:0": 300, "calibration:0": 400, "train:1": 800, "dev:1": 300, "calibration:1": 400, "test_aegis:0": 250, "test_aegis:1": 250, "test_toxicchat:0": 100, "test_toxicchat:1": 100}
