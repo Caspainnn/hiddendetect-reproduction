@@ -90,11 +90,11 @@ def main():
         save_mask(name, mask)
     for lo, hi in [(16, 29), (17, 29)]:
         candidates.append({'name': 'original_%d_%d' % (lo, hi), 'kind': 'interval', 'lo': lo, 'hi': hi,
-            'groups': hi - lo + 1, 'dev_auroc': float(roc_auc_score(ydev, np.trapz(f[dev, lo:hi+1], axis=1)))})
+            'groups': hi - lo + 1, 'dev_auroc': float(roc_auc_score(ydev, np.trapz(np.asarray(f[dev, lo:hi+1], dtype=np.float64), axis=1)))})
     intervals = []
     for lo in range(31):
         for hi in range(lo + 1, 32):
-            auc = float(roc_auc_score(ydev, np.trapz(f[dev, lo:hi+1], axis=1)))
+            auc = float(roc_auc_score(ydev, np.trapz(np.asarray(f[dev, lo:hi+1], dtype=np.float64), axis=1)))
             intervals.append({'lo': lo, 'hi': hi, 'dev_auroc': auc})
     chosen = max(intervals, key=lambda item: item['dev_auroc'])
     candidates.append({'name': 'dev_interval', 'kind': 'interval', 'groups': chosen['hi']-chosen['lo']+1, **chosen})

@@ -1,0 +1,8 @@
+{
+  "samples": 8,
+  "train_only": true,
+  "max_F_difference_from_author": 0.0,
+  "scores_match": true,
+  "manifest_sha256": "ac554d97f801e7ce6cfa9f24a0564c291a28575d62918b606d31f577379a4b53",
+  "code_sha256": "acb200210f77b3ab2721b37abc7ad41257e3baa64c49165e12f06f5b5af17192"
+}
