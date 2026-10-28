@@ -39,7 +39,7 @@
 - [x] Extract bounded full cache, verify author8-row F and input/provenance integrity.
 - [x] TDD group indexing/head scoring; run information ablations, interaction controls and matched five-seed searches.
 - [x] Commit pre-test freeze; evaluate all candidates once, independently recompute public point metrics/hashes.
-- [ ] Fresh whole-branch review, results analysis including negative findings, progress/web updates and server/GitHub branch synchronization.
+- [x] Fresh whole-branch review, results analysis including negative findings, progress/web updates and server/GitHub branch synchronization.
 
 ## Ledger
 
@@ -52,3 +52,5 @@
 
 - 2026-10-28: all47 candidates and11 executable dependencies frozen atd03cc5e before heldout scoring. Evaluation completed81.29s. Public verifier recomputed all141 role/candidate point metrics and source/model hashes. Independent review confirms thresholds and eight paired intervals; corrected ToxicChat positive-seed count4/5.
 - 2026-10-28: actual findings: full-vector last ridge.92837 vs union.92606 (delta CI includes0); projected concatenation harms relative to projected last; interaction tree not better; BPSO small same-task mean gain but no stable transfer or strong-baseline win. No new model or threshold selected after tests.
+
+- 2026-10-28: final result commit53e0d72 verified on GitHub and server; Git archive export independently recomputes all metrics/hashes. Baseline branches remain main/reproduce-smoke9a74f8e and first-signalc83a1fc. Final webpage metadata checked; research design/idea records updated. Final bookkeeping commit does not change any frozen candidate, dependency or score.

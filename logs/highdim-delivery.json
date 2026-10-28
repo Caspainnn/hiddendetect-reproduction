@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-28",
+  "branch": "experiment/highdim-interactions",
+  "verified_result_commit": "53e0d72b3a2f8b60057cd5936b13ded9522a882b",
+  "github_branch_verified": true,
+  "server_result_commit_matches": true,
+  "local_point_metrics_and_hashes": "pass",
+  "git_snapshot_export_verification": "pass",
+  "server_point_metrics_and_hashes": "pass",
+  "webpage_final_metadata_checked": true,
+  "independent_review": "pass after correcting one seed-count statement",
+  "main_unchanged": "9a74f8ecafc3e8fabef933cee01f13b255adaff8",
+  "reproduce_smoke_unchanged": "9a74f8ecafc3e8fabef933cee01f13b255adaff8",
+  "first_signal_experiment_unchanged": "c83a1fc90e745a2a55f2f775f18b9010a40e2d10",
+  "gpu_idle_after_experiment": true,
+  "raw_prompts_model_weights_and_feature_cache_published": false,
+  "quota_reset_tool_called_by_this_run": false
+}
