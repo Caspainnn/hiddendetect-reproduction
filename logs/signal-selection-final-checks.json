@@ -1,0 +1,43 @@
+{
+  "python": "3.11.7",
+  "host": "local Windows, CPU-only artifact verification",
+  "runs": [
+    {
+      "script": "test_experiment.py",
+      "returncode": 0,
+      "stdout": "PASS: label semantics, normalized text, threshold ties, orientation, deterministic BPSO and unique-mask budget",
+      "stderr": ""
+    },
+    {
+      "script": "test_splits.py",
+      "returncode": 0,
+      "stdout": "PASS: exact/near duplicate priority, immutable 4800 indices and disjoint prompt groups/official splits",
+      "stderr": ""
+    },
+    {
+      "script": "test_cache.py",
+      "returncode": 0,
+      "stdout": "PASS: cache shape, durable-prefix resume and manifest/count drift rejection",
+      "stderr": ""
+    },
+    {
+      "script": "test_heads.py",
+      "returncode": 0,
+      "stdout": "PASS: training-only normalized references/scaler and unsafe score orientation",
+      "stderr": ""
+    },
+    {
+      "script": "test_evaluation.py",
+      "returncode": 0,
+      "stdout": "PASS: heldout orientation and finite-sample binomial intervals including zero errors",
+      "stderr": ""
+    },
+    {
+      "script": "verify_results.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"manifest_rows\": 4800, \"heldout_rows\": 2600, \"frozen_candidates\": 19, \"five_seeds_each\": {\"random\": 5, \"bpso\": 5}, \"all_hashes_verified\": true, \"all_point_metrics_recomputed\": true, \"freeze_sha256\": \"ca51395d13ecb07b233a5f1aef2bd15e48152cd644ef36afa30983377e57eacf\"}",
+      "stderr": ""
+    }
+  ],
+  "pass": true
+}

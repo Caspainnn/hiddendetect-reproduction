@@ -39,23 +39,23 @@
 ## Tasks
 
 ### Task 1: prospective data and split contract
-- [ ] Write failing tests for label mapping, split exclusivity, duplicate priority, immutable manifests, threshold ties.
-- [ ] Implement download/split builder; acquire only ungated pinned public data; collect counts and licenses.
-- [ ] Verify class counts, hashes and no exact/near overlap; lock manifests and commit before extraction.
+- [x] Write failing tests for label mapping, split exclusivity, duplicate priority, immutable manifests, threshold ties.
+- [x] Implement download/split builder; acquire only ungated pinned public data; collect counts and licenses.
+- [x] Verify class counts, hashes and no exact/near overlap; lock manifests and commit before extraction.
 
 ### Task 2: one-pass immutable feature cache
-- [ ] Reuse locked loader/template and add failure-first cache/row-shape checks.
-- [ ] Extract last-position H32, author F32 and final logits; save input token IDs hash/length and elapsed/peak resources, support resume with complete-row markers.
-- [ ] Verify author score equality and all cache indices/manifest hashes before supervised fitting.
+- [x] Reuse locked loader/template and add failure-first cache/row-shape checks.
+- [x] Extract last-position H32, author F32 and final logits; save input token IDs hash/length and elapsed/peak resources, support resume with complete-row markers.
+- [x] Verify author score equality and all cache indices/manifest hashes before supervised fitting.
 
 ### Task 3: heads and feature selection
-- [ ] Write failing tests for training-only reference fitting, objective/mask budget, deterministic random/BPSO, threshold calibration and metric orientation.
-- [ ] Implement simple heads and bounded selection; save pre-test freeze manifest including all masks and serialized head hash.
-- [ ] Run train/dev experiments and all declared seeds; retain negative findings and failures.
+- [x] Write failing tests for training-only reference fitting, objective/mask budget, deterministic random/BPSO, threshold calibration and metric orientation.
+- [x] Implement simple heads and bounded selection; save pre-test freeze manifest including all masks and serialized head hash.
+- [x] Run train/dev experiments and all declared seeds; retain negative findings and failures.
 
 ### Task 4: sealed evaluation and delivery
-- [ ] Evaluate pre-frozen candidates once; paired bootstrap by prompt group, report sample uncertainty and proxy label differences.
-- [ ] Independent fresh-context review of leakage/search accounting and artifacts; fix material implementation errors without selecting on test outcomes.
+- [x] Evaluate pre-frozen candidates once; paired bootstrap by prompt group, report sample uncertainty and proxy label differences.
+- [x] Independent fresh-context review of leakage/search accounting and artifacts; fix material implementation errors without selecting on test outcomes.
 - [ ] Update progress/results/README and webpage, preserve experiment branch, synchronize local/server; user already authorized GitHub project publication, push this experimental branch with no merge into baseline main.
 
 ## Ledger
@@ -64,3 +64,9 @@
 - 2026-10-28: WildGuardMix access gate confirmed. Chose ungated primary and external sources without asking user or bypassing conditions. ToxicChat metrics remain separate.
 - 2026-10-28: changed speculative cross-source-fitness penalty to a fixed sparse dev-AUROC objective for this single-training-source pilot. Cross-source claims depend on untouched external tests, not an invented training-source partition.
 - 2026-10-28: original RCS full projection is explicitly pending, not renamed into a centroid baseline. This run tests information/selection feasibility and cannot alone establish superiority to RCS or novelty.
+
+- 2026-10-28: manifest locked at472d8a9, extraction4800 rows in232.05s; author8-row F difference0; uninterrupted run resumed_at=0.
+- 2026-10-28: all19 candidates frozen at3814579 before heldout evaluation. All five BPSO and five random runs each evaluated500 distinct masks; greedy500 and intervals496. No budget expansion after test inspection.
+- 2026-10-28: independent review found partial-cache extractor/runtime identity missing. Added provenance with a failing-then-passing test; original complete cache remains attributable to recorded old extractor SHA and replay commitb38ba84. New extractor rejects old metadata rather than relabeling it.
+- 2026-10-28: heldout evaluation complete; conditional paired bootstrap500 and finite-sample Wilson intervals retained. All point metrics/hash checks independently recomputed. Review found no unresolved material bug. Shared-cache search times are incremental, not standalone method benchmarks.
+- 2026-10-28: fusion improved Aegis discrimination over supervised F32, but not JBB; BPSO did not stably outperform equal-budget random and external recall fell. Kept every seed and negative result. No originalRCS superiority, novelty or model-forward speedup claimed.

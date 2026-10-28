@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "manifest_rows": 4800,
+  "heldout_rows": 2600,
+  "frozen_candidates": 19,
+  "five_seeds_each": {
+    "random": 5,
+    "bpso": 5
+  },
+  "all_hashes_verified": true,
+  "all_point_metrics_recomputed": true,
+  "freeze_sha256": "ca51395d13ecb07b233a5f1aef2bd15e48152cd644ef36afa30983377e57eacf"
+}
