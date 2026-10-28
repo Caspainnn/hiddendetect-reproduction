@@ -1,8 +1,16 @@
-<!-- reproduction: {"id":"hiddendetect","paper":"P02","title":"HiddenDetect：复现与互补信号筛选实验","status":"4800条实验完成：互补信号有局部收益，PSO未稳定胜过随机搜索","stage":"首轮前瞻实验完成，19个冻结候选已独立评估","updated":"2026-10-28","next":"保留全部正负结果；后续优先验证跨来源阈值与原RCS，另取未观察测试，暂不扩大PSO预算"} -->
+<!-- reproduction: {"id":"hiddendetect","paper":"P02","title":"HiddenDetect：高维信息、交互与分组选择","status":"第二轮3700条新清单冻结，注意力预检通过，完整特征提取中","stage":"高维实验：多位置向量、轨迹、注意力与模块信息","updated":"2026-10-28","next":"完成新缓存，分别检验信息增量、交互头增量与等预算分组PSO收益，冻结后再看新测试"} -->
 
 # HiddenDetect复现进度
 
 ## 当前状态
+
+用户已授权外出期间自主完成一轮分析、实验和结论。第二轮分支`experiment/highdim-interactions`，原第一轮结果与分支保留。按[第二轮预注册计划](docs/superpowers/plans/2026-10-28-highdim-interactions.md)，在任何新模型提取前已以`65ba569`冻结3700条新输入：训练1600、开发600、独立校准800、新Aegis测试500、新ToxicChat毒性辅助测试200。排除旧4800／450／12条及精确／近重复；校准改取未使用的Aegis训练数据，与训练、开发和最终测试分离。
+
+64条训练输入资源预检已完成。显式注意力采集的成对中位前向时间比约1.146，峰值allocated显存15,251,129,344字节（约14.20GiB），符合<22GiB和不超过2倍的预设门槛，因此正式纳入注意力信息。完整提取正在进行：32层×末位及4个用户区间×4096维方向向量、固定64维投影、逐token轨迹、逐头注意力和Attention/MLP统计；新增缓存上限6GiB。不训练基础模型，不生成新攻击。
+
+初始预检遇到Unicode分隔符被splitlines误当JSONL记录边界的问题，已先复现并加入失败后通过的测试，改用按物理行读取；输入文本、清单和划分不变。接下来用相同输入和预算比较加性线性头与受控非线性头，再做5种子分组随机／PSO；本轮尚无测试指标。
+
+## 第一轮互补信号结果（已完成）
 
 用户已授权的首轮互补信号与PSO实验已完成。独立分支experiment/signal-selection，原方法main及reproduce/smoke保留。规则、预算和测试隔离在[预注册计划](docs/superpowers/plans/2026-10-28-signal-selection.md)中固定；完整结果、混淆矩阵、置信区间及全部种子见[实验报告](results/signal-selection/report-2026-10-28.md)。
 
