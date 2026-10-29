@@ -27,6 +27,9 @@
 
 ## Ledger
 
+- Count audit fixed6360 rows:2200 train/dev,2760 benchmarkv1 scoring/calibration,400 historical confirmation,1000 fresh confirmation. Fresh500/class excludes12122 old unique IDs. Cache15005122688 bytes, within15GiB. Before training, all5360 inherited template readouts matched exactly; prefix training states showed max9.77e-4 drift despite protected identical prefix IDs. Add label-free32 train-probe fixed512 padding diagnostic before fitting, preserving original variable-length main cache and all predefined candidates; no test scores inspected or thresholds changed.
+- Fresh review found actual-vs-frozen seal binding, imported metric source inventory, and incomplete independent bound/selection replay. First two regressions observed RED/GREEN; verifier now replays all12 fresh-confirmation bounds and exact CV selection independently, reporting actual completed count. Core changes after capture concern verification only; readout function contract remains unchanged and capture-time core SHA is preserved in metadata.
+
 - Ruling: prefix negative control uses a protected fixed template-prefix index (prefix-alone token count minus3), with identical prefix IDs asserted on all inputs, instead of the potentially user-dependent token immediately before user content. This avoids tokenizer boundary lookahead; it is labeled prefix_control. Does not affect semantic user readouts. Fixed before new inference.
 
 - 2026-10-29: user requests current position scheme designed and executed. Prior region averages do not answer actual-token optimality. Restrict first experiment to fixed actual readouts and matched pairs, maintain strong template-last comparator, and explicitly test restricted near-optimality rather than presupposing it.

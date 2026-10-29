@@ -52,12 +52,14 @@ def upper_bounds(distributions,family=12):
         'scope':'approximate paired bootstrap Bonferroni upper bounds, restricted fixed family only'}
 
 def source_snapshot():
-    own=['position_core.py','build_manifest.py','extract.py','seal_cache.py','train.py','evaluate.py','verify.py']
-    paths=['configs/positions/'+n for n in own]+['configs/swarm/core.py','configs/highdim/features.py','configs/highdim/ridge.py','configs/highdim/seal.py','configs/signal-selection/experiment_core.py']
+    own=['position_core.py','build_manifest.py','extract.py','seal_cache.py','train.py','evaluate.py','verify.py','diagnose_prefix.py']
+    paths=['configs/positions/'+n for n in own]+['configs/swarm/core.py','configs/fusion/fusion_core.py','configs/highdim/features.py','configs/highdim/ridge.py','configs/highdim/seal.py','configs/signal-selection/experiment_core.py','configs/signal-selection/evaluate_frozen.py']
     return {n:digest(ROOT/n) for n in paths}
 
 def sources_match(snapshot):
     for name,sha in snapshot.items():assert digest(ROOT/name)==sha,name
+
+def check_actual_seal(path,expected):assert digest(path)==expected,'Actual cache seal differs from frozen seal'
 
 def verify_cache(actual=True):
     directory=ROOT/'cache/positions';s=json.loads((directory/'seal.json').read_text());m=json.loads((directory/'metadata.json').read_text())
@@ -79,6 +81,7 @@ def verify_freeze(out,actual=False):
     assert digest(ROOT/'logs/positions-readout-identity.json')==f['identity_sha256'] and report['status']=='passed'
     assert report['maximum_template_last_difference']<=1e-5
     if actual:
+        check_actual_seal(ROOT/'cache/positions/seal.json',f['cache_seal_sha256'])
         verify_cache()
         expected={'results/positions/freeze.json':pre['freeze_sha256'],**f['source_sha256'],**f['dependencies_sha256']}
         for c in f['candidates']:expected['results/positions/'+c['file']]=c['sha256']

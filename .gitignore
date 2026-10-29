@@ -30,3 +30,4 @@ logs/positions-manifest.log
 logs/positions-extraction.log
 logs/positions-training.log
 logs/positions-evaluation.log
+logs/positions-prefix-diagnostic.log

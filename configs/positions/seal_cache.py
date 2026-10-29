@@ -6,6 +6,8 @@ def main():
     if target.exists():verify_cache();print('EXISTING_SEAL_VERIFIED');return
     began=time.monotonic();m=json.loads((directory/'metadata.json').read_text());cp=json.loads((directory/'checkpoint.json').read_text())
     assert cp['next_index']==m['count'] and digest(ROOT/'configs/positions/extract.py')==m['extractor_sha256']
+    from extract import contract
+    assert m['readout_contract_sha256']==contract()
     seal={'manifest_sha256':m['manifest_sha256'],'count':m['count'],'metadata_sha256':digest(directory/'metadata.json'),
         'checkpoint_sha256':digest(directory/'checkpoint.json'),'P_sha256':stream_hash(directory/'P.npy'),'actual_artifacts':[]}
     for item in json.loads((ROOT/'configs/artifacts-lock.json').read_text())['files']:

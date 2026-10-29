@@ -19,3 +19,14 @@ for repeat in range(2):
 assert not upper_bounds({'x':np.ones(5000)*.006},family=12)['supports_margin']
 assert upper_bounds({'x':np.zeros(5000)},family=12)['supports_margin']
 print('PASS: actual token alignment, duplicates, group folds and restricted-optimality upper bounds')
+from position_core import check_actual_seal,source_snapshot,digest
+from pathlib import Path
+import tempfile
+with tempfile.TemporaryDirectory() as directory:
+    p=Path(directory)/'seal.json';p.write_text('{}');expected=digest(p)
+    check_actual_seal(p,expected);p.write_text('{"changed":true}')
+    try:check_actual_seal(p,expected)
+    except AssertionError:pass
+    else:raise AssertionError('Replaced actual seal accepted')
+assert 'configs/signal-selection/evaluate_frozen.py' in source_snapshot()
+print('PASS: actual/frozen cache seal identity and metric source inventory')
