@@ -70,11 +70,14 @@ def search(method,d,objective_many,seed,budget=64,population=12):
             masks=rng.random(masks.shape)<1/(1+np.exp(-vel));values=assess(masks);take=values>pv;personal[take]=masks[take];pv[take]=values[take]
         stagnant=stagnant+1 if len(cache)==before else 0
         if stagnant>=3:
-            cv=assess(randoms());restarts+=1;stagnant=0
+            children=randoms();cv=assess(children);restarts+=1;stagnant=0
+            if method in ('ga','de'):
+                take=cv>values;masks[take]=children[take];values[take]=cv[take];latent[take]=children[take].astype(float)
     best=max(cache,key=cache.get)
     return {'method':method,'seed':seed,'best_mask':[x=='1' for x in best],'best_fitness':cache[best],
         'unique_evaluations':len(cache),'evaluated_masks':list(cache),'fitness_values':list(cache.values()),
-        'proposal_count':proposals,'duplicate_count':duplicates,'diversity_restarts':restarts}
+        'proposal_count':proposals,'duplicate_count':duplicates,'diversity_restarts':restarts,
+        'final_population':[key(m) for m in masks]}
 
 def write(path,value):
     path=Path(path);path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(value,indent=2)+'\n')
@@ -117,11 +120,37 @@ def fit(x,y):
         coef=(t.T@alpha).cpu().numpy();mean=mu.cpu().numpy()
     return {'mean':mean,'coef':coef,'intercept':offset,'lambda':1.,'arithmetic':'float64'}
 
+def validate_metadata(meta,state,manifest,manifest_sha,source_shas):
+    n=len(manifest['samples']);fresh=manifest['fresh_class_count']*2
+    assert meta['manifest_sha256']==manifest_sha
+    assert meta['extractor_sha256']==source_shas['extractor'] and meta['core_sha256']==source_shas['core']
+    assert meta['dtype']=='float16' and meta['shapes']=={'fixed.npy':[n,32,4,4096],'fresh_variable.npy':[fresh,32,2,4096]}
+    assert state['next_index']==n and state['prefix_max_difference']==0.
+
+def replay_selection(cache,runs):
+    baseline='0'*32;single=max([key(m) for m in warm_masks(32)[2:]],key=lambda k:cache[k]['fitness'])
+    specs=[('template',baseline),('all_user','1'*32),('single',single)]+[(r['method']+'_'+str(r['seed']),key(r['best_mask'])) for r in runs]
+    best=max([k for _,k in specs],key=lambda k:cache[k]['fitness']);se=max(s['std'] for s in cache[best]['stats'].values())/np.sqrt(10)
+    chosen=baseline if cache[baseline]['fitness']>=cache[best]['fitness']-se else best
+    return {'selected_label':next(n for n,k in specs if k==chosen),'selected_mask':chosen,'raw_best_mask':best,'best_single_mask':single,'heuristic_se':se,'scope':'trainCV robust objective only; template preferred within oneSE; overlapping folds not formal interval'}
+
 def verify_seal(actual=True):
     seal=json.loads((ROOT/'logs/routing-cache-seal.json').read_text());m=ROOT/'configs/routing/manifest.json'
     assert digest(m)==seal['manifest_sha256']
+    validate_metadata(seal['metadata'],seal['state'],json.loads(m.read_text()),digest(m),seal['extraction_sources'])
+    for short,name in [('extractor','extract.py'),('core','routing_core.py')]:
+        assert hashlib.sha256(subprocess.check_output(['git','show',seal['extraction_commit']+':configs/routing/'+name],cwd=ROOT)).hexdigest()==seal['extraction_sources'][short]
+    previous=json.loads((ROOT/'logs/positions-cache-seal.json').read_text())
+    assert seal['files']['cache/positions/P.npy']==previous['P_sha256']
+    assert previous['manifest_sha256']==digest(ROOT/'configs/positions/manifest.json')
+    assert seal['files']['cache/positions/seal.json']==digest(ROOT/'logs/positions-cache-seal.json')
     for name,sha in seal['files'].items():
         if actual:assert stream_hash(ROOT/name)==sha,name
+    if actual:
+        assert json.loads((ROOT/'cache/routing/metadata.json').read_text())==seal['metadata']
+        assert json.loads((ROOT/'cache/routing/checkpoint.json').read_text())==seal['state']
+        for name,shape in seal['metadata']['shapes'].items():
+            a=np.load(ROOT/'cache/routing'/name,mmap_mode='r');assert list(a.shape)==shape and str(a.dtype)=='float16'
     return seal
 
 def verify_freeze(actual=True):
