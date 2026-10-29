@@ -3,6 +3,13 @@ import numpy as np
 from stability_core import draws,variants,contrasts,summary_features
 
 class Tests(unittest.TestCase):
+    def test_extractor_environment_module_not_shadowed(self):
+        import symtable
+        from pathlib import Path
+        source=Path(__file__).with_name('extract.py').read_text(encoding='utf-8')
+        main=next(t for t in symtable.symtable(source,'extract.py','exec').get_children() if t.get_name()=='main')
+        self.assertTrue(main.lookup('os').is_global())
+
     def test_draws_balanced_reproducible_and_isolated(self):
         rows=[{'id':str(i),'group_id':str(i),'label':i%2,'role':'pool'} for i in range(3200)]
         rows.append({'id':'test','group_id':'test','label':0,'role':'confirmation_aegis'})

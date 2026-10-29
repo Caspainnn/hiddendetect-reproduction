@@ -61,9 +61,9 @@ def main():
         probes=sum(([r for r in rows if r.get('origin')=='original_train' and r['label']==y][:16] for y in (0,1)),[])
         assert len(probes)==32
         for row in probes:
-            b,s=collect(row);ob=oldB[row['baseline_index'],:,3,:];os=oldS[row['processing_index']][:,[0,1,2,6],:]
+            b,s=collect(row);ob=oldB[row['baseline_index'],:,3,:];old_summary=oldS[row['processing_index']][:,[0,1,2,6],:]
             state['pilot_maximum_B_difference']=max(state['pilot_maximum_B_difference'],float(np.max(np.abs(b.astype(float)-ob))))
-            state['pilot_maximum_summary_difference']=max(state['pilot_maximum_summary_difference'],float(np.max(np.abs(s[:,:4].astype(float)-os))))
+            state['pilot_maximum_summary_difference']=max(state['pilot_maximum_summary_difference'],float(np.max(np.abs(s[:,:4].astype(float)-old_summary))))
         state['pilot_rows']=32;assert state['pilot_maximum_B_difference']<=1e-5 and state['pilot_maximum_summary_difference']<=1e-5;write(cp,state);print('PILOT_PASSED',state,flush=True)
     start=state['next_index']
     for i in range(start,len(rows)):
