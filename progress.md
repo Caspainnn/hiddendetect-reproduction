@@ -1,6 +1,8 @@
-<!-- reproduction: {"id":"hiddendetect","paper":"P02","title":"HiddenDetect：用户信息加工验证","status":"R19—R22完成：91项、130折及bootstrap双端复核；小幅正向线索尚待确认","stage":"动态用户摘要／模块增量／局部整体关系验证完成","updated":"2026-10-29","next":"聚焦B、B＋均值、B＋动态摘要，验证训练稳定性及更大新确认集"} -->
+<!-- reproduction: {"id":"hiddendetect","paper":"P02","title":"HiddenDetect：用户信息加工验证","status":"R19—R22完成：91项、130折及bootstrap双端复核；小幅正向线索尚待确认","stage":"动态用户摘要／模块增量／局部整体关系验证完成","updated":"2026-10-29","next":"聚焦末位、末位＋均值、末位＋动态摘要，验证训练稳定性，后续用多方数据验证","logic_map":"research-map.md"} -->
 
 # HiddenDetect复现进度
+
+研究推理脉络见[研究思路与实验结论导图](research-map.md)，网页“复现”中的P02 HiddenDetect卡片直接展示。后续多方数据验证为待做事项，当前暂不沿这批误报样本继续调方法。
 
 ## R19—R22：用户信息加工完成交接
 
