@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "old_training_probes": 64,
+  "maximum_absolute_differences": {
+    "P": 0.0,
+    "X": 0.0,
+    "S": 0.0,
+    "A": 0.0,
+    "M": 0.0,
+    "F": 0.0,
+    "L": 0.0,
+    "Q": 0.0
+  },
+  "strict_checks": [
+    "P",
+    "A",
+    "S",
+    "M",
+    "F",
+    "Q"
+  ],
+  "diagnostic_only": [
+    "X",
+    "L"
+  ],
+  "old_cache_seal_sha256": "89c1c5e819e2e8b0806e073d5a6986d055f61fd2b889663806648b972a94f072",
+  "new_cache_seal_sha256": "a17de34bc2241f036c1c2f9556390cafa8a05f8e3f4c876307bf7b01d077d18d"
+}

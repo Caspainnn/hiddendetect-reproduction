@@ -30,4 +30,7 @@
 
 ## Ledger
 
+- 2026-10-29: local and remote RED/GREEN regression checks passed. Count-only confirmation selected200/class plus64 old-training probes (464 rows), excluding11722 prior unique IDs. Full extraction/cache/model seals passed; all eight probe arrays have zero maximum difference. Confirmation has not been scored.
+- 2026-10-29: initial training stopped saving its first model because259-bit filenames exceed Linux component limit. Fixed to SHA256 names and restarted unchanged search. Fresh review found probe import bootstrap and missing probe-success seal gate; both fixed with observed failing/passing checks before any scoring. No deferred findings.
+
 - 2026-10-29: user explicitly notes PSO failure does not rule out other population methods; asks new optimization/validation on unified benchmark. Select GA+DE as two distinct mechanisms, retaining PSO/random and simple sparse controls. Existing observed benchmark is comparative only; fresh confirmation sought separately.

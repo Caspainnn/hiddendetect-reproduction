@@ -1,0 +1,52 @@
+{
+  "status": "complete",
+  "rows": 464,
+  "resumed_at": 0,
+  "manifest_sha256": "a10037af5ad22f0bac94adb2849b07859f4a92bd54e39881c0447d9855c531f5",
+  "extractor_sha256": "1074a54f6e645394596f2f0c546fa6f69e64f23b8523b2633fb9e87c7bf96db0",
+  "seconds_this_run": 59.91402439028025,
+  "maximum_allocated_bytes": 15725244928,
+  "attention_enabled": true,
+  "cache_bytes": 673576832,
+  "trace_names": [
+    "norm_mean",
+    "norm_std",
+    "norm_max",
+    "adjacent_cos_mean",
+    "adjacent_cos_min",
+    "first_last_cos",
+    "previous_layer_cos_mean",
+    "previous_layer_cos_min",
+    "refusal_mean",
+    "refusal_std",
+    "refusal_max",
+    "refusal_min",
+    "entropy_mean",
+    "entropy_std",
+    "entropy_rank_trend",
+    "top12_margin_mean"
+  ],
+  "attention_names": [
+    "prefix_mass",
+    "user_q1_mass",
+    "user_q2_mass",
+    "user_q3_mass",
+    "user_q4_mass",
+    "suffix_mass",
+    "normalized_entropy",
+    "maximum_weight"
+  ],
+  "module_names": [
+    "attention_last_norm",
+    "attention_user_mean_norm",
+    "attention_user_max_norm",
+    "mlp_last_norm",
+    "mlp_user_mean_norm",
+    "mlp_user_max_norm",
+    "attention_mlp_last_cos",
+    "attention_mlp_user_mean_cos"
+  ],
+  "normalization": "unit raw decoder-layer vectors; module/norm summaries separate; author F boundary preserved",
+  "base_model_training": false,
+  "generation": false
+}
