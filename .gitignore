@@ -23,3 +23,6 @@ logs/fusion-pilot.log
 logs/fusion-extraction.log
 logs/fusion-train.log
 logs/fusion-evaluation.log
+logs/swarm-search.log
+logs/swarm-confirmation.log
+logs/swarm-evaluation.log
