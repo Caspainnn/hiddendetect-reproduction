@@ -1,0 +1,235 @@
+{
+  "status": "frozen_before_confirmation_scoring",
+  "sources": {
+    "configs/processing/test_processing.py": "ea03acdd772103c983952a7d82d5d3c581da9442ec7afd20bdfc78de66927081",
+    "configs/processing/train.py": "4e5f1aee005a4729c73ba81aab7c1c66f391bd8846538d095864f83ccaa17e35",
+    "configs/processing/report.py": "7f16290764086b72092a7bbe033cc98d579e4d179a305469a41a174177f6e649",
+    "configs/processing/build_manifest.py": "88fa2d606834f6eb73753634aab6106252f56814380ce7b362479adb54d17ccc",
+    "configs/processing/evaluate.py": "b43723c48ec595d53b20b34de63392c584441c6f258337012be64999458cae37",
+    "configs/processing/verify.py": "a557b5ae98f21bafbbe8fb61c07150e9281c78c8e1621c1dcafe6915e760a0f0",
+    "configs/processing/processing_analysis.py": "0d462bd5afa387ffff8bb910a63875d29f9b8cfda0e2b8ef3e4aec989cfa86d1",
+    "configs/processing/processing_core.py": "5911a979cda4a92df4fcf5f6cd81509a540178619731912d894e3e2f7b28ce8c",
+    "configs/processing/extract.py": "0ea689524d1f9d997d26a2a7377e0e15153c4c244f7e0c6c69ced46aed6e6208",
+    "configs/routing/routing_core.py": "4af169515ea184b02823606b4c74845c27f483e3785784255dc1261d77f2f8b0",
+    "configs/positions/position_core.py": "298445e1fc0ab213df46ff54fba3a1d3d6d2fb47e4a5c804e6450b37fd3c74d0",
+    "configs/swarm/search.py": "8747a2a072d0360717afdafcbac080a73e2c0cbf6ed28e1daba0e8916472ce6d",
+    "configs/swarm/core.py": "9b0d0622220054f85949b44d68ba5b60b5039b87e350e68d560a73483923c6e1",
+    "configs/fusion/fusion_core.py": "2e9afc8e8855a1d754a8058745029e0c7acaf874ae49d420cb85f918c66ad655",
+    "configs/highdim/features.py": "055a3a9e52456d2ebafafa8a2cfba0f8ee35c73836bf8431a41859ddc3c43972",
+    "configs/highdim/ridge.py": "e523f3be50a20a030345a8591c3f31493f6d1953028dca1fdecfe4e4e89ceea1",
+    "configs/highdim/seal.py": "f89c0dd959e90c982eb23c3e3e6a95df3cc5c255cc2cfe7653d625bd4244efb3",
+    "configs/signal-selection/experiment_core.py": "ad35c2e9ed29d47854ea3db7cd999ef5e07c981226ce7872c91eec13fa45cc85",
+    "configs/signal-selection/evaluate_frozen.py": "5a68b1bf3b36873904240f3987f2e223085e387094838149dfab44f2a401c9e6",
+    "configs/heads/train.py": "ca2c5da0aac01452cf91e1f188c5c162eaa3ecc24e584709fb9641663785bf41",
+    "configs/heads/head_core.py": "0852cdd4dc4997d288a513361b816629a8e5c1792f9afa75196b5b69db008ca0",
+    "configs/heads/report.py": "31db244f1da3196156239c7bbc9dac1d28ef4d38062f035693186393f899414e",
+    "configs/heads/build_manifest.py": "624df4c28dff947fc8cdd2ef2a6cddb4324e93804410e667e2554ee7a19a2723",
+    "configs/heads/head_analysis.py": "1a3867ba424f2b1095b82163151f8900c352fad5ff04e6a70a8a3ddf39c67a2c",
+    "configs/heads/evaluate.py": "099f679e68adf10c9590ab9bfb192703ed79ae8f3af08d75daffa911b9b90407",
+    "configs/heads/verify.py": "ce3f8590dae04e5a6e56669ae7491a6b8a46e650d81f6ce1dedd94ac95d5b574",
+    "configs/heads/test_heads.py": "fd429bdca35261bfd87a211b755d3b4f02c3628a5a18146cd069ff8ff2fbb99f",
+    "configs/heads/extract.py": "97542084bf72812fd8a7587a31ee0e5c892f19d8b3ddfd57c6a5552c08236d81",
+    "configs/stability/train.py": "98364a666d53c5642a0cb441be9964004b5c00045edcd4fb296e17381c0ff426",
+    "configs/stability/report.py": "3c65c78e5b8fac3fa32661ef7cd1d6e73b35010a4f0992222f56993f8e65408b",
+    "configs/stability/build_manifest.py": "c45ac8780143a4274b5b74a7e2fd69a0010b3c30aa611671ffcc2a965cb23aff",
+    "configs/stability/evaluate.py": "8cdfd25b13cc444e3ab51025f01f0129abae4112ecf5744d888cec0786fc5027",
+    "configs/stability/test_stability.py": "a0896427ea8d85cc2f98d01024ff32856d9ed735d756cd3974f7f32873727fe3",
+    "configs/stability/verify.py": "553b0bc34ca43aa53eb465f351adb9420f59518ef57bd34bc7f3bd4ec5e3c945",
+    "configs/stability/stability_analysis.py": "d03b5383bab32f67a01f715fc3e7a9819dbad21dc421f0f871f5fa137ad9e957",
+    "configs/stability/extract.py": "50290b7af1a2f93ee13aa2adad9ab2a035c42567e8e8812b18e6457ed402d93e",
+    "configs/stability/stability_core.py": "763114bf6539b7e1c03c322f705be87b5011a7d146e5ba7f2c89df4d29a40551",
+    "configs/anchored/train.py": "f6023e042377a852e902adf789447add21ba1aa40107b7b0f7d5840dd6db3a34",
+    "configs/anchored/prepare_scores.py": "84acef8173b007d471b7a698877b9843fb979c25ee64d5d0c8a5b659e9cc4c32",
+    "configs/anchored/report.py": "3dc848bde8cda640bca27916ef8e642e0256ffc8328d22f6b11de30ed5b6db70",
+    "configs/anchored/build_manifest.py": "bda95c02d183527bb3e651ab8270a7d8647111558811ed0a6cf917c5d4ee9420",
+    "configs/anchored/anchored_core.py": "71bcddb154ed6108911c9c2028848624e1d79b1a82eaa041b8255e97a44eea41",
+    "configs/anchored/evaluate.py": "a1c7249e5aa4892390cf72c4126fd74e4925fa3dafd170dab2ae3f514ca4d10b",
+    "configs/anchored/verify.py": "304cea5559768c58139d08b494da8a8c7607ea68041da064042e48e9aa060dd1",
+    "configs/anchored/test_anchored.py": "6ca4fc3cc701849f70f8b4194d5573e98ebcf856092db2c5118ba92e86818afc",
+    "configs/anchored/anchored_analysis.py": "5efdbbbbbe3bce1c80bf4fbc35a359ec436a6fa8ab5a289a6d1314db5d08e9ad",
+    "configs/anchored/extract.py": "6533cd51f1c0895a9d439f6a21f1c5cd979da8f713733d993471c8d00bf5601d"
+  },
+  "dependencies": {
+    "configs/anchored/manifest.json": "2ad763549033628319812090818f86bdbeb4992aa2500d48e32801c63ebe0a23",
+    "configs/benchmarks/v1.json": "7534b69c76e758f06a3cbe6aa0646b3b89618b7aa2e7569dafcce23405de0e9b",
+    "configs/artifacts-lock.json": "9376f884cc88facd00b464635259a9308209ce5f7b354d10fd187d8f7ccc8349",
+    "logs/anchored-duplicates.json": "6584efc58c6ec50550ed56897f127d3df1c8c591d809a7acdc766b983b2f1738",
+    "logs/anchored-cache-seal.json": "9bffcf72a8b6b988d2e29a7209457a4fe263090e07423e8d7cf6288e88798eaf",
+    "logs/anchored-score-seal.json": "ca64701ec90dc69a9253919dce1b9810d9f77d8534e11fcc38ab03f3eec7f924",
+    "logs/stability-cache-seal.json": "b669e7b3b36d1c86f08589480f040fcbc3c5e11009d7514d27fb3425c1d19161",
+    "results/stability/freeze.json": "58dbec4e82f7ec5ffb91fd639e0b525ce2753316960f5233082db4706dcecd0f",
+    "results/stability/0_ridge_B.joblib": "4066fe2f8c632c81e2f81724c23437775bba4479ad8999c83b7e1a1e526fe114",
+    "results/stability/0_ridge_mean.joblib": "439e99a7a6517539acbcbf5e37e4927a742a52faadc66d3ba02d74bf4678dd9b",
+    "results/stability/0_ridge_dynamic.joblib": "9bafe7b7baa05a3f98b118a8d91d547557fa03765445ae56f0c703d5dc3f8a4e",
+    "results/stability/0_ridge_random.joblib": "279b2f35592ef44e5f80aaca0562116d0d43af2ebef3c03a624d81080fe4acf9",
+    "results/anchored/meta-scores.jsonl": "e4ab966e840068a5c28a1f16f2c4879d033f1d063d54369d4ce8f46576ccbfca",
+    "results/anchored/cv.json": "f181034dad05deeb3a38b17f76ce7899f5298544d310813251e1f60f70f8f5ba",
+    "results/anchored/oof.npz": "5d404ce77340555f53cfe6e7717eb176eed89bac96c2e30691a9c053e7142165",
+    "results/anchored/selection.json": "8d4cf408adcf47b6080b21f933144e7103d510c2a9790ccde6c91a5dfe41c7ef",
+    "docs/superpowers/plans/2026-10-29-anchored-summary.md": "dd9fe2cb39fcae89f96af20978762d2fce5576fe6990abbf1537b56a31cf5075",
+    "logs/anchored-data-provenance.json": "8492dbca8abe55c87ab3063e5427ce8663842e9965587ec0e47b0388faaed9bb",
+    "logs/anchored-review.md": "1271a3bdbc18679b40a2e0d8c7810d9fa1dd937778f20ceb2cf54a0cf48f314d"
+  },
+  "models": [
+    {
+      "name": "B",
+      "parameters": {
+        "name": "B",
+        "mode": "raw",
+        "family": "B",
+        "alpha": 0.0
+      },
+      "alignment": null
+    },
+    {
+      "name": "joint_mean",
+      "parameters": {
+        "mode": "raw",
+        "family": "mean"
+      },
+      "alignment": null
+    },
+    {
+      "name": "joint_dynamic",
+      "parameters": {
+        "mode": "raw",
+        "family": "dynamic"
+      },
+      "alignment": null
+    },
+    {
+      "name": "joint_random",
+      "parameters": {
+        "mode": "raw",
+        "family": "random"
+      },
+      "alignment": null
+    },
+    {
+      "name": "global_mean",
+      "parameters": {
+        "name": "global_mean_5",
+        "mode": "global",
+        "family": "mean",
+        "alpha": 0.5
+      },
+      "alignment": {
+        "b_mean": -0.5024093975572876,
+        "e_mean": -0.5117764960023612,
+        "b_sd": 0.43354757396248905,
+        "e_sd": 0.4393934052100245,
+        "tau": 0.3573584331458456
+      }
+    },
+    {
+      "name": "global_dynamic",
+      "parameters": {
+        "name": "global_dynamic_8",
+        "mode": "global",
+        "family": "dynamic",
+        "alpha": 1.0
+      },
+      "alignment": {
+        "b_mean": -0.5024093975572876,
+        "e_mean": -0.5123984565464301,
+        "b_sd": 0.43354757396248905,
+        "e_sd": 0.43835928120326845,
+        "tau": 0.3573584331458456
+      }
+    },
+    {
+      "name": "global_random",
+      "parameters": {
+        "name": "global_random_5",
+        "mode": "global",
+        "family": "random",
+        "alpha": 0.5
+      },
+      "alignment": {
+        "b_mean": -0.5024093975572876,
+        "e_mean": -0.5089951377440524,
+        "b_sd": 0.43354757396248905,
+        "e_sd": 0.44036479665829287,
+        "tau": 0.3573584331458456
+      }
+    },
+    {
+      "name": "gated_mean",
+      "parameters": {
+        "name": "gated_mean_5",
+        "mode": "gated",
+        "family": "mean",
+        "alpha": 0.5,
+        "width": 2.0
+      },
+      "alignment": {
+        "b_mean": -0.5024093975572876,
+        "e_mean": -0.5117764960023612,
+        "b_sd": 0.43354757396248905,
+        "e_sd": 0.4393934052100245,
+        "tau": 0.3573584331458456
+      }
+    },
+    {
+      "name": "gated_dynamic",
+      "parameters": {
+        "name": "gated_dynamic_6",
+        "mode": "gated",
+        "family": "dynamic",
+        "alpha": 1.0,
+        "width": 0.5
+      },
+      "alignment": {
+        "b_mean": -0.5024093975572876,
+        "e_mean": -0.5123984565464301,
+        "b_sd": 0.43354757396248905,
+        "e_sd": 0.43835928120326845,
+        "tau": 0.3573584331458456
+      }
+    },
+    {
+      "name": "gated_random",
+      "parameters": {
+        "name": "gated_random_6",
+        "mode": "gated",
+        "family": "random",
+        "alpha": 1.0,
+        "width": 0.5
+      },
+      "alignment": {
+        "b_mean": -0.5024093975572876,
+        "e_mean": -0.5089951377440524,
+        "b_sd": 0.43354757396248905,
+        "e_sd": 0.44036479665829287,
+        "tau": 0.3573584331458456
+      }
+    },
+    {
+      "name": "B_refit",
+      "parameters": {
+        "method": "ridge",
+        "value": 1.0
+      },
+      "alignment": null
+    }
+  ],
+  "refit_sha256": "5ddb1aa9dd098b28b19bc1ffbd7350a042b6c77f8b6c25d41b9fc1b3a712ee61",
+  "selection": {
+    "winners": {
+      "global_mean": "global_mean_5",
+      "global_dynamic": "global_dynamic_8",
+      "global_random": "global_random_5",
+      "gated_mean": "gated_mean_5",
+      "gated_dynamic": "gated_dynamic_6",
+      "gated_random": "gated_random_6"
+    },
+    "raw_best": "gated_dynamic_6",
+    "selected": "B",
+    "heuristic_se": 0.012259969110989515,
+    "scope": "meta_train CV only; excludes random; B preferred within heuristic oneSE",
+    "selected_head": "B"
+  },
+  "meta_fold_conditions": 550,
+  "refit_fold_fits": 90,
+  "seconds": 16.17184543609619
+}

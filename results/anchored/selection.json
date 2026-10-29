@@ -1,0 +1,15 @@
+{
+  "winners": {
+    "global_mean": "global_mean_5",
+    "global_dynamic": "global_dynamic_8",
+    "global_random": "global_random_5",
+    "gated_mean": "gated_mean_5",
+    "gated_dynamic": "gated_dynamic_6",
+    "gated_random": "gated_random_6"
+  },
+  "raw_best": "gated_dynamic_6",
+  "selected": "B",
+  "heuristic_se": 0.012259969110989515,
+  "scope": "meta_train CV only; excludes random; B preferred within heuristic oneSE",
+  "selected_head": "B"
+}
