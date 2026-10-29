@@ -5,6 +5,10 @@ import numpy as np
 from processing_core import weights,summarize,feature_matrix,relation_transform,joint_kernel,fit_joint,predict_joint,open_array,user_indices,validate_metadata,unit
 
 class Tests(unittest.TestCase):
+    def test_analysis_import_is_round_specific(self):
+        from processing_analysis import contrasts
+        family=contrasts({'selected':'B'})
+        self.assertEqual(len(family),10);self.assertEqual(family['dynamic_vs_random'],('dynamic_g1p0','random_g1p0'))
     def test_json_shape_can_create_memmap(self):
         with tempfile.TemporaryDirectory() as d:
             a=open_array(Path(d)/'a.npy',[2,3],False,False);a[:]=1;a.flush()

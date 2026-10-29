@@ -3,7 +3,7 @@ import argparse,json
 import numpy as np
 from sklearn.metrics import roc_auc_score,average_precision_score,confusion_matrix
 from processing_core import ROOT,digest,write,read_jsonl,verify_freeze,make_folds,select,candidates
-from analyze import analyze
+from processing_analysis import analyze
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--actual',action='store_true');parser.add_argument('--bootstrap',action='store_true');args=parser.parse_args()

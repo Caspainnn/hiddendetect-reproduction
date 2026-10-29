@@ -2,7 +2,7 @@
 import json,time,joblib
 import numpy as np
 from processing_core import ROOT,digest,write,verify_freeze,arrays,baseline,feature_matrix,predict_joint,read_jsonl
-from analyze import analyze
+from processing_analysis import analyze
 
 def main():
     out=ROOT/'results/processing';assert not (out/'evaluation.json').exists();began=time.monotonic();f=verify_freeze()
