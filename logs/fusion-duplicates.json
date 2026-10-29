@@ -1,0 +1,2232 @@
+[
+  {
+    "id": "aegis:validation.json:73c21d28731c41bcb0780a6482fa6aa1",
+    "role": "excluded",
+    "duplicate_of": "aegis:train.json:05f8c3f4b12a4974ba214d01efe325aa"
+  },
+  {
+    "id": "aegis:test.json:7c4809c2499b450b8060233ee031f11c",
+    "role": "excluded",
+    "duplicate_of": "aegis:train.json:c1d6c9d07a4b47acad9d0df1fb4571e2"
+  },
+  {
+    "id": "old-cal:1",
+    "role": "excluded",
+    "duplicate_of": "old-cal:0"
+  },
+  {
+    "id": "aegis:train.json:6ad65ab3c7c0448a8fea5670959e3046",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:3aef1a97e2134f2b89bab1a305f06b46"
+  },
+  {
+    "id": "aegis:train.json:18dcbee5beeb43ce8d601d4984e7d621",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:308e92b69b744593b26426457dbaf788"
+  },
+  {
+    "id": "aegis:train.json:bec97f806f5a4502916332025ecf2838",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:b1cb90153db144efb0d3b9ac3ed8e0c4"
+  },
+  {
+    "id": "aegis:train.json:88ee72194b6542c18be23e87fd6b64a2",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:e3fd451dcd2945198aa970294ad416bc"
+  },
+  {
+    "id": "aegis:train.json:0472aea228f74a11b9782caceb406c63",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:2d759510df0a4be8b9f97685042fedba"
+  },
+  {
+    "id": "aegis:train.json:3600a2cf84934eccb36e2877b2bf159a",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:db735e36f2c141c3aca39483fc0586bd"
+  },
+  {
+    "id": "aegis:train.json:aaa58c0caf1b400f9e97e4c36d9db4fb",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:5d4e1548b1bd470fb754967776e05a0f"
+  },
+  {
+    "id": "aegis:train.json:0e494fe2e01240d092504f9a9b683b13",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:c480a483794b49e0b32ea48883baf9ca"
+  },
+  {
+    "id": "aegis:train.json:6e7384a94681477fb44f92a37237ea1a",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:d184c96c1fc94607b7e591eb06b56ce8"
+  },
+  {
+    "id": "aegis:train.json:3298e7e2c65043d2a872bfe833d51777",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:d184c96c1fc94607b7e591eb06b56ce8"
+  },
+  {
+    "id": "aegis:train.json:ebfca4a279a24f2bb6e857c21c46bfdb",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:5a5a46ea83164f1cba2731a5794fee48"
+  },
+  {
+    "id": "aegis:train.json:d5ae6e00272b4089b0bdf63c6e279ecf",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:b3a0541d4dc04876a76b0d12f1ba7b80"
+  },
+  {
+    "id": "aegis:train.json:2eb76665a32940caa1230af021f54712",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:10113494ec5b4690b099f6a10231f4c8"
+  },
+  {
+    "id": "aegis:train.json:438a3671ac48480eb8229572118794b4",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:8b4074692fce4d20a4afa6131ce40138"
+  },
+  {
+    "id": "aegis:train.json:6076b9ee4ee44433a626c6f8624ceec2",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:c1d6c9d07a4b47acad9d0df1fb4571e2"
+  },
+  {
+    "id": "aegis:train.json:eaaddafa7c124e0a86b50b162e31079e",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:6b23b3142f30427c901cc6f8266604ec"
+  },
+  {
+    "id": "aegis:train.json:c54953e65b0243a29a0237b3a71497d6",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:3fd51b1a78cf48e7b19089f37071eef2"
+  },
+  {
+    "id": "aegis:train.json:a952ce42c6f5472bab424cb8cd4e5190",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:ecd99d3697814e25838d00f1efef1ee5"
+  },
+  {
+    "id": "aegis:train.json:41d47dca59b04cbea713fa04fbc21d24",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:103f7959b61a4fc5a1e50de7eeeb26ce"
+  },
+  {
+    "id": "aegis:train.json:cb3cc44e524e4dbba414b8414667f7c5",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:7acf5882c7f84a7093d792bb7c0bf66d"
+  },
+  {
+    "id": "aegis:train.json:6c946210c89948228a21c57980290b4b",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:f04e733f7ebb4dc9b17128652459df21"
+  },
+  {
+    "id": "aegis:train.json:4e88345793924795867641c4fcd1b6aa",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:1ae71e74a4a643ceb202955fc04dc21c"
+  },
+  {
+    "id": "aegis:train.json:0a75b92fa6d6474888eefb6a91b99880",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:aee8e7db89494ad59183823e908868f1"
+  },
+  {
+    "id": "aegis:train.json:b2a596d934044ee28b7ac1e060d11b92",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:c8df5deb57624b5e9b69e0172bc9ee46"
+  },
+  {
+    "id": "aegis:train.json:187c5e25df064cb58f33e00c749aa43c",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:3ffcf32a3788443fb4d9e761344bde76"
+  },
+  {
+    "id": "aegis:train.json:19e80bf9ec3845e9aa26f06fda9797b1",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:fc20c4c62c39446398ee5b8bd587120c"
+  },
+  {
+    "id": "aegis:train.json:501225cfafcf43e4bdf757a38e146575",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:73c3b83cb1ec47759e0bb331a17e7629"
+  },
+  {
+    "id": "aegis:train.json:69a7ab9414114e22b7a6f078c0c232f1",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:e971a3c88449442e90f5926f1946ff7c"
+  },
+  {
+    "id": "aegis:train.json:51b52185c83e4cc7bc2b9d7068ab9242",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:3aec1f857583494386c04d6cc94e38df"
+  },
+  {
+    "id": "aegis:train.json:f0c137b4cfa949fc9fd4640d6a339bf4",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:640668990fdd467d807aab53d3b08149"
+  },
+  {
+    "id": "aegis:train.json:d097ffe3d0e945c9b55ea74234671493",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:c1d6c9d07a4b47acad9d0df1fb4571e2"
+  },
+  {
+    "id": "aegis:train.json:96b087c1f76d4049b8b6d1dbbe5e962a",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:320b99047f064daf8eaef4302ffedfcc"
+  },
+  {
+    "id": "aegis:train.json:575d162d236743dbac5d26ba6893066c",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:e4983b02d88c42efa1eff65f25c3f59a"
+  },
+  {
+    "id": "aegis:train.json:896f031f62ba45a8b7a12c24cea83fe0",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:0a6bbf49cef8427a89a057f8d0dd2d47"
+  },
+  {
+    "id": "aegis:train.json:ed0d2dd2b3944e6581f32747088de657",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:c260745f7b77477fb9666333f315476d"
+  },
+  {
+    "id": "aegis:train.json:468fb7abb37d4cacb84653efecd61a7d",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:39ba9ff5fd994073856da362bc4d4cdf"
+  },
+  {
+    "id": "aegis:train.json:41b4219c50bb4cd193be0d0af8fc8286",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:6968bf6ebabd4636b5cbabe89c358d2a"
+  },
+  {
+    "id": "aegis:train.json:9b1f7a9eecbc491488b545e470e27759",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:1928e9083df443c7a8bf430f06afc71c"
+  },
+  {
+    "id": "aegis:train.json:cbd6194b172d460fa3e233fc70f9d805",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:a0b0da8c55ea4b08b06f243c05e5bb67"
+  },
+  {
+    "id": "aegis:train.json:7b79704c49704de894053d54c2a4d813",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:8160888189ac4be9a2aa1c9c79561204"
+  },
+  {
+    "id": "aegis:train.json:0a140c67247c4e35a7f4e272a3909c54",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:d0979e17011b46b3adc00d0c6fc69349"
+  },
+  {
+    "id": "aegis:train.json:43679bcd15a44909a3fc7fe9c5ab0ace",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:fe8d4241d95340b9b4a2b8a9489b2f57"
+  },
+  {
+    "id": "aegis:train.json:616da025d247466ba8c508ac63613518",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:dce50ff574da4d36b2452aee094dfd6b"
+  },
+  {
+    "id": "aegis:train.json:07a8364f96a84524ad17a4bb52df9ceb",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:9e3a98c14171436a8df3c9c7fa3cd318"
+  },
+  {
+    "id": "aegis:train.json:9883e6bf97464fbc8bda9ba68bc12b64",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:c1d6c9d07a4b47acad9d0df1fb4571e2"
+  },
+  {
+    "id": "aegis:train.json:9e00a5b812444fe281d7e17dfc5ea3d8",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:03b230f5b37b4a15845203ca4825853b"
+  },
+  {
+    "id": "aegis:train.json:e11078576802412985612ce2ee06a2ca",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:5101a767af814435b59826a6890b73a1"
+  },
+  {
+    "id": "aegis:train.json:39211c45234c400c87b9a9dd0afe6b38",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:39ba9ff5fd994073856da362bc4d4cdf"
+  },
+  {
+    "id": "aegis:train.json:72835771de3940b5b8506668ef22041f",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:a0a7878a56564f5aac21b3f06c86a4e7"
+  },
+  {
+    "id": "aegis:train.json:871b7bbcffce41daa578cb3a852ff8c5",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:c91cd64e3e004621a03525e22d82d4dd"
+  },
+  {
+    "id": "aegis:train.json:c354e478993a49a1947adc4e0a24ff8d",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:d184c96c1fc94607b7e591eb06b56ce8"
+  },
+  {
+    "id": "aegis:train.json:0a50e949bea84684a10aaa5345b1800c",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:8c0735c551a24ea3962f0be913167d21"
+  },
+  {
+    "id": "aegis:train.json:44ea06716f5143f1a2b23111fd2b5254",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:60bc824a939344749a5e0320c24677fd"
+  },
+  {
+    "id": "aegis:train.json:96c776e92a894a6eba98ff4606b817b5",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:2c99bb31749f4750a7312fde0d5bd832"
+  },
+  {
+    "id": "aegis:train.json:689932810dcc41c9ba52c6c06c14f58a",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:0d2ef52c3eaa452eb482545d6db75a73"
+  },
+  {
+    "id": "aegis:train.json:17bcf738b30449ae8f64b2e7edaa4156",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:99d2a84e0f5a4f8588ba9c4b76c98878"
+  },
+  {
+    "id": "aegis:train.json:0cf7521ed7d747daa2f94dfbabf2e04c",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:d184c96c1fc94607b7e591eb06b56ce8"
+  },
+  {
+    "id": "aegis:train.json:eb01ed6f5d024d9d8a9e9d2d6e2312fc",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:1c225b26fe15421a86dcbdd213a8d578"
+  },
+  {
+    "id": "aegis:train.json:5722aaed4f1c45d492ea131069d06bcf",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:e44a9e94e18c4bc09c9c7cc67b8ffd96"
+  },
+  {
+    "id": "aegis:train.json:5577b0d2e9354bc3a117135e52f4b25e",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:824634dcc0e94562b6928aa23a9c22a2"
+  },
+  {
+    "id": "aegis:train.json:6e42503020114aecac843081f8c2ef51",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:ce52be6ccc994b8d8ece131d08228a55"
+  },
+  {
+    "id": "aegis:train.json:6b826ca94053418ea75247f8e7f63a07",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:0a36482b9b8a4fa8ab1e3635c57b001c"
+  },
+  {
+    "id": "aegis:train.json:12855eb98e7b40a6aead06f283c6cce2",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:0b8302ae8f9043b9be8aa40dea9d011e"
+  },
+  {
+    "id": "aegis:train.json:4b6cfcfc1a5240c4bc4597d39728fa57",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:d184c96c1fc94607b7e591eb06b56ce8"
+  },
+  {
+    "id": "aegis:train.json:9786d866e7944484866cd327294b0ad4",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:e44a9e94e18c4bc09c9c7cc67b8ffd96"
+  },
+  {
+    "id": "aegis:train.json:1b7d4aefdf2440e5b124649ee0525b40",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:078991652c034ef597471383896263c3"
+  },
+  {
+    "id": "aegis:train.json:2562ab2348a44d0090a1b08f4cd81937",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:fef47dd410544996891d656040d440e1"
+  },
+  {
+    "id": "aegis:train.json:5da6a9af837745dfbc33b8ad9ab55a65",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:426aa5354d8a4e9683099218267d372c"
+  },
+  {
+    "id": "aegis:train.json:56b3fb51f41f41998486626048ce995d",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:cd392d2d0f34470cb88b75e22ca580b0"
+  },
+  {
+    "id": "aegis:train.json:1279ad7be44d433d826c3af687577c8e",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:17783e8dd376430daf9d749542f33ca1"
+  },
+  {
+    "id": "aegis:train.json:a74fc7599d1e47778df95beac667dc68",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:8c0735c551a24ea3962f0be913167d21"
+  },
+  {
+    "id": "aegis:train.json:7c1143710d91404c9b26e8f09d658e15",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:8c0735c551a24ea3962f0be913167d21"
+  },
+  {
+    "id": "aegis:train.json:67b29a5964e34564bcd4fc3b18506e4e",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:b6408b607f304c769f357033545841cc"
+  },
+  {
+    "id": "aegis:train.json:c7aa4da4baa84a97aeab212b64046c43",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:683f5b31a7e74ee88d8a0575711d677b"
+  },
+  {
+    "id": "aegis:train.json:16e6b96f58a54a238f489b0cc852522e",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:b538b21eab69454fb8b05bd6aac4d48b"
+  },
+  {
+    "id": "aegis:train.json:ced0bf44e0324306bed641718180cacf",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:2131a01b42524de6a73094698a55306a"
+  },
+  {
+    "id": "aegis:train.json:63f5aca7f7a740eba958e1f5edb78423",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:f834ec254dcb40eeb187558e1f6dfcbd"
+  },
+  {
+    "id": "aegis:train.json:a0b7e229b3054e9cb92a0dbf46b2bdf2",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:cf88f64b484e4d1e9e75cc1b362f005c"
+  },
+  {
+    "id": "aegis:train.json:9d6b9cd6b2a7446093cf9e348229775a",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:b50b0195b8e84b5a90a888607e0636ce"
+  },
+  {
+    "id": "aegis:train.json:ffe78addf4ce47ca9efc0f6b6df7152c",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:103edf14969748488bc400fe2340d5a7"
+  },
+  {
+    "id": "aegis:train.json:3fec8a7a7bd241fbbe0d4ee9b714c7d1",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:1ddf65dbc9a34971ba1fff8f95446634"
+  },
+  {
+    "id": "aegis:train.json:60ae36b9cd7b4feca3d7ce0c6fdfdaf8",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:2de06a058d7d421f96edbd2981afedab"
+  },
+  {
+    "id": "aegis:train.json:a0088e43dbd741129faf106846a4cdaa",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:314f20494e474e0c94a8d54a23cbf800"
+  },
+  {
+    "id": "aegis:train.json:9565c0aa2c164101bb313f1d588292c6",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:2e88691b6d064df58dbc349468af6092"
+  },
+  {
+    "id": "aegis:train.json:593319992ff74f7aa672a7bcddd08f32",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:036c1e149d3e49edab7f590432b812c0"
+  },
+  {
+    "id": "aegis:train.json:34cea9792c9f40e99c962cbb3dacbdf4",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:3aef1a97e2134f2b89bab1a305f06b46"
+  },
+  {
+    "id": "aegis:train.json:999c221a837c40e7bee16407b1817bf7",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:a0be6115886245d581993cad5d0ccef8"
+  },
+  {
+    "id": "aegis:train.json:0fcebe9076214d72b9f9faaafd64971d",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:ce09482eef8549c98c5fbdbd2ef2bf33"
+  },
+  {
+    "id": "aegis:train.json:61776d25e16a44278d5fc6c84c26b94f",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:8f8570d262754cdca174a01664274bd3"
+  },
+  {
+    "id": "aegis:train.json:e3d748be3c2846088f1551739508b88a",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:213f0338766c40f587d7251d9dc20e4f"
+  },
+  {
+    "id": "aegis:train.json:c8326d98642d4c26a7761be4e432d46c",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:1704909c1b374b45be4515f06169ea3e"
+  },
+  {
+    "id": "aegis:train.json:fa82c45aaed247889d8787088364ab04",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:d1d2b7335c834d46a60b36763d80a44b"
+  },
+  {
+    "id": "aegis:train.json:13f242c1d9b540c5af2bfbf84cd6f1c2",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:6b7eb89c381e4c418820bc2ab15842f9"
+  },
+  {
+    "id": "aegis:train.json:30cc67e2309444aca140af7cf0f3a060",
+    "role": "aegis_pool",
+    "duplicate_of": "toxicchat:806a02a797c202a5364e3a30d0e14135ea4845c462332660395d2507fe9637f3"
+  },
+  {
+    "id": "aegis:train.json:35df60ba923542e49bd4530cc8bdd33b",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:b075eec0e3ab49ffa69e30fa3cb84009"
+  },
+  {
+    "id": "aegis:train.json:d3c06b2c90ce4edc925613b2bede5e5a",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:4a00ea7d88534003a260540cb939b6ed"
+  },
+  {
+    "id": "aegis:train.json:d379d41d3eec41eeb61d128c36ca994d",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:46e096f01d84481999203f19cff70965"
+  },
+  {
+    "id": "aegis:train.json:eb4920e200894f279e040405388a33d7",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:19b9ae6517ac482f8ba0ac29872b8845"
+  },
+  {
+    "id": "aegis:train.json:98d19f3948e345bca8df80457336f85f",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:e6f3f94d9fd0427a89057cf09adacd59"
+  },
+  {
+    "id": "aegis:train.json:813e42ffdc404b32b88ce1c4d3becf40",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:dcfdaf16bd64468a844c2668579098ef"
+  },
+  {
+    "id": "aegis:train.json:895860fab1a042c9b9b92a9432917b31",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:8f08d8c68bb14f91a009ed04a8e2fb3f"
+  },
+  {
+    "id": "aegis:train.json:699d9168d0cd45f3baab429c577e649d",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:0eec410712f54dd1871f439170dc477c"
+  },
+  {
+    "id": "aegis:train.json:f62d8dedc9324bea82a8e64be8e435ba",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:11ef2542df9a4a668d35196daceb757a"
+  },
+  {
+    "id": "aegis:train.json:fdc27b786f2b49cbbb173b2bd98d5c8d",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:e7cf809f2d1641868e7fbc76536946e3"
+  },
+  {
+    "id": "aegis:train.json:7d2b030423f3491fb252136142fab3e0",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:e6fef6089be04cf8807b1891928dfa28"
+  },
+  {
+    "id": "aegis:train.json:46f17180b4eb4293927aeeb320c40f86",
+    "role": "aegis_pool",
+    "duplicate_of": "toxicchat:6be89f8d142cf1d8d416324d6a76b0a970f2154c4d05d10c5586b495cb7a6c1b"
+  },
+  {
+    "id": "aegis:train.json:e49f0da171774941800e5b7b877a2440",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:4cdd5baad26c4fc1b56253cb526851dc"
+  },
+  {
+    "id": "aegis:train.json:b32d63b0bf83440e91194fc43c8e8a33",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:708f3d71031249acb4cb6d216afcb0ad"
+  },
+  {
+    "id": "aegis:train.json:e76360da6d1b408d98e87a976d505d98",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:ddcfc8a288a54c85ba8367f93f8dbfbb"
+  },
+  {
+    "id": "aegis:train.json:31b88b12da7545d29bb4e1f70533e7db",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:ae668da92cc44e799692b1b61ce539a4"
+  },
+  {
+    "id": "aegis:train.json:d2d0690b86d84336944ef0b651281821",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:adc5766e458b46f1a22235aaeb0d8d75"
+  },
+  {
+    "id": "aegis:train.json:647709d57be94ffdb5de7ac66d02bb37",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:cc6423961fe94a73a7809671b2a39891"
+  },
+  {
+    "id": "aegis:train.json:49b4f3a035144bbfa28d43f4b2457935",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:4fb1ecd5a391486682c436d09c001f02"
+  },
+  {
+    "id": "aegis:train.json:53e42d3404524d77b10181c107864092",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:e7ec800664cf45adb3c446ef6d3850a9"
+  },
+  {
+    "id": "aegis:train.json:ad86a8cbefa940cca91cf98af7a813f2",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:088f6581c14e46929bf60e898a384ecc"
+  },
+  {
+    "id": "aegis:train.json:2e64222b1505422dac942c936698ea5a",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:df04a78a8e29466bb53456904a7c292e"
+  },
+  {
+    "id": "aegis:train.json:1aae773ed2124ad8879edbb17a55bf8f",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:0d4332727add432b9a3de864df728884"
+  },
+  {
+    "id": "aegis:train.json:45fdbc347d7747898f212deade2a924b",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:39720771edfb4986a12ba6d08da0d9e2"
+  },
+  {
+    "id": "aegis:train.json:0aba70ed3e014e7fafc6026a619736c8",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:c78c9e1eae724f67852b047ac101cafc"
+  },
+  {
+    "id": "aegis:train.json:385c938fbe144eda81058c2f58f0a0b6",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:b20a34ac29a340e786e6cb68833db2c6"
+  },
+  {
+    "id": "aegis:train.json:75e48f50a9394de49993b5b85ee80e5e",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:5e98b33d7c954c3495bf91568ecdd0fe"
+  },
+  {
+    "id": "aegis:train.json:b42af6915b7d429b86cef67c131c6425",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:1a092e7636c24d31a92afda742232608"
+  },
+  {
+    "id": "aegis:train.json:d06b423c0bf243c9b5ae5be3769c7a1f",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:22958c942a6047248314e7b149ad949c"
+  },
+  {
+    "id": "aegis:train.json:87842c1f655246b38d82be04734dc1ac",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:8a5362087e9448c18c328b328332e6a3"
+  },
+  {
+    "id": "aegis:train.json:9c389b77f3f64ecc80b696196bc99175",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:8865fc5af74e49e19d62cd9dcc6bee7c"
+  },
+  {
+    "id": "aegis:train.json:356f95e19f254c82a031cce425c35033",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:45b9fb60bee048baa9f685c76897c02c"
+  },
+  {
+    "id": "aegis:train.json:ff1a1cb01ac2418f92c3da0b0a0e85cb",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:506f3875198a495d889491e42fc32dbc"
+  },
+  {
+    "id": "aegis:train.json:0d1426e88a4c4e919b7885c359dbfb80",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:8f8bb7d9b4eb40bb98824ed6dd115556"
+  },
+  {
+    "id": "aegis:train.json:0b58239450c94e3f8cf328b11043d557",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:b89ac4d7793242a4bebcb84a71b2876c"
+  },
+  {
+    "id": "aegis:train.json:db442dad90df4df3a7454b3a6c67c0b5",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:e9cb77850bb64df08024cd867e1de674"
+  },
+  {
+    "id": "aegis:train.json:e47bef5501b147318e207bcbc08ece3d",
+    "role": "aegis_pool",
+    "duplicate_of": "toxicchat:6851538e7ec658ab06a5cc79243f72db96cc99dc141ff8ade0d0d6abfea2165d"
+  },
+  {
+    "id": "aegis:train.json:b228d9a8971c4ce398ed958ca546d216",
+    "role": "aegis_pool",
+    "duplicate_of": "toxicchat:d3ca920da475f558c971c170bea1dac0db230c9c0bfc97b64056a56ee30a8e3b"
+  },
+  {
+    "id": "aegis:train.json:757878a5d11444af8a0eeae5c0031717",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:ba43b05cbda946859edc75fd59bef558"
+  },
+  {
+    "id": "aegis:train.json:65d07b0fbde44929800e8ebee9c4b80e",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:a1429a222b6541549607e2a1244415f3"
+  },
+  {
+    "id": "aegis:train.json:04430d39ca984a558f9cc061bb515067",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:a4ed005049f84f63a3a335627d6c5283"
+  },
+  {
+    "id": "aegis:train.json:e7cfb5b1b36841a2a6893181570a7244",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:270d76a73bfd476ba38f16d4ed08255b"
+  },
+  {
+    "id": "aegis:train.json:cd5ac996b9fc472290adbc8b5cba5275",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:9ea6efb39e234e0c9ceee42336ef1749"
+  },
+  {
+    "id": "aegis:train.json:853a5350b8654bd787d7de15263ea632",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:f97dae341c5d40f0bfd6d3c8885555e6"
+  },
+  {
+    "id": "aegis:train.json:c94ddeb07ae04235881f98fd66bb1ea3",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:27272e74b18c4a1a80224c84673113f8"
+  },
+  {
+    "id": "aegis:train.json:d4ddf6a7e877480fba290a987a7d978c",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:926facff641b4413b33eab4ed868bb1a"
+  },
+  {
+    "id": "aegis:train.json:c0693fd4f17846658eeff306fbda4852",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:18e98554fccf482fb2661a0ead7fdd0a"
+  },
+  {
+    "id": "aegis:train.json:9a420603b4da4dc8b1b8e8633e5228df",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:32f65162a04446c79d6e6ec0a9785fe3"
+  },
+  {
+    "id": "aegis:train.json:7641ae03771f4587a3cd84bad5ac9e04",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:d8faa83a8eaa4d8d93c96102cad814ab"
+  },
+  {
+    "id": "aegis:train.json:ed455ec77138437d89df5ce8268fbfc8",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:2ded28df58994086a71e51203e7c5611"
+  },
+  {
+    "id": "aegis:train.json:75c196a3d31a41e880ce18b4ee4b17ed",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:7612651ee9eb42c580fa0383e77b982f"
+  },
+  {
+    "id": "aegis:train.json:6e6231362fb040549fa45cd325621274",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:b6077bebe17c4ced872ca634256b6f53"
+  },
+  {
+    "id": "aegis:train.json:7bf20dff310a421088fad76cef301725",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:a2c62fa178eb4b2bb9befde02dcc6cf2"
+  },
+  {
+    "id": "aegis:train.json:e8e0941ddec64d3883d00ef93335d9e0",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:06093b9fa7e14c019c2a2e3fdcc27699"
+  },
+  {
+    "id": "aegis:train.json:398b74ee32964039b82f5672147a57e1",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:c4dc41e7805045ff973841112d8adf30"
+  },
+  {
+    "id": "aegis:train.json:9bfb49ff398d40d4bfe77a6804782ccc",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:7bca4c028b3f4df1b49192329ebbbb54"
+  },
+  {
+    "id": "aegis:train.json:4f8881d26a074306af7fe86f0109001c",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:999246b38b8949f88b994ec6fce75812"
+  },
+  {
+    "id": "aegis:train.json:87150560a4254101a60265343570f60f",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:e0cd5a2b516240ef8e9947e6f7a731fb"
+  },
+  {
+    "id": "aegis:train.json:e6ccaedfb449469c912b5b87a92014ab",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:91c98f4c48c940c2968c7c2727f58b4c"
+  },
+  {
+    "id": "aegis:train.json:adaa8844debd421e89888fc1e49e982b",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:34bbd81a9bb746c4998db31e3ccaf639"
+  },
+  {
+    "id": "aegis:train.json:f2401464fa2f44888fe5047b436e0cee",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:496c09cbd51b4dcd925fb296a5194e52"
+  },
+  {
+    "id": "aegis:train.json:b9e8152e7ae44f7ba789d8f04339a0d5",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:e245da8380b040b082180fce64b227a2"
+  },
+  {
+    "id": "aegis:train.json:f6bd8fbe79674746bb7ea2fa9dc3818a",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:6ccf0309cc23411d816a605d07805062"
+  },
+  {
+    "id": "aegis:train.json:22a82849f3504f84bfe671cb7baa7f73",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:ed64b17b0ac948ceabd4eb4ecfc30c49"
+  },
+  {
+    "id": "aegis:train.json:bfb9675b9f1249a49d103b9fd3e29437",
+    "role": "aegis_pool",
+    "duplicate_of": "toxicchat:c57c20d58fb9d06952272f96cdde331857b853dab32516aecb1692f2655931b3"
+  },
+  {
+    "id": "aegis:train.json:e527494639ee467fa2bc69b32fcc1770",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:39b4baede68149a3bd487eff5ef5eece"
+  },
+  {
+    "id": "aegis:train.json:b244d98e96b14ed9bedecc098fca05bc",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:8c0735c551a24ea3962f0be913167d21"
+  },
+  {
+    "id": "aegis:train.json:f66c9673fa994f5fbbb67b2588b04f2e",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:9890022ea1794968af3db31ba738b463"
+  },
+  {
+    "id": "aegis:train.json:c7e6db344fac4e65bb666aec6c92a0ad",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:bc01cce84d7f4b72ae9caad3cb0a8618"
+  },
+  {
+    "id": "aegis:train.json:a780f34f10b543799f225e782c79f9cd",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:b731bf0a19654b49b245043cb7d37388"
+  },
+  {
+    "id": "aegis:train.json:284549b5cddc45cbac92831240205c6c",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:93b8c47ff0bf4dc28adb8555c5bcc354"
+  },
+  {
+    "id": "aegis:train.json:3fe33abb06034d348e3cd996075f1359",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:eb4bcc979dce4a7eadff5d6145e9dd25"
+  },
+  {
+    "id": "aegis:train.json:a7ccaab1e4c6425c8aaa8d4f5f1115ed",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:d5d61be14dba443291cc3f8654c94d94"
+  },
+  {
+    "id": "aegis:train.json:9bbeb229d97f446cb1393cf30737a9be",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:b852b765faee4c209fdb14ed4788a082"
+  },
+  {
+    "id": "aegis:train.json:3f6efa19aa3d4135bf8e70b8d07027f3",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:678b98a656e94d748dfdbf99f5423182"
+  },
+  {
+    "id": "aegis:train.json:e4c2f6dbc6bc4cca9d6bd360de32a262",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:73c3b83cb1ec47759e0bb331a17e7629"
+  },
+  {
+    "id": "aegis:train.json:4c47f60d2eab43e7bfa6d2387ca08f1f",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:6cb65e2023b448dd9b99d9996664f8c7"
+  },
+  {
+    "id": "aegis:train.json:0b213f79b4394a13b1ebe0f4d9117806",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:c529e26f84ca4a4aa79c415b4bf68dab"
+  },
+  {
+    "id": "aegis:train.json:75646fd9dd2d4a7d87f16f90031711bb",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:59383caef13643089bc3cb85f3d21e07"
+  },
+  {
+    "id": "aegis:train.json:79c309ebb62e4b50897ed0b3f1530e86",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:aaa48e9a6b9f461dba2974a2de79cf2b"
+  },
+  {
+    "id": "aegis:train.json:fd52f8d6853b4351bbcf4ff39379e046",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:0cee2c80c5084f308f4b77c737e3c386"
+  },
+  {
+    "id": "aegis:train.json:83d30536635d47a68ae0c04c589860fe",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:test.json:fa59ee47b84947a28c9ad393febe6468"
+  },
+  {
+    "id": "aegis:train.json:6d9b367fd6844a958542738ed588543e",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:train.json:57844d26e8274dbda55910cfa897b653"
+  },
+  {
+    "id": "aegis:train.json:727d62b6f00e405abee3537523484930",
+    "role": "aegis_pool",
+    "duplicate_of": "aegis:validation.json:84d6204124344b11926a9020d353e371"
+  },
+  {
+    "id": "aegis:test.json:1bbf59220f27456db6a7f66b4bb1f338",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:c1d6c9d07a4b47acad9d0df1fb4571e2"
+  },
+  {
+    "id": "aegis:test.json:5eb70e250d604e838936731b92ca8fbd",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:2ecd6f31917840e4a5b00a302f9fbd5f"
+  },
+  {
+    "id": "aegis:test.json:705b607b214044aeb9a92894fda968fc",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:c1d6c9d07a4b47acad9d0df1fb4571e2"
+  },
+  {
+    "id": "aegis:test.json:0fc38a253ef34a2c9099d2926aafe9f3",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:validation.json:b9598e747f8845d4aacc3ec550df0bec"
+  },
+  {
+    "id": "aegis:test.json:195847ceb1a14c15a484cb899bfd1e39",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:validation.json:ba732eb4206345fca722a59535d2b8a6"
+  },
+  {
+    "id": "aegis:test.json:404b787a154d45fcb68dfa11d7966e64",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:27b648669f0148fc99cf0eccd492b576"
+  },
+  {
+    "id": "aegis:test.json:d2363e7143064c7f97b71c86fe85aa8c",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:2ecd6f31917840e4a5b00a302f9fbd5f"
+  },
+  {
+    "id": "aegis:test.json:66624dbbc1ac430a9545d042e65f88b2",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:dce50ff574da4d36b2452aee094dfd6b"
+  },
+  {
+    "id": "aegis:test.json:d81dd75ab8184b04ba07fd5284bdc70c",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:test.json:c0e6cbf5bafe4fdc8db1b814e1d8caba"
+  },
+  {
+    "id": "aegis:test.json:8365bd27968c4771b09a4f2ad892cef9",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:7acf5882c7f84a7093d792bb7c0bf66d"
+  },
+  {
+    "id": "aegis:test.json:2369000c7e364a999e24c333ac4ff82a",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:7acf5882c7f84a7093d792bb7c0bf66d"
+  },
+  {
+    "id": "aegis:test.json:2785470cce54442aa181c05a2c32d9e0",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:39ba9ff5fd994073856da362bc4d4cdf"
+  },
+  {
+    "id": "aegis:test.json:d3033cf359214a1886a532cd03184c47",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:c7ee79b5e9b345cdb6f9a12f48be8a7f"
+  },
+  {
+    "id": "aegis:test.json:60078d00df3249e0887f0ab2497abf91",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:fc20c4c62c39446398ee5b8bd587120c"
+  },
+  {
+    "id": "aegis:test.json:ca7a5b5b2f0b4fd8ad68302cefd54693",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:447051381ade416580716d48ab963568"
+  },
+  {
+    "id": "aegis:test.json:3581f97bc5394da8bdb6f047ce97eb03",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:d97412ed67b54723bca745c8efb1a69f"
+  },
+  {
+    "id": "aegis:test.json:c3d15fd53b474e7aa0128b22b07403dd",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:928c23bfd9e046538a2393bda520ea2c"
+  },
+  {
+    "id": "aegis:test.json:e81af3b4e5df48ae86e3cd8bfb3702bd",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:b525105b6a7b4ff0b1dd91be2db6ab5d"
+  },
+  {
+    "id": "aegis:test.json:cb96aaf76f8d4894a5982e7f9385fce8",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:6d35f37df51b431fa17fc823b573b756"
+  },
+  {
+    "id": "aegis:test.json:09b43fd521774674b044bee45314e6be",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:5101a767af814435b59826a6890b73a1"
+  },
+  {
+    "id": "aegis:test.json:86d77a6f6b68477cb5feb4960be36946",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:test.json:ffb872596e1f4b2c9fbe72259e31c908"
+  },
+  {
+    "id": "aegis:test.json:6caa6c5f442347a29cf97d3bb6f835fa",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:dce2031643ac41e9aac2e233309f82f9"
+  },
+  {
+    "id": "aegis:test.json:3d3aaec81daf43a4b2e9139f4062d011",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:d1578e05eecb4398bcc6eb39d6d707f7"
+  },
+  {
+    "id": "aegis:test.json:fef405b2f8694864a60c9ddbdf01cba4",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:validation.json:308e92b69b744593b26426457dbaf788"
+  },
+  {
+    "id": "aegis:test.json:901be4b390dc43a39baae5e2187c153b",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:validation.json:6886fc7eb247493b8fa13d42b800607d"
+  },
+  {
+    "id": "aegis:test.json:324d475f643b499eb23967f13eefbbba",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:5bea88bb576d46b0901237878f420af2"
+  },
+  {
+    "id": "aegis:test.json:5dc77ffca61d4c99988cc714c2d157a9",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:9162e7a7f587437aab3691d9674ca84d"
+  },
+  {
+    "id": "aegis:test.json:8f8820e45c6342b89e729863d3abb82e",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:validation.json:f638443313e1418397f7bddb999c4a7c"
+  },
+  {
+    "id": "aegis:test.json:93675726168943dabdb2f3760df043b6",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:fb65ab9a68254275931891f4e0207500"
+  },
+  {
+    "id": "aegis:test.json:01a3dcda328a464386939e0b4a7f6ecd",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:5f1065da68554691974c3d84ad14c52c"
+  },
+  {
+    "id": "aegis:test.json:a223e67cd42f4b429f1dcae1bf8073bf",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:107a0413c33e40d396807b9e2bdb1365"
+  },
+  {
+    "id": "aegis:test.json:6ac8ce12ea8345b0be1c566ca5b8d9a6",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:1fb525ffe1c54017bfdd43dfa3b216bd"
+  },
+  {
+    "id": "aegis:test.json:28b3adff94d74544ac2f05cc6d2e5ec7",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:c9ee9dff93954de78fdb5b0fd68395d7"
+  },
+  {
+    "id": "aegis:test.json:f4f1f0649bb842c7941bf97471549544",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:7957c76061f447df85d3775ef41225e5"
+  },
+  {
+    "id": "aegis:test.json:11b805ac0fcd464da609c87d5b15c755",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:validation.json:ed6160386e9946fab92012355503c908"
+  },
+  {
+    "id": "aegis:test.json:075071b48f74481c980e9ad4e1394cac",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:1022bace6592485fab9ff4afaf37b404"
+  },
+  {
+    "id": "aegis:test.json:a2a2933a71ab4544a8f1d82fb0273227",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:d8aa28ff6af249e3984c8189b836aa35"
+  },
+  {
+    "id": "aegis:test.json:ae9d84febe9c4521921e1e079fcb12de",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:ae368916952c493599e8da685f6d91fc"
+  },
+  {
+    "id": "aegis:test.json:b20765732b164c249a4f6046ef099f9b",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:test.json:4d6e81fe04fe43e6896bc2757af66a3f"
+  },
+  {
+    "id": "aegis:test.json:b13150e149774c94b2d83e052f97f74a",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:test.json:ea7f52dc6d3e41d4a3752e80dec3f9b0"
+  },
+  {
+    "id": "aegis:test.json:2a180a889a6242b3b99ab1864cd96aa7",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:46e096f01d84481999203f19cff70965"
+  },
+  {
+    "id": "aegis:test.json:31c345718dc64962aaa3824938586530",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:97d8bdcda7c54e5199605008a9d28eb4"
+  },
+  {
+    "id": "aegis:test.json:65c31ab557984b9688051c3276618e8b",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:test.json:8b1ded79d78247edab0b13f571689b47"
+  },
+  {
+    "id": "aegis:test.json:d19b70441351417da3e2f43aeed4ff95",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:validation.json:8d41d675e4bf44728b18aca38a552d36"
+  },
+  {
+    "id": "aegis:test.json:962a5562f2e94b19b11e02891a1c158e",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:2814aa8f95114304bdd3cf3061cc82e0"
+  },
+  {
+    "id": "aegis:test.json:cefc0641b1da4ec59c7515a0878fba5c",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:19b9ae6517ac482f8ba0ac29872b8845"
+  },
+  {
+    "id": "aegis:test.json:2676afc88500427ebb54398979f5b928",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:d564ae80715642a1909f6c51e1b93384"
+  },
+  {
+    "id": "aegis:test.json:ec5d7d273d2e416093e3cf4888880f60",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:validation.json:28dab908961d4d6c87961f7171dfd5fb"
+  },
+  {
+    "id": "aegis:test.json:1f3c671b561548bfa64600b2817bc9d5",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:validation.json:5240dff45d8447f4becc8a2d9966441a"
+  },
+  {
+    "id": "aegis:test.json:523eb4a0dd7c45f1bd070345e5dc7d98",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:cc5c5d12dd974c559c3bdfeafd017c8b"
+  },
+  {
+    "id": "aegis:test.json:05de054128414722a674f927747dac3f",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:1d02d40a267e49c5a49369963ca10055"
+  },
+  {
+    "id": "aegis:test.json:51b88577a7bc4f50922d299c7be14c51",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:1318158fe1e144c1bfea072f97fe0dbf"
+  },
+  {
+    "id": "aegis:test.json:e3ee8ef99d7e450e83335232e0cbab73",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:test.json:3a9621be60524049aa9ed387d88d8745"
+  },
+  {
+    "id": "aegis:test.json:1132537840954502afb4c08a01f442c7",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:bbacef1407c4428981b5f1e6c9050f7e"
+  },
+  {
+    "id": "aegis:test.json:8026a0d68dd74c74b5e0f7ad05a0e816",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:c86d9c5ff75341d2830fc7659e6957d6"
+  },
+  {
+    "id": "aegis:test.json:0c6278c4a50a4a82adafb1b0c720a17c",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:b23a1f79689e47f99b289a0ab9de11d9"
+  },
+  {
+    "id": "aegis:test.json:a93b986b0fc04c50b655f1061939bf20",
+    "role": "test_aegis_official",
+    "duplicate_of": "old-cal:5"
+  },
+  {
+    "id": "aegis:test.json:5f538d3e78f74e50ad2dddd0bd592fb0",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:6f70f8a6d99f47c087631744c0382d06"
+  },
+  {
+    "id": "aegis:test.json:1c8ead815f784999a9f64976d7451ce2",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:cc5c5d12dd974c559c3bdfeafd017c8b"
+  },
+  {
+    "id": "aegis:test.json:0983811a7bb241e892e4bd8f0eadc4ea",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:c1af7391f5584ad2a9cf4da294e61dc8"
+  },
+  {
+    "id": "aegis:test.json:545604bfc96f41ddb15194be92adf2e7",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:82d64e9ff16642ec9296b8f8545e64fd"
+  },
+  {
+    "id": "aegis:test.json:52679f73c0ef402097c557350a5a0f5a",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:validation.json:0075dbe566664ee5850cbbcfab5cb127"
+  },
+  {
+    "id": "aegis:test.json:d6c933c1c8304a4ba0534f68a886b123",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:4a3fb4d0532045b0a47d6a63df1808d2"
+  },
+  {
+    "id": "aegis:test.json:598d13824a77421fb909d08c01b4e994",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:validation.json:245e5c10ac1f4808a9f3439def9c52da"
+  },
+  {
+    "id": "aegis:test.json:cdb497fbc31a4c14a77f59cbd2e23e04",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:49031ef295934841b7a36034de565023"
+  },
+  {
+    "id": "aegis:test.json:88c3251f91cc4e16b9d3cd140cc5c4fb",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:ec50dc9a67cb43498cb49348861257ba"
+  },
+  {
+    "id": "aegis:test.json:761c563aa50b4d9ea5d6a5d85c98f9bb",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:4b964fe7011040418f9bcdbbf8528869"
+  },
+  {
+    "id": "aegis:test.json:f84336c5e0f84f9db762860846dd632d",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:test.json:6e38ecfac5a143fe9da491f93d238ae1"
+  },
+  {
+    "id": "aegis:test.json:38f813be9988497abab78de90802d3cf",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:test.json:d4b9bb1637b5417e9405364b46260292"
+  },
+  {
+    "id": "aegis:test.json:a1abfebe048f49448c3516ac15e7adb0",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:78012e4f92ee4b86b91257de2862718a"
+  },
+  {
+    "id": "aegis:test.json:864b09c5b8bc4de4a0e596000b96351a",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:test.json:9f86cb3c1da64377969a07841778f879"
+  },
+  {
+    "id": "aegis:test.json:9cb0565d9089490cb6126711bc1693ae",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:32ad017419fd4a4390631e9a03815c09"
+  },
+  {
+    "id": "aegis:test.json:6ed5021abce54caaa86cfbbc62b2c185",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:6a5f1345508a4d488d0f6b7d4f9a696f"
+  },
+  {
+    "id": "aegis:test.json:e26716c62c6046c1aea8a2ba982ffa44",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:beb17459c24f4768a996db02182ec8c8"
+  },
+  {
+    "id": "aegis:test.json:f3421f11330e4058808fe4c7e09b4213",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:test.json:ef065c64c20f4987b664f462e2f11aec"
+  },
+  {
+    "id": "aegis:test.json:d4cfe523e5a64c51a6df27cdf91e5739",
+    "role": "test_aegis_official",
+    "duplicate_of": "old-xstest:176"
+  },
+  {
+    "id": "aegis:test.json:2490d4d5777f4397a562249b9660eb67",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:b51da4a42be047a29c4c4ae6e908a2b4"
+  },
+  {
+    "id": "aegis:test.json:67c6a71ebc1b4d7ea1601b6cf4ab5cf7",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:dd2757b84cc64947aaa7c14767374771"
+  },
+  {
+    "id": "aegis:test.json:5080cf686eaf4edeb654595126ce1784",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:2c5741dc86fa4ff5874115ec9d8ae64e"
+  },
+  {
+    "id": "aegis:test.json:7800c4c818374c92adcbd1986fe933f2",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:dc40b10858604a199ca8bb7edda2b5b9"
+  },
+  {
+    "id": "aegis:test.json:19eb9763531f4f0baef0b65db3639515",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:test.json:66852ba0f610492a9c4ed6dc3e8025ae"
+  },
+  {
+    "id": "aegis:test.json:c19ce3d35952450a9f095de18e87b19b",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:fe967347e23842f3bf7d349c58ed9aef"
+  },
+  {
+    "id": "aegis:test.json:543bf8920b0d49c0bc457ededd1c59f2",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:6a27e66d4aeb4f3b8847fcf511e60bd7"
+  },
+  {
+    "id": "aegis:test.json:fc4e900569014911bce205ffb821d9bf",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:validation.json:facc8cc1fcd142a6bde95a958bd48957"
+  },
+  {
+    "id": "aegis:test.json:8418a5414bfe457696d7273d8d7edd74",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:6bcfce32b8f9421cbe31ad3548ad3ed3"
+  },
+  {
+    "id": "aegis:test.json:8a08fee14c71463d8ef245b99126a1d1",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:d246aafd90164e2eb423626e0e82c610"
+  },
+  {
+    "id": "aegis:test.json:d6e4780a21f1402bbb33360147e3a06d",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:test.json:a0e6d315994b4e32a081ac3a2139404b"
+  },
+  {
+    "id": "aegis:test.json:25eac4f871684b679464049b5c376d98",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:7a489a408f0246e897d5604531d7b2be"
+  },
+  {
+    "id": "aegis:test.json:58890e501f584ab28d09bc8ad496b865",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:04e3684c7e764e2ba528580fdfcaf919"
+  },
+  {
+    "id": "aegis:test.json:b851d8ebd7f84fae8829d3acbe9537a9",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:validation.json:f99b6522a41c4d41903895828ef48242"
+  },
+  {
+    "id": "aegis:test.json:c7ba6b0a39d442fba54a10dc05b76dc1",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:b5ff6356c67f42e1babeb8a38ae6ee48"
+  },
+  {
+    "id": "aegis:test.json:4f6f28b0f8dc429bbe838cbc490aa13a",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:c97ce0cdc35e46da82070ddbe174df92"
+  },
+  {
+    "id": "aegis:test.json:dca95af9fb5f4c7a97946630a95c314f",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:cc8ddb00970340789e31dd94ba9cb68f"
+  },
+  {
+    "id": "aegis:test.json:0e055f4bfb184935b13aca30bcbe17bf",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:7295b7519dfa408d84ffd48c731cd069"
+  },
+  {
+    "id": "aegis:test.json:bf332d052bd641bf932154287ec37861",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:test.json:adca3c40b82549238457c12e96b01abb"
+  },
+  {
+    "id": "aegis:test.json:bbd2a8fd1cfc4334af694a8205ad53cf",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:ef5c68239cc44738b17668920f084a8f"
+  },
+  {
+    "id": "aegis:test.json:6483f3056896449982c608765e39a46f",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:4aec5751d55a4fd281df2952e2d9cc1e"
+  },
+  {
+    "id": "aegis:test.json:cddb95a0a0f34b1ebf07e3f86dac56be",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:aefbdd636e4b4f05957c9de9e2376619"
+  },
+  {
+    "id": "aegis:test.json:92abced2c4764af1a2b5af235fa00bd4",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:test.json:8e226f8cfe5a4edf879babebebc6d91d"
+  },
+  {
+    "id": "aegis:test.json:d026f668abb14bbca9c44f982b0f9fd1",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:e96b345d84ea45b487d5e672688f56a8"
+  },
+  {
+    "id": "aegis:test.json:560e66a6bf69493eaffee9c33b67c1e9",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:8c0735c551a24ea3962f0be913167d21"
+  },
+  {
+    "id": "aegis:test.json:9e9038511e3448a0a9a75551762fd37d",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:592e94f739544c5585a23b2f4a7b6645"
+  },
+  {
+    "id": "aegis:test.json:4b59896a24ce4b579b9d81580b270d61",
+    "role": "test_aegis_official",
+    "duplicate_of": "aegis:train.json:42ce780e43d240b89863767d6764b2af"
+  },
+  {
+    "id": "toxicchat:adcf47884eb86ba5b86550301837f6dbad091edff6e81fa2b6211d1737bf73c0",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:c2b4fe6b5bafad76e91c67a68d413dc29bc18f99d0f9464455ac91b5198c47b3"
+  },
+  {
+    "id": "toxicchat:e4bda435f29ef7a2b4dcaf90f5a4e55df463b0afbba05737c0b096c22a86a19f",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:e50239c6be4e16e44a4ed3a1fe381b7a84c0a3d3ee6764cf84195dfb717a504f"
+  },
+  {
+    "id": "toxicchat:4a769352c95f37da63646ace30ec53a5fae862455ad7263299dd2af36a796858",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:5dad512c33b9be37d105bc152cd86b00a8df76f9524b87414d58b003ac4ba396"
+  },
+  {
+    "id": "toxicchat:a08671cb1b5a0cfad2ff5bcffdc0d943ebe8ca8ba155505899e3961f889ce5b7",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:train.json:b1b46e52abf64fd386e9bad715aecb2f"
+  },
+  {
+    "id": "toxicchat:db00c1abbc54317f17c7be8fcd494d2e8370887a1c974b78389f82880d81c764",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:train.json:3ca9988595474570a23d212bacfdd8f4"
+  },
+  {
+    "id": "toxicchat:84f097902ba544a3c7b7d1fad1983cb4c5808f35e636969cfcd68779423fc50a",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:c2b4fe6b5bafad76e91c67a68d413dc29bc18f99d0f9464455ac91b5198c47b3"
+  },
+  {
+    "id": "toxicchat:acecce3f4ed24ea1bebb6f9f76b07c145156f7ec530350f8cab17e46ba3fa15a",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:validation.json:ed3dd3ce66c744f9a8aab35ec6c883d4"
+  },
+  {
+    "id": "toxicchat:c4abc208453501fd5be6fa50b2533c38fc092684fb4152b6c4d2db8a543a0ac3",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:validation.json:52d51673339a41f39921749fec5e28ca"
+  },
+  {
+    "id": "toxicchat:593b8e4fbf9707136e0b327f0c75d9f79d3d72202e31a3cdcf86e264e1744861",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:validation.json:47e07d0b07ae4744a1fb6cf4b64acde8"
+  },
+  {
+    "id": "toxicchat:34c8fa26dae128874fca05b7366012562005e38bfdd38a6504c8d01e349a44df",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:f261c00477e709edfa512120a7674770675f1d09c64e5c3075b6ca64ad88dd1b"
+  },
+  {
+    "id": "toxicchat:677f6129fb0f2d4dda461d36414aeeedd61fc7fe9208e7d4c9fb87a9e9902e3f",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:aa9782464ba1867a395fd8b0647674ed2c42dec359820e10826fd3dc94445152"
+  },
+  {
+    "id": "toxicchat:e5a3fb6721108200d9d067084de2cd8a8ec223fe0452b1e8dcf9d9803377539f",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:train.json:c1d6c9d07a4b47acad9d0df1fb4571e2"
+  },
+  {
+    "id": "toxicchat:c3cf700d14bf93c2b5661f6b4b5615cb600f0ec756da2264b08beba94dcc8e24",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:d9ab8725606ae84b54073fa786f71eac3b45b1ca1956b77ce69d6f681fdd8ac2"
+  },
+  {
+    "id": "toxicchat:9bab42c4f4bb17d965dc068d3a20f9f44d5b1651a521cc9b1be999ac0b2e5dd7",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:1ee6489a5769435d65a9dc115a6098f752da19ef835c56dcbe1bb7b89546726f"
+  },
+  {
+    "id": "toxicchat:bfb1c04b8d90fb6aac074542e5a6f7ba5284e49ca74c123ad0025db91f07fbf6",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:train.json:28a319e607a04cc6a5f28587fd7b55b7"
+  },
+  {
+    "id": "toxicchat:91810eef4ca37793f8c4bc752d43ed58393d7b21e18f188655d1538c8fc42f73",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:train.json:e8eefb5ff86f41188dbe454841f94228"
+  },
+  {
+    "id": "toxicchat:9b2c5ec755d2951915c9c521261374687a6903867642e0a970dea3717527f2dc",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:0c5a481eefbbff608b605253b4c4190012221d0970d470b812e888d9887d931d"
+  },
+  {
+    "id": "toxicchat:2d02b34943c22f8a3939814417ee4529b7c06ce07199d1025dc823228c001fcc",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:train.json:3ca9988595474570a23d212bacfdd8f4"
+  },
+  {
+    "id": "toxicchat:2c73e32a96dae6599b140adae51341cfd3cec6920bc13f241c77c475f71da9c3",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:883e4f0c49888f3690feb53aa333e0803d14952b7b9081b1172a56b02e4f23c5"
+  },
+  {
+    "id": "toxicchat:4a10b49de93bf59ced18c3c0901f17611479bd6f01154f69d7302a839ce2770b",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:ade9eb3edbdd90ff5f75a813e899f4bbb065ed7bfffd8b3050bd12d5b78e3a07"
+  },
+  {
+    "id": "toxicchat:eeeabc6792d786748b02dc0dcddff20c4cb729252e4416350d369727290c6e99",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:0c5a481eefbbff608b605253b4c4190012221d0970d470b812e888d9887d931d"
+  },
+  {
+    "id": "toxicchat:c839392951b0772ddf7c91160c4e14fac5ea803b9f961451944f631262fa2057",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:739d512cf2900612ba576e7dd59dfd936f2fb419b77a1ad8fcf10fe91a124032"
+  },
+  {
+    "id": "toxicchat:08064b873c3afc0a30087fb9e0c61f00afcb1f5d60798060be83ca81f9054592",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:a27de39d22694b3d27973674385e4a533619cd15c643d947d927d9e497959484"
+  },
+  {
+    "id": "toxicchat:f2704845d9eb215edbfc3303c03c5de63bc9b3f22eb3ad16359440fb4ccc262f",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:cb280277cd86c662f875f4da04cad84183a22d0b8d1f63056d0f62f9e47101c5"
+  },
+  {
+    "id": "toxicchat:50f04f742e360241bccd82bbed7c5b88d190b36f170d5c059d4b786f14af174a",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:26c4d498325bf7a2ef8458756e08497af0fcbbf0e44d6c619fd83819e0d4190b"
+  },
+  {
+    "id": "toxicchat:2a7d7f266a9d0ce83d84e76a11de7e037a0078ff0789381a0e96aaab8d56b2b0",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:6c00e2eb758bfb4ac310ca3f02a60426bc45c5fe0ff967fda70a3447c598fee7"
+  },
+  {
+    "id": "toxicchat:1f9b6fd94f78f304afad3cdd7132a9628440a68c73cd1a191173d5ec554daa3b",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:0c5a481eefbbff608b605253b4c4190012221d0970d470b812e888d9887d931d"
+  },
+  {
+    "id": "toxicchat:719276d5a3b44b1583ae42c2765492ff02217aec24667531ded88c8182fe119f",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:590a9f84e7c1f8bf1c9d488a465d34b6bd7a310bfb6bac2dc0c6d29fba96ef29"
+  },
+  {
+    "id": "toxicchat:500dc1b5e59e25da191be7fc489d547a188499142331907483cae442d090c728",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:bb683f7767bbb9d646d88ac282cf5ee04021d31ef01e4cff46549c6ea15ea601"
+  },
+  {
+    "id": "toxicchat:830ef54534b60c7f45cffe4761a17884f2e5041957c3a01141bd38832b6a402a",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:9021a2a2de5f8a80b3d0276aa03bde539793c58fe74d8ee71d2988b1342626d3"
+  },
+  {
+    "id": "toxicchat:48cf553bb7a4afc6a8df4cce40b0f2d7a57bda0200e219364031ebcd7b0212ec",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:train.json:28a319e607a04cc6a5f28587fd7b55b7"
+  },
+  {
+    "id": "toxicchat:b6f0cea745c0d78c455f3e032885203fec56b93913f9f13d72d95f52438a9425",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:ec1db7808f4d089b00c6c45f6bef5368a32fb7bae508d1efe8a98f0dbdd54be6"
+  },
+  {
+    "id": "toxicchat:c5562dec39f46c23758c378d0ec14d90e9d6e1094465f502562b269e4ccc3557",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:dbd7ad6b0c126421a8acfbd1de86bfbe51d04ac9c7058f8c10fac3045eb29e5d"
+  },
+  {
+    "id": "toxicchat:059d28410b3073f0c9a5209d32913c3315775fafaa84e0d32b0644838f878b1c",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:bb683f7767bbb9d646d88ac282cf5ee04021d31ef01e4cff46549c6ea15ea601"
+  },
+  {
+    "id": "toxicchat:69279fb1e87ec096a583a7d5fb35db177210a71d2c3ed070771645d0d682ac32",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:cd859c3fdaaf4c3ab2c82286905a0c05fd4d581e7ac469616b97bba78280f41d"
+  },
+  {
+    "id": "toxicchat:4d75ebad7970644594010f78812d106222399b8a13eed9124f446f364638e1b3",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:test.json:ef877d4c8eec40848c3859f0c7fb6b41"
+  },
+  {
+    "id": "toxicchat:7381119fb14218cb79e3cb89ad4b8082ba53c2afed1488a4782944ecc6d03e01",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:03291d836a41682f9ebad98460458691487489bab5419e1315129906b66ac47c"
+  },
+  {
+    "id": "toxicchat:71674710422ce240df8b9dc76ba7fb1512f036e2fe6fe508cb2d8df0dbe31386",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:train.json:266f080fcd06461ab54b1f95518f8ab5"
+  },
+  {
+    "id": "toxicchat:4244b2d9c8a811a91f36bf1f765b307cf132308707321c184077da8a0d27866e",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:validation.json:0d6a97fef07d45959f460eff524ff3bd"
+  },
+  {
+    "id": "toxicchat:41da9cdc238b2e7b36aa25c821a2562eb3ee6097cf39972be55432cb87210bd4",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:3a3416b62a07fe88bb7be0632035a65844aef6a67fe6c46f91d3a7692b36ee47"
+  },
+  {
+    "id": "toxicchat:15bea960d9511a232fdbdee1ce2c1e9c593aef176da67b1fa5efcd4e8ba1efb3",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:fd8b43a066ee0320550e867ff51ea6fc760168d48b2e29eb4df73704c0d9e67a"
+  },
+  {
+    "id": "toxicchat:80f2a544c6400c37b6135a0ade9210db4b76d1eb7a0ac6712aaa071a90b99b82",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:cf5f3c5b7b05fa8fd5e33efcd9d049a7d3af5da4ae79769828d111152723b28e"
+  },
+  {
+    "id": "toxicchat:bbecfb809c3abbb0ed2fe5eea40e5256b13f5b4fd45f847b72993673267b25b4",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:24bbd065d450160dd3725f972633b6bf1184ea52c15a6448baf4f4252872ed34"
+  },
+  {
+    "id": "toxicchat:4beaa5572639e9ed86b8e9e608c58055b3c8956069a1325861407b2ff7748ef7",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:1a7d69a841b95eb651ac8bd2450584cd844da518cbbfebced65c83179e72fe5b"
+  },
+  {
+    "id": "toxicchat:6c2b0d3fb335e74c33987441b7c8b459bcef7b5320a38d8e646ab966e15ebcc9",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:c57c20d58fb9d06952272f96cdde331857b853dab32516aecb1692f2655931b3"
+  },
+  {
+    "id": "toxicchat:e653d116baded815d5aa9703e7fe2c177156955b4b0072bad7f477b758642069",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:97ad881b8140fc4c9e8b9409b7186767efc106bfbfd0f75622f89da59af22f9b"
+  },
+  {
+    "id": "toxicchat:988f2cab4c88a362dd861c32f56c3fdd3a9dcc936abce3421a00ffb3154d1405",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:632760e2d5d36919be9770dc64c256a2f7ab057ad668edd3cf7c69412c64e3ee"
+  },
+  {
+    "id": "toxicchat:c48feb9050875646e68b0c26b5bb08010d6dae59bd641b71252246192dcf1031",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:18c411129d69b3ba023887d31094d8ddfb8c00313e8d19f20525532fa88718fe"
+  },
+  {
+    "id": "toxicchat:d477e980837ca21a7ca4e618856f713ce582cdd72aa5af1e9f8d489b3fb73d38",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:d635ba9440b4cf35dd02ebc0297e1a7ed4e155c25298c4a4b926a495a5c389c7"
+  },
+  {
+    "id": "toxicchat:7ef5ba3be6777cbd9764012109ede8706a9f3fe1723c4f42250fd2c3fc51f5a3",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:b7f11983f6bcce0a05579aec82a7cacba498b5212b6e4a71d14a876e144d0278"
+  },
+  {
+    "id": "toxicchat:28c8c2418b11740198705784a542ceaf8a018e194fc132ef64ae36d2bda4b9ec",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:2aa9d63c9a92bd77e5119fcff1bdb63f0d79f33da1bb323011984e85e71b309a"
+  },
+  {
+    "id": "toxicchat:e24771a7e72c1b5ace394117861f5ebf21cacf17a63d3cadec9abac22d3a33c1",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:train.json:a1bb621b56824ebe976655d934950743"
+  },
+  {
+    "id": "toxicchat:a3e6ad1d5a94cf0dee0009f3a2ff9a94ea223b42d703f9c06b8a6a265e728fee",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:005cbae3b1fcae3fe03f491c02679050773c1611e7d29d3f09891ed8e3493f77"
+  },
+  {
+    "id": "toxicchat:2d217651f761f6f8366399de7c902826d32a21a6843cc39c4e3e2b06fb1ca4ad",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:71023f90f33e19781bdbedb12770ad7e9fe1ca4e5574a0e8cb4e3eb7d3cda350"
+  },
+  {
+    "id": "toxicchat:64e1c9500fd416b2256daed6be2a9f12f41b4335f473d2bcea471f310b2b3847",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:train.json:0437704524144183937aec0e5a6d6899"
+  },
+  {
+    "id": "toxicchat:416bce56be67e719b997a1fedeb9d3ffe61401870abe0650aa25fb0f9d8bee4a",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:train.json:266f080fcd06461ab54b1f95518f8ab5"
+  },
+  {
+    "id": "toxicchat:bc1c9ab30a8ba27140846a19aa3ec02fce004f19b7fac471b3bc13386e35bff4",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:fa26b2fef1baa0a0bef5a6626190c102f5240e5256ca619df2eec56eff8a5098"
+  },
+  {
+    "id": "toxicchat:81cbb207589114ffa65c47cf03963cc2608b3f49c3d56ab4e447eb1b2d43031c",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:b20871d305d61d3df97149e48b3d5fc25ec5b6c9c3156fbdf8e950ee93450a51"
+  },
+  {
+    "id": "toxicchat:edc242dda10626427a6d36d1d1f433d585837eb034ab1c1fe3db5c4d0257173e",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:f942537331d82638efe2eaf722a6148c398c4bfa12e6c404fbdc0ab05097eb31"
+  },
+  {
+    "id": "toxicchat:f4849120d0b2a47bb32903e3b2710cdcd901372c3d38aa40cce84ab686a40fe8",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:3cebd860b5c72d041c2a052a9ab7927b0773577f6f70877e3f48bec9f76a8f75"
+  },
+  {
+    "id": "toxicchat:2e34785d3b0da338a158ef1c65fd5f2a1988c54cbbc3afe084730dee3dbbb348",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:67c9c2adc089e6f3791beb80ce1328ae8bc271a8fda4ffbf089f57d4e1119a81"
+  },
+  {
+    "id": "toxicchat:fe3af17fd437ba69fe7f65581c88febb12e012443cfae5411adeee77bad32019",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:66e5b5a75149c27be3a6e66f9265684b1e8d56ab317a7d9537441ed396a87df7"
+  },
+  {
+    "id": "toxicchat:97e702d2b1af6a1fe698b31eeacb702d74ac72d85ac1034d6c4e8ccaa53d4f11",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:2b1e0e1a15e28a61f8b3571b89c98685396e71889dc973f9e28e5b194d884005"
+  },
+  {
+    "id": "toxicchat:2d0d5b1405fa466c9f7c37d471d7f2360b362c48429b9c7f04de1f9ff73c506c",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:36f1dd6e18beceb37c304ac804e09f530b976bdb58c334ce0dd714ba6191a06f"
+  },
+  {
+    "id": "toxicchat:d7d855596557802f22b8d7cb98574290b68cdcc1fe1e62a9439d2d1739642c45",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:e2a9a1c5eb4d07e5d578a2f834fbe0e3100e23171f0cbea9eba6434d3f958eb3"
+  },
+  {
+    "id": "toxicchat:53b8c8aa0507b39dde8570953ad32f122793f3a3c0cd77fbea46c771120d65dc",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:94a5d80905ea14a8069b84c463c3ae802ea0ea3f2527914e73c790d4287cc425"
+  },
+  {
+    "id": "toxicchat:141deffe0d58fdb0e2f875cb65962764dd44fdfd5f4cde93c706ffb8abeea6d2",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:26a7292ca1e5cc47dcc4fc1690d360c2b5e15a78e5af4c7aeee5b97ed21ebdd5"
+  },
+  {
+    "id": "toxicchat:3266ef0f7b68a620fcd92ec570709873a38fa49705fbcff7e2441b10e2f07fb1",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:train.json:266f080fcd06461ab54b1f95518f8ab5"
+  },
+  {
+    "id": "toxicchat:a835f760cc93d0c53a48adeb019b1771bcf26df8ee12c34d023dfb3e487687cc",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:d4e2446c7086eced8c260fc039b38f7065b427769795bb0cb640c9df97480918"
+  },
+  {
+    "id": "toxicchat:6dbd45f3e0159ee8e41c84b6c708dafbf1b04c8736f054e0c17017273069c98f",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:d4e774ea8cb4c05e40e1f33cd4e88217c616f1c25d2b00d0a0bcbf8ebd5048e0"
+  },
+  {
+    "id": "toxicchat:7d7abffba29258149027e35cf0dc440086876f659af1abc663e9c78933fee9db",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:b492d8a95804bf146ff3ffb99ce3380781bce43be2872930d2a04e454e96570e"
+  },
+  {
+    "id": "toxicchat:6d455b20bb49eaf0f8c6c9a0f76da9421a5793875189fa72ed3ff413b821b668",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:76b464d1390e3e078d5b111c101637460592ef89bb8316633664059025c54742"
+  },
+  {
+    "id": "toxicchat:a917110c3064371eb2ac4da5f9b68d634b890c2dde7b8a280fb7db57362a09a1",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:c57c20d58fb9d06952272f96cdde331857b853dab32516aecb1692f2655931b3"
+  },
+  {
+    "id": "toxicchat:5532662595c66f2333c119b4c28369022d138415fff7f723d8e5e667da30dbb1",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:eacf5c312fb19973972978616251759ed03ea975ad011a11fcee5eb2be819cb2"
+  },
+  {
+    "id": "toxicchat:b3071695720b5d1386014f24cb613f4495f82e583367220c0456ce1c8387d018",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:validation.json:0d6a97fef07d45959f460eff524ff3bd"
+  },
+  {
+    "id": "toxicchat:c1960de3ec5475d5df7abf82426e4b5fca6d80de5027644d5d665d5442197f07",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:train.json:266f080fcd06461ab54b1f95518f8ab5"
+  },
+  {
+    "id": "toxicchat:4071b1548bc9166c0ca9a8f734178f0c2cf4b49064f02de76ae9344c347798d5",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:bf239e3d9ba26d07dd667554184d9281a9db2f8eda23259ab350433f6b953abb"
+  },
+  {
+    "id": "toxicchat:14e67e12fdd53fda22c2fe8d80623904f5a9941c24508eee1903cd046426d468",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:c57c20d58fb9d06952272f96cdde331857b853dab32516aecb1692f2655931b3"
+  },
+  {
+    "id": "toxicchat:4cb80eeaa768a9771d1502c907ccdd1840d8a0c94d994b692182fb319eced82c",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:40342e7b891ea24fd9269bbddebf7d7442deaf940cc7843717bb00896b56f855"
+  },
+  {
+    "id": "toxicchat:bdad2f349a4fefb428af235540ab819611559cf2786a9509e91543dbdb148ba3",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:40ed56d95b7f5b405919982086d844b4b0f075decec223419ba0d484cf2c1448"
+  },
+  {
+    "id": "toxicchat:d432169aef6f7859baf18722876ef4e57246b64c3e59f8a851c1873d36153e6e",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:f4a9185a3ee8a5b634147674700d6f9fa987cfb7241e128c063e13e00daaf3be"
+  },
+  {
+    "id": "toxicchat:985fed43de372d3276700542a85982c37c6aaab7e7f21fa0ad61b2725d55aaec",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:db0aef40ee3598bd320e75129819f9a8affee7f8f03e73fd32c071fc764b21ea"
+  },
+  {
+    "id": "toxicchat:0fcf2f16a44f8024633e1bcbd5c5580aab2a2f034eabb0cb812ed85ba086dd75",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:fb94e296043fa15a1228e7165b5717542ff41b579c3fc2ce88eadfb4c2361b8b"
+  },
+  {
+    "id": "toxicchat:0732a61cc81936905b8c5c99d227f4cc2face746bfd547318b9f2600b2ead110",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:97ad881b8140fc4c9e8b9409b7186767efc106bfbfd0f75622f89da59af22f9b"
+  },
+  {
+    "id": "toxicchat:0c3a8069621731511cf3204b1984fb0790b2b20238077f65ed432ce81c8b1741",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:6f8436836e3ff10dd4d2047f542cae3d6e8c58ad1dac356e9fc76cca9137e543"
+  },
+  {
+    "id": "toxicchat:e6a26dcf840219ba3a173cc6a7dfb3d2c52f654b5b7bbe7e2f0fb1bbe6f43103",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:36f1dd6e18beceb37c304ac804e09f530b976bdb58c334ce0dd714ba6191a06f"
+  },
+  {
+    "id": "toxicchat:6581957afb2525df74ac62e520b36d4c5737ec0efa7e497a68ac51eb08bea0a1",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:07a7bc898069747f4359666f4a9aee294d5397a7303bb573bda6cc7e3aab9573"
+  },
+  {
+    "id": "toxicchat:acb79293f1b241da002d1aac53825226f1bad2a0d119b9674dfe8e9108dae428",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:c57c20d58fb9d06952272f96cdde331857b853dab32516aecb1692f2655931b3"
+  },
+  {
+    "id": "toxicchat:3c5b08583f0833ba823458d8bb7ea2cbb02266739d98b31f3799aa25c08b5a77",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:2a266d136d1bcddaf7d0ef58eab3eef65ea160d19b743137f6f9e2c57a1c5d97"
+  },
+  {
+    "id": "toxicchat:712ec7cb2ebfb58279be80ff9b329ef898ec2a02065e0fecaa97ce29040d92d1",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:035931064cf23da2822fee12baf0b6d26aed2bb907b83fdd4082d35057b97792"
+  },
+  {
+    "id": "toxicchat:c94447e42283bc576992d0d9e5270ae565f727173be250db75d3214ca7444b96",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:90c461a359b18aecb6285e671b291825579c1d92afeb22bf5f609a921e638485"
+  },
+  {
+    "id": "toxicchat:faca1f591b17698043093f9ae87f8239653833fbcda1db8e3e837ea4abff2595",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:db0aef40ee3598bd320e75129819f9a8affee7f8f03e73fd32c071fc764b21ea"
+  },
+  {
+    "id": "toxicchat:ed6f2ba5435acb703554952d886d42350a8c3e8ec5b6aeaeb177e4a79fecb88d",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:266ebec304ae9f80b470e21820982d5f80e947793e233874b5b5cdbbe22a6044"
+  },
+  {
+    "id": "toxicchat:d07aa18fbe1dbfacdcc5899b2a877471435b16f161a0e4d59a5a6c004c0f83fd",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:4e0e5fa0f7e11cf3f13e563590f89a2c0b54b43a8391dafa5265c322ea485ab9"
+  },
+  {
+    "id": "toxicchat:55a12487d6e15a54b82187a916d71806bb73b62f0dcbddf9067a6cd93483b31f",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:36f1dd6e18beceb37c304ac804e09f530b976bdb58c334ce0dd714ba6191a06f"
+  },
+  {
+    "id": "toxicchat:fcbc68e2da737fc49971f05bf7a21a81e4e8c9f34c24c9ee42ffc8d54d2e720a",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:42e73fdd0b0b07d23bf50bf7ec2849db431f68f1168311059aeb12ceaf64bbce"
+  },
+  {
+    "id": "toxicchat:7d41db8b4e4085f6a4d54591b10bb7e40af6955fda5f054dc4bc9a05ed1486a2",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:d4e2446c7086eced8c260fc039b38f7065b427769795bb0cb640c9df97480918"
+  },
+  {
+    "id": "toxicchat:b2537f0b7bc49e2b1f99f76f7b4ca31b259eb85532ed3d9c64e3d427a3607e08",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:aa853af783f98415589bd79cdc66d9781e92cb2f2abdfb2e7e5c4c75acd8ff96"
+  },
+  {
+    "id": "toxicchat:9a0a976c399ce08b5bb0bb3c0904cd1950cd36de0f5eeb320392b4260112e24d",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:c3de523a0dab2e833f3b04ead7067572673feb4d9150fbfc7561b55b5478ad75"
+  },
+  {
+    "id": "toxicchat:f0f01679baa61d1fe8357b7a2b990fba8d665bd622ab25a1ffffb56b798bca03",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:c3de523a0dab2e833f3b04ead7067572673feb4d9150fbfc7561b55b5478ad75"
+  },
+  {
+    "id": "toxicchat:9454f6b3775436001e85b2d5ebc52160fdfc4c64a4bcd6fdddfd68efeec1de18",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:3c25d5ce106664cef5f7db03987f4365d6bc2942d4ffef35ee451b9d581db251"
+  },
+  {
+    "id": "toxicchat:73925314f03f57120b9bd08f3b2aa7b0085f51d2566efa6cc7cfea8803eaefbf",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:train.json:d0979e17011b46b3adc00d0c6fc69349"
+  },
+  {
+    "id": "toxicchat:930db1249c1e7b18f5f7e9c6ea5432891881468f2676de68e78ac0e33fbb344a",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:22f77cdc283b29ab83f5a6dddde67d04c6b6393e5c62f407bc00397f21dee7b4"
+  },
+  {
+    "id": "toxicchat:22e08f661873ccf9be03f5905153323528728863d0cd2baf33ee9879f215ee60",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:4c4da265e71c1aba777c52162b983ef8cdf48e09d3dbe03bdfd04f17befbb767"
+  },
+  {
+    "id": "toxicchat:df2ba43443971b0de36d770b52efa8ef57465905253f27e4df50165409fc3b02",
+    "role": "toxic_pool",
+    "duplicate_of": "aegis:train.json:266f080fcd06461ab54b1f95518f8ab5"
+  },
+  {
+    "id": "toxicchat:bf41b63a62e11d5597f01bb78465dbef13261fb8531d87464d459378edd765ca",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:87447f0a5d8a67632b25a657d48a3eedbd1040f02b1f3079a3c6d76c04ae4eb0"
+  },
+  {
+    "id": "toxicchat:0ff766b915a10f7d841a693d42219f6026c56c9a899fe6542c05c0a9a39a922b",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:9468d16e0606eb002bcf3935f39ac6e2d1ebb67e15d042fa04da6702c3326479"
+  },
+  {
+    "id": "toxicchat:8fbaf84da404c42bbd31d87d3f5ef298227d26181f05903eb844605fa3fe833d",
+    "role": "toxic_pool",
+    "duplicate_of": "toxicchat:4391500feadda0bda9992cf2114895650612adaee18fd9e8a28e1d474a1dbb29"
+  },
+  {
+    "id": "toxicchat:cfe6a67794af3ae0a5955e56b1dbe5cde183e98b1efc0c493ec5420602c4b8bd",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:c2b4fe6b5bafad76e91c67a68d413dc29bc18f99d0f9464455ac91b5198c47b3"
+  },
+  {
+    "id": "toxicchat:afcb8034fcf4fc207a20bddadaed1a911a85866b3480294827636075a7babeb4",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:d4110fb56913b9cfdc6bf37c1cf32d4e9bcc68fe9290c2db29b8fb7b1c36fb89"
+  },
+  {
+    "id": "toxicchat:3b824d5d13fe1d3a07830c697707b59f472a9c35dd69759be42b23c97d88ae49",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:b32132b76283072335dc693e836ddf1a5db4a27211453d20c8da63465ed4c731"
+  },
+  {
+    "id": "toxicchat:f7c7c63ac6de5334781b01303761db8e96bd6de91549ee7a595116395ba035a3",
+    "role": "test_toxicchat",
+    "duplicate_of": "aegis:validation.json:bd2344a874134c5a959aed83afb31e29"
+  },
+  {
+    "id": "toxicchat:62910369bde8d25ac291168302ff6b18bd0b458d242c6c0fdfe7657c7d3927f2",
+    "role": "test_toxicchat",
+    "duplicate_of": "aegis:validation.json:d3d42324917a45d9953c4e87246dffbc"
+  },
+  {
+    "id": "toxicchat:913fe420913387dd3d51a2329756f910d3ac83478a0791df9f00838aa063e843",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:8d1c54e27c5ca52ccad339022a0d65bc7ec9a9eed153a0605a6862c5590dd637"
+  },
+  {
+    "id": "toxicchat:8954fe8de00875d53f12584a6c5df67a03b1fa8671652f47777aafe309c1a462",
+    "role": "test_toxicchat",
+    "duplicate_of": "aegis:train.json:44f73ec6afea41668d1fbe72859a8581"
+  },
+  {
+    "id": "toxicchat:ab78b2e4cece208301bc884a5559f48979955de0e7034a5662f7de50c427f3aa",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:48d4537bdf36960fe292290322fc7ff8c2f654ee314e7dbfc0b40fb0d5ed60b8"
+  },
+  {
+    "id": "toxicchat:fd4687bfa5d519491bf7fec387097975b7c8419c010f4f596e6f9449bbb44980",
+    "role": "test_toxicchat",
+    "duplicate_of": "aegis:train.json:3ca9988595474570a23d212bacfdd8f4"
+  },
+  {
+    "id": "toxicchat:20348f59d3b083b53171a144a04755952efa368318f62296cef5c0a59cf421d5",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:7d699cd95f6310c095d9a70fe122a7b05adfb49edab135923cbed49d6874d200"
+  },
+  {
+    "id": "toxicchat:94f573160409d3c47a7e8ed91e69d499e12ac9f2c9644c650667015f0aac1593",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:f261c00477e709edfa512120a7674770675f1d09c64e5c3075b6ca64ad88dd1b"
+  },
+  {
+    "id": "toxicchat:55a35f5a4e47ded69f793f808901635ee2f8ec477dcdff2d5fa95e58bddf7e36",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:187e86996a9a74dfd46889f333904ac6aedfbf98b05aa9938d4d75cec06969ed"
+  },
+  {
+    "id": "toxicchat:5859f83606a23d6e0aa620333667d5bb64a86e7e7ab90b8c468edc6277531979",
+    "role": "test_toxicchat",
+    "duplicate_of": "aegis:train.json:266f080fcd06461ab54b1f95518f8ab5"
+  },
+  {
+    "id": "toxicchat:d01c51f169d6a66928f1c2dc5a8cb69f8feb9fb1338ab0237bf027f13649b729",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:c57c20d58fb9d06952272f96cdde331857b853dab32516aecb1692f2655931b3"
+  },
+  {
+    "id": "toxicchat:efe141f0d79a38fa09b9f310df261668aeee0182fa9bcdc8c19cc77fa45e100c",
+    "role": "test_toxicchat",
+    "duplicate_of": "aegis:train.json:266f080fcd06461ab54b1f95518f8ab5"
+  },
+  {
+    "id": "toxicchat:f496145d949a28690b962681662c51b0b7c8ac6e9e8ba36c060ec9bd1013adf0",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:f4a9185a3ee8a5b634147674700d6f9fa987cfb7241e128c063e13e00daaf3be"
+  },
+  {
+    "id": "toxicchat:304c86f92ba8a7a21c803be000cd54b56d6b7144cffb9f2d6639d58405e4e8ed",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:fce912b3bb199962ec2aa6b6f01405ec8e06343353ade04892a5e32d95df7775"
+  },
+  {
+    "id": "toxicchat:14dae192ed98f61c5bc89fa882243d4352cc00d6076f3b21b6c01ef0d10262d0",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:8b899dc2e837474f98156c1691078682594885ee277a555a00cf0c2aa2ad6f28"
+  },
+  {
+    "id": "toxicchat:c64786fdc6484d1788b5656ff7a1fa6cdd9cfb1beb1542ef30eb1cf85d63c0bb",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:9a0d1e91fe21f4d557cc27a26a80cd1090f178f7a5c75717b1642747d2836b65"
+  },
+  {
+    "id": "toxicchat:834f3b1078625c86430a804124890ce0f10b82b140f55ca9294e70d1d505d122",
+    "role": "test_toxicchat",
+    "duplicate_of": "aegis:train.json:266f080fcd06461ab54b1f95518f8ab5"
+  },
+  {
+    "id": "toxicchat:3e6eaeadc2ba2885c16b70c659e9dd9f089a80df29f8d1e6cadf21c6dc11778e",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:7a6c3b8e45d5c1d5b1e3363d322317aff69b5d424efa017d3e35553b1e1e0fd0"
+  },
+  {
+    "id": "toxicchat:b5936dfb6648cabb41019a670ddde15aa64cbbf269ee9af577c9eca51c16f579",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:d0a5f53376438313c6d17a286fa186835aff6a266c32a337377a64ae643c15fc"
+  },
+  {
+    "id": "toxicchat:dcf8f9e56b0a6f660ff9ba0b8cd9002aff84227ee199123a054c4756e0c8def7",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:74f67710fd0f66b568ee79600a24b92ac6024cc5556b3628456c0f259cab4296"
+  },
+  {
+    "id": "toxicchat:a5b9ca9e07a760c3f8529e233eb7ef212f4079d9c409026c1e9e6b6280a5230b",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:4508e81759d48bdea3dea88e2e20e285feb4aa33be7330c134072d1aff7e9b6f"
+  },
+  {
+    "id": "toxicchat:fa787781e1e4619d880ed0ec7e84648dc4454033d0bb82e5bfee212c7870017b",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:61a94403316d41baa8d8552fe4cde95062775450104e51e6e62b24f6fc66cb23"
+  },
+  {
+    "id": "toxicchat:1366a3ab829d24d83b137121dbc4ca8ff42006cd099c83a4de747fd6e6636908",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:b2d17ef89b64b871e83873e6fa09f3456036b5aa6de45aec1ef7e389e2e7f23c"
+  },
+  {
+    "id": "toxicchat:d81eb661ffcd49f570565ec64164cb7f67dc3930ec47bd99d844ed1745f4dbc6",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:e30ee5e9a1c76b090d7182248e3a4c52c8d332602305647dbf080e07d395f16f"
+  },
+  {
+    "id": "toxicchat:391f311ac162583af9cc7780f16606b93bca73fee82f91c4fc6cdda689db27ec",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:2acf791d1dd3d73431b7d3cacc3994c23328e8250c8ecaa91b153139cd58d00d"
+  },
+  {
+    "id": "toxicchat:4eeb7014d89751dd02fe728e429b3ed07372fac58492320345778cc404d0bc73",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:a290dcdcbcc582578ab94368ba6028df1afbb81e6cff5dea7f363216138c8cdb"
+  },
+  {
+    "id": "toxicchat:f6683a2c8f1883f5698fbcd8f0e854f9a37da70f2e118b8ec7a18876de23259b",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:b91f7b3ae3949b2202753a7e0adf77bff0b506bf9d453ca19c5933f8456e017a"
+  },
+  {
+    "id": "toxicchat:5e839a6a4fc529ae3b28309e60034409c2e76e99bd0fbc036b58f76fd345151c",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:c57c20d58fb9d06952272f96cdde331857b853dab32516aecb1692f2655931b3"
+  },
+  {
+    "id": "toxicchat:f34ccd769711d3ef751cf5f977a441b693a6315218dfe03ce58f889c7f7ec47b",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:e30ee5e9a1c76b090d7182248e3a4c52c8d332602305647dbf080e07d395f16f"
+  },
+  {
+    "id": "toxicchat:12eb9c27f60545bc1e128469d078850a0fbd8a7cfeb2aa01be97c54a47ca5962",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:c57c20d58fb9d06952272f96cdde331857b853dab32516aecb1692f2655931b3"
+  },
+  {
+    "id": "toxicchat:d2f652f81aff8a1b553ef2743d8200e5e8aec615fb44bbb7c4440dd686ab3042",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:36f1dd6e18beceb37c304ac804e09f530b976bdb58c334ce0dd714ba6191a06f"
+  },
+  {
+    "id": "toxicchat:e6cd580541d122293142de58f56c639c1053cb514d742170e3fbd200e2e2ce43",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:d2b091730e7eef481da6ffb422470924110ae4df46f36d746d85699c006eadd6"
+  },
+  {
+    "id": "toxicchat:1188f36235adb5ef0d723476c856e512428e7895bb0d9d0909c4bd2be5b9e8e0",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:2b1e0e1a15e28a61f8b3571b89c98685396e71889dc973f9e28e5b194d884005"
+  },
+  {
+    "id": "toxicchat:6fa837e61e152b336bae681efc5f51647bdc059587e37541e599edba5412ee5b",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:1d5f8e41b8e2b8fe9ba1f5a72888e92abede5c338237514a2cc06c4729054bdc"
+  },
+  {
+    "id": "toxicchat:2405e335bbb79763a393dcb5692b9836721fa0a5e7a9b8234e064b13a3fc003f",
+    "role": "test_toxicchat",
+    "duplicate_of": "aegis:train.json:ce8d5918130248e3882be4d40296ceb6"
+  },
+  {
+    "id": "toxicchat:ccf37a19d9cd8c04f3cd199ba7f8b481661ff1eeca425a46a45376c7a83953aa",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:a91a8deac201a89d2bb8d8a8365a0d32f922eecb362f897bffad1e5c5317be30"
+  },
+  {
+    "id": "toxicchat:f368a74a9c5cb4e6d0aaccf2ed821fa7a826d123611eea6bf7b28f77e72e4119",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:6d72a9d06fa77be47188aa2375be5dfb61b51d4af4b78cd15228e4f3f57e8784"
+  },
+  {
+    "id": "toxicchat:f7924204e8c180d1d53d8282c913fb610e36aceff0ecad284c722250980b88e5",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:d0a5f53376438313c6d17a286fa186835aff6a266c32a337377a64ae643c15fc"
+  },
+  {
+    "id": "toxicchat:7510bb51fd617326bac79ab9fc8e4aca5edd9565c8ef48eeb381f38366d2eea0",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:d4e2446c7086eced8c260fc039b38f7065b427769795bb0cb640c9df97480918"
+  },
+  {
+    "id": "toxicchat:6f1e55f7b6d32805ad0fc2d800c2b69184220c36faafa0df46431cdcfe3da51e",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:12a0de2afcd1be5bfe2c5301ab2b17a25148c8075469ae9a3a23667184a0f4be"
+  },
+  {
+    "id": "toxicchat:171c3ea22000283b2edb234b87ee4fc0628b565d03f4ea33f44cf42be67fa424",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:c57c20d58fb9d06952272f96cdde331857b853dab32516aecb1692f2655931b3"
+  },
+  {
+    "id": "toxicchat:67cb3b7fa61f841b67946914d247d334b3ee188a1bdcc10a60087c59232b99a9",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:c3de523a0dab2e833f3b04ead7067572673feb4d9150fbfc7561b55b5478ad75"
+  },
+  {
+    "id": "toxicchat:794abddef3a9e8dc5e2d617c72a65f0adc7b5a0e439473cdb0fa35d9e222c659",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:e75879034b0628223118bbb64acfd1ae1e75826fe57a160c8d7b529d97c1b7af"
+  },
+  {
+    "id": "toxicchat:08bea3278ba916989945f2c6a124009cfd5721419422ea87cbea052bb6240b0c",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:e30ee5e9a1c76b090d7182248e3a4c52c8d332602305647dbf080e07d395f16f"
+  },
+  {
+    "id": "toxicchat:bb77fa118dd34224e4fce897a54fc2550c09dcda9393d4465a9bed4c013dd658",
+    "role": "test_toxicchat",
+    "duplicate_of": "aegis:validation.json:0d6a97fef07d45959f460eff524ff3bd"
+  },
+  {
+    "id": "toxicchat:64a5f81555b7ad9acf5ec276b8a8a1b9d274197a9f5bcf87bd4df8074fa63d16",
+    "role": "test_toxicchat",
+    "duplicate_of": "aegis:train.json:46e8cf7b38424765b10bd35ffaed0bc6"
+  },
+  {
+    "id": "toxicchat:a2f2ae526b2052ad4eb42afc1e90d978038f8a3e4d6a24271e76105bceb2f2bc",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:dd7a553cfdfaa1fdcc787e5b45d8a19bcb281087b79e07d8d53af814ac562d8b"
+  },
+  {
+    "id": "toxicchat:01dab3f4037a5f174bab03c318577b2cfa084bf766c91bc65319a2a6be60854a",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:7a6c3b8e45d5c1d5b1e3363d322317aff69b5d424efa017d3e35553b1e1e0fd0"
+  },
+  {
+    "id": "toxicchat:b90b72d8dd08c368d0eb846257c73ec740a66b43dddd42bc33bbd87e9d88eb3b",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:d0abec70d8fd4c2fe51446cdf332a5ff300da457336cfa8ed9f628acaa6e41c5"
+  },
+  {
+    "id": "toxicchat:155bebc6d6700b624a8829d8cfc04edb70c2878c2f9062325fc9e2a8a2cba709",
+    "role": "test_toxicchat",
+    "duplicate_of": "toxicchat:8b141c84a7b8ad9fd18d8d4ec1b3dafc513ccfe39e7fe04e6c7bdc3a227f806c"
+  },
+  {
+    "id": "toxicchat:7463a3ea99f4e684fb7db948e1cd52fce479627cc53a22c38cfd1d01463b6d77",
+    "role": "test_toxicchat",
+    "duplicate_of": "aegis:test.json:ef877d4c8eec40848c3859f0c7fb6b41"
+  }
+]

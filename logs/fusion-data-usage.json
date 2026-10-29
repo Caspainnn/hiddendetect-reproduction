@@ -1,0 +1,25 @@
+{
+  "acquisition_record_sha256": "f42a6d39600fd4a301b900aa3f7f98fd74db5e97cecd2ed821401e4af3aa9dc5",
+  "manifest_sha256": "e84bb2dc6abe1e6e1bfb8b9bbefdadf797b2ffb4abc770918d70cd391818145f",
+  "counts": {
+    "probe_train:0": 32,
+    "probe_train:1": 32,
+    "calibration_aegis:0": 400,
+    "test_aegis_holdout:0": 500,
+    "calibration_aegis:1": 400,
+    "test_aegis_holdout:1": 500,
+    "test_aegis_official:0": 60,
+    "test_aegis_official:1": 60,
+    "test_toxicchat:0": 20,
+    "test_toxicchat:1": 20,
+    "calibration_toxic:0": 400,
+    "test_toxic_holdout:0": 200,
+    "test_toxic_holdout:1": 200
+  },
+  "amendment": "Before new inference, count-only audit added disjoint prospective ToxicChat train holdout; acquisition intent was originally safe calibration only.",
+  "roles": {
+    "calibration_toxic": "400 human-annotated non-toxic train rows; thresholds only",
+    "test_toxic_holdout": "disjoint human-annotated train rows of both classes; prospective toxicity proxy evaluation only"
+  },
+  "scope": "toxicity proxy is separate from harmful-input labels; prospective train-partition holdout is not official-test evidence"
+}
