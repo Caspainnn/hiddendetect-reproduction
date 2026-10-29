@@ -1,0 +1,41 @@
+{
+  "manifest_sha256": "b35f547255d4dcaa58e526cdb8463d050c31793fa393c0ced9b15c1b30633295",
+  "commit": "9a4c05003680216fec7d295d9264bd1fc16e31bc",
+  "sources": {
+    "configs/stability/extract.py": "50290b7af1a2f93ee13aa2adad9ab2a035c42567e8e8812b18e6457ed402d93e",
+    "configs/stability/stability_core.py": "763114bf6539b7e1c03c322f705be87b5011a7d146e5ba7f2c89df4d29a40551",
+    "configs/processing/processing_core.py": "5911a979cda4a92df4fcf5f6cd81509a540178619731912d894e3e2f7b28ce8c",
+    "configs/routing/routing_core.py": "4af169515ea184b02823606b4c74845c27f483e3785784255dc1261d77f2f8b0"
+  },
+  "artifact_lock_sha256": "9376f884cc88facd00b464635259a9308209ce5f7b354d10fd187d8f7ccc8349",
+  "shapes": {
+    "B.npy": [
+      6400,
+      32,
+      4096
+    ],
+    "S.npy": [
+      6400,
+      4,
+      5,
+      4096
+    ]
+  },
+  "dtype": "float16",
+  "fixed_length": 512,
+  "next_index": 6400,
+  "prefix_difference": 0.0,
+  "peak_allocated_bytes": 15277835264,
+  "pilot_rows": 32,
+  "pilot_maximum_B_difference": 0.0,
+  "pilot_maximum_summary_difference": 0.0,
+  "files": {
+    "cache/stability/B.npy": "06bbacdeec89d8f8f7e4e06f7e843bab861789503628a35a25fc9449cca48b0c",
+    "cache/stability/S.npy": "7c0c2bbb8dc8ca202a4116c513215ab4517743ef5a529e813abe1fd3bd69a8bc",
+    "cache/stability/metadata.json": "40182293bcffdd4ae53fef8baafc7de1787e14d1b420674a88777afb28f129de",
+    "cache/stability/checkpoint.json": "19c196a2a1337be3158983c8ed26d85141cc8e92d897928e81a35e2efbc9e507"
+  },
+  "seconds": 702.0790752414614,
+  "resumed_at": 0,
+  "bytes": 2726297856
+}
