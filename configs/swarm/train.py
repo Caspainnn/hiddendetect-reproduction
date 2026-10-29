@@ -3,7 +3,7 @@ import json,time,joblib
 from concurrent.futures import ThreadPoolExecutor
 import numpy as np
 from sklearn.metrics import roc_auc_score
-from core import ROOT,digest,benchmark,source_snapshot,verify_sources,verify_cache_binding,cache,standardized,joined,p_auc,raw_fit
+from core import ROOT,digest,benchmark,source_snapshot,verify_sources,verify_cache_binding,cache,standardized,joined,p_auc,raw_fit,mask_filename
 from search import search,key
 
 def main():
@@ -34,14 +34,14 @@ def main():
         value={'dev_pauc':p_auc(yd,values),'dev_auroc':float(roc_auc_score(yd,values)),
             'dimensions':dimensions,'fit_seconds':time.monotonic()-t}
         value['fitness']=value['dev_pauc']-.01*dimensions/zt.shape[1]
-        path=private/(k+'.joblib');joblib.dump(model,path)
+        path=private/mask_filename(k);joblib.dump(model,path)
         return k,value
     def assess_many(masks):
         pending={key(m):m for m in masks if key(m) not in fitted}
         for k,value in executor.map(fit_one,pending.items()):fitted[k]=value
         return [fitted[key(m)]['fitness'] for m in masks]
     def save(name,mask,**extra):
-        assess_many([mask]);k=key(mask);path=out/(name+'.joblib');path.write_bytes((private/(k+'.joblib')).read_bytes())
+        assess_many([mask]);k=key(mask);path=out/(name+'.joblib');path.write_bytes((private/mask_filename(k)).read_bytes())
         candidates.append({'name':name,'kind':'anchored','file':path.name,'sha256':digest(path),'mask':mask.astype(int).tolist(),
             'groups':int(mask.sum()),**fitted[k],**extra})
     save('anchor_B_only',np.zeros(len(groups),bool));save('anchor_all',np.ones(len(groups),bool))

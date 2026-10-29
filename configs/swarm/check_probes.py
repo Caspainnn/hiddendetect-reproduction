@@ -2,7 +2,7 @@
 import json
 import sys
 import numpy as np
-from fusion_core import ROOT,digest,LAYOUT
+from core import ROOT,digest,LAYOUT
 from seal import verify_seal
 
 if __name__=='__main__':

@@ -36,3 +36,17 @@ for i,ix in enumerate(np.column_stack([b0,b1])):
     assert np.isclose(result['average_precision'][i],average_precision_score(y[ix],s[ix]),atol=1e-12)
     assert np.isclose(result['partial_auroc'][i],roc_auc_score(y[ix],s[ix],max_fpr=.1),atol=1e-12)
 print('PASS: vectorized paired bootstrap matches sklearn, including score ties')
+from core import mask_filename
+assert len(mask_filename('0'*259))<100 and mask_filename('0'*259)!=mask_filename('1'*259)
+import subprocess,sys
+check=subprocess.run([sys.executable,'-c',"import sys;sys.path.insert(0,'configs/swarm');import check_probes"],capture_output=True,text=True)
+assert check.returncode==0,check.stderr
+print('PASS: bounded mask cache filenames and standalone probe imports')
+from core import check_probe_binding
+report={'status':'pass','old_training_probes':64,'old_cache_seal_sha256':'old','new_cache_seal_sha256':'new'}
+check_probe_binding(report,'old','new')
+for changed in [{**report,'status':'fail'},{**report,'new_cache_seal_sha256':'changed'}]:
+    try:check_probe_binding(changed,'old','new')
+    except AssertionError:pass
+    else:raise AssertionError('Failed/mismatched probes accepted')
+print('PASS: scoring rejects failed or mismatched probe reports')

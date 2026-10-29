@@ -11,6 +11,10 @@ from detectors import make_matrix,columns_for_mask,raw_fit,raw_scores,detector_s
 from ridge import raw_matrix,ridge_scores
 
 def p_auc(y,score):return float(roc_auc_score(y,score,max_fpr=.1))
+def mask_filename(maskkey):return hashlib.sha256(maskkey.encode('ascii')).hexdigest()+'.joblib'
+def check_probe_binding(report,old_sha,new_sha):
+    assert report['status']=='pass' and report['old_training_probes']==64
+    assert report['old_cache_seal_sha256']==old_sha and report['new_cache_seal_sha256']==new_sha
 def bootstrap_metrics(y,score,b0,b1):
     """Exact weighted ROC/AP for stratified resamples; ties share one ROC threshold."""
     y=np.asarray(y);score=np.asarray(score);order=np.argsort(-score,kind='stable');starts=np.r_[0,np.flatnonzero(np.diff(score[order]))+1]
@@ -82,6 +86,8 @@ def verify_freeze(out,actual_caches=False):
     assert pre['freeze_sha256']==digest(out/'freeze.json')
     assert pre['confirmation_manifest_sha256']==digest(ROOT/'configs/swarm/manifest.json')
     assert pre['confirmation_cache_seal_sha256']==digest(ROOT/'logs/swarm-cache-seal.json')
+    assert pre['probe_report_sha256']==digest(ROOT/'logs/swarm-probe-compatibility.json')
+    check_probe_binding(json.loads((ROOT/'logs/swarm-probe-compatibility.json').read_text()),digest(ROOT/'logs/highdim-cache-seal.json'),pre['confirmation_cache_seal_sha256'])
     assert digest(ROOT/'configs/benchmarks/v1.json')==f['benchmark_sha256']
     contract=json.loads((ROOT/'configs/benchmarks/v1.json').read_text())
     for name,sha in contract['manifests_sha256'].items():assert digest(ROOT/'configs'/name/'manifest.json')==sha
