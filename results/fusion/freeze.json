@@ -1,0 +1,343 @@
+{
+  "status": "frozen_before_new_calibration_and_test_scoring",
+  "manifest_sha256": "e84bb2dc6abe1e6e1bfb8b9bbefdadf797b2ffb4abc770918d70cd391818145f",
+  "source_sha256": {
+    "configs/fusion/fusion_core.py": "2e9afc8e8855a1d754a8058745029e0c7acaf874ae49d420cb85f918c66ad655",
+    "configs/fusion/train.py": "68df4f43cd05a068314184a430dd4ec486c333ad45331f569ba3dc3009035621",
+    "configs/fusion/evaluate.py": "f17df8ec019981a01d6deae7b801b5f092bfbffc2d701f553caf1a4419603dd7",
+    "configs/fusion/provenance.py": "796762eefb7020b8aa0e62b1b9efc7d09f0b03082a7e355a7adbcbe3a29e6ed8",
+    "configs/fusion/extract.py": "545f014cf49f8d65ea0f9d41747b2904b6c7ff77be531295385403662d125bfd",
+    "configs/fusion/seal_cache.py": "bc1fb67df7594c9b85409beb63a9eb24d32961bac8f4950e9077d33f7d7f49c9",
+    "configs/fusion/check_probes.py": "825692c67970317a37abed829af1253c54a2493c9c1fd55db5091609f8730472",
+    "configs/highdim/features.py": "055a3a9e52456d2ebafafa8a2cfba0f8ee35c73836bf8431a41859ddc3c43972",
+    "configs/highdim/ridge.py": "e523f3be50a20a030345a8591c3f31493f6d1953028dca1fdecfe4e4e89ceea1",
+    "configs/highdim/detectors.py": "37e11401faed0bb99c7784fa7cdd92ac7358be1fc952360829d43eee1f826715",
+    "configs/highdim/seal.py": "f89c0dd959e90c982eb23c3e3e6a95df3cc5c255cc2cfe7653d625bd4244efb3",
+    "configs/signal-selection/train_search.py": "34dcdcc29811800e8c8c49d4fdb675e972d83c841d26bf8487691d302371fc10",
+    "configs/signal-selection/experiment_core.py": "ad35c2e9ed29d47854ea3db7cd999ef5e07c981226ce7872c91eec13fa45cc85",
+    "configs/signal-selection/evaluate_frozen.py": "5a68b1bf3b36873904240f3987f2e223085e387094838149dfab44f2a401c9e6"
+  },
+  "old_training_manifest_sha256": "fe13913b7c83822a05b35f04df3e8db03c498a248637856b84388010e3bd6d85",
+  "old_cache_seal_sha256": "89c1c5e819e2e8b0806e073d5a6986d055f61fd2b889663806648b972a94f072",
+  "new_cache_seal_sha256": "c938b708bf3deeeefda31a75d7812a15d1da1f27270f272bd98205c66af3da3f",
+  "train_code_sha256": "68df4f43cd05a068314184a430dd4ec486c333ad45331f569ba3dc3009035621",
+  "fusion_core_sha256": "2e9afc8e8855a1d754a8058745029e0c7acaf874ae49d420cb85f918c66ad655",
+  "train_rows": 1600,
+  "dev_rows": 600,
+  "experts": [
+    {
+      "name": "B",
+      "file": "expert_B.joblib",
+      "sha256": "24c4378ff478fc68d8c7d7266bc97bf89c5efb9e61a4e2a1f092ce4406edc0fb",
+      "oof_auroc": 0.9211515625,
+      "dev_auroc": 0.9247
+    },
+    {
+      "name": "P",
+      "file": "expert_P.joblib",
+      "sha256": "ad8013e93cc1f9a944ae19a02f439ec060c780b7c3158c930f1981ef2ac683f8",
+      "oof_auroc": 0.8845937500000001,
+      "dev_auroc": 0.8918999999999999
+    },
+    {
+      "name": "A",
+      "file": "expert_A.joblib",
+      "sha256": "9cf722698c09396e9dee3c628c93088ce86872807e36bfa7f743494b5f4718b0",
+      "oof_auroc": 0.897190625,
+      "dev_auroc": 0.8865666666666666
+    },
+    {
+      "name": "T",
+      "file": "expert_T.joblib",
+      "sha256": "c776563e2dbe41c133de83a8d7aecb5f1acd97cf11cb530b296f8104f5cf6ab2",
+      "oof_auroc": 0.8577140625,
+      "dev_auroc": 0.8818222222222222
+    }
+  ],
+  "candidates": [
+    {
+      "name": "linear_B",
+      "kind": "meta",
+      "file": "linear_B.joblib",
+      "sha256": "56a89361377856743e06da08b5fd3a1aa675f5c4fb71f19602fa909012f1512b",
+      "mask": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "interactions": false,
+      "dev_auroc": 0.9247
+    },
+    {
+      "name": "linear_P",
+      "kind": "meta",
+      "file": "linear_P.joblib",
+      "sha256": "8c899d93cda0a910c993d74f1634da4abdb6e57d36ecf48b6dd3ebd22516f142",
+      "mask": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "interactions": false,
+      "dev_auroc": 0.8918999999999999
+    },
+    {
+      "name": "linear_BP",
+      "kind": "meta",
+      "file": "linear_BP.joblib",
+      "sha256": "5c7326eca5a848ef2ca2237bf62b63d2754c5e322c3eb3e6ff824fd982538100",
+      "mask": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "interactions": false,
+      "dev_auroc": 0.9241
+    },
+    {
+      "name": "linear_A",
+      "kind": "meta",
+      "file": "linear_A.joblib",
+      "sha256": "ddb756b9e5e13a6e76ab0a0283b0e6b0248f68614630574048a76116f17ac41f",
+      "mask": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "interactions": false,
+      "dev_auroc": 0.8865666666666666
+    },
+    {
+      "name": "linear_BA",
+      "kind": "meta",
+      "file": "linear_BA.joblib",
+      "sha256": "07c812e49a1f6f2a60364e4de0d485ac921a06bd367e272fdf5274d8e4fbbfa3",
+      "mask": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "interactions": false,
+      "dev_auroc": 0.9207
+    },
+    {
+      "name": "linear_PA",
+      "kind": "meta",
+      "file": "linear_PA.joblib",
+      "sha256": "c546f045f66ff4f490ea26a61eda95dd8afefec23c40a3895ede7474e81f23af",
+      "mask": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "interactions": false,
+      "dev_auroc": 0.9005555555555556
+    },
+    {
+      "name": "linear_BPA",
+      "kind": "meta",
+      "file": "linear_BPA.joblib",
+      "sha256": "89ebdd8a3f48a2bf56f02f046793b0443b243e2a32a1f8c3da413327b6c300b4",
+      "mask": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "interactions": false,
+      "dev_auroc": 0.9205888888888889
+    },
+    {
+      "name": "linear_T",
+      "kind": "meta",
+      "file": "linear_T.joblib",
+      "sha256": "34653a7820c5aa8851bb17e6b196c8898919b5fb6885d385e3b229140491dd06",
+      "mask": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "interactions": false,
+      "dev_auroc": 0.8818222222222222
+    },
+    {
+      "name": "linear_BT",
+      "kind": "meta",
+      "file": "linear_BT.joblib",
+      "sha256": "72dc543053f7714f93db13a5de504862507f2932996ce2c65f58c0fc16c4c9c8",
+      "mask": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "interactions": false,
+      "dev_auroc": 0.9263777777777777
+    },
+    {
+      "name": "linear_PT",
+      "kind": "meta",
+      "file": "linear_PT.joblib",
+      "sha256": "becaa0b5cd1d7053e4521d5e377d1c064335dca724456b34894f457956859389",
+      "mask": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "interactions": false,
+      "dev_auroc": 0.9051666666666667
+    },
+    {
+      "name": "linear_BPT",
+      "kind": "meta",
+      "file": "linear_BPT.joblib",
+      "sha256": "e0d80e7629f9246acd7441f206d89950f7120587feab34b17d0317b3d4b2955f",
+      "mask": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "interactions": false,
+      "dev_auroc": 0.9247444444444444
+    },
+    {
+      "name": "linear_AT",
+      "kind": "meta",
+      "file": "linear_AT.joblib",
+      "sha256": "a0ff9ed8812160a22af65aadd5b60c0e75e9541da145f540df7d50b4b054432a",
+      "mask": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "interactions": false,
+      "dev_auroc": 0.9027777777777777
+    },
+    {
+      "name": "linear_BAT",
+      "kind": "meta",
+      "file": "linear_BAT.joblib",
+      "sha256": "a91b20c42983da5b38fba107f64e58472aa812bc0035a8fd47241533f9b628d1",
+      "mask": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "interactions": false,
+      "dev_auroc": 0.9217333333333333
+    },
+    {
+      "name": "linear_PAT",
+      "kind": "meta",
+      "file": "linear_PAT.joblib",
+      "sha256": "b010261ef06ea2f9466d5392e76c37fbb5470cffb25b920d9633269f8d25978a",
+      "mask": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "interactions": false,
+      "dev_auroc": 0.9060777777777779
+    },
+    {
+      "name": "linear_BPAT",
+      "kind": "meta",
+      "file": "linear_BPAT.joblib",
+      "sha256": "94a71b84cd680701b6d8de6576d9d20d11fb10e05f2ad2e91e4a788b93390b9a",
+      "mask": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "interactions": false,
+      "dev_auroc": 0.9205777777777778
+    },
+    {
+      "name": "pairwise_BPAT",
+      "kind": "meta",
+      "file": "pairwise_BPAT.joblib",
+      "sha256": "6bd23bc0175614edfe3f247a67ad96d7a59d287a1abb7105cd6f159f587b73a6",
+      "mask": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "interactions": true,
+      "dev_auroc": 0.9204000000000001
+    },
+    {
+      "name": "expert_B",
+      "kind": "expert",
+      "column": 0,
+      "dev_auroc": 0.9247
+    },
+    {
+      "name": "expert_P",
+      "kind": "expert",
+      "column": 1,
+      "dev_auroc": 0.8918999999999999
+    },
+    {
+      "name": "expert_A",
+      "kind": "expert",
+      "column": 2,
+      "dev_auroc": 0.8865666666666666
+    },
+    {
+      "name": "expert_T",
+      "kind": "expert",
+      "column": 3,
+      "dev_auroc": 0.8818222222222222
+    },
+    {
+      "name": "equal_BPAT",
+      "kind": "equal",
+      "file": "equal.npz",
+      "sha256": "03e513f163e2afe93c271422ea058debd9caae7199631c1f3e5f67113504dd31",
+      "dev_auroc": 0.9191
+    },
+    {
+      "name": "raw_ridge_positions",
+      "kind": "legacy_raw_positions",
+      "file": "raw_ridge_positions.joblib",
+      "sha256": "e70fa28de2cbbec1960114478c316cf5d7d3d96e0c3a6b4e5b876f048cce89e8",
+      "source_freeze_sha256": "2e37289f0e9d82d8a921d20e7729704ba64ab8bcad95f551cb1ad455e52c189b",
+      "scope": "same exact prior training1600; pipeline comparator"
+    },
+    {
+      "name": "linear_FC64",
+      "kind": "legacy_FC64",
+      "file": "linear_FC64.joblib",
+      "sha256": "64260095d2fa520814dd72003c57f95f25bc9b9b0bd4f70470aeeae007cab43c",
+      "source_freeze_sha256": "2e37289f0e9d82d8a921d20e7729704ba64ab8bcad95f551cb1ad455e52c189b",
+      "scope": "same exact prior training1600; pipeline comparator"
+    }
+  ],
+  "best_dev_additive_subset": "linear_BT",
+  "oof_sha256": "e45c09714ed87a67574a1671562a0b88c27f404266650a0201e1e376b6dfb32f",
+  "dev_sha256": "77bdc253009d8b1cd50b1d75a482a4dabf40453dea162469e28239e213770b08",
+  "provenance_sha256": "840232ae852a0d94760131ee0b35d782e93746cb68bef753669b3a7de6d744dc",
+  "complementarity_sha256": "410d123c075b7c7fb703be3d57aee7e66e3da1637919157cfc77be860f31a2eb",
+  "equal_sha256": "03e513f163e2afe93c271422ea058debd9caae7199631c1f3e5f67113504dd31",
+  "legacy_scaler_sha256": "dca4871cfa0d1657cfa38a583889e611b537adf88c2b1201355e6c8751ab7111",
+  "legacy_centroids_sha256": "8ebdb0ea5b48ff73fec042df8d504cb8524e9df720f24c904346fe55141ff170",
+  "legacy_schema_sha256": "119115223ea2e8d697d26f01591c46dafac1098f4b519432a226411adad3c7ca",
+  "data_usage_sha256": "d515732e9990928af97a8461a59c02763824a9ebe742088e3d39a38438ad71fe",
+  "seconds": 53.47054039314389,
+  "meta_protocol": "5-fold OOF experts train meta; full1600 experts refit for deployment; C=.1 fixed",
+  "calibration_protocol": "separate new Aegis-safe400 and Toxic-safe400; no target-positive/test calibration"
+}

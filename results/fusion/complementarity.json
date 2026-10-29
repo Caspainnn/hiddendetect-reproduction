@@ -1,0 +1,23 @@
+{
+  "scope": "training expert OOF only; oracle rescue counts do not claim deployable combined performance",
+  "base_false_negatives": 267,
+  "base_false_positives": 40,
+  "experts": {
+    "B": {
+      "rescue_base_FN": 0,
+      "reject_base_FP": 0
+    },
+    "P": {
+      "rescue_base_FN": 41,
+      "reject_base_FP": 21
+    },
+    "A": {
+      "rescue_base_FN": 39,
+      "reject_base_FP": 21
+    },
+    "T": {
+      "rescue_base_FN": 26,
+      "reject_base_FP": 28
+    }
+  }
+}

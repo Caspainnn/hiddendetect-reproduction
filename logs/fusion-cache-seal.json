@@ -1,0 +1,105 @@
+{
+  "status": "complete",
+  "manifest_sha256": "e84bb2dc6abe1e6e1bfb8b9bbefdadf797b2ffb4abc770918d70cd391818145f",
+  "count": 2824,
+  "metadata_sha256": "398ef98e622dfb04e75800d28d0e0274ad2756870592cd858c53670b12c6f596",
+  "checkpoint_sha256": "113731c9f25098222d8346899c52770535e5ef12621be103cffeb2245b8179aa",
+  "arrays": {
+    "P.npy": {
+      "bytes": 3701473408,
+      "sha256": "8fab4e318fe840626cb951fa3ff9d51b7cb1499ddaed59fdf023158d8ad37092"
+    },
+    "X.npy": {
+      "bytes": 115671168,
+      "sha256": "97c3e338c19da4e0380bf6960c8c341b91dfbc454a3564a63654b8dac50299ec"
+    },
+    "S.npy": {
+      "bytes": 5783680,
+      "sha256": "d31a00fd512a4f2cf56572d35cd72aaafbd9c497d9abea03d0e55149523102a0"
+    },
+    "A.npy": {
+      "bytes": 92536960,
+      "sha256": "2c48a78c8564d5774811755c89d3cfbeeba9b00ce82ec2279e0215d8a2987f16"
+    },
+    "M.npy": {
+      "bytes": 2891904,
+      "sha256": "71e11d90e083d23a9da9dde7c8634f201660a92013005159286b593430c3d6f7"
+    },
+    "F.npy": {
+      "bytes": 361600,
+      "sha256": "da3d41c765d5bba2fab970a2d61a9d96c60d82156e4bf50aca8ac2715617450b"
+    },
+    "L.npy": {
+      "bytes": 180736128,
+      "sha256": "8c5f266aaf750ee5495152ff279de1aa499fbb78f4e6aaca96ca912fd6c6d4c2"
+    },
+    "Q.npy": {
+      "bytes": 67904,
+      "sha256": "198b39b7d9d3290f71075a32c2cb0906a8a05842c5c65b6992c744eac62cade0"
+    }
+  },
+  "actual_artifacts": [
+    {
+      "target": "models/llava-v1.6-vicuna-7b/config.json",
+      "bytes": 1681,
+      "sha256": "7b21de0f57c8aa84d752cfb021b5018e4979a23809e29dfcf2c4d31e49b217dd"
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/generation_config.json",
+      "bytes": 170,
+      "sha256": "c0c3e65ffae56c31cd78c33b34687bcfa8cb338e6bd1bf914525e478fa4ffff6"
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/model-00001-of-00003.safetensors",
+      "bytes": 4938993632,
+      "sha256": "f61fd54d6e47f55db4452dd5a263cb5323d1b8077cad86bf536ae0e6b46b5df5"
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/model-00002-of-00003.safetensors",
+      "bytes": 4947390880,
+      "sha256": "a5219e366b4da0d6df6116a2b71c6bceea0b77dfcc5fdec4fa774f0f26c39ec4"
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/model-00003-of-00003.safetensors",
+      "bytes": 4239524944,
+      "sha256": "52a8836fee344f7582a208e4c01d218aa53fa3a3edbfab4538f50aecd57c1646"
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/model.safetensors.index.json",
+      "bytes": 73215,
+      "sha256": "3aa4216f08f95215796622b2fec456eb0caa3472b9e709b046cb386b77a1efb1"
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/special_tokens_map.json",
+      "bytes": 438,
+      "sha256": "719833ff26ac897a3ec8ed946028a135de2a351470af59b4008744ab1f0ee9b7"
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/tokenizer.model",
+      "bytes": 499723,
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347"
+    },
+    {
+      "target": "models/llava-v1.6-vicuna-7b/tokenizer_config.json",
+      "bytes": 936,
+      "sha256": "e3d348c5c498caa305b77317e0aa4157e60f49bc1fa37e061273cc0b9a5efb52"
+    },
+    {
+      "target": "models/clip-vit-large-patch14-336/config.json",
+      "bytes": 4757,
+      "sha256": "51b1c14aabcdf639c4a0370eeda1010b773bbe1df78319c7d0f5882c22ac0ac0"
+    },
+    {
+      "target": "models/clip-vit-large-patch14-336/preprocessor_config.json",
+      "bytes": 316,
+      "sha256": "d253881f65322dc546df59cf925a408e5538b8ecb5a1b496cdd36af9992686d4"
+    },
+    {
+      "target": "models/clip-vit-large-patch14-336/pytorch_model.bin",
+      "bytes": 1711974081,
+      "sha256": "c6032c2e0caae3dc2d4fba35535fa6307dbb49df59c7e182b1bc4b3329b81801"
+    }
+  ],
+  "seconds": 25.76120540127158,
+  "scope": "post-extraction actual byte verification before any supervised fitting"
+}

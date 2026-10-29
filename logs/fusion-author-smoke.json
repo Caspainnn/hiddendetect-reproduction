@@ -1,0 +1,6 @@
+{
+  "rows": 8,
+  "train_only": true,
+  "maximum_F_difference": 0.0,
+  "extractor_sha256": "545f014cf49f8d65ea0f9d41747b2904b6c7ff77be531295385403662d125bfd"
+}
