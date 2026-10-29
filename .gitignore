@@ -31,3 +31,7 @@ logs/positions-extraction.log
 logs/positions-training.log
 logs/positions-evaluation.log
 logs/positions-prefix-diagnostic.log
+logs/routing-manifest.log
+logs/routing-extraction.log
+logs/routing-training.log
+logs/routing-evaluation.log
