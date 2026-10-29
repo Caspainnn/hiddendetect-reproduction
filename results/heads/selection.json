@@ -1,0 +1,13 @@
+{
+  "winners": {
+    "ridge": "ridge_4",
+    "logistic": "logistic_5",
+    "svm": "svm_5",
+    "rbf": "rbf_1_1"
+  },
+  "selected": "ridge_4",
+  "raw_best": "logistic_5",
+  "heuristic_se": 0.00890341068734005,
+  "scope": "trainCV pAUC only; deterministic listed-order ties; tuned ridge preferred within oneSE",
+  "selected_head": "ridge_tuned"
+}

@@ -1,0 +1,8 @@
+{
+  "manifest_sha256": "e0c64016241b0c701e1f57809ed4cf3b496202d7e08cf6048e21a35283522895",
+  "source_sha256": "97542084bf72812fd8a7587a31ee0e5c892f19d8b3ddfd57c6a5552c08236d81",
+  "rows": 32,
+  "maximum_old_B_difference": 0.0,
+  "prefix_difference": 0.0,
+  "peak_allocated_bytes": 15244280832
+}

@@ -1,0 +1,46 @@
+{
+  "manifest_sha256": "e0c64016241b0c701e1f57809ed4cf3b496202d7e08cf6048e21a35283522895",
+  "metadata": {
+    "manifest_sha256": "e0c64016241b0c701e1f57809ed4cf3b496202d7e08cf6048e21a35283522895",
+    "shape": [
+      1000,
+      32,
+      4096
+    ],
+    "dtype": "float16",
+    "fixed_length": 512,
+    "artifact_lock_sha256": "9376f884cc88facd00b464635259a9308209ce5f7b354d10fd187d8f7ccc8349",
+    "extraction_commit": "635d491761286be48635233bb15791b0e8cfd698",
+    "extraction_sources": {
+      "configs/heads/extract.py": "97542084bf72812fd8a7587a31ee0e5c892f19d8b3ddfd57c6a5552c08236d81",
+      "configs/heads/head_core.py": "b6ff03aa004b6fa6c85b387f188ed32cadce6a3161593fb785e50d8783e0f30b",
+      "configs/processing/processing_core.py": "5911a979cda4a92df4fcf5f6cd81509a540178619731912d894e3e2f7b28ce8c",
+      "configs/routing/routing_core.py": "4af169515ea184b02823606b4c74845c27f483e3785784255dc1261d77f2f8b0"
+    },
+    "torch": "2.1.2+cu121",
+    "numpy": "1.26.4",
+    "transformers": "4.37.2"
+  },
+  "state": {
+    "next_index": 1000,
+    "prefix_difference": 0.0,
+    "peak_allocated_bytes": 15244280832
+  },
+  "pilot": {
+    "manifest_sha256": "e0c64016241b0c701e1f57809ed4cf3b496202d7e08cf6048e21a35283522895",
+    "source_sha256": "97542084bf72812fd8a7587a31ee0e5c892f19d8b3ddfd57c6a5552c08236d81",
+    "rows": 32,
+    "maximum_old_B_difference": 0.0,
+    "prefix_difference": 0.0,
+    "peak_allocated_bytes": 15244280832
+  },
+  "files": {
+    "cache/heads/fresh_B.npy": "2b144e3513dec2c470896d8437d0882dbf6d668f8e2e74c52617865aee4b7b67",
+    "cache/heads/metadata.json": "a5f8e7990b9e409a93fa039a26292aef120fb3b557a13839945b3b7d66bff4d7",
+    "cache/heads/checkpoint.json": "549afcee832a3c7e58ea6e89c75ac356a6835aa6beb1cf12e666481aa4ceb6f3",
+    "cache/routing/fixed.npy": "2ee9ab21250cdf45100fe023b879b547397db3e4d2f1e370c2dcf7092c68f58e"
+  },
+  "bytes": 262144128,
+  "seconds": 80.21835960634053,
+  "resumed_at": 0
+}
