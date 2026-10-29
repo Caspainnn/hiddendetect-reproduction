@@ -35,3 +35,6 @@ logs/routing-manifest.log
 logs/routing-extraction.log
 logs/routing-training.log
 logs/routing-evaluation.log
+logs/processing-extraction.log
+logs/processing-training.log
+logs/processing-evaluation.log
