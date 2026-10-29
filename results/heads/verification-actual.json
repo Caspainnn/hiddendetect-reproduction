@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "actual_private_cache_checked": true,
+  "settings": 36,
+  "cv_fold_metrics_replayed": 360,
+  "point_metric_conditions": 35,
+  "fresh_rows": 1000,
+  "benchmark_rows": 2760,
+  "bootstrap_replayed": true,
+  "freeze_sha256": "7fc79bca50f14b2ab1e088e693f8962a94c5f53ebfeeaf32d054877131df35ee",
+  "evaluation_sha256": "4d6a7c438f63c0101cc837e52cf14b468e8adc5553b20d4c2e0412793915a747"
+}
