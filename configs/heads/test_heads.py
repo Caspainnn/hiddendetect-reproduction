@@ -2,9 +2,22 @@ import unittest
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
-from head_core import grid,center_kernel,center_cross,span_features,span_cross,fit_kernel,predict_kernel,squared_distances
+from head_core import grid,center_kernel,center_cross,span_features,span_cross,fit_kernel,predict_kernel,squared_distances,validate_cache_metadata,selection
 
 class Tests(unittest.TestCase):
+    def test_cache_source_and_completion_rejected(self):
+        source={'extract':'a'};meta={'manifest_sha256':'m','shape':[2,32,4096],'dtype':'float16','fixed_length':512,'artifact_lock_sha256':'l','extraction_sources':source}
+        state={'next_index':2,'prefix_difference':0.,'peak_allocated_bytes':1};pilot={'rows':32,'maximum_old_B_difference':0.,'prefix_difference':0.,'peak_allocated_bytes':1}
+        validate_cache_metadata(meta,state,pilot,2,'m','l',source)
+        with self.assertRaises(AssertionError):validate_cache_metadata(meta,{**state,'next_index':1},pilot,2,'m','l',source)
+        with self.assertRaises(AssertionError):validate_cache_metadata(meta,state,pilot,2,'m','wrong',source)
+        with self.assertRaises(AssertionError):validate_cache_metadata(meta,state,pilot,2,'m','l',{'extract':'wrong'})
+    def test_unique_analysis_and_selection(self):
+        from head_analysis import contrasts
+        self.assertEqual(len(contrasts({'selected_head':'ridge_tuned'})),5)
+        rows=[{**c,'cv_mean':.7,'cv_std':.03} for c in grid()]
+        rows[9]['cv_mean']=.701
+        s=selection(rows);self.assertEqual(s['raw_best'],'logistic_0');self.assertEqual(s['selected'],'ridge_0')
     def test_nine_settings_per_family(self):
         rows=grid();self.assertEqual(len(rows),36)
         for method in ('ridge','logistic','svm','rbf'):self.assertEqual(sum(c['method']==method for c in rows),9)

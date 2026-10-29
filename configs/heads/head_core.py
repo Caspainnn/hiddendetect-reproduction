@@ -87,20 +87,26 @@ def sources():
 def check_sources(s):
     for n,h in s.items():assert digest(ROOT/n)==h,n
 
+def validate_cache_metadata(meta,state,pilot,count,manifest_sha,lock_sha,source_shas):
+    assert meta['manifest_sha256']==manifest_sha and meta['artifact_lock_sha256']==lock_sha and meta['extraction_sources']==source_shas
+    assert state['next_index']==count and state['prefix_difference']==0. and state['peak_allocated_bytes']<22*1024**3
+    assert pilot['rows']==32 and pilot['maximum_old_B_difference']<=1e-5 and pilot['prefix_difference']==0. and pilot['peak_allocated_bytes']<22*1024**3
+    assert meta['shape']==[count,32,4096] and meta['dtype']=='float16' and meta['fixed_length']==512
+
 def verify_cache(actual=True):
     s=json.loads((ROOT/'logs/heads-cache-seal.json').read_text());m=json.loads((ROOT/'configs/heads/manifest.json').read_text());meta=s['metadata'];state=s['state']
-    assert s['manifest_sha256']==meta['manifest_sha256']==digest(ROOT/'configs/heads/manifest.json')
-    assert state['next_index']==m['fresh_class_count']*2 and state['prefix_difference']==0.
-    assert s['pilot']['rows']==32 and s['pilot']['maximum_old_B_difference']<=1e-5 and s['pilot']['prefix_difference']==0.
-    assert meta['shape']==[m['fresh_class_count']*2,32,4096] and meta['dtype']=='float16'
-    assert meta['artifact_lock_sha256']==digest(ROOT/'configs/artifacts-lock.json') and meta['fixed_length']==512
-    for n,h in meta['extraction_sources'].items():assert hashlib.sha256(subprocess.check_output(['git','show',meta['extraction_commit']+':'+n],cwd=ROOT)).hexdigest()==h,n
+    expected_names={'configs/heads/extract.py','configs/heads/head_core.py','configs/processing/processing_core.py','configs/routing/routing_core.py'}
+    assert set(meta['extraction_sources'])==expected_names
+    source_shas={n:hashlib.sha256(subprocess.check_output(['git','show',meta['extraction_commit']+':'+n],cwd=ROOT)).hexdigest() for n in expected_names}
+    assert s['manifest_sha256']==digest(ROOT/'configs/heads/manifest.json')
+    validate_cache_metadata(meta,state,s['pilot'],m['fresh_class_count']*2,s['manifest_sha256'],digest(ROOT/'configs/artifacts-lock.json'),source_shas)
     old=json.loads((ROOT/'logs/routing-cache-seal.json').read_text());assert s['files']['cache/routing/fixed.npy']==old['files']['cache/routing/fixed.npy']
     if actual:
         assert digest(ROOT/'data/heads/records.jsonl')==m['records_sha256']
         assert json.loads((ROOT/'cache/heads/metadata.json').read_text())==meta
         assert json.loads((ROOT/'cache/heads/checkpoint.json').read_text())==state
         for n,h in s['files'].items():assert stream_hash(ROOT/n)==h,n
+        data=np.load(ROOT/'cache/heads/fresh_B.npy',mmap_mode='r');assert list(data.shape)==meta['shape'] and str(data.dtype)==meta['dtype']
     return s
 
 def verify_freeze(actual=True):
