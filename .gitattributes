@@ -6,3 +6,5 @@
 *.log text eol=lf
 # The frozen prospective manifest hashes these original acquisition-log bytes.
 logs/signal-selection-download.json -text
+
+logs/positions-artifact-lock-original.json -text

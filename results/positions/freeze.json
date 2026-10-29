@@ -29,7 +29,7 @@
     "logs/positions-cache-seal.json": "827e55a290b069c603b5f2c134cd700b9012748fa620ef1fdf686dd09768d297",
     "logs/positions-readout-identity.json": "3d1b18dbe08c50537d8a5b3fc1516b972515acc99dadcc6d4c5e00ff6aeebcd5",
     "logs/positions-prefix-diagnostic.json": "fa5a3dfaedf464461b9b5da7ef9002bcbb4401e9b14e2c2da86bfb3640fca76f",
-    "configs/artifacts-lock.json": "68db021b1ea80193a42562f14b924091fa4d92edd37a86517dd63fe1ce4ef336"
+    "configs/artifacts-lock.json": "9376f884cc88facd00b464635259a9308209ce5f7b354d10fd187d8f7ccc8349"
   },
   "candidates": [
     {
@@ -356,5 +356,12 @@
   "ridge": "lambda1, train-only centering, norm sqrt(32*readouts)",
   "confirmatory_family": 12,
   "near_optimality_margin_auroc": 0.005,
-  "seconds": 149.26479627005756
+  "seconds": 149.26479627005756,
+  "canonicalization_amendment": {
+    "superseded_freeze_sha256": "46b3f7ac5e5408bb817cdc17577e23dfdea8cf32321ff084196942c826bb1bf8",
+    "path": "configs/artifacts-lock.json",
+    "original_sha256": "68db021b1ea80193a42562f14b924091fa4d92edd37a86517dd63fe1ce4ef336",
+    "canonical_sha256": "9376f884cc88facd00b464635259a9308209ce5f7b354d10fd187d8f7ccc8349",
+    "scope": "JSON objects identical; line endings only; no model, readout, CV or selected candidate changed; no test scores read"
+  }
 }
