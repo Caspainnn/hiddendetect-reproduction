@@ -11,12 +11,14 @@ from fusion_core import ROOT,EXPERTS,LAYOUT,digest,make_folds,expert_matrix,fit_
 from seal import verify_seal
 sys.path.insert(0,str(ROOT/'configs/signal-selection'))
 from experiment_core import conservative_threshold
+from provenance import source_snapshot,verify_sources,verify_cache_binding
 
 def main():
-    started=time.monotonic(); out=ROOT/'results/fusion'; out.mkdir(parents=True,exist_ok=True)
+    started=time.monotonic(); sources=source_snapshot(); out=ROOT/'results/fusion'; out.mkdir(parents=True,exist_ok=True)
     if (out/'freeze.json').exists(): print('ALREADY_FROZEN'); return
     old=ROOT/'cache/highdim'; new=ROOT/'cache/fusion'
-    for directory in (old,new): verify_seal(directory,json.loads((directory/'seal.json').read_text()))
+    verify_cache_binding(old,ROOT/'configs/highdim/manifest.json')
+    verify_cache_binding(new,ROOT/'configs/fusion/manifest.json')
     prior_path=ROOT/'configs/highdim/manifest.json'; rows=json.loads(prior_path.read_text())['samples']
     train=np.array([i for i,x in enumerate(rows) if x['role']=='train']); dev=np.array([i for i,x in enumerate(rows) if x['role']=='dev'])
     y=np.array([rows[i]['label'] for i in train]); yd=np.array([rows[i]['label'] for i in dev])
@@ -78,6 +80,7 @@ def main():
     (out/'complementarity.json').write_text(json.dumps(complement,indent=2)+'\n')
     best=max(additive,key=lambda x:(x['dev_auroc'],-sum(x['mask']),-additive.index(x)))['name']
     freeze={'status':'frozen_before_new_calibration_and_test_scoring','manifest_sha256':digest(ROOT/'configs/fusion/manifest.json'),
+        'source_sha256':sources,
         'old_training_manifest_sha256':digest(prior_path),'old_cache_seal_sha256':digest(old/'seal.json'),
         'new_cache_seal_sha256':digest(new/'seal.json'),'train_code_sha256':digest(__file__),
         'fusion_core_sha256':digest(Path(__file__).with_name('fusion_core.py')),'train_rows':1600,'dev_rows':600,
@@ -85,8 +88,10 @@ def main():
         'dev_sha256':digest(out/'dev.npz'),'provenance_sha256':digest(out/'oof-provenance.json'),
         'complementarity_sha256':digest(out/'complementarity.json'),'equal_sha256':digest(out/'equal.npz'),
         'legacy_scaler_sha256':digest(ROOT/'results/highdim/scaler.npz'),'legacy_centroids_sha256':digest(ROOT/'results/highdim/centroids.npy'),
+        'legacy_schema_sha256':digest(ROOT/'results/highdim/schema.json'),'data_usage_sha256':digest(ROOT/'logs/fusion-data-usage.json'),
         'seconds':time.monotonic()-started,'meta_protocol':'5-fold OOF experts train meta; full1600 experts refit for deployment; C=.1 fixed',
         'calibration_protocol':'separate new Aegis-safe400 and Toxic-safe400; no target-positive/test calibration'}
+    verify_sources(sources)
     tmp=out/'freeze.tmp'; tmp.write_text(json.dumps(freeze,indent=2)+'\n'); tmp.replace(out/'freeze.json')
     print('PRETEST_FREEZE_COMPLETE',len(candidates),'BEST_DEV',best,'SECONDS',freeze['seconds'],flush=True)
 

@@ -16,3 +16,9 @@ logs/highdim-pilot.log
 logs/highdim-driver.log
 logs/highdim-pilot-initial-error.log
 logs/highdim-train.log
+logs/fusion-manifest.log
+logs/fusion-manifest-initial-counts.log
+logs/fusion-driver.log
+logs/fusion-pilot.log
+logs/fusion-extraction.log
+logs/fusion-train.log

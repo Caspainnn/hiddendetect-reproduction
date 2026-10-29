@@ -19,11 +19,11 @@ if __name__=='__main__':
         a=np.load(old/(name+'.npy'),mmap_mode='r')[previous].astype(np.float32)
         b=np.load(new/(name+'.npy'),mmap_mode='r')[present].astype(np.float32)
         differences[name]=float(np.max(np.abs(a-b)))
-        if name in ('P','A'): assert np.allclose(a,b,rtol=1e-4,atol=1e-5),(name,differences[name])
+        if name in ('P','A','S','M'): assert np.allclose(a,b,rtol=1e-4,atol=1e-5),(name,differences[name])
         if name=='F': assert np.allclose(a,b,rtol=0,atol=1e-7)
         if name=='Q': assert np.array_equal(a,b)
     report={'status':'pass','old_training_probes':64,'maximum_absolute_differences':differences,
-        'strict_checks':['P','A','F','Q'],'diagnostic_only':['X','S','M','L'],
+        'strict_checks':['P','A','S','M','F','Q'],'diagnostic_only':['X','L'],
         'old_cache_seal_sha256':digest(old/'seal.json'),'new_cache_seal_sha256':digest(new/'seal.json')}
     (ROOT/'logs/fusion-probe-compatibility.json').write_text(json.dumps(report,indent=2)+'\n')
     print('PROBE_COMPATIBILITY_PASS',json.dumps(differences))

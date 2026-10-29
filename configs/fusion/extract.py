@@ -13,6 +13,8 @@ import time
 from pathlib import Path
 import numpy as np
 from features import ROOT, digest, read_jsonl, projection_matrix, open_cache, checkpoint, TRACE_NAMES, ATTENTION_NAMES, MODULE_NAMES, LAYOUT
+import features as feature_contracts
+FEATURE_HELPER=Path(feature_contracts.__file__)
 
 def main():
     parser=argparse.ArgumentParser(); parser.add_argument('--pilot-only',action='store_true'); args=parser.parse_args()
@@ -151,7 +153,7 @@ def main():
         print('PILOT_DECISION',json.dumps({k:v for k,v in pilot.items() if not isinstance(v,list)}),flush=True)
     if args.pilot_only: return
     enabled=pilot['attention_enabled']
-    provenance={'extractor_sha256':code,'features_code_sha256':digest(Path(__file__).with_name('features.py')),
+    provenance={'extractor_sha256':code,'features_code_sha256':digest(FEATURE_HELPER),
         'artifact_lock_sha256':digest(ROOT/'configs/artifacts-lock.json'),'torch':torch.__version__,
         'transformers':transformers.__version__,'numpy':np.__version__,'attention_enabled':enabled,
         'pilot_sha256':digest(pilot_path),'projection_seed':20261029,'boundary':'raw decoder layer output, pre-final-norm; per-token unit directions'}

@@ -24,3 +24,18 @@ try: validate_fresh_rows([{'id':'old','group_id':'g0','role':'test','label':0}],
 except AssertionError: pass
 else: raise AssertionError('Old test reuse accepted')
 print('PASS: cross-fit exclusion, interaction capacity, train-only transforms, CSV newlines and old-data/probe exception')
+import importlib.util,json
+from fusion_core import ROOT,digest
+from provenance import check_manifest_binding
+spec=importlib.util.spec_from_file_location('fusion_extraction_contract',Path(__file__).with_name('extract.py'))
+module=importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+assert module.FEATURE_HELPER.resolve()==(ROOT/'configs/highdim/features.py').resolve()
+with tempfile.TemporaryDirectory() as folder:
+    path=Path(folder)/'manifest.json'; path.write_text(json.dumps({'samples':[{'index':0,'label':0}]}))
+    item={'manifest_sha256':digest(path),'count':1}
+    check_manifest_binding(path,item,item)
+    path.write_text(json.dumps({'samples':[{'index':0,'label':1}]}))
+    try: check_manifest_binding(path,item,item)
+    except AssertionError: pass
+    else: raise AssertionError('Changed manifest with unchanged arrays accepted')
+print('PASS: relocated extractor helper and cache/manifest identity binding')
