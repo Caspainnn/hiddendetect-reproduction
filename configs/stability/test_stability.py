@@ -22,4 +22,19 @@ class Tests(unittest.TestCase):
         self.assertEqual(len(variants()),8);self.assertEqual(len(contrasts()),6)
         np.testing.assert_allclose(summary_features(x,'dynamic'),x[:,:,[1,2],:].reshape(2,-1)/np.sqrt(8))
 
+    def test_bootstrap_pairs_same_test_ids_across_all_draws(self):
+        from stability_analysis import analyze
+        names=[str(i)+'_'+v['name'] for i in range(5) for v in variants()]
+        rows=[]
+        for role,n in [('calibration_aegis',400),('calibration_toxic',400),('test_aegis_holdout',8),('test_toxic_holdout',8),('confirmation_aegis',8)]:
+            for j in range(n):
+                label=0 if role.startswith('calibration') else j%2
+                rows.append({'role':role,'label':label,'scores':{name:float((j%7)/10+label+int(name[0])*.01) for name in names}})
+        e=analyze(rows)
+        self.assertEqual(sum(len(v) for v in e['tests'].values()),160)
+        for c in e['contrasts']['confirmation_aegis:global'].values():
+            for metric in ('auroc','partial_auroc','tpr','fpr'):
+                self.assertEqual(c[metric]['delta'],0.)
+                self.assertEqual(c[metric]['family6_ci'],[0.,0.])
+
 if __name__=='__main__':unittest.main()

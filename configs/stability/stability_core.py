@@ -38,6 +38,7 @@ def base(a,ix):return np.asarray(a[1][ix],np.float64).reshape(len(ix),-1)/np.sqr
 def verify_cache(actual=False):
     seal=json.loads((ROOT/'logs/stability-cache-seal.json').read_text());m=json.loads((ROOT/'configs/stability/manifest.json').read_text())
     assert seal['manifest_sha256']==digest(ROOT/'configs/stability/manifest.json')
+    assert seal['artifact_lock_sha256']==digest(ROOT/'configs/artifacts-lock.json') and seal['fixed_length']==512 and seal['dtype']=='float16'
     assert seal['next_index']==len(m['samples']) and seal['prefix_difference']==0. and seal['pilot_maximum_B_difference']<=1e-5 and seal['pilot_maximum_summary_difference']<=1e-5
     assert seal['pilot_rows']==32 and seal['peak_allocated_bytes']<22*1024**3
     assert seal['shapes']=={'B.npy':[len(m['samples']),32,4096],'S.npy':[len(m['samples']),4,5,4096]}
