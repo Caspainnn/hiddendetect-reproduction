@@ -20,7 +20,7 @@ def main():
             delta=v['auroc']-values['expert_B']['auroc']
             lines.append(f"|{name}|{v['auroc']:.5f} [{lo:.5f}, {hi:.5f}]|{v['average_precision']:.5f}|{100*v['tpr']:.2f}|{100*v['fpr']:.2f}|{delta:+.5f} [{dl:+.5f}, {dh:+.5f}]|")
         lines+=['']
-    (out/'all-results.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+    (out/'all-results.md').write_text('\n'.join(lines).rstrip()+'\n',encoding='utf-8')
     names=['expert_B','expert_P','expert_A','expert_T','linear_BPAT','pairwise_BPAT',f['best_dev_additive_subset'],'equal_BPAT','raw_ridge_positions','linear_FC64']
     names=list(dict.fromkeys(names)); fig,axes=plt.subplots(1,2,figsize=(13,5.5),layout='constrained')
     values=r['tests']['test_aegis_holdout:global']; y=np.arange(len(names))
