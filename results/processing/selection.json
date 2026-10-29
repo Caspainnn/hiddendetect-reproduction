@@ -1,0 +1,6 @@
+{
+  "selected": "B",
+  "raw_best": "mean_g1p0",
+  "heuristic_se": 0.009236810739657318,
+  "scope": "train-only repeatedCV pAUC, B preferred within oneSE heuristic"
+}

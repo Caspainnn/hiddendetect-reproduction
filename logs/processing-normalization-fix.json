@@ -1,0 +1,8 @@
+{
+  "stage": "identity_gate_training_probes_before_first_checkpoint",
+  "completed_rows": 0,
+  "selected_norm_max_old_B_difference": 1.52587890625e-05,
+  "whole_sequence_train32_old_B_difference": 0.0,
+  "whole_sequence_train32_prefix_difference": 0.0,
+  "threshold_relaxed": false
+}

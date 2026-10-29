@@ -1,0 +1,15 @@
+{
+  "stage": "cache_creation_before_first_forward",
+  "completed_rows": 0,
+  "reason": "NumPy memmap needs tuple shape, not JSON list",
+  "preserved_files": {
+    "metadata.json": {
+      "bytes": 815,
+      "sha256": "d8121bda50350bcd3e959dc98c6538113f92e6347d69ba5474ef9c8e696b85ff"
+    },
+    "summaries.npy": {
+      "bytes": 128,
+      "sha256": "6478072c07e24109fa219f77a8c3347f714b9618dbb7a7883db6b58c62390a46"
+    }
+  }
+}

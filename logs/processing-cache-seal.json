@@ -1,0 +1,65 @@
+{
+  "manifest_sha256": "e32a4a92d68183704b584406e3342a42ffdadf6f755f1f375c45ee0c0c624030",
+  "metadata": {
+    "manifest_sha256": "e32a4a92d68183704b584406e3342a42ffdadf6f755f1f375c45ee0c0c624030",
+    "shapes": {
+      "summaries.npy": [
+        5960,
+        4,
+        7,
+        4096
+      ],
+      "relations.npy": [
+        5960,
+        116
+      ],
+      "fresh_B.npy": [
+        1000,
+        32,
+        4096
+      ]
+    },
+    "extraction_commit": "c43dce7cb7abc169dbe2c8be13aaf007ecf22f77",
+    "extraction_sources": {
+      "configs/processing/extract.py": "0ea689524d1f9d997d26a2a7377e0e15153c4c244f7e0c6c69ced46aed6e6208",
+      "configs/processing/processing_core.py": "5911a979cda4a92df4fcf5f6cd81509a540178619731912d894e3e2f7b28ce8c",
+      "configs/routing/routing_core.py": "4af169515ea184b02823606b4c74845c27f483e3785784255dc1261d77f2f8b0"
+    },
+    "fixed_length": 512,
+    "anchors": [
+      7,
+      15,
+      23,
+      31
+    ],
+    "torch": "2.1.2+cu121",
+    "numpy": "1.26.4",
+    "transformers": "4.37.2",
+    "artifact_lock_sha256": "9376f884cc88facd00b464635259a9308209ce5f7b354d10fd187d8f7ccc8349"
+  },
+  "state": {
+    "next_index": 5960,
+    "old_B_checked": 4960,
+    "maximum_old_B_difference": 0.0,
+    "prefix_difference": 0.0,
+    "peak_allocated_bytes": 15286223872
+  },
+  "extraction_commit": "c43dce7cb7abc169dbe2c8be13aaf007ecf22f77",
+  "extraction_sources": {
+    "configs/processing/extract.py": "0ea689524d1f9d997d26a2a7377e0e15153c4c244f7e0c6c69ced46aed6e6208",
+    "configs/processing/processing_core.py": "5911a979cda4a92df4fcf5f6cd81509a540178619731912d894e3e2f7b28ce8c",
+    "configs/routing/routing_core.py": "4af169515ea184b02823606b4c74845c27f483e3785784255dc1261d77f2f8b0"
+  },
+  "files": {
+    "cache/processing/summaries.npy": "69b5ad6836c218d38946787fe2854d0a5a8fa4574ddb0674ff2b6f0156925d74",
+    "cache/processing/relations.npy": "db4ce16272e1540fd326321a3879fcf4f28dc0f9c6c2bc090ad2ec3926c185c7",
+    "cache/processing/fresh_B.npy": "84e411f1d21413479fc2154f08d7b5818e2e2981a8d9b34293be6b78bf2c83db",
+    "cache/processing/metadata.json": "dafdc64d8a90592f9e0a44d979cfb31b9098fc20413547785ceec2661c9d3c44",
+    "cache/processing/checkpoint.json": "b19d114e7a7ee456ed136edac6883ddd29f91cde67d0478e665cacba9bbbbb1e",
+    "cache/processing/prefix-reference.npy": "4e4fa862c776d68dd4bd4625e91d7654a1fc250848ca0f91fd2ff6f92fd7584f",
+    "cache/routing/fixed.npy": "2ee9ab21250cdf45100fe023b879b547397db3e4d2f1e370c2dcf7092c68f58e"
+  },
+  "additional_bytes": 1631990784,
+  "seconds": 585.7158726677299,
+  "resumed_at": 0
+}
