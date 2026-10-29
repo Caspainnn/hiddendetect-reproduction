@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "rows": 2760,
+  "frozen_heads": [
+    "expert_B",
+    "expert_P",
+    "expert_A",
+    "expert_T",
+    "linear_BPAT",
+    "pairwise_BPAT",
+    "raw_ridge_positions",
+    "linear_FC64"
+  ],
+  "score_values_checked": 22080,
+  "maximum_absolute_difference": 2.3092638912203256e-14,
+  "prior_scores_sha256": "e329fe1f67b2eeaeee0e10fc6cd53ec12a0d3e0cacae495c120e145a93b78438",
+  "current_scores_sha256": "c50cecee11d53d1fe355c05933052d80f072522915a6f8a33e5dbcd9e345c1a8"
+}

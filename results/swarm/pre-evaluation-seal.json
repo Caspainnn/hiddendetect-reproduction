@@ -1,0 +1,7 @@
+{
+  "freeze_sha256": "226d2e847ed5880ee3edefcff628fc8d12837d91c16698f7d01650d2d409b83c",
+  "commit": "3f8b721113c178e66b76aa0071b625cdd34862a2",
+  "confirmation_manifest_sha256": "a10037af5ad22f0bac94adb2849b07859f4a92bd54e39881c0447d9855c531f5",
+  "confirmation_cache_seal_sha256": "a17de34bc2241f036c1c2f9556390cafa8a05f8e3f4c876307bf7b01d077d18d",
+  "probe_report_sha256": "487c5c773c8d256ac518f842139b6c002324cdf219aa0ba496f7c6a582492d87"
+}

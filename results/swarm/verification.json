@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "scored_rows": 3160,
+  "candidate_test_conditions": 336,
+  "search_runs": 20,
+  "unique_masks_per_run": 120,
+  "base_bootstrap_replayed_with_sklearn": true,
+  "evaluation_sha256": "4c2b459e96c976d6be2560367c3065bce251550d9d66f7adc5d6857bcddccb17",
+  "benchmark": "fixed previously observed comparison",
+  "confirmation": "fresh disjoint same-source; separate report"
+}

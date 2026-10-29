@@ -23,12 +23,14 @@
 
 ## Tasks
 
-- [ ] Tests RED/GREEN: exact unique-budget, common initialization, deterministic masks, monotonically best fitness, GA/DE operator invariants, duplicate replenishment, partial-AUC and train-only transforms. Record immutable benchmark contract and source protocol before search.
-- [ ] Implement/train searches and fixed controls; preserve all20 winners and source/head hashes. Build count-only fresh confirmation manifest; resource pilot/extract/seal/probe compatibility. Commit freeze before scoring.
-- [ ] One fresh review; score same benchmark and untouched confirmation, compute paired distributions and independently verify all point metrics/roles/thresholds/budgets. No final-test tuning.
-- [ ] Report direction/method/results/conclusion, update R11 low-FPR anchored objective /R12GA/R13DE method boundaries and fixed benchmark policy, sync progress/page/GitHub/server.
+- [x] Tests RED/GREEN: exact unique-budget, common initialization, deterministic masks, monotonically best fitness, GA/DE operator invariants, duplicate replenishment, partial-AUC and train-only transforms. Record immutable benchmark contract and source protocol before search.
+- [x] Implement/train searches and fixed controls; preserve all20 winners and source/head hashes. Build count-only fresh confirmation manifest; resource pilot/extract/seal/probe compatibility. Commit freeze before scoring.
+- [x] One fresh review; score same benchmark and untouched confirmation, compute paired distributions and independently verify all point metrics/roles/thresholds/budgets. No final-test tuning.
+- [x] Report direction/method/results/conclusion, update R11 low-FPR anchored objective /R12GA/R13DE method boundaries and fixed benchmark policy, sync progress/page/GitHub/server.
 
 ## Ledger
+
+- 2026-10-29: completed20 searches,120 unique masks each,2181 globally distinct L2 fits plus oneL1;1401.05s. All48 candidates committed3f8b721 before scoring. Unified benchmark and fresh400 confirmation scored84.01s;336 conditions/3160 rows independently verified on server and Windows, B bootstrap replayed via sklearn. Old8 heads ×2760 rows exactly reproduce prior scores. GA mean benchmarkpAUC .78590 vsB .79499; freshGA .74524 vsB .75079 with CI including0. DE/PSO/random return zero-extra; L1 onlyB. No confirmation-based reselection or tuning. Supplemental joint calibration uncertainty reported separately; no reset credit used. Full report updates prior fusion evidence honestly.
 
 - 2026-10-29: before any new benchmark or confirmation scoring, add supplemental1000 joint safe-calibration/test bootstraps (seed20261102), shared resample indices across methods, to assess threshold uncertainty. This does not change fixed thresholds, primary objective, candidates or algorithm budget. Report separately from primary conditional intervals. Scalar-loop equivalence regression observed RED/GREEN.
 

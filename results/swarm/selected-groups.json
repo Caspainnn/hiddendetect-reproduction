@@ -1,0 +1,94 @@
+{
+  "scope": "selection frequency is diagnostic, not causal importance",
+  "candidates": {
+    "random_seed0": [],
+    "bpso_seed0": [],
+    "ga_seed0": [
+      {
+        "name": "trajectory_31",
+        "family": "trajectory",
+        "start": 10736,
+        "stop": 10752,
+        "layer": 31,
+        "region": null
+      },
+      {
+        "name": "module_18",
+        "family": "module",
+        "start": 19088,
+        "stop": 19096,
+        "layer": 18,
+        "region": null
+      }
+    ],
+    "de_seed0": [],
+    "random_seed1": [],
+    "bpso_seed1": [],
+    "ga_seed1": [
+      {
+        "name": "length_missing",
+        "family": "length",
+        "start": 19264,
+        "stop": 19270,
+        "layer": null,
+        "region": null
+      }
+    ],
+    "de_seed1": [],
+    "random_seed2": [],
+    "bpso_seed2": [],
+    "ga_seed2": [
+      {
+        "name": "module_30",
+        "family": "module",
+        "start": 19184,
+        "stop": 19192,
+        "layer": 30,
+        "region": null
+      }
+    ],
+    "de_seed2": [],
+    "random_seed3": [],
+    "bpso_seed3": [],
+    "ga_seed3": [
+      {
+        "name": "module_6",
+        "family": "module",
+        "start": 18992,
+        "stop": 19000,
+        "layer": 6,
+        "region": null
+      }
+    ],
+    "de_seed3": [],
+    "random_seed4": [],
+    "bpso_seed4": [],
+    "ga_seed4": [
+      {
+        "name": "trajectory_4",
+        "family": "trajectory",
+        "start": 10304,
+        "stop": 10320,
+        "layer": 4,
+        "region": null
+      },
+      {
+        "name": "trajectory_31",
+        "family": "trajectory",
+        "start": 10736,
+        "stop": 10752,
+        "layer": 31,
+        "region": null
+      },
+      {
+        "name": "module_30",
+        "family": "module",
+        "start": 19184,
+        "stop": 19192,
+        "layer": 30,
+        "region": null
+      }
+    ],
+    "de_seed4": []
+  }
+}
