@@ -1,0 +1,11 @@
+# R28-R29 execution ledger
+
+Plan: docs/superpowers/plans/2026-10-29-anchored-summary.md. User explicitly requested autonomous further optimization and validation based on R27. Independent existing experimental checkout retained; branch experiment/anchored-summary.
+
+- Task 1 complete: normal-only alignment, alpha0/alpha1 and compact gate support tested RED (missing core), then GREEN. Four final tests pass, including extractor module scope and paired seven-contrast/two-policy bootstrap.
+- Task 2 complete: 18722 historical IDs and declared near duplicates excluded; manifest3950 contains meta600, existing calibration800/C1000/Toxic400, new Aegis1000 and new Toxic150. Fresh features1750, old training probes32 match B and all five summaries exactly, protected prefix drift0. Raw dataset revisions and hashes match prior download locks; Toxic partition/class composition separately recorded.
+- Task 3 complete: frozen R27 draw0 four heads reproduce all2200 old score rows with maximum difference1.354472090042691e-14. 550 meta-CV scoring conditions and 90 actual full-vector ridge refits completed; six corrected variants plus four raw heads and equal-label B_refit frozen at 8e36336bb46661a6ff8ae4d7dc2c708482859a52 before confirmation scoring.
+- Task 4 complete: sole fresh-context reviewer found no blocking/important issues. Server and local replayed640 CV metric conditions,66 heldout conditions and5000 stratified paired bootstrap draws, identical evaluation SHA256 8b70b2efe3c262642fd44568c3a20b361551ebfe8793511d3b2120241f6ed815. Server additionally validated private cache bytes.
+- Task 5: reviewed report, scientific figures, round record, progress and Markmap updated; website build/checks and branch delivery recorded in tool history.
+
+Result: no preregistered fresh Aegis pAUC contrast confirmed benefit after seven-comparison correction. Global dynamic alpha1 is the original joint head up to a positive affine transform; local dynamic changes15.9% fresh Aegis scores but recall falls. Normal-score alarm gating is not cognitive uncertainty; unchanged score rate is not accuracy or inference-speed gain. Equal-label refit point values are descriptive, not a demonstrated overall winner. Further training-size/source-diversity study remains proposed, not executed.

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "actual_private_cache_checked": false,
+  "cv_fold_metrics": 640,
+  "test_conditions": 66,
+  "bootstrap_replayed": true,
+  "freeze_sha256": "650447094b00921b4991b4c7d9c9c48d2964ed27df82dcbc5d5da037c0134f60",
+  "evaluation_sha256": "8b70b2efe3c262642fd44568c3a20b361551ebfe8793511d3b2120241f6ed815"
+}
