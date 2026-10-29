@@ -1,0 +1,8 @@
+{
+  "selected": "template_last",
+  "raw_best_cv": "template_last",
+  "best_nonlast_single": "user_last",
+  "best_real_pair": "template_plus_user_last",
+  "one_se_threshold": 0.7830081895701222,
+  "scope": "selection only from train CV, template preferred within one-SE heuristic; overlapping-fold SE not a formal interval"
+}

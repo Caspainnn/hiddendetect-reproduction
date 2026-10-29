@@ -1,0 +1,10 @@
+{
+  "manifest_sha256": "040c1ea9987c3560f57ff54e83c507ac056dc2977345beeb4737c6277f83f765",
+  "extractor_sha256": "df0b03be73d747c2761d214603ed90fe55d2d20692043e9b97ea225adb94d93f",
+  "readout_contract_sha256": "5aec98f3a22aef2120d228ec5770c93e43cc326da4dfa8558fc2b8e1dd50037d",
+  "rows": 64,
+  "maximum_old_readout_difference": 0.0,
+  "peak_allocated_bytes": 14883958784,
+  "median_seconds": 0.03106047958135605,
+  "passed": true
+}

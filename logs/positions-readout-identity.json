@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "manifest_sha256": "040c1ea9987c3560f57ff54e83c507ac056dc2977345beeb4737c6277f83f765",
+  "rows": 6360,
+  "old_rows_checked": 5360,
+  "maximum_template_last_difference": 0.0,
+  "prefix_training_max_difference": 0.0009765625,
+  "new_cache_bytes": 15005122688,
+  "peak_allocated_bytes": 15244276736,
+  "seconds_this_run": 326.8744362257421,
+  "resumed_at": 0,
+  "extractor_sha256": "df0b03be73d747c2761d214603ed90fe55d2d20692043e9b97ea225adb94d93f"
+}

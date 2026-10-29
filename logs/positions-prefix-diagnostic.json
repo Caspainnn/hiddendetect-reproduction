@@ -1,0 +1,11 @@
+{
+  "scope": "train32 probes, label-free protected-prefix equality and shape sensitivity; no metric or threshold selection",
+  "manifest_sha256": "040c1ea9987c3560f57ff54e83c507ac056dc2977345beeb4737c6277f83f765",
+  "code_sha256": "e1d56801ed77380704b31ba7512f36f4c4f551c46686ece3cdd305bdcbe44e7a",
+  "rows": 32,
+  "protected_prefix_ids_identical": true,
+  "variable_shape_prefix_max_difference": 0.0009765625,
+  "fixed512_prefix_max_difference": 0.0,
+  "maximum_template_state_change_due_padding": 0.0009765625,
+  "interpretation": "If drift disappears at fixed shape, variable-shape floating-point execution is a plausible prefix side-channel; not evidence prefix attends to future text."
+}
