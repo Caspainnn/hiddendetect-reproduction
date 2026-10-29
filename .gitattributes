@@ -3,6 +3,7 @@
 *.py text eol=lf
 *.json text eol=lf
 *.jsonl text eol=lf
+docs/superpowers/plans/2026-10-29-layer-readout-routing.md text eol=lf
 *.log text eol=lf
 # The frozen prospective manifest hashes these original acquisition-log bytes.
 logs/signal-selection-download.json -text
