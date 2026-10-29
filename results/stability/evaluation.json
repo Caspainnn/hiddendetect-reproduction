@@ -1,0 +1,4530 @@
+{
+  "tests": {
+    "test_aegis_holdout:global": {
+      "0_ridge_B": {
+        "tn": 478,
+        "fp": 22,
+        "fn": 182,
+        "tp": 318,
+        "auroc": 0.9141519999999999,
+        "average_precision": 0.923150655635264,
+        "tpr": 0.636,
+        "fpr": 0.044,
+        "partial_auroc": 0.7971157894736842
+      },
+      "0_ridge_mean": {
+        "tn": 478,
+        "fp": 22,
+        "fn": 179,
+        "tp": 321,
+        "auroc": 0.916252,
+        "average_precision": 0.925605350517468,
+        "tpr": 0.642,
+        "fpr": 0.044,
+        "partial_auroc": 0.8046736842105262
+      },
+      "0_ridge_dynamic": {
+        "tn": 476,
+        "fp": 24,
+        "fn": 180,
+        "tp": 320,
+        "auroc": 0.9141199999999999,
+        "average_precision": 0.9239545098515297,
+        "tpr": 0.64,
+        "fpr": 0.048,
+        "partial_auroc": 0.8038947368421052
+      },
+      "0_ridge_random": {
+        "tn": 476,
+        "fp": 24,
+        "fn": 170,
+        "tp": 330,
+        "auroc": 0.9163800000000001,
+        "average_precision": 0.9255959762776105,
+        "tpr": 0.66,
+        "fpr": 0.048,
+        "partial_auroc": 0.8064
+      },
+      "0_logistic_B": {
+        "tn": 479,
+        "fp": 21,
+        "fn": 185,
+        "tp": 315,
+        "auroc": 0.914272,
+        "average_precision": 0.9230851817859644,
+        "tpr": 0.63,
+        "fpr": 0.042,
+        "partial_auroc": 0.7960842105263157
+      },
+      "0_logistic_mean": {
+        "tn": 478,
+        "fp": 22,
+        "fn": 173,
+        "tp": 327,
+        "auroc": 0.91616,
+        "average_precision": 0.9254684540558133,
+        "tpr": 0.654,
+        "fpr": 0.044,
+        "partial_auroc": 0.8050736842105263
+      },
+      "0_logistic_dynamic": {
+        "tn": 478,
+        "fp": 22,
+        "fn": 178,
+        "tp": 322,
+        "auroc": 0.9145999999999999,
+        "average_precision": 0.9241348162037498,
+        "tpr": 0.644,
+        "fpr": 0.044,
+        "partial_auroc": 0.8041473684210526
+      },
+      "0_logistic_random": {
+        "tn": 480,
+        "fp": 20,
+        "fn": 174,
+        "tp": 326,
+        "auroc": 0.9163159999999999,
+        "average_precision": 0.925508637301135,
+        "tpr": 0.652,
+        "fpr": 0.04,
+        "partial_auroc": 0.8068631578947368
+      },
+      "1_ridge_B": {
+        "tn": 474,
+        "fp": 26,
+        "fn": 174,
+        "tp": 326,
+        "auroc": 0.9160119999999999,
+        "average_precision": 0.9222692447100089,
+        "tpr": 0.652,
+        "fpr": 0.052,
+        "partial_auroc": 0.7938315789473684
+      },
+      "1_ridge_mean": {
+        "tn": 477,
+        "fp": 23,
+        "fn": 176,
+        "tp": 324,
+        "auroc": 0.9185239999999999,
+        "average_precision": 0.9249198332364179,
+        "tpr": 0.648,
+        "fpr": 0.046,
+        "partial_auroc": 0.8017052631578948
+      },
+      "1_ridge_dynamic": {
+        "tn": 473,
+        "fp": 27,
+        "fn": 175,
+        "tp": 325,
+        "auroc": 0.9180879999999999,
+        "average_precision": 0.9244651334424071,
+        "tpr": 0.65,
+        "fpr": 0.054,
+        "partial_auroc": 0.8011368421052631
+      },
+      "1_ridge_random": {
+        "tn": 475,
+        "fp": 25,
+        "fn": 174,
+        "tp": 326,
+        "auroc": 0.917964,
+        "average_precision": 0.9242898873994174,
+        "tpr": 0.652,
+        "fpr": 0.05,
+        "partial_auroc": 0.8010526315789473
+      },
+      "1_logistic_B": {
+        "tn": 474,
+        "fp": 26,
+        "fn": 165,
+        "tp": 335,
+        "auroc": 0.9159999999999999,
+        "average_precision": 0.9230132561589032,
+        "tpr": 0.67,
+        "fpr": 0.052,
+        "partial_auroc": 0.7975578947368421
+      },
+      "1_logistic_mean": {
+        "tn": 471,
+        "fp": 29,
+        "fn": 174,
+        "tp": 326,
+        "auroc": 0.9176639999999999,
+        "average_precision": 0.9248066094313467,
+        "tpr": 0.652,
+        "fpr": 0.058,
+        "partial_auroc": 0.800778947368421
+      },
+      "1_logistic_dynamic": {
+        "tn": 477,
+        "fp": 23,
+        "fn": 175,
+        "tp": 325,
+        "auroc": 0.917036,
+        "average_precision": 0.9241207269453525,
+        "tpr": 0.65,
+        "fpr": 0.046,
+        "partial_auroc": 0.8001052631578948
+      },
+      "1_logistic_random": {
+        "tn": 475,
+        "fp": 25,
+        "fn": 176,
+        "tp": 324,
+        "auroc": 0.91726,
+        "average_precision": 0.924287660217653,
+        "tpr": 0.648,
+        "fpr": 0.05,
+        "partial_auroc": 0.8006526315789474
+      },
+      "2_ridge_B": {
+        "tn": 474,
+        "fp": 26,
+        "fn": 160,
+        "tp": 340,
+        "auroc": 0.915416,
+        "average_precision": 0.9240143637199647,
+        "tpr": 0.68,
+        "fpr": 0.052,
+        "partial_auroc": 0.8026315789473684
+      },
+      "2_ridge_mean": {
+        "tn": 479,
+        "fp": 21,
+        "fn": 176,
+        "tp": 324,
+        "auroc": 0.9177240000000001,
+        "average_precision": 0.9267772269975851,
+        "tpr": 0.648,
+        "fpr": 0.042,
+        "partial_auroc": 0.8063368421052631
+      },
+      "2_ridge_dynamic": {
+        "tn": 479,
+        "fp": 21,
+        "fn": 172,
+        "tp": 328,
+        "auroc": 0.91648,
+        "average_precision": 0.9256109608039348,
+        "tpr": 0.656,
+        "fpr": 0.042,
+        "partial_auroc": 0.807557894736842
+      },
+      "2_ridge_random": {
+        "tn": 477,
+        "fp": 23,
+        "fn": 175,
+        "tp": 325,
+        "auroc": 0.9168120000000001,
+        "average_precision": 0.9253285527918094,
+        "tpr": 0.65,
+        "fpr": 0.046,
+        "partial_auroc": 0.8051578947368421
+      },
+      "2_logistic_B": {
+        "tn": 471,
+        "fp": 29,
+        "fn": 163,
+        "tp": 337,
+        "auroc": 0.914088,
+        "average_precision": 0.9233287592549052,
+        "tpr": 0.674,
+        "fpr": 0.058,
+        "partial_auroc": 0.8010105263157895
+      },
+      "2_logistic_mean": {
+        "tn": 481,
+        "fp": 19,
+        "fn": 184,
+        "tp": 316,
+        "auroc": 0.916184,
+        "average_precision": 0.9253641672833244,
+        "tpr": 0.632,
+        "fpr": 0.038,
+        "partial_auroc": 0.8038105263157895
+      },
+      "2_logistic_dynamic": {
+        "tn": 479,
+        "fp": 21,
+        "fn": 172,
+        "tp": 328,
+        "auroc": 0.914956,
+        "average_precision": 0.924232413186857,
+        "tpr": 0.656,
+        "fpr": 0.042,
+        "partial_auroc": 0.8046526315789474
+      },
+      "2_logistic_random": {
+        "tn": 474,
+        "fp": 26,
+        "fn": 181,
+        "tp": 319,
+        "auroc": 0.9155919999999999,
+        "average_precision": 0.9244299671109183,
+        "tpr": 0.638,
+        "fpr": 0.052,
+        "partial_auroc": 0.8029684210526316
+      },
+      "3_ridge_B": {
+        "tn": 476,
+        "fp": 24,
+        "fn": 169,
+        "tp": 331,
+        "auroc": 0.914916,
+        "average_precision": 0.9225820025780213,
+        "tpr": 0.662,
+        "fpr": 0.048,
+        "partial_auroc": 0.7968210526315789
+      },
+      "3_ridge_mean": {
+        "tn": 476,
+        "fp": 24,
+        "fn": 172,
+        "tp": 328,
+        "auroc": 0.9162639999999999,
+        "average_precision": 0.9244386478384226,
+        "tpr": 0.656,
+        "fpr": 0.048,
+        "partial_auroc": 0.803178947368421
+      },
+      "3_ridge_dynamic": {
+        "tn": 480,
+        "fp": 20,
+        "fn": 183,
+        "tp": 317,
+        "auroc": 0.914304,
+        "average_precision": 0.922817115108845,
+        "tpr": 0.634,
+        "fpr": 0.04,
+        "partial_auroc": 0.801221052631579
+      },
+      "3_ridge_random": {
+        "tn": 476,
+        "fp": 24,
+        "fn": 175,
+        "tp": 325,
+        "auroc": 0.916256,
+        "average_precision": 0.9242451240825067,
+        "tpr": 0.65,
+        "fpr": 0.048,
+        "partial_auroc": 0.8033894736842104
+      },
+      "3_logistic_B": {
+        "tn": 476,
+        "fp": 24,
+        "fn": 171,
+        "tp": 329,
+        "auroc": 0.9142119999999999,
+        "average_precision": 0.9224268011441368,
+        "tpr": 0.658,
+        "fpr": 0.048,
+        "partial_auroc": 0.7983157894736842
+      },
+      "3_logistic_mean": {
+        "tn": 475,
+        "fp": 25,
+        "fn": 172,
+        "tp": 328,
+        "auroc": 0.9148879999999999,
+        "average_precision": 0.9236882065198194,
+        "tpr": 0.656,
+        "fpr": 0.05,
+        "partial_auroc": 0.8003368421052632
+      },
+      "3_logistic_dynamic": {
+        "tn": 476,
+        "fp": 24,
+        "fn": 176,
+        "tp": 324,
+        "auroc": 0.9131400000000001,
+        "average_precision": 0.9221783891458927,
+        "tpr": 0.648,
+        "fpr": 0.048,
+        "partial_auroc": 0.7983368421052631
+      },
+      "3_logistic_random": {
+        "tn": 475,
+        "fp": 25,
+        "fn": 174,
+        "tp": 326,
+        "auroc": 0.91488,
+        "average_precision": 0.9234329868616797,
+        "tpr": 0.652,
+        "fpr": 0.05,
+        "partial_auroc": 0.8002526315789473
+      },
+      "4_ridge_B": {
+        "tn": 480,
+        "fp": 20,
+        "fn": 181,
+        "tp": 319,
+        "auroc": 0.9191560000000001,
+        "average_precision": 0.9243337917536981,
+        "tpr": 0.638,
+        "fpr": 0.04,
+        "partial_auroc": 0.7969263157894737
+      },
+      "4_ridge_mean": {
+        "tn": 483,
+        "fp": 17,
+        "fn": 181,
+        "tp": 319,
+        "auroc": 0.920816,
+        "average_precision": 0.9264457506210038,
+        "tpr": 0.638,
+        "fpr": 0.034,
+        "partial_auroc": 0.8018526315789474
+      },
+      "4_ridge_dynamic": {
+        "tn": 480,
+        "fp": 20,
+        "fn": 182,
+        "tp": 318,
+        "auroc": 0.9195439999999999,
+        "average_precision": 0.9253248935513624,
+        "tpr": 0.636,
+        "fpr": 0.04,
+        "partial_auroc": 0.8012421052631579
+      },
+      "4_ridge_random": {
+        "tn": 485,
+        "fp": 15,
+        "fn": 185,
+        "tp": 315,
+        "auroc": 0.92028,
+        "average_precision": 0.926048273173983,
+        "tpr": 0.63,
+        "fpr": 0.03,
+        "partial_auroc": 0.8029052631578948
+      },
+      "4_logistic_B": {
+        "tn": 475,
+        "fp": 25,
+        "fn": 175,
+        "tp": 325,
+        "auroc": 0.9195559999999999,
+        "average_precision": 0.9246572398153269,
+        "tpr": 0.65,
+        "fpr": 0.05,
+        "partial_auroc": 0.7961052631578948
+      },
+      "4_logistic_mean": {
+        "tn": 477,
+        "fp": 23,
+        "fn": 179,
+        "tp": 321,
+        "auroc": 0.92122,
+        "average_precision": 0.9266732083775703,
+        "tpr": 0.642,
+        "fpr": 0.046,
+        "partial_auroc": 0.7984842105263158
+      },
+      "4_logistic_dynamic": {
+        "tn": 475,
+        "fp": 25,
+        "fn": 169,
+        "tp": 331,
+        "auroc": 0.9199280000000001,
+        "average_precision": 0.9256631151336441,
+        "tpr": 0.662,
+        "fpr": 0.05,
+        "partial_auroc": 0.7986947368421053
+      },
+      "4_logistic_random": {
+        "tn": 483,
+        "fp": 17,
+        "fn": 188,
+        "tp": 312,
+        "auroc": 0.92114,
+        "average_precision": 0.9264407296794716,
+        "tpr": 0.624,
+        "fpr": 0.034,
+        "partial_auroc": 0.7999157894736842
+      }
+    },
+    "test_toxic_holdout:global": {
+      "0_ridge_B": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 162,
+        "tp": 38,
+        "auroc": 0.8862249999999999,
+        "average_precision": 0.8806850919808338,
+        "tpr": 0.19,
+        "fpr": 0.005,
+        "partial_auroc": 0.7096052631578947
+      },
+      "0_ridge_mean": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 167,
+        "tp": 33,
+        "auroc": 0.8952499999999999,
+        "average_precision": 0.8908024947512407,
+        "tpr": 0.165,
+        "fpr": 0.005,
+        "partial_auroc": 0.7281578947368421
+      },
+      "0_ridge_dynamic": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 164,
+        "tp": 36,
+        "auroc": 0.8910250000000001,
+        "average_precision": 0.8871646064725804,
+        "tpr": 0.18,
+        "fpr": 0.005,
+        "partial_auroc": 0.7177631578947369
+      },
+      "0_ridge_random": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 162,
+        "tp": 38,
+        "auroc": 0.895525,
+        "average_precision": 0.8926819488121964,
+        "tpr": 0.19,
+        "fpr": 0.005,
+        "partial_auroc": 0.7294736842105263
+      },
+      "0_logistic_B": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 161,
+        "tp": 39,
+        "auroc": 0.8635250000000001,
+        "average_precision": 0.8654174536879394,
+        "tpr": 0.195,
+        "fpr": 0.005,
+        "partial_auroc": 0.6971052631578947
+      },
+      "0_logistic_mean": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 155,
+        "tp": 45,
+        "auroc": 0.8772500000000001,
+        "average_precision": 0.8791921063177546,
+        "tpr": 0.225,
+        "fpr": 0.005,
+        "partial_auroc": 0.7180263157894737
+      },
+      "0_logistic_dynamic": {
+        "tn": 200,
+        "fp": 0,
+        "fn": 157,
+        "tp": 43,
+        "auroc": 0.8752,
+        "average_precision": 0.8769191641993707,
+        "tpr": 0.215,
+        "fpr": 0.0,
+        "partial_auroc": 0.7092105263157895
+      },
+      "0_logistic_random": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 155,
+        "tp": 45,
+        "auroc": 0.8763250000000001,
+        "average_precision": 0.8795891928571054,
+        "tpr": 0.225,
+        "fpr": 0.005,
+        "partial_auroc": 0.7209210526315789
+      },
+      "1_ridge_B": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 143,
+        "tp": 57,
+        "auroc": 0.918125,
+        "average_precision": 0.9166638837753672,
+        "tpr": 0.285,
+        "fpr": 0.005,
+        "partial_auroc": 0.7682894736842105
+      },
+      "1_ridge_mean": {
+        "tn": 200,
+        "fp": 0,
+        "fn": 143,
+        "tp": 57,
+        "auroc": 0.9223750000000001,
+        "average_precision": 0.9228484199131135,
+        "tpr": 0.285,
+        "fpr": 0.0,
+        "partial_auroc": 0.78
+      },
+      "1_ridge_dynamic": {
+        "tn": 200,
+        "fp": 0,
+        "fn": 141,
+        "tp": 59,
+        "auroc": 0.92095,
+        "average_precision": 0.9206054334325151,
+        "tpr": 0.295,
+        "fpr": 0.0,
+        "partial_auroc": 0.7705263157894737
+      },
+      "1_ridge_random": {
+        "tn": 200,
+        "fp": 0,
+        "fn": 144,
+        "tp": 56,
+        "auroc": 0.91975,
+        "average_precision": 0.9203286223175312,
+        "tpr": 0.28,
+        "fpr": 0.0,
+        "partial_auroc": 0.7746052631578948
+      },
+      "1_logistic_B": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 138,
+        "tp": 62,
+        "auroc": 0.910225,
+        "average_precision": 0.9125335712949498,
+        "tpr": 0.31,
+        "fpr": 0.005,
+        "partial_auroc": 0.7717105263157895
+      },
+      "1_logistic_mean": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 141,
+        "tp": 59,
+        "auroc": 0.915525,
+        "average_precision": 0.9175033110458006,
+        "tpr": 0.295,
+        "fpr": 0.005,
+        "partial_auroc": 0.7739473684210526
+      },
+      "1_logistic_dynamic": {
+        "tn": 200,
+        "fp": 0,
+        "fn": 143,
+        "tp": 57,
+        "auroc": 0.9135999999999999,
+        "average_precision": 0.9148279609222956,
+        "tpr": 0.285,
+        "fpr": 0.0,
+        "partial_auroc": 0.7639473684210527
+      },
+      "1_logistic_random": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 145,
+        "tp": 55,
+        "auroc": 0.9097749999999999,
+        "average_precision": 0.9125042482314543,
+        "tpr": 0.275,
+        "fpr": 0.005,
+        "partial_auroc": 0.7678947368421052
+      },
+      "2_ridge_B": {
+        "tn": 197,
+        "fp": 3,
+        "fn": 147,
+        "tp": 53,
+        "auroc": 0.902125,
+        "average_precision": 0.8975824147704088,
+        "tpr": 0.265,
+        "fpr": 0.015,
+        "partial_auroc": 0.731578947368421
+      },
+      "2_ridge_mean": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 152,
+        "tp": 48,
+        "auroc": 0.9088,
+        "average_precision": 0.9049922373704824,
+        "tpr": 0.24,
+        "fpr": 0.005,
+        "partial_auroc": 0.7403947368421052
+      },
+      "2_ridge_dynamic": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 152,
+        "tp": 48,
+        "auroc": 0.908625,
+        "average_precision": 0.9025362737066296,
+        "tpr": 0.24,
+        "fpr": 0.005,
+        "partial_auroc": 0.7364473684210526
+      },
+      "2_ridge_random": {
+        "tn": 198,
+        "fp": 2,
+        "fn": 150,
+        "tp": 50,
+        "auroc": 0.90575,
+        "average_precision": 0.9015280605365409,
+        "tpr": 0.25,
+        "fpr": 0.01,
+        "partial_auroc": 0.74
+      },
+      "2_logistic_B": {
+        "tn": 197,
+        "fp": 3,
+        "fn": 136,
+        "tp": 64,
+        "auroc": 0.8819,
+        "average_precision": 0.8821603540677792,
+        "tpr": 0.32,
+        "fpr": 0.015,
+        "partial_auroc": 0.7176315789473684
+      },
+      "2_logistic_mean": {
+        "tn": 198,
+        "fp": 2,
+        "fn": 150,
+        "tp": 50,
+        "auroc": 0.8880000000000001,
+        "average_precision": 0.885742028322489,
+        "tpr": 0.25,
+        "fpr": 0.01,
+        "partial_auroc": 0.7172368421052632
+      },
+      "2_logistic_dynamic": {
+        "tn": 197,
+        "fp": 3,
+        "fn": 144,
+        "tp": 56,
+        "auroc": 0.8902749999999999,
+        "average_precision": 0.8869117810685005,
+        "tpr": 0.28,
+        "fpr": 0.015,
+        "partial_auroc": 0.7163157894736842
+      },
+      "2_logistic_random": {
+        "tn": 197,
+        "fp": 3,
+        "fn": 144,
+        "tp": 56,
+        "auroc": 0.884775,
+        "average_precision": 0.8832160777584303,
+        "tpr": 0.28,
+        "fpr": 0.015,
+        "partial_auroc": 0.715
+      },
+      "3_ridge_B": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 155,
+        "tp": 45,
+        "auroc": 0.88625,
+        "average_precision": 0.8854645473953204,
+        "tpr": 0.225,
+        "fpr": 0.005,
+        "partial_auroc": 0.7264473684210526
+      },
+      "3_ridge_mean": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 155,
+        "tp": 45,
+        "auroc": 0.8958750000000001,
+        "average_precision": 0.8940282905210597,
+        "tpr": 0.225,
+        "fpr": 0.005,
+        "partial_auroc": 0.7356578947368421
+      },
+      "3_ridge_dynamic": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 157,
+        "tp": 43,
+        "auroc": 0.8945000000000001,
+        "average_precision": 0.8919898287974404,
+        "tpr": 0.215,
+        "fpr": 0.005,
+        "partial_auroc": 0.7327631578947369
+      },
+      "3_ridge_random": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 154,
+        "tp": 46,
+        "auroc": 0.896475,
+        "average_precision": 0.8950446132287772,
+        "tpr": 0.23,
+        "fpr": 0.005,
+        "partial_auroc": 0.7371052631578947
+      },
+      "3_logistic_B": {
+        "tn": 198,
+        "fp": 2,
+        "fn": 147,
+        "tp": 53,
+        "auroc": 0.8687750000000001,
+        "average_precision": 0.8721265645220944,
+        "tpr": 0.265,
+        "fpr": 0.01,
+        "partial_auroc": 0.714078947368421
+      },
+      "3_logistic_mean": {
+        "tn": 198,
+        "fp": 2,
+        "fn": 150,
+        "tp": 50,
+        "auroc": 0.882775,
+        "average_precision": 0.8835246826066921,
+        "tpr": 0.25,
+        "fpr": 0.01,
+        "partial_auroc": 0.7235526315789473
+      },
+      "3_logistic_dynamic": {
+        "tn": 198,
+        "fp": 2,
+        "fn": 152,
+        "tp": 48,
+        "auroc": 0.8829,
+        "average_precision": 0.8840701121468166,
+        "tpr": 0.24,
+        "fpr": 0.01,
+        "partial_auroc": 0.7271052631578947
+      },
+      "3_logistic_random": {
+        "tn": 198,
+        "fp": 2,
+        "fn": 147,
+        "tp": 53,
+        "auroc": 0.8833,
+        "average_precision": 0.8842974008299824,
+        "tpr": 0.265,
+        "fpr": 0.01,
+        "partial_auroc": 0.7248684210526316
+      },
+      "4_ridge_B": {
+        "tn": 200,
+        "fp": 0,
+        "fn": 150,
+        "tp": 50,
+        "auroc": 0.90625,
+        "average_precision": 0.9059352206281904,
+        "tpr": 0.25,
+        "fpr": 0.0,
+        "partial_auroc": 0.7484210526315789
+      },
+      "4_ridge_mean": {
+        "tn": 200,
+        "fp": 0,
+        "fn": 151,
+        "tp": 49,
+        "auroc": 0.91015,
+        "average_precision": 0.9114759451914041,
+        "tpr": 0.245,
+        "fpr": 0.0,
+        "partial_auroc": 0.7561842105263158
+      },
+      "4_ridge_dynamic": {
+        "tn": 198,
+        "fp": 2,
+        "fn": 147,
+        "tp": 53,
+        "auroc": 0.9080250000000001,
+        "average_precision": 0.9076561388317851,
+        "tpr": 0.265,
+        "fpr": 0.01,
+        "partial_auroc": 0.7514473684210528
+      },
+      "4_ridge_random": {
+        "tn": 200,
+        "fp": 0,
+        "fn": 156,
+        "tp": 44,
+        "auroc": 0.9077750000000001,
+        "average_precision": 0.9098410089055736,
+        "tpr": 0.22,
+        "fpr": 0.0,
+        "partial_auroc": 0.7551315789473685
+      },
+      "4_logistic_B": {
+        "tn": 198,
+        "fp": 2,
+        "fn": 139,
+        "tp": 61,
+        "auroc": 0.897075,
+        "average_precision": 0.9020439509175013,
+        "tpr": 0.305,
+        "fpr": 0.01,
+        "partial_auroc": 0.750263157894737
+      },
+      "4_logistic_mean": {
+        "tn": 199,
+        "fp": 1,
+        "fn": 145,
+        "tp": 55,
+        "auroc": 0.8973750000000001,
+        "average_precision": 0.9019860399026232,
+        "tpr": 0.275,
+        "fpr": 0.005,
+        "partial_auroc": 0.7519736842105262
+      },
+      "4_logistic_dynamic": {
+        "tn": 198,
+        "fp": 2,
+        "fn": 137,
+        "tp": 63,
+        "auroc": 0.896475,
+        "average_precision": 0.9011235425984208,
+        "tpr": 0.315,
+        "fpr": 0.01,
+        "partial_auroc": 0.7489473684210527
+      },
+      "4_logistic_random": {
+        "tn": 200,
+        "fp": 0,
+        "fn": 150,
+        "tp": 50,
+        "auroc": 0.8939999999999998,
+        "average_precision": 0.8996653750424336,
+        "tpr": 0.25,
+        "fpr": 0.0,
+        "partial_auroc": 0.7517105263157895
+      }
+    },
+    "test_toxic_holdout:source": {
+      "0_ridge_B": {
+        "tn": 191,
+        "fp": 9,
+        "fn": 116,
+        "tp": 84,
+        "auroc": 0.8862249999999999,
+        "average_precision": 0.8806850919808338,
+        "tpr": 0.42,
+        "fpr": 0.045,
+        "partial_auroc": 0.7096052631578947
+      },
+      "0_ridge_mean": {
+        "tn": 190,
+        "fp": 10,
+        "fn": 107,
+        "tp": 93,
+        "auroc": 0.8952499999999999,
+        "average_precision": 0.8908024947512407,
+        "tpr": 0.465,
+        "fpr": 0.05,
+        "partial_auroc": 0.7281578947368421
+      },
+      "0_ridge_dynamic": {
+        "tn": 190,
+        "fp": 10,
+        "fn": 108,
+        "tp": 92,
+        "auroc": 0.8910250000000001,
+        "average_precision": 0.8871646064725804,
+        "tpr": 0.46,
+        "fpr": 0.05,
+        "partial_auroc": 0.7177631578947369
+      },
+      "0_ridge_random": {
+        "tn": 192,
+        "fp": 8,
+        "fn": 108,
+        "tp": 92,
+        "auroc": 0.895525,
+        "average_precision": 0.8926819488121964,
+        "tpr": 0.46,
+        "fpr": 0.04,
+        "partial_auroc": 0.7294736842105263
+      },
+      "0_logistic_B": {
+        "tn": 191,
+        "fp": 9,
+        "fn": 114,
+        "tp": 86,
+        "auroc": 0.8635250000000001,
+        "average_precision": 0.8654174536879394,
+        "tpr": 0.43,
+        "fpr": 0.045,
+        "partial_auroc": 0.6971052631578947
+      },
+      "0_logistic_mean": {
+        "tn": 192,
+        "fp": 8,
+        "fn": 118,
+        "tp": 82,
+        "auroc": 0.8772500000000001,
+        "average_precision": 0.8791921063177546,
+        "tpr": 0.41,
+        "fpr": 0.04,
+        "partial_auroc": 0.7180263157894737
+      },
+      "0_logistic_dynamic": {
+        "tn": 191,
+        "fp": 9,
+        "fn": 115,
+        "tp": 85,
+        "auroc": 0.8752,
+        "average_precision": 0.8769191641993707,
+        "tpr": 0.425,
+        "fpr": 0.045,
+        "partial_auroc": 0.7092105263157895
+      },
+      "0_logistic_random": {
+        "tn": 191,
+        "fp": 9,
+        "fn": 111,
+        "tp": 89,
+        "auroc": 0.8763250000000001,
+        "average_precision": 0.8795891928571054,
+        "tpr": 0.445,
+        "fpr": 0.045,
+        "partial_auroc": 0.7209210526315789
+      },
+      "1_ridge_B": {
+        "tn": 192,
+        "fp": 8,
+        "fn": 88,
+        "tp": 112,
+        "auroc": 0.918125,
+        "average_precision": 0.9166638837753672,
+        "tpr": 0.56,
+        "fpr": 0.04,
+        "partial_auroc": 0.7682894736842105
+      },
+      "1_ridge_mean": {
+        "tn": 193,
+        "fp": 7,
+        "fn": 91,
+        "tp": 109,
+        "auroc": 0.9223750000000001,
+        "average_precision": 0.9228484199131135,
+        "tpr": 0.545,
+        "fpr": 0.035,
+        "partial_auroc": 0.78
+      },
+      "1_ridge_dynamic": {
+        "tn": 192,
+        "fp": 8,
+        "fn": 89,
+        "tp": 111,
+        "auroc": 0.92095,
+        "average_precision": 0.9206054334325151,
+        "tpr": 0.555,
+        "fpr": 0.04,
+        "partial_auroc": 0.7705263157894737
+      },
+      "1_ridge_random": {
+        "tn": 193,
+        "fp": 7,
+        "fn": 93,
+        "tp": 107,
+        "auroc": 0.91975,
+        "average_precision": 0.9203286223175312,
+        "tpr": 0.535,
+        "fpr": 0.035,
+        "partial_auroc": 0.7746052631578948
+      },
+      "1_logistic_B": {
+        "tn": 192,
+        "fp": 8,
+        "fn": 87,
+        "tp": 113,
+        "auroc": 0.910225,
+        "average_precision": 0.9125335712949498,
+        "tpr": 0.565,
+        "fpr": 0.04,
+        "partial_auroc": 0.7717105263157895
+      },
+      "1_logistic_mean": {
+        "tn": 193,
+        "fp": 7,
+        "fn": 99,
+        "tp": 101,
+        "auroc": 0.915525,
+        "average_precision": 0.9175033110458006,
+        "tpr": 0.505,
+        "fpr": 0.035,
+        "partial_auroc": 0.7739473684210526
+      },
+      "1_logistic_dynamic": {
+        "tn": 192,
+        "fp": 8,
+        "fn": 93,
+        "tp": 107,
+        "auroc": 0.9135999999999999,
+        "average_precision": 0.9148279609222956,
+        "tpr": 0.535,
+        "fpr": 0.04,
+        "partial_auroc": 0.7639473684210527
+      },
+      "1_logistic_random": {
+        "tn": 193,
+        "fp": 7,
+        "fn": 96,
+        "tp": 104,
+        "auroc": 0.9097749999999999,
+        "average_precision": 0.9125042482314543,
+        "tpr": 0.52,
+        "fpr": 0.035,
+        "partial_auroc": 0.7678947368421052
+      },
+      "2_ridge_B": {
+        "tn": 189,
+        "fp": 11,
+        "fn": 92,
+        "tp": 108,
+        "auroc": 0.902125,
+        "average_precision": 0.8975824147704088,
+        "tpr": 0.54,
+        "fpr": 0.055,
+        "partial_auroc": 0.731578947368421
+      },
+      "2_ridge_mean": {
+        "tn": 192,
+        "fp": 8,
+        "fn": 92,
+        "tp": 108,
+        "auroc": 0.9088,
+        "average_precision": 0.9049922373704824,
+        "tpr": 0.54,
+        "fpr": 0.04,
+        "partial_auroc": 0.7403947368421052
+      },
+      "2_ridge_dynamic": {
+        "tn": 190,
+        "fp": 10,
+        "fn": 87,
+        "tp": 113,
+        "auroc": 0.908625,
+        "average_precision": 0.9025362737066296,
+        "tpr": 0.565,
+        "fpr": 0.05,
+        "partial_auroc": 0.7364473684210526
+      },
+      "2_ridge_random": {
+        "tn": 191,
+        "fp": 9,
+        "fn": 93,
+        "tp": 107,
+        "auroc": 0.90575,
+        "average_precision": 0.9015280605365409,
+        "tpr": 0.535,
+        "fpr": 0.045,
+        "partial_auroc": 0.74
+      },
+      "2_logistic_B": {
+        "tn": 188,
+        "fp": 12,
+        "fn": 96,
+        "tp": 104,
+        "auroc": 0.8819,
+        "average_precision": 0.8821603540677792,
+        "tpr": 0.52,
+        "fpr": 0.06,
+        "partial_auroc": 0.7176315789473684
+      },
+      "2_logistic_mean": {
+        "tn": 189,
+        "fp": 11,
+        "fn": 100,
+        "tp": 100,
+        "auroc": 0.8880000000000001,
+        "average_precision": 0.885742028322489,
+        "tpr": 0.5,
+        "fpr": 0.055,
+        "partial_auroc": 0.7172368421052632
+      },
+      "2_logistic_dynamic": {
+        "tn": 190,
+        "fp": 10,
+        "fn": 96,
+        "tp": 104,
+        "auroc": 0.8902749999999999,
+        "average_precision": 0.8869117810685005,
+        "tpr": 0.52,
+        "fpr": 0.05,
+        "partial_auroc": 0.7163157894736842
+      },
+      "2_logistic_random": {
+        "tn": 189,
+        "fp": 11,
+        "fn": 98,
+        "tp": 102,
+        "auroc": 0.884775,
+        "average_precision": 0.8832160777584303,
+        "tpr": 0.51,
+        "fpr": 0.055,
+        "partial_auroc": 0.715
+      },
+      "3_ridge_B": {
+        "tn": 190,
+        "fp": 10,
+        "fn": 101,
+        "tp": 99,
+        "auroc": 0.88625,
+        "average_precision": 0.8854645473953204,
+        "tpr": 0.495,
+        "fpr": 0.05,
+        "partial_auroc": 0.7264473684210526
+      },
+      "3_ridge_mean": {
+        "tn": 190,
+        "fp": 10,
+        "fn": 99,
+        "tp": 101,
+        "auroc": 0.8958750000000001,
+        "average_precision": 0.8940282905210597,
+        "tpr": 0.505,
+        "fpr": 0.05,
+        "partial_auroc": 0.7356578947368421
+      },
+      "3_ridge_dynamic": {
+        "tn": 191,
+        "fp": 9,
+        "fn": 97,
+        "tp": 103,
+        "auroc": 0.8945000000000001,
+        "average_precision": 0.8919898287974404,
+        "tpr": 0.515,
+        "fpr": 0.045,
+        "partial_auroc": 0.7327631578947369
+      },
+      "3_ridge_random": {
+        "tn": 190,
+        "fp": 10,
+        "fn": 97,
+        "tp": 103,
+        "auroc": 0.896475,
+        "average_precision": 0.8950446132287772,
+        "tpr": 0.515,
+        "fpr": 0.05,
+        "partial_auroc": 0.7371052631578947
+      },
+      "3_logistic_B": {
+        "tn": 190,
+        "fp": 10,
+        "fn": 98,
+        "tp": 102,
+        "auroc": 0.8687750000000001,
+        "average_precision": 0.8721265645220944,
+        "tpr": 0.51,
+        "fpr": 0.05,
+        "partial_auroc": 0.714078947368421
+      },
+      "3_logistic_mean": {
+        "tn": 190,
+        "fp": 10,
+        "fn": 103,
+        "tp": 97,
+        "auroc": 0.882775,
+        "average_precision": 0.8835246826066921,
+        "tpr": 0.485,
+        "fpr": 0.05,
+        "partial_auroc": 0.7235526315789473
+      },
+      "3_logistic_dynamic": {
+        "tn": 190,
+        "fp": 10,
+        "fn": 97,
+        "tp": 103,
+        "auroc": 0.8829,
+        "average_precision": 0.8840701121468166,
+        "tpr": 0.515,
+        "fpr": 0.05,
+        "partial_auroc": 0.7271052631578947
+      },
+      "3_logistic_random": {
+        "tn": 191,
+        "fp": 9,
+        "fn": 103,
+        "tp": 97,
+        "auroc": 0.8833,
+        "average_precision": 0.8842974008299824,
+        "tpr": 0.485,
+        "fpr": 0.045,
+        "partial_auroc": 0.7248684210526316
+      },
+      "4_ridge_B": {
+        "tn": 190,
+        "fp": 10,
+        "fn": 91,
+        "tp": 109,
+        "auroc": 0.90625,
+        "average_precision": 0.9059352206281904,
+        "tpr": 0.545,
+        "fpr": 0.05,
+        "partial_auroc": 0.7484210526315789
+      },
+      "4_ridge_mean": {
+        "tn": 190,
+        "fp": 10,
+        "fn": 87,
+        "tp": 113,
+        "auroc": 0.91015,
+        "average_precision": 0.9114759451914041,
+        "tpr": 0.565,
+        "fpr": 0.05,
+        "partial_auroc": 0.7561842105263158
+      },
+      "4_ridge_dynamic": {
+        "tn": 189,
+        "fp": 11,
+        "fn": 88,
+        "tp": 112,
+        "auroc": 0.9080250000000001,
+        "average_precision": 0.9076561388317851,
+        "tpr": 0.56,
+        "fpr": 0.055,
+        "partial_auroc": 0.7514473684210528
+      },
+      "4_ridge_random": {
+        "tn": 191,
+        "fp": 9,
+        "fn": 90,
+        "tp": 110,
+        "auroc": 0.9077750000000001,
+        "average_precision": 0.9098410089055736,
+        "tpr": 0.55,
+        "fpr": 0.045,
+        "partial_auroc": 0.7551315789473685
+      },
+      "4_logistic_B": {
+        "tn": 190,
+        "fp": 10,
+        "fn": 90,
+        "tp": 110,
+        "auroc": 0.897075,
+        "average_precision": 0.9020439509175013,
+        "tpr": 0.55,
+        "fpr": 0.05,
+        "partial_auroc": 0.750263157894737
+      },
+      "4_logistic_mean": {
+        "tn": 191,
+        "fp": 9,
+        "fn": 86,
+        "tp": 114,
+        "auroc": 0.8973750000000001,
+        "average_precision": 0.9019860399026232,
+        "tpr": 0.57,
+        "fpr": 0.045,
+        "partial_auroc": 0.7519736842105262
+      },
+      "4_logistic_dynamic": {
+        "tn": 190,
+        "fp": 10,
+        "fn": 88,
+        "tp": 112,
+        "auroc": 0.896475,
+        "average_precision": 0.9011235425984208,
+        "tpr": 0.56,
+        "fpr": 0.05,
+        "partial_auroc": 0.7489473684210527
+      },
+      "4_logistic_random": {
+        "tn": 192,
+        "fp": 8,
+        "fn": 88,
+        "tp": 112,
+        "auroc": 0.8939999999999998,
+        "average_precision": 0.8996653750424336,
+        "tpr": 0.56,
+        "fpr": 0.04,
+        "partial_auroc": 0.7517105263157895
+      }
+    },
+    "confirmation_aegis:global": {
+      "0_ridge_B": {
+        "tn": 475,
+        "fp": 25,
+        "fn": 160,
+        "tp": 340,
+        "auroc": 0.9160720000000001,
+        "average_precision": 0.9242077314711892,
+        "tpr": 0.68,
+        "fpr": 0.05,
+        "partial_auroc": 0.8086526315789474
+      },
+      "0_ridge_mean": {
+        "tn": 480,
+        "fp": 20,
+        "fn": 167,
+        "tp": 333,
+        "auroc": 0.917764,
+        "average_precision": 0.924432579322192,
+        "tpr": 0.666,
+        "fpr": 0.04,
+        "partial_auroc": 0.806021052631579
+      },
+      "0_ridge_dynamic": {
+        "tn": 481,
+        "fp": 19,
+        "fn": 169,
+        "tp": 331,
+        "auroc": 0.9187479999999999,
+        "average_precision": 0.926243567211877,
+        "tpr": 0.662,
+        "fpr": 0.038,
+        "partial_auroc": 0.8109894736842105
+      },
+      "0_ridge_random": {
+        "tn": 475,
+        "fp": 25,
+        "fn": 160,
+        "tp": 340,
+        "auroc": 0.9171440000000001,
+        "average_precision": 0.924232229147784,
+        "tpr": 0.68,
+        "fpr": 0.05,
+        "partial_auroc": 0.8056421052631579
+      },
+      "0_logistic_B": {
+        "tn": 479,
+        "fp": 21,
+        "fn": 163,
+        "tp": 337,
+        "auroc": 0.9165880000000001,
+        "average_precision": 0.9251524846706315,
+        "tpr": 0.674,
+        "fpr": 0.042,
+        "partial_auroc": 0.8127157894736842
+      },
+      "0_logistic_mean": {
+        "tn": 479,
+        "fp": 21,
+        "fn": 159,
+        "tp": 341,
+        "auroc": 0.917472,
+        "average_precision": 0.9241621829354947,
+        "tpr": 0.682,
+        "fpr": 0.042,
+        "partial_auroc": 0.8067578947368421
+      },
+      "0_logistic_dynamic": {
+        "tn": 479,
+        "fp": 21,
+        "fn": 164,
+        "tp": 336,
+        "auroc": 0.9192079999999999,
+        "average_precision": 0.9262256544497949,
+        "tpr": 0.672,
+        "fpr": 0.042,
+        "partial_auroc": 0.8113894736842104
+      },
+      "0_logistic_random": {
+        "tn": 475,
+        "fp": 25,
+        "fn": 162,
+        "tp": 338,
+        "auroc": 0.916884,
+        "average_precision": 0.9240728903429667,
+        "tpr": 0.676,
+        "fpr": 0.05,
+        "partial_auroc": 0.8078526315789474
+      },
+      "1_ridge_B": {
+        "tn": 472,
+        "fp": 28,
+        "fn": 148,
+        "tp": 352,
+        "auroc": 0.9108799999999999,
+        "average_precision": 0.9183718628536801,
+        "tpr": 0.704,
+        "fpr": 0.056,
+        "partial_auroc": 0.8012421052631579
+      },
+      "1_ridge_mean": {
+        "tn": 476,
+        "fp": 24,
+        "fn": 169,
+        "tp": 331,
+        "auroc": 0.910172,
+        "average_precision": 0.917437913723096,
+        "tpr": 0.662,
+        "fpr": 0.048,
+        "partial_auroc": 0.7964210526315789
+      },
+      "1_ridge_dynamic": {
+        "tn": 474,
+        "fp": 26,
+        "fn": 161,
+        "tp": 339,
+        "auroc": 0.9116439999999999,
+        "average_precision": 0.9194242279494445,
+        "tpr": 0.678,
+        "fpr": 0.052,
+        "partial_auroc": 0.8012842105263158
+      },
+      "1_ridge_random": {
+        "tn": 471,
+        "fp": 29,
+        "fn": 161,
+        "tp": 339,
+        "auroc": 0.909764,
+        "average_precision": 0.9172058352568097,
+        "tpr": 0.678,
+        "fpr": 0.058,
+        "partial_auroc": 0.7949052631578948
+      },
+      "1_logistic_B": {
+        "tn": 466,
+        "fp": 34,
+        "fn": 146,
+        "tp": 354,
+        "auroc": 0.909168,
+        "average_precision": 0.9175390686607241,
+        "tpr": 0.708,
+        "fpr": 0.068,
+        "partial_auroc": 0.7984631578947369
+      },
+      "1_logistic_mean": {
+        "tn": 467,
+        "fp": 33,
+        "fn": 167,
+        "tp": 333,
+        "auroc": 0.907896,
+        "average_precision": 0.9156078217918376,
+        "tpr": 0.666,
+        "fpr": 0.066,
+        "partial_auroc": 0.7911578947368422
+      },
+      "1_logistic_dynamic": {
+        "tn": 470,
+        "fp": 30,
+        "fn": 167,
+        "tp": 333,
+        "auroc": 0.909572,
+        "average_precision": 0.9172562325222946,
+        "tpr": 0.666,
+        "fpr": 0.06,
+        "partial_auroc": 0.7938526315789474
+      },
+      "1_logistic_random": {
+        "tn": 470,
+        "fp": 30,
+        "fn": 168,
+        "tp": 332,
+        "auroc": 0.907692,
+        "average_precision": 0.9156035509403799,
+        "tpr": 0.664,
+        "fpr": 0.06,
+        "partial_auroc": 0.7895368421052632
+      },
+      "2_ridge_B": {
+        "tn": 465,
+        "fp": 35,
+        "fn": 145,
+        "tp": 355,
+        "auroc": 0.9148799999999999,
+        "average_precision": 0.9238425463479267,
+        "tpr": 0.71,
+        "fpr": 0.07,
+        "partial_auroc": 0.8026105263157894
+      },
+      "2_ridge_mean": {
+        "tn": 469,
+        "fp": 31,
+        "fn": 163,
+        "tp": 337,
+        "auroc": 0.915524,
+        "average_precision": 0.9241764255436965,
+        "tpr": 0.674,
+        "fpr": 0.062,
+        "partial_auroc": 0.8009684210526316
+      },
+      "2_ridge_dynamic": {
+        "tn": 469,
+        "fp": 31,
+        "fn": 167,
+        "tp": 333,
+        "auroc": 0.916388,
+        "average_precision": 0.9251623688353525,
+        "tpr": 0.666,
+        "fpr": 0.062,
+        "partial_auroc": 0.8023789473684211
+      },
+      "2_ridge_random": {
+        "tn": 468,
+        "fp": 32,
+        "fn": 165,
+        "tp": 335,
+        "auroc": 0.914972,
+        "average_precision": 0.9234944936255294,
+        "tpr": 0.67,
+        "fpr": 0.064,
+        "partial_auroc": 0.7982105263157895
+      },
+      "2_logistic_B": {
+        "tn": 464,
+        "fp": 36,
+        "fn": 144,
+        "tp": 356,
+        "auroc": 0.914432,
+        "average_precision": 0.9238958585157053,
+        "tpr": 0.712,
+        "fpr": 0.072,
+        "partial_auroc": 0.8006947368421053
+      },
+      "2_logistic_mean": {
+        "tn": 470,
+        "fp": 30,
+        "fn": 179,
+        "tp": 321,
+        "auroc": 0.9143640000000001,
+        "average_precision": 0.9232474905473607,
+        "tpr": 0.642,
+        "fpr": 0.06,
+        "partial_auroc": 0.7989684210526315
+      },
+      "2_logistic_dynamic": {
+        "tn": 467,
+        "fp": 33,
+        "fn": 162,
+        "tp": 338,
+        "auroc": 0.915516,
+        "average_precision": 0.9244782637851043,
+        "tpr": 0.676,
+        "fpr": 0.066,
+        "partial_auroc": 0.8012
+      },
+      "2_logistic_random": {
+        "tn": 468,
+        "fp": 32,
+        "fn": 165,
+        "tp": 335,
+        "auroc": 0.913716,
+        "average_precision": 0.9223006613255025,
+        "tpr": 0.67,
+        "fpr": 0.064,
+        "partial_auroc": 0.7968
+      },
+      "3_ridge_B": {
+        "tn": 470,
+        "fp": 30,
+        "fn": 149,
+        "tp": 351,
+        "auroc": 0.9171360000000001,
+        "average_precision": 0.923278678850223,
+        "tpr": 0.702,
+        "fpr": 0.06,
+        "partial_auroc": 0.8021052631578948
+      },
+      "3_ridge_mean": {
+        "tn": 472,
+        "fp": 28,
+        "fn": 157,
+        "tp": 343,
+        "auroc": 0.9178280000000001,
+        "average_precision": 0.9231238517190732,
+        "tpr": 0.686,
+        "fpr": 0.056,
+        "partial_auroc": 0.8001263157894737
+      },
+      "3_ridge_dynamic": {
+        "tn": 476,
+        "fp": 24,
+        "fn": 166,
+        "tp": 334,
+        "auroc": 0.91802,
+        "average_precision": 0.9238212163847368,
+        "tpr": 0.668,
+        "fpr": 0.048,
+        "partial_auroc": 0.8008000000000001
+      },
+      "3_ridge_random": {
+        "tn": 472,
+        "fp": 28,
+        "fn": 165,
+        "tp": 335,
+        "auroc": 0.917616,
+        "average_precision": 0.9228694085747167,
+        "tpr": 0.67,
+        "fpr": 0.056,
+        "partial_auroc": 0.7981684210526315
+      },
+      "3_logistic_B": {
+        "tn": 468,
+        "fp": 32,
+        "fn": 148,
+        "tp": 352,
+        "auroc": 0.9162599999999999,
+        "average_precision": 0.9225791424342411,
+        "tpr": 0.704,
+        "fpr": 0.064,
+        "partial_auroc": 0.7993263157894737
+      },
+      "3_logistic_mean": {
+        "tn": 473,
+        "fp": 27,
+        "fn": 157,
+        "tp": 343,
+        "auroc": 0.917528,
+        "average_precision": 0.9224399830702238,
+        "tpr": 0.686,
+        "fpr": 0.054,
+        "partial_auroc": 0.7972631578947369
+      },
+      "3_logistic_dynamic": {
+        "tn": 474,
+        "fp": 26,
+        "fn": 159,
+        "tp": 341,
+        "auroc": 0.9174,
+        "average_precision": 0.9224432921217249,
+        "tpr": 0.682,
+        "fpr": 0.052,
+        "partial_auroc": 0.7974947368421053
+      },
+      "3_logistic_random": {
+        "tn": 469,
+        "fp": 31,
+        "fn": 154,
+        "tp": 346,
+        "auroc": 0.917116,
+        "average_precision": 0.922082452952498,
+        "tpr": 0.692,
+        "fpr": 0.062,
+        "partial_auroc": 0.7954105263157895
+      },
+      "4_ridge_B": {
+        "tn": 471,
+        "fp": 29,
+        "fn": 155,
+        "tp": 345,
+        "auroc": 0.91546,
+        "average_precision": 0.9235943461453421,
+        "tpr": 0.69,
+        "fpr": 0.058,
+        "partial_auroc": 0.8036421052631579
+      },
+      "4_ridge_mean": {
+        "tn": 477,
+        "fp": 23,
+        "fn": 168,
+        "tp": 332,
+        "auroc": 0.9175439999999998,
+        "average_precision": 0.9256216632422352,
+        "tpr": 0.664,
+        "fpr": 0.046,
+        "partial_auroc": 0.8070947368421053
+      },
+      "4_ridge_dynamic": {
+        "tn": 474,
+        "fp": 26,
+        "fn": 172,
+        "tp": 328,
+        "auroc": 0.9174720000000001,
+        "average_precision": 0.9256893374040646,
+        "tpr": 0.656,
+        "fpr": 0.052,
+        "partial_auroc": 0.8069894736842105
+      },
+      "4_ridge_random": {
+        "tn": 478,
+        "fp": 22,
+        "fn": 184,
+        "tp": 316,
+        "auroc": 0.9168160000000001,
+        "average_precision": 0.9249324656411875,
+        "tpr": 0.632,
+        "fpr": 0.044,
+        "partial_auroc": 0.8036631578947369
+      },
+      "4_logistic_B": {
+        "tn": 472,
+        "fp": 28,
+        "fn": 152,
+        "tp": 348,
+        "auroc": 0.9149679999999999,
+        "average_precision": 0.9227045214833252,
+        "tpr": 0.696,
+        "fpr": 0.056,
+        "partial_auroc": 0.8033684210526315
+      },
+      "4_logistic_mean": {
+        "tn": 477,
+        "fp": 23,
+        "fn": 165,
+        "tp": 335,
+        "auroc": 0.91638,
+        "average_precision": 0.92401931413186,
+        "tpr": 0.67,
+        "fpr": 0.046,
+        "partial_auroc": 0.8045684210526316
+      },
+      "4_logistic_dynamic": {
+        "tn": 474,
+        "fp": 26,
+        "fn": 148,
+        "tp": 352,
+        "auroc": 0.917304,
+        "average_precision": 0.9250207918961318,
+        "tpr": 0.704,
+        "fpr": 0.052,
+        "partial_auroc": 0.8073473684210526
+      },
+      "4_logistic_random": {
+        "tn": 477,
+        "fp": 23,
+        "fn": 182,
+        "tp": 318,
+        "auroc": 0.915424,
+        "average_precision": 0.9228485472678789,
+        "tpr": 0.636,
+        "fpr": 0.046,
+        "partial_auroc": 0.7996000000000001
+      }
+    }
+  },
+  "aggregate": {
+    "test_aegis_holdout:global": {
+      "ridge_B": {
+        "auroc": 0.9159303999999999,
+        "partial_auroc": 0.7974652631578947,
+        "tpr": 0.6536,
+        "fpr": 0.047200000000000006,
+        "draw_range": {
+          "auroc": [
+            0.9141519999999999,
+            0.9191560000000001
+          ],
+          "partial_auroc": [
+            0.7938315789473684,
+            0.8026315789473684
+          ],
+          "tpr": [
+            0.636,
+            0.68
+          ],
+          "fpr": [
+            0.04,
+            0.052
+          ]
+        }
+      },
+      "ridge_mean": {
+        "auroc": 0.917916,
+        "partial_auroc": 0.8035494736842106,
+        "tpr": 0.6464000000000001,
+        "fpr": 0.0428,
+        "draw_range": {
+          "auroc": [
+            0.916252,
+            0.920816
+          ],
+          "partial_auroc": [
+            0.8017052631578948,
+            0.8063368421052631
+          ],
+          "tpr": [
+            0.638,
+            0.656
+          ],
+          "fpr": [
+            0.034,
+            0.048
+          ]
+        }
+      },
+      "ridge_dynamic": {
+        "auroc": 0.9165071999999999,
+        "partial_auroc": 0.8030105263157894,
+        "tpr": 0.6432,
+        "fpr": 0.044800000000000006,
+        "draw_range": {
+          "auroc": [
+            0.9141199999999999,
+            0.9195439999999999
+          ],
+          "partial_auroc": [
+            0.8011368421052631,
+            0.807557894736842
+          ],
+          "tpr": [
+            0.634,
+            0.656
+          ],
+          "fpr": [
+            0.04,
+            0.054
+          ]
+        }
+      },
+      "ridge_random": {
+        "auroc": 0.9175384000000001,
+        "partial_auroc": 0.8037810526315787,
+        "tpr": 0.6484,
+        "fpr": 0.0444,
+        "draw_range": {
+          "auroc": [
+            0.916256,
+            0.92028
+          ],
+          "partial_auroc": [
+            0.8010526315789473,
+            0.8064
+          ],
+          "tpr": [
+            0.63,
+            0.66
+          ],
+          "fpr": [
+            0.03,
+            0.05
+          ]
+        }
+      },
+      "logistic_B": {
+        "auroc": 0.9156255999999999,
+        "partial_auroc": 0.7978147368421052,
+        "tpr": 0.6564,
+        "fpr": 0.05,
+        "draw_range": {
+          "auroc": [
+            0.914088,
+            0.9195559999999999
+          ],
+          "partial_auroc": [
+            0.7960842105263157,
+            0.8010105263157895
+          ],
+          "tpr": [
+            0.63,
+            0.674
+          ],
+          "fpr": [
+            0.042,
+            0.058
+          ]
+        }
+      },
+      "logistic_mean": {
+        "auroc": 0.9172231999999999,
+        "partial_auroc": 0.8016968421052632,
+        "tpr": 0.6472,
+        "fpr": 0.0472,
+        "draw_range": {
+          "auroc": [
+            0.9148879999999999,
+            0.92122
+          ],
+          "partial_auroc": [
+            0.7984842105263158,
+            0.8050736842105263
+          ],
+          "tpr": [
+            0.632,
+            0.656
+          ],
+          "fpr": [
+            0.038,
+            0.058
+          ]
+        }
+      },
+      "logistic_dynamic": {
+        "auroc": 0.9159320000000001,
+        "partial_auroc": 0.8011873684210528,
+        "tpr": 0.652,
+        "fpr": 0.046,
+        "draw_range": {
+          "auroc": [
+            0.9131400000000001,
+            0.9199280000000001
+          ],
+          "partial_auroc": [
+            0.7983368421052631,
+            0.8046526315789474
+          ],
+          "tpr": [
+            0.644,
+            0.662
+          ],
+          "fpr": [
+            0.042,
+            0.05
+          ]
+        }
+      },
+      "logistic_random": {
+        "auroc": 0.9170375999999999,
+        "partial_auroc": 0.8021305263157895,
+        "tpr": 0.6428,
+        "fpr": 0.045200000000000004,
+        "draw_range": {
+          "auroc": [
+            0.91488,
+            0.92114
+          ],
+          "partial_auroc": [
+            0.7999157894736842,
+            0.8068631578947368
+          ],
+          "tpr": [
+            0.624,
+            0.652
+          ],
+          "fpr": [
+            0.034,
+            0.052
+          ]
+        }
+      }
+    },
+    "test_toxic_holdout:global": {
+      "ridge_B": {
+        "auroc": 0.8997949999999999,
+        "partial_auroc": 0.7368684210526315,
+        "tpr": 0.24299999999999997,
+        "fpr": 0.006,
+        "draw_range": {
+          "auroc": [
+            0.8862249999999999,
+            0.918125
+          ],
+          "partial_auroc": [
+            0.7096052631578947,
+            0.7682894736842105
+          ],
+          "tpr": [
+            0.19,
+            0.285
+          ],
+          "fpr": [
+            0.0,
+            0.015
+          ]
+        }
+      },
+      "ridge_mean": {
+        "auroc": 0.90649,
+        "partial_auroc": 0.7480789473684211,
+        "tpr": 0.23199999999999998,
+        "fpr": 0.003,
+        "draw_range": {
+          "auroc": [
+            0.8952499999999999,
+            0.9223750000000001
+          ],
+          "partial_auroc": [
+            0.7281578947368421,
+            0.78
+          ],
+          "tpr": [
+            0.165,
+            0.285
+          ],
+          "fpr": [
+            0.0,
+            0.005
+          ]
+        }
+      },
+      "ridge_dynamic": {
+        "auroc": 0.904625,
+        "partial_auroc": 0.7417894736842104,
+        "tpr": 0.23899999999999996,
+        "fpr": 0.005,
+        "draw_range": {
+          "auroc": [
+            0.8910250000000001,
+            0.92095
+          ],
+          "partial_auroc": [
+            0.7177631578947369,
+            0.7705263157894737
+          ],
+          "tpr": [
+            0.18,
+            0.295
+          ],
+          "fpr": [
+            0.0,
+            0.01
+          ]
+        }
+      },
+      "ridge_random": {
+        "auroc": 0.9050550000000002,
+        "partial_auroc": 0.7472631578947369,
+        "tpr": 0.23399999999999999,
+        "fpr": 0.004,
+        "draw_range": {
+          "auroc": [
+            0.895525,
+            0.91975
+          ],
+          "partial_auroc": [
+            0.7294736842105263,
+            0.7746052631578948
+          ],
+          "tpr": [
+            0.19,
+            0.28
+          ],
+          "fpr": [
+            0.0,
+            0.01
+          ]
+        }
+      },
+      "logistic_B": {
+        "auroc": 0.8843,
+        "partial_auroc": 0.7301578947368421,
+        "tpr": 0.27899999999999997,
+        "fpr": 0.009000000000000001,
+        "draw_range": {
+          "auroc": [
+            0.8635250000000001,
+            0.910225
+          ],
+          "partial_auroc": [
+            0.6971052631578947,
+            0.7717105263157895
+          ],
+          "tpr": [
+            0.195,
+            0.32
+          ],
+          "fpr": [
+            0.005,
+            0.015
+          ]
+        }
+      },
+      "logistic_mean": {
+        "auroc": 0.8921850000000001,
+        "partial_auroc": 0.7369473684210526,
+        "tpr": 0.259,
+        "fpr": 0.006999999999999999,
+        "draw_range": {
+          "auroc": [
+            0.8772500000000001,
+            0.915525
+          ],
+          "partial_auroc": [
+            0.7172368421052632,
+            0.7739473684210526
+          ],
+          "tpr": [
+            0.225,
+            0.295
+          ],
+          "fpr": [
+            0.005,
+            0.01
+          ]
+        }
+      },
+      "logistic_dynamic": {
+        "auroc": 0.8916899999999999,
+        "partial_auroc": 0.7331052631578948,
+        "tpr": 0.267,
+        "fpr": 0.007000000000000001,
+        "draw_range": {
+          "auroc": [
+            0.8752,
+            0.9135999999999999
+          ],
+          "partial_auroc": [
+            0.7092105263157895,
+            0.7639473684210527
+          ],
+          "tpr": [
+            0.215,
+            0.315
+          ],
+          "fpr": [
+            0.0,
+            0.015
+          ]
+        }
+      },
+      "logistic_random": {
+        "auroc": 0.889635,
+        "partial_auroc": 0.736078947368421,
+        "tpr": 0.259,
+        "fpr": 0.007000000000000001,
+        "draw_range": {
+          "auroc": [
+            0.8763250000000001,
+            0.9097749999999999
+          ],
+          "partial_auroc": [
+            0.715,
+            0.7678947368421052
+          ],
+          "tpr": [
+            0.225,
+            0.28
+          ],
+          "fpr": [
+            0.0,
+            0.015
+          ]
+        }
+      }
+    },
+    "test_toxic_holdout:source": {
+      "ridge_B": {
+        "auroc": 0.8997949999999999,
+        "partial_auroc": 0.7368684210526315,
+        "tpr": 0.512,
+        "fpr": 0.048,
+        "draw_range": {
+          "auroc": [
+            0.8862249999999999,
+            0.918125
+          ],
+          "partial_auroc": [
+            0.7096052631578947,
+            0.7682894736842105
+          ],
+          "tpr": [
+            0.42,
+            0.56
+          ],
+          "fpr": [
+            0.04,
+            0.055
+          ]
+        }
+      },
+      "ridge_mean": {
+        "auroc": 0.90649,
+        "partial_auroc": 0.7480789473684211,
+        "tpr": 0.524,
+        "fpr": 0.045,
+        "draw_range": {
+          "auroc": [
+            0.8952499999999999,
+            0.9223750000000001
+          ],
+          "partial_auroc": [
+            0.7281578947368421,
+            0.78
+          ],
+          "tpr": [
+            0.465,
+            0.565
+          ],
+          "fpr": [
+            0.035,
+            0.05
+          ]
+        }
+      },
+      "ridge_dynamic": {
+        "auroc": 0.904625,
+        "partial_auroc": 0.7417894736842104,
+        "tpr": 0.531,
+        "fpr": 0.048,
+        "draw_range": {
+          "auroc": [
+            0.8910250000000001,
+            0.92095
+          ],
+          "partial_auroc": [
+            0.7177631578947369,
+            0.7705263157894737
+          ],
+          "tpr": [
+            0.46,
+            0.565
+          ],
+          "fpr": [
+            0.04,
+            0.055
+          ]
+        }
+      },
+      "ridge_random": {
+        "auroc": 0.9050550000000002,
+        "partial_auroc": 0.7472631578947369,
+        "tpr": 0.5190000000000001,
+        "fpr": 0.043000000000000003,
+        "draw_range": {
+          "auroc": [
+            0.895525,
+            0.91975
+          ],
+          "partial_auroc": [
+            0.7294736842105263,
+            0.7746052631578948
+          ],
+          "tpr": [
+            0.46,
+            0.55
+          ],
+          "fpr": [
+            0.035,
+            0.05
+          ]
+        }
+      },
+      "logistic_B": {
+        "auroc": 0.8843,
+        "partial_auroc": 0.7301578947368421,
+        "tpr": 0.515,
+        "fpr": 0.049,
+        "draw_range": {
+          "auroc": [
+            0.8635250000000001,
+            0.910225
+          ],
+          "partial_auroc": [
+            0.6971052631578947,
+            0.7717105263157895
+          ],
+          "tpr": [
+            0.43,
+            0.565
+          ],
+          "fpr": [
+            0.04,
+            0.06
+          ]
+        }
+      },
+      "logistic_mean": {
+        "auroc": 0.8921850000000001,
+        "partial_auroc": 0.7369473684210526,
+        "tpr": 0.49399999999999994,
+        "fpr": 0.045,
+        "draw_range": {
+          "auroc": [
+            0.8772500000000001,
+            0.915525
+          ],
+          "partial_auroc": [
+            0.7172368421052632,
+            0.7739473684210526
+          ],
+          "tpr": [
+            0.41,
+            0.57
+          ],
+          "fpr": [
+            0.035,
+            0.055
+          ]
+        }
+      },
+      "logistic_dynamic": {
+        "auroc": 0.8916899999999999,
+        "partial_auroc": 0.7331052631578948,
+        "tpr": 0.511,
+        "fpr": 0.047,
+        "draw_range": {
+          "auroc": [
+            0.8752,
+            0.9135999999999999
+          ],
+          "partial_auroc": [
+            0.7092105263157895,
+            0.7639473684210527
+          ],
+          "tpr": [
+            0.425,
+            0.56
+          ],
+          "fpr": [
+            0.04,
+            0.05
+          ]
+        }
+      },
+      "logistic_random": {
+        "auroc": 0.889635,
+        "partial_auroc": 0.736078947368421,
+        "tpr": 0.504,
+        "fpr": 0.044,
+        "draw_range": {
+          "auroc": [
+            0.8763250000000001,
+            0.9097749999999999
+          ],
+          "partial_auroc": [
+            0.715,
+            0.7678947368421052
+          ],
+          "tpr": [
+            0.445,
+            0.56
+          ],
+          "fpr": [
+            0.035,
+            0.055
+          ]
+        }
+      }
+    },
+    "confirmation_aegis:global": {
+      "ridge_B": {
+        "auroc": 0.9148856000000001,
+        "partial_auroc": 0.8036505263157896,
+        "tpr": 0.6971999999999999,
+        "fpr": 0.058800000000000005,
+        "draw_range": {
+          "auroc": [
+            0.9108799999999999,
+            0.9171360000000001
+          ],
+          "partial_auroc": [
+            0.8012421052631579,
+            0.8086526315789474
+          ],
+          "tpr": [
+            0.68,
+            0.71
+          ],
+          "fpr": [
+            0.05,
+            0.07
+          ]
+        }
+      },
+      "ridge_mean": {
+        "auroc": 0.9157663999999999,
+        "partial_auroc": 0.8021263157894737,
+        "tpr": 0.6704000000000001,
+        "fpr": 0.0504,
+        "draw_range": {
+          "auroc": [
+            0.910172,
+            0.9178280000000001
+          ],
+          "partial_auroc": [
+            0.7964210526315789,
+            0.8070947368421053
+          ],
+          "tpr": [
+            0.662,
+            0.686
+          ],
+          "fpr": [
+            0.04,
+            0.062
+          ]
+        }
+      },
+      "ridge_dynamic": {
+        "auroc": 0.9164543999999999,
+        "partial_auroc": 0.8044884210526316,
+        "tpr": 0.6660000000000001,
+        "fpr": 0.0504,
+        "draw_range": {
+          "auroc": [
+            0.9116439999999999,
+            0.9187479999999999
+          ],
+          "partial_auroc": [
+            0.8008000000000001,
+            0.8109894736842105
+          ],
+          "tpr": [
+            0.656,
+            0.678
+          ],
+          "fpr": [
+            0.038,
+            0.062
+          ]
+        }
+      },
+      "ridge_random": {
+        "auroc": 0.9152623999999999,
+        "partial_auroc": 0.8001178947368421,
+        "tpr": 0.666,
+        "fpr": 0.054400000000000004,
+        "draw_range": {
+          "auroc": [
+            0.909764,
+            0.917616
+          ],
+          "partial_auroc": [
+            0.7949052631578948,
+            0.8056421052631579
+          ],
+          "tpr": [
+            0.632,
+            0.68
+          ],
+          "fpr": [
+            0.044,
+            0.064
+          ]
+        }
+      },
+      "logistic_B": {
+        "auroc": 0.9142832000000001,
+        "partial_auroc": 0.8029136842105263,
+        "tpr": 0.6988,
+        "fpr": 0.060399999999999995,
+        "draw_range": {
+          "auroc": [
+            0.909168,
+            0.9165880000000001
+          ],
+          "partial_auroc": [
+            0.7984631578947369,
+            0.8127157894736842
+          ],
+          "tpr": [
+            0.674,
+            0.712
+          ],
+          "fpr": [
+            0.042,
+            0.072
+          ]
+        }
+      },
+      "logistic_mean": {
+        "auroc": 0.914728,
+        "partial_auroc": 0.7997431578947368,
+        "tpr": 0.6692,
+        "fpr": 0.0536,
+        "draw_range": {
+          "auroc": [
+            0.907896,
+            0.917528
+          ],
+          "partial_auroc": [
+            0.7911578947368422,
+            0.8067578947368421
+          ],
+          "tpr": [
+            0.642,
+            0.686
+          ],
+          "fpr": [
+            0.042,
+            0.066
+          ]
+        }
+      },
+      "logistic_dynamic": {
+        "auroc": 0.9158,
+        "partial_auroc": 0.8022568421052633,
+        "tpr": 0.68,
+        "fpr": 0.054400000000000004,
+        "draw_range": {
+          "auroc": [
+            0.909572,
+            0.9192079999999999
+          ],
+          "partial_auroc": [
+            0.7938526315789474,
+            0.8113894736842104
+          ],
+          "tpr": [
+            0.666,
+            0.704
+          ],
+          "fpr": [
+            0.042,
+            0.066
+          ]
+        }
+      },
+      "logistic_random": {
+        "auroc": 0.9141664,
+        "partial_auroc": 0.7978400000000001,
+        "tpr": 0.6676,
+        "fpr": 0.05639999999999999,
+        "draw_range": {
+          "auroc": [
+            0.907692,
+            0.917116
+          ],
+          "partial_auroc": [
+            0.7895368421052632,
+            0.8078526315789474
+          ],
+          "tpr": [
+            0.636,
+            0.692
+          ],
+          "fpr": [
+            0.046,
+            0.064
+          ]
+        }
+      }
+    }
+  },
+  "contrasts": {
+    "test_aegis_holdout:global": {
+      "ridge_mean_vs_B": {
+        "auroc": {
+          "delta": 0.001985600000000032,
+          "draw_deltas": [
+            0.002100000000000102,
+            0.0025119999999999587,
+            0.0023080000000000878,
+            0.0013479999999999048,
+            0.0016599999999998838
+          ],
+          "positive_draws": 5,
+          "ci95": [
+            -0.00012740000000021338,
+            0.004133619999999963
+          ],
+          "family6_ci": [
+            -0.0008204300000001094,
+            0.004768936666666597
+          ]
+        },
+        "partial_auroc": {
+          "delta": 0.006084210526315914,
+          "draw_deltas": [
+            0.007557894736841986,
+            0.007873684210526366,
+            0.003705263157894767,
+            0.006357894736842118,
+            0.0049263157894736676
+          ],
+          "positive_draws": 5,
+          "ci95": [
+            0.0001302105263158938,
+            0.012320315789473674
+          ],
+          "family6_ci": [
+            -0.0017595964912281395,
+            0.014266701754385913
+          ]
+        },
+        "tpr": {
+          "delta": -0.007199999999999873,
+          "draw_deltas": [
+            0.006000000000000005,
+            -0.0040000000000000036,
+            -0.03200000000000003,
+            -0.006000000000000005,
+            0.0
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.016000000000000014,
+            0.0008000000000001339
+          ],
+          "family6_ci": [
+            -0.019199999999999995,
+            0.0036000000000000476
+          ]
+        },
+        "fpr": {
+          "delta": -0.004400000000000008,
+          "draw_deltas": [
+            0.0,
+            -0.005999999999999998,
+            -0.009999999999999995,
+            0.0,
+            -0.005999999999999998
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.011199999999999995,
+            0.0012000000000000066
+          ],
+          "family6_ci": [
+            -0.013600000000000001,
+            0.0032683333333334303
+          ]
+        }
+      },
+      "ridge_dynamic_vs_mean": {
+        "auroc": {
+          "delta": -0.0014088000000000989,
+          "draw_deltas": [
+            -0.0021320000000000228,
+            -0.00043599999999999195,
+            -0.0012440000000001339,
+            -0.0019599999999998508,
+            -0.0012720000000000509
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.0026080000000000547,
+            -0.00023920000000021146
+          ],
+          "family6_ci": [
+            -0.003036956666666806,
+            0.0001712200000000018
+          ]
+        },
+        "partial_auroc": {
+          "delta": -0.0005389473684211943,
+          "draw_deltas": [
+            -0.0007789473684209902,
+            -0.0005684210526316624,
+            0.0012210526315789005,
+            -0.0019578947368420474,
+            -0.0006105263157895058
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.0037515789473682253,
+            0.002656947368421179
+          ],
+          "family6_ci": [
+            -0.004880719298245597,
+            0.0036990000000000477
+          ]
+        },
+        "tpr": {
+          "delta": -0.0032000000000000917,
+          "draw_deltas": [
+            -0.0020000000000000018,
+            0.0020000000000000018,
+            0.008000000000000007,
+            -0.02200000000000002,
+            -0.0020000000000000018
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.009199999999999875,
+            0.0028000000000000247
+          ],
+          "family6_ci": [
+            -0.011200000000000099,
+            0.0044000000000000705
+          ]
+        },
+        "fpr": {
+          "delta": 0.0020000000000000087,
+          "draw_deltas": [
+            0.0040000000000000036,
+            0.008,
+            0.0,
+            -0.008,
+            0.005999999999999998
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            -0.0020000000000000018,
+            0.005999999999999998
+          ],
+          "family6_ci": [
+            -0.0035999999999999934,
+            0.007200000000000012
+          ]
+        }
+      },
+      "ridge_dynamic_vs_random": {
+        "auroc": {
+          "delta": -0.001031200000000232,
+          "draw_deltas": [
+            -0.0022600000000001508,
+            0.00012399999999990197,
+            -0.00033200000000011,
+            -0.0019519999999999538,
+            -0.0007360000000000699
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.002536820000000001,
+            0.00046079999999992793
+          ],
+          "family6_ci": [
+            -0.003057073333333331,
+            0.0010200400000002815
+          ]
+        },
+        "partial_auroc": {
+          "delta": -0.0007705263157893327,
+          "draw_deltas": [
+            -0.002505263157894788,
+            8.421052631579773e-05,
+            0.0023999999999999577,
+            -0.002168421052631486,
+            -0.0016631578947369219
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.004471789473684279,
+            0.0029772631578947376
+          ],
+          "family6_ci": [
+            -0.005756614035087545,
+            0.0042435964912281845
+          ]
+        },
+        "tpr": {
+          "delta": -0.005199999999999982,
+          "draw_deltas": [
+            -0.020000000000000018,
+            -0.0020000000000000018,
+            0.006000000000000005,
+            -0.016000000000000014,
+            0.006000000000000005
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.012400000000000078,
+            0.0020000000000000018
+          ],
+          "family6_ci": [
+            -0.015600000000000058,
+            0.0043999999999999595
+          ]
+        },
+        "fpr": {
+          "delta": 0.0004000000000000045,
+          "draw_deltas": [
+            0.0,
+            0.003999999999999997,
+            -0.003999999999999997,
+            -0.008,
+            0.010000000000000002
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.003600000000000006,
+            0.004399999999999994
+          ],
+          "family6_ci": [
+            -0.005268333333333334,
+            0.005600000000000002
+          ]
+        }
+      },
+      "logistic_mean_vs_B": {
+        "auroc": {
+          "delta": 0.0015975999999999768,
+          "draw_deltas": [
+            0.0018880000000000008,
+            0.0016639999999999988,
+            0.0020959999999999868,
+            0.0006760000000000099,
+            0.0016640000000001098
+          ],
+          "positive_draws": 5,
+          "ci95": [
+            -0.0008623999999999299,
+            0.0040137000000000575
+          ],
+          "family6_ci": [
+            -0.001557873333333278,
+            0.004787440000000134
+          ]
+        },
+        "partial_auroc": {
+          "delta": 0.003882105263157909,
+          "draw_deltas": [
+            0.008989473684210547,
+            0.0032210526315789023,
+            0.0028000000000000247,
+            0.0020210526315790345,
+            0.002378947368421036
+          ],
+          "positive_draws": 5,
+          "ci95": [
+            -0.0024336842105263682,
+            0.010560105263157902
+          ],
+          "family6_ci": [
+            -0.004463877192982456,
+            0.012602315789473717
+          ]
+        },
+        "tpr": {
+          "delta": -0.009199999999999986,
+          "draw_deltas": [
+            0.02400000000000002,
+            -0.018000000000000016,
+            -0.04200000000000004,
+            -0.0020000000000000018,
+            -0.008000000000000007
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.01880000000000004,
+            -0.0003899999999999971
+          ],
+          "family6_ci": [
+            -0.0232,
+            0.0031999999999999806
+          ]
+        },
+        "fpr": {
+          "delta": -0.002800000000000004,
+          "draw_deltas": [
+            0.001999999999999995,
+            0.006000000000000005,
+            -0.020000000000000004,
+            0.0020000000000000018,
+            -0.0040000000000000036
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            -0.010000000000000009,
+            0.004400000000000008
+          ],
+          "family6_ci": [
+            -0.013599999999999994,
+            0.006399999999999997
+          ]
+        }
+      },
+      "logistic_dynamic_vs_mean": {
+        "auroc": {
+          "delta": -0.0012911999999998258,
+          "draw_deltas": [
+            -0.0015600000000001168,
+            -0.0006279999999999619,
+            -0.0012280000000000069,
+            -0.0017479999999998608,
+            -0.0012919999999999598
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.0025855999999999657,
+            -2.160000000006601e-05
+          ],
+          "family6_ci": [
+            -0.0031066733333333678,
+            0.00035695666666647746
+          ]
+        },
+        "partial_auroc": {
+          "delta": -0.0005094736842103931,
+          "draw_deltas": [
+            -0.000926315789473664,
+            -0.0006736842105262708,
+            0.0008421052631578663,
+            -0.002000000000000113,
+            0.00021052631578954983
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.0040380000000000225,
+            0.002606315789473568
+          ],
+          "family6_ci": [
+            -0.005012789473684186,
+            0.003838771929824477
+          ]
+        },
+        "tpr": {
+          "delta": 0.0048000000000000265,
+          "draw_deltas": [
+            -0.010000000000000009,
+            -0.0020000000000000018,
+            0.02400000000000002,
+            -0.008000000000000007,
+            0.020000000000000018
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.0015999999999999348,
+            0.011599999999999944
+          ],
+          "family6_ci": [
+            -0.0040000000000000036,
+            0.013999999999999901
+          ]
+        },
+        "fpr": {
+          "delta": -0.0011999999999999997,
+          "draw_deltas": [
+            0.0,
+            -0.012000000000000004,
+            0.0040000000000000036,
+            -0.0020000000000000018,
+            0.0040000000000000036
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.005199999999999996,
+            0.0023999999999999994
+          ],
+          "family6_ci": [
+            -0.006400000000000003,
+            0.003668333333333435
+          ]
+        }
+      },
+      "logistic_dynamic_vs_random": {
+        "auroc": {
+          "delta": -0.0011055999999998178,
+          "draw_deltas": [
+            -0.0017160000000000508,
+            -0.00022400000000000198,
+            -0.0006359999999998589,
+            -0.0017399999999999638,
+            -0.0012119999999998798
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.0027424599999999245,
+            0.000492000000000048
+          ],
+          "family6_ci": [
+            -0.0033276500000000036,
+            0.0011270833333334178
+          ]
+        },
+        "partial_auroc": {
+          "delta": -0.0009431578947367569,
+          "draw_deltas": [
+            -0.002715789473684227,
+            -0.0005473684210526297,
+            0.0016842105263158436,
+            -0.001915789473684204,
+            -0.0012210526315789005
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.005006315789473639,
+            0.0030991578947365535
+          ],
+          "family6_ci": [
+            -0.00628775438596501,
+            0.004203649122807115
+          ]
+        },
+        "tpr": {
+          "delta": 0.009199999999999986,
+          "draw_deltas": [
+            -0.008000000000000007,
+            0.0020000000000000018,
+            0.018000000000000016,
+            -0.0040000000000000036,
+            0.038000000000000034
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            0.0015999999999999348,
+            0.017199999999999993
+          ],
+          "family6_ci": [
+            -0.0008000000000000419,
+            0.020000000000000018
+          ]
+        },
+        "fpr": {
+          "delta": 0.0007999999999999952,
+          "draw_deltas": [
+            0.003999999999999997,
+            -0.0040000000000000036,
+            -0.009999999999999995,
+            -0.0020000000000000018,
+            0.016
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.003599999999999992,
+            0.005199999999999996
+          ],
+          "family6_ci": [
+            -0.0048000000000000065,
+            0.006800000000000005
+          ]
+        }
+      }
+    },
+    "test_toxic_holdout:global": {
+      "ridge_mean_vs_B": {
+        "auroc": {
+          "delta": 0.0066950000000001175,
+          "draw_deltas": [
+            0.00902499999999995,
+            0.004250000000000087,
+            0.0066750000000000975,
+            0.009625000000000106,
+            0.0039000000000000146
+          ],
+          "positive_draws": 5,
+          "ci95": [
+            0.001214374999999754,
+            0.012429999999999835
+          ],
+          "family6_ci": [
+            -0.0006767083333334367,
+            0.014594999999999914
+          ]
+        },
+        "partial_auroc": {
+          "delta": 0.01121052631578956,
+          "draw_deltas": [
+            0.018552631578947376,
+            0.011710526315789505,
+            0.008815789473684221,
+            0.009210526315789447,
+            0.007763157894736916
+          ],
+          "positive_draws": 5,
+          "ci95": [
+            -0.0004210526315788804,
+            0.023157894736842044
+          ],
+          "family6_ci": [
+            -0.004320285087719263,
+            0.027680372807017677
+          ]
+        },
+        "tpr": {
+          "delta": -0.010999999999999982,
+          "draw_deltas": [
+            -0.024999999999999994,
+            0.0,
+            -0.025000000000000022,
+            0.0,
+            -0.0050000000000000044
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.030000000000000027,
+            0.007000000000000034
+          ],
+          "family6_ci": [
+            -0.03617083333333337,
+            0.01200000000000001
+          ]
+        },
+        "fpr": {
+          "delta": -0.003,
+          "draw_deltas": [
+            0.0,
+            -0.005,
+            -0.009999999999999998,
+            0.0,
+            0.0
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.007000000000000001,
+            0.0
+          ],
+          "family6_ci": [
+            -0.008000000000000002,
+            0.0
+          ]
+        }
+      },
+      "ridge_dynamic_vs_mean": {
+        "auroc": {
+          "delta": -0.0018650000000000055,
+          "draw_deltas": [
+            -0.004224999999999812,
+            -0.0014250000000000096,
+            -0.00017500000000003624,
+            -0.001375000000000015,
+            -0.0021249999999999325
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.0047399999999999665,
+            0.0010001250000001053
+          ],
+          "family6_ci": [
+            -0.005875000000000002,
+            0.0019901249999998523
+          ]
+        },
+        "partial_auroc": {
+          "delta": -0.0062894736842106225,
+          "draw_deltas": [
+            -0.010394736842105234,
+            -0.0094736842105263,
+            -0.003947368421052588,
+            -0.0028947368421051722,
+            -0.004736842105263039
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.013447368421052541,
+            0.0005532894736840809
+          ],
+          "family6_ci": [
+            -0.01642554824561392,
+            0.003188706140350878
+          ]
+        },
+        "tpr": {
+          "delta": 0.0069999999999999785,
+          "draw_deltas": [
+            0.014999999999999986,
+            0.010000000000000009,
+            0.0,
+            -0.010000000000000009,
+            0.020000000000000018
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            -0.0030000000000000027,
+            0.017999999999999988
+          ],
+          "family6_ci": [
+            -0.0069999999999999785,
+            0.02200000000000002
+          ]
+        },
+        "fpr": {
+          "delta": 0.002,
+          "draw_deltas": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.01
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            0.0,
+            0.005
+          ],
+          "family6_ci": [
+            0.0,
+            0.007
+          ]
+        }
+      },
+      "ridge_dynamic_vs_random": {
+        "auroc": {
+          "delta": -0.0004300000000001525,
+          "draw_deltas": [
+            -0.0044999999999999485,
+            0.0012000000000000899,
+            0.002874999999999961,
+            -0.001974999999999949,
+            0.00024999999999997247
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            -0.00344537499999992,
+            0.0026252500000000976
+          ],
+          "family6_ci": [
+            -0.004646833333333244,
+            0.00366085416666667
+          ]
+        },
+        "partial_auroc": {
+          "delta": -0.005473684210526408,
+          "draw_deltas": [
+            -0.011710526315789394,
+            -0.004078947368421071,
+            -0.003552631578947363,
+            -0.004342105263157814,
+            -0.0036842105263157343
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.01349999999999996,
+            0.0016315789473683173
+          ],
+          "family6_ci": [
+            -0.016662390350877083,
+            0.003921052631578955
+          ]
+        },
+        "tpr": {
+          "delta": 0.004999999999999977,
+          "draw_deltas": [
+            -0.010000000000000009,
+            0.014999999999999958,
+            -0.010000000000000009,
+            -0.015000000000000013,
+            0.04500000000000001
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.0060250000000000485,
+            0.016999999999999904
+          ],
+          "family6_ci": [
+            -0.010170833333333384,
+            0.020170833333333586
+          ]
+        },
+        "fpr": {
+          "delta": 0.001,
+          "draw_deltas": [
+            0.0,
+            0.0,
+            -0.005,
+            0.0,
+            0.01
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -1.734723475976807e-18,
+            0.003000000000000001
+          ],
+          "family6_ci": [
+            -1.734723475976807e-18,
+            0.004000000000000002
+          ]
+        }
+      },
+      "logistic_mean_vs_B": {
+        "auroc": {
+          "delta": 0.007885000000000142,
+          "draw_deltas": [
+            0.013724999999999987,
+            0.005300000000000082,
+            0.006100000000000105,
+            0.013999999999999901,
+            0.000300000000000189
+          ],
+          "positive_draws": 5,
+          "ci95": [
+            0.0015298750000001388,
+            0.01442550000000001
+          ],
+          "family6_ci": [
+            -0.0005192708333333666,
+            0.016977562500000057
+          ]
+        },
+        "partial_auroc": {
+          "delta": 0.006789473684210456,
+          "draw_deltas": [
+            0.020921052631579062,
+            0.0022368421052630927,
+            -0.00039473684210522553,
+            0.0094736842105263,
+            0.0017105263157892736
+          ],
+          "positive_draws": 4,
+          "ci95": [
+            -0.0056585526315789305,
+            0.01849999999999996
+          ],
+          "family6_ci": [
+            -0.009434539473684262,
+            0.02169901315789485
+          ]
+        },
+        "tpr": {
+          "delta": -0.019999999999999962,
+          "draw_deltas": [
+            0.03,
+            -0.015000000000000013,
+            -0.07,
+            -0.015000000000000013,
+            -0.02999999999999997
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.03999999999999998,
+            -0.0010000000000000286
+          ],
+          "family6_ci": [
+            -0.046170833333333404,
+            0.0040000000000000036
+          ]
+        },
+        "fpr": {
+          "delta": -0.0020000000000000018,
+          "draw_deltas": [
+            0.0,
+            0.0,
+            -0.004999999999999999,
+            0.0,
+            -0.005
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.006,
+            0.002
+          ],
+          "family6_ci": [
+            -0.007170833333333336,
+            0.002999999999999999
+          ]
+        }
+      },
+      "logistic_dynamic_vs_mean": {
+        "auroc": {
+          "delta": -0.0004950000000002452,
+          "draw_deltas": [
+            -0.0020500000000001073,
+            -0.0019250000000001766,
+            0.002274999999999805,
+            0.00012500000000004174,
+            -0.0009000000000001229
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.0037799999999999,
+            0.0028601250000000783
+          ],
+          "family6_ci": [
+            -0.004910000000000027,
+            0.004101708333333543
+          ]
+        },
+        "partial_auroc": {
+          "delta": -0.003842105263157758,
+          "draw_deltas": [
+            -0.008815789473684221,
+            -0.009999999999999898,
+            -0.0009210526315789336,
+            0.003552631578947363,
+            -0.0030263157894735437
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.010816447368421066,
+            0.0038157894736842194
+          ],
+          "family6_ci": [
+            -0.013623245614035061,
+            0.006719517543859585
+          ]
+        },
+        "tpr": {
+          "delta": 0.008000000000000007,
+          "draw_deltas": [
+            -0.010000000000000009,
+            -0.010000000000000009,
+            0.030000000000000027,
+            -0.010000000000000009,
+            0.03999999999999998
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.0020000000000000573,
+            0.019000000000000045
+          ],
+          "family6_ci": [
+            -0.006000000000000061,
+            0.023000000000000048
+          ]
+        },
+        "fpr": {
+          "delta": 1.734723475976807e-18,
+          "draw_deltas": [
+            -0.005,
+            -0.005,
+            0.004999999999999999,
+            0.0,
+            0.005
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.0050000000000000044,
+            0.004000000000000001
+          ],
+          "family6_ci": [
+            -0.008,
+            0.006
+          ]
+        }
+      },
+      "logistic_dynamic_vs_random": {
+        "auroc": {
+          "delta": 0.002054999999999918,
+          "draw_deltas": [
+            -0.0011250000000001537,
+            0.0038249999999999673,
+            0.005499999999999949,
+            -0.00039999999999995595,
+            0.002475000000000227
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            -0.001450125000000166,
+            0.0055601250000000026
+          ],
+          "family6_ci": [
+            -0.0028669583333333307,
+            0.007000749999999976
+          ]
+        },
+        "partial_auroc": {
+          "delta": -0.0029736842105262395,
+          "draw_deltas": [
+            -0.011710526315789394,
+            -0.003947368421052477,
+            0.0013157894736842701,
+            0.0022368421052630927,
+            -0.0027631578947368007
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.010631578947368223,
+            0.005157894736842028
+          ],
+          "family6_ci": [
+            -0.013403728070175513,
+            0.00813607456140356
+          ]
+        },
+        "tpr": {
+          "delta": 0.008000000000000007,
+          "draw_deltas": [
+            -0.010000000000000009,
+            0.009999999999999953,
+            0.0,
+            -0.025000000000000022,
+            0.065
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.007999999999999952,
+            0.02200000000000002
+          ],
+          "family6_ci": [
+            -0.012999999999999956,
+            0.027
+          ]
+        },
+        "fpr": {
+          "delta": 0.0,
+          "draw_deltas": [
+            -0.005,
+            -0.005,
+            0.0,
+            0.0,
+            0.01
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.006000000000000002,
+            0.006
+          ],
+          "family6_ci": [
+            -0.009,
+            0.009000000000000001
+          ]
+        }
+      }
+    },
+    "test_toxic_holdout:source": {
+      "ridge_mean_vs_B": {
+        "auroc": {
+          "delta": 0.0066950000000001175,
+          "draw_deltas": [
+            0.00902499999999995,
+            0.004250000000000087,
+            0.0066750000000000975,
+            0.009625000000000106,
+            0.0039000000000000146
+          ],
+          "positive_draws": 5,
+          "ci95": [
+            0.001214374999999754,
+            0.012429999999999835
+          ],
+          "family6_ci": [
+            -0.0006767083333334367,
+            0.014594999999999914
+          ]
+        },
+        "partial_auroc": {
+          "delta": 0.01121052631578956,
+          "draw_deltas": [
+            0.018552631578947376,
+            0.011710526315789505,
+            0.008815789473684221,
+            0.009210526315789447,
+            0.007763157894736916
+          ],
+          "positive_draws": 5,
+          "ci95": [
+            -0.0004210526315788804,
+            0.023157894736842044
+          ],
+          "family6_ci": [
+            -0.004320285087719263,
+            0.027680372807017677
+          ]
+        },
+        "tpr": {
+          "delta": 0.01200000000000001,
+          "draw_deltas": [
+            0.04500000000000004,
+            -0.015000000000000013,
+            0.0,
+            0.010000000000000009,
+            0.019999999999999907
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            -0.008000000000000007,
+            0.03200000000000003
+          ],
+          "family6_ci": [
+            -0.014000000000000021,
+            0.03900000000000004
+          ]
+        },
+        "fpr": {
+          "delta": -0.0030000000000000027,
+          "draw_deltas": [
+            0.0050000000000000044,
+            -0.0049999999999999975,
+            -0.015,
+            0.0,
+            0.0
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.010000000000000002,
+            0.003999999999999997
+          ],
+          "family6_ci": [
+            -0.013,
+            0.006000000000000005
+          ]
+        }
+      },
+      "ridge_dynamic_vs_mean": {
+        "auroc": {
+          "delta": -0.0018650000000000055,
+          "draw_deltas": [
+            -0.004224999999999812,
+            -0.0014250000000000096,
+            -0.00017500000000003624,
+            -0.001375000000000015,
+            -0.0021249999999999325
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.0047399999999999665,
+            0.0010001250000001053
+          ],
+          "family6_ci": [
+            -0.005875000000000002,
+            0.0019901249999998523
+          ]
+        },
+        "partial_auroc": {
+          "delta": -0.0062894736842106225,
+          "draw_deltas": [
+            -0.010394736842105234,
+            -0.0094736842105263,
+            -0.003947368421052588,
+            -0.0028947368421051722,
+            -0.004736842105263039
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.013447368421052541,
+            0.0005532894736840809
+          ],
+          "family6_ci": [
+            -0.01642554824561392,
+            0.003188706140350878
+          ]
+        },
+        "tpr": {
+          "delta": 0.007000000000000006,
+          "draw_deltas": [
+            -0.0050000000000000044,
+            0.010000000000000009,
+            0.02499999999999991,
+            0.010000000000000009,
+            -0.004999999999999893
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            -0.0019999999999998908,
+            0.016000000000000125
+          ],
+          "family6_ci": [
+            -0.004170833333333411,
+            0.020000000000000018
+          ]
+        },
+        "fpr": {
+          "delta": 0.0030000000000000027,
+          "draw_deltas": [
+            0.0,
+            0.0049999999999999975,
+            0.010000000000000002,
+            -0.0050000000000000044,
+            0.0049999999999999975
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            -0.0020000000000000018,
+            0.008000000000000007
+          ],
+          "family6_ci": [
+            -0.003999999999999997,
+            0.010000000000000009
+          ]
+        }
+      },
+      "ridge_dynamic_vs_random": {
+        "auroc": {
+          "delta": -0.0004300000000001525,
+          "draw_deltas": [
+            -0.0044999999999999485,
+            0.0012000000000000899,
+            0.002874999999999961,
+            -0.001974999999999949,
+            0.00024999999999997247
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            -0.00344537499999992,
+            0.0026252500000000976
+          ],
+          "family6_ci": [
+            -0.004646833333333244,
+            0.00366085416666667
+          ]
+        },
+        "partial_auroc": {
+          "delta": -0.005473684210526408,
+          "draw_deltas": [
+            -0.011710526315789394,
+            -0.004078947368421071,
+            -0.003552631578947363,
+            -0.004342105263157814,
+            -0.0036842105263157343
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.01349999999999996,
+            0.0016315789473683173
+          ],
+          "family6_ci": [
+            -0.016662390350877083,
+            0.003921052631578955
+          ]
+        },
+        "tpr": {
+          "delta": 0.0119999999999999,
+          "draw_deltas": [
+            0.0,
+            0.020000000000000018,
+            0.029999999999999916,
+            0.0,
+            0.010000000000000009
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            0.0020000000000000018,
+            0.02300000000000002
+          ],
+          "family6_ci": [
+            -0.0010000000000001308,
+            0.027000000000000024
+          ]
+        },
+        "fpr": {
+          "delta": 0.0049999999999999975,
+          "draw_deltas": [
+            0.010000000000000002,
+            0.0049999999999999975,
+            0.0050000000000000044,
+            -0.0050000000000000044,
+            0.010000000000000002
+          ],
+          "positive_draws": 4,
+          "ci95": [
+            -7.11236625150485e-18,
+            0.010999999999999996
+          ],
+          "family6_ci": [
+            -0.0020000000000000018,
+            0.012999999999999998
+          ]
+        }
+      },
+      "logistic_mean_vs_B": {
+        "auroc": {
+          "delta": 0.007885000000000142,
+          "draw_deltas": [
+            0.013724999999999987,
+            0.005300000000000082,
+            0.006100000000000105,
+            0.013999999999999901,
+            0.000300000000000189
+          ],
+          "positive_draws": 5,
+          "ci95": [
+            0.0015298750000001388,
+            0.01442550000000001
+          ],
+          "family6_ci": [
+            -0.0005192708333333666,
+            0.016977562500000057
+          ]
+        },
+        "partial_auroc": {
+          "delta": 0.006789473684210456,
+          "draw_deltas": [
+            0.020921052631579062,
+            0.0022368421052630927,
+            -0.00039473684210522553,
+            0.0094736842105263,
+            0.0017105263157892736
+          ],
+          "positive_draws": 4,
+          "ci95": [
+            -0.0056585526315789305,
+            0.01849999999999996
+          ],
+          "family6_ci": [
+            -0.009434539473684262,
+            0.02169901315789485
+          ]
+        },
+        "tpr": {
+          "delta": -0.021000000000000074,
+          "draw_deltas": [
+            -0.020000000000000018,
+            -0.05999999999999994,
+            -0.020000000000000018,
+            -0.025000000000000022,
+            0.019999999999999907
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.04199999999999998,
+            -0.0019999999999998908
+          ],
+          "family6_ci": [
+            -0.050000000000000044,
+            0.0040000000000000036
+          ]
+        },
+        "fpr": {
+          "delta": -0.0040000000000000036,
+          "draw_deltas": [
+            -0.0049999999999999975,
+            -0.0049999999999999975,
+            -0.0049999999999999975,
+            0.0,
+            -0.0050000000000000044
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.011999999999999997,
+            0.0030000000000000027
+          ],
+          "family6_ci": [
+            -0.014,
+            0.0050000000000000044
+          ]
+        }
+      },
+      "logistic_dynamic_vs_mean": {
+        "auroc": {
+          "delta": -0.0004950000000002452,
+          "draw_deltas": [
+            -0.0020500000000001073,
+            -0.0019250000000001766,
+            0.002274999999999805,
+            0.00012500000000004174,
+            -0.0009000000000001229
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.0037799999999999,
+            0.0028601250000000783
+          ],
+          "family6_ci": [
+            -0.004910000000000027,
+            0.004101708333333543
+          ]
+        },
+        "partial_auroc": {
+          "delta": -0.003842105263157758,
+          "draw_deltas": [
+            -0.008815789473684221,
+            -0.009999999999999898,
+            -0.0009210526315789336,
+            0.003552631578947363,
+            -0.0030263157894735437
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.010816447368421066,
+            0.0038157894736842194
+          ],
+          "family6_ci": [
+            -0.013623245614035061,
+            0.006719517543859585
+          ]
+        },
+        "tpr": {
+          "delta": 0.01700000000000007,
+          "draw_deltas": [
+            0.015000000000000013,
+            0.030000000000000027,
+            0.020000000000000018,
+            0.030000000000000027,
+            -0.009999999999999898
+          ],
+          "positive_draws": 4,
+          "ci95": [
+            0.006999999999999951,
+            0.029000000000000026
+          ],
+          "family6_ci": [
+            0.003829166666666504,
+            0.03300000000000003
+          ]
+        },
+        "fpr": {
+          "delta": 0.0020000000000000018,
+          "draw_deltas": [
+            0.0049999999999999975,
+            0.0049999999999999975,
+            -0.0049999999999999975,
+            0.0,
+            0.0050000000000000044
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            -0.0030000000000000027,
+            0.008999999999999994
+          ],
+          "family6_ci": [
+            -0.0050000000000000044,
+            0.011999999999999999
+          ]
+        }
+      },
+      "logistic_dynamic_vs_random": {
+        "auroc": {
+          "delta": 0.002054999999999918,
+          "draw_deltas": [
+            -0.0011250000000001537,
+            0.0038249999999999673,
+            0.005499999999999949,
+            -0.00039999999999995595,
+            0.002475000000000227
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            -0.001450125000000166,
+            0.0055601250000000026
+          ],
+          "family6_ci": [
+            -0.0028669583333333307,
+            0.007000749999999976
+          ]
+        },
+        "partial_auroc": {
+          "delta": -0.0029736842105262395,
+          "draw_deltas": [
+            -0.011710526315789394,
+            -0.003947368421052477,
+            0.0013157894736842701,
+            0.0022368421052630927,
+            -0.0027631578947368007
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.010631578947368223,
+            0.005157894736842028
+          ],
+          "family6_ci": [
+            -0.013403728070175513,
+            0.00813607456140356
+          ]
+        },
+        "tpr": {
+          "delta": 0.007000000000000006,
+          "draw_deltas": [
+            -0.020000000000000018,
+            0.015000000000000013,
+            0.010000000000000009,
+            0.030000000000000027,
+            0.0
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            -0.006000000000000005,
+            0.020000000000000073
+          ],
+          "family6_ci": [
+            -0.010000000000000009,
+            0.025000000000000022
+          ]
+        },
+        "fpr": {
+          "delta": 0.0030000000000000027,
+          "draw_deltas": [
+            0.0,
+            0.0049999999999999975,
+            -0.0049999999999999975,
+            0.0050000000000000044,
+            0.010000000000000002
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            -0.0020000000000000018,
+            0.009000000000000008
+          ],
+          "family6_ci": [
+            -0.0040000000000000036,
+            0.01200000000000001
+          ]
+        }
+      }
+    },
+    "confirmation_aegis:global": {
+      "ridge_mean_vs_B": {
+        "auroc": {
+          "delta": 0.0008807999999997929,
+          "draw_deltas": [
+            0.0016919999999999158,
+            -0.0007079999999999309,
+            0.0006440000000000889,
+            0.0006920000000000259,
+            0.0020839999999997527
+          ],
+          "positive_draws": 4,
+          "ci95": [
+            -0.0013712800000000192,
+            0.003126420000000085
+          ],
+          "family6_ci": [
+            -0.0021556533333334216,
+            0.0039463433333332765
+          ]
+        },
+        "partial_auroc": {
+          "delta": -0.0015242105263159056,
+          "draw_deltas": [
+            -0.0026315789473684292,
+            -0.004821052631578948,
+            -0.0016421052631578892,
+            -0.00197894736842108,
+            0.003452631578947374
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.007696947368421114,
+            0.004016947368420882
+          ],
+          "family6_ci": [
+            -0.010060491228070267,
+            0.006234052631579007
+          ]
+        },
+        "tpr": {
+          "delta": -0.026799999999999824,
+          "draw_deltas": [
+            -0.014000000000000012,
+            -0.041999999999999926,
+            -0.03599999999999992,
+            -0.015999999999999903,
+            -0.025999999999999912
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.03921000000000011,
+            -0.015599999999999836
+          ],
+          "family6_ci": [
+            -0.04366833333333339,
+            -0.011599999999999944
+          ]
+        },
+        "fpr": {
+          "delta": -0.008400000000000005,
+          "draw_deltas": [
+            -0.010000000000000002,
+            -0.008,
+            -0.008000000000000007,
+            -0.003999999999999997,
+            -0.012000000000000004
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.015200000000000005,
+            -0.002799999999999997
+          ],
+          "family6_ci": [
+            -0.01760000000000001,
+            -0.0008000000000000021
+          ]
+        }
+      },
+      "ridge_dynamic_vs_mean": {
+        "auroc": {
+          "delta": 0.0006880000000000219,
+          "draw_deltas": [
+            0.0009839999999998739,
+            0.0014719999999999178,
+            0.0008639999999999759,
+            0.00019199999999985895,
+            -7.199999999973894e-05
+          ],
+          "positive_draws": 4,
+          "ci95": [
+            -0.0005096199999999968,
+            0.001899219999999882
+          ],
+          "family6_ci": [
+            -0.0009392199999999184,
+            0.002321776666666744
+          ]
+        },
+        "partial_auroc": {
+          "delta": 0.002362105263157943,
+          "draw_deltas": [
+            0.004968421052631511,
+            0.0048631578947369025,
+            0.0014105263157895287,
+            0.0006736842105263818,
+            -0.00010526315789483043
+          ],
+          "positive_draws": 4,
+          "ci95": [
+            -0.0007494736842104194,
+            0.005709684210526277
+          ],
+          "family6_ci": [
+            -0.002022491228070238,
+            0.006633947368421007
+          ]
+        },
+        "tpr": {
+          "delta": -0.0043999999999999595,
+          "draw_deltas": [
+            -0.0040000000000000036,
+            0.016000000000000014,
+            -0.008000000000000007,
+            -0.018000000000000016,
+            -0.008000000000000007
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.010800000000000032,
+            0.0019999999999998908
+          ],
+          "family6_ci": [
+            -0.013199999999999878,
+            0.0036000000000000476
+          ]
+        },
+        "fpr": {
+          "delta": 0.0,
+          "draw_deltas": [
+            -0.0020000000000000018,
+            0.003999999999999997,
+            0.0,
+            -0.008,
+            0.005999999999999998
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.003600000000000006,
+            0.00399999999999999
+          ],
+          "family6_ci": [
+            -0.005200000000000004,
+            0.005200000000000004
+          ]
+        }
+      },
+      "ridge_dynamic_vs_random": {
+        "auroc": {
+          "delta": 0.0011919999999999709,
+          "draw_deltas": [
+            0.0016039999999998278,
+            0.0018799999999998818,
+            0.0014159999999999728,
+            0.00040399999999995995,
+            0.0006559999999999899
+          ],
+          "positive_draws": 5,
+          "ci95": [
+            -0.00019300000000010135,
+            0.0025784199999997646
+          ],
+          "family6_ci": [
+            -0.0007105366666664675,
+            0.0031824399999999574
+          ]
+        },
+        "partial_auroc": {
+          "delta": 0.004370526315789491,
+          "draw_deltas": [
+            0.005347368421052545,
+            0.00637894736842104,
+            0.004168421052631599,
+            0.0026315789473685403,
+            0.0033263157894736217
+          ],
+          "positive_draws": 5,
+          "ci95": [
+            0.0006442105263157998,
+            0.008307578947368407
+          ],
+          "family6_ci": [
+            -0.0004359473684212491,
+            0.009706807017543843
+          ]
+        },
+        "tpr": {
+          "delta": 1.1102230246251565e-16,
+          "draw_deltas": [
+            -0.018000000000000016,
+            0.0,
+            -0.0040000000000000036,
+            -0.0020000000000000018,
+            0.02400000000000002
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.00759999999999994,
+            0.007200000000000095
+          ],
+          "family6_ci": [
+            -0.010399999999999965,
+            0.009600000000000053
+          ]
+        },
+        "fpr": {
+          "delta": -0.0040000000000000036,
+          "draw_deltas": [
+            -0.012000000000000004,
+            -0.006000000000000005,
+            -0.0020000000000000018,
+            -0.008,
+            0.008
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.007999999999999993,
+            -0.0003999999999999976
+          ],
+          "family6_ci": [
+            -0.009200000000000009,
+            0.0011999999999999927
+          ]
+        }
+      },
+      "logistic_mean_vs_B": {
+        "auroc": {
+          "delta": 0.00044479999999991193,
+          "draw_deltas": [
+            0.0008839999999998849,
+            -0.0012719999999999398,
+            -6.799999999995698e-05,
+            0.0012680000000001579,
+            0.0014120000000000799
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            -0.0021432399999999074,
+            0.0030248200000000526
+          ],
+          "family6_ci": [
+            -0.0030395933333332505,
+            0.00388008000000011
+          ]
+        },
+        "partial_auroc": {
+          "delta": -0.0031705263157895125,
+          "draw_deltas": [
+            -0.005957894736842051,
+            -0.007305263157894704,
+            -0.001726315789473798,
+            -0.002063157894736767,
+            0.0012000000000000899
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.009857263157894633,
+            0.0028674736842107264
+          ],
+          "family6_ci": [
+            -0.012124578947368443,
+            0.004945842105263149
+          ]
+        },
+        "tpr": {
+          "delta": -0.02959999999999996,
+          "draw_deltas": [
+            0.008000000000000007,
+            -0.041999999999999926,
+            -0.06999999999999995,
+            -0.017999999999999905,
+            -0.025999999999999912
+          ],
+          "positive_draws": 1,
+          "ci95": [
+            -0.04080000000000006,
+            -0.019199999999999995
+          ],
+          "family6_ci": [
+            -0.04639999999999991,
+            -0.015600000000000058
+          ]
+        },
+        "fpr": {
+          "delta": -0.0067999999999999935,
+          "draw_deltas": [
+            0.0,
+            -0.0020000000000000018,
+            -0.011999999999999997,
+            -0.010000000000000002,
+            -0.010000000000000002
+          ],
+          "positive_draws": 0,
+          "ci95": [
+            -0.013600000000000001,
+            -0.0008000000000000021
+          ],
+          "family6_ci": [
+            -0.016000000000000007,
+            0.0007999999999999952
+          ]
+        }
+      },
+      "logistic_dynamic_vs_mean": {
+        "auroc": {
+          "delta": 0.0010719999999999619,
+          "draw_deltas": [
+            0.0017359999999999598,
+            0.0016760000000000108,
+            0.0011519999999999309,
+            -0.000128000000000017,
+            0.0009240000000000359
+          ],
+          "positive_draws": 4,
+          "ci95": [
+            -0.00025039999999998397,
+            0.0024483599999998917
+          ],
+          "family6_ci": [
+            -0.0007510466666666845,
+            0.0029336199999999446
+          ]
+        },
+        "partial_auroc": {
+          "delta": 0.0025136842105264456,
+          "draw_deltas": [
+            0.00463157894736832,
+            0.0026947368421051943,
+            0.0022315789473684733,
+            0.0002315789473683605,
+            0.002778947368420992
+          ],
+          "positive_draws": 5,
+          "ci95": [
+            -0.0006906315789472622,
+            0.005903157894736832
+          ],
+          "family6_ci": [
+            -0.001909526315789371,
+            0.007065982456140307
+          ]
+        },
+        "tpr": {
+          "delta": 0.010800000000000032,
+          "draw_deltas": [
+            -0.010000000000000009,
+            0.0,
+            0.03400000000000003,
+            -0.0040000000000000036,
+            0.03399999999999992
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            0.004000000000000115,
+            0.017610000000000018
+          ],
+          "family6_ci": [
+            0.0019316666666666755,
+            0.019668333333333576
+          ]
+        },
+        "fpr": {
+          "delta": 0.0008000000000000021,
+          "draw_deltas": [
+            0.0,
+            -0.006000000000000005,
+            0.006000000000000005,
+            -0.0020000000000000018,
+            0.005999999999999998
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.0023999999999999994,
+            0.004400000000000001
+          ],
+          "family6_ci": [
+            -0.0032683333333333392,
+            0.005600000000000001
+          ]
+        }
+      },
+      "logistic_dynamic_vs_random": {
+        "auroc": {
+          "delta": 0.0016335999999999018,
+          "draw_deltas": [
+            0.0023239999999998817,
+            0.0018799999999999928,
+            0.0018000000000000238,
+            0.00028399999999995096,
+            0.0018799999999999928
+          ],
+          "positive_draws": 5,
+          "ci95": [
+            8.557999999991018e-05,
+            0.003260940000000168
+          ],
+          "family6_ci": [
+            -0.00042253666666678866,
+            0.003816373333333351
+          ]
+        },
+        "partial_auroc": {
+          "delta": 0.0044168421052631635,
+          "draw_deltas": [
+            0.0035368421052630605,
+            0.004315789473684162,
+            0.0044000000000000705,
+            0.0020842105263157995,
+            0.007747368421052503
+          ],
+          "positive_draws": 5,
+          "ci95": [
+            0.0006480000000000487,
+            0.008757999999999967
+          ],
+          "family6_ci": [
+            -0.0006197719298247339,
+            0.010295052631579113
+          ]
+        },
+        "tpr": {
+          "delta": 0.012400000000000078,
+          "draw_deltas": [
+            -0.0040000000000000036,
+            0.0020000000000000018,
+            0.006000000000000005,
+            -0.009999999999999898,
+            0.06799999999999995
+          ],
+          "positive_draws": 3,
+          "ci95": [
+            0.0040000000000000036,
+            0.021199999999999886
+          ],
+          "family6_ci": [
+            0.0012000000000000899,
+            0.02366833333333349
+          ]
+        },
+        "fpr": {
+          "delta": -0.001999999999999988,
+          "draw_deltas": [
+            -0.008,
+            0.0,
+            0.0020000000000000018,
+            -0.010000000000000002,
+            0.005999999999999998
+          ],
+          "positive_draws": 2,
+          "ci95": [
+            -0.006000000000000005,
+            0.0020000000000000018
+          ],
+          "family6_ci": [
+            -0.007200000000000005,
+            0.003268333333333436
+          ]
+        }
+      }
+    }
+  },
+  "thresholds": {
+    "global": {
+      "0_ridge_B": 0.3488281957088975,
+      "0_ridge_mean": 0.36666766058116645,
+      "0_ridge_dynamic": 0.3664889482866924,
+      "0_ridge_random": 0.332906073205914,
+      "0_logistic_B": 1.1922186363179097,
+      "0_logistic_mean": 1.142907019309071,
+      "0_logistic_dynamic": 1.2125515590491536,
+      "0_logistic_random": 1.1693870305654193,
+      "1_ridge_B": 0.2999750911318722,
+      "1_ridge_mean": 0.35148957774931466,
+      "1_ridge_dynamic": 0.33773451420629497,
+      "1_ridge_random": 0.33213594847728856,
+      "1_logistic_B": 0.9285635202293713,
+      "1_logistic_mean": 1.1275775964661319,
+      "1_logistic_dynamic": 1.2026916626357653,
+      "1_logistic_random": 1.1601902466320393,
+      "2_ridge_B": 0.25865054797773324,
+      "2_ridge_mean": 0.31961045683555284,
+      "2_ridge_dynamic": 0.312314528939501,
+      "2_ridge_random": 0.3046189818876173,
+      "2_logistic_B": 0.8230895252351736,
+      "2_logistic_mean": 1.144570829749277,
+      "2_logistic_dynamic": 1.0226440373532717,
+      "2_logistic_random": 1.0582971698017027,
+      "3_ridge_B": 0.24694950652474318,
+      "3_ridge_mean": 0.27553084235860187,
+      "3_ridge_dynamic": 0.31658762738248675,
+      "3_ridge_random": 0.2833699051311036,
+      "3_logistic_B": 0.8289495240033772,
+      "3_logistic_mean": 0.947413798662676,
+      "3_logistic_dynamic": 1.040416980955706,
+      "3_logistic_random": 0.9092352233211063,
+      "4_ridge_B": 0.30922671203493024,
+      "4_ridge_mean": 0.3372534339134319,
+      "4_ridge_dynamic": 0.32647002552780713,
+      "4_ridge_random": 0.35756734483208824,
+      "4_logistic_B": 0.9515044024092996,
+      "4_logistic_mean": 1.0802136454343547,
+      "4_logistic_dynamic": 0.9493864106744601,
+      "4_logistic_random": 1.2077211557612133
+    },
+    "source": {
+      "0_ridge_B": 0.03880475075205342,
+      "0_ridge_mean": 0.022725873039296605,
+      "0_ridge_dynamic": 0.02170359928425738,
+      "0_ridge_random": 0.03234842448531265,
+      "0_logistic_B": 0.18890445569027298,
+      "0_logistic_mean": 0.3220730329877452,
+      "0_logistic_dynamic": 0.34869409754642566,
+      "0_logistic_random": 0.16373721562578847,
+      "1_ridge_B": 0.024884708018770955,
+      "1_ridge_mean": 0.0459838225791512,
+      "1_ridge_dynamic": 0.044805321271258615,
+      "1_ridge_random": 0.05104295205523246,
+      "1_logistic_B": 0.17510234620879545,
+      "1_logistic_mean": 0.2595502400300143,
+      "1_logistic_dynamic": 0.22987626826531715,
+      "1_logistic_random": 0.23495764978205322,
+      "2_ridge_B": -0.011012189840870493,
+      "2_ridge_mean": 0.010123394100835596,
+      "2_ridge_dynamic": -0.023078519747988243,
+      "2_ridge_random": 0.01831283900889289,
+      "2_logistic_B": 0.048268475114776034,
+      "2_logistic_mean": 0.21902262623407598,
+      "2_logistic_dynamic": 0.1121254885410431,
+      "2_logistic_random": 0.1781360559082082,
+      "3_ridge_B": -0.04410016420554497,
+      "3_ridge_mean": -0.027081192677344323,
+      "3_ridge_dynamic": -0.014815248536357803,
+      "3_ridge_random": -0.02173279457391993,
+      "3_logistic_B": -0.03248793322596687,
+      "3_logistic_mean": 0.10346235842156526,
+      "3_logistic_dynamic": 0.0681377131528866,
+      "3_logistic_random": 0.09949527096118341,
+      "4_ridge_B": 0.025592194755591064,
+      "4_ridge_mean": 0.029630727355346456,
+      "4_ridge_dynamic": 0.022165294654845437,
+      "4_ridge_random": 0.03856953986950113,
+      "4_logistic_B": 0.08545714442728217,
+      "4_logistic_mean": 0.06242964694019848,
+      "4_logistic_dynamic": 0.12217366155612705,
+      "4_logistic_random": 0.10892028335601017
+    }
+  },
+  "bootstrap": {
+    "iterations": 5000,
+    "seed": 20270217,
+    "family": 6,
+    "quantiles": [
+      0.004166666666666667,
+      0.9958333333333333
+    ],
+    "scope": "paired stratified test IDs, mean metric differences across five fixed overlapping training draws; conditional on training and calibration"
+  },
+  "scores_sha256": "9f6456e6cdbf295c21b5d5db7b3e74f1c6bcdf6e1fb2e0391df2be43d5446b9f",
+  "seconds": 100.15791565924883
+}
