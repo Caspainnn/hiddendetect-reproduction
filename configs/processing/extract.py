@@ -1,7 +1,7 @@
 """Process all valid user tokens online; keep only bounded full-width summaries."""
 import hashlib,json,os,subprocess,time
 import numpy as np
-from processing_core import ROOT,ANCHORS,digest,stream_hash,read_jsonl,write,pad_ids,summarize
+from processing_core import ROOT,ANCHORS,digest,stream_hash,read_jsonl,write,pad_ids,summarize,open_array
 
 def main():
     os.environ['HF_HUB_OFFLINE']='1';os.environ['TRANSFORMERS_OFFLINE']='1'
@@ -33,7 +33,7 @@ def main():
     if exists:
         previous=json.loads((directory/'metadata.json').read_text());assert previous['manifest_sha256']==meta['manifest_sha256'] and previous['extraction_sources']==source_sha;meta=previous
     else:write(directory/'metadata.json',meta)
-    arrays={n:np.lib.format.open_memmap(directory/n,mode='r+' if exists else 'w+',dtype='float32' if n=='relations.npy' else 'float16',shape=s) for n,s in shapes.items()}
+    arrays={n:open_array(directory/n,s,n=='relations.npy',exists) for n,s in shapes.items()}
     assert sum(a.nbytes for a in arrays.values())<2*1024**3
     cp=directory/'checkpoint.json';state=json.loads(cp.read_text()) if cp.exists() else {'next_index':0,'old_B_checked':0,'maximum_old_B_difference':0.,'prefix_difference':0.,'peak_allocated_bytes':0}
     old=np.load(ROOT/'cache/routing/fixed.npy',mmap_mode='r');refpath=directory/'prefix-reference.npy';ref=np.load(refpath) if refpath.exists() else None

@@ -8,6 +8,9 @@ from routing_core import digest,stream_hash,read_jsonl,write,make_folds,p_auc,bo
 ANCHORS=[7,15,23,31]
 FAMILIES={'mean':[0],'dynamic':[1,2],'processed':[1,2,3,4,5],'relations':[1,2,3,4,5],'random':[6],'duplicate_mean':[0]*5}
 
+def open_array(path,shape,relation,exists):
+    return np.lib.format.open_memmap(path,mode='r+' if exists else 'w+',dtype='float32' if relation else 'float16',shape=tuple(shape))
+
 def unit(a):
     a=np.asarray(a,dtype=np.float64);return a/np.maximum(np.linalg.norm(a,axis=-1,keepdims=True),1e-12)
 
@@ -38,6 +41,34 @@ def feature_matrix(a,family):
 def relation_transform(raw,fit):
     mu=raw[fit].mean(0);sd=raw[fit].std(0);sd=np.where(sd>1e-12,sd,1.)
     allz=(raw-mu)/sd/np.sqrt(raw.shape[1]);return allz[fit],allz,mu,sd
+
+def joint_kernel(b,e,z,gamma,fit,relations):
+    g=b@b.T+gamma*(e@e.T)
+    if relations:
+        _,zs,_,_=relation_transform(z,fit);g+=gamma*.1*(zs@zs.T)
+    return g
+
+def fit_joint(b,e,raw,y,gamma,relations,device='cuda'):
+    if relations:
+        _,z,mu,sd=relation_transform(raw,np.arange(len(raw)))
+    else:z=np.zeros((len(b),0));mu=sd=np.zeros(0)
+    blocks=[b,e,z];scales=[1.,gamma,gamma*.1 if relations else 0.]
+    means=[x.mean(0) for x in blocks];offset=float((y*2-1).mean())
+    if device=='cpu':
+        centered=[x-m for x,m in zip(blocks,means)];g=sum(s*(x@x.T) for x,s in zip(centered,scales))+np.eye(len(b))
+        alpha=np.linalg.solve(g,y*2-1-offset);coefs=[s*x.T@alpha for s,x in zip(scales,centered)]
+    else:
+        import torch
+        with torch.no_grad():
+            centered=[torch.as_tensor(x-m,dtype=torch.float64,device=device) for x,m in zip(blocks,means)]
+            g=sum(s*(x@x.T) for x,s in zip(centered,scales));g.diagonal().add_(1.)
+            alpha=torch.linalg.solve(g,torch.as_tensor(y*2-1-offset,dtype=torch.float64,device=device))
+            coefs=[(s*(x.T@alpha)).cpu().numpy() for s,x in zip(scales,centered)]
+    return {'means':means,'coefs':coefs,'intercept':offset,'relation_mu':mu,'relation_sd':sd,'relations':relations,'gamma':gamma,'lambda':1.}
+
+def predict_joint(h,b,e,raw):
+    z=(raw-h['relation_mu'])/h['relation_sd']/np.sqrt(raw.shape[1]) if h['relations'] else np.zeros((len(b),0))
+    return sum((x-m)@c for x,m,c in zip([b,e,z],h['means'],h['coefs']))+h['intercept']
 
 def candidates():
     return [{'name':'B','family':'B','gamma':0.}]+[{'name':f'{f}_g{str(g).replace(".","p")}','family':f,'gamma':g} for f in FAMILIES for g in (.25,1.)]
