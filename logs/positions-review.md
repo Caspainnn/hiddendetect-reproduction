@@ -1,0 +1,7 @@
+# Actual-token position review and verification
+
+Fresh whole-branch review checked token alignment, raw-state normalization, repeated group folds, candidate selection, scorer/bootstrap and artifact gates before any heldout outcomes. Three P2 findings: actual-vs-frozen cache seal not compared; imported metric implementations absent from source inventory; verifier could claim selected-bound replay without doing it and did not reconstruct selection. These were fixed before scoring. Seal/source regressions were observed failing then passing; actual final verification replays the CV selection and all12 alternative confirmation bounds, reporting completed count.
+
+No remaining material reviewer findings or deferred minors. Prefix drift triggered a train-only fixed512 shape diagnostic with correctly masked padding; primary readouts/models were not changed. Actual source/core digest at extraction is retained; later core changes affect verification only and leave the readout function contract unchanged.
+
+The first scoring attempt stopped before data scoring because the historical artifact manifest had CRLF while Git retained LF. Every dependency was audited; only that JSON's line endings differed. Original bytes and first freeze/seal retained; canonicalization changed no candidate/CV/selection. Both server and Windows metric verification passed after canonical committed seal, including136 candidate/condition checks and12 independent5000-bootstrap bound replays. Full committed-archive verification is recorded at handoff.

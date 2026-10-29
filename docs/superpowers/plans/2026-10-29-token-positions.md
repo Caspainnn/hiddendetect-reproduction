@@ -19,13 +19,17 @@
 
 ## Files and steps
 
-- [ ] core/test: position alignment, deterministic random, same-energy duplicate ridge kernel, CV group exclusion, simultaneous-upper-bound rule; observed RED/GREEN.
-- [ ] build manifest from immutable existing role contracts + count-only fresh exclusion; commit before extraction. Extract only needed9 states, resumable checkpoint, byte/model/tokenizer/source seals and old-readout identity probes. Cache estimate must fit15GiB.
-- [ ] repeated train CV, final17 heads, OOF/fit provenance and preselected choices; seal code/head bytes, fresh review, commit before metrics.
-- [ ] evaluate unchanged benchmark/history and fresh confirmation; independent point/threshold/CV/bootstrap replay; report position information and approximate-optimality boundary, all negative/positive results.
-- [ ] handoff report, candidate CSV/plots, reproducible command, progress/web/method round updates, GitHub/server branch sync. No raw prompts/credentials/weights public.
+- [x] core/test: position alignment, deterministic random, same-energy duplicate ridge kernel, CV group exclusion, simultaneous-upper-bound rule; observed RED/GREEN.
+- [x] build manifest from immutable existing role contracts + count-only fresh exclusion; commit before extraction. Extract only needed9 states, resumable checkpoint, byte/model/tokenizer/source seals and old-readout identity probes. Cache estimate must fit15GiB.
+- [x] repeated train CV, final17 heads, OOF/fit provenance and preselected choices; seal code/head bytes, fresh review, commit before metrics.
+- [x] evaluate unchanged benchmark/history and fresh confirmation; independent point/threshold/CV/bootstrap replay; report position information and approximate-optimality boundary, all negative/positive results.
+- [x] handoff report, candidate CSV/plots, reproducible command, progress/web/method round updates, GitHub/server branch sync. No raw prompts/credentials/weights public.
 
 ## Ledger
+
+- Completed full capture326.87s/13.98GiB,170 fold fits and17 final heads149.26s; all5360 inherited template readouts exactly match and oldB mean/coef/intercept identical. Train CV selects template_last. Fixed512 train32 diagnostic removes protected-prefix drift (9.77e-4 to0), preserving variable-shape main cache; no interpretation as causal future-content access.
+- Scoring stopped before data access on CRLF artifact-manifest vs committedLF. Full dependency audit found only that byte difference. Original bytes, superseded freeze and attempt1 preseal retained; JSON and all non-line-ending bytes identical. Canonical committed0620355 dependencies changed no model/CV/selection, independently audited. Final scoring154.95s,136 conditions/4160 rows and all12 confirmation5000-bootstrap bounds verified on server and Windows.
+- New confirmation: template AUROC.927292 versus user_last.908996; pair.927856 deltaCI[-.0033721,.004608]. Six true-user single upper bounds all<0; full12-family approximate margin criterion fails (maxupper.00584868 >.005). No threshold, margin, family or chosen model changed after scoring. Report all outcomes, fixed benchmark unchanged; no reset credit used.
 
 - Count audit fixed6360 rows:2200 train/dev,2760 benchmarkv1 scoring/calibration,400 historical confirmation,1000 fresh confirmation. Fresh500/class excludes12122 old unique IDs. Cache15005122688 bytes, within15GiB. Before training, all5360 inherited template readouts matched exactly; prefix training states showed max9.77e-4 drift despite protected identical prefix IDs. Add label-free32 train-probe fixed512 padding diagnostic before fitting, preserving original variable-length main cache and all predefined candidates; no test scores inspected or thresholds changed.
 - Fresh review found actual-vs-frozen seal binding, imported metric source inventory, and incomplete independent bound/selection replay. First two regressions observed RED/GREEN; verifier now replays all12 fresh-confirmation bounds and exact CV selection independently, reporting actual completed count. Core changes after capture concern verification only; readout function contract remains unchanged and capture-time core SHA is preserved in metadata.

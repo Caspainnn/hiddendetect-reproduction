@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "scored_rows": 4160,
+  "candidate_test_conditions": 136,
+  "cv_fits_checked": 170,
+  "independent_confirmation_base_bootstrap_replayed": true,
+  "confirmation_alternative_bounds_replayed": 12,
+  "cv_selection_rule_replayed": true,
+  "evaluation_sha256": "7f45eea567df6daeb7bc631baaabdb3f8f073837241b518d35099009a41481c3"
+}

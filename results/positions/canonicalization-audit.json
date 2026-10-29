@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "only_dependency_line_endings_changed": true,
+  "models_cv_and_selection_identical": true,
+  "original_bytes_retained": true,
+  "scoring_started_after_amended_commit": "0620355a7e276dc8210e8329d04292bacefe584b"
+}
