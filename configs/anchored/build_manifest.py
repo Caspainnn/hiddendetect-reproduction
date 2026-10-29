@@ -53,7 +53,6 @@ def main():
     assert not trainids & {r['id'] for r in chosen}
     probes=sum(([r for r in records['stability'] if r.get('origin')=='original_train' and r['label']==y][:16] for y in (0,1)),[])
     directory=ROOT/'data/anchored';directory.mkdir(exist_ok=True);rp=directory/'records.jsonl';rp.write_bytes((''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in chosen)).encode())
-    write(directory/'probes.jsonl',None) if False else None
     pp=directory/'probes.jsonl';pp.write_bytes((''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in probes)).encode())
     write(target,{'samples':[{k:v for k,v in r.items() if k!='prompt'} for r in chosen],'prefix':prefix,'suffix':suffix,'records_sha256':digest(rp),'probes_sha256':digest(pp),'old_unique_exclusions':len(oldids),'fresh_class_count':counts,'counts':dict(Counter(r['role']+':'+str(r['label']) for r in chosen)),'new_feature_rows':fresh,'exclusions':dict(reject),'scope':'new same-source Aegis harmfulness and distinct ToxicChat toxicity auxiliary confirmation; separate tasks'})
     write(ROOT/'logs/anchored-duplicates.json',removed);print('MANIFEST_LOCKED',len(chosen),'NEW_FEATURES',fresh,flush=True)
