@@ -1,0 +1,49 @@
+{
+  "manifest_sha256": "3f244f36a0afa97d76ca6696e3a5f70e59d93cc055f87b653fd6c9796c844b7b",
+  "files": {
+    "cache/routing/fixed.npy": "2ee9ab21250cdf45100fe023b879b547397db3e4d2f1e370c2dcf7092c68f58e",
+    "cache/routing/fresh_variable.npy": "bd1901313251adccb4d8e8642f59772816e695c433f27c6d15544f1c22d80f97",
+    "cache/routing/metadata.json": "878616c500431b2d1b86916596f8473e4e1133e0d0c9c87d7fc05454499cd55e",
+    "cache/routing/checkpoint.json": "6b8257ee959c47e9ff928220c4ae3e94c6d1d579edcb3556c175655b5d0844f0",
+    "cache/routing/prefix-reference.npy": "4e4fa862c776d68dd4bd4625e91d7654a1fc250848ca0f91fd2ff6f92fd7584f",
+    "cache/positions/P.npy": "5f4ec8853708fe2748ce14702ef9dd3c284992770ccc47942a8290e81d799ea7",
+    "cache/positions/seal.json": "827e55a290b069c603b5f2c134cd700b9012748fa620ef1fdf686dd09768d297"
+  },
+  "rows": 5960,
+  "fresh_rows": 1000,
+  "state": {
+    "next_index": 5960,
+    "prefix_max_difference": 0.0,
+    "max_fixed_variable_difference": 0.0042724609375,
+    "peak_allocated_bytes": 15247309312
+  },
+  "seconds_this_run": 513.103649655357,
+  "resumed_at": 0,
+  "additional_bytes": 6773801216,
+  "extraction_commit": "85b2c51c295f609b3e8baf892199e53be813d48d",
+  "extraction_sources": {
+    "extractor": "ee54ccf63f54bde602bb04c735f82b5105ec6eebbdbcc8c6c2eede91560d9cff",
+    "core": "b3389a2de2966954b986d988a2cf6921895d6db6a44e13e7c29412d2a429b984"
+  },
+  "metadata": {
+    "manifest_sha256": "3f244f36a0afa97d76ca6696e3a5f70e59d93cc055f87b653fd6c9796c844b7b",
+    "extractor_sha256": "ee54ccf63f54bde602bb04c735f82b5105ec6eebbdbcc8c6c2eede91560d9cff",
+    "core_sha256": "b3389a2de2966954b986d988a2cf6921895d6db6a44e13e7c29412d2a429b984",
+    "shapes": {
+      "fixed.npy": [
+        5960,
+        32,
+        4,
+        4096
+      ],
+      "fresh_variable.npy": [
+        1000,
+        32,
+        2,
+        4096
+      ]
+    },
+    "dtype": "float16",
+    "torch": "2.1.2+cu121"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "selected_label": "template",
+  "selected_mask": "00000000000000000000000000000000",
+  "raw_best_mask": "00000000000000000000000000100001",
+  "best_single_mask": "00000000000000000000000000000001",
+  "heuristic_se": 0.009401028315538846,
+  "scope": "trainCV robust objective only; template preferred within oneSE; overlapping folds not formal interval"
+}
