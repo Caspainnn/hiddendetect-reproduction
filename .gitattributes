@@ -13,3 +13,5 @@ logs/signal-selection-download.json -text
 logs/positions-artifact-lock-original.json -text
 
 docs/superpowers/plans/2026-10-29-training-stability.md text eol=lf
+
+docs/superpowers/plans/2026-10-29-anchored-summary.md text eol=lf
