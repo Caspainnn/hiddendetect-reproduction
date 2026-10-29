@@ -1,13 +1,13 @@
 {
   "status": "frozen_before_benchmark_and_fresh_confirmation",
   "sources": {
-    "configs/processing/test_processing.py": "90fdee233f0d20253d1e0a3a93c28ae051934013f392d0fb2e731bfa3ab3ffb2",
+    "configs/processing/test_processing.py": "ea03acdd772103c983952a7d82d5d3c581da9442ec7afd20bdfc78de66927081",
     "configs/processing/train.py": "4e5f1aee005a4729c73ba81aab7c1c66f391bd8846538d095864f83ccaa17e35",
     "configs/processing/report.py": "7f16290764086b72092a7bbe033cc98d579e4d179a305469a41a174177f6e649",
-    "configs/processing/analyze.py": "0d462bd5afa387ffff8bb910a63875d29f9b8cfda0e2b8ef3e4aec989cfa86d1",
     "configs/processing/build_manifest.py": "88fa2d606834f6eb73753634aab6106252f56814380ce7b362479adb54d17ccc",
-    "configs/processing/evaluate.py": "472f7703a4d91d2acd47afc919231f69a8fb2a3bd8645e11a6bac66167ba43fa",
-    "configs/processing/verify.py": "9c23afde3e29a68723cb6337fd73a94f113ea8b85b2bdf1018addc5432e789bc",
+    "configs/processing/evaluate.py": "b43723c48ec595d53b20b34de63392c584441c6f258337012be64999458cae37",
+    "configs/processing/verify.py": "a557b5ae98f21bafbbe8fb61c07150e9281c78c8e1621c1dcafe6915e760a0f0",
+    "configs/processing/processing_analysis.py": "0d462bd5afa387ffff8bb910a63875d29f9b8cfda0e2b8ef3e4aec989cfa86d1",
     "configs/processing/processing_core.py": "5911a979cda4a92df4fcf5f6cd81509a540178619731912d894e3e2f7b28ce8c",
     "configs/processing/extract.py": "0ea689524d1f9d997d26a2a7377e0e15153c4c244f7e0c6c69ced46aed6e6208",
     "configs/routing/routing_core.py": "4af169515ea184b02823606b4c74845c27f483e3785784255dc1261d77f2f8b0",
@@ -35,7 +35,8 @@
     "results/processing/cv.json": "df59e98cd7811bae022b04b986e65af0316f958cf504434a56d84622af143c6a",
     "results/processing/oof.npz": "05e068db637bb56d2bc336da50106e2c951781f00be116b7ec478e19bb2e198b",
     "results/processing/selection.json": "46e84cf0e8e71729556e472180aa31fbd66e00823cc62f6312dd7bc176da764e",
-    "docs/superpowers/plans/2026-10-29-user-signal-processing.md": "815c25109d1369219210c966061d451cf4151cb019b9bc0b4deb7d72c80de70f"
+    "docs/superpowers/plans/2026-10-29-user-signal-processing.md": "815c25109d1369219210c966061d451cf4151cb019b9bc0b4deb7d72c80de70f",
+    "logs/processing-import-fix.json": "232f8a4fd6a0082e4726b4f639929f2d91f5196e10c22472d79dd9897d32157c"
   },
   "candidates": [
     {
@@ -763,5 +764,20 @@
   "train_rows": 1600,
   "dev_rows": 600,
   "fold_fits": 130,
-  "seconds": 68.32855187729001
+  "seconds": 68.32855187729001,
+  "analysis_import_amendment": {
+    "stage": "analysis_import_repair_before_metrics",
+    "old_freeze_sha256": "ebf4e3c83bd01220c509e0ee3e85756d05dfb1f80563c49415e1b4ecea9d922a",
+    "old_freeze_commit": "e49b0844342d79096f4e1ea1b5074eb9b582164e",
+    "aggregate_metrics_existed": false,
+    "all_model_parameters_unchanged": true,
+    "selection_unchanged": true,
+    "changed_sources": [
+      "configs/processing/evaluate.py",
+      "configs/processing/test_processing.py",
+      "configs/processing/verify.py"
+    ],
+    "analysis_content_sha256_unchanged": "0d462bd5afa387ffff8bb910a63875d29f9b8cfda0e2b8ef3e4aec989cfa86d1",
+    "interrupted_raw_scores_sha256": "e7cef33925db30d023d0f88dc37ffe765af3214c706051ab8bc4e9bedb50bf80"
+  }
 }
