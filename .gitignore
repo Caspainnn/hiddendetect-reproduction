@@ -26,3 +26,7 @@ logs/fusion-evaluation.log
 logs/swarm-search.log
 logs/swarm-confirmation.log
 logs/swarm-evaluation.log
+logs/positions-manifest.log
+logs/positions-extraction.log
+logs/positions-training.log
+logs/positions-evaluation.log
