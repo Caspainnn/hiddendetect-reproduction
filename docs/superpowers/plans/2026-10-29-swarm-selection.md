@@ -30,6 +30,8 @@
 
 ## Ledger
 
+- 2026-10-29: before any new benchmark or confirmation scoring, add supplemental1000 joint safe-calibration/test bootstraps (seed20261102), shared resample indices across methods, to assess threshold uncertainty. This does not change fixed thresholds, primary objective, candidates or algorithm budget. Report separately from primary conditional intervals. Scalar-loop equivalence regression observed RED/GREEN.
+
 - 2026-10-29: local and remote RED/GREEN regression checks passed. Count-only confirmation selected200/class plus64 old-training probes (464 rows), excluding11722 prior unique IDs. Full extraction/cache/model seals passed; all eight probe arrays have zero maximum difference. Confirmation has not been scored.
 - 2026-10-29: initial training stopped saving its first model because259-bit filenames exceed Linux component limit. Fixed to SHA256 names and restarted unchanged search. Fresh review found probe import bootstrap and missing probe-success seal gate; both fixed with observed failing/passing checks before any scoring. No deferred findings.
 
