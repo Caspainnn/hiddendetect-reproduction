@@ -11,6 +11,12 @@ FAMILIES={'mean':[0],'dynamic':[1,2],'processed':[1,2,3,4,5],'relations':[1,2,3,
 def open_array(path,shape,relation,exists):
     return np.lib.format.open_memmap(path,mode='r+' if exists else 'w+',dtype='float32' if relation else 'float16',shape=tuple(shape))
 
+def user_indices(row):
+    indices=np.concatenate([np.asarray(a,dtype=int) for a in row['regions']])
+    assert len(indices)>0 and np.array_equal(indices,np.unique(indices))
+    assert row['prefix_anchor']<indices[0] and indices[-1]<row['input_length']-1
+    return indices
+
 def unit(a):
     a=np.asarray(a,dtype=np.float64);return a/np.maximum(np.linalg.norm(a,axis=-1,keepdims=True),1e-12)
 
@@ -96,15 +102,24 @@ def baseline(a,indices):
     result=[old[rows[i]['baseline_index'],:,3,:] if 'baseline_index' in rows[i] else fresh[rows[i]['fresh_index']] for i in indices]
     return np.asarray(result,np.float64).reshape(len(indices),-1)/np.sqrt(32)
 
-def verify_cache(actual=True):
-    p=ROOT/'logs/processing-cache-seal.json';s=json.loads(p.read_text());m=json.loads((ROOT/'configs/processing/manifest.json').read_text());meta=s['metadata'];n=len(m['samples'])
-    assert s['manifest_sha256']==meta['manifest_sha256']==digest(ROOT/'configs/processing/manifest.json')
-    assert s['state']['next_index']==n and s['state']['old_B_checked']==4960 and s['state']['maximum_old_B_difference']<=1e-5
-    assert s['state']['prefix_difference']==0.
+def validate_metadata(meta,state,m,manifest_sha,lock_sha,source_sha):
+    n=len(m['samples'])
+    assert meta['manifest_sha256']==manifest_sha and meta['artifact_lock_sha256']==lock_sha and meta['extraction_sources']==source_sha
+    assert state['next_index']==n and state['old_B_checked']==4960 and state['maximum_old_B_difference']<=1e-5
+    assert state['prefix_difference']==0. and state['peak_allocated_bytes']<22*1024**3
     assert meta['shapes']=={'summaries.npy':[n,4,7,4096],'relations.npy':[n,116],'fresh_B.npy':[m['fresh_class_count']*2,32,4096]}
+    assert meta['anchors']==ANCHORS and meta['fixed_length']==512
+
+def verify_cache(actual=True):
+    p=ROOT/'logs/processing-cache-seal.json';s=json.loads(p.read_text());m=json.loads((ROOT/'configs/processing/manifest.json').read_text());meta=s['metadata']
+    assert s['manifest_sha256']==digest(ROOT/'configs/processing/manifest.json')
+    validate_metadata(meta,s['state'],m,s['manifest_sha256'],digest(ROOT/'configs/artifacts-lock.json'),s['extraction_sources'])
+    assert s['extraction_commit']==meta['extraction_commit']
+    assert set(s['extraction_sources'])=={'configs/processing/extract.py','configs/processing/processing_core.py','configs/routing/routing_core.py'}
     for name,sha in s['extraction_sources'].items():
         assert hashlib.sha256(subprocess.check_output(['git','show',s['extraction_commit']+':'+name],cwd=ROOT)).hexdigest()==sha,name
     previous=json.loads((ROOT/'logs/routing-cache-seal.json').read_text());assert s['files']['cache/routing/fixed.npy']==previous['files']['cache/routing/fixed.npy']
+    assert previous['manifest_sha256']==digest(ROOT/'configs/routing/manifest.json')
     if actual:
         assert digest(ROOT/'data/processing/records.jsonl')==m['records_sha256']
         assert json.loads((ROOT/'cache/processing/metadata.json').read_text())==meta

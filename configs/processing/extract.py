@@ -1,11 +1,12 @@
 """Process all valid user tokens online; keep only bounded full-width summaries."""
 import hashlib,json,os,subprocess,time
 import numpy as np
-from processing_core import ROOT,ANCHORS,digest,stream_hash,read_jsonl,write,pad_ids,summarize,open_array
+from processing_core import ROOT,ANCHORS,digest,stream_hash,read_jsonl,write,pad_ids,summarize,open_array,user_indices
 
 def main():
     os.environ['HF_HUB_OFFLINE']='1';os.environ['TRANSFORMERS_OFFLINE']='1'
     import torch
+    import transformers
     from llava.model.builder import load_pretrained_model
     torch.manual_seed(0);torch.backends.cuda.matmul.allow_tf32=False
     mp=ROOT/'configs/processing/manifest.json';m=json.loads(mp.read_text());rp=ROOT/'data/processing/records.jsonl'
@@ -28,10 +29,10 @@ def main():
     source_names=['configs/processing/extract.py','configs/processing/processing_core.py','configs/routing/routing_core.py']
     source_sha={n:digest(ROOT/n) for n in source_names}
     for n,sha in source_sha.items():assert hashlib.sha256(subprocess.check_output(['git','show',commit+':'+n],cwd=ROOT)).hexdigest()==sha,n
-    meta={'manifest_sha256':digest(mp),'shapes':shapes,'extraction_commit':commit,'extraction_sources':source_sha,'fixed_length':512,'anchors':ANCHORS,'torch':torch.__version__}
+    meta={'manifest_sha256':digest(mp),'shapes':shapes,'extraction_commit':commit,'extraction_sources':source_sha,'fixed_length':512,'anchors':ANCHORS,'torch':torch.__version__,'numpy':np.__version__,'transformers':transformers.__version__,'artifact_lock_sha256':digest(ROOT/'configs/artifacts-lock.json')}
     exists=(directory/'metadata.json').exists()
     if exists:
-        previous=json.loads((directory/'metadata.json').read_text());assert previous['manifest_sha256']==meta['manifest_sha256'] and previous['extraction_sources']==source_sha;meta=previous
+        previous=json.loads((directory/'metadata.json').read_text());assert {k:v for k,v in previous.items() if k!='extraction_commit'}=={k:v for k,v in meta.items() if k!='extraction_commit'};meta=previous
     else:write(directory/'metadata.json',meta)
     arrays={n:open_array(directory/n,s,n=='relations.npy',exists) for n,s in shapes.items()}
     assert sum(a.nbytes for a in arrays.values())<2*1024**3
@@ -42,7 +43,7 @@ def main():
         row=rows[i];ids=tokenizer.encode(m['prefix']+row['prompt']+m['suffix']);assert len(ids)==row['input_length']<=512
         assert hashlib.sha256(np.array(ids,dtype=np.int64).tobytes()).hexdigest()==row['input_ids_sha256']
         assert hashlib.sha256(row['prompt'].encode()).hexdigest()==row['prompt_sha256']
-        user=np.concatenate([np.array(a,dtype=int) for a in row['regions']]);assert len(user)>0 and np.array_equal(user,np.unique(user))
+        user=user_indices(row)
         anchor=row['prefix_anchor'];prefix=ids[:anchor+1]
         if protected is None:protected=prefix
         assert prefix==protected
@@ -52,8 +53,9 @@ def main():
             output=model(torch.tensor([pi],device=model.device),attention_mask=torch.tensor([mask],device=model.device),images=None,image_sizes=None,output_attentions=True)
             base=[];prefix_values=[]
             for h in hidden:
-                value=h[0,[anchor,last]].float();value=value/torch.linalg.vector_norm(value,dim=-1).clamp_min(1e-12)[:,None]
-                v=value.half().cpu().numpy();prefix_values.append(v[0]);base.append(v[1])
+                # Match the original full-sequence reduction shape before gathering.
+                value=h[0].float();value=value/torch.linalg.vector_norm(value,dim=-1).clamp_min(1e-12)[:,None]
+                v=value[[anchor,last]].half().cpu().numpy();prefix_values.append(v[0]);base.append(v[1])
             base=np.stack(base);prefix_values=np.stack(prefix_values)
             if ref is None:ref=prefix_values.copy();np.save(refpath,ref)
             state['prefix_difference']=max(state['prefix_difference'],float(np.max(np.abs(prefix_values.astype(float)-ref))))
@@ -69,7 +71,7 @@ def main():
             state['maximum_old_B_difference']=max(state['maximum_old_B_difference'],delta);state['old_B_checked']+=1
         else:arrays['fresh_B.npy'][row['fresh_index']]=base
         state['peak_allocated_bytes']=max(state['peak_allocated_bytes'],torch.cuda.max_memory_allocated())
-        assert state['prefix_difference']==0. and state['maximum_old_B_difference']<=1e-5 and state['peak_allocated_bytes']<22*1024**3
+        assert state['prefix_difference']==0. and state['maximum_old_B_difference']<=1e-5 and state['peak_allocated_bytes']<22*1024**3,(i,state)
         hidden[:]=[None]*32;att[:]=[None]*32;mlp[:]=[None]*32;del output
         if (i+1)%16==0 or i+1==len(rows):
             for a in arrays.values():a.flush()
