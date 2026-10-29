@@ -32,17 +32,21 @@
 
 ## Tasks and tests
 
-- [ ] Acquire pinned extra data; failing tests for JSONL/role exclusivity/fold exclusion/interaction transforms; lock new manifest before extraction.
-- [ ] Run copied extractor probe and bounded new features; verify old probe compatibility, model/cache bytes and source provenance.
-- [ ] Generate five-fold OOF experts, full refits, diagnostic complementarity and15 additive/one pairwise heads; choose best-dev subset only.
-- [ ] Commit frozen heads/dependency seals; score new calibration/holdouts once, bootstrap and independently recompute metrics and threshold policies.
-- [ ] Fresh review, direction/method/results/conclusion report, progress/web sync, GitHub/server experimental branch publication.
+- [x] Acquire pinned extra data; failing tests for JSONL/role exclusivity/fold exclusion/interaction transforms; lock new manifest before extraction.
+- [x] Run copied extractor probe and bounded new features; verify old probe compatibility, model/cache bytes and source provenance.
+- [x] Generate five-fold OOF experts, full refits, diagnostic complementarity and15 additive/one pairwise heads; choose best-dev subset only.
+- [x] Commit frozen heads/dependency seals; score new calibration/holdouts once, bootstrap and independently recompute metrics and threshold policies.
+- [x] Fresh review, direction/method/results/conclusion report, progress/web sync, GitHub/server experimental branch publication.
 
 ## Review focus
 
 Training-fold-only expert preprocessing; no same-row label in OOF expert fit; no test selection; explicit old-data/probe exceptions; source threshold calibration disjointness and toxicity scope; score-invariant calibration effect; strong-base and all-subset reporting; actual byte seals and mixed old/new cache indexing.
 
 ## Ledger
+
+- 2026-10-29: recovery with explicit password authentication (agent/key discovery disabled) succeeded on the user-confirmed original endpoint. Pulled completed manifest:2824 rows, including64 probes,800 Aegis calibration,1000 Aegis prospective holdout,120 official Aegis,400 Toxic safe calibration,400 Toxic prospective holdout,40 official Toxic. Actual final count fixed before any new inference; previous blocked status retained as historical record.
+- 2026-10-29: resource pilot passed (1.1703 time ratio,14.20GiB); full extraction327.50s,3.82GiB cache; all eight probe-array differences0, author F difference0. Byte/artifact seals pass. Training53.47s,23 candidates, best-dev BT. Remote Git identity absent: commit stopped before scoring; reused repository prior author identity locally, committed36168a4, wrote pre-evaluation seal, resumed scoring without refitting/changing candidates.
+- 2026-10-29: evaluation133.76s;2760 scored rows,20 training-fold logs,138 candidate/test conditions independently verified on compute host and Windows. Primary additive AUROC.91920 vs B.91576, paired deltaCI[.00087,.00619], with recall64.6% vs65.6%; pair interactions do not clearly add. Toxic-safe calibration improves B recall30.0% to55.5% while FPR1.0% to4.5%, unchangedAUROC.91070. Report, complete candidate tables, figure, current progress and page synchronized; historical branches preserved.
 
 - 2026-10-29: recovery session found the previous local SSH process gone. Known host verification retained; original endpoint refused password and existing local key, alternate port from local SSH config closed connection. Remote manifest completion cannot be confirmed; no new extraction/training/evaluation results claimed. No approval review rejected this work; blocker is remote authentication. Local code and blocked-state report published on the separate fusion branch.
 - 2026-10-29: Final: fixed incomplete test-report certification and unenforced pre-evaluation commit seal — added tests observed RED (missing validation helpers), then GREEN for complete six-condition coverage, missing/tampered seal rejection; full local contract suite and syntax compilation pass. Compute-host scoring now checks committed freeze, source and head hashes before reading new scores. Offline verification checks seal identity and all138 candidate/test conditions; actual GPU execution remains unverified.

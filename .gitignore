@@ -22,3 +22,4 @@ logs/fusion-driver.log
 logs/fusion-pilot.log
 logs/fusion-extraction.log
 logs/fusion-train.log
+logs/fusion-evaluation.log

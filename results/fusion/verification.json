@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "scored_rows": 2760,
+  "candidate_test_conditions": 138,
+  "folds_checked": 20,
+  "candidates": 23,
+  "evaluation_sha256": "267ea60ae983ac883d904ab65476680cd9194791451c45c27beccf047e173d9f",
+  "scope": "independent point metrics and thresholds; cache bytes verified separately on compute host; bootstrap not independently regenerated"
+}
