@@ -42,6 +42,7 @@ def main():
     cv={'candidates':stats,'folds':serialize(folds),'refit_candidates':refitstats,'refit_folds':serialize(rf),'refit_selected_index':best,'refit_labels':yt.tolist(),'refit_groups':gt.tolist(),'selection':selection}
     write(out/'cv.json',cv);np.savez_compressed(out/'oof.npz',scores=oof,refit_scores=ro);write(out/'selection.json',selection)
     deps=['configs/anchored/manifest.json','configs/benchmarks/v1.json','configs/artifacts-lock.json','logs/anchored-duplicates.json','logs/anchored-cache-seal.json','logs/anchored-score-seal.json','logs/stability-cache-seal.json','results/stability/freeze.json','results/stability/0_ridge_B.joblib','results/stability/0_ridge_mean.joblib','results/stability/0_ridge_dynamic.joblib','results/stability/0_ridge_random.joblib','results/anchored/meta-scores.jsonl','results/anchored/cv.json','results/anchored/oof.npz','results/anchored/selection.json','docs/superpowers/plans/2026-10-29-anchored-summary.md']
+    deps+=['logs/anchored-data-provenance.json','logs/anchored-review.md']
     check_sources(snapshot);write(out/'freeze.json',{'status':'frozen_before_confirmation_scoring','sources':snapshot,'dependencies':{n:digest(ROOT/n) for n in deps},'models':models,'refit_sha256':digest(out/'B_refit.joblib'),'selection':selection,'meta_fold_conditions':550,'refit_fold_fits':90,'seconds':time.monotonic()-began})
     print('ANCHORS_FROZEN',selection,'REFIT_LAMBDA',lambdas[best],'SEC',time.monotonic()-began,flush=True)
 

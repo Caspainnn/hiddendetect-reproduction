@@ -1,0 +1,21 @@
+{
+  "manifest_sha256": "2ad763549033628319812090818f86bdbeb4992aa2500d48e32801c63ebe0a23",
+  "commit": "22520916b38d1413c770014d4922e55354b40fa4",
+  "sources": {
+    "configs/anchored/prepare_scores.py": "84acef8173b007d471b7a698877b9843fb979c25ee64d5d0c8a5b659e9cc4c32",
+    "configs/anchored/anchored_core.py": "71bcddb154ed6108911c9c2028848624e1d79b1a82eaa041b8255e97a44eea41",
+    "configs/stability/stability_core.py": "763114bf6539b7e1c03c322f705be87b5011a7d146e5ba7f2c89df4d29a40551",
+    "configs/heads/head_core.py": "0852cdd4dc4997d288a513361b816629a8e5c1792f9afa75196b5b69db008ca0"
+  },
+  "files": {
+    "cache/anchored/base-scores.npy": "9edeadf85bb6d44ff6cb7e8bd0819bec3017c6e221b2e8a4df8b3e6e124892d5"
+  },
+  "model_shas": {
+    "results/stability/0_ridge_B.joblib": "4066fe2f8c632c81e2f81724c23437775bba4479ad8999c83b7e1a1e526fe114",
+    "results/stability/0_ridge_mean.joblib": "439e99a7a6517539acbcbf5e37e4927a742a52faadc66d3ba02d74bf4678dd9b",
+    "results/stability/0_ridge_dynamic.joblib": "9bafe7b7baa05a3f98b118a8d91d547557fa03765445ae56f0c703d5dc3f8a4e",
+    "results/stability/0_ridge_random.joblib": "279b2f35592ef44e5f80aaca0562116d0d43af2ebef3c03a624d81080fe4acf9"
+  },
+  "old_score_rows_checked": 2200,
+  "maximum_old_score_difference": 1.354472090042691e-14
+}

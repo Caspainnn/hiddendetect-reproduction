@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "path": "data/signal-selection/raw/nvidia__Aegis-AI-Content-Safety-Dataset-2.0/train.json",
+      "sha256": "154fba82c71d9fa73abd2ca5588a198e693ddc816c83444df180a22f613e02f6",
+      "revision": "d86bb8bedff51d25ac834ab7838f1cc61acb7a2c",
+      "bytes": 22705956
+    },
+    {
+      "path": "data/signal-selection/raw/lmsys__toxic-chat/data/1123/toxic-chat_annotation_test.csv",
+      "sha256": "4128df6d3f83d2a6e5e4d79ad207ecd2ff15c944f322188e24947fddfe46ffef",
+      "revision": "29df8e4dba60e1f4af4b4075c0705c5b313548a8",
+      "bytes": 7026093
+    },
+    {
+      "path": "data/signal-selection/raw/lmsys__toxic-chat/data/1123/toxic-chat_annotation_train.csv",
+      "sha256": "0099077aa4c7183040b11d44d2e6852c293ee2fd78a0ffe47ee12b4d1ecd727e",
+      "revision": "29df8e4dba60e1f4af4b4075c0705c5b313548a8",
+      "bytes": 7134932
+    }
+  ],
+  "fresh_toxic_original_partition_counts": {
+    "test:0": 48,
+    "train:0": 27,
+    "train:1": 70,
+    "test:1": 5
+  },
+  "scope": "New heldout subset from unused human-annotated ToxicChat train/test records, toxicity auxiliary task; not official-test-only. Original acquisition log retains its historical scope."
+}

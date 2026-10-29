@@ -1,0 +1,42 @@
+{
+  "manifest_sha256": "2ad763549033628319812090818f86bdbeb4992aa2500d48e32801c63ebe0a23",
+  "commit": "22520916b38d1413c770014d4922e55354b40fa4",
+  "sources": {
+    "configs/anchored/extract.py": "6533cd51f1c0895a9d439f6a21f1c5cd979da8f713733d993471c8d00bf5601d",
+    "configs/anchored/anchored_core.py": "71bcddb154ed6108911c9c2028848624e1d79b1a82eaa041b8255e97a44eea41",
+    "configs/processing/processing_core.py": "5911a979cda4a92df4fcf5f6cd81509a540178619731912d894e3e2f7b28ce8c",
+    "configs/routing/routing_core.py": "4af169515ea184b02823606b4c74845c27f483e3785784255dc1261d77f2f8b0"
+  },
+  "artifact_lock_sha256": "9376f884cc88facd00b464635259a9308209ce5f7b354d10fd187d8f7ccc8349",
+  "shapes": {
+    "B.npy": [
+      1750,
+      32,
+      4096
+    ],
+    "S.npy": [
+      1750,
+      4,
+      5,
+      4096
+    ]
+  },
+  "dtype": "float16",
+  "fixed_length": 512,
+  "old_cache_seal_sha256": "b669e7b3b36d1c86f08589480f040fcbc3c5e11009d7514d27fb3425c1d19161",
+  "next_index": 1750,
+  "prefix_difference": 0.0,
+  "peak_allocated_bytes": 15277835264,
+  "pilot_rows": 32,
+  "pilot_maximum_B_difference": 0.0,
+  "pilot_maximum_summary_difference": 0.0,
+  "files": {
+    "cache/anchored/B.npy": "cd03fb80502b995664af1f81362da8b25bd145eaaefadad546d1be597c505024",
+    "cache/anchored/S.npy": "b6a7a8f339b50e8f3da31b81dbe8a97ad26e5056b532a0f9025be7538d99c365",
+    "cache/anchored/metadata.json": "5b1eb4f6df6695eb1071ab7a635658652b69ef0e5505761c935609f343511046",
+    "cache/anchored/checkpoint.json": "0d7af19899788891cf2fe672f4646b9dfce3adae58e025c95814055d9c32b170"
+  },
+  "seconds": 201.11390045657754,
+  "resumed_at": 0,
+  "bytes": 745472256
+}
