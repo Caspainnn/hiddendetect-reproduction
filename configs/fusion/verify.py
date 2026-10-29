@@ -3,7 +3,7 @@ import json
 import numpy as np
 from sklearn.metrics import roc_auc_score,average_precision_score
 from fusion_core import ROOT,digest,read_jsonl
-from provenance import verify_freeze
+from provenance import verify_freeze,check_test_conditions
 
 def main():
     out=ROOT/'results/fusion'; freeze=verify_freeze(out)
@@ -29,6 +29,7 @@ def main():
             seen+=list(valid)
         assert sorted(seen)==list(range(1600))
     report=json.loads((out/'evaluation.json').read_text())
+    check_test_conditions(report['tests'])
     assert report['freeze_sha256']==digest(out/'freeze.json')
     assert report['manifest_sha256']==digest(ROOT/'configs/fusion/manifest.json')
     assert report['scores_sha256']==digest(out/'heldout-scores.jsonl')
@@ -59,6 +60,7 @@ def main():
             for key,result in actual.items(): assert np.isclose(value[key],result,rtol=0,atol=1e-12),(test,name,key)
             if policy=='source': assert value['auroc']==report['tests'][role+':global'][name]['auroc']
             checks+=1
+    assert checks==138
     result={'status':'passed','scored_rows':len(scored),'candidate_test_conditions':checks,
         'folds_checked':20,'candidates':23,'evaluation_sha256':digest(out/'evaluation.json'),
         'scope':'independent point metrics and thresholds; cache bytes verified separately on compute host; bootstrap not independently regenerated'}

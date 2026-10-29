@@ -39,3 +39,19 @@ with tempfile.TemporaryDirectory() as folder:
     except AssertionError: pass
     else: raise AssertionError('Changed manifest with unchanged arrays accepted')
 print('PASS: relocated extractor helper and cache/manifest identity binding')
+from provenance import check_test_conditions,verify_pre_evaluation_seal
+try: check_test_conditions({})
+except AssertionError: pass
+else: raise AssertionError('Empty test report accepted')
+with tempfile.TemporaryDirectory() as folder:
+    directory=Path(folder); (directory/'freeze.json').write_text('{}')
+    try: verify_pre_evaluation_seal(directory)
+    except FileNotFoundError: pass
+    else: raise AssertionError('Missing pre-evaluation seal accepted')
+    (directory/'pre-evaluation-seal.json').write_text(json.dumps({'freeze_sha256':digest(directory/'freeze.json'),'commit':'a'*40}))
+    verify_pre_evaluation_seal(directory)
+    (directory/'freeze.json').write_text('{"changed":true}')
+    try: verify_pre_evaluation_seal(directory)
+    except AssertionError: pass
+    else: raise AssertionError('Changed freeze accepted by pre-evaluation seal')
+print('PASS: complete test-condition coverage and pre-evaluation seal enforcement')
