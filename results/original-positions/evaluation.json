@@ -1,0 +1,584 @@
+{
+  "run_id": "ORP-U1",
+  "scope": "historical benchmark v1 C; not unseen confirmation",
+  "manifest_sha256": "45a1808f652e7dea14b3095f6e7de7bdab9d5fbcdc15129fed1e57af2dde5bdb",
+  "scores_sha256": "4a2e5947a621e2ad29e4f6374cd7719c882bd2685309f2f28e4574161d1f0f8d",
+  "bootstrap_repeats": 5000,
+  "bootstrap_seed": 20261030,
+  "family": "six user-position AUROC comparisons to EI-3-2-1, per primary interval",
+  "threshold_uncertainty": "conditional on fixed calibration; no population FPR guarantee",
+  "analyses": {
+    "primary": {
+      "interval": [
+        16,
+        29
+      ],
+      "metrics": [
+        {
+          "direction_id": "EI-3-1-1",
+          "name": "user_first",
+          "record_type": "candidate",
+          "baseline_auroc": 0.74664,
+          "auroc": 0.54509,
+          "standardized_pauc_fpr0_1": 0.5016615384615385,
+          "threshold": 0.12786195543594658,
+          "tpr": 0.014,
+          "fpr": 0.03
+        },
+        {
+          "direction_id": "EI-3-1-2",
+          "name": "user_q25",
+          "record_type": "candidate",
+          "baseline_auroc": 0.74664,
+          "auroc": 0.518152,
+          "standardized_pauc_fpr0_1": 0.498978947368421,
+          "threshold": 0.15670881600817665,
+          "tpr": 0.074,
+          "fpr": 0.078
+        },
+        {
+          "direction_id": "EI-3-1-3",
+          "name": "user_q50",
+          "record_type": "candidate",
+          "baseline_auroc": 0.74664,
+          "auroc": 0.5434019999999999,
+          "standardized_pauc_fpr0_1": 0.5236421052631579,
+          "threshold": 0.19482690282166004,
+          "tpr": 0.062,
+          "fpr": 0.038
+        },
+        {
+          "direction_id": "EI-3-1-4",
+          "name": "user_q75",
+          "record_type": "candidate",
+          "baseline_auroc": 0.74664,
+          "auroc": 0.575032,
+          "standardized_pauc_fpr0_1": 0.5136421052631579,
+          "threshold": 0.1762403487227857,
+          "tpr": 0.104,
+          "fpr": 0.072
+        },
+        {
+          "direction_id": "EI-3-1-5",
+          "name": "user_q90",
+          "record_type": "candidate",
+          "baseline_auroc": 0.74664,
+          "auroc": 0.60082,
+          "standardized_pauc_fpr0_1": 0.5443789473684211,
+          "threshold": 0.16627991606947035,
+          "tpr": 0.128,
+          "fpr": 0.042
+        },
+        {
+          "direction_id": "EI-3-1-6",
+          "name": "user_last",
+          "record_type": "candidate",
+          "baseline_auroc": 0.74664,
+          "auroc": 0.670976,
+          "standardized_pauc_fpr0_1": 0.5709894736842105,
+          "threshold": 0.1653818511404097,
+          "tpr": 0.196,
+          "fpr": 0.048
+        },
+        {
+          "direction_id": "EI-3-2-1",
+          "name": "template_last",
+          "record_type": "control",
+          "baseline_auroc": 0.74664,
+          "auroc": 0.74664,
+          "standardized_pauc_fpr0_1": 0.6214526315789474,
+          "threshold": 0.35181127674877644,
+          "tpr": 0.302,
+          "fpr": 0.054
+        }
+      ],
+      "paired_auroc": [
+        {
+          "direction_id": "EI-3-1-1",
+          "delta": -0.20155,
+          "ci95": [
+            -0.24992325000000004,
+            -0.15262745
+          ],
+          "adjusted": [
+            -0.2654318833333333,
+            -0.1351722833333332
+          ],
+          "descriptive_pauc": {
+            "delta": -0.11979109311740888,
+            "ci95": [
+              -0.15692947368421054,
+              -0.08467787593984971
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": -0.024,
+            "ci95": [
+              -0.048,
+              0.0
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.288,
+            "ci95": [
+              -0.33,
+              -0.248
+            ]
+          }
+        },
+        {
+          "direction_id": "EI-3-1-2",
+          "delta": -0.22848800000000002,
+          "ci95": [
+            -0.27500219999999986,
+            -0.18110415000000002
+          ],
+          "adjusted": [
+            -0.2915953666666666,
+            -0.16066584999999992
+          ],
+          "descriptive_pauc": {
+            "delta": -0.12247368421052635,
+            "ci95": [
+              -0.1582131578947369,
+              -0.08924184210526316
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": 0.024,
+            "ci95": [
+              -0.006,
+              0.056
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.228,
+            "ci95": [
+              -0.274,
+              -0.182
+            ]
+          }
+        },
+        {
+          "direction_id": "EI-3-1-3",
+          "delta": -0.20323800000000003,
+          "ci95": [
+            -0.24696469999999995,
+            -0.15848575000000012
+          ],
+          "adjusted": [
+            -0.2640663666666666,
+            -0.14301690833333316
+          ],
+          "descriptive_pauc": {
+            "delta": -0.09781052631578946,
+            "ci95": [
+              -0.13358052631578954,
+              -0.06330473684210529
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": -0.016,
+            "ci95": [
+              -0.04,
+              0.008
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.24,
+            "ci95": [
+              -0.284,
+              -0.198
+            ]
+          }
+        },
+        {
+          "direction_id": "EI-3-1-4",
+          "delta": -0.17160799999999998,
+          "ci95": [
+            -0.21356859999999997,
+            -0.12994329999999996
+          ],
+          "adjusted": [
+            -0.2257641166666667,
+            -0.11440196666666644
+          ],
+          "descriptive_pauc": {
+            "delta": -0.10781052631578947,
+            "ci95": [
+              -0.14286578947368428,
+              -0.07471578947368418
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": 0.018,
+            "ci95": [
+              -0.01,
+              0.046
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.198,
+            "ci95": [
+              -0.244,
+              -0.152
+            ]
+          }
+        },
+        {
+          "direction_id": "EI-3-1-5",
+          "delta": -0.14581999999999995,
+          "ci95": [
+            -0.1868377,
+            -0.10447399999999993
+          ],
+          "adjusted": [
+            -0.2000738833333334,
+            -0.08879641666666639
+          ],
+          "descriptive_pauc": {
+            "delta": -0.0770736842105263,
+            "ci95": [
+              -0.11336894736842104,
+              -0.04382999999999994
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": -0.012,
+            "ci95": [
+              -0.038,
+              0.014
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.174,
+            "ci95": [
+              -0.22,
+              -0.13
+            ]
+          }
+        },
+        {
+          "direction_id": "EI-3-1-6",
+          "delta": -0.07566399999999995,
+          "ci95": [
+            -0.10907640000000017,
+            -0.04236289999999987
+          ],
+          "adjusted": [
+            -0.12406136666666662,
+            -0.02993486666666645
+          ],
+          "descriptive_pauc": {
+            "delta": -0.050463157894736876,
+            "ci95": [
+              -0.08199999999999996,
+              -0.01924157894736848
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": -0.006,
+            "ci95": [
+              -0.03,
+              0.018
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.106,
+            "ci95": [
+              -0.146,
+              -0.066
+            ]
+          }
+        }
+      ],
+      "interpretation": "Sensitivity is descriptive; no interval chosen by test performance."
+    },
+    "sensitivity": {
+      "interval": [
+        17,
+        29
+      ],
+      "metrics": [
+        {
+          "direction_id": "EI-3-1-1",
+          "name": "user_first",
+          "record_type": "candidate",
+          "baseline_auroc": 0.739044,
+          "auroc": 0.54637,
+          "standardized_pauc_fpr0_1": 0.5008906882591093,
+          "threshold": 0.12122501572594047,
+          "tpr": 0.014,
+          "fpr": 0.032
+        },
+        {
+          "direction_id": "EI-3-1-2",
+          "name": "user_q25",
+          "record_type": "candidate",
+          "baseline_auroc": 0.739044,
+          "auroc": 0.51862,
+          "standardized_pauc_fpr0_1": 0.4988315789473684,
+          "threshold": 0.1452178491745144,
+          "tpr": 0.074,
+          "fpr": 0.086
+        },
+        {
+          "direction_id": "EI-3-1-3",
+          "name": "user_q50",
+          "record_type": "candidate",
+          "baseline_auroc": 0.739044,
+          "auroc": 0.5434659999999999,
+          "standardized_pauc_fpr0_1": 0.5222947368421053,
+          "threshold": 0.18089257273823023,
+          "tpr": 0.064,
+          "fpr": 0.038
+        },
+        {
+          "direction_id": "EI-3-1-4",
+          "name": "user_q75",
+          "record_type": "candidate",
+          "baseline_auroc": 0.739044,
+          "auroc": 0.5742839999999999,
+          "standardized_pauc_fpr0_1": 0.5139789473684211,
+          "threshold": 0.16368427779525518,
+          "tpr": 0.1,
+          "fpr": 0.072
+        },
+        {
+          "direction_id": "EI-3-1-5",
+          "name": "user_q90",
+          "record_type": "candidate",
+          "baseline_auroc": 0.739044,
+          "auroc": 0.599416,
+          "standardized_pauc_fpr0_1": 0.5441052631578948,
+          "threshold": 0.15535133029334247,
+          "tpr": 0.128,
+          "fpr": 0.042
+        },
+        {
+          "direction_id": "EI-3-1-6",
+          "name": "user_last",
+          "record_type": "candidate",
+          "baseline_auroc": 0.739044,
+          "auroc": 0.670868,
+          "standardized_pauc_fpr0_1": 0.5703789473684211,
+          "threshold": 0.15242919092997909,
+          "tpr": 0.198,
+          "fpr": 0.052
+        },
+        {
+          "direction_id": "EI-3-2-1",
+          "name": "template_last",
+          "record_type": "control",
+          "baseline_auroc": 0.739044,
+          "auroc": 0.739044,
+          "standardized_pauc_fpr0_1": 0.6135578947368421,
+          "threshold": 0.33004935225471854,
+          "tpr": 0.282,
+          "fpr": 0.05
+        }
+      ],
+      "paired_auroc": [
+        {
+          "direction_id": "EI-3-1-1",
+          "delta": -0.192674,
+          "ci95": [
+            -0.2415284,
+            -0.1434510499999999
+          ],
+          "adjusted": [
+            -0.2567117916666667,
+            -0.126292575
+          ],
+          "descriptive_pauc": {
+            "delta": -0.11266720647773276,
+            "ci95": [
+              -0.14932915050784865,
+              -0.07892552631578953
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": -0.018,
+            "ci95": [
+              -0.042,
+              0.006
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.268,
+            "ci95": [
+              -0.30805,
+              -0.228
+            ]
+          }
+        },
+        {
+          "direction_id": "EI-3-1-2",
+          "delta": -0.22042400000000006,
+          "ci95": [
+            -0.2672293,
+            -0.17261035000000002
+          ],
+          "adjusted": [
+            -0.2834361249999999,
+            -0.15230259166666654
+          ],
+          "descriptive_pauc": {
+            "delta": -0.11472631578947368,
+            "ci95": [
+              -0.14995789473684207,
+              -0.08321684210526313
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": 0.036,
+            "ci95": [
+              0.006,
+              0.068
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.208,
+            "ci95": [
+              -0.254,
+              -0.164
+            ]
+          }
+        },
+        {
+          "direction_id": "EI-3-1-3",
+          "delta": -0.19557800000000014,
+          "ci95": [
+            -0.23947604999999986,
+            -0.15036389999999994
+          ],
+          "adjusted": [
+            -0.25600409999999996,
+            -0.13414575000000004
+          ],
+          "descriptive_pauc": {
+            "delta": -0.09126315789473682,
+            "ci95": [
+              -0.12680157894736843,
+              -0.05791263157894735
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": -0.012,
+            "ci95": [
+              -0.036,
+              0.012
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.218,
+            "ci95": [
+              -0.26,
+              -0.176
+            ]
+          }
+        },
+        {
+          "direction_id": "EI-3-1-4",
+          "delta": -0.16476000000000013,
+          "ci95": [
+            -0.20743159999999983,
+            -0.12228550000000012
+          ],
+          "adjusted": [
+            -0.21987104999999993,
+            -0.1064969499999999
+          ],
+          "descriptive_pauc": {
+            "delta": -0.09957894736842099,
+            "ci95": [
+              -0.13488526315789479,
+              -0.0672415789473683
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": 0.022,
+            "ci95": [
+              -0.006,
+              0.05
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.182,
+            "ci95": [
+              -0.228,
+              -0.138
+            ]
+          }
+        },
+        {
+          "direction_id": "EI-3-1-5",
+          "delta": -0.13962800000000009,
+          "ci95": [
+            -0.18102910000000008,
+            -0.09803060000000002
+          ],
+          "adjusted": [
+            -0.19391478333333334,
+            -0.08248216666666659
+          ],
+          "descriptive_pauc": {
+            "delta": -0.06945263157894732,
+            "ci95": [
+              -0.10549473684210531,
+              -0.037031578947368415
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": -0.008,
+            "ci95": [
+              -0.034,
+              0.018
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.154,
+            "ci95": [
+              -0.202,
+              -0.108
+            ]
+          }
+        },
+        {
+          "direction_id": "EI-3-1-6",
+          "delta": -0.06817600000000001,
+          "ci95": [
+            -0.10186909999999996,
+            -0.03438080000000002
+          ],
+          "adjusted": [
+            -0.1169766833333333,
+            -0.02166663333333335
+          ],
+          "descriptive_pauc": {
+            "delta": -0.04317894736842098,
+            "ci95": [
+              -0.07461105263157905,
+              -0.01321999999999998
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": 0.002,
+            "ci95": [
+              -0.022,
+              0.026
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.084,
+            "ci95": [
+              -0.124,
+              -0.044
+            ]
+          }
+        }
+      ],
+      "interpretation": "Sensitivity is descriptive; no interval chosen by test performance."
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "rows": 450,
+  "maximum_F_difference": 0.0,
+  "manifest_sha256": "45a1808f652e7dea14b3095f6e7de7bdab9d5fbcdc15129fed1e57af2dde5bdb",
+  "reference_sha256": "42633880746ce67c1653e4b83ff430b1bc70febf92ba92a8e1e4fb8476e587c6"
+}

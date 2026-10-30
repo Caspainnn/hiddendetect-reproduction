@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "server_evaluation_sha256": "e61f4dffea3371df75bb393d0576e4c1eef510c8daa2976390de5b6574fe10ed",
+  "local_evaluation_sha256": "2dddb171c73e2d2ab9e1f3b5aaa3a314bfd59272a2949b98d3960ed796d35ba0",
+  "numbers": 258,
+  "maximum_absolute_difference": 0.0,
+  "scope": "all metrics, thresholds and paired bootstrap endpoints in both fixed intervals",
+  "author_identity": "450 rows, all32 layer F and default integral exact equality",
+  "review": "independent read-only code review; weighted tie handling checked against sklearn over3000 randomized resamples"
+}
