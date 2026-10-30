@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "server_evaluation_sha256": "da00fe12584594674a3f0d8386797c7d7224fa018b904e936a76f2fd412fdf9c",
+  "local_evaluation_sha256": "99524b92dfd56576f6c87cae26dea64e5a0ea93c840ba02feea3b0c843eecc2d",
+  "numbers": 98,
+  "maximum_absolute_difference": 0.0,
+  "scope": "all metrics, thresholds and paired bootstrap endpoints in both fixed intervals",
+  "author_identity": "1850 rows, all32 layer F and both integrals exact equality to ORP-U1",
+  "review": "independent read-only code review; weighted tie handling checked against sklearn over3000 randomized resamples"
+}

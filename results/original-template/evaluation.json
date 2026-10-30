@@ -1,0 +1,224 @@
+{
+  "run_id": "ORP-T1",
+  "scope": "historical benchmark C; no unseen confirmation",
+  "manifest_sha256": "52eb9211aac2849de9ce66b174eb97432b8c0ab6cf3b5d49856cf131c2b91c41",
+  "scores_sha256": "121edeec46ae7e2d542fddac7c8065701dd3a8cc0f6c13f148701cbb5d05fc1d",
+  "bootstrap_repeats": 5000,
+  "bootstrap_seed": 20261030,
+  "family": "two template-neighbor AUROC differences; Bonferroni family2; sensitivity descriptive",
+  "threshold_uncertainty": "conditional on fixed calibration; no population FPR guarantee",
+  "analyses": {
+    "primary": {
+      "interval": [
+        16,
+        29
+      ],
+      "metrics": [
+        {
+          "direction_id": "EI-3-2-2",
+          "record_type": "candidate",
+          "baseline_auroc": 0.74664,
+          "auroc": 0.773488,
+          "standardized_pauc_fpr0_1": 0.5982526315789474,
+          "threshold": 0.33160252030938864,
+          "tpr": 0.296,
+          "fpr": 0.06
+        },
+        {
+          "direction_id": "EI-3-2-3",
+          "record_type": "candidate",
+          "baseline_auroc": 0.74664,
+          "auroc": 0.632636,
+          "standardized_pauc_fpr0_1": 0.5737263157894736,
+          "threshold": 0.22174843680113554,
+          "tpr": 0.168,
+          "fpr": 0.034
+        },
+        {
+          "direction_id": "EI-3-2-1",
+          "record_type": "control",
+          "baseline_auroc": 0.74664,
+          "auroc": 0.74664,
+          "standardized_pauc_fpr0_1": 0.6214526315789474,
+          "threshold": 0.35181127674877644,
+          "tpr": 0.302,
+          "fpr": 0.054
+        }
+      ],
+      "paired_auroc": [
+        {
+          "direction_id": "EI-3-2-2",
+          "delta": 0.026847999999999983,
+          "ci95": [
+            0.007043799999999831,
+            0.04726089999999996
+          ],
+          "adjusted": [
+            0.0040947000000000474,
+            0.05036449999999996
+          ],
+          "descriptive_pauc": {
+            "delta": -0.0232,
+            "ci95": [
+              -0.05479999999999996,
+              0.009939473684210463
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": 0.006,
+            "ci95": [
+              -0.014,
+              0.028
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.006,
+            "ci95": [
+              -0.044,
+              0.03
+            ]
+          }
+        },
+        {
+          "direction_id": "EI-3-2-3",
+          "delta": -0.114004,
+          "ci95": [
+            -0.15278310000000003,
+            -0.07597969999999994
+          ],
+          "adjusted": [
+            -0.15732089999999996,
+            -0.0708155
+          ],
+          "descriptive_pauc": {
+            "delta": -0.04772631578947373,
+            "ci95": [
+              -0.08381157894736839,
+              -0.01503
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": -0.02,
+            "ci95": [
+              -0.044,
+              0.002
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.134,
+            "ci95": [
+              -0.178,
+              -0.092
+            ]
+          }
+        }
+      ]
+    },
+    "sensitivity": {
+      "interval": [
+        17,
+        29
+      ],
+      "metrics": [
+        {
+          "direction_id": "EI-3-2-2",
+          "record_type": "candidate",
+          "baseline_auroc": 0.739044,
+          "auroc": 0.765736,
+          "standardized_pauc_fpr0_1": 0.592,
+          "threshold": 0.3009834811091423,
+          "tpr": 0.272,
+          "fpr": 0.06
+        },
+        {
+          "direction_id": "EI-3-2-3",
+          "record_type": "candidate",
+          "baseline_auroc": 0.739044,
+          "auroc": 0.631432,
+          "standardized_pauc_fpr0_1": 0.5717684210526316,
+          "threshold": 0.2083874330855906,
+          "tpr": 0.158,
+          "fpr": 0.032
+        },
+        {
+          "direction_id": "EI-3-2-1",
+          "record_type": "control",
+          "baseline_auroc": 0.739044,
+          "auroc": 0.739044,
+          "standardized_pauc_fpr0_1": 0.6135578947368421,
+          "threshold": 0.33004935225471854,
+          "tpr": 0.282,
+          "fpr": 0.05
+        }
+      ],
+      "paired_auroc": [
+        {
+          "direction_id": "EI-3-2-2",
+          "delta": 0.026691999999999938,
+          "ci95": [
+            0.006239899999999915,
+            0.04758989999999994
+          ],
+          "adjusted": [
+            0.0031777500000000694,
+            0.05107729999999999
+          ],
+          "descriptive_pauc": {
+            "delta": -0.02155789473684211,
+            "ci95": [
+              -0.05258999999999999,
+              0.010759473684210584
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": 0.01,
+            "ci95": [
+              -0.012,
+              0.032
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.01,
+            "ci95": [
+              -0.05,
+              0.028
+            ]
+          }
+        },
+        {
+          "direction_id": "EI-3-2-3",
+          "delta": -0.10761200000000004,
+          "ci95": [
+            -0.14672009999999996,
+            -0.06979740000000012
+          ],
+          "adjusted": [
+            -0.15055885000000002,
+            -0.0642469
+          ],
+          "descriptive_pauc": {
+            "delta": -0.04178947368421049,
+            "ci95": [
+              -0.07753736842105272,
+              -0.010418947368421024
+            ]
+          },
+          "descriptive_fpr": {
+            "delta": -0.018,
+            "ci95": [
+              -0.04,
+              0.004
+            ]
+          },
+          "descriptive_tpr": {
+            "delta": -0.124,
+            "ci95": [
+              -0.166,
+              -0.082
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

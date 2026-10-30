@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "run_id": "ORP-T1",
+  "rows": 1850,
+  "manifest_sha256": "52eb9211aac2849de9ce66b174eb97432b8c0ab6cf3b5d49856cf131c2b91c41",
+  "scores_sha256": "121edeec46ae7e2d542fddac7c8065701dd3a8cc0f6c13f148701cbb5d05fc1d",
+  "maximum_same_batch_baseline_F_difference": 0.0,
+  "both_integral_baselines_exact": true,
+  "peak_allocated_bytes": 14710439424,
+  "wall_seconds_scoring_this_invocation": 105.2795007545501,
+  "generation_executed": false
+}
