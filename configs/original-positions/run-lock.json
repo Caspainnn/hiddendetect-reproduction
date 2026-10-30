@@ -1,0 +1,14 @@
+{
+  "run_id": "ORP-U1",
+  "source_commit": "a531c649af0e801946c138a052a67904240c4963",
+  "sha256": {
+    "configs/original-positions/core.py": "387a88d20af54b28f788c950e06c6c7f699d19459cf6c73575164dd48e98edf7",
+    "configs/original-positions/evaluate.py": "4a8a2e77826468828f5d824fb5b87b1c229847d167aa788729bed3cc75cb6847",
+    "configs/original-positions/run.py": "e8f0d69aae0a031f7c9c4691aebe32e28f87965e3ada2817d75fdfdb889b6551",
+    "configs/original-positions/test_contract.py": "962f2675c6dac888fd496e317410ecbc8f48d40eee8387ed11001e778cf08f9d",
+    "docs/direction-registry.md": "a9d41f7ff90b737877017cdfcff8ae6be29d1f85c18abb57317a8c3fa533bf54",
+    "docs/superpowers/plans/2026-10-30-original-rule-positions.md": "2e552a6bede8bcd4434f933be29036d9bdef36572f82dd8f4444d50a2fd0ea7f",
+    "configs/artifacts-lock.json": "9376f884cc88facd00b464635259a9308209ce5f7b354d10fd187d8f7ccc8349",
+    "configs/benchmarks/v1.json": "7534b69c76e758f06a3cbe6aa0646b3b89618b7aa2e7569dafcce23405de0e9b"
+  }
+}
