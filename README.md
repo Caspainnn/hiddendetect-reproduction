@@ -1,6 +1,6 @@
 # HiddenDetect复现
 
-**2026-10-30正在补 EI-3-1 原计分规则用户位置实验。** 主区间[16,29]、敏感性[17,29]预先固定，六位置只改变读取点，无岭回归。唯一编号与历史监督框架见[登记表](docs/direction-registry.md)。本地合约与R0积分重放通过；学校SSH在协议横幅前关闭，远程尚未运行，**没有本轮新AUROC**。实现与统计预注册见[执行记录](docs/superpowers/plans/2026-10-30-original-rule-positions.md)，当前分支`experiment/original-rule-positions`。下方为保留的历史交接。
+**2026-10-30原规则EI-3位置补实验及新确认完成，保留模板末位。** C上末位0.746640，六用户点均更低，用户末位0.670976；模板倒数2为0.773488、倒数3为0.632636。倒数2经新同源1000确认：同批末位0.771068→0.786908，差95%区间[−0.0045095,+0.0363221]含0，pAUC下降，召回同29.8%、误报4.8%→6.2%。无分类器、无重选层。三运行双端258/98/58个统计数值差0，独立审查通过。[用户报告](results/original-positions/report-2026-10-30.md)、[模板报告](results/original-template/report-2026-10-30.md)、[新确认与结论](results/original-template-confirm/report-2026-10-30.md)、[唯一登记](docs/direction-registry.md)。分支`experiment/original-rule-positions`；下方为历史交接。
 
 **R28—R29少量／边界融合验证完成：** 固定R27 draw0四个岭头，用独立dev600作元训练，普通／动态／同维随机每策略各9候选，并增加同2200标签预算的纯末位重训练对照。新Aegis1000：B AUROC0.923892／pAUC0.797053，全局动态0.925028／0.799495，局部动态0.924184／0.798589；局部只改15.9%分数，但召回68.2%→66.6%，误报5.0%→4.8%，七比较校正后未确认增益。新Toxic150毒性辅助也未确认局部收益。预选仍B。640项CV、66条件和bootstrap双端重放通过。[完整报告与图](results/anchored/report-2026-10-29.md)。分支`experiment/anchored-summary`。
 

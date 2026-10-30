@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "server_evaluation_sha256": "c91cbe311da70a1a6256f39571cf57fda5249e19b427c8f2c8865d0884236fd3",
+  "local_evaluation_sha256": "1a155092b21550c4f8ab20aeb2acb00e8ad4f204d93d43dce90fb54cee941d9b",
+  "numbers": 58,
+  "maximum_absolute_difference": 0.0,
+  "scope": "all metrics, thresholds and paired bootstrap endpoints in both fixed intervals",
+  "author_identity": "16 frozen historical probes, both positions all32 F and both integrals exact",
+  "review": "independent read-only code review; weighted tie handling checked against sklearn over3000 randomized resamples"
+}

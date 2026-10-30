@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "rows": 16,
+  "maximum_F_difference": 0.0,
+  "both_integrals_exact": true,
+  "ids": [
+    "xstest:1",
+    "xstest:2",
+    "xstest:3",
+    "xstest:4",
+    "xstest:5",
+    "xstest:6",
+    "xstest:7",
+    "xstest:8",
+    "aegis:train.json:6a06a03c604c48da9fdd11843f778600",
+    "aegis:train.json:40cdaf8bbdd2401e98df4f9fe84de3a2",
+    "aegis:train.json:9d653673c7584e87a25bcc9a81f76547",
+    "aegis:train.json:a3c57a3d67fb4f4996635a7b15946f42",
+    "aegis:train.json:109bb56628e84fc5a82cf4f779569b8b",
+    "aegis:train.json:b5ff6356c67f42e1babeb8a38ae6ee48",
+    "aegis:train.json:10999ed287e04157b5e287f984c8a578",
+    "aegis:train.json:062340e909cd4487a3ad81dd41ac42ce"
+  ],
+  "manifest_sha256": "ceb5dfd5669ac0c84a950f89af9e66ea91926cdc546896a472919b48a7e37a6f",
+  "run_lock_sha256": "719878929ccdad3b59f12c789459aa8192a6e32c9faa0605029ebaf811d53c20",
+  "torch": "2.1.2+cu121",
+  "transformers": "4.37.2",
+  "gpu": "NVIDIA GeForce RTX 4090 D"
+}
