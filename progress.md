@@ -1,6 +1,16 @@
-<!-- reproduction: {"id":"hiddendetect","paper":"P02","title":"HiddenDetect：少量与边界融合验证","status":"R28—R29完成：640项CV、66条件及bootstrap双端复核；门控增益未确认","stage":"新Aegis1000＋新Toxic150辅助确认，保留末位参照","updated":"2026-10-29","next":"候选：固定末位比较监督量／来源多样性，保留摘要对照；补更多独立有害请求来源","logic_map":"research-map.md"} -->
+<!-- reproduction: {"id":"hiddendetect","paper":"P02","title":"HiddenDetect：按EI问题树补原规则实验","status":"EI-3-1本地准备与合约检查通过；远程SSH在认证前关闭，尚无新成绩","stage":"原规则用户位置组ORP-U1；历史监督结果分开登记","updated":"2026-10-30","next":"恢复学校SSH，先通过X450原F身份探针，再提取C与独立校准","logic_map":"research-map.md"} -->
 
 # HiddenDetect复现进度
+
+## 2026-10-30：EI-3-1原规则位置补实验
+
+当前分支 `experiment/original-rule-positions`。用户已确认按问题树逐项补实验，先用户六个位置，再模板邻位，不展开其他方向。[唯一编号登记表](docs/direction-registry.md)区分树归属、跨分支依赖、直接对照与运行框架；[预注册和实施记录](docs/superpowers/plans/2026-10-30-original-rule-positions.md)固定主区间[16,29]、敏感性[17,29]、原norm／词表投影／余弦／积分及校准程序。没有加入分类器，也不重新选层。
+
+**当前仅本地准备完成，远程未运行，没有本轮AUROC。** 六位置索引、重合处理、整序列投影、阈值和配对统计的合约检查通过；R0全部450条历史F的积分与0.85828在本地重放一致。这不是新GPU身份探针通过。历史缓存是单位化float16向量，不当作原F；新脚本仅保存32层×7位置小分数。历史0.91576属于完整向量＋岭回归，不是本轮起点。
+
+用户已再次明确授权使用原对话SSH密码，自动审批允许重试。实际连接在SSH banner前EOF，独立TCP读取横幅为空，尚未进入认证；学校网络／容器状态待恢复，当前无法核对远程GPU进程、作者工作区与空间。凭据不进入版本库。第一组先对历史C1000及安全校准400作描述性配对比较；若需要新确认，先重新排除所有历史记录和近重复，不把旧确认叫未见测试。
+
+本地入口：`D:/Anaconda/python.exe configs/original-positions/test_contract.py`；远程恢复后以后台运行 `env/bin/python -u configs/original-positions/run.py`，完成再 `env/bin/python configs/original-positions/evaluate.py`。运行前需同步已冻结代码与run-lock，并查进程，禁止重复启动。下方均为历史结果。
 
 研究推理脉络见[研究思路与实验结论导图](research-map.md)，网页“复现”中的P02 HiddenDetect卡片直接展示。后续多方数据验证为待做事项，当前暂不沿这批误报样本继续调方法。
 
