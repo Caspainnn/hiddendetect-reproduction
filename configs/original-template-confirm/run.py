@@ -19,7 +19,9 @@ def main():
     lock=(cache/'worker.lock').open('w');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
     seal=json.loads((ROOT/'configs/original-template-confirm/run-lock.json').read_text())
     subprocess.run(['git','merge-base','--is-ancestor',seal['source_commit'],'HEAD'],check=True)
-    for name,sha in seal['sha256'].items():assert digest(ROOT/name)==sha,name
+    for name,sha in seal['sha256'].items():
+        assert digest(ROOT/name)==sha,name
+        assert hashlib.sha256(subprocess.check_output(['git','show',seal['source_commit']+':'+name])).hexdigest()==sha,name
     mp=ROOT/'configs/original-template-confirm/manifest.json';m=json.loads(mp.read_text())
     rp=ROOT/'data/original-template-confirm/records.jsonl';assert digest(rp)==m['records_sha256']
     rows=read_jsonl(rp);assert [{k:v for k,v in x.items() if k!='prompt'} for x in rows]==m['samples']
