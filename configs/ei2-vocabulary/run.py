@@ -45,6 +45,9 @@ def main():
  if sp.exists():assert json.loads(sp.read_text())==sealed
  else:write(sp,sealed)
  print('DATA_FROZEN',manifest['counts'],'ALL_EVALUATION_HISTORICAL',flush=True)
+ # The original vision-tower identifier is a relative local alias in ORIGIN.
+ # Keep absolute ROOT for outputs, but resolve the unmodified model config there.
+ os.chdir(ORIGIN)
  import torch
  import torch.nn.functional as nnf
  torch.set_num_threads(4)
