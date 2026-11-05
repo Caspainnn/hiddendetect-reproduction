@@ -62,9 +62,16 @@ def main():
   assert len(search)==9 and set(r['seed'] for r in search)==set(SEEDS)
   best=max(GRID,key=lambda c:(np.mean([r['dev_auroc'] for r in search if r['C']==c]),-GRID.index(c)))
   assert best==model['C']==pre['selected_C'][n]
- scores=np.load(OUT/'scores.npz');evaluation=json.loads((OUT/'evaluation.json').read_text());maximum=0.
+ scores=np.load(OUT/'scores.npz');evaluation=json.loads((OUT/'evaluation.json').read_text());maximum=0.;pca_batch_difference=0.
  for role in ['cal','C','RV','OR_cal','OR_test']:
   indices=np.array([i for i,r in enumerate(rows) if r['role']==role]);y=np.array([rows[i]['label'] for i in indices]);assert np.array_equal(y,scores[role+'__y'])
+  # Match the frozen evaluator's cohort-size float32 PCA GEMM. Chunking the
+  # feature rows changes BLAS rounding even with unchanged components/weights.
+  pca_parts=[]
+  for l,t in enumerate(transforms):
+   raw=np.asarray(z[indices,l],np.float32);u=(raw/np.linalg.norm(raw.astype(np.float64),axis=1)[:,None]).astype(np.float32)
+   pca_parts.append(t['pca'].transform(u-f[indices,l,None].astype(np.float32)*rhat))
+  pca_full=np.column_stack(pca_parts)
   for start in range(0,len(indices),128):
    ix=indices[start:start+128];parts=[[] for _ in range(6)]
    for l,t in enumerate(transforms):
@@ -72,6 +79,8 @@ def main():
     parts[0].append(u[:,coords]);parts[1].append(u[:,t['coordinates']]);parts[2].append(t['pca'].transform(u-f[ix,l,None].astype(np.float32)*rhat));parts[3].append(np.log(norm).astype(np.float32)[:,None]);parts[4].append(u);parts[5].append(raw)
    extra={'B-F':np.empty((len(ix),0),np.float32),'Fcopy':np.tile(f[ix],(1,20)).astype(np.float32)}
    for j in range(6):extra['EI-2-'+str(j+1)]=np.column_stack(parts[j]).astype(np.float32)
+   pca_batch_difference=max(pca_batch_difference,float(np.max(np.abs(extra['EI-2-3']-pca_full[start:start+len(ix)]))))
+   extra['EI-2-3']=pca_full[start:start+len(ix)]
    for j,q in enumerate([14*len(coords),448,56,14]):extra['Noise-'+str(j+1)]=np.vstack([np.random.default_rng(np.random.SeedSequence([20261104,j,int(i)])).normal(size=q) for i in ix]).astype(np.float32)
    for n,model in models.items():
     x=np.column_stack([f[ix],extra[n]]).astype(np.float32);x=(x-model['mean'])/model['scale'];x[:,:14]/=np.sqrt(14)
@@ -115,7 +124,7 @@ def main():
   eig=np.linalg.eigvalsh(gram);tolerance=float(eig[-1]*len(train)*np.finfo(np.float64).eps)
   capacity[name].update(train_rank=int(np.count_nonzero(eig>tolerance)),rank_method='float64 train Gram eigenvalues',gram_eigenvalue_tolerance=tolerance,rank_seconds=time.monotonic()-start)
   print('CAPACITY_CHECKED',name,capacity[name],flush=True)
- result={'passed':True,'evaluation_sha256':digest(OUT/'evaluation.json'),'rows':len(rows),'all_F_cache_max_differences':differences,'reloaded_prediction_max_difference':maximum,'independent_auc_pauc_and_working_points':True,'source_and_train_only_transform_checks':True,'capacity':capacity,'sha256':{str(p.relative_to(ROOT)):digest(p) for p in [CACHE/'F.npy',CACHE/'Z.npy',OUT/'scores.npz',ROOT/'configs/ei2-vocabulary/verify.py']},'seconds':time.monotonic()-began,'verification_commit':subprocess.check_output(['git','-C',str(ROOT),'rev-parse','HEAD'],text=True).strip()}
+ result={'passed':True,'evaluation_sha256':digest(OUT/'evaluation.json'),'rows':len(rows),'all_F_cache_max_differences':differences,'reloaded_prediction_max_difference':maximum,'pca_chunk_vs_frozen_cohort_max_difference':pca_batch_difference,'independent_auc_pauc_and_working_points':True,'source_and_train_only_transform_checks':True,'capacity':capacity,'sha256':{str(p.relative_to(ROOT)):digest(p) for p in [CACHE/'F.npy',CACHE/'Z.npy',OUT/'scores.npz',ROOT/'configs/ei2-vocabulary/verify.py']},'seconds':time.monotonic()-began,'verification_commit':subprocess.check_output(['git','-C',str(ROOT),'rev-parse','HEAD'],text=True).strip()}
  write(OUT/'verification.json',result);print('INDEPENDENT_VERIFICATION_PASS',result,flush=True)
 
 if __name__=='__main__':main()

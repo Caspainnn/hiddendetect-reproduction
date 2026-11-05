@@ -8,6 +8,8 @@ def main():
  names=['B-INT','B-F']+['EI-2-'+str(i) for i in range(1,7)]+['Fcopy']+['Noise-'+str(i) for i in range(1,5)]
  titles={'B-INT':'原14F梯形积分','B-F':'原14F＋匹配逻辑回归','EI-2-1':'F＋拒绝词逐坐标','EI-2-2':'F＋非拒绝词坐标','EI-2-3':'F＋残差PCA','EI-2-4':'F＋logits幅度','EI-2-5':'F＋完整归一化词表','EI-2-6':'F＋完整原始logits','Fcopy':'只复制F，不增加信息'}
  lines=['# EI-V1：原F加词表信息的匹配验证','',
+ '2026-11-04启动，2026-11-05恢复连接后完成独立复核。文件日期沿用运行开始日期。','',
+ '这次最清楚的线索是：补充参照外的少量词坐标（EI-2-2）、补充残差PCA（EI-2-3），在三个历史批次相对匹配F基线的AUROC差区间都为正。完整归一化词表（EI-2-5）也在三个批次有正差，但训练明显更贵；保留原始幅度（EI-2-6）相对EI-2-5的额外收益在三批都未获区间支持。只补幅度（EI-2-4）的效果随来源变化。','',
  '本次完成六种“原14F＋补充信息”方案、匹配F基线和五种诊断控制，共108次拟合。旧OC-4-3／迁入EI，对应现行EI-2-1～6；当前OC-4-3仍指树模型。旧历史完整logits探针和OC-4成绩均未挪用。','',
  '所有测试都曾用于历史实验，本次是历史数据上的匹配验证，不是独立新确认，也没有据测试表现改特征、调参或挑种子。总体AUROC为主；下面统一列预先固定的首种子20261104，其他两种子保留在机器结果和后文。','',
  '## 这次具体改了什么','',
@@ -54,6 +56,7 @@ def main():
   '若要形成部署结论，仍需在未用来源上冻结方案确认；优先级只能按预定dev标准提出，不按这些历史测试挑一个“冠军”再声称泛化最佳。','',
   '## 复核与归档','',
   f"共{len(manifest['samples'])}条；原F全量与既有缓存差最大{max(v['all_F_cache_max_differences'].values()):.3g}；重载头与变换重算分数差最大{v['reloaded_prediction_max_difference']:.3g}。AUROC、pAUC、旧阈值工作点和OR重新校准工作点均独立复算。",'',
+  f"首次复核因把PCA整批矩阵计算改为128行分块而触发1e-7得分容差；恢复相同四线程、相同整批PCA后与冻结分数完全一致。未放宽容差、未修改特征/模型/归档分数；仍以分块重载头核验。PCA分块与整批特征差最大{v['pca_chunk_vs_frozen_cohort_max_difference']:.3g}，细节见pca-batching-diagnostic.json。",'',
   f"执行源封印见source-lock.json；核验提交{v['verification_commit']}。evaluation.json SHA256：{v['evaluation_sha256']}。",'',
   '原始提示词、模型、原logits、PCA和头权重留在服务器私有cache；本地只同步样本ID/哈希、小分数、协议和报告。首次模型加载失败未发生训练/评分，旧封印与错误日志保留于attempt-1，不改写旧冻结记录。','']
  (OUT/'report-2026-11-04.md').write_text('\n'.join(lines),encoding='utf-8');print('REPORT_WRITTEN')
