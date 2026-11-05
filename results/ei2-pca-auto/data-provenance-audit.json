@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "same_samples_labels_and_roles_as_frozen_parent": true,
+  "checks": {
+    "parent_manifest": "6189cf81050c7b4dba2cf1f49dcff4001d6ac0a24b67dc984ab2f228aa089a0f",
+    "parent_source_lock": "bb42959742f4975ea835783f57e67d1202c180305c4cecb0b3fdaddec9ae6cfa",
+    "base_source_lock": "93856c7b0a36864dd6c6d9e2fe231173d1647c9a1fa131a813297f0a56f5c83f",
+    "base_verification": "0d9d6be4b64f2812594ccb4e7c8599e9b95b7cb77333cc51c81ecb8c6d862501"
+  },
+  "evaluation_sha256": "c4ad8320adb154970c8314866a15b59e8f53c67babbff6848e1935882193d3e6",
+  "audit_script_sha256": "fec40d1b2837b2fe4a1f426d27446b2316826108089b8099b2a185c236b4713c"
+}

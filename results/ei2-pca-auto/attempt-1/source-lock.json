@@ -1,0 +1,17 @@
+{
+  "run_id": "EI-PA1",
+  "numbering_version": 3,
+  "source_commit": "01e35a411b400d0cd2698416e68b942b602acc38",
+  "sources": {
+    "configs/ei2-pca-auto/test_contract.py": "c04de394b1864f9c0ef829341dc8b05c261f4bb1e4df39f7afc3c03dd9f77a22",
+    "configs/ei2-pca-auto/common.py": "c8a9272cf3ec68c0cb66d012d61e3320792cb301402e74afeca86cc9b1f380ab",
+    "configs/ei2-pca-auto/run.py": "44b9b343fe5cf27c2f52f29a294790a10f71f50dc6ab8bc02242fce8976b4aae",
+    "configs/ei2-pca-auto/verify.py": "a8011f2c47816b49219c0b8f7d59578bc850faf2e8cc7e08d5e40801646cbad4",
+    "docs/ei2-pca-auto-protocol-2026-11-05.md": "ce0c6cdcbde9b64be887896c663157d7bb6bb0c7ba4936181d62e2c8dd4d3d1d",
+    "configs/ei2-vocabulary/core.py": "59953b6fac7c212c081f50344fe1f30cbfc73e491a8c54aaadd1c7b73a74a49b",
+    "configs/ei2-vocabulary/verify.py": "8447ce3fe192c139371ed46e82d893a1edf9ca80d1481ce0ba86d44333a96b17"
+  },
+  "parent_verification": "0d9d6be4b64f2812594ccb4e7c8599e9b95b7cb77333cc51c81ecb8c6d862501",
+  "parent_basis": "2df72326b9fdc1128682f475228396321e01bbeff040f86c724899ded2f7689b",
+  "history_only": true
+}

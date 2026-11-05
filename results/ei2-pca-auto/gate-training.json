@@ -1,0 +1,362 @@
+[
+  {
+    "seed": 20261104,
+    "lambda": 0.0,
+    "device": "cuda",
+    "steps": 800,
+    "seconds": 9.2296591270715,
+    "loss_start_end": [
+      0.6970624923706055,
+      0.3287141025066376
+    ],
+    "counts": [
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32
+    ],
+    "minimum_threshold_margin": 0.49647653102874756,
+    "path": "cache/ei2-pca-auto/gate-0.0-20261104.joblib",
+    "sha256": "22be948d529d6e2c8505bdbbbbcaa04829eba48fc79060e6cdaee86d372cf431"
+  },
+  {
+    "seed": 20261105,
+    "lambda": 0.0,
+    "device": "cuda",
+    "steps": 800,
+    "seconds": 9.84105190820992,
+    "loss_start_end": [
+      0.6893206834793091,
+      0.32869428396224976
+    ],
+    "counts": [
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32
+    ],
+    "minimum_threshold_margin": 0.4962676167488098,
+    "path": "cache/ei2-pca-auto/gate-0.0-20261105.joblib",
+    "sha256": "2dc26d0e596875d6998342722fc90941f949981f73ed9a5ddae8cf994f9b0f0a"
+  },
+  {
+    "seed": 20261106,
+    "lambda": 0.0,
+    "device": "cuda",
+    "steps": 800,
+    "seconds": 9.608482621610165,
+    "loss_start_end": [
+      0.6916342973709106,
+      0.32870030403137207
+    ],
+    "counts": [
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32
+    ],
+    "minimum_threshold_margin": 0.4965105652809143,
+    "path": "cache/ei2-pca-auto/gate-0.0-20261106.joblib",
+    "sha256": "0529ad41cce5060799bb9f8bc088014d65a5995198aff5fcb7ef3bb86c8116b1"
+  },
+  {
+    "seed": 20261104,
+    "lambda": 0.01,
+    "device": "cuda",
+    "steps": 800,
+    "seconds": 9.501648278906941,
+    "loss_start_end": [
+      0.7055723071098328,
+      0.3386288583278656
+    ],
+    "counts": [
+      32,
+      30,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      27,
+      32,
+      32,
+      31,
+      32
+    ],
+    "minimum_threshold_margin": 0.48974478244781494,
+    "path": "cache/ei2-pca-auto/gate-0.01-20261104.joblib",
+    "sha256": "514c7a89679c85a215106440ff00bce6015ef80f5b027974826fab6010b64633"
+  },
+  {
+    "seed": 20261105,
+    "lambda": 0.01,
+    "device": "cuda",
+    "steps": 800,
+    "seconds": 9.826627550646663,
+    "loss_start_end": [
+      0.6978291869163513,
+      0.3386087715625763
+    ],
+    "counts": [
+      32,
+      30,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      27,
+      32,
+      32,
+      31,
+      32
+    ],
+    "minimum_threshold_margin": 0.4890722632408142,
+    "path": "cache/ei2-pca-auto/gate-0.01-20261105.joblib",
+    "sha256": "25b6e40a069cf7d6a539c0e0aab4c30902dce64a932a8d296cd37f4277830a88"
+  },
+  {
+    "seed": 20261106,
+    "lambda": 0.01,
+    "device": "cuda",
+    "steps": 800,
+    "seconds": 7.345217702910304,
+    "loss_start_end": [
+      0.7001420855522156,
+      0.33861497044563293
+    ],
+    "counts": [
+      32,
+      30,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      27,
+      32,
+      32,
+      31,
+      32
+    ],
+    "minimum_threshold_margin": 0.4888654947280884,
+    "path": "cache/ei2-pca-auto/gate-0.01-20261106.joblib",
+    "sha256": "c5131d477ed3587a8ed03c3ebfd131cd621932b518b679163ddfd833f4b955f5"
+  },
+  {
+    "seed": 20261104,
+    "lambda": 0.1,
+    "device": "cuda",
+    "steps": 800,
+    "seconds": 7.651226004585624,
+    "loss_start_end": [
+      0.7821605205535889,
+      0.38001134991645813
+    ],
+    "counts": [
+      31,
+      1,
+      0,
+      32,
+      0,
+      31,
+      0,
+      0,
+      0,
+      0,
+      3,
+      31,
+      0,
+      3
+    ],
+    "minimum_threshold_margin": 0.07798629999160767,
+    "path": "cache/ei2-pca-auto/gate-0.1-20261104.joblib",
+    "sha256": "88f5ccc508da3a2725484ae456b6bfe57e4cf852b05cfbde20185df23d7aae59"
+  },
+  {
+    "seed": 20261105,
+    "lambda": 0.1,
+    "device": "cuda",
+    "steps": 800,
+    "seconds": 7.649372668936849,
+    "loss_start_end": [
+      0.7744055986404419,
+      0.37998849153518677
+    ],
+    "counts": [
+      31,
+      1,
+      0,
+      32,
+      0,
+      31,
+      0,
+      0,
+      0,
+      0,
+      3,
+      31,
+      0,
+      3
+    ],
+    "minimum_threshold_margin": 0.07563376426696777,
+    "path": "cache/ei2-pca-auto/gate-0.1-20261105.joblib",
+    "sha256": "8761ddcda2109f331a952ac0c6e2fa076fc2349efdad8d683b8c7ddac2f5f2cb"
+  },
+  {
+    "seed": 20261106,
+    "lambda": 0.1,
+    "device": "cuda",
+    "steps": 800,
+    "seconds": 9.099218459799886,
+    "loss_start_end": [
+      0.7767124176025391,
+      0.3799869418144226
+    ],
+    "counts": [
+      31,
+      1,
+      0,
+      32,
+      0,
+      31,
+      0,
+      0,
+      0,
+      0,
+      3,
+      31,
+      0,
+      3
+    ],
+    "minimum_threshold_margin": 0.07567352056503296,
+    "path": "cache/ei2-pca-auto/gate-0.1-20261106.joblib",
+    "sha256": "c134ad8632fe52e7b0359cbf9fb5f3165667732c3bd62e7bfa9e8a2db5f0e7c1"
+  },
+  {
+    "seed": 20261104,
+    "lambda": 1.0,
+    "device": "cuda",
+    "steps": 800,
+    "seconds": 9.586068749427795,
+    "loss_start_end": [
+      1.5480425357818604,
+      0.43892261385917664
+    ],
+    "counts": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      1
+    ],
+    "minimum_threshold_margin": 0.013435214757919312,
+    "path": "cache/ei2-pca-auto/gate-1.0-20261104.joblib",
+    "sha256": "8a4803aedf3d145e20c4cfe478c3b03a59feeb102cfe5a643ea6d024d22a66aa"
+  },
+  {
+    "seed": 20261105,
+    "lambda": 1.0,
+    "device": "cuda",
+    "steps": 800,
+    "seconds": 9.68345819041133,
+    "loss_start_end": [
+      1.5401694774627686,
+      0.4397989809513092
+    ],
+    "counts": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "minimum_threshold_margin": 0.003125905990600586,
+    "path": "cache/ei2-pca-auto/gate-1.0-20261105.joblib",
+    "sha256": "013cfdd934253a6e1ac6c7626df557bf13ed0af57887bd8809047486c8de72a0"
+  },
+  {
+    "seed": 20261106,
+    "lambda": 1.0,
+    "device": "cuda",
+    "steps": 800,
+    "seconds": 9.655719384551048,
+    "loss_start_end": [
+      1.5424154996871948,
+      0.43843668699264526
+    ],
+    "counts": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      1
+    ],
+    "minimum_threshold_margin": 0.06810063123703003,
+    "path": "cache/ei2-pca-auto/gate-1.0-20261106.joblib",
+    "sha256": "f641bd670dbf2e386b64cff21c404e6fdb8b72210bdf8e288bb3c3f84993e15b"
+  }
+]

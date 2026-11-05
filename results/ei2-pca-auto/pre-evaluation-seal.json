@@ -1,0 +1,13 @@
+{
+  "source_lock": "7f170bc750be7cb894997c17efabd279db339df6a94edd57787f439e63c0c233",
+  "parent_basis": "2df72326b9fdc1128682f475228396321e01bbeff040f86c724899ded2f7689b",
+  "models": {
+    "EI-2-3-2-1": "311e3298027ace5c496648ee66549bf714d5f0e0df4a8e186f9b25547d77effd",
+    "EI-2-3-2-2": "15cd6755cceb8e169e3ec14a8e55e7056bd413242c1b0a7c5228b87a08fb11fa",
+    "EI-2-3-2-3": "7ed0a870db636406aa893567f1e372e03e02636b9a000598ef05a4b556d58ec8",
+    "gate-no-penalty": "14088df526996f81e705ff28df240471e6005e313eb9148690b68150219571b7"
+  },
+  "cv_selection": "ab2f3ccddcedf79705faaa0fb5bc97936a3e56af60c4ad37a387dad7e8c09c76",
+  "gate_training": "80723d0cea7595882a262270879232ccdd65e3c69b938b882f82485709c6c3db",
+  "before_evaluation_projection": true
+}

@@ -1,0 +1,264 @@
+{
+  "basis_sha256": "2df72326b9fdc1128682f475228396321e01bbeff040f86c724899ded2f7689b",
+  "training_only": true,
+  "thresholds": {
+    "0.8": [
+      {
+        "layer": 16,
+        "k": 32,
+        "coverage": 0.5535598760470748,
+        "capped_before_target": true
+      },
+      {
+        "layer": 17,
+        "k": 32,
+        "coverage": 0.5486662928014994,
+        "capped_before_target": true
+      },
+      {
+        "layer": 18,
+        "k": 32,
+        "coverage": 0.542351545765996,
+        "capped_before_target": true
+      },
+      {
+        "layer": 19,
+        "k": 32,
+        "coverage": 0.5369750717654824,
+        "capped_before_target": true
+      },
+      {
+        "layer": 20,
+        "k": 32,
+        "coverage": 0.5179058122448623,
+        "capped_before_target": true
+      },
+      {
+        "layer": 21,
+        "k": 32,
+        "coverage": 0.5036520645953715,
+        "capped_before_target": true
+      },
+      {
+        "layer": 22,
+        "k": 32,
+        "coverage": 0.4796453374437988,
+        "capped_before_target": true
+      },
+      {
+        "layer": 23,
+        "k": 32,
+        "coverage": 0.46551837818697095,
+        "capped_before_target": true
+      },
+      {
+        "layer": 24,
+        "k": 32,
+        "coverage": 0.447594472207129,
+        "capped_before_target": true
+      },
+      {
+        "layer": 25,
+        "k": 32,
+        "coverage": 0.4420996061526239,
+        "capped_before_target": true
+      },
+      {
+        "layer": 26,
+        "k": 32,
+        "coverage": 0.4350227420218289,
+        "capped_before_target": true
+      },
+      {
+        "layer": 27,
+        "k": 32,
+        "coverage": 0.43594216904602945,
+        "capped_before_target": true
+      },
+      {
+        "layer": 28,
+        "k": 32,
+        "coverage": 0.4264549734070897,
+        "capped_before_target": true
+      },
+      {
+        "layer": 29,
+        "k": 32,
+        "coverage": 0.41471903678029776,
+        "capped_before_target": true
+      }
+    ],
+    "0.9": [
+      {
+        "layer": 16,
+        "k": 32,
+        "coverage": 0.5535598760470748,
+        "capped_before_target": true
+      },
+      {
+        "layer": 17,
+        "k": 32,
+        "coverage": 0.5486662928014994,
+        "capped_before_target": true
+      },
+      {
+        "layer": 18,
+        "k": 32,
+        "coverage": 0.542351545765996,
+        "capped_before_target": true
+      },
+      {
+        "layer": 19,
+        "k": 32,
+        "coverage": 0.5369750717654824,
+        "capped_before_target": true
+      },
+      {
+        "layer": 20,
+        "k": 32,
+        "coverage": 0.5179058122448623,
+        "capped_before_target": true
+      },
+      {
+        "layer": 21,
+        "k": 32,
+        "coverage": 0.5036520645953715,
+        "capped_before_target": true
+      },
+      {
+        "layer": 22,
+        "k": 32,
+        "coverage": 0.4796453374437988,
+        "capped_before_target": true
+      },
+      {
+        "layer": 23,
+        "k": 32,
+        "coverage": 0.46551837818697095,
+        "capped_before_target": true
+      },
+      {
+        "layer": 24,
+        "k": 32,
+        "coverage": 0.447594472207129,
+        "capped_before_target": true
+      },
+      {
+        "layer": 25,
+        "k": 32,
+        "coverage": 0.4420996061526239,
+        "capped_before_target": true
+      },
+      {
+        "layer": 26,
+        "k": 32,
+        "coverage": 0.4350227420218289,
+        "capped_before_target": true
+      },
+      {
+        "layer": 27,
+        "k": 32,
+        "coverage": 0.43594216904602945,
+        "capped_before_target": true
+      },
+      {
+        "layer": 28,
+        "k": 32,
+        "coverage": 0.4264549734070897,
+        "capped_before_target": true
+      },
+      {
+        "layer": 29,
+        "k": 32,
+        "coverage": 0.41471903678029776,
+        "capped_before_target": true
+      }
+    ],
+    "0.95": [
+      {
+        "layer": 16,
+        "k": 32,
+        "coverage": 0.5535598760470748,
+        "capped_before_target": true
+      },
+      {
+        "layer": 17,
+        "k": 32,
+        "coverage": 0.5486662928014994,
+        "capped_before_target": true
+      },
+      {
+        "layer": 18,
+        "k": 32,
+        "coverage": 0.542351545765996,
+        "capped_before_target": true
+      },
+      {
+        "layer": 19,
+        "k": 32,
+        "coverage": 0.5369750717654824,
+        "capped_before_target": true
+      },
+      {
+        "layer": 20,
+        "k": 32,
+        "coverage": 0.5179058122448623,
+        "capped_before_target": true
+      },
+      {
+        "layer": 21,
+        "k": 32,
+        "coverage": 0.5036520645953715,
+        "capped_before_target": true
+      },
+      {
+        "layer": 22,
+        "k": 32,
+        "coverage": 0.4796453374437988,
+        "capped_before_target": true
+      },
+      {
+        "layer": 23,
+        "k": 32,
+        "coverage": 0.46551837818697095,
+        "capped_before_target": true
+      },
+      {
+        "layer": 24,
+        "k": 32,
+        "coverage": 0.447594472207129,
+        "capped_before_target": true
+      },
+      {
+        "layer": 25,
+        "k": 32,
+        "coverage": 0.4420996061526239,
+        "capped_before_target": true
+      },
+      {
+        "layer": 26,
+        "k": 32,
+        "coverage": 0.4350227420218289,
+        "capped_before_target": true
+      },
+      {
+        "layer": 27,
+        "k": 32,
+        "coverage": 0.43594216904602945,
+        "capped_before_target": true
+      },
+      {
+        "layer": 28,
+        "k": 32,
+        "coverage": 0.4264549734070897,
+        "capped_before_target": true
+      },
+      {
+        "layer": 29,
+        "k": 32,
+        "coverage": 0.41471903678029776,
+        "capped_before_target": true
+      }
+    ]
+  }
+}

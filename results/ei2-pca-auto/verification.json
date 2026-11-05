@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "evaluation_sha256": "c4ad8320adb154970c8314866a15b59e8f53c67babbff6848e1935882193d3e6",
+  "scores_sha256": "2a22a11f18632606d9a346ece24c9e4edbd82cdc87476ffd15ad7fda415dd30d",
+  "verify_code_sha256": "6e204e8d807f373ba07e4d3df15f3f7a7c73b1de93d22cfe1d6d4034386ab1f4",
+  "source_lock_sha256": "7f170bc750be7cb894997c17efabd279db339df6a94edd57787f439e63c0c233",
+  "cv_fold_fits_reloaded": 288,
+  "selected_final_heads_reloaded": 12,
+  "gate_states_verified": 12,
+  "prediction_max_difference": 0.0,
+  "reference_reproduction_max_difference": 0.0,
+  "all_primary_intervals_independently_recomputed": true,
+  "capacity": {
+    "EI-2-3-2-1": [
+      {
+        "seed": 20261104,
+        "raw_dimension": 182,
+        "interface_dimension": 512,
+        "rank_train": 182,
+        "parameters_including_intercept": 513
+      },
+      {
+        "seed": 20261105,
+        "raw_dimension": 182,
+        "interface_dimension": 512,
+        "rank_train": 182,
+        "parameters_including_intercept": 513
+      },
+      {
+        "seed": 20261106,
+        "raw_dimension": 182,
+        "interface_dimension": 512,
+        "rank_train": 182,
+        "parameters_including_intercept": 513
+      }
+    ],
+    "EI-2-3-2-2": [
+      {
+        "seed": 20261104,
+        "raw_dimension": 462,
+        "interface_dimension": 512,
+        "rank_train": 462,
+        "parameters_including_intercept": 513
+      },
+      {
+        "seed": 20261105,
+        "raw_dimension": 462,
+        "interface_dimension": 512,
+        "rank_train": 462,
+        "parameters_including_intercept": 513
+      },
+      {
+        "seed": 20261106,
+        "raw_dimension": 462,
+        "interface_dimension": 512,
+        "rank_train": 462,
+        "parameters_including_intercept": 513
+      }
+    ],
+    "EI-2-3-2-3": [
+      {
+        "seed": 20261104,
+        "raw_dimension": 454,
+        "interface_dimension": 512,
+        "rank_train": 454,
+        "parameters_including_intercept": 513
+      },
+      {
+        "seed": 20261105,
+        "raw_dimension": 454,
+        "interface_dimension": 512,
+        "rank_train": 454,
+        "parameters_including_intercept": 513
+      },
+      {
+        "seed": 20261106,
+        "raw_dimension": 454,
+        "interface_dimension": 512,
+        "rank_train": 454,
+        "parameters_including_intercept": 513
+      }
+    ],
+    "gate-no-penalty": [
+      {
+        "seed": 20261104,
+        "raw_dimension": 462,
+        "interface_dimension": 512,
+        "rank_train": 462,
+        "parameters_including_intercept": 513
+      },
+      {
+        "seed": 20261105,
+        "raw_dimension": 462,
+        "interface_dimension": 512,
+        "rank_train": 462,
+        "parameters_including_intercept": 513
+      },
+      {
+        "seed": 20261106,
+        "raw_dimension": 462,
+        "interface_dimension": 512,
+        "rank_train": 462,
+        "parameters_including_intercept": 513
+      }
+    ]
+  },
+  "seconds": 121.82023167423904
+}
