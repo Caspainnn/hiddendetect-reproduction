@@ -1,0 +1,10 @@
+{
+  "sources": {
+    "configs/ei2-vocabulary/test_contract.py": "8ef782d9b8419790f0a9e395ddebe05744ba76747e5891327e62744c6aeb9766",
+    "configs/ei2-vocabulary/run.py": "a01e006de38e74ee3a4c5fce2b7283cfe55cd27094e5e026cad70d77f73359cb",
+    "configs/ei2-vocabulary/core.py": "59953b6fac7c212c081f50344fe1f30cbfc73e491a8c54aaadd1c7b73a74a49b"
+  },
+  "protocol": "e723be37644a90fdad78442ed40c1dfa7866896aff39dfb8e6f3ff5c0e1226b0",
+  "manifest": "6189cf81050c7b4dba2cf1f49dcff4001d6ac0a24b67dc984ab2f228aa089a0f",
+  "source_commit": "ba273ce75012ce3d753483fbb061693f0b73febd"
+}

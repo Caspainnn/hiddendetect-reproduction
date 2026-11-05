@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "evaluation_sha256": "22d3ed6db1b79e7a4a7a03a32443c61ed9e248cd8c18d47eb67513b7db98b702",
+  "rows": 6582,
+  "all_F_cache_max_differences": {
+    "C": 0.0,
+    "OR_cal": 0.0,
+    "OR_test": 0.0,
+    "RV": 0.0,
+    "cal": 0.0,
+    "dev": 0.0,
+    "train": 0.0
+  },
+  "reloaded_prediction_max_difference": 1.1501910535116622e-13,
+  "pca_chunk_vs_frozen_cohort_max_difference": 8.940696716308594e-08,
+  "independent_auc_pauc_and_working_points": true,
+  "source_and_train_only_transform_checks": true,
+  "capacity": {
+    "B-F": {
+      "weight_count_including_intercept": 513,
+      "nonconstant_columns": 14,
+      "train_rank": 14,
+      "rank_method": "float64 SVD of float32 design"
+    },
+    "EI-2-1": {
+      "weight_count_including_intercept": 513,
+      "nonconstant_columns": 294,
+      "train_rank": 294,
+      "rank_method": "float64 SVD of float32 design"
+    },
+    "EI-2-2": {
+      "weight_count_including_intercept": 513,
+      "nonconstant_columns": 462,
+      "train_rank": 462,
+      "rank_method": "float64 SVD of float32 design"
+    },
+    "EI-2-3": {
+      "weight_count_including_intercept": 513,
+      "nonconstant_columns": 70,
+      "train_rank": 70,
+      "rank_method": "float64 SVD of float32 design"
+    },
+    "EI-2-4": {
+      "weight_count_including_intercept": 513,
+      "nonconstant_columns": 28,
+      "train_rank": 28,
+      "rank_method": "float64 SVD of float32 design"
+    },
+    "EI-2-5": {
+      "weight_count_including_intercept": 448015,
+      "nonconstant_columns": 448014,
+      "train_rank": 1599,
+      "rank_method": "float64 train Gram eigenvalues",
+      "gram_eigenvalue_tolerance": 5.272450867874684e-10,
+      "rank_seconds": 33.0606299713254
+    },
+    "EI-2-6": {
+      "weight_count_including_intercept": 448015,
+      "nonconstant_columns": 448014,
+      "train_rank": 1599,
+      "rank_method": "float64 train Gram eigenvalues",
+      "gram_eigenvalue_tolerance": 5.273730000369789e-10,
+      "rank_seconds": 26.530789513140917
+    },
+    "Fcopy": {
+      "weight_count_including_intercept": 513,
+      "nonconstant_columns": 294,
+      "train_rank": 28,
+      "rank_method": "float64 SVD of float32 design"
+    },
+    "Noise-1": {
+      "weight_count_including_intercept": 513,
+      "nonconstant_columns": 294,
+      "train_rank": 294,
+      "rank_method": "float64 SVD of float32 design"
+    },
+    "Noise-2": {
+      "weight_count_including_intercept": 513,
+      "nonconstant_columns": 462,
+      "train_rank": 462,
+      "rank_method": "float64 SVD of float32 design"
+    },
+    "Noise-3": {
+      "weight_count_including_intercept": 513,
+      "nonconstant_columns": 70,
+      "train_rank": 70,
+      "rank_method": "float64 SVD of float32 design"
+    },
+    "Noise-4": {
+      "weight_count_including_intercept": 513,
+      "nonconstant_columns": 28,
+      "train_rank": 28,
+      "rank_method": "float64 SVD of float32 design"
+    }
+  },
+  "sha256": {
+    "cache/ei2-vocabulary/F.npy": "34dbf4193ebdd4f9f1ac925a085a746ab0a8a6d6d97943bc64a7876e84e0639f",
+    "cache/ei2-vocabulary/Z.npy": "6fe5f105a80d3cc725f69d499296f7ffb6577fb86c138ec57c477dbe0dfc31b9",
+    "results/ei2-vocabulary/scores.npz": "b8a041f8793c74df3b191a159d7ba40f0928bbf871ad7ffb114a69ae05b7504f",
+    "configs/ei2-vocabulary/verify.py": "8447ce3fe192c139371ed46e82d893a1edf9ca80d1481ce0ba86d44333a96b17"
+  },
+  "seconds": 202.88227616995573,
+  "verification_commit": "69676d0db79486fe04f6a8a9a2303ac0cc751989"
+}

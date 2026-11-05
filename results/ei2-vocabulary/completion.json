@@ -1,0 +1,8 @@
+{
+  "status": "six_arms_completed",
+  "independent_confirmation": false,
+  "evaluation_sha256": "22d3ed6db1b79e7a4a7a03a32443c61ed9e248cd8c18d47eb67513b7db98b702",
+  "score_sha256": "b8a041f8793c74df3b191a159d7ba40f0928bbf871ad7ffb114a69ae05b7504f",
+  "new_training_runs": 108,
+  "full_endpoints_executed": true
+}

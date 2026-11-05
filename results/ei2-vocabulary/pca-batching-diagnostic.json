@@ -1,0 +1,40 @@
+{
+  "reason": "post-completion verifier discrepancy; no refitting or score replacement",
+  "cohorts": {
+    "cal": {
+      "pca_feature_max_difference": 0.0,
+      "full_batch_score_max_difference": 0.0,
+      "chunk_score_max_difference": 0.0,
+      "identical_full_scores": true,
+      "identical_score_order": true
+    },
+    "C": {
+      "pca_feature_max_difference": 8.940696716308594e-08,
+      "full_batch_score_max_difference": 0.0,
+      "chunk_score_max_difference": 2.605785613951639e-07,
+      "identical_full_scores": true,
+      "identical_score_order": true
+    },
+    "RV": {
+      "pca_feature_max_difference": 5.960464477539063e-08,
+      "full_batch_score_max_difference": 0.0,
+      "chunk_score_max_difference": 2.8843077348739143e-07,
+      "identical_full_scores": true,
+      "identical_score_order": true
+    },
+    "OR_cal": {
+      "pca_feature_max_difference": 0.0,
+      "full_batch_score_max_difference": 0.0,
+      "chunk_score_max_difference": 0.0,
+      "identical_full_scores": true,
+      "identical_score_order": true
+    },
+    "OR_test": {
+      "pca_feature_max_difference": 8.940696716308594e-08,
+      "full_batch_score_max_difference": 0.0,
+      "chunk_score_max_difference": 2.487515950999608e-07,
+      "identical_full_scores": true,
+      "identical_score_order": true
+    }
+  }
+}

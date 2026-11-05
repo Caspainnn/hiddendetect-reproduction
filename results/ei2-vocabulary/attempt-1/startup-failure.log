@@ -1,0 +1,48 @@
+DATA_FROZEN {'train:0': 800, 'train:1': 800, 'dev:0': 300, 'dev:1': 300, 'cal:0': 400, 'C:0': 500, 'C:1': 500, 'RV:0': 300, 'RV:1': 782, 'OR_cal:0': 400, 'OR_test:0': 1000, 'OR_test:1': 500} ALL_EVALUATION_HISTORICAL
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/site-packages/huggingface_hub/file_download.py:795: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/site-packages/transformers/utils/hub.py", line 385, in cached_file
+    resolved_file = hf_hub_download(
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 860, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 967, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1476, in _raise_on_head_call_error
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find the requested files in the disk cache and outgoing traffic has been disabled. To enable hf.co look-ups and downloads online, set 'local_files_only' to False.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/u2026110998/HiddenDetect-reproduction/cache/ei2-worktree/configs/ei2-vocabulary/run.py", line 174, in <module>
+    if __name__=='__main__':main()
+  File "/home/u2026110998/HiddenDetect-reproduction/cache/ei2-worktree/configs/ei2-vocabulary/run.py", line 57, in main
+    tok,model,_,_=load_pretrained_model(str(ORIGIN/'models/llava-v1.6-vicuna-7b'),None,'llava-v1.6-vicuna-7b',device_map='auto',torch_dtype=torch.float16)
+  File "/home/u2026110998/HiddenDetect-reproduction/source/LLaVA/llava/model/builder.py", line 117, in load_pretrained_model
+    model = LlavaLlamaForCausalLM.from_pretrained(
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3594, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+  File "/home/u2026110998/HiddenDetect-reproduction/source/LLaVA/llava/model/language_model/llava_llama.py", line 46, in __init__
+    self.model = LlavaLlamaModel(config)
+  File "/home/u2026110998/HiddenDetect-reproduction/source/LLaVA/llava/model/language_model/llava_llama.py", line 38, in __init__
+    super(LlavaLlamaModel, self).__init__(config)
+  File "/home/u2026110998/HiddenDetect-reproduction/source/LLaVA/llava/model/llava_arch.py", line 35, in __init__
+    self.vision_tower = build_vision_tower(config, delay_load=True)
+  File "/home/u2026110998/HiddenDetect-reproduction/source/LLaVA/llava/model/multimodal_encoder/builder.py", line 13, in build_vision_tower
+    return CLIPVisionTower(vision_tower, args=vision_tower_cfg, **kwargs)
+  File "/home/u2026110998/HiddenDetect-reproduction/source/LLaVA/llava/model/multimodal_encoder/clip_encoder.py", line 20, in __init__
+    self.load_model()
+  File "/home/u2026110998/HiddenDetect-reproduction/source/LLaVA/llava/model/multimodal_encoder/clip_encoder.py", line 29, in load_model
+    self.image_processor = CLIPImageProcessor.from_pretrained(self.vision_tower_name)
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/site-packages/transformers/image_processing_utils.py", line 206, in from_pretrained
+    image_processor_dict, kwargs = cls.get_image_processor_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/site-packages/transformers/image_processing_utils.py", line 335, in get_image_processor_dict
+    resolved_image_processor_file = cached_file(
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/site-packages/transformers/utils/hub.py", line 425, in cached_file
+    raise EnvironmentError(
+OSError: We couldn't connect to 'https://huggingface.co' to load this file, couldn't find it in the cached files and it looks like openai/clip-vit-large-patch14-336 is not the path to a directory containing a file named preprocessor_config.json.
+Checkout your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.

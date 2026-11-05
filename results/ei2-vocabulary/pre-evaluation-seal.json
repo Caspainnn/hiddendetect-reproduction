@@ -1,0 +1,33 @@
+{
+  "source_lock": "bb42959742f4975ea835783f57e67d1202c180305c4cecb0b3fdaddec9ae6cfa",
+  "transform": "ef3e3225396c549d1b0ffadbef01f4b1a1725d96e6e3cf373fddac73a093de30",
+  "models": {
+    "B-F": "c4442483922c5727ba323d3e0dd2e90c901efcdecd81008c1d094a19982f70ac",
+    "EI-2-1": "771052500fbe88f7d2dc455c72948a96bd9b0b0fe9eb2902baf5b8b6e84a7833",
+    "EI-2-2": "cb821b491cb5aec15b8e4e7903324846ed0fd82d2913cefe5800127ef68de556",
+    "EI-2-3": "2b94207a34566fc3ecb9d8e56f485a7c76cf79731812601d131f4dd2bde4fb14",
+    "EI-2-4": "8be1cf92d7338d963872933bdbd69c64bbb200e467f490e96f8690551df94baf",
+    "EI-2-5": "a24e865b9f92ad91b7382ec9c12307796ec0632139a9085ef54aa8f534d5bee1",
+    "EI-2-6": "c8b84db539b45c9617bdeefda5daf7ff9868eba8e1a4002bdaf1f8c99ec1927a",
+    "Fcopy": "c665d41b51d114e62e4b69df3591c2c628b9dcfa2bdbee05aab32983720aaf6b",
+    "Noise-1": "00f75d109e0b20c874a90a198f31a95f388de4c8ef23daa95c831bf5a6da1cad",
+    "Noise-2": "0a3d9e0a4c770cfca06362ce56cc4ae68b6bd88b100839d99cb61379e5bf987e",
+    "Noise-3": "f9ce71e70389a0becfd9d648a0c23185e44db8c6f920ce1feaf2dadd40571236",
+    "Noise-4": "a9cbe5fe26e1caa044aa3ad45264bb7a807ccf2c53b6468ad5c65e451166ec87"
+  },
+  "selected_C": {
+    "B-F": 10.0,
+    "EI-2-1": 10.0,
+    "EI-2-2": 10.0,
+    "EI-2-3": 10.0,
+    "EI-2-4": 10.0,
+    "EI-2-5": 10.0,
+    "EI-2-6": 10.0,
+    "Fcopy": 10.0,
+    "Noise-1": 0.1,
+    "Noise-2": 0.1,
+    "Noise-3": 1.0,
+    "Noise-4": 10.0
+  },
+  "before_evaluation_feature_access": true
+}
