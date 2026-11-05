@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "run_id": "EI-PJ1",
+  "evaluation_sha256": "72db26c76714f910b4eb5b3c79b9579c36b21fd1178c4b371910e36c5ac87226",
+  "scores_sha256": "f209b037f7dfd4000278666a5850110d9264936a115a6e6bf7750fc604a6024f",
+  "files": {
+    "verification.json": "83ecae405b423047ee6ed218b92fb3af86dea05370cc4645b9607d2f034b05db",
+    "selected-entry-audit.json": "2b8f813efd67bfb3c04cbc072e2ca020de343c4bfca0883e9c7fa2a764b51c66",
+    "selector-audit.json": "79d12425bd7ae41e44db800a46e48f9cb911064b45175472950c3f01b3136cd4",
+    "evaluation.json": "72db26c76714f910b4eb5b3c79b9579c36b21fd1178c4b371910e36c5ac87226",
+    "scores.npz": "f209b037f7dfd4000278666a5850110d9264936a115a6e6bf7750fc604a6024f"
+  },
+  "audit_code_sha256": "ea6a491411a2b88fe06680facafd2905b6c881f52dbea37bf3076c4016b59347",
+  "selected_entries_bound": 30,
+  "selectors_described": 18,
+  "training_or_selection_changed": false
+}
