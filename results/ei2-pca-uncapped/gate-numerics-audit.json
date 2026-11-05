@@ -1,0 +1,271 @@
+{
+  "passed": true,
+  "evaluation_sha256": "92cd29ce2e4c4da69764c50ae4982214304222e673b4705c108c709939f2ee24",
+  "all24_gpu_replays_and_independent_hard_masks_identical": true,
+  "records": [
+    {
+      "path": "cache/ei2-pca-uncapped/gate-full-0.0-20261104.joblib",
+      "state_sha256": "8963e6f77223a4b6f3f79c0b2c7a5b2a2aee538e176d86cc0c44e753e71c7e73",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 3.8144659312289164e-06,
+      "max_sigmoid64_difference": 8.575009079692109e-06,
+      "max_analytic_product_bound": 9.220250914190748e-05,
+      "minimum_threshold_margin": 0.46569061279296875,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-full-0.0-20261105.joblib",
+      "state_sha256": "c4d0230115925daeaf5f7be2de26a7c53320d36ad227fde08abdb4ad21338e0d",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 3.789092294037566e-06,
+      "max_sigmoid64_difference": 6.453301004460954e-06,
+      "max_analytic_product_bound": 9.222961857168495e-05,
+      "minimum_threshold_margin": 0.4656990170478821,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-full-0.0-20261106.joblib",
+      "state_sha256": "0d76df357021abe8191f7559cf4b0bd80b5e8d975a2fe6ca7a5dfbabbb3944ff",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 4.072607271754514e-06,
+      "max_sigmoid64_difference": 1.0483381878145792e-05,
+      "max_analytic_product_bound": 9.223715305342725e-05,
+      "minimum_threshold_margin": 0.4658036231994629,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-full-0.01-20261104.joblib",
+      "state_sha256": "9bc55c58e3d3a1ad0ef086588d28de788bdbb96669cf4aee9b2640ac1e4f1695",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 9.300713997295595e-06,
+      "max_sigmoid64_difference": 2.0984775468302352e-05,
+      "max_analytic_product_bound": 8.740359589344994e-05,
+      "minimum_threshold_margin": 0.0001010894775390625,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-full-0.01-20261105.joblib",
+      "state_sha256": "d3803a95af9a35cbbf9d0b6723db206898521f39281e97523864aff4adfcf3d0",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 1.0468642372862824e-05,
+      "max_sigmoid64_difference": 1.865226308228607e-05,
+      "max_analytic_product_bound": 8.633891698644455e-05,
+      "minimum_threshold_margin": 0.010156601667404175,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-full-0.01-20261106.joblib",
+      "state_sha256": "6167861c93ea6e6b274600a652c1986f87abcf59e8245799529653dc41623c6a",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 1.048740003228854e-05,
+      "max_sigmoid64_difference": 1.91065091290632e-05,
+      "max_analytic_product_bound": 8.728067361032245e-05,
+      "minimum_threshold_margin": 0.09866902232170105,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-full-0.1-20261104.joblib",
+      "state_sha256": "0e3c3a46cfe2af7f70b428fe2f39cb7a1c051382e7b9e31bdc467f2098f81d27",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 1.7658416168186974e-06,
+      "max_sigmoid64_difference": 2.2645824316880336e-06,
+      "max_analytic_product_bound": 9.298492067726021e-05,
+      "minimum_threshold_margin": 0.3098520040512085,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-full-0.1-20261105.joblib",
+      "state_sha256": "3862371294287719a1184c6d3e5084099ec6772d1d2149a1b66c0647bf32f1f7",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 2.6978476309613697e-06,
+      "max_sigmoid64_difference": 3.77703374843108e-06,
+      "max_analytic_product_bound": 9.28396240787366e-05,
+      "minimum_threshold_margin": 0.08603692054748535,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-full-0.1-20261106.joblib",
+      "state_sha256": "d8e4f93a302cf4815b3dd4aeb82b870a5a4923398fa9e28a5dea1ede35308a03",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 1.9676842105686987e-06,
+      "max_sigmoid64_difference": 3.5505442109728946e-06,
+      "max_analytic_product_bound": 9.205646581860003e-05,
+      "minimum_threshold_margin": 0.28484928607940674,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-full-1.0-20261104.joblib",
+      "state_sha256": "06cbdad920d782614da28714d7437a2a19ee788a7705fc00033ecca7b991e4da",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 2.7835243971985335e-06,
+      "max_sigmoid64_difference": 6.2193338786764585e-06,
+      "max_analytic_product_bound": 4.773965405775382e-05,
+      "minimum_threshold_margin": 0.010070323944091797,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-full-1.0-20261105.joblib",
+      "state_sha256": "04a01b616987a4782f56a45ca5c9c84eaf924980a082bd63dc54aa0e6ac5b1a5",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 3.0862261796160695e-06,
+      "max_sigmoid64_difference": 7.5504677625737315e-06,
+      "max_analytic_product_bound": 4.774306060596065e-05,
+      "minimum_threshold_margin": 0.012801200151443481,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-full-1.0-20261106.joblib",
+      "state_sha256": "ba2fb566bbc83a4aad54e0c8c6d5db3b5ff7d1d719f18eb9aaf2f049ef0e931e",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 2.9645810007972173e-06,
+      "max_sigmoid64_difference": 7.71049491921083e-06,
+      "max_analytic_product_bound": 4.7743146501496894e-05,
+      "minimum_threshold_margin": 0.010740488767623901,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-cap32-0.0-20261104.joblib",
+      "state_sha256": "aff6179c8697aab04332557297e4b8819beee7d8883d69cdbdf08989f4962b02",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 2.4815690535806567e-07,
+      "max_sigmoid64_difference": 5.367458233429545e-07,
+      "max_analytic_product_bound": 1.8459878219851996e-06,
+      "minimum_threshold_margin": 0.4944140911102295,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-cap32-0.0-20261105.joblib",
+      "state_sha256": "6b36ef41ddf0bcc30c4dfa05fd1199d21b5949b6a46104821c353526bf33f623",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 2.560080079039295e-07,
+      "max_sigmoid64_difference": 6.890119857994037e-07,
+      "max_analytic_product_bound": 1.8459334661638414e-06,
+      "minimum_threshold_margin": 0.4945838451385498,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-cap32-0.0-20261106.joblib",
+      "state_sha256": "722555db4c417362aa37a235bce902e0f27a274242a54fe53ca2c103ab119f65",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 2.620649071083392e-07,
+      "max_sigmoid64_difference": 4.497766041833273e-07,
+      "max_analytic_product_bound": 1.8459673558407084e-06,
+      "minimum_threshold_margin": 0.494686484336853,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-cap32-0.01-20261104.joblib",
+      "state_sha256": "14a5ee1b451ca36b962f9aa3422adfdb9bd79063627b3ea97a26fdfb51a86004",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 3.169268357749999e-07,
+      "max_sigmoid64_difference": 8.926893867444718e-07,
+      "max_analytic_product_bound": 1.84532355106167e-06,
+      "minimum_threshold_margin": 0.47893697023391724,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-cap32-0.01-20261105.joblib",
+      "state_sha256": "51947771d3240e6518cd1b459775cf98703eaf5af4880a0e8882eb7a2f93aaaa",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 3.150136741458809e-07,
+      "max_sigmoid64_difference": 8.168635110550326e-07,
+      "max_analytic_product_bound": 1.845342034948303e-06,
+      "minimum_threshold_margin": 0.47446244955062866,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-cap32-0.01-20261106.joblib",
+      "state_sha256": "2886ff287036840e65f997c0c61446c7a34c812b8e8ad5a7acb912f5f6bf254c",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 2.650007053794923e-07,
+      "max_sigmoid64_difference": 7.883214868664723e-07,
+      "max_analytic_product_bound": 1.8452659180305317e-06,
+      "minimum_threshold_margin": 0.4855586886405945,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-cap32-0.1-20261104.joblib",
+      "state_sha256": "6b6f62611f2a2ae994403ecdec135ce6d1d34708fe470f36c35e21196da2a31c",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 1.3231176643202502e-07,
+      "max_sigmoid64_difference": 3.127830761062711e-07,
+      "max_analytic_product_bound": 1.3168969790914355e-06,
+      "minimum_threshold_margin": 0.033798813819885254,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-cap32-0.1-20261105.joblib",
+      "state_sha256": "b2fceb6e497fd7a192feba69c2a669d7d768724abd9439976c1f4f0af7494326",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 1.896144449231585e-07,
+      "max_sigmoid64_difference": 1.6397309443583197e-07,
+      "max_analytic_product_bound": 1.3270917104397676e-06,
+      "minimum_threshold_margin": 0.05537906289100647,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-cap32-0.1-20261106.joblib",
+      "state_sha256": "24be05bdc6081c8171e2d27e39a0e1f996215e4abbd55f2649f68837d4a2fd6c",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 2.1665768912271233e-07,
+      "max_sigmoid64_difference": 5.197907835263749e-07,
+      "max_analytic_product_bound": 1.3170561838468473e-06,
+      "minimum_threshold_margin": 0.03535276651382446,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-cap32-1.0-20261104.joblib",
+      "state_sha256": "db9c98a627ce86df72607d0550b4bb82b6764db96901166bd0a725f304caadab",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 2.507212504276879e-08,
+      "max_sigmoid64_difference": 3.759030220429338e-08,
+      "max_analytic_product_bound": 1.4359062626289256e-07,
+      "minimum_threshold_margin": 0.09053820371627808,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-cap32-1.0-20261105.joblib",
+      "state_sha256": "fc1aa7c47f2a767443a6b8e8d32a45455030d4ee56bfa5b6b394295faaaf9799",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 3.463164843786615e-08,
+      "max_sigmoid64_difference": 7.892524056529737e-08,
+      "max_analytic_product_bound": 1.460308553437019e-07,
+      "minimum_threshold_margin": 0.056174665689468384,
+      "u": 5.960464477539063e-08
+    },
+    {
+      "path": "cache/ei2-pca-uncapped/gate-cap32-1.0-20261106.joblib",
+      "state_sha256": "c43b53d1ebde2a3d9feaa1dedfbb8de1c54be9b1ae036c39ae03c130d3f83604",
+      "gpu_replay_bitwise_identical": true,
+      "hard_masks_identical": true,
+      "max_rounded_probability_product_difference": 3.198452724895162e-08,
+      "max_sigmoid64_difference": 7.594432005486595e-08,
+      "max_analytic_product_bound": 1.442873435038401e-07,
+      "minimum_threshold_margin": 0.0023384690284729004,
+      "u": 5.960464477539063e-08
+    }
+  ]
+}

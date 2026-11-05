@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "evaluation_sha256": "92cd29ce2e4c4da69764c50ae4982214304222e673b4705c108c709939f2ee24",
+  "scores_sha256": "b9f673d30ad3c02b0353f8744c9ce91358d275e600df0a9849b90d3b3a0bb820",
+  "verify_code_sha256": "51c0c0ae40fbc5ba0adc5990f967c137100b8e8de14d0fe0c8f76513d4014e59",
+  "verification_revision": "v2-float32-product-audit",
+  "gate_numerics_audit_sha256": "9e37449542e7ab0b04994d2021dbcc878042eeade803f666f7feabda3ce45b54",
+  "gate_audit_code_sha256": "0fbbfe845c2d8b13aa655ef60740a8ac6b122ee769f8d2eddfdca8b886d33bbf",
+  "verification_source_commit": "897651f8d87da38cff8af13815aa0edad4a4a448",
+  "source_lock_sha256": "031b0c90ec21ae00ac40dadde4277b2316e9ea56ff15af935749198080a317e1",
+  "cv_heads_reloaded": 396,
+  "final_trial_heads_reloaded": 153,
+  "gate_states_verified": 24,
+  "full_rank_bases_checked": 4,
+  "primary_intervals_recomputed": 9,
+  "prediction_max_difference": 0.0,
+  "reference_reproduction_max_difference": 0.0,
+  "seconds": 428.1028414517641
+}

@@ -1,0 +1,13 @@
+{
+  "reviewer": "review_pca_dimensions",
+  "important_fixes": [
+    "CUDA workspace initialized before firstGPU use; configuration RED/GREEN and realCUDA smoke pass",
+    "Gate effective ranges and24unique configurations independently checked; wrong32range RED/GREEN",
+    "Length-dependent float32 product proof plus exactGPU replay and bothCPU hardmasks; no retraining or selection changes"
+  ],
+  "deferred_minors": [],
+  "prior_evaluations_unchanged": 5,
+  "web_unit_tests_passed": 9,
+  "browser_validation_passed": true,
+  "evaluation_sha256": "92cd29ce2e4c4da69764c50ae4982214304222e673b4705c108c709939f2ee24"
+}
