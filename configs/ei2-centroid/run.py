@@ -16,8 +16,7 @@ def main():
  texts={};wanted={r['id'] for r in rows}
  for path,sha in json.loads(manifest.read_text())['sources'].items():
   p=ORIGIN/path;assert digest(p)==sha
-  for line in p.read_text().splitlines():
-   q=json.loads(line)
+  for q in read_records(p):
    if q['id'] in wanted and 'prompt' in q:
     if q['id'] in texts:assert texts[q['id']]==q['prompt']
     texts[q['id']]=q['prompt']

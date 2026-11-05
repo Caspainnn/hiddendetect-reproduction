@@ -1,0 +1,7 @@
+{
+  "status": "pre-extraction reader failure",
+  "source_commit": "e28128a",
+  "cause": "str.splitlines splits Unicode separators inside valid JSON strings",
+  "training_started": false,
+  "evaluation_started": false
+}

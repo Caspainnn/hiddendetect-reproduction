@@ -1,5 +1,11 @@
 import numpy as np
-from core import fit_centroids,features,pack
+from core import fit_centroids,features,pack,read_records
+import json,tempfile
+from pathlib import Path
+with tempfile.TemporaryDirectory() as directory:
+ path=Path(directory)/'records.jsonl';records=[{'prompt':'one\u0085two\u2028three\u2029four'}]
+ path.write_bytes((json.dumps(records[0],ensure_ascii=False)+'\n').encode())
+ assert read_records(path)==records
 h=np.zeros((8,14,4),np.float16);h[:4,:,0]=1;h[4:,:,1]=1;y=np.repeat([0,1],4)
 refs=fit_centroids(h,y);c=features(h,refs)
 np.testing.assert_allclose(c[:4],-1);np.testing.assert_allclose(c[4:],1)

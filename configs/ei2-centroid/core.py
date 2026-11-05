@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[2];ORIGIN=Path(os.environ.get('EI_ORIGIN',
 OUT=ROOT/'results/ei2-centroid';CACHE=ROOT/'cache/ei2-centroid';ARM='EI-2-7-2';NAMES=['B-F',ARM,'Noise']
 def module(name,path):
  spec=importlib.util.spec_from_file_location(name,path);m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m);return m
-v=module('vocabulary_core',ROOT/'configs/ei2-vocabulary/core.py');digest,write,SEEDS,GRID,pack=v.digest,v.write,v.SEEDS,v.GRID,v.pack
+v=module('vocabulary_core',ROOT/'configs/ei2-vocabulary/core.py');digest,write,SEEDS,GRID,pack=v.digest,v.write,v.SEEDS,v.GRID,v.pack;read_records=v.read
 def unit(h):
  h=np.asarray(h,np.float32);return h/np.maximum(np.linalg.norm(h,axis=-1,keepdims=True),1e-12)
 def fit_centroids(h,y):
