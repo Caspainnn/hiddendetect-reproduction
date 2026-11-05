@@ -1,6 +1,10 @@
-<!-- reproduction: {"id": "hiddendetect", "paper": "P02", "title": "HiddenDetect：自动选数量与方向组合验证", "status": "EI-PJ1三组合历史匹配验证及复核完成", "stage": "588 LR、18稀疏器、12门、30最终头绑定", "updated": "2026-11-05", "next": "组合2优先在未使用来源确认；不按历史测试重选", "logic_map": "research-map.md"} -->
+<!-- reproduction: {"id": "hiddendetect", "paper": "P02", "title": "HiddenDetect：原14F＋质心C14同批验证", "status": "EI-C1历史匹配验证及独立复核完成", "stage": "同6582清单；27头与9最终条目绑定", "updated": "2026-11-05", "next": "依据同批对照安排独立新确认，不按历史测试调参", "logic_map": "research-map.md"} -->
 
 # HiddenDetect复现进度
+
+## 2026-11-05：EI-C1原14F＋对应质心C14
+
+历史CAUROC改善获区间支持；历史RVAUROC改善获区间支持；历史ORAUROC改善获区间支持。全部为历史诊断，仍需未使用来源确认。四指标与同维噪声诊断见[报告](results/ei2-centroid/report-2026-11-05.md)。保留旧F32＋C32记录，仅C14未执行。
 
 ## 2026-11-05：EI-PJ1同时自动选数量与具体方向
 

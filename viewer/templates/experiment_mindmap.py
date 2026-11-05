@@ -565,6 +565,29 @@ def build_ei2():
     return questions,rows
 
 
+def centroid_matched():
+    folder=REPO/'results/ei2-centroid'
+    if not (folder/'verification.json').exists():return None
+    proof=json.loads((folder/'verification.json').read_text(encoding='utf-8'))
+    assert proof['passed'] and proof['run_id']=='EI-C1' and proof['selected_entries_bound']==9
+    for filename,key in [('evaluation.json','evaluation_sha256'),('scores.npz','scores_sha256'),('source-lock.json','source_lock_sha256')]:assert hashlib.sha256((folder/filename).read_bytes()).hexdigest()==proof[key]
+    data=json.loads((folder/'evaluation.json').read_text(encoding='utf-8'));ident='EI-2-7-2';assert data['id']==ident
+    why='固定同样14层，原F加上对应质心C，仍能提高判断吗？'
+    how='同批train1600、dev600；读取原0基16～29层模板末位。只用训练标签形成安全/危险单位质心，每层计算危险余弦减安全余弦得到C14；原14F＋C14，标准化和质心仅fit训练侧，同预算L2逻辑回归。'
+    leaves=[node('方法：'+how,kind='method'),node('实际选择：原F头C='+str(data['selected']['B-F']['C'])+'；F＋C头C='+str(data['selected'][ident]['C'])+'；各自同一C网格、三种子平均dev AUROC选择，总计27个头（含同维噪声诊断）。',kind='method')];texts=[];decisions=[]
+    def metric(label,b,m):return (f"结果（{label}）：AUROC {b['auroc']:.6f} → {m['auroc']:.6f}；低误报pAUC {b['pauc']:.6f} → {m['pauc']:.6f}\n检出率 {b['tpr']:.2%} → {m['tpr']:.2%}；误报率 {b['fpr']:.2%} → {m['fpr']:.2%}（基线{b['fp']}条；候选{m['fp']}条）")
+    for role,label in [('C','历史C1000'),('RV','历史RV1082'),('OR_test','历史OR1500')]:
+        d=data['cohorts'][role];text=metric(label+'；同批仅14F → F＋C14',d['B-F'][0],d[ident][0]);texts.append(text);leaves.append(node(text,kind='result'));comp=d['comparison'];lo,hi=comp['ci983333'];decision='AUROC改善获本批区间支持' if lo>0 else ('AUROC下降获本批区间支持' if hi<0 else 'AUROC差异尚未确认');decisions.append(label+'：'+decision)
+        leaves.append(node(f"证据：F＋C14−仅14F的AUROC差{comp['delta_auroc']:+.6f}，三批校正98.333333%区间[{lo:+.6f},{hi:+.6f}]。",kind='evidence'))
+        leaves.append(node(metric(label+'；同维噪声 → C14，仅描述性',d['Noise'][0],d[ident][0]),kind='result'))
+    b=data['cohorts']['OR_test']['B-F'][0]['source_calibrated'];m=data['cohorts']['OR_test'][ident][0]['source_calibrated'];leaves.append(node(f"结果（OR来源400正常重新校准；仅14F → F＋C14）：检出率 {b['tpr']:.2%} → {m['tpr']:.2%}；误报率 {b['fpr']:.2%} → {m['fpr']:.2%}（基线{b['fp']}/1000；候选{m['fp']}/1000）",kind='result'))
+    conclusion='；'.join(decisions)+'。均为已使用过的历史数据，不是独立新确认；AUROC与误报分别判断。'
+    leaves.extend([node('结论：'+conclusion,kind='evidence'),node('边界：6582条逐条核对输入token哈希与原14F；同数据/层/末位/最终头/标签与调参预算。新增14个质心线索，训练容量也增加；同维噪声只作辅助检查。保留旧F32＋C32成绩，仅C14的EI-3-1-2仍待验证。',kind='evidence')])
+    question=node(why,[node(ident+'：原14F＋质心C14',leaves,id=ident.lower(),kind='experiment')],id=ident.lower()+'-question',kind='question')
+    row=dict(topic='centroid-matched',group='EI',name=ident+'：原14F＋质心C14',why=why,how=how,metrics=comparison_html('\n'.join(texts)),batch='EI-C1历史匹配诊断；同EI-PJ1清单/角色，27次LR，独立重算及9条最终头绑定通过。',verdict=conclusion,status='历史匹配验证完成',source='results/ei2-centroid/report-2026-11-05.md')
+    return question,row
+
+
 def build_ei1():
     """Current registry IDs, preserving frozen C32/all64 keys and legacy DOM anchors."""
     ids=json.loads((REPO/'docs/experiment-numbering.json').read_text(encoding='utf-8'))['centroid']
@@ -591,4 +614,9 @@ def build_ei1():
         questions.append(node(question,[exp],id='ei1-'+key.lower()+'-question',kind='question'))
         rows.append(dict(topic='centroid',group='EI',name=ident+'：'+title+'（历史'+key+'）',why=question,how=method,
             metrics=escape(result).replace('\n','<br>'),batch=evidence,verdict=conclusion,status='历史监督结果',source='results/signal-selection/report-2026-10-28.md'))
+    matched=centroid_matched()
+    if matched:
+        questions.append(matched[0]);rows.append(matched[1])
+        historical=questions[1]['children'][0]['children']
+        historical[-1]['label']='当前14层匹配验证见EI-2-7-2；以上历史32层运行和成绩保留，不能跨批相减。'
     return questions,rows

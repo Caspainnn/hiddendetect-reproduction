@@ -19,7 +19,8 @@ const centroidPending=[
  {id:centroidIds.replace_matched,question:'只看同样14层的质心C，不提供F，判断效果如何？',title:'只看质心C14',method:'保留与原14F对应的14层和末位，训练侧拟合质心C14，检测头只接收C14。',boundary:'直接对照是同批原14F＋同一L2头；与F＋C14的增量另作配对比较。不借用历史32层C32结果。'}
 ];
 function centroidGroup(id,question,history,pending){
- const next=pendingQuestion(pending.id.toLowerCase()+'-question',pending.question,pending.id+'：'+pending.title+'（待验证）',pending.method,pending.boundary);next.children[0].id=pending.id.toLowerCase();
+ const verified=ei1MindQuestions.find(q=>q.id===pending.id.toLowerCase()+'-question');
+ const next=verified?structuredClone(verified):pendingQuestion(pending.id.toLowerCase()+'-question',pending.question,pending.id+'：'+pending.title+'（待验证）',pending.method,pending.boundary);next.children[0].id=pending.id.toLowerCase();
  return {id:id.toLowerCase()+'-question',label:question,kind:'question',children:[{id:id.toLowerCase(),label:id+'：'+(id===centroidIds.add_group?'原F＋质心线索':'只看质心线索'),kind:'direction',children:[history,next]}]};
 }
 const eiV2Directions=[
@@ -55,7 +56,7 @@ for(const row of experiments){
  }
  if(row.name!==row.archivedName)row.batch+=' 新四分类展示；旧名称：'+row.archivedName+'。';
 }
-for(const p of centroidPending)experiments.push({topic:'centroid',group:'EI',name:p.id+'：'+p.title,why:p.question,how:p.method,metrics:'待验证；AUROC、低误报pAUC、检出率、误报暂无新成绩。',batch:'固定14层的新方案，未启动；历史32层结果不搬用。',verdict:p.boundary,status:'待验证',source:'docs/experiment-numbering.md'});
+for(const p of centroidPending)if(!experiments.some(row=>row.name.startsWith(p.id+'：')))experiments.push({topic:'centroid',group:'EI',name:p.id+'：'+p.title,why:p.question,how:p.method,metrics:'待验证；AUROC、低误报pAUC、检出率、误报暂无新成绩。',batch:'固定14层的新方案，未启动；历史32层结果不搬用。',verdict:p.boundary,status:'待验证',source:'docs/experiment-numbering.md'});
 for(const [topic,name,why] of [
  ['ei-v2-1','EI-1：重新构造F′（待验证）','换一种压缩或构造方式，能否保留原F丢掉的线索？'],
  ['ei-v2-4','EI-4：混合验证（待验证）','分别有效的改动组合后，是否还有额外帮助？']
