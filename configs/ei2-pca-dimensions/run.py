@@ -2,7 +2,7 @@ import hashlib,json,os,subprocess,sys,time
 from pathlib import Path
 import joblib,numpy as np
 ROOT=Path(__file__).resolve().parents[2]
-sys.path.insert(0,str(ROOT/'configs/ei2-vocabulary'))
+sys.path.insert(1,str(ROOT/'configs/ei2-vocabulary'))
 from core import SEEDS,GRID,digest,write,unit
 ORIGIN=Path(os.environ.get('EI_ORIGIN',str(ROOT)));PARENT=ORIGIN/'cache/ei2-worktree'
 OUT=ROOT/'results/ei2-pca-dimensions';CACHE=ROOT/'cache/ei2-pca-dimensions'
