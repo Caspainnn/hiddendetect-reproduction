@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "real_images": [
+    {
+      "expanded_tokens": 2404,
+      "valid_image_tokens": 2304,
+      "newline_tokens": 36,
+      "pixel_values_sha256": "da231c3a6fd34980039454d5173888b9eed8f5acfcb5763e401e58d77554889a",
+      "input_ids_sha256": "72e27b60f083f49f04a23e3f510e13cbc58fb960939a2701a28231b43989a7fb"
+    },
+    {
+      "expanded_tokens": 2796,
+      "valid_image_tokens": 2688,
+      "newline_tokens": 44,
+      "pixel_values_sha256": "9bae5163c996aad4c3091d78510c1fa06e8f584516386121e68fa2699317a392",
+      "input_ids_sha256": "72e27b60f083f49f04a23e3f510e13cbc58fb960939a2701a28231b43989a7fb"
+    }
+  ],
+  "direct_vs_prepared_F_max_difference": 0.0,
+  "last_only_vs_full_projection_F_max_difference": 1.705717295408249e-06,
+  "use_full_projection": true,
+  "attention_last_row_reference_max_difference": 3.0517578125e-05,
+  "repeat_original_max_difference": 0.0,
+  "runtime": {
+    "torch": "2.1.2+cu121",
+    "transformers": "4.37.2",
+    "pillow": "10.4.0",
+    "attention_classes": [
+      "LlamaSdpaAttention"
+    ],
+    "author_commit": "2fd161b1fc47c99b36fe0a299ec64ff0b816f0bb",
+    "llava_commit": "c121f0432da27facab705978f83c4ada465e46fd",
+    "ocr_lock_sha256": "189e3acb13669e34fddfd08bb487042bc9e76eb0bde0205d47343d1084c0de79"
+  },
+  "all_five_interfaces": true,
+  "sample_metadata": {
+    "expanded_tokens": 2404,
+    "valid_image_tokens": 2304,
+    "newline_tokens": 36,
+    "pixel_values_sha256": "da231c3a6fd34980039454d5173888b9eed8f5acfcb5763e401e58d77554889a",
+    "input_ids_sha256": "72e27b60f083f49f04a23e3f510e13cbc58fb960939a2701a28231b43989a7fb",
+    "id": "chat-002-q0-y0",
+    "caption_sha256": "c7d61c5f4ba91b31e6c9cb4bea7e0e5f064d5d5747873c41fead65d94cdd1f25",
+    "ocr_sha256": "bda050585a00f0f6cb502350559d75532ae3b244c9498b996e7c5df2d98dfc8d",
+    "ocr_returncode": 0,
+    "caption_tokens": 41,
+    "ocr_characters": 1,
+    "neutral_description_length_equal": true
+  },
+  "counts": {
+    "repeat_original_probe": 2,
+    "main_multimodal": 1,
+    "text_forward": 5,
+    "neutral_image": 1,
+    "caption_generation": 1,
+    "perturbed_image": 2
+  },
+  "seconds_by_operation": {
+    "repeat_original_probe": 0.9077122006565332,
+    "main_multimodal": 0.4937191642820835,
+    "text_forward": 0.314337819814682,
+    "neutral_image": 0.452970651909709,
+    "caption_generation": 3.733612248674035,
+    "perturbed_image": 0.9113279953598976
+  },
+  "seconds": 92.30916499532759
+}

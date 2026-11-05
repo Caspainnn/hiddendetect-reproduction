@@ -1,0 +1,21 @@
+{
+  "run_id": "EI-IM1",
+  "status": "running",
+  "source_commit": "fcf14b9",
+  "new_verified_results": false,
+  "dataset": "MSSBench official public revision 12396d24157427b671d97f23a2e370fca98fdf55",
+  "train": 640,
+  "dev": 172,
+  "cal_safe": 82,
+  "test": 224,
+  "task_test": 152,
+  "all_five_requested": true,
+  "last_observed_completed": 1010,
+  "last_observed_phase": "test",
+  "training_and_selection_sealed": true,
+  "trial_heads": 126,
+  "selected_entries": 42,
+  "connection_status": "ssh_banner_closed_before_auth",
+  "remote_process_status_after_disconnect": "unknown",
+  "last_connection_check": "2026-11-05T18:35:40.449699+08:00"
+}

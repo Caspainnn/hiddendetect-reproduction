@@ -1,0 +1,23 @@
+{
+  "run_id": "EI-IM1",
+  "source_commit": "fcf14b94fde03a4e15ccd60ff1636f8580a87fb7",
+  "sources": {
+    "configs/ei2-images/test_contract.py": "597cb4f37c0e2d40a26d53328db2dd6445410abb965ee8d8495821c6567261cb",
+    "configs/ei2-images/fit.py": "206559e8eff5fdb6ee5e57927c498e37055bb885f42b673762f8fcdacc0dc8d0",
+    "configs/ei2-images/preflight.py": "4661df14fa9f42d252bc3f55cc20a31d467adad3a637051abbddd4fa55e4c5a9",
+    "configs/ei2-images/run.py": "946008937ea36e046a902a439b732d877761bb2a161b1b9f4a6af8e44739d249",
+    "configs/ei2-images/core.py": "bbbc2d3d38504dc77feda27f88bd6a9e733b6d6dd841f4461ffcfe30dc77b91e",
+    "configs/ei2-images/prepare.py": "410657c56210bf9fba257686466563e4cd78896bdc799286d68d9377305b5cd7",
+    "configs/ei2-images/verify.py": "b7ea2ae52cd6b40ebe512506f56cb99cf96a724f8f472bf324225b7c305e895c",
+    "configs/ei2-images/acquire.py": "7e45d4ad94245a4216e8471193a30ad6404c8fd40381d9b5198b88a2f5c39e4d",
+    "configs/ei2-images/extract.py": "cdbc8cccb595195298ba61dd73f1711fd98199e704b30e848a30d1c3c22fac54",
+    "configs/ei2-vocabulary/verify.py": "8447ce3fe192c139371ed46e82d893a1edf9ca80d1481ce0ba86d44333a96b17",
+    "docs/ei2-images-protocol-2026-11-05.md": "a0fc8186b45840f6a1cc437f54df42e2d1a944793f17c3ed96448b365b6ebfbc"
+  },
+  "manifest_sha256": "e42846ab511a2a765635496a3cf62842dfb4ae7d89d7d88845f4203269aecb89",
+  "grouping_sha256": "0310aee3cb14fa0ae1b90ce58bd53aa41acc4797d0051be0d469f7c0e2c61e20",
+  "acquisition_sha256": "c49b82fe5dc5c5f8fe9fb604a73dfcfb16bfea085c23efe05d3bee475ca862a4",
+  "model_lock_sha256": "9376f884cc88facd00b464635259a9308209ce5f7b354d10fd187d8f7ccc8349",
+  "ocr_lock_sha256": "189e3acb13669e34fddfd08bb487042bc9e76eb0bde0205d47343d1084c0de79",
+  "preflight_sha256": "c2351a4a0d8bbc57af4b590b95134fe03ef8833f81628656cf49ee9690049344"
+}

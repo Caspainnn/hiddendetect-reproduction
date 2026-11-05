@@ -25,6 +25,17 @@ for name,value in json.loads((centroid/'source-lock.json').read_text())['sources
 registry=json.loads((ROOT/'docs/experiment-numbering.json').read_text(encoding='utf-8'));assert len(registry['readout'])==5 and len({r['id'] for r in registry['readout']})==5
 for row in registry['readout']:assert (ROOT/row['source']).is_file()
 repair=json.loads((ROOT/'results/ei2-pca-uncapped/verification-repair-source.json').read_text());proof=json.loads((ROOT/'results/ei2-pca-uncapped/verification.json').read_text());assert repair['evaluation_sha256_unchanged']==proof['evaluation_sha256'] and repair['scores_sha256_unchanged']==proof['scores_sha256']
+
+images=ROOT/'results/ei2-images';pending=json.loads((ROOT/'docs/ei2-images-progress.json').read_text());assert pending['new_verified_results'] is False and pending['training_and_selection_sealed'] and pending['last_observed_completed']==1010
+assert not (images/'evaluation.json').exists() and not (images/'verification.json').exists()
+image_source=json.loads((images/'source-lock.json').read_text())
+for name,value in image_source['sources'].items():assert sha(ROOT/name)==value,name
+for name,key in [('manifest.json','manifest_sha256'),('grouping.json','grouping_sha256'),('preflight.json','preflight_sha256')]:assert sha(images/name)==image_source[key],name
+image_seal=json.loads((images/'pre-evaluation-seal.json').read_text());assert image_seal['source_lock_sha256']==sha(images/'source-lock.json') and image_seal['search_sha256']==sha(images/'search.json') and len(image_seal['models'])==14 and len(image_seal['train_dev_indices'])==812
+assert len(json.loads((images/'search.json').read_text()))==126
+manifest=json.loads((images/'manifest.json').read_text());assert len(manifest['samples'])==1270
+for row in manifest['samples']:assert not (set(row)&{'prompt','image_path','ocr','caption','text','image'})
+
 paths=subprocess.check_output(['git','-C',str(ROOT),'ls-files','--cached','--others','--exclude-standard','-z']).decode('utf-8').split('\0');paths=sorted(set(filter(None,paths)));problems=[]
 baseline=json.loads((ROOT/'viewer/public-baseline-objects.json').read_text())['already_public_binary_sha256']
 credential=re.compile(r'(?:api[_-]?key|ssh[_-]?password|passwd|password)\s*[=:]\s*[\x22\x27]([^\x22\x27\r\n]{6,})[\x22\x27]',re.I)

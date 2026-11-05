@@ -1,0 +1,1766 @@
+[
+  {
+    "name": "B-MM",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.6546782044348296,
+    "path": "cache/ei2-images/trials/B-MM-C0.1-S20261104.joblib",
+    "sha256": "fb52f2252458ff43dde00462e6be03cebf81dde1093b20a5e5bdacfd9d43568a",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.05685005150735378
+  },
+  {
+    "name": "B-MM",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.6546782044348296,
+    "path": "cache/ei2-images/trials/B-MM-C0.1-S20261105.joblib",
+    "sha256": "116e43dedff3f3bb07210b9a336a1b99f0c1e3bbbae35492b8c7796bb72e7c3d",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.020472515374422073
+  },
+  {
+    "name": "B-MM",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.6546782044348296,
+    "path": "cache/ei2-images/trials/B-MM-C0.1-S20261106.joblib",
+    "sha256": "2cf43d9988d079644d4730e50f3fbcf41bab30e50995941adb3051781fd6b3ef",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.018840039148926735
+  },
+  {
+    "name": "B-MM",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.6806381828015142,
+    "path": "cache/ei2-images/trials/B-MM-C1.0-S20261104.joblib",
+    "sha256": "7bbaca24e6c811b9ce9444a6b9d5009e24c7207038755ec32d15e328c97f81a9",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.05423061363399029
+  },
+  {
+    "name": "B-MM",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.6806381828015142,
+    "path": "cache/ei2-images/trials/B-MM-C1.0-S20261105.joblib",
+    "sha256": "a5a6619e794f0fbbb64eb46af25a794cd426d604d861d23df577becc6c909bb0",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.02884012460708618
+  },
+  {
+    "name": "B-MM",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.6806381828015142,
+    "path": "cache/ei2-images/trials/B-MM-C1.0-S20261106.joblib",
+    "sha256": "0505a2d087d297a440e0d88d91a629d0bd947e1f564f0675d89d41b32cb18414",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.03714524768292904
+  },
+  {
+    "name": "B-MM",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.6840183883180097,
+    "path": "cache/ei2-images/trials/B-MM-C10.0-S20261104.joblib",
+    "sha256": "da739063d75789295e427f75e8a6852d61597ee6418256989f97eb81ca208d3a",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.03499541059136391
+  },
+  {
+    "name": "B-MM",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.6840183883180097,
+    "path": "cache/ei2-images/trials/B-MM-C10.0-S20261105.joblib",
+    "sha256": "dd1fe78e9772d0601ebc164538d00a656c087584f9b5ed0e95dd9938e945c734",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.0534208919852972
+  },
+  {
+    "name": "B-MM",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.6840183883180097,
+    "path": "cache/ei2-images/trials/B-MM-C10.0-S20261106.joblib",
+    "sha256": "73c399108b8487e9f331b90d530a40d9c5bd75680a6a69201eacd974b05b126a",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.033686140552163124
+  },
+  {
+    "name": "Noise14",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.6412925905895078,
+    "path": "cache/ei2-images/trials/Noise14-C0.1-S20261104.joblib",
+    "sha256": "ce66cc0dc0db756421b74b9b9691f08d2457870910b2804510eb9322332cf5ff",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.0686742253601551
+  },
+  {
+    "name": "Noise14",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.6412925905895078,
+    "path": "cache/ei2-images/trials/Noise14-C0.1-S20261105.joblib",
+    "sha256": "e1e31bc33cd3b77a0ebb0436df6994b8cb7169affa5e6d8169f28425c5de14e0",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.017604591324925423
+  },
+  {
+    "name": "Noise14",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.6412925905895078,
+    "path": "cache/ei2-images/trials/Noise14-C0.1-S20261106.joblib",
+    "sha256": "cf41d33c5fdd9837638417488328093dcde90ef88aa81307921def7c6e46273d",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.03321231156587601
+  },
+  {
+    "name": "Noise14",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.6369659275283936,
+    "path": "cache/ei2-images/trials/Noise14-C1.0-S20261104.joblib",
+    "sha256": "e68c579ff7b8521496c23274a5aacc865cc1ebf5aebfcfc7a5f90276d8a03dca",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.037404825910925865
+  },
+  {
+    "name": "Noise14",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.6369659275283936,
+    "path": "cache/ei2-images/trials/Noise14-C1.0-S20261105.joblib",
+    "sha256": "f9743df823596caf4a031e561f162c4c638b00d02269469b157a095c1847a265",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.03506440483033657
+  },
+  {
+    "name": "Noise14",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.6369659275283936,
+    "path": "cache/ei2-images/trials/Noise14-C1.0-S20261106.joblib",
+    "sha256": "d7ac1dcdda65b57c975dce344a703adfc46e7e75a249f40a4da797e1534d8f84",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.050117550417780876
+  },
+  {
+    "name": "Noise14",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.638182801514332,
+    "path": "cache/ei2-images/trials/Noise14-C10.0-S20261104.joblib",
+    "sha256": "e05c59874f507e06e2de24c7acc9cc9a94d8b20c82a5bb63232e9f7e20346e7b",
+    "n_iter": [
+      7
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.019517404958605766
+  },
+  {
+    "name": "Noise14",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.638182801514332,
+    "path": "cache/ei2-images/trials/Noise14-C10.0-S20261105.joblib",
+    "sha256": "ae0304e2bc1e83c45860d7745db832338b05a61b9bb52766cb0474f913fd1529",
+    "n_iter": [
+      7
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05814731679856777
+  },
+  {
+    "name": "Noise14",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.638182801514332,
+    "path": "cache/ei2-images/trials/Noise14-C10.0-S20261106.joblib",
+    "sha256": "0dc0088269acf030274e3e5be5ce47a7183f137865f0843428a7dd8d62ab0a12",
+    "n_iter": [
+      7
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.03333747945725918
+  },
+  {
+    "name": "EI-2-8-1",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.8628988642509465,
+    "path": "cache/ei2-images/trials/EI-2-8-1-C0.1-S20261104.joblib",
+    "sha256": "91f3ab1cd39ac36d1f04d7f80f6b2699fd0615d8b621213da7b69cd2609c44b5",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.02985547110438347
+  },
+  {
+    "name": "EI-2-8-1",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.8628988642509465,
+    "path": "cache/ei2-images/trials/EI-2-8-1-C0.1-S20261105.joblib",
+    "sha256": "1f944efd027f78b397efff51c61787dae8c128df5569b448095a64946c5133a5",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.03780062310397625
+  },
+  {
+    "name": "EI-2-8-1",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.8628988642509465,
+    "path": "cache/ei2-images/trials/EI-2-8-1-C0.1-S20261106.joblib",
+    "sha256": "95d1f19730b64af40ba74fba3683562113e3f2f05dc80904cff7f6494b792b19",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05341022461652756
+  },
+  {
+    "name": "EI-2-8-1",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.8853434288804759,
+    "path": "cache/ei2-images/trials/EI-2-8-1-C1.0-S20261104.joblib",
+    "sha256": "04c02d1be9145a46f339762e3309b0eb378ce19fbb74dea4ebcb1aeb3751f5aa",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.04447825253009796
+  },
+  {
+    "name": "EI-2-8-1",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.8853434288804759,
+    "path": "cache/ei2-images/trials/EI-2-8-1-C1.0-S20261105.joblib",
+    "sha256": "14920ed4fc3622df8158b95f4a810a919230da97a1fa15420c31443970c21be2",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.0377434641122818
+  },
+  {
+    "name": "EI-2-8-1",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.8853434288804759,
+    "path": "cache/ei2-images/trials/EI-2-8-1-C1.0-S20261106.joblib",
+    "sha256": "ab15d5577be901a2ad3d5ff37e27a5fad17a93db922c3bb0e0da2497860dbf7b",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.042126160115003586
+  },
+  {
+    "name": "EI-2-8-1",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.8935911303407247,
+    "path": "cache/ei2-images/trials/EI-2-8-1-C10.0-S20261104.joblib",
+    "sha256": "52aa89a6c9619ccc4d261f9a3d5f4d96e5009441adf1680e16a6c7a109b137f1",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.060903940349817276
+  },
+  {
+    "name": "EI-2-8-1",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.8935911303407247,
+    "path": "cache/ei2-images/trials/EI-2-8-1-C10.0-S20261105.joblib",
+    "sha256": "a79c81857a3481c8b44b7b085949a180b3630f6860e2e59fb0f88f8906abaa7d",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.06908766366541386
+  },
+  {
+    "name": "EI-2-8-1",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.8935911303407247,
+    "path": "cache/ei2-images/trials/EI-2-8-1-C10.0-S20261106.joblib",
+    "sha256": "114fb190353182e4cb1290afbdbfaf0f9ea5bf5977f2c2c3c3cd0fd2132474c2",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.0738803930580616
+  },
+  {
+    "name": "EI-2-8-2",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.7187669010275824,
+    "path": "cache/ei2-images/trials/EI-2-8-2-C0.1-S20261104.joblib",
+    "sha256": "4f1aa8f8f7d7c150d147d4a67f0aecab24ad0274501a44c6484364b1c07ae754",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.02461935579776764
+  },
+  {
+    "name": "EI-2-8-2",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.7187669010275824,
+    "path": "cache/ei2-images/trials/EI-2-8-2-C0.1-S20261105.joblib",
+    "sha256": "60ee7fbb1e857b59e8f97364facf15f5e1e08a80005a382f0843f7b0a65b08e9",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.06683250330388546
+  },
+  {
+    "name": "EI-2-8-2",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.7187669010275824,
+    "path": "cache/ei2-images/trials/EI-2-8-2-C0.1-S20261106.joblib",
+    "sha256": "801671fe02f500287ffa3ebd6ffc578779af310ac2214c1a3b12166514974565",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05646868050098419
+  },
+  {
+    "name": "EI-2-8-2",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.7432395889670091,
+    "path": "cache/ei2-images/trials/EI-2-8-2-C1.0-S20261104.joblib",
+    "sha256": "abe658a7a9f6ec878dc5beea00599960a05e0b804ac3bcfbea723afc94ce86f4",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.03425227850675583
+  },
+  {
+    "name": "EI-2-8-2",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.7432395889670091,
+    "path": "cache/ei2-images/trials/EI-2-8-2-C1.0-S20261105.joblib",
+    "sha256": "7b3cd4c3f98c80c34e602212deada76e08e657c97d3b850958dcc1f3a0e07060",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.02488122694194317
+  },
+  {
+    "name": "EI-2-8-2",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.7432395889670091,
+    "path": "cache/ei2-images/trials/EI-2-8-2-C1.0-S20261106.joblib",
+    "sha256": "3a1ffb52d6fb775a72f2676d2b8fcfea5a48373f5e4e9c63157dcd1ce83e1adb",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.026086032390594482
+  },
+  {
+    "name": "EI-2-8-2",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.7585181179015684,
+    "path": "cache/ei2-images/trials/EI-2-8-2-C10.0-S20261104.joblib",
+    "sha256": "4a795b9a7b5aefc797e60106b03e82a52a18f2fada6ac6f1092e06f7470f9a83",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.03945097699761391
+  },
+  {
+    "name": "EI-2-8-2",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.7585181179015684,
+    "path": "cache/ei2-images/trials/EI-2-8-2-C10.0-S20261105.joblib",
+    "sha256": "1543595d8cb8f7d7f20aa2928e8bb2ade0369e97b1bb6759e62670863a54f584",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.028573859483003616
+  },
+  {
+    "name": "EI-2-8-2",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.7585181179015684,
+    "path": "cache/ei2-images/trials/EI-2-8-2-C10.0-S20261106.joblib",
+    "sha256": "3771fa2fc7dd646ff4c8908fe2b89926d8d152aff75cf2a811a7bc1ae8a6b4e0",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.02092888578772545
+  },
+  {
+    "name": "EI-2-8-3",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.7462141698215251,
+    "path": "cache/ei2-images/trials/EI-2-8-3-C0.1-S20261104.joblib",
+    "sha256": "8f8f2ef3a21d4e7eeb121d7f155a4947c0835e63681bc788c00e6e1f5352146f",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.03546782210469246
+  },
+  {
+    "name": "EI-2-8-3",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.7462141698215251,
+    "path": "cache/ei2-images/trials/EI-2-8-3-C0.1-S20261105.joblib",
+    "sha256": "4508e405fc928d96fe81442bb0bb7d20b539707559cd0cd10eb00052a49fb7af",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.059351321309804916
+  },
+  {
+    "name": "EI-2-8-3",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.7462141698215251,
+    "path": "cache/ei2-images/trials/EI-2-8-3-C0.1-S20261106.joblib",
+    "sha256": "8d64694fd8d354b0b95cd0542013a620cf2b98f04f7bd6c0be638b8835869205",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.022292841225862503
+  },
+  {
+    "name": "EI-2-8-3",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.7702812330989723,
+    "path": "cache/ei2-images/trials/EI-2-8-3-C1.0-S20261104.joblib",
+    "sha256": "f87edbe0706f1e7dd61a025c31e6921f762e73c527038da42bf3d481856146b6",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.03286717087030411
+  },
+  {
+    "name": "EI-2-8-3",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.7702812330989723,
+    "path": "cache/ei2-images/trials/EI-2-8-3-C1.0-S20261105.joblib",
+    "sha256": "3690cb0df3df73d51d03f46c3e3f20645959b1997a36556eaadd7679ec3945c1",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.06994075700640678
+  },
+  {
+    "name": "EI-2-8-3",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.7702812330989723,
+    "path": "cache/ei2-images/trials/EI-2-8-3-C1.0-S20261106.joblib",
+    "sha256": "615381d401b7f49db99bf9b5e8c2e16e1fec85e7f368fef1f1ea4127b66a55bc",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.050159335136413574
+  },
+  {
+    "name": "EI-2-8-3",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.7893455922120065,
+    "path": "cache/ei2-images/trials/EI-2-8-3-C10.0-S20261104.joblib",
+    "sha256": "998e50947a5386ab2d6a3922d0397239f0cd8cf7e5b23c2e44a9abd49585a6df",
+    "n_iter": [
+      9
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.11088172160089016
+  },
+  {
+    "name": "EI-2-8-3",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.7893455922120065,
+    "path": "cache/ei2-images/trials/EI-2-8-3-C10.0-S20261105.joblib",
+    "sha256": "8246e5e6e418c5064d13a54f58b340d82026643a07dac25aba6b91aaa1717396",
+    "n_iter": [
+      9
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.032286616042256355
+  },
+  {
+    "name": "EI-2-8-3",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.7893455922120065,
+    "path": "cache/ei2-images/trials/EI-2-8-3-C10.0-S20261106.joblib",
+    "sha256": "3c3bd55baedaa67d90835d338d7018f42f5a6b7e557d8408a07a9d662eb0fa01",
+    "n_iter": [
+      9
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.07247736863791943
+  },
+  {
+    "name": "EI-2-8-4",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.877230935640887,
+    "path": "cache/ei2-images/trials/EI-2-8-4-C0.1-S20261104.joblib",
+    "sha256": "54c25fa0c48c605150c57e11e6ec24e5af7e03d53cc82beeb866706cb274b6a1",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.031097227707505226
+  },
+  {
+    "name": "EI-2-8-4",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.877230935640887,
+    "path": "cache/ei2-images/trials/EI-2-8-4-C0.1-S20261105.joblib",
+    "sha256": "0569b81a94154eb59ebf4b4ea9a959e324fbc76f10b73c5b1dbd5c4268cd4c86",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05422070622444153
+  },
+  {
+    "name": "EI-2-8-4",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.877230935640887,
+    "path": "cache/ei2-images/trials/EI-2-8-4-C0.1-S20261106.joblib",
+    "sha256": "46a980ca77eaa93dd4e9d3597987402e748f78cde05e642af3e10bbf7a5bc965",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.015310050919651985
+  },
+  {
+    "name": "EI-2-8-4",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.8961600865332612,
+    "path": "cache/ei2-images/trials/EI-2-8-4-C1.0-S20261104.joblib",
+    "sha256": "24a91f7538d30cf63f609ab749d623000904028ddc959b0b34b3c72374c8b38d",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05967480316758156
+  },
+  {
+    "name": "EI-2-8-4",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.8961600865332612,
+    "path": "cache/ei2-images/trials/EI-2-8-4-C1.0-S20261105.joblib",
+    "sha256": "02325b34d62fb4d39c07bb2ea2c36eceebd133a6c97d965d10378bd1cac6b2e7",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05357349291443825
+  },
+  {
+    "name": "EI-2-8-4",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.8961600865332612,
+    "path": "cache/ei2-images/trials/EI-2-8-4-C1.0-S20261106.joblib",
+    "sha256": "ed75da92d1e34d783ea3060380fe1a9eb5faa73a0d4635adff54faa93ea32212",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05307961441576481
+  },
+  {
+    "name": "EI-2-8-4",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.9065711195240671,
+    "path": "cache/ei2-images/trials/EI-2-8-4-C10.0-S20261104.joblib",
+    "sha256": "09ec7de3128fcf1689c97f79f0db92aadd890281eca42bf3a22973d1c7faedb2",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.07113196887075901
+  },
+  {
+    "name": "EI-2-8-4",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.9065711195240671,
+    "path": "cache/ei2-images/trials/EI-2-8-4-C10.0-S20261105.joblib",
+    "sha256": "9062552d69ce09b4aa2bcb45cc9475e09f6d47763a2dccb5ba77fee89ed4aec0",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.04975331947207451
+  },
+  {
+    "name": "EI-2-8-4",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.9065711195240671,
+    "path": "cache/ei2-images/trials/EI-2-8-4-C10.0-S20261106.joblib",
+    "sha256": "e24f243b9ea3e3c0f4cc244e90fcb6212c7816b98ff565195223b126b9369321",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05364387109875679
+  },
+  {
+    "name": "EI-2-8-5",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.6464305029745809,
+    "path": "cache/ei2-images/trials/EI-2-8-5-C0.1-S20261104.joblib",
+    "sha256": "605c083bcbb7ea49b978ab0628d91693b5bdb4e22e308079759bddbba22860b3",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.04974481463432312
+  },
+  {
+    "name": "EI-2-8-5",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.6464305029745809,
+    "path": "cache/ei2-images/trials/EI-2-8-5-C0.1-S20261105.joblib",
+    "sha256": "dd5b752daa46736c130aff40c713e88ec5e699ab573458730a18290f29369c04",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.06375592947006226
+  },
+  {
+    "name": "EI-2-8-5",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.6464305029745809,
+    "path": "cache/ei2-images/trials/EI-2-8-5-C0.1-S20261106.joblib",
+    "sha256": "562514aa8986bd580f0510721b8cb5defbe13ba5b9ba5e05595a8090cd0b4f19",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.06331273913383484
+  },
+  {
+    "name": "EI-2-8-5",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.6481882098431584,
+    "path": "cache/ei2-images/trials/EI-2-8-5-C1.0-S20261104.joblib",
+    "sha256": "5808648064b8547cbe750ab6d9887e5e76b5f414659ff9e67e3acbd26a7c47a0",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.056435203179717064
+  },
+  {
+    "name": "EI-2-8-5",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.6481882098431584,
+    "path": "cache/ei2-images/trials/EI-2-8-5-C1.0-S20261105.joblib",
+    "sha256": "7f86494c9bdee336c86dfb6a217dc99cb74013473cc191162212676a76de0987",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.03624178096652031
+  },
+  {
+    "name": "EI-2-8-5",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.6481882098431584,
+    "path": "cache/ei2-images/trials/EI-2-8-5-C1.0-S20261106.joblib",
+    "sha256": "0e0574f02b8fa409f4ccfb9538018c864e977fb77de08bdecbc1d1c53ea80abf",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.06573791243135929
+  },
+  {
+    "name": "EI-2-8-5",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.6444023796646835,
+    "path": "cache/ei2-images/trials/EI-2-8-5-C10.0-S20261104.joblib",
+    "sha256": "d37993143b995b9363acf5d5b944de4b991e0d1c5817db1d730c05d5de483983",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05668031983077526
+  },
+  {
+    "name": "EI-2-8-5",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.6444023796646835,
+    "path": "cache/ei2-images/trials/EI-2-8-5-C10.0-S20261105.joblib",
+    "sha256": "b743c2b5ebb437e8fa34429b1f4025d2a573073d73d396f594cd8b73445845d1",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.06470181420445442
+  },
+  {
+    "name": "EI-2-8-5",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.6444023796646835,
+    "path": "cache/ei2-images/trials/EI-2-8-5-C10.0-S20261106.joblib",
+    "sha256": "e8ee8272e305d3873e7e32ed5cd91bf6de425fa391b846cbfb8dfade1148f250",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05947762914001942
+  },
+  {
+    "name": "B-T",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.5,
+    "path": "cache/ei2-images/trials/B-T-C0.1-S20261104.joblib",
+    "sha256": "90e97cabddebcc7bb1658ac0622bf8c67afa4896ba6e279b512a7c94cd46bc94",
+    "n_iter": [
+      0
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.02147056721150875
+  },
+  {
+    "name": "B-T",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.5,
+    "path": "cache/ei2-images/trials/B-T-C0.1-S20261105.joblib",
+    "sha256": "459c68d6f922006093da9901b9832d47556bbd020c32f8092c8edc3436e45bee",
+    "n_iter": [
+      0
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.029094301164150238
+  },
+  {
+    "name": "B-T",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.5,
+    "path": "cache/ei2-images/trials/B-T-C0.1-S20261106.joblib",
+    "sha256": "b1ce07bf2755511336e5a7e235a63371deb5698a5f5b77427033f9914c7fd793",
+    "n_iter": [
+      0
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.03693457879126072
+  },
+  {
+    "name": "B-T",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.5,
+    "path": "cache/ei2-images/trials/B-T-C1.0-S20261104.joblib",
+    "sha256": "91630b0c95373500d49b36f9702e44c8dc11bbbf43129193bdae2456b8bec05e",
+    "n_iter": [
+      0
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.038589637726545334
+  },
+  {
+    "name": "B-T",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.5,
+    "path": "cache/ei2-images/trials/B-T-C1.0-S20261105.joblib",
+    "sha256": "8b7c44969aae066250b1f8c806c97c1a011c1c9cf3534473d10da6e9707fb333",
+    "n_iter": [
+      0
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.026520129293203354
+  },
+  {
+    "name": "B-T",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.5,
+    "path": "cache/ei2-images/trials/B-T-C1.0-S20261106.joblib",
+    "sha256": "98c02e1b323ae66652385d8ed8098beaacacae2b8ee01a0067f80d59a45d227f",
+    "n_iter": [
+      0
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.041163474321365356
+  },
+  {
+    "name": "B-T",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.5,
+    "path": "cache/ei2-images/trials/B-T-C10.0-S20261104.joblib",
+    "sha256": "24569d233d2c22a925198044f5ce505995887532738b144c382f2e0955b60ca9",
+    "n_iter": [
+      0
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.061075907200574875
+  },
+  {
+    "name": "B-T",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.5,
+    "path": "cache/ei2-images/trials/B-T-C10.0-S20261105.joblib",
+    "sha256": "9c3092a0296828ff392d28b37b3a95632ccc71741a8d30d88ab8fdaaf5b5fcfd",
+    "n_iter": [
+      0
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.10670346952974796
+  },
+  {
+    "name": "B-T",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.5,
+    "path": "cache/ei2-images/trials/B-T-C10.0-S20261106.joblib",
+    "sha256": "708069c3fdb2bf01a1853ade3c36b98dbeb0dd9e10811e4537fa331d3a084efd",
+    "n_iter": [
+      0
+    ],
+    "effective_dimension": 14,
+    "interface_dimension": 512,
+    "seconds": 0.05009307898581028
+  },
+  {
+    "name": "OCR-only",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.6901027582477014,
+    "path": "cache/ei2-images/trials/OCR-only-C0.1-S20261104.joblib",
+    "sha256": "c6f8e4f59346da660bc9a0337d307999c643d4e133cc54341b097b3d87db3e39",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05798300914466381
+  },
+  {
+    "name": "OCR-only",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.6901027582477014,
+    "path": "cache/ei2-images/trials/OCR-only-C0.1-S20261105.joblib",
+    "sha256": "263d9d3e65ed5d652bc01a8a50d2c2308e0c7563323bc3c9d54f672fee72615e",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.04068376682698727
+  },
+  {
+    "name": "OCR-only",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.6901027582477014,
+    "path": "cache/ei2-images/trials/OCR-only-C0.1-S20261106.joblib",
+    "sha256": "62f4434c3266825b90e482561c117498ac7b2ae754ad1969b744869642da89ad",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.050168370828032494
+  },
+  {
+    "name": "OCR-only",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.7335045970795023,
+    "path": "cache/ei2-images/trials/OCR-only-C1.0-S20261104.joblib",
+    "sha256": "28af52b3e81302a6bc526537163aa5b34af7500eb24352aac7f7a62f3337bda6",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.04479262977838516
+  },
+  {
+    "name": "OCR-only",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.7335045970795023,
+    "path": "cache/ei2-images/trials/OCR-only-C1.0-S20261105.joblib",
+    "sha256": "9ea6f8a32d72f0c792188f03a9ff536e04b92c79f339296a85c3118e97e0f2aa",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.03888021409511566
+  },
+  {
+    "name": "OCR-only",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.7335045970795023,
+    "path": "cache/ei2-images/trials/OCR-only-C1.0-S20261106.joblib",
+    "sha256": "667a05c85f9fb522e366e47899519a1f8a39820862489fa9f7176ecb6da0a5b3",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.08027084730565548
+  },
+  {
+    "name": "OCR-only",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.7535154137371552,
+    "path": "cache/ei2-images/trials/OCR-only-C10.0-S20261104.joblib",
+    "sha256": "3f11a0540730957ba27d0a84f223d42c10498f240514819ac121fbdc80dc087a",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05251367576420307
+  },
+  {
+    "name": "OCR-only",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.7535154137371552,
+    "path": "cache/ei2-images/trials/OCR-only-C10.0-S20261105.joblib",
+    "sha256": "1549f264a2214182314d51be4b8148a00e02438f8116efb477230f834dcb3b82",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.036454200744628906
+  },
+  {
+    "name": "OCR-only",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.7535154137371552,
+    "path": "cache/ei2-images/trials/OCR-only-C10.0-S20261106.joblib",
+    "sha256": "c64a8891e60904d702f0b43bb9acab53905d1e98d8317f8cbd722d5628e5e926",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.08168108575046062
+  },
+  {
+    "name": "Caption-only",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.7504056246619794,
+    "path": "cache/ei2-images/trials/Caption-only-C0.1-S20261104.joblib",
+    "sha256": "059d79d9f86738b282c568c82d5bc620f6dee27df570e1187ec73367436f3ff0",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.02743937075138092
+  },
+  {
+    "name": "Caption-only",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.7504056246619794,
+    "path": "cache/ei2-images/trials/Caption-only-C0.1-S20261105.joblib",
+    "sha256": "67470daed7986a976500a57ff61a3464d5cbe34e79889b3d961ec09937de3d2a",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.026513949036598206
+  },
+  {
+    "name": "Caption-only",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.7504056246619794,
+    "path": "cache/ei2-images/trials/Caption-only-C0.1-S20261106.joblib",
+    "sha256": "3f0319b54b6c0f1ab709307585818932551e4c8067d7b74491f443682ce058e8",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05353108234703541
+  },
+  {
+    "name": "Caption-only",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.7537858301784749,
+    "path": "cache/ei2-images/trials/Caption-only-C1.0-S20261104.joblib",
+    "sha256": "819fba02c580a03b50eff0a8643d986f329ce10e6261f0dcb948dd173fa82111",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.03811354376375675
+  },
+  {
+    "name": "Caption-only",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.7537858301784749,
+    "path": "cache/ei2-images/trials/Caption-only-C1.0-S20261105.joblib",
+    "sha256": "48a6b2026cbcbb149d2f2cbdac557afb0e9cc577d80eb7f18a98ffa6993fb06b",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.06570125930011272
+  },
+  {
+    "name": "Caption-only",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.7537858301784749,
+    "path": "cache/ei2-images/trials/Caption-only-C1.0-S20261106.joblib",
+    "sha256": "42020136414b72875cb7cc2367d2bfbfe009c3359e300c334e7d11e1cbf19cf6",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.04916090704500675
+  },
+  {
+    "name": "Caption-only",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.7616279069767442,
+    "path": "cache/ei2-images/trials/Caption-only-C10.0-S20261104.joblib",
+    "sha256": "7a4af0e2c2ac41b6fd508f0471e37eb3278ea43e0cb2cc6d8c3306f7e6c93bd7",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05270889401435852
+  },
+  {
+    "name": "Caption-only",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.7616279069767442,
+    "path": "cache/ei2-images/trials/Caption-only-C10.0-S20261105.joblib",
+    "sha256": "148e13fbc04e67b647630caf2b76b78a78d9c4f4c500feebfa608a508eb34227",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.06540751084685326
+  },
+  {
+    "name": "Caption-only",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.7616279069767442,
+    "path": "cache/ei2-images/trials/Caption-only-C10.0-S20261106.joblib",
+    "sha256": "87e85d3396e86d52832ccfe5d7b9134075c8e8eecb3fb227cadd85ffc2e634cf",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.09583292528986931
+  },
+  {
+    "name": "Neutral-description",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.6875338020551649,
+    "path": "cache/ei2-images/trials/Neutral-description-C0.1-S20261104.joblib",
+    "sha256": "a84a1889933b00ce9955f02483a3daa8c4e97c14fe3725c41a550c6e17d1a060",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05411691032350063
+  },
+  {
+    "name": "Neutral-description",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.6875338020551649,
+    "path": "cache/ei2-images/trials/Neutral-description-C0.1-S20261105.joblib",
+    "sha256": "54d4e71a01e8a20c13a0dc0da1effc8652d7bb415b26deb786896385652b79fd",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.06102553941309452
+  },
+  {
+    "name": "Neutral-description",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.6875338020551649,
+    "path": "cache/ei2-images/trials/Neutral-description-C0.1-S20261106.joblib",
+    "sha256": "47e8ad623d50ca69ee14cb77a53ff60e95ab72aa5e53941c66db6b5e73478e95",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.045633576810359955
+  },
+  {
+    "name": "Neutral-description",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.7333693888588426,
+    "path": "cache/ei2-images/trials/Neutral-description-C1.0-S20261104.joblib",
+    "sha256": "87c74d2cb5a295c02feddff80c2216aab10bc43456a58fa56c04cd05e09e290b",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.050610704347491264
+  },
+  {
+    "name": "Neutral-description",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.7333693888588426,
+    "path": "cache/ei2-images/trials/Neutral-description-C1.0-S20261105.joblib",
+    "sha256": "aaebfaa4675c3ed35ea4ec02e78663a74010d82136c048b7b7f6a7d66417a7d0",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.06743655912578106
+  },
+  {
+    "name": "Neutral-description",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.7333693888588426,
+    "path": "cache/ei2-images/trials/Neutral-description-C1.0-S20261106.joblib",
+    "sha256": "2839ddc9bd03b9be120c6be9f414c281bc557a978b33572d62657f7f1ea079d4",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.050946978852152824
+  },
+  {
+    "name": "Neutral-description",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.7445916711736073,
+    "path": "cache/ei2-images/trials/Neutral-description-C10.0-S20261104.joblib",
+    "sha256": "2cb9b2be1b9816505ae6072ac5b129e611733591a40fbe5d825e690732f23ecd",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.044077618047595024
+  },
+  {
+    "name": "Neutral-description",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.7445916711736073,
+    "path": "cache/ei2-images/trials/Neutral-description-C10.0-S20261105.joblib",
+    "sha256": "e6f9ff979ee97b88adac075a64bfd900d1f5132ca2a8a0cdeef2151f373b671c",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.04438111558556557
+  },
+  {
+    "name": "Neutral-description",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.7445916711736073,
+    "path": "cache/ei2-images/trials/Neutral-description-C10.0-S20261106.joblib",
+    "sha256": "68e95e88a17e0a8460957f5f000d63a8839b338888679bfb7ed33705971a7e8c",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.11343103274703026
+  },
+  {
+    "name": "ROI-uniform",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.8335586803677663,
+    "path": "cache/ei2-images/trials/ROI-uniform-C0.1-S20261104.joblib",
+    "sha256": "ef8be2acc872fb3d06d9070ceda450aa92f3de7b9d10ca4d77133e7f9ca15063",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05530414171516895
+  },
+  {
+    "name": "ROI-uniform",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.8335586803677663,
+    "path": "cache/ei2-images/trials/ROI-uniform-C0.1-S20261105.joblib",
+    "sha256": "bbd9dbfac053050567ef1a451fa6b7ad2bcd5bb809f6017e3cbe0f2a5970313b",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.0218870360404253
+  },
+  {
+    "name": "ROI-uniform",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.8335586803677663,
+    "path": "cache/ei2-images/trials/ROI-uniform-C0.1-S20261106.joblib",
+    "sha256": "5dfc4ff408aed14fce0de4ab5e972619a8e965dbb8d4d50b251eeea67f18513d",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05909171514213085
+  },
+  {
+    "name": "ROI-uniform",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.8420767982693348,
+    "path": "cache/ei2-images/trials/ROI-uniform-C1.0-S20261104.joblib",
+    "sha256": "8c6bb2d3ad8bfb5e586eef593a00c20895c221481b672300e7437d2359f74d04",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.11821218207478523
+  },
+  {
+    "name": "ROI-uniform",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.8420767982693348,
+    "path": "cache/ei2-images/trials/ROI-uniform-C1.0-S20261105.joblib",
+    "sha256": "f04ab5edd2f11bf6cd77d366fe870ba6ecd5f9e31bee479bc31a3312d0a2d367",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.053764110431075096
+  },
+  {
+    "name": "ROI-uniform",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.8420767982693348,
+    "path": "cache/ei2-images/trials/ROI-uniform-C1.0-S20261106.joblib",
+    "sha256": "7e37c2964a5f1334358e2a688bbc1e14e4c34b37e58d34613d5d9c6858f8adee",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.06277322582900524
+  },
+  {
+    "name": "ROI-uniform",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.8404542996214169,
+    "path": "cache/ei2-images/trials/ROI-uniform-C10.0-S20261104.joblib",
+    "sha256": "6203a02e2ce907dfd7840c490311618742dee2106c353ac4f700d25e6f440dff",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05332518368959427
+  },
+  {
+    "name": "ROI-uniform",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.8404542996214169,
+    "path": "cache/ei2-images/trials/ROI-uniform-C10.0-S20261105.joblib",
+    "sha256": "e60121ff9d809fa16c64969881be2423f22a2a9ea78399e197ab0ba9551e1ffc",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05883966013789177
+  },
+  {
+    "name": "ROI-uniform",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.8404542996214169,
+    "path": "cache/ei2-images/trials/ROI-uniform-C10.0-S20261106.joblib",
+    "sha256": "84e4deaff26abfa2879429c45203a6de792b00f58f72ef2e165a58da59ce6a07",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.027757668867707253
+  },
+  {
+    "name": "ROI-random",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.8350459707950244,
+    "path": "cache/ei2-images/trials/ROI-random-C0.1-S20261104.joblib",
+    "sha256": "0b02aa971c17af610e641d3b0c537bbb308c2135e2cea24c619bd8151e0d4f29",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.10025985352694988
+  },
+  {
+    "name": "ROI-random",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.8350459707950244,
+    "path": "cache/ei2-images/trials/ROI-random-C0.1-S20261105.joblib",
+    "sha256": "2f8dde6568039ee4415772a15445b322deb8704a71b16ccb8852fcfa3317e882",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.03924029879271984
+  },
+  {
+    "name": "ROI-random",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.8350459707950244,
+    "path": "cache/ei2-images/trials/ROI-random-C0.1-S20261106.joblib",
+    "sha256": "4daffd3636fcd6d40b625ee19f2b79d620ca904e8c39efb64bb7b168ec4c224c",
+    "n_iter": [
+      5
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.058602986857295036
+  },
+  {
+    "name": "ROI-random",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.841130340724716,
+    "path": "cache/ei2-images/trials/ROI-random-C1.0-S20261104.joblib",
+    "sha256": "f0ce635f7fa1c0ea0e94f1ef2eea12e844990234877ae05832b207b1e8b2dc13",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.045583080500364304
+  },
+  {
+    "name": "ROI-random",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.841130340724716,
+    "path": "cache/ei2-images/trials/ROI-random-C1.0-S20261105.joblib",
+    "sha256": "2db303207c662291f23526b02a3004e1b6e72ac8dfdac46339421544e522950f",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.03923898935317993
+  },
+  {
+    "name": "ROI-random",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.841130340724716,
+    "path": "cache/ei2-images/trials/ROI-random-C1.0-S20261106.joblib",
+    "sha256": "83d0310f7ef427f41ed49befdea7130dc1a199c48e5955ee137f361f6957456c",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.038654835894703865
+  },
+  {
+    "name": "ROI-random",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.8399134667387776,
+    "path": "cache/ei2-images/trials/ROI-random-C10.0-S20261104.joblib",
+    "sha256": "364ea1380dcea4151405db96a604ee62f2cbccdbd9387ed67e15b99bcd75992b",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.08726689964532852
+  },
+  {
+    "name": "ROI-random",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.8399134667387776,
+    "path": "cache/ei2-images/trials/ROI-random-C10.0-S20261105.joblib",
+    "sha256": "7a3006a8e50aef8ffff50e867f206b4dd9b8f28921f07c878ddb65f02dec7843",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.042641131207346916
+  },
+  {
+    "name": "ROI-random",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.8399134667387776,
+    "path": "cache/ei2-images/trials/ROI-random-C10.0-S20261106.joblib",
+    "sha256": "d946f7793a218b60244b346551a29a4e9c28fb3c0c14ab849d96a71d8502e888",
+    "n_iter": [
+      8
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05760413408279419
+  },
+  {
+    "name": "Neutral-image-delta",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.7793401838831802,
+    "path": "cache/ei2-images/trials/Neutral-image-delta-C0.1-S20261104.joblib",
+    "sha256": "010948642641f033d5fdbd09e651be6ff473926115e2dc61924fa8c0fb273ab9",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05512070097029209
+  },
+  {
+    "name": "Neutral-image-delta",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.7793401838831802,
+    "path": "cache/ei2-images/trials/Neutral-image-delta-C0.1-S20261105.joblib",
+    "sha256": "7210b008a0580284fcc5fb2127fe14b7fecb7142efa74632c852b53665aed302",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.041248869150877
+  },
+  {
+    "name": "Neutral-image-delta",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.7793401838831802,
+    "path": "cache/ei2-images/trials/Neutral-image-delta-C0.1-S20261106.joblib",
+    "sha256": "6b5c41db8ee2f0907932b7fe8098b63b52d06db6fbf8812156ff9e4b811634f4",
+    "n_iter": [
+      4
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.09306199476122856
+  },
+  {
+    "name": "Neutral-image-delta",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.8054353704705246,
+    "path": "cache/ei2-images/trials/Neutral-image-delta-C1.0-S20261104.joblib",
+    "sha256": "23f0f465a2de938c3f2cb5a25a7dee04f7511ff9af0c72fdf0d0999ff4df7dd4",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.023547973483800888
+  },
+  {
+    "name": "Neutral-image-delta",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.8054353704705246,
+    "path": "cache/ei2-images/trials/Neutral-image-delta-C1.0-S20261105.joblib",
+    "sha256": "dc22ca947edba38c27e737d13d8f82919ca874844f7bed8bc74dbc273993f7fe",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.06350521557033062
+  },
+  {
+    "name": "Neutral-image-delta",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.8054353704705246,
+    "path": "cache/ei2-images/trials/Neutral-image-delta-C1.0-S20261106.joblib",
+    "sha256": "0fc9498c4ea639af3475e56abd98245eee006aa6aba29b17a9899232e02e3d51",
+    "n_iter": [
+      6
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.04713641665875912
+  },
+  {
+    "name": "Neutral-image-delta",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.8189561925365062,
+    "path": "cache/ei2-images/trials/Neutral-image-delta-C10.0-S20261104.joblib",
+    "sha256": "74d5917e4cca8b5b12c431395e7a4cbad64547920b7184c422145250d9fe3257",
+    "n_iter": [
+      9
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.049438076093792915
+  },
+  {
+    "name": "Neutral-image-delta",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.8189561925365062,
+    "path": "cache/ei2-images/trials/Neutral-image-delta-C10.0-S20261105.joblib",
+    "sha256": "30fabfddde2dc91a0c830829a49f7d03ee800e058eccb52fe6bbb8f58ff93d73",
+    "n_iter": [
+      9
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.05292684957385063
+  },
+  {
+    "name": "Neutral-image-delta",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.8189561925365062,
+    "path": "cache/ei2-images/trials/Neutral-image-delta-C10.0-S20261106.joblib",
+    "sha256": "49bede2aa667ffc4ccedf65be8a34de5d5343cf8503fc52b680613ccae22b849",
+    "n_iter": [
+      9
+    ],
+    "effective_dimension": 28,
+    "interface_dimension": 512,
+    "seconds": 0.04591163620352745
+  }
+]

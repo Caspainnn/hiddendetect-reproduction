@@ -1,5 +1,7 @@
 # HiddenDetect复现
 
+**2026-11-05 EI-2-8五项真实图片信息实验：进行中，未完成核验。** 训练／选参已封存（126次拟合、42个最终头）；最后确认1010/1270条。之后学校节点SSH在认证前关闭，后台最新状态未知，尚无可报告的测试成绩。[执行与恢复记录](docs/ei2-images-execution-2026-11-05.md)、[冻结协议](docs/ei2-images-protocol-2026-11-05.md)、[初始方案](docs/ei2-image-information-design-2026-11-05.md)。
+
 ## 当前入口（2026-11-05）
 
 查看同一棵实验导图和对照表：运行 `python viewer/build.py`、`python -m http.server 8000`，打开 `http://localhost:8000/viewer/`。[查看页说明](viewer/README.md)。仅需Python标准库；不需要下载模型或论文库。

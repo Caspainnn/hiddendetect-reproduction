@@ -2,6 +2,21 @@
   "version": 1,
   "date": "2026-11-05",
   "rule": "Current registry IDs only; frozen experiment keys, manifests and results remain unchanged.",
+  "image_information": {
+    "group": "EI-2-8",
+    "status": "running",
+    "source": "docs/ei2-images-protocol-2026-11-05.md",
+    "candidates": [
+      "EI-2-8-1",
+      "EI-2-8-2",
+      "EI-2-8-3",
+      "EI-2-8-4",
+      "EI-2-8-5"
+    ],
+    "baseline": "Same-pair multimodal 14F plus the original L2 head",
+    "execution_started": true,
+    "run": "EI-IM1"
+  },
   "centroid": {
     "add_group": "EI-2-7",
     "add_history": "EI-2-7-1",

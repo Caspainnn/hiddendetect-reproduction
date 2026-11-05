@@ -1,0 +1,965 @@
+{
+  "edges": [
+    {
+      "kind": "same_intent",
+      "a": "chat-020",
+      "b": "chat-063"
+    },
+    {
+      "kind": "same_intent",
+      "a": "chat-020",
+      "b": "chat-070"
+    },
+    {
+      "kind": "same_intent",
+      "a": "chat-067",
+      "b": "chat-082"
+    },
+    {
+      "kind": "same_intent",
+      "a": "chat-095",
+      "b": "chat-183"
+    },
+    {
+      "kind": "same_intent",
+      "a": "chat-067",
+      "b": "chat-193"
+    },
+    {
+      "kind": "same_intent",
+      "a": "chat-076",
+      "b": "chat-195"
+    },
+    {
+      "kind": "same_intent",
+      "a": "chat-037",
+      "b": "chat-200"
+    },
+    {
+      "kind": "same_intent",
+      "a": "chat-114",
+      "b": "chat-228"
+    },
+    {
+      "kind": "same_intent",
+      "a": "chat-231",
+      "b": "chat-236"
+    },
+    {
+      "kind": "same_intent",
+      "a": "chat-067",
+      "b": "chat-258"
+    },
+    {
+      "kind": "same_intent",
+      "a": "chat-267",
+      "b": "chat-275"
+    },
+    {
+      "kind": "same_intent",
+      "a": "chat-140",
+      "b": "chat-281"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-001"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-002"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-003"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-004"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-005"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-006"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-007"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-008"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-009"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-010"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-011"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-012"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-013"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-014"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-015"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-016"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-017"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-018"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-019"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-020"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-021"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-022"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-023"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-024"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-025"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-026"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-027"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-028"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-029"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-030"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-031"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-032"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-033"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-034"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-035"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-036"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-037"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-038"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-039"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-040"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-041"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-042"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-043"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-044"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-000",
+      "b": "embodied-045"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-046",
+      "b": "embodied-047"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-046",
+      "b": "embodied-048"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-046",
+      "b": "embodied-049"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-046",
+      "b": "embodied-050"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-046",
+      "b": "embodied-051"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-046",
+      "b": "embodied-052"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-046",
+      "b": "embodied-053"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-046",
+      "b": "embodied-054"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-046",
+      "b": "embodied-055"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-056",
+      "b": "embodied-057"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-056",
+      "b": "embodied-058"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-056",
+      "b": "embodied-059"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-056",
+      "b": "embodied-060"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-056",
+      "b": "embodied-061"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-062",
+      "b": "embodied-063"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-062",
+      "b": "embodied-064"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-065",
+      "b": "embodied-066"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-065",
+      "b": "embodied-067"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-065",
+      "b": "embodied-068"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-065",
+      "b": "embodied-069"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-065",
+      "b": "embodied-070"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-065",
+      "b": "embodied-071"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-065",
+      "b": "embodied-072"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-065",
+      "b": "embodied-073"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-062",
+      "b": "embodied-074"
+    },
+    {
+      "kind": "same_intent",
+      "a": "embodied-065",
+      "b": "embodied-075"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/116.jpg",
+      "b": "chat/114.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/150.jpg",
+      "b": "chat/148.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/258.jpg",
+      "b": "chat/256.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/266.jpg",
+      "b": "chat/264.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/288.jpg",
+      "b": "chat/286.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/329.jpg",
+      "b": "chat/327.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/330.jpg",
+      "b": "chat/328.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/352.jpg",
+      "b": "chat/350.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/368.jpg",
+      "b": "chat/366.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/382.jpg",
+      "b": "chat/380.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/394.jpg",
+      "b": "chat/392.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/408.jpg",
+      "b": "chat/406.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/418.jpg",
+      "b": "chat/416.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/42.jpg",
+      "b": "chat/40.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/432.jpg",
+      "b": "chat/430.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/440.jpg",
+      "b": "chat/438.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/46.jpg",
+      "b": "chat/44.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/51.jpg",
+      "b": "chat/123.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/561.jpg",
+      "b": "chat/489.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/68.jpg",
+      "b": "chat/66.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/72.jpg",
+      "b": "chat/70.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/86.jpg",
+      "b": "chat/84.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "chat/92.jpg",
+      "b": "chat/90.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "embodied/114.jpg",
+      "b": "embodied/112.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "embodied/33.png",
+      "b": "embodied/16.png"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "embodied/47.png",
+      "b": "embodied/15.png"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "embodied/5.png",
+      "b": "embodied/117.png"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "embodied/53.png",
+      "b": "embodied/28.png"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "embodied/59.png",
+      "b": "embodied/42.png"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "embodied/66.jpg",
+      "b": "embodied/64.jpg"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "embodied/67.png",
+      "b": "embodied/119.png"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "embodied/81.png",
+      "b": "embodied/73.png"
+    },
+    {
+      "kind": "same_or_near_image",
+      "a": "embodied/92.jpg",
+      "b": "embodied/105.png"
+    }
+  ],
+  "scene_to_group": {
+    "chat-000": "g-f61a77b04780f991",
+    "chat-001": "g-ea488f0a4c6a3f35",
+    "chat-002": "g-39bab6504e32ac68",
+    "chat-003": "g-c92359467a9e5c60",
+    "chat-004": "g-754820bede5773eb",
+    "chat-005": "g-589921fc98bf1b27",
+    "chat-006": "g-e001de4f78d37378",
+    "chat-007": "g-e4cc3a299447b482",
+    "chat-008": "g-f985d873c99f8284",
+    "chat-009": "g-26ce7d2c60ac86d3",
+    "chat-010": "g-23204e4378a0259f",
+    "chat-011": "g-0f36669d8c7765b8",
+    "chat-012": "g-b199a0aad7884694",
+    "chat-013": "g-cd62105ac678bc5f",
+    "chat-014": "g-572efb6feda60862",
+    "chat-015": "g-74026104f6f39d92",
+    "chat-016": "g-d3aed843a380d9ab",
+    "chat-017": "g-494004cf5510223e",
+    "chat-018": "g-f4201257f49f56f0",
+    "chat-019": "g-f9d1888e2a66eae8",
+    "chat-020": "g-f2151f9e0407c6e6",
+    "chat-021": "g-f2151f9e0407c6e6",
+    "chat-022": "g-162baabd2917f633",
+    "chat-023": "g-162baabd2917f633",
+    "chat-024": "g-101029738efbf5d7",
+    "chat-025": "g-e8fe4dacb3f731d6",
+    "chat-026": "g-f3f137b2b51c9b7f",
+    "chat-027": "g-ac19a395f538b26a",
+    "chat-028": "g-3e093d4c2f2b4499",
+    "chat-029": "g-4321629e4989cb2e",
+    "chat-030": "g-77dc3a0d01f462bb",
+    "chat-031": "g-ad8821c03658e3f4",
+    "chat-032": "g-0aa94e50b1c667f5",
+    "chat-033": "g-40b1cc4c2d80c833",
+    "chat-034": "g-40b1cc4c2d80c833",
+    "chat-035": "g-5424a36a6e15db22",
+    "chat-036": "g-5424a36a6e15db22",
+    "chat-037": "g-a7ace38f5cdc0997",
+    "chat-038": "g-d848c24c7cb0468e",
+    "chat-039": "g-899abb0615de57ee",
+    "chat-040": "g-724461b2641ddedb",
+    "chat-041": "g-9f5e488ef839d889",
+    "chat-042": "g-bab75f95d428ad4d",
+    "chat-043": "g-bab75f95d428ad4d",
+    "chat-044": "g-f762f9263c774244",
+    "chat-045": "g-698e4c824bd7028f",
+    "chat-046": "g-698e4c824bd7028f",
+    "chat-047": "g-d59211166a6b57bd",
+    "chat-048": "g-243859a7532f1a4c",
+    "chat-049": "g-57190331d46c59f9",
+    "chat-050": "g-32c7f5ac250feabf",
+    "chat-051": "g-30b2612d814b0589",
+    "chat-052": "g-7d2bbaef31b69154",
+    "chat-053": "g-a9d5f43441c59dbb",
+    "chat-054": "g-25b5ddef38b0f117",
+    "chat-055": "g-ee61abb33f75ae20",
+    "chat-056": "g-64d7dc7ef05f0ba5",
+    "chat-057": "g-d01cc12be0227c9b",
+    "chat-058": "g-d01cc12be0227c9b",
+    "chat-059": "g-c0aff123c8c87507",
+    "chat-060": "g-d99fecba255cc274",
+    "chat-061": "g-e8fe4dacb3f731d6",
+    "chat-062": "g-52bcab149e3710b0",
+    "chat-063": "g-f2151f9e0407c6e6",
+    "chat-064": "g-f3e88f1049b70377",
+    "chat-065": "g-0d0e74c766d81b5c",
+    "chat-066": "g-02b767de30e40026",
+    "chat-067": "g-139c7afb0d976723",
+    "chat-068": "g-6b89b59eeb75e735",
+    "chat-069": "g-5c8eb639e63810ed",
+    "chat-070": "g-f2151f9e0407c6e6",
+    "chat-071": "g-503231c531e741be",
+    "chat-072": "g-f81415175024050e",
+    "chat-073": "g-7b8a95ea74c9f31b",
+    "chat-074": "g-12709331ff3b0740",
+    "chat-075": "g-12709331ff3b0740",
+    "chat-076": "g-da39fe07c75687f8",
+    "chat-077": "g-5467d67e23f4affb",
+    "chat-078": "g-f209a965d6dc9068",
+    "chat-079": "g-f848357d87793faf",
+    "chat-080": "g-49703e3479f9faf6",
+    "chat-081": "g-3a2363e3575c7585",
+    "chat-082": "g-139c7afb0d976723",
+    "chat-083": "g-b0b73cbd3991f0a3",
+    "chat-084": "g-81c2fbcc89b42a4c",
+    "chat-085": "g-7c7449d81f196c99",
+    "chat-086": "g-399836c5c7616733",
+    "chat-087": "g-262b884f1115db79",
+    "chat-088": "g-e8d345ccbb6541b4",
+    "chat-089": "g-f038840d13dceb44",
+    "chat-090": "g-cc644127515cba67",
+    "chat-091": "g-681a237914054e71",
+    "chat-092": "g-b497cba228a0065c",
+    "chat-093": "g-68bd79812a7cfd1f",
+    "chat-094": "g-249f4205e9f8e62b",
+    "chat-095": "g-395fccb7483e8ba9",
+    "chat-096": "g-688e450e72227cfa",
+    "chat-097": "g-888bba5884dfa579",
+    "chat-098": "g-93f5e3af33db2d76",
+    "chat-099": "g-e1e0772bafdb8ba8",
+    "chat-100": "g-4a2d94e6e902f63c",
+    "chat-101": "g-19923b3979e7a246",
+    "chat-102": "g-da87258df04578bd",
+    "chat-103": "g-9af46e8730e49aa2",
+    "chat-104": "g-c5e5cef44c649b35",
+    "chat-105": "g-5ae2132be96aca00",
+    "chat-106": "g-c543104a50d65b66",
+    "chat-107": "g-2c19dfec865b6573",
+    "chat-108": "g-eb8b59e7b0ed3534",
+    "chat-109": "g-aaaec276386c277e",
+    "chat-110": "g-8a99d1de3e56f99e",
+    "chat-111": "g-7b282987d83c0355",
+    "chat-112": "g-923f7bc7c73e9121",
+    "chat-113": "g-30d892a2a6c086c5",
+    "chat-114": "g-5297145168bc6b02",
+    "chat-115": "g-c6acd4fcd0eef2e1",
+    "chat-116": "g-6c683fe57beb585d",
+    "chat-117": "g-4712a5acb98e2bde",
+    "chat-118": "g-4f8ea4d0aac20d08",
+    "chat-119": "g-0b66d5225bc50dd9",
+    "chat-120": "g-b2ad70463d8db3cf",
+    "chat-121": "g-bd319e584c718388",
+    "chat-122": "g-1f120ddeed266e43",
+    "chat-123": "g-046f31e2696bc228",
+    "chat-124": "g-0373940806c827d6",
+    "chat-125": "g-81c3d9de14962dd5",
+    "chat-126": "g-733217c0f587e90d",
+    "chat-127": "g-233687fe5212a4df",
+    "chat-128": "g-bae3202bd7f47233",
+    "chat-129": "g-bae3202bd7f47233",
+    "chat-130": "g-99a00f96430ba9b2",
+    "chat-131": "g-f0e8030f789b07cf",
+    "chat-132": "g-c9a40a315165aa88",
+    "chat-133": "g-c9a40a315165aa88",
+    "chat-134": "g-4d9ef6a91b55c6be",
+    "chat-135": "g-23836ebcefb08e88",
+    "chat-136": "g-15d9b823005d5002",
+    "chat-137": "g-11f4be34d7ccc676",
+    "chat-138": "g-34ef4e69a794b1b4",
+    "chat-139": "g-3e8847a2ecfac70f",
+    "chat-140": "g-94c01ba23ed4b221",
+    "chat-141": "g-565bf7b6dbc1b52e",
+    "chat-142": "g-8468794d79f11131",
+    "chat-143": "g-53b7e42931d5ab39",
+    "chat-144": "g-53b7e42931d5ab39",
+    "chat-145": "g-7d250c293ffa0a20",
+    "chat-146": "g-4adbe7d256b1f12f",
+    "chat-147": "g-3cbfef3217904b52",
+    "chat-148": "g-8720b4a198b29f8d",
+    "chat-149": "g-a939d3f2770a9e28",
+    "chat-150": "g-907006be67cc6987",
+    "chat-151": "g-f9886247ae4b1766",
+    "chat-152": "g-5de5d69107005765",
+    "chat-153": "g-5916692c5f18075e",
+    "chat-154": "g-bd098d76db8d7689",
+    "chat-155": "g-79d24100cb8399fb",
+    "chat-156": "g-0425771f7c8bc501",
+    "chat-157": "g-b1c03bdd5d4be7ad",
+    "chat-158": "g-a1d8409a07b174f1",
+    "chat-159": "g-c11db323a0df477b",
+    "chat-160": "g-1c84cbe93fc18bdd",
+    "chat-161": "g-7b6f79f27bf6ad66",
+    "chat-162": "g-da187ab1d5e08c43",
+    "chat-163": "g-c4875d29a43a8188",
+    "chat-164": "g-c4875d29a43a8188",
+    "chat-165": "g-c4875d29a43a8188",
+    "chat-166": "g-d87fecc38cc34e90",
+    "chat-167": "g-89342af31253cc15",
+    "chat-168": "g-82e2fb1cc0b59c50",
+    "chat-169": "g-3e8ee32ebcc0f399",
+    "chat-170": "g-ea32cf574c750c03",
+    "chat-171": "g-b1a81ce7d19d938a",
+    "chat-172": "g-54e76dcece6ab4cf",
+    "chat-173": "g-1fc367f3e1d07d86",
+    "chat-174": "g-fe516a2da0efdb40",
+    "chat-175": "g-e2758bbd4fa055df",
+    "chat-176": "g-e2758bbd4fa055df",
+    "chat-177": "g-d5f70f5e2e866e33",
+    "chat-178": "g-d0a72bbb60c374c8",
+    "chat-179": "g-4d9a88c8bd3f1bf9",
+    "chat-180": "g-ae046955aecb9dac",
+    "chat-181": "g-346e86f05818340f",
+    "chat-182": "g-8665497b7f092ce4",
+    "chat-183": "g-395fccb7483e8ba9",
+    "chat-184": "g-395fccb7483e8ba9",
+    "chat-185": "g-99740b92e36c84f9",
+    "chat-186": "g-69016a141df78e16",
+    "chat-187": "g-b86c521d3d12a87c",
+    "chat-188": "g-eeb41547b57f424c",
+    "chat-189": "g-1403e6eaf4875554",
+    "chat-190": "g-d2290e4c235d0d0e",
+    "chat-191": "g-d2290e4c235d0d0e",
+    "chat-192": "g-dadde5f9b6059050",
+    "chat-193": "g-139c7afb0d976723",
+    "chat-194": "g-a534913f640a03e1",
+    "chat-195": "g-da39fe07c75687f8",
+    "chat-196": "g-936f65f65e3faf26",
+    "chat-197": "g-936f65f65e3faf26",
+    "chat-198": "g-ae8e54e0b582dde2",
+    "chat-199": "g-1b7a35b39e9dd6ef",
+    "chat-200": "g-a7ace38f5cdc0997",
+    "chat-201": "g-c68870edea48d11a",
+    "chat-202": "g-d17e746e52eadaf2",
+    "chat-203": "g-da4488296b7b4d35",
+    "chat-204": "g-da4488296b7b4d35",
+    "chat-205": "g-ef6ed09fc9c38176",
+    "chat-206": "g-b199b0d207bc9e41",
+    "chat-207": "g-50c7bd9675cacecf",
+    "chat-208": "g-6fe9be68b6027b9e",
+    "chat-209": "g-6fe9be68b6027b9e",
+    "chat-210": "g-20ffdf2557227a3d",
+    "chat-211": "g-f58f7088456caaa4",
+    "chat-212": "g-e5e001973fc19c56",
+    "chat-213": "g-cd83a507709670eb",
+    "chat-214": "g-084978024db52562",
+    "chat-215": "g-52b524d99916e0de",
+    "chat-216": "g-52b524d99916e0de",
+    "chat-217": "g-174f834e64976511",
+    "chat-218": "g-233157b9fd3410ed",
+    "chat-219": "g-45d0d2429fb5eeae",
+    "chat-220": "g-45d0d2429fb5eeae",
+    "chat-221": "g-2c4ebe02a8dcdca9",
+    "chat-222": "g-5aa1e6dbcdf0a585",
+    "chat-223": "g-2475f76bdc537399",
+    "chat-224": "g-06527c3f13d9f562",
+    "chat-225": "g-a65aa6a32ab39e64",
+    "chat-226": "g-26eadfd408a6b3ca",
+    "chat-227": "g-df41bb3dc5b3a615",
+    "chat-228": "g-5297145168bc6b02",
+    "chat-229": "g-29fa4c8f2651c918",
+    "chat-230": "g-551ed9517f26d083",
+    "chat-231": "g-3e49aebbb97f57ac",
+    "chat-232": "g-c9ef49f0987f44af",
+    "chat-233": "g-79a6a1aaa049a407",
+    "chat-234": "g-ad73a59f71f3f62c",
+    "chat-235": "g-74729e794b15ba56",
+    "chat-236": "g-3e49aebbb97f57ac",
+    "chat-237": "g-bc2e37041777038f",
+    "chat-238": "g-b29f3dd7abb957f2",
+    "chat-239": "g-56cc3fa0f8214d34",
+    "chat-240": "g-bbbdaff91925fa1a",
+    "chat-241": "g-5aa1fddd2867a8c2",
+    "chat-242": "g-ecb2f5a7560a8599",
+    "chat-243": "g-cef5d9e22bdfec33",
+    "chat-244": "g-317dbdf2cd8e36f5",
+    "chat-245": "g-c55497f3fe44773b",
+    "chat-246": "g-e4eb9ece5674ed7a",
+    "chat-247": "g-3191c1cda361185f",
+    "chat-248": "g-33845731b6fe6eb2",
+    "chat-249": "g-b7c134f12cacb9ca",
+    "chat-250": "g-62b02d0e4b775c1c",
+    "chat-251": "g-702f9dc0f7b7b6e0",
+    "chat-252": "g-1462cd4825fa7d1f",
+    "chat-253": "g-6f836184e33966ae",
+    "chat-254": "g-2a22c8578e9a3395",
+    "chat-255": "g-a73de3042ae0c299",
+    "chat-256": "g-71222a56d37317e5",
+    "chat-257": "g-65b5ab8cfe501663",
+    "chat-258": "g-139c7afb0d976723",
+    "chat-259": "g-e9978b02bee62c4b",
+    "chat-260": "g-7f1a2eb6f9404273",
+    "chat-261": "g-fe11370d76ad4d7a",
+    "chat-262": "g-5af7436e4db3ff8c",
+    "chat-263": "g-df9112c1a3832941",
+    "chat-264": "g-d9b7339cf9811f97",
+    "chat-265": "g-40a6ef43e514673d",
+    "chat-266": "g-1663da7973d7987c",
+    "chat-267": "g-2cd1763e3e9be14c",
+    "chat-268": "g-0160bd20845e9068",
+    "chat-269": "g-e17c4366d42e4ea4",
+    "chat-270": "g-9dce5379206ddc3b",
+    "chat-271": "g-6b367708623e602b",
+    "chat-272": "g-9c0c85de49839dfd",
+    "chat-273": "g-c6e84e3ee25b3c94",
+    "chat-274": "g-0b0348d8a1b45f9a",
+    "chat-275": "g-2cd1763e3e9be14c",
+    "chat-276": "g-ed1587e0aaaa30ae",
+    "chat-277": "g-cecaff177ca250b0",
+    "chat-278": "g-ea76e8b875f302c9",
+    "chat-279": "g-f32aa7c4f414b59b",
+    "chat-280": "g-317dbdf2cd8e36f5",
+    "chat-281": "g-94c01ba23ed4b221",
+    "chat-282": "g-1366ce3fe2fabdaa",
+    "chat-283": "g-e32c94b49d2d88f5",
+    "chat-284": "g-5a56c28dd3ebfe6c",
+    "chat-285": "g-e62ae43984306ac6",
+    "chat-286": "g-a6a604619cd544a9",
+    "chat-287": "g-a54cb09cd60e48eb",
+    "chat-288": "g-86aca20fa6033cfd",
+    "chat-289": "g-dd6fafdf06a02c5a",
+    "chat-290": "g-2d7cdafc856d9fab",
+    "chat-291": "g-b00b239d64259553",
+    "chat-292": "g-d94c5fd0a9e6f93c",
+    "chat-293": "g-6ca582018b48d55b",
+    "chat-294": "g-0645918ad6d7e3ba",
+    "chat-295": "g-8c7d10d710b5a153",
+    "chat-296": "g-a1f1ce53575cf96e",
+    "chat-297": "g-3c2c088a8f58a584",
+    "chat-298": "g-7c0551a971f85437",
+    "chat-299": "g-17e293881fc49e8b",
+    "embodied-000": "g-62cc2da3569970ad",
+    "embodied-001": "g-62cc2da3569970ad",
+    "embodied-002": "g-62cc2da3569970ad",
+    "embodied-003": "g-62cc2da3569970ad",
+    "embodied-004": "g-62cc2da3569970ad",
+    "embodied-005": "g-62cc2da3569970ad",
+    "embodied-006": "g-62cc2da3569970ad",
+    "embodied-007": "g-62cc2da3569970ad",
+    "embodied-008": "g-62cc2da3569970ad",
+    "embodied-009": "g-62cc2da3569970ad",
+    "embodied-010": "g-62cc2da3569970ad",
+    "embodied-011": "g-62cc2da3569970ad",
+    "embodied-012": "g-62cc2da3569970ad",
+    "embodied-013": "g-62cc2da3569970ad",
+    "embodied-014": "g-62cc2da3569970ad",
+    "embodied-015": "g-62cc2da3569970ad",
+    "embodied-016": "g-62cc2da3569970ad",
+    "embodied-017": "g-62cc2da3569970ad",
+    "embodied-018": "g-62cc2da3569970ad",
+    "embodied-019": "g-62cc2da3569970ad",
+    "embodied-020": "g-62cc2da3569970ad",
+    "embodied-021": "g-62cc2da3569970ad",
+    "embodied-022": "g-62cc2da3569970ad",
+    "embodied-023": "g-62cc2da3569970ad",
+    "embodied-024": "g-62cc2da3569970ad",
+    "embodied-025": "g-62cc2da3569970ad",
+    "embodied-026": "g-62cc2da3569970ad",
+    "embodied-027": "g-62cc2da3569970ad",
+    "embodied-028": "g-62cc2da3569970ad",
+    "embodied-029": "g-62cc2da3569970ad",
+    "embodied-030": "g-62cc2da3569970ad",
+    "embodied-031": "g-62cc2da3569970ad",
+    "embodied-032": "g-62cc2da3569970ad",
+    "embodied-033": "g-62cc2da3569970ad",
+    "embodied-034": "g-62cc2da3569970ad",
+    "embodied-035": "g-62cc2da3569970ad",
+    "embodied-036": "g-62cc2da3569970ad",
+    "embodied-037": "g-62cc2da3569970ad",
+    "embodied-038": "g-62cc2da3569970ad",
+    "embodied-039": "g-62cc2da3569970ad",
+    "embodied-040": "g-62cc2da3569970ad",
+    "embodied-041": "g-62cc2da3569970ad",
+    "embodied-042": "g-62cc2da3569970ad",
+    "embodied-043": "g-62cc2da3569970ad",
+    "embodied-044": "g-62cc2da3569970ad",
+    "embodied-045": "g-62cc2da3569970ad",
+    "embodied-046": "g-6910f9e9b02b7187",
+    "embodied-047": "g-6910f9e9b02b7187",
+    "embodied-048": "g-6910f9e9b02b7187",
+    "embodied-049": "g-6910f9e9b02b7187",
+    "embodied-050": "g-6910f9e9b02b7187",
+    "embodied-051": "g-6910f9e9b02b7187",
+    "embodied-052": "g-6910f9e9b02b7187",
+    "embodied-053": "g-6910f9e9b02b7187",
+    "embodied-054": "g-6910f9e9b02b7187",
+    "embodied-055": "g-6910f9e9b02b7187",
+    "embodied-056": "g-62cc2da3569970ad",
+    "embodied-057": "g-62cc2da3569970ad",
+    "embodied-058": "g-62cc2da3569970ad",
+    "embodied-059": "g-62cc2da3569970ad",
+    "embodied-060": "g-62cc2da3569970ad",
+    "embodied-061": "g-62cc2da3569970ad",
+    "embodied-062": "g-b8860b594aeb1f0d",
+    "embodied-063": "g-b8860b594aeb1f0d",
+    "embodied-064": "g-b8860b594aeb1f0d",
+    "embodied-065": "g-29806f9725513e2c",
+    "embodied-066": "g-29806f9725513e2c",
+    "embodied-067": "g-29806f9725513e2c",
+    "embodied-068": "g-29806f9725513e2c",
+    "embodied-069": "g-29806f9725513e2c",
+    "embodied-070": "g-29806f9725513e2c",
+    "embodied-071": "g-29806f9725513e2c",
+    "embodied-072": "g-29806f9725513e2c",
+    "embodied-073": "g-29806f9725513e2c",
+    "embodied-074": "g-b8860b594aeb1f0d",
+    "embodied-075": "g-29806f9725513e2c"
+  },
+  "same_intent_and_image_components": true,
+  "near_image_hamming_threshold": 4,
+  "generic_question_not_grouped": "Identical generic questions occur with both labels; original scene/intent and image determine grouping"
+}

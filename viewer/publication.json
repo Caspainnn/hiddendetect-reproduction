@@ -275,6 +275,9 @@
     "results/pure-oc/verification.json"
   ],
   "frozen_conflicts": [],
-  "latest_run": "EI-C1",
-  "latest_run_verification": "results/ei2-centroid/verification.json"
+  "latest_run": "EI-IM1",
+  "latest_run_verification": null,
+  "latest_run_status": "incomplete_unverified",
+  "latest_run_progress": "docs/ei2-images-progress.json",
+  "latest_verified_run": "EI-C1"
 }

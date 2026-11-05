@@ -1,5 +1,9 @@
 # 研究方向唯一登记表
 
+## EI-2-8：原F＋用户图片补充信息（EI-IM1执行中）
+
+当前EI-V1/EI-C1前向传入images=None，未使用用户图片；新方向先建立真实图文清单，以同批图文F_mm的14F＋L2为主基线。不能将旧文字F或旧成绩作为图文基线。五项均保留F_mm，分别增加图片整体摘要、OCR/描述分支、有图无图差异、问题相关局部区域、图像扰动敏感度；正式编号EI-2-8-1～5，全部待验证。CLIP、Llama Guard 3 Vision、ECSO、SafeWatch、JailGuard等一手来源及具体对照见[梳理表与数据约束](ei2-image-information-design-2026-11-05.md)。用户后续已授权正式执行：EI-IM1源码fcf14b9冻结，公开MSSBench真实图文train640/dev172/cal82/test224/task152，126头拟合及独立重算按[执行协议](ei2-images-protocol-2026-11-05.md)进行；当前尚无已核验成绩。
+
 ## 当前质心与共同读取编号（2026-11-05）
 
 本节优先于后文历史EI-1质心、EI-3位置、EI-4选层的叫法。EI-2-7为F＋质心，EI-2-7-1是历史all64，EI-2-7-2为已完成EI-C1历史匹配验证的14F＋C14；EI-3-1仅质心，EI-3-1-1是历史C32，EI-3-1-2是待验证C14；EI-3-2为历史仅完整logits。CFG-1位置含CFG-1-1用户六位置、CFG-1-2模板末位探索/确认；CFG-2层范围含CFG-2-1原FDV、CFG-2-2直接穷举、CFG-2-3重采样。旧冻结键及结果不改。完整对照见[当前编号](experiment-numbering.md)与[机器登记](experiment-numbering.json)。

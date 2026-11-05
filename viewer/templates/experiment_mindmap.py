@@ -500,6 +500,58 @@ def pca_direction_children(original_four,original_row):
     return node('EI-2-3-1：手动指定方向数量',questions,id='ei-2-3-1',kind='direction'),rows
 
 
+def image_information_result(ident):
+    folder=REPO/'results/ei2-images'
+    if not (folder/'verification.json').exists() or not (folder/'input-coverage-audit.json').exists():return None
+    proof=json.loads((folder/'verification.json').read_text(encoding='utf-8'))
+    assert proof['passed'] and proof['run_id']=='EI-IM1' and proof['selected_entries_bound']==42
+    coverage=json.loads((folder/'input-coverage-audit.json').read_text(encoding='utf-8'));assert coverage['passed'] and coverage['evaluation_sha256']==proof['evaluation_sha256'] and coverage['rows_checked']==1270
+    for filename,key in [('evaluation.json','evaluation_sha256'),('scores.npz','scores_sha256'),('source-lock.json','source_lock_sha256')]:assert hashlib.sha256((folder/filename).read_bytes()).hexdigest()==proof[key]
+    data=json.loads((folder/'evaluation.json').read_text(encoding='utf-8'));assert data['all_five_executed']
+    diagnostic={'EI-2-8-1':['Noise14'],'EI-2-8-2':['OCR-only','Caption-only','Neutral-description'],'EI-2-8-3':['B-T','Neutral-image-delta'],'EI-2-8-4':['ROI-uniform','ROI-random'],'EI-2-8-5':['Noise14']}[ident]
+    texts=[];leaves=[];decisions=[]
+    def metric(label,b,m):return (f"结果（{label}）：AUROC {b['auroc']:.6f} → {m['auroc']:.6f}；低误报pAUC {b['pauc']:.6f} → {m['pauc']:.6f}\n检出率 {b['tpr']:.2%} → {m['tpr']:.2%}；误报率 {b['fpr']:.2%} → {m['fpr']:.2%}（基线{b['fp']}/{b['n_safe']}；候选{m['fp']}/{m['n_safe']}）")
+    leaves.append(node('实际设置：候选C='+str(data['selected'][ident]['C'])+'；同批B-MM的C='+str(data['selected']['B-MM']['C'])+'。同一冻结图文清单，train640/dev172/cal82；原14层末位、同L2头、每臂3C×3种子；不按留出集挑种子。',kind='method'))
+    for role,label in [('test','聊天留出224条、53关联组'),('task_test','跨任务留出152条、仅4关联组')]:
+        d=data['cohorts'][role];m=d[ident][0];text=metric(label+'；同批仅图文14F → 本候选',d['B-MM'][0],m);texts.append(text);leaves.append(node(text,kind='result'));c=d['comparisons'][ident];lo,hi=c['ci']
+        decision=('AUROC改善获主区间支持' if lo>0 else ('AUROC下降获主区间支持' if hi<0 else 'AUROC差异未确认')) if role=='test' else '仅作同源跨任务描述，4组不足以支持广泛泛化结论'
+        decisions.append(label+'：'+decision);leaves.append(node(f"证据：AUROC差{c['delta_auroc']:+.6f}；{c['confidence']:.0%}关联组配对区间[{lo:+.6f},{hi:+.6f}]。"+('五项主比较已校正。' if role=='test' else '描述性未校正，只有4个独立组。'),kind='evidence'))
+        for control in diagnostic:leaves.append(node(metric(label+'；辅助对照'+control+' → 本候选，仅描述性',d[control][0],m),kind='result'))
+    conclusion='；'.join(decisions)+'。这是情境安全介入检测，不是越狱成功率，也不表示所有危险情境都应拒答。'
+    leaves.extend([node('结论：'+conclusion,kind='evidence'),node('边界：真实图像与原F_mm均重取；旧C/RV/OR纯文本成绩不搬用。82条正常校准、阈值粒度较粗；同源跨任务不等于新来源。126次LR含63正式和63诊断；OCR/生成/多前向成本见报告。',kind='evidence')])
+    return leaves,'\n'.join(texts),conclusion
+
+
+def image_information_plan():
+    """Design registration only: no result loader or experiment invocation."""
+    source='docs/ei2-image-information-design-2026-11-05.md'
+    path=REPO/source
+    if not path.exists():return [],[]
+    questions,rows=[],[]
+    for line in path.read_text(encoding='utf-8').splitlines():
+        fields=[value.strip() for value in line.strip().strip('|').split('|')]
+        if len(fields)!=7 or not re.fullmatch(r'EI-2-8-[1-5]',fields[0]):continue
+        ident,why,added,how,control,cost,stage=fields
+        title={'EI-2-8-1':'原F＋图片整体特征','EI-2-8-2':'原F＋图片转文字分支','EI-2-8-3':'原F＋有图无图差异','EI-2-8-4':'原F＋问题相关局部区域','EI-2-8-5':'原F＋图片扰动敏感度'}[ident]
+        result='结果：待验证；AUROC、低误报pAUC、检出率、误报率与误报条数均无新成绩。'
+        boundary='真实图片与文字一起前向得到原14F_mm；主对照仅同批F_mm＋同L2头。旧纯文本6582条成绩不倒填。固定0基16～29层、末位与标签/调参预算；质心/PCA/标准化只fit训练。每项增加14个有效特征，额外模型与前向成本另列。'
+        leaves=[node('新增信息：'+added,kind='method'),node('方法：'+how,kind='method'),node('直接对照：'+control,kind='evidence'),node('成本与安排：'+cost+'；'+stage,kind='evidence'),node(result,kind='result'),node('结论：待验证；这是文献启发的本项目改编，不是已确认的论文复现成绩。',kind='evidence'),node('共同设置：'+boundary,kind='evidence')]
+        status='待验证';batch='仅设计，未运行；'+boundary+'成本：'+cost;conclusion='待验证；'+stage;row_source=source;actual=image_information_result(ident)
+        if actual:
+            leaves=[leaf for leaf in leaves if leaf.get('kind')!='result' and not leaf['label'].startswith('结论：')];leaves.extend(actual[0]);result=actual[1];conclusion=actual[2];status='图文留出验证完成';batch='EI-IM1；真实图文、按关联组留出；126头与42最终条目绑定，全部五项及诊断已核验；'+boundary;row_source='results/ei2-images/report-2026-11-05.md'
+            for leaf in leaves:
+                if leaf['label'].startswith('成本与安排：'):leaf['label']=leaf['label'].replace('待验证','本轮已执行（原安排保留追溯）')
+        elif (REPO/'docs/ei2-images-progress.json').exists():
+            progress=json.loads((REPO/'docs/ei2-images-progress.json').read_text(encoding='utf-8'))
+            if progress.get('status') in ['running','verifying','preparing']:
+                status='执行中';result='结果：待验证；EI-IM1已冻结并启动，尚无通过独立核验的新成绩。';batch='EI-IM1执行中，train640/dev172/cal82/test224/task152；'+boundary;leaves=[leaf for leaf in leaves if leaf.get('kind')!='result']+[node(result,kind='result')]
+        questions.append(node(why,[node(ident+'：'+title,leaves,id=ident.lower(),kind='experiment')],id=ident.lower()+'-question',kind='question'))
+        rows.append(dict(topic='image-information',group='EI',name=ident+'：'+title,why=why,how=how,metrics=comparison_html(result),batch=batch,verdict=conclusion,status=status,source=row_source))
+    assert len(questions)==5,'Five planned image-information experiments must be registered'
+    direction=node('EI-2-8：原F＋用户图片补充信息',questions,id='ei-2-8',kind='direction')
+    return [node('除了末位拒绝信号，真实图片还能提供什么线索？',[direction],id='ei-2-8-question',kind='question')],rows
+
+
 def build_ei2():
     """Keep the registered six questions; attach matched results when verified."""
     path=ROOT/'docs/vocabulary-design.md'
@@ -562,6 +614,7 @@ def build_ei2():
     assert len(questions)==len(rows)==6
     rows.extend(child_rows)
     rows.extend(automatic_rows)
+    image_questions,image_rows=image_information_plan();questions.extend(image_questions);rows.extend(image_rows)
     return questions,rows
 
 
