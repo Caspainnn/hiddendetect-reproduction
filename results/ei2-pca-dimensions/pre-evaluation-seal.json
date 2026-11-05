@@ -1,0 +1,23 @@
+{
+  "source_lock": "17e214649a503fb02630b241802c18c9504aa01c5092f18a7311759d19150ece",
+  "transform": "8a2f722a581c07f3dea8156077a89d6c2fccf3e7c7c579cc290c9bc2bc2cbde5",
+  "models": {
+    "EI-2-3-1": "94dcdfdd7874debbada88323e44846b7dc524f0a11c5b077359b0c7c5a596dc0",
+    "EI-2-3-2": "38127c3c6fa4238fdfdef2511dad1fa9642e258ae03bc1ffd70212eec34c779d",
+    "K4": "ad4d9e903ca2eae9c280d8ef0c6c9326c7958eb015f6f476f79a4f36009b2e99",
+    "EI-2-3-3": "512d98d0fffffd666b4bd43b876d51b39e3e934bfca2396d78a32ec8fd45d967",
+    "Noise-1": "42fa38ad4240b93dc97abcececbb0e515e6c3d9dcb4bead6d57cf73948427a84",
+    "Noise-2": "af6f3ed3709f493eda8a506965ec688bf58ddc185a1a802c4abeb62a968cdc95",
+    "Noise-8": "a94ae775ebff98275e15985abe95446e7f2c8a03e8448fd17453fa1204729168"
+  },
+  "selected_C": {
+    "EI-2-3-1": 10.0,
+    "EI-2-3-2": 10.0,
+    "K4": 10.0,
+    "EI-2-3-3": 10.0,
+    "Noise-1": 10.0,
+    "Noise-2": 10.0,
+    "Noise-8": 0.1
+  },
+  "before_new_evaluation_projection": true
+}
