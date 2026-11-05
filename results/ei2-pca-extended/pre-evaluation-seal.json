@@ -1,0 +1,21 @@
+{
+  "source_lock": "93856c7b0a36864dd6c6d9e2fe231173d1647c9a1fa131a813297f0a56f5c83f",
+  "transform": "2df72326b9fdc1128682f475228396321e01bbeff040f86c724899ded2f7689b",
+  "models": {
+    "K4": "8b7168447c8bcd343855411e2f265e2833f1e518255f76d237f7588d1e453a15",
+    "K8": "c7e1c9055764a24594b99511b29f07d24415739375de7634fb8c8b1ed08721b8",
+    "EI-2-3-4": "b5c2b44f50e696a8d29f92f4d3c7a19b3870bf2f712089a91b61e9c59af158f5",
+    "EI-2-3-5": "9a6fad937830640f39ac46e69013b646f60c419ad362daeb8f8572f32be84410",
+    "Noise-16": "37261c63d49f60992df142578a8d05e7f5800f6127468bf93db070aeacc20d40",
+    "Noise-32": "3a1b977f1bd9a1db09cb5f6a0ee1f622f93e221262c811ff4494e7367d362fcb"
+  },
+  "selected_C": {
+    "K4": 10.0,
+    "K8": 10.0,
+    "EI-2-3-4": 10.0,
+    "EI-2-3-5": 10.0,
+    "Noise-16": 0.1,
+    "Noise-32": 0.1
+  },
+  "before_new_evaluation_projection": true
+}

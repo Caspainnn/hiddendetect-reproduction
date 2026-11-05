@@ -1,0 +1,22 @@
+{
+  "run_id": "EI-PCA2",
+  "source_commit": "7611f0bccf708754188ebca55a8864e6f40f90f6",
+  "sources": {
+    "configs/ei2-pca-extended/test_contract.py": "387b38d9880e0104d1b1283bae8303b5a44953d453dc7ddd667bfc20e7e9a3e0",
+    "configs/ei2-pca-extended/run.py": "85de342e78156193e0fb36f271cbdae38d856b3730619f307a6201a27a567751",
+    "configs/ei2-pca-extended/verify.py": "0a67b275306957e14fa5298958433b5c3c251e9f0e87c4376c37501b104cc897",
+    "docs/ei2-pca-extended-protocol-2026-11-05.md": "8005e226444c0ffb85c16d3e8ac8239a0a94d42cc5d488fe9dc4d55693d73143",
+    "configs/ei2-vocabulary/core.py": "59953b6fac7c212c081f50344fe1f30cbfc73e491a8c54aaadd1c7b73a74a49b",
+    "configs/ei2-vocabulary/verify.py": "8447ce3fe192c139371ed46e82d893a1edf9ca80d1481ce0ba86d44333a96b17"
+  },
+  "parent_verification": "ad6a8e142ba296b8e19dd0005e6bc5ee991a1b7e23875987fcb951ab781b44ed",
+  "parent_manifest": "6189cf81050c7b4dba2cf1f49dcff4001d6ac0a24b67dc984ab2f228aa089a0f",
+  "previous_verification": "77b2fd26b2ced9275e60052ae1caa345a988cc521ce8cd23a2fa40bbdc65dfbb",
+  "history_only": true,
+  "names": {
+    "K4": 4,
+    "K8": 8,
+    "EI-2-3-4": 16,
+    "EI-2-3-5": 32
+  }
+}

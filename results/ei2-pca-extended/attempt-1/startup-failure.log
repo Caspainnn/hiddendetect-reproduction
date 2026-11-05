@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/u2026110998/HiddenDetect-reproduction/cache/ei2-pca-extended-worktree/configs/ei2-pca-extended/run.py", line 108, in <module>
+    if __name__=='__main__':main()
+  File "/home/u2026110998/HiddenDetect-reproduction/cache/ei2-pca-extended-worktree/configs/ei2-pca-extended/run.py", line 39, in main
+    for p in paths:assert p.read_bytes()==subprocess.check_output(['git','-C',str(ROOT),'show','HEAD:'+p.relative_to(ROOT).as_posix()])
+AssertionError
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "<string>", line 1, in <listcomp>
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/u2026110998/HiddenDetect-reproduction/env/bin/python', '-u', '/home/u2026110998/HiddenDetect-reproduction/cache/ei2-pca-extended-worktree/configs/ei2-pca-extended/run.py']' returned non-zero exit status 1.

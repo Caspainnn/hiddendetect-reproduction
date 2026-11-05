@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "evaluation_sha256": "28debc00e0e3a033b4edd9722f35cb9ff405ca18611398ad0292094b1940d280",
+  "scores_sha256": "d3ea95302f8d731d830a41ecae9e68dfb855dff12de5ba8d1344419cb591ec8e",
+  "source_lock_sha256": "93856c7b0a36864dd6c6d9e2fe231173d1647c9a1fa131a813297f0a56f5c83f",
+  "verify_code_sha256": "0a67b275306957e14fa5298958433b5c3c251e9f0e87c4376c37501b104cc897",
+  "rows": 6582,
+  "fits": 54,
+  "prediction_max_difference": 0.0,
+  "old_parent_score_reproduction_max_difference": 0.0,
+  "all_primary_intervals_independently_recomputed": true,
+  "capacity": {
+    "K4": {
+      "raw_dimension": 70,
+      "interface_dimension": 512,
+      "parameters_including_intercept": 513,
+      "rank_train": 70
+    },
+    "K8": {
+      "raw_dimension": 126,
+      "interface_dimension": 512,
+      "parameters_including_intercept": 513,
+      "rank_train": 126
+    },
+    "EI-2-3-4": {
+      "raw_dimension": 238,
+      "interface_dimension": 512,
+      "parameters_including_intercept": 513,
+      "rank_train": 238
+    },
+    "EI-2-3-5": {
+      "raw_dimension": 462,
+      "interface_dimension": 512,
+      "parameters_including_intercept": 513,
+      "rank_train": 462
+    },
+    "Noise-16": {
+      "raw_dimension": 238,
+      "interface_dimension": 512,
+      "parameters_including_intercept": 513,
+      "rank_train": 238
+    },
+    "Noise-32": {
+      "raw_dimension": 462,
+      "interface_dimension": 512,
+      "parameters_including_intercept": 513,
+      "rank_train": 462
+    }
+  },
+  "seconds": 58.83991141244769
+}
