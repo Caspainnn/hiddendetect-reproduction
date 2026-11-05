@@ -1,0 +1,15 @@
+{
+  "training_source_commit": "6678dab70476d41a47c93b198f17581bda94d461",
+  "evaluation_sha256_unchanged": "92cd29ce2e4c4da69764c50ae4982214304222e673b4705c108c709939f2ee24",
+  "scores_sha256_unchanged": "b9f673d30ad3c02b0353f8744c9ce91358d275e600df0a9849b90d3b3a0bb820",
+  "old_verify_code_sha256": "e543cb956fee32435ec3cc954e4d8da6059ce1c268d5aafe16298ebf58623305",
+  "failure_log_sha256": "9e5e9390f951a0b5a6499ed27deaf016861f25d51ee4e69e3f3821c85045aabf",
+  "new_source_sha256": {
+    "configs/ei2-pca-uncapped/verify-v2.py": "51c0c0ae40fbc5ba0adc5990f967c137100b8e8de14d0fe0c8f76513d4014e59",
+    "configs/ei2-pca-uncapped/gate_audit.py": "0fbbfe845c2d8b13aa655ef60740a8ac6b122ee769f8d2eddfdca8b886d33bbf",
+    "configs/ei2-pca-uncapped/test_gate_numerics.py": "33fe0504143d4932d9aa544862b68babe14e7e8537daa780a8783ad00d4576fb",
+    "docs/ei2-pca-uncapped-verification-repair-2026-11-05.md": "cefba0a50c1ac4c72c04f17edac1eac8a1010fc3ccbc000af52e278711b8614a"
+  },
+  "model_retraining": false,
+  "selection_or_threshold_changes": false
+}
