@@ -1,0 +1,18 @@
+{
+  "run_id": "EI-C1",
+  "source_commit": "9092732da73b9cf66b5c4b376d0c025e02fe7d26",
+  "sources": {
+    "configs/ei2-centroid/test_contract.py": "372d13d9c5a86d3041f52690e7348ffa0503a6b5322597e6aaa8496b76a11301",
+    "configs/ei2-centroid/run.py": "d75b5741a6fddf1768107eedb2b3fc1e1cfcb270888b36635c28b355501beda3",
+    "configs/ei2-centroid/report.py": "9971ba1c3a8540cf2633a7081a4edf646692c17a454803e42e8326b9ebaf2d71",
+    "configs/ei2-centroid/core.py": "6f498d13ee352b1ddc0e790347aff422227b58aeeb36bd0cf3b4433aa98c8671",
+    "configs/ei2-centroid/verify.py": "0e98fe6e73a6339a5b887d70614f087ddd92541dcdc3895bb7972baaaf304384",
+    "configs/ei2-vocabulary/core.py": "59953b6fac7c212c081f50344fe1f30cbfc73e491a8c54aaadd1c7b73a74a49b",
+    "configs/ei2-vocabulary/verify.py": "8447ce3fe192c139371ed46e82d893a1edf9ca80d1481ce0ba86d44333a96b17",
+    "docs/ei2-centroid-protocol-2026-11-05.md": "13cb155aaf345d73ec3f5564d82a7ff18d90bb5e763f6a7ebd7a3d88cff4c152"
+  },
+  "parent_manifest": "6189cf81050c7b4dba2cf1f49dcff4001d6ac0a24b67dc984ab2f228aa089a0f",
+  "parent_evaluation": "22d3ed6db1b79e7a4a7a03a32443c61ed9e248cd8c18d47eb67513b7db98b702",
+  "F": "34dbf4193ebdd4f9f1ac925a085a746ab0a8a6d6d97943bc64a7876e84e0639f",
+  "history_only": true
+}

@@ -1,0 +1,49 @@
+{
+  "completed": 6582,
+  "hidden_shape": [
+    6582,
+    14,
+    4096
+  ],
+  "dtype": "float16",
+  "F_max_difference": 0.0,
+  "H_sha256": "39f7d12a251d893d239a8b1eb36a2c426340c3b92c554bf13c93d59ffb6b1be5",
+  "forward_F_sha256": "34dbf4193ebdd4f9f1ac925a085a746ab0a8a6d6d97943bc64a7876e84e0639f",
+  "input_ids_checked": 6582,
+  "hidden_state_indices": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "decoder_layers_0based": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "position": "template last",
+  "torch": "2.1.2+cu121",
+  "author_commit": "2fd161b1fc47c99b36fe0a299ec64ff0b816f0bb",
+  "artifact_lock_sha256": "9376f884cc88facd00b464635259a9308209ce5f7b354d10fd187d8f7ccc8349"
+}

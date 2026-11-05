@@ -1,0 +1,299 @@
+[
+  {
+    "name": "B-F",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.8092666666666668,
+    "path": "cache/ei2-centroid/B-F-C0.1-S20261104.joblib",
+    "sha256": "596df6b2a500a1404ac9e62c38fab77a84af879ff1d429b6c2ecf120c3dc2f80",
+    "n_iter": [
+      4
+    ]
+  },
+  {
+    "name": "B-F",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.8092666666666668,
+    "path": "cache/ei2-centroid/B-F-C0.1-S20261105.joblib",
+    "sha256": "50bb2886093572412719d3d2331f197dd8a8c3dd6948e5822e74e35bd2d45c40",
+    "n_iter": [
+      4
+    ]
+  },
+  {
+    "name": "B-F",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.8092666666666668,
+    "path": "cache/ei2-centroid/B-F-C0.1-S20261106.joblib",
+    "sha256": "eb95e135f5a04e931fd99adf8841c64fb0381fe3278c1ca61f877fc1e46c3aef",
+    "n_iter": [
+      4
+    ]
+  },
+  {
+    "name": "B-F",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.8150222222222223,
+    "path": "cache/ei2-centroid/B-F-C1.0-S20261104.joblib",
+    "sha256": "017b6c4d432794f72715f07cacdbaaae392a43d1770970781ac8b87b279dac05",
+    "n_iter": [
+      5
+    ]
+  },
+  {
+    "name": "B-F",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.8150222222222223,
+    "path": "cache/ei2-centroid/B-F-C1.0-S20261105.joblib",
+    "sha256": "f32f0e092d8d556b7ab318a4e1d3625505be7fb8ff9c872e26d84a18da1cbd0e",
+    "n_iter": [
+      5
+    ]
+  },
+  {
+    "name": "B-F",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.8150222222222223,
+    "path": "cache/ei2-centroid/B-F-C1.0-S20261106.joblib",
+    "sha256": "fa4de8becb6ff5c5643838838c9b81d9628076ef930a389778d14eaff6fff621",
+    "n_iter": [
+      5
+    ]
+  },
+  {
+    "name": "B-F",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.8161666666666667,
+    "path": "cache/ei2-centroid/B-F-C10.0-S20261104.joblib",
+    "sha256": "f20f393ab32468873c2753d1f88161101fc1a9e80b452d74f73a13a587991650",
+    "n_iter": [
+      6
+    ]
+  },
+  {
+    "name": "B-F",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.8161666666666667,
+    "path": "cache/ei2-centroid/B-F-C10.0-S20261105.joblib",
+    "sha256": "d78eac57fa4bb87573bfb606e16c012a6a0bfb107b626adc6a9c94c64094a6c2",
+    "n_iter": [
+      6
+    ]
+  },
+  {
+    "name": "B-F",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.8161666666666667,
+    "path": "cache/ei2-centroid/B-F-C10.0-S20261106.joblib",
+    "sha256": "9dc6aa08b3d1032f00efa348abfb651ff5805b0dcd153354be11597c824c9247",
+    "n_iter": [
+      6
+    ]
+  },
+  {
+    "name": "EI-2-7-2",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.8591666666666666,
+    "path": "cache/ei2-centroid/EI-2-7-2-C0.1-S20261104.joblib",
+    "sha256": "9c7c1a090ed9942eaee0277c8460e84191e495296cde61a89478c70c24702359",
+    "n_iter": [
+      4
+    ]
+  },
+  {
+    "name": "EI-2-7-2",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.8591666666666666,
+    "path": "cache/ei2-centroid/EI-2-7-2-C0.1-S20261105.joblib",
+    "sha256": "7ff98da7be158dc44e4a056e8341b3020278c4df61eecd4104821d78f34a11e5",
+    "n_iter": [
+      4
+    ]
+  },
+  {
+    "name": "EI-2-7-2",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.8591666666666666,
+    "path": "cache/ei2-centroid/EI-2-7-2-C0.1-S20261106.joblib",
+    "sha256": "eb9d346693e7a7d87326064d0cd5f61f062a7068224e62ea4c2b658c3553aad8",
+    "n_iter": [
+      4
+    ]
+  },
+  {
+    "name": "EI-2-7-2",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.8638333333333332,
+    "path": "cache/ei2-centroid/EI-2-7-2-C1.0-S20261104.joblib",
+    "sha256": "0919afb759bd2a3721697044341490ade090276d5958598cc5a57a2abcc8cd7f",
+    "n_iter": [
+      6
+    ]
+  },
+  {
+    "name": "EI-2-7-2",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.8638333333333332,
+    "path": "cache/ei2-centroid/EI-2-7-2-C1.0-S20261105.joblib",
+    "sha256": "c5957e6e74b2cb7af6e56ef79222c21e5c1cd3a6eb9a47b0cd2ef1b0fc3d3dea",
+    "n_iter": [
+      6
+    ]
+  },
+  {
+    "name": "EI-2-7-2",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.8638333333333332,
+    "path": "cache/ei2-centroid/EI-2-7-2-C1.0-S20261106.joblib",
+    "sha256": "c085b113cb4c1de8836a5bef38aa184fdebbf395b537000ed90abe023a1a39a6",
+    "n_iter": [
+      6
+    ]
+  },
+  {
+    "name": "EI-2-7-2",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.8668555555555556,
+    "path": "cache/ei2-centroid/EI-2-7-2-C10.0-S20261104.joblib",
+    "sha256": "40f55eb3874af0373783f1048ad70c14063323f5aee045ff0c9e8c0b4c0b9b94",
+    "n_iter": [
+      8
+    ]
+  },
+  {
+    "name": "EI-2-7-2",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.8668555555555556,
+    "path": "cache/ei2-centroid/EI-2-7-2-C10.0-S20261105.joblib",
+    "sha256": "f0e972a311fffaa982d9c92aa7b0dae6b47b635df8710345aa9c194b5dc77bd4",
+    "n_iter": [
+      8
+    ]
+  },
+  {
+    "name": "EI-2-7-2",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.8668555555555556,
+    "path": "cache/ei2-centroid/EI-2-7-2-C10.0-S20261106.joblib",
+    "sha256": "25a61e2d9ebc44b77e8052fe1f0b9bf2c12fd6f3b59d4fc30dc860af77219718",
+    "n_iter": [
+      8
+    ]
+  },
+  {
+    "name": "Noise",
+    "C": 0.1,
+    "seed": 20261104,
+    "dev_auroc": 0.8106333333333334,
+    "path": "cache/ei2-centroid/Noise-C0.1-S20261104.joblib",
+    "sha256": "d26e2d2a4b8a1fe42da0ca715cdcdf26f463d4fd34d718f9e1ef33d652142794",
+    "n_iter": [
+      4
+    ]
+  },
+  {
+    "name": "Noise",
+    "C": 0.1,
+    "seed": 20261105,
+    "dev_auroc": 0.8106333333333334,
+    "path": "cache/ei2-centroid/Noise-C0.1-S20261105.joblib",
+    "sha256": "e7697737a3cc7150cfce1490973db15184d7cf211b04430db61bc0d4e4447454",
+    "n_iter": [
+      4
+    ]
+  },
+  {
+    "name": "Noise",
+    "C": 0.1,
+    "seed": 20261106,
+    "dev_auroc": 0.8106333333333334,
+    "path": "cache/ei2-centroid/Noise-C0.1-S20261106.joblib",
+    "sha256": "a27d00681ebeefb4bbf4586004a2762ca712a8621e35ff02d94955ad6cd5af6a",
+    "n_iter": [
+      4
+    ]
+  },
+  {
+    "name": "Noise",
+    "C": 1.0,
+    "seed": 20261104,
+    "dev_auroc": 0.8166666666666667,
+    "path": "cache/ei2-centroid/Noise-C1.0-S20261104.joblib",
+    "sha256": "831d45d5b496cbb07e5fbc578f9878bc986ae427b34c7e255c65671dcdda42bb",
+    "n_iter": [
+      5
+    ]
+  },
+  {
+    "name": "Noise",
+    "C": 1.0,
+    "seed": 20261105,
+    "dev_auroc": 0.8166666666666667,
+    "path": "cache/ei2-centroid/Noise-C1.0-S20261105.joblib",
+    "sha256": "5bac89fbc05792539f5d19d24d8673bbc9fb7465307fed36e834f0c1ada84ab5",
+    "n_iter": [
+      5
+    ]
+  },
+  {
+    "name": "Noise",
+    "C": 1.0,
+    "seed": 20261106,
+    "dev_auroc": 0.8166666666666667,
+    "path": "cache/ei2-centroid/Noise-C1.0-S20261106.joblib",
+    "sha256": "036c985d9c320e6ac25c6b5edf42c16b0c6a90bde0565d37e17ea20661471488",
+    "n_iter": [
+      5
+    ]
+  },
+  {
+    "name": "Noise",
+    "C": 10.0,
+    "seed": 20261104,
+    "dev_auroc": 0.8173555555555555,
+    "path": "cache/ei2-centroid/Noise-C10.0-S20261104.joblib",
+    "sha256": "388abd772b2037b473807f2269a863b0e4aee65adc03aeb72ea5a3d0a987d88f",
+    "n_iter": [
+      6
+    ]
+  },
+  {
+    "name": "Noise",
+    "C": 10.0,
+    "seed": 20261105,
+    "dev_auroc": 0.8173555555555555,
+    "path": "cache/ei2-centroid/Noise-C10.0-S20261105.joblib",
+    "sha256": "2fba11cb0ec78f13f7963783e21783a97c265336d123284a4398d7bd54dbe5e7",
+    "n_iter": [
+      6
+    ]
+  },
+  {
+    "name": "Noise",
+    "C": 10.0,
+    "seed": 20261106,
+    "dev_auroc": 0.8173555555555555,
+    "path": "cache/ei2-centroid/Noise-C10.0-S20261106.joblib",
+    "sha256": "ee0ac82b5cb3b9559321f3166ee039574e0f29ca0568ace3b54f543b64206f71",
+    "n_iter": [
+      6
+    ]
+  }
+]
