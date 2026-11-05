@@ -1,0 +1,4259 @@
+{
+  "run_id": "OC-O1",
+  "search": {
+    "OC-4-1-3": [
+      {
+        "param": {
+          "C": 0.001
+        },
+        "mean_dev_pauc": 0.68906432748538,
+        "runs": [
+          {
+            "id": "OC-4-1-3",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": {
+              "C": 0.001
+            },
+            "dev_pauc": 0.68906432748538,
+            "path": "cache/oc4-original/models/OC-4-1-3-0-20261104.joblib",
+            "sha256": "e60c1addfd91b7290bf334e7078cc388b360c3dc115706aa82a268ebe1c2b30e",
+            "cost": {
+              "seconds": 0.0037014010013081133,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 0.01
+        },
+        "mean_dev_pauc": 0.678888888888889,
+        "runs": [
+          {
+            "id": "OC-4-1-3",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": {
+              "C": 0.01
+            },
+            "dev_pauc": 0.678888888888889,
+            "path": "cache/oc4-original/models/OC-4-1-3-1-20261104.joblib",
+            "sha256": "d820982ba4da4138e567a25e83a6158374d7b645ceac19376f48740696e9b95b",
+            "cost": {
+              "seconds": 0.0034340579877607524,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 0.1
+        },
+        "mean_dev_pauc": 0.6758479532163743,
+        "runs": [
+          {
+            "id": "OC-4-1-3",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": {
+              "C": 0.1
+            },
+            "dev_pauc": 0.6758479532163743,
+            "path": "cache/oc4-original/models/OC-4-1-3-2-20261104.joblib",
+            "sha256": "f0c886de4b20a0b22ccba8cd6719e517a3549677832e8744a86d8b85d5bd67d5",
+            "cost": {
+              "seconds": 0.0039045329904183745,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 1.0
+        },
+        "mean_dev_pauc": 0.6763157894736842,
+        "runs": [
+          {
+            "id": "OC-4-1-3",
+            "seed": 20261104,
+            "candidate": 3,
+            "param": {
+              "C": 1.0
+            },
+            "dev_pauc": 0.6763157894736842,
+            "path": "cache/oc4-original/models/OC-4-1-3-3-20261104.joblib",
+            "sha256": "9f96a8db024ededeeda2ed626bae4eabbe5712d0b085c5f01c5492ba9dd11b6a",
+            "cost": {
+              "seconds": 0.004270848003216088,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 3.0
+        },
+        "mean_dev_pauc": 0.6763157894736842,
+        "runs": [
+          {
+            "id": "OC-4-1-3",
+            "seed": 20261104,
+            "candidate": 4,
+            "param": {
+              "C": 3.0
+            },
+            "dev_pauc": 0.6763157894736842,
+            "path": "cache/oc4-original/models/OC-4-1-3-4-20261104.joblib",
+            "sha256": "cc6f5a8a0ba0e29feab5490bc1a15105a87e3642cfe682752b5f909c894460d9",
+            "cost": {
+              "seconds": 0.0042615560232661664,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 10.0
+        },
+        "mean_dev_pauc": 0.676374269005848,
+        "runs": [
+          {
+            "id": "OC-4-1-3",
+            "seed": 20261104,
+            "candidate": 5,
+            "param": {
+              "C": 10.0
+            },
+            "dev_pauc": 0.676374269005848,
+            "path": "cache/oc4-original/models/OC-4-1-3-5-20261104.joblib",
+            "sha256": "5218422cd14aacba1960409326111e42bf73671bacb668ee1eddfa9c8890af62",
+            "cost": {
+              "seconds": 0.004238436988089234,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 30.0
+        },
+        "mean_dev_pauc": 0.676374269005848,
+        "runs": [
+          {
+            "id": "OC-4-1-3",
+            "seed": 20261104,
+            "candidate": 6,
+            "param": {
+              "C": 30.0
+            },
+            "dev_pauc": 0.676374269005848,
+            "path": "cache/oc4-original/models/OC-4-1-3-6-20261104.joblib",
+            "sha256": "4d422169a248f9f0e1b8520de73088a53f6d71d7c0dcb28d57cdf0b90c71b8c0",
+            "cost": {
+              "seconds": 0.004250954953022301,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 100.0
+        },
+        "mean_dev_pauc": 0.676374269005848,
+        "runs": [
+          {
+            "id": "OC-4-1-3",
+            "seed": 20261104,
+            "candidate": 7,
+            "param": {
+              "C": 100.0
+            },
+            "dev_pauc": 0.676374269005848,
+            "path": "cache/oc4-original/models/OC-4-1-3-7-20261104.joblib",
+            "sha256": "ae967af8ac2b42f14b535aa4bb278d380c290a5ec9bb4cd6c263ad7ab2adf4ff",
+            "cost": {
+              "seconds": 0.004201276984531432,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 1000.0
+        },
+        "mean_dev_pauc": 0.6764327485380117,
+        "runs": [
+          {
+            "id": "OC-4-1-3",
+            "seed": 20261104,
+            "candidate": 8,
+            "param": {
+              "C": 1000.0
+            },
+            "dev_pauc": 0.6764327485380117,
+            "path": "cache/oc4-original/models/OC-4-1-3-8-20261104.joblib",
+            "sha256": "244f64e4063b79274e3ae3efd0ca6f191a6bf16aab12938b5bf8548a610b8eea",
+            "cost": {
+              "seconds": 0.004208568949252367,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ],
+    "OC-4-1-3-1": [
+      {
+        "param": {
+          "C": 0.1,
+          "safe_weight": 1.0
+        },
+        "mean_dev_pauc": 0.6758479532163743,
+        "runs": [
+          {
+            "id": "OC-4-1-3-1",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": {
+              "C": 0.1,
+              "safe_weight": 1.0
+            },
+            "dev_pauc": 0.6758479532163743,
+            "path": "cache/oc4-original/models/OC-4-1-3-1-0-20261104.joblib",
+            "sha256": "fce96c70fff94e8a2cc559840674603f48fad82776667997424bcc8fc7ff7666",
+            "cost": {
+              "seconds": 0.0038461150252260268,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 0.1,
+          "safe_weight": 2.0
+        },
+        "mean_dev_pauc": 0.6772514619883041,
+        "runs": [
+          {
+            "id": "OC-4-1-3-1",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": {
+              "C": 0.1,
+              "safe_weight": 2.0
+            },
+            "dev_pauc": 0.6772514619883041,
+            "path": "cache/oc4-original/models/OC-4-1-3-1-1-20261104.joblib",
+            "sha256": "f70748854bfae7839936b76ad593516ca1b8d4ea722c3a80af927cf9b200c2b7",
+            "cost": {
+              "seconds": 0.0038798979949206114,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 0.1,
+          "safe_weight": 4.0
+        },
+        "mean_dev_pauc": 0.6771345029239766,
+        "runs": [
+          {
+            "id": "OC-4-1-3-1",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": {
+              "C": 0.1,
+              "safe_weight": 4.0
+            },
+            "dev_pauc": 0.6771345029239766,
+            "path": "cache/oc4-original/models/OC-4-1-3-1-2-20261104.joblib",
+            "sha256": "74f53f2f1ed87e61f5ea7646faa398a7eb0b7ed9d8f4283e1eef613955941ff7",
+            "cost": {
+              "seconds": 0.0036996619892306626,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 10.0,
+          "safe_weight": 1.0
+        },
+        "mean_dev_pauc": 0.676374269005848,
+        "runs": [
+          {
+            "id": "OC-4-1-3-1",
+            "seed": 20261104,
+            "candidate": 3,
+            "param": {
+              "C": 10.0,
+              "safe_weight": 1.0
+            },
+            "dev_pauc": 0.676374269005848,
+            "path": "cache/oc4-original/models/OC-4-1-3-1-3-20261104.joblib",
+            "sha256": "f58b9d0d705480d1c320d1cc4078219a746baee1209b98097015af1755d4c451",
+            "cost": {
+              "seconds": 0.00425177498254925,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 10.0,
+          "safe_weight": 2.0
+        },
+        "mean_dev_pauc": 0.6775438596491228,
+        "runs": [
+          {
+            "id": "OC-4-1-3-1",
+            "seed": 20261104,
+            "candidate": 4,
+            "param": {
+              "C": 10.0,
+              "safe_weight": 2.0
+            },
+            "dev_pauc": 0.6775438596491228,
+            "path": "cache/oc4-original/models/OC-4-1-3-1-4-20261104.joblib",
+            "sha256": "5f79ecb93b331822efb60177b6db8d121a4fb290b36ddbbac81e12b13e2db939",
+            "cost": {
+              "seconds": 0.003864575002808124,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 10.0,
+          "safe_weight": 4.0
+        },
+        "mean_dev_pauc": 0.6775438596491228,
+        "runs": [
+          {
+            "id": "OC-4-1-3-1",
+            "seed": 20261104,
+            "candidate": 5,
+            "param": {
+              "C": 10.0,
+              "safe_weight": 4.0
+            },
+            "dev_pauc": 0.6775438596491228,
+            "path": "cache/oc4-original/models/OC-4-1-3-1-5-20261104.joblib",
+            "sha256": "53062e07b30a33a3c12ac115cf4b6779bb9bc461f32cf145708d6c26811abf2a",
+            "cost": {
+              "seconds": 0.0035993659985251725,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 1000.0,
+          "safe_weight": 1.0
+        },
+        "mean_dev_pauc": 0.6764327485380117,
+        "runs": [
+          {
+            "id": "OC-4-1-3-1",
+            "seed": 20261104,
+            "candidate": 6,
+            "param": {
+              "C": 1000.0,
+              "safe_weight": 1.0
+            },
+            "dev_pauc": 0.6764327485380117,
+            "path": "cache/oc4-original/models/OC-4-1-3-1-6-20261104.joblib",
+            "sha256": "48988ca964fe6c52af1099f961d2a39dc4d17961bc0f342c993c90055a8a7407",
+            "cost": {
+              "seconds": 0.004197269969154149,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 1000.0,
+          "safe_weight": 2.0
+        },
+        "mean_dev_pauc": 0.6776023391812865,
+        "runs": [
+          {
+            "id": "OC-4-1-3-1",
+            "seed": 20261104,
+            "candidate": 7,
+            "param": {
+              "C": 1000.0,
+              "safe_weight": 2.0
+            },
+            "dev_pauc": 0.6776023391812865,
+            "path": "cache/oc4-original/models/OC-4-1-3-1-7-20261104.joblib",
+            "sha256": "4ab244117c84748055fbe1b9870d205fc7e38ab230ded318a8357226b6b1ffb0",
+            "cost": {
+              "seconds": 0.003898081020452082,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 1000.0,
+          "safe_weight": 4.0
+        },
+        "mean_dev_pauc": 0.6774853801169591,
+        "runs": [
+          {
+            "id": "OC-4-1-3-1",
+            "seed": 20261104,
+            "candidate": 8,
+            "param": {
+              "C": 1000.0,
+              "safe_weight": 4.0
+            },
+            "dev_pauc": 0.6774853801169591,
+            "path": "cache/oc4-original/models/OC-4-1-3-1-8-20261104.joblib",
+            "sha256": "4f0647a59abf2427e5fcf51b299098a39322a1741eece5487a3c38f88959b2b5",
+            "cost": {
+              "seconds": 0.0036090819630771875,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ],
+    "OC-4-1-3-2": [
+      {
+        "param": {
+          "C": 0.1,
+          "gamma": 0.01
+        },
+        "mean_dev_pauc": 0.6719298245614035,
+        "runs": [
+          {
+            "id": "OC-4-1-3-2",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": {
+              "C": 0.1,
+              "gamma": 0.01
+            },
+            "dev_pauc": 0.6719298245614035,
+            "path": "cache/oc4-original/models/OC-4-1-3-2-0-20261104.joblib",
+            "sha256": "f6ef68cf17d87d9634f013218b3be26f4cf6a1af2d73864359adaa837620d430",
+            "cost": {
+              "seconds": 0.0743439529906027,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 0.1,
+          "gamma": 0.1
+        },
+        "mean_dev_pauc": 0.6688888888888889,
+        "runs": [
+          {
+            "id": "OC-4-1-3-2",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": {
+              "C": 0.1,
+              "gamma": 0.1
+            },
+            "dev_pauc": 0.6688888888888889,
+            "path": "cache/oc4-original/models/OC-4-1-3-2-1-20261104.joblib",
+            "sha256": "da27047b4a994e4ca041a4dc9e3ecaeae8513ce6b05c2c428949d71d40440d16",
+            "cost": {
+              "seconds": 0.06589326699031517,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 0.1,
+          "gamma": 1.0
+        },
+        "mean_dev_pauc": 0.6042105263157895,
+        "runs": [
+          {
+            "id": "OC-4-1-3-2",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": {
+              "C": 0.1,
+              "gamma": 1.0
+            },
+            "dev_pauc": 0.6042105263157895,
+            "path": "cache/oc4-original/models/OC-4-1-3-2-2-20261104.joblib",
+            "sha256": "11ef2f682fdd363e368f2c715b02e606bd56f0e65bf01630a8cc10b5cdc06133",
+            "cost": {
+              "seconds": 0.07965378899825737,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 10.0,
+          "gamma": 0.01
+        },
+        "mean_dev_pauc": 0.675906432748538,
+        "runs": [
+          {
+            "id": "OC-4-1-3-2",
+            "seed": 20261104,
+            "candidate": 3,
+            "param": {
+              "C": 10.0,
+              "gamma": 0.01
+            },
+            "dev_pauc": 0.675906432748538,
+            "path": "cache/oc4-original/models/OC-4-1-3-2-3-20261104.joblib",
+            "sha256": "070b537a2319515e006ab07f588d701ac483e7ad0bf0540761abf1b3dabe41bf",
+            "cost": {
+              "seconds": 0.063532194995787,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 10.0,
+          "gamma": 0.1
+        },
+        "mean_dev_pauc": 0.6290643274853801,
+        "runs": [
+          {
+            "id": "OC-4-1-3-2",
+            "seed": 20261104,
+            "candidate": 4,
+            "param": {
+              "C": 10.0,
+              "gamma": 0.1
+            },
+            "dev_pauc": 0.6290643274853801,
+            "path": "cache/oc4-original/models/OC-4-1-3-2-4-20261104.joblib",
+            "sha256": "c776d8257bb078c56a8315ae18b4074d4828aa0914503b38601a45770d23ab44",
+            "cost": {
+              "seconds": 0.08643069496611133,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 10.0,
+          "gamma": 1.0
+        },
+        "mean_dev_pauc": 0.5911111111111111,
+        "runs": [
+          {
+            "id": "OC-4-1-3-2",
+            "seed": 20261104,
+            "candidate": 5,
+            "param": {
+              "C": 10.0,
+              "gamma": 1.0
+            },
+            "dev_pauc": 0.5911111111111111,
+            "path": "cache/oc4-original/models/OC-4-1-3-2-5-20261104.joblib",
+            "sha256": "58451476f6a52b98641d69fad7cd129cae526270347fddcdf021c48eeea6b740",
+            "cost": {
+              "seconds": 0.15343332500196993,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 1000.0,
+          "gamma": 0.01
+        },
+        "mean_dev_pauc": 0.6635087719298246,
+        "runs": [
+          {
+            "id": "OC-4-1-3-2",
+            "seed": 20261104,
+            "candidate": 6,
+            "param": {
+              "C": 1000.0,
+              "gamma": 0.01
+            },
+            "dev_pauc": 0.6635087719298246,
+            "path": "cache/oc4-original/models/OC-4-1-3-2-6-20261104.joblib",
+            "sha256": "058ecf70414b53a023c581b335372daaa74427e9d9ffcf93b0502d206e44e06d",
+            "cost": {
+              "seconds": 0.3269548459793441,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 1000.0,
+          "gamma": 0.1
+        },
+        "mean_dev_pauc": 0.622046783625731,
+        "runs": [
+          {
+            "id": "OC-4-1-3-2",
+            "seed": 20261104,
+            "candidate": 7,
+            "param": {
+              "C": 1000.0,
+              "gamma": 0.1
+            },
+            "dev_pauc": 0.622046783625731,
+            "path": "cache/oc4-original/models/OC-4-1-3-2-7-20261104.joblib",
+            "sha256": "070942ae5032d20271cd3736dd8b3675d79bb400b2fce04240fc425b3ff3074a",
+            "cost": {
+              "seconds": 1.9826840569730848,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 1000.0,
+          "gamma": 1.0
+        },
+        "mean_dev_pauc": 0.5678947368421052,
+        "runs": [
+          {
+            "id": "OC-4-1-3-2",
+            "seed": 20261104,
+            "candidate": 8,
+            "param": {
+              "C": 1000.0,
+              "gamma": 1.0
+            },
+            "dev_pauc": 0.5678947368421052,
+            "path": "cache/oc4-original/models/OC-4-1-3-2-8-20261104.joblib",
+            "sha256": "8ba19648090c6e995360d43aab7ec73ec9d85857bbb7a081732c3517cfa5f49c",
+            "cost": {
+              "seconds": 0.2169112529954873,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ],
+    "OC-4-1-3-3": [
+      {
+        "param": {
+          "C": 0.001
+        },
+        "mean_dev_pauc": 0.6576023391812865,
+        "runs": [
+          {
+            "id": "OC-4-1-3-3",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": {
+              "C": 0.001
+            },
+            "dev_pauc": 0.6576023391812865,
+            "path": "cache/oc4-original/models/OC-4-1-3-3-0-20261104.joblib",
+            "sha256": "e033aed2cbc28f69781a6574c65cf84b5efb1ea9addd94e6f8ecc967d2730f7b",
+            "cost": {
+              "seconds": 0.2888796590268612,
+              "solver": {
+                "iterations": 17,
+                "loss": 1.0000000653932541,
+                "xi": 0.9999999993634295,
+                "surrogate_gap": 6.602982460801599e-08,
+                "primal": 0.0010000000657115048,
+                "dual": 0.0009999999996122308,
+                "primal_dual_gap": 6.609927405767935e-11,
+                "beta": 0.1,
+                "negative_k": 80
+              }
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 0.01
+        },
+        "mean_dev_pauc": 0.5876608187134503,
+        "runs": [
+          {
+            "id": "OC-4-1-3-3",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": {
+              "C": 0.01
+            },
+            "dev_pauc": 0.5876608187134503,
+            "path": "cache/oc4-original/models/OC-4-1-3-3-1-20261104.joblib",
+            "sha256": "73b2a16d63c9bdf5ba217ac748bae700767d842549d23e838de5e0e1e4f581a7",
+            "cost": {
+              "seconds": 0.24176894698757678,
+              "solver": {
+                "iterations": 20,
+                "loss": 1.0000000652382564,
+                "xi": 0.9999999999503912,
+                "surrogate_gap": 6.528786511417195e-08,
+                "primal": 0.010000000652630604,
+                "dual": 0.009999999999751302,
+                "primal_dual_gap": 6.528793027038571e-10,
+                "beta": 0.1,
+                "negative_k": 80
+              }
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 0.1
+        },
+        "mean_dev_pauc": 0.5157894736842106,
+        "runs": [
+          {
+            "id": "OC-4-1-3-3",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": {
+              "C": 0.1
+            },
+            "dev_pauc": 0.5157894736842106,
+            "path": "cache/oc4-original/models/OC-4-1-3-3-2-20261104.joblib",
+            "sha256": "14c68f0845d1a9f91a93aaed2e1d182a3cbe013b9b4ebe446ecf6f0a715c6a7f",
+            "cost": {
+              "seconds": 0.2519077970064245,
+              "solver": {
+                "iterations": 21,
+                "loss": 1.0000000000000087,
+                "xi": 1.0,
+                "surrogate_gap": 8.659739592076221e-15,
+                "primal": 0.10000000000000087,
+                "dual": 0.10000000000000002,
+                "primal_dual_gap": 8.465450562766819e-16,
+                "beta": 0.1,
+                "negative_k": 80
+              }
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 1.0
+        },
+        "mean_dev_pauc": 0.48140350877192983,
+        "runs": [
+          {
+            "id": "OC-4-1-3-3",
+            "seed": 20261104,
+            "candidate": 3,
+            "param": {
+              "C": 1.0
+            },
+            "dev_pauc": 0.48140350877192983,
+            "path": "cache/oc4-original/models/OC-4-1-3-3-3-20261104.joblib",
+            "sha256": "5bcd4a5cee9ef9026006127e3d0924fb177e4518785d8ea55c72095f8968447e",
+            "cost": {
+              "seconds": 0.26156515802722424,
+              "solver": {
+                "iterations": 21,
+                "loss": 1.0000000000000016,
+                "xi": 1.0000000000000009,
+                "surrogate_gap": 6.661338147750939e-16,
+                "primal": 1.0000000000000016,
+                "dual": 1.0,
+                "primal_dual_gap": 1.5543122344752192e-15,
+                "beta": 0.1,
+                "negative_k": 80
+              }
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 3.0
+        },
+        "mean_dev_pauc": 0.5980701754385965,
+        "runs": [
+          {
+            "id": "OC-4-1-3-3",
+            "seed": 20261104,
+            "candidate": 4,
+            "param": {
+              "C": 3.0
+            },
+            "dev_pauc": 0.5980701754385965,
+            "path": "cache/oc4-original/models/OC-4-1-3-3-4-20261104.joblib",
+            "sha256": "22bedbd5d1659606843e313c3460b2c784e6c25547273811c39e881a1c5d220c",
+            "cost": {
+              "seconds": 0.3135575219639577,
+              "solver": {
+                "iterations": 26,
+                "loss": 1.0000000000000009,
+                "xi": 0.9999999999999999,
+                "surrogate_gap": 9.992007221626409e-16,
+                "primal": 3.0000000000000027,
+                "dual": 2.9999999999999996,
+                "primal_dual_gap": 3.1086244689504383e-15,
+                "beta": 0.1,
+                "negative_k": 80
+              }
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 10.0
+        },
+        "mean_dev_pauc": 0.47853801169590643,
+        "runs": [
+          {
+            "id": "OC-4-1-3-3",
+            "seed": 20261104,
+            "candidate": 5,
+            "param": {
+              "C": 10.0
+            },
+            "dev_pauc": 0.47853801169590643,
+            "path": "cache/oc4-original/models/OC-4-1-3-3-5-20261104.joblib",
+            "sha256": "3218e66f03695ad8cbec8182279e047af0fce6d7799f489766bb99dd0c89f19c",
+            "cost": {
+              "seconds": 0.3037040689960122,
+              "solver": {
+                "iterations": 25,
+                "loss": 1.0000000000000053,
+                "xi": 1.000000000000001,
+                "surrogate_gap": 4.218847493575595e-15,
+                "primal": 10.000000000000053,
+                "dual": 9.999999999999996,
+                "primal_dual_gap": 5.684341886080802e-14,
+                "beta": 0.1,
+                "negative_k": 80
+              }
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 30.0
+        },
+        "mean_dev_pauc": 0.5439766081871344,
+        "runs": [
+          {
+            "id": "OC-4-1-3-3",
+            "seed": 20261104,
+            "candidate": 6,
+            "param": {
+              "C": 30.0
+            },
+            "dev_pauc": 0.5439766081871344,
+            "path": "cache/oc4-original/models/OC-4-1-3-3-6-20261104.joblib",
+            "sha256": "8f823138781b1c8abfa7b83f1496baefda70058050a609d713dfdcb3930731e7",
+            "cost": {
+              "seconds": 0.5118778930045664,
+              "solver": {
+                "iterations": 41,
+                "loss": 1.0000000000000016,
+                "xi": 1.0000000000000002,
+                "surrogate_gap": 1.3322676295501878e-15,
+                "primal": 30.000000000000046,
+                "dual": 29.999999999999996,
+                "primal_dual_gap": 4.973799150320701e-14,
+                "beta": 0.1,
+                "negative_k": 80
+              }
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 100.0
+        },
+        "mean_dev_pauc": 0.5201169590643275,
+        "runs": [
+          {
+            "id": "OC-4-1-3-3",
+            "seed": 20261104,
+            "candidate": 7,
+            "param": {
+              "C": 100.0
+            },
+            "dev_pauc": 0.5201169590643275,
+            "path": "cache/oc4-original/models/OC-4-1-3-3-7-20261104.joblib",
+            "sha256": "cd2680d681eb5ce08bfd66331e53c7c42dd8cea2aefe4cb57969500965985414",
+            "cost": {
+              "seconds": 0.43331946700345725,
+              "solver": {
+                "iterations": 34,
+                "loss": 1.0000000000000004,
+                "xi": 1.0000000000000002,
+                "surrogate_gap": 2.220446049250313e-16,
+                "primal": 100.00000000000004,
+                "dual": 100.0,
+                "primal_dual_gap": 4.263256414560601e-14,
+                "beta": 0.1,
+                "negative_k": 80
+              }
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 1000.0
+        },
+        "mean_dev_pauc": 0.47941520467836257,
+        "runs": [
+          {
+            "id": "OC-4-1-3-3",
+            "seed": 20261104,
+            "candidate": 8,
+            "param": {
+              "C": 1000.0
+            },
+            "dev_pauc": 0.47941520467836257,
+            "path": "cache/oc4-original/models/OC-4-1-3-3-8-20261104.joblib",
+            "sha256": "2f45552bdd24c3cffffda7eb6297c2af4c1f4ad3a79357496610cc70bb46bdef",
+            "cost": {
+              "seconds": 0.7250875169993378,
+              "solver": {
+                "iterations": 50,
+                "loss": 1.0000000000000087,
+                "xi": 1.0000000000000004,
+                "surrogate_gap": 8.215650382226158e-15,
+                "primal": 1000.0000000000086,
+                "dual": 1000.0,
+                "primal_dual_gap": 8.640199666842818e-12,
+                "beta": 0.1,
+                "negative_k": 80
+              }
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ],
+    "linear-kernel-SVC": [
+      {
+        "param": {
+          "C": 0.001
+        },
+        "mean_dev_pauc": 0.6712865497076024,
+        "runs": [
+          {
+            "id": "linear-kernel-SVC",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": {
+              "C": 0.001
+            },
+            "dev_pauc": 0.6712865497076024,
+            "path": "cache/oc4-original/models/linear-kernel-SVC-0-20261104.joblib",
+            "sha256": "7778f08f0c6cef483291d78e7a467783d47a2e4e8458151f8009139008ede605",
+            "cost": {
+              "seconds": 0.05596112197963521,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 0.01
+        },
+        "mean_dev_pauc": 0.6854970760233918,
+        "runs": [
+          {
+            "id": "linear-kernel-SVC",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": {
+              "C": 0.01
+            },
+            "dev_pauc": 0.6854970760233918,
+            "path": "cache/oc4-original/models/linear-kernel-SVC-1-20261104.joblib",
+            "sha256": "7561f081d771cebfeaae2098229163e5d1fd188bdee5488144921436a5c312c0",
+            "cost": {
+              "seconds": 0.0487847660551779,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 0.1
+        },
+        "mean_dev_pauc": 0.6724561403508772,
+        "runs": [
+          {
+            "id": "linear-kernel-SVC",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": {
+              "C": 0.1
+            },
+            "dev_pauc": 0.6724561403508772,
+            "path": "cache/oc4-original/models/linear-kernel-SVC-2-20261104.joblib",
+            "sha256": "298449b98a0509f5a78d594a2625af232fdda86437e143485b1c5c1d95a6525c",
+            "cost": {
+              "seconds": 0.05128800397505984,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 1.0
+        },
+        "mean_dev_pauc": 0.6729239766081871,
+        "runs": [
+          {
+            "id": "linear-kernel-SVC",
+            "seed": 20261104,
+            "candidate": 3,
+            "param": {
+              "C": 1.0
+            },
+            "dev_pauc": 0.6729239766081871,
+            "path": "cache/oc4-original/models/linear-kernel-SVC-3-20261104.joblib",
+            "sha256": "98934700ed337c8d386e47606380e80c7965b886c21809611bb9c034bb54a993",
+            "cost": {
+              "seconds": 0.09107534302165732,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 3.0
+        },
+        "mean_dev_pauc": 0.674093567251462,
+        "runs": [
+          {
+            "id": "linear-kernel-SVC",
+            "seed": 20261104,
+            "candidate": 4,
+            "param": {
+              "C": 3.0
+            },
+            "dev_pauc": 0.674093567251462,
+            "path": "cache/oc4-original/models/linear-kernel-SVC-4-20261104.joblib",
+            "sha256": "47e6bd91a010c9b4ebeeb38a3c8bc0daba1da2030088d7b03d1c202b263d23a0",
+            "cost": {
+              "seconds": 0.17705706600099802,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 10.0
+        },
+        "mean_dev_pauc": 0.6752631578947368,
+        "runs": [
+          {
+            "id": "linear-kernel-SVC",
+            "seed": 20261104,
+            "candidate": 5,
+            "param": {
+              "C": 10.0
+            },
+            "dev_pauc": 0.6752631578947368,
+            "path": "cache/oc4-original/models/linear-kernel-SVC-5-20261104.joblib",
+            "sha256": "ed5b5d4c55c8591b585934322678c9bfe368c3bef53eb574b9eb6ea98bfa3a62",
+            "cost": {
+              "seconds": 0.3474917529965751,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 30.0
+        },
+        "mean_dev_pauc": 0.6751461988304094,
+        "runs": [
+          {
+            "id": "linear-kernel-SVC",
+            "seed": 20261104,
+            "candidate": 6,
+            "param": {
+              "C": 30.0
+            },
+            "dev_pauc": 0.6751461988304094,
+            "path": "cache/oc4-original/models/linear-kernel-SVC-6-20261104.joblib",
+            "sha256": "05640be5b45f88dcf996ca45f1f92e24dd00ce20322cfdeae364471332d79898",
+            "cost": {
+              "seconds": 0.8540879139909521,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 100.0
+        },
+        "mean_dev_pauc": 0.6752631578947369,
+        "runs": [
+          {
+            "id": "linear-kernel-SVC",
+            "seed": 20261104,
+            "candidate": 7,
+            "param": {
+              "C": 100.0
+            },
+            "dev_pauc": 0.6752631578947369,
+            "path": "cache/oc4-original/models/linear-kernel-SVC-7-20261104.joblib",
+            "sha256": "e572feab531898afaf50ad655e362cb77758bb577465f7c8016491f5bd42388a",
+            "cost": {
+              "seconds": 1.9822424589656293,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": {
+          "C": 1000.0
+        },
+        "mean_dev_pauc": 0.6756140350877193,
+        "runs": [
+          {
+            "id": "linear-kernel-SVC",
+            "seed": 20261104,
+            "candidate": 8,
+            "param": {
+              "C": 1000.0
+            },
+            "dev_pauc": 0.6756140350877193,
+            "path": "cache/oc4-original/models/linear-kernel-SVC-8-20261104.joblib",
+            "sha256": "f8e93f60c132669110d0c09a61d73cc29260264d87c0c2abc9ae141ed2b40767",
+            "cost": {
+              "seconds": 28.622077917971183,
+              "solver": null
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ],
+    "OC-4-4-1": [
+      {
+        "param": 0.003,
+        "mean_dev_pauc": 0.6877387914230019,
+        "runs": [
+          {
+            "id": "OC-4-4-1",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6798245614035088,
+            "path": "cache/oc4-original/models/OC-4-4-1-0-20261104.joblib",
+            "sha256": "3dd3471573a291785de38bc316332c399a79a025fd22e3012c906351f36da767",
+            "cost": {
+              "seconds": 5.30353221000405,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 0.679419994354248,
+              "last_loss": 0.5083709359169006,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1",
+            "seed": 20261105,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6929239766081872,
+            "path": "cache/oc4-original/models/OC-4-4-1-0-20261105.joblib",
+            "sha256": "2d1093039244ec92c4094d913c9f1a32d8a2bf99a235304e114a25a9b1bc176e",
+            "cost": {
+              "seconds": 3.3845851789810695,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 0.700857400894165,
+              "last_loss": 0.4937913119792938,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1",
+            "seed": 20261106,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.69046783625731,
+            "path": "cache/oc4-original/models/OC-4-4-1-0-20261106.joblib",
+            "sha256": "0ebbea055d2af648f3cba75478af6b3b0f3b32a8ee7af66c9a2244c7a737fc04",
+            "cost": {
+              "seconds": 3.238610233005602,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 0.7002331614494324,
+              "last_loss": 0.5047450065612793,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.001,
+        "mean_dev_pauc": 0.6896101364522417,
+        "runs": [
+          {
+            "id": "OC-4-4-1",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6852046783625731,
+            "path": "cache/oc4-original/models/OC-4-4-1-1-20261104.joblib",
+            "sha256": "8ce6a1b1f0063002829a094a6ac001bbac7dee840d320a497dde2fa4860d5669",
+            "cost": {
+              "seconds": 3.483746394980699,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 0.679419994354248,
+              "last_loss": 0.5251289010047913,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1",
+            "seed": 20261105,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6922807017543859,
+            "path": "cache/oc4-original/models/OC-4-4-1-1-20261105.joblib",
+            "sha256": "4dcc83cc13f903f55d90c24243c4db512cf1793541197f4b4eda181bbc1c624b",
+            "cost": {
+              "seconds": 3.50927723699715,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 0.700857400894165,
+              "last_loss": 0.5225361585617065,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1",
+            "seed": 20261106,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.691345029239766,
+            "path": "cache/oc4-original/models/OC-4-4-1-1-20261106.joblib",
+            "sha256": "2a5719a5817d1051dcf743b1399130eb216ee4b97d43fe5ced8896350504b4c2",
+            "cost": {
+              "seconds": 3.467005905986298,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 0.7002331614494324,
+              "last_loss": 0.5238403081893921,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.0003,
+        "mean_dev_pauc": 0.6428654970760234,
+        "runs": [
+          {
+            "id": "OC-4-4-1",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6490058479532164,
+            "path": "cache/oc4-original/models/OC-4-4-1-2-20261104.joblib",
+            "sha256": "524343cad634e82d861aa27f81b49f487a18f0eb234f9ae2969b5ac8174dc720",
+            "cost": {
+              "seconds": 3.478194994968362,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 0.679419994354248,
+              "last_loss": 0.5678851008415222,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1",
+            "seed": 20261105,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6423976608187134,
+            "path": "cache/oc4-original/models/OC-4-4-1-2-20261105.joblib",
+            "sha256": "897f7471ddc25cb8a1cf1e35f5ad28ef71a85b01f6368139daf2e824d73f5db0",
+            "cost": {
+              "seconds": 3.48004737397423,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 0.700857400894165,
+              "last_loss": 0.5715561509132385,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1",
+            "seed": 20261106,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6371929824561404,
+            "path": "cache/oc4-original/models/OC-4-4-1-2-20261106.joblib",
+            "sha256": "a49d262e5bca842b3d9f8beba1e77db78e7d98b23d47b5be69d17c21445e4209",
+            "cost": {
+              "seconds": 3.4413452870212495,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 0.7002331614494324,
+              "last_loss": 0.575843334197998,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ],
+    "OC-4-4-2": [
+      {
+        "param": 0.003,
+        "mean_dev_pauc": 0.6489278752436647,
+        "runs": [
+          {
+            "id": "OC-4-4-2",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6821637426900584,
+            "path": "cache/oc4-original/models/OC-4-4-2-0-20261104.joblib",
+            "sha256": "797cd2aacca01864d899c10a568a2bbf5d4c061c38649fda7170ecce1d3bb17d",
+            "cost": {
+              "seconds": 6.236333115026355,
+              "parameters": 3601,
+              "steps": 240,
+              "first_loss": 0.7262968420982361,
+              "last_loss": 0.4452569782733917,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-2",
+            "seed": 20261105,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6581286549707602,
+            "path": "cache/oc4-original/models/OC-4-4-2-0-20261105.joblib",
+            "sha256": "0d6d58a4e866d4ec95ee6ba87db1665166e8a3ea1503c3aaa6a09d44c4b6473e",
+            "cost": {
+              "seconds": 6.58065090799937,
+              "parameters": 3601,
+              "steps": 240,
+              "first_loss": 0.716315746307373,
+              "last_loss": 0.44174307584762573,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-2",
+            "seed": 20261106,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6064912280701754,
+            "path": "cache/oc4-original/models/OC-4-4-2-0-20261106.joblib",
+            "sha256": "11c290ecf4aa98393507cb29dfd2207044941c48c6dc52594c26279ecb9b932e",
+            "cost": {
+              "seconds": 6.540959273988847,
+              "parameters": 3601,
+              "steps": 240,
+              "first_loss": 0.6979678273200989,
+              "last_loss": 0.39525917172431946,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.001,
+        "mean_dev_pauc": 0.6351656920077974,
+        "runs": [
+          {
+            "id": "OC-4-4-2",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6438011695906433,
+            "path": "cache/oc4-original/models/OC-4-4-2-1-20261104.joblib",
+            "sha256": "5a6442a011f36270994a66aff212371af0362dc8fa9168b75144b153231cff76",
+            "cost": {
+              "seconds": 6.600818398001138,
+              "parameters": 3601,
+              "steps": 240,
+              "first_loss": 0.7262968420982361,
+              "last_loss": 0.4820663630962372,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-2",
+            "seed": 20261105,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6171929824561404,
+            "path": "cache/oc4-original/models/OC-4-4-2-1-20261105.joblib",
+            "sha256": "c5bb71029f35025674d71dd8d87176ac0ba5b3ad5edfb675c555318b6e4bc22f",
+            "cost": {
+              "seconds": 6.646383419982158,
+              "parameters": 3601,
+              "steps": 240,
+              "first_loss": 0.716315746307373,
+              "last_loss": 0.4758204519748688,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-2",
+            "seed": 20261106,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6445029239766082,
+            "path": "cache/oc4-original/models/OC-4-4-2-1-20261106.joblib",
+            "sha256": "9d95ed5bf97cf1dbf732fa163289d7a8f67eeb8b22e649b893b7920bb2827fe8",
+            "cost": {
+              "seconds": 6.617377866001334,
+              "parameters": 3601,
+              "steps": 240,
+              "first_loss": 0.6979678273200989,
+              "last_loss": 0.47659242153167725,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.0003,
+        "mean_dev_pauc": 0.6705847953216374,
+        "runs": [
+          {
+            "id": "OC-4-4-2",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6794736842105263,
+            "path": "cache/oc4-original/models/OC-4-4-2-2-20261104.joblib",
+            "sha256": "497e90777c8b1c431ba59d95a49ad88c3e1f4259a4ecbd5e77060247f9e183f6",
+            "cost": {
+              "seconds": 6.499492227041628,
+              "parameters": 3601,
+              "steps": 240,
+              "first_loss": 0.7262968420982361,
+              "last_loss": 0.542864978313446,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-2",
+            "seed": 20261105,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6569590643274854,
+            "path": "cache/oc4-original/models/OC-4-4-2-2-20261105.joblib",
+            "sha256": "d91fac72dfbbfe06fcc542c94e928e6b8bb64617bcc8df42c09fe3fbd8e6ca86",
+            "cost": {
+              "seconds": 6.574602456006687,
+              "parameters": 3601,
+              "steps": 240,
+              "first_loss": 0.716315746307373,
+              "last_loss": 0.5503261685371399,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-2",
+            "seed": 20261106,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6753216374269005,
+            "path": "cache/oc4-original/models/OC-4-4-2-2-20261106.joblib",
+            "sha256": "cca48b324d9de08ac6c075c4c06b4c697f66b2495a953aa5163c02fb07a9b119",
+            "cost": {
+              "seconds": 6.56377915199846,
+              "parameters": 3601,
+              "steps": 240,
+              "first_loss": 0.6979678273200989,
+              "last_loss": 0.5388326048851013,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ],
+    "OC-4-2-1": [
+      {
+        "param": 0.003,
+        "mean_dev_pauc": 0.6760623781676415,
+        "runs": [
+          {
+            "id": "OC-4-2-1",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6790643274853801,
+            "path": "cache/oc4-original/models/OC-4-2-1-0-20261104.joblib",
+            "sha256": "39ff8be39d1c2efef834829db1b09e9b6b7dd9b9b1fec2326e1a071488b6d1aa",
+            "cost": {
+              "seconds": 1.093288759002462,
+              "parameters": 257,
+              "steps": 240,
+              "first_loss": 0.7140531539916992,
+              "last_loss": 0.4914131164550781,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-2-1",
+            "seed": 20261105,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6729824561403509,
+            "path": "cache/oc4-original/models/OC-4-2-1-0-20261105.joblib",
+            "sha256": "dc2d26697693bdc1a808ec3ca7b3defc3bd4810a09a0e527dfd2839615fccdf5",
+            "cost": {
+              "seconds": 1.1571878159884363,
+              "parameters": 257,
+              "steps": 240,
+              "first_loss": 0.6657427549362183,
+              "last_loss": 0.48771101236343384,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-2-1",
+            "seed": 20261106,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.676140350877193,
+            "path": "cache/oc4-original/models/OC-4-2-1-0-20261106.joblib",
+            "sha256": "b0cdd5b86c808de805ff6013f13e8b62da1c0b117c11791a23a38a9d2e260f84",
+            "cost": {
+              "seconds": 1.1483490880345926,
+              "parameters": 257,
+              "steps": 240,
+              "first_loss": 0.6891117691993713,
+              "last_loss": 0.4894804358482361,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.001,
+        "mean_dev_pauc": 0.6944249512670565,
+        "runs": [
+          {
+            "id": "OC-4-2-1",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6937426900584794,
+            "path": "cache/oc4-original/models/OC-4-2-1-1-20261104.joblib",
+            "sha256": "49466dddfbb465945093952c195505546f7bef8d92c87f8638cdda6b3d4ee1be",
+            "cost": {
+              "seconds": 1.1502737710252404,
+              "parameters": 257,
+              "steps": 240,
+              "first_loss": 0.7140531539916992,
+              "last_loss": 0.5263161659240723,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-2-1",
+            "seed": 20261105,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.696374269005848,
+            "path": "cache/oc4-original/models/OC-4-2-1-1-20261105.joblib",
+            "sha256": "775c3d38eeaf1801db3eb659b7af73461b072a06c0d1239f419fcfb64645a7e4",
+            "cost": {
+              "seconds": 1.1229656810173765,
+              "parameters": 257,
+              "steps": 240,
+              "first_loss": 0.6657427549362183,
+              "last_loss": 0.5204209089279175,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-2-1",
+            "seed": 20261106,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6931578947368421,
+            "path": "cache/oc4-original/models/OC-4-2-1-1-20261106.joblib",
+            "sha256": "1e0c5e022c7220fa86993df56500b07b0bbfb2ed2e7b7f3c8466fe6f75cd1eef",
+            "cost": {
+              "seconds": 1.1529250330058858,
+              "parameters": 257,
+              "steps": 240,
+              "first_loss": 0.6891117691993713,
+              "last_loss": 0.5246095657348633,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.0003,
+        "mean_dev_pauc": 0.635438596491228,
+        "runs": [
+          {
+            "id": "OC-4-2-1",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6288304093567252,
+            "path": "cache/oc4-original/models/OC-4-2-1-2-20261104.joblib",
+            "sha256": "542afa922211c4f1c4a915eee0c475104e3d57dfde9fcf3b12ab56f82743c0d7",
+            "cost": {
+              "seconds": 1.0284358710050583,
+              "parameters": 257,
+              "steps": 240,
+              "first_loss": 0.7140531539916992,
+              "last_loss": 0.5954487323760986,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-2-1",
+            "seed": 20261105,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6407602339181286,
+            "path": "cache/oc4-original/models/OC-4-2-1-2-20261105.joblib",
+            "sha256": "b9ff6793489c3275d1133007e138fcc9e3ed41a1401c8391d0d40984beb6b1b7",
+            "cost": {
+              "seconds": 1.0871017110184766,
+              "parameters": 257,
+              "steps": 240,
+              "first_loss": 0.6657427549362183,
+              "last_loss": 0.5806164145469666,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-2-1",
+            "seed": 20261106,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6367251461988304,
+            "path": "cache/oc4-original/models/OC-4-2-1-2-20261106.joblib",
+            "sha256": "6acf3251d89a0b8b9cbd3e5902d18131b7645cb91493a6223309222d6c1cd240",
+            "cost": {
+              "seconds": 1.148293834994547,
+              "parameters": 257,
+              "steps": 240,
+              "first_loss": 0.6891117691993713,
+              "last_loss": 0.5881112813949585,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ],
+    "OC-4-4-1-1": [
+      {
+        "param": 0.003,
+        "mean_dev_pauc": 0.6769590643274853,
+        "runs": [
+          {
+            "id": "OC-4-4-1-1",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.672514619883041,
+            "path": "cache/oc4-original/models/OC-4-4-1-1-0-20261104.joblib",
+            "sha256": "4fecbf17b5fe26d657f4f4e4ad00eb29374f0f8e5270d4a9ee2440107e17afda",
+            "cost": {
+              "seconds": 2.6278622479876503,
+              "parameters": 833,
+              "steps": 240,
+              "first_loss": 0.6804496049880981,
+              "last_loss": 0.5131565928459167,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-1",
+            "seed": 20261105,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6827485380116959,
+            "path": "cache/oc4-original/models/OC-4-4-1-1-0-20261105.joblib",
+            "sha256": "f19dfbbb3a1dcd0f289de1cf0baa6b2e4f8e793503e7c8fffe5752eef40bdf8d",
+            "cost": {
+              "seconds": 2.626129337004386,
+              "parameters": 833,
+              "steps": 240,
+              "first_loss": 0.7211470007896423,
+              "last_loss": 0.49994707107543945,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-1",
+            "seed": 20261106,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6756140350877193,
+            "path": "cache/oc4-original/models/OC-4-4-1-1-0-20261106.joblib",
+            "sha256": "7507ba395f49693fdf978305de1fe9effa5d42c2c960268986d7ce4e0f4e2531",
+            "cost": {
+              "seconds": 2.6137390070362017,
+              "parameters": 833,
+              "steps": 240,
+              "first_loss": 0.6581745743751526,
+              "last_loss": 0.5039504766464233,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.001,
+        "mean_dev_pauc": 0.6658479532163742,
+        "runs": [
+          {
+            "id": "OC-4-4-1-1",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6742690058479532,
+            "path": "cache/oc4-original/models/OC-4-4-1-1-1-20261104.joblib",
+            "sha256": "da781f934cac3001194b07a97f9c9de40e01e5ad486eb027122e06ed10c4847b",
+            "cost": {
+              "seconds": 2.6174884699867107,
+              "parameters": 833,
+              "steps": 240,
+              "first_loss": 0.6804496049880981,
+              "last_loss": 0.5337671041488647,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-1",
+            "seed": 20261105,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6495321637426901,
+            "path": "cache/oc4-original/models/OC-4-4-1-1-1-20261105.joblib",
+            "sha256": "657135be15fe36551aeef1d8343091136e2a263d0c3174b1883a90e24db60352",
+            "cost": {
+              "seconds": 2.629158476018347,
+              "parameters": 833,
+              "steps": 240,
+              "first_loss": 0.7211470007896423,
+              "last_loss": 0.5380015969276428,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-1",
+            "seed": 20261106,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6737426900584795,
+            "path": "cache/oc4-original/models/OC-4-4-1-1-1-20261106.joblib",
+            "sha256": "bd79cc68ce22407f4b1c617e7472b516871358730c6a345dd6dcb5e516431251",
+            "cost": {
+              "seconds": 2.6273549390025437,
+              "parameters": 833,
+              "steps": 240,
+              "first_loss": 0.6581745743751526,
+              "last_loss": 0.5298715829849243,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.0003,
+        "mean_dev_pauc": 0.6327680311890838,
+        "runs": [
+          {
+            "id": "OC-4-4-1-1",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6244444444444445,
+            "path": "cache/oc4-original/models/OC-4-4-1-1-2-20261104.joblib",
+            "sha256": "41474dd63ed007fb39361a02a56491c2b1ba4b2b367eed7a3ae42473d985bb35",
+            "cost": {
+              "seconds": 2.6300625310395844,
+              "parameters": 833,
+              "steps": 240,
+              "first_loss": 0.6804496049880981,
+              "last_loss": 0.5981848239898682,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-1",
+            "seed": 20261105,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6316959064327485,
+            "path": "cache/oc4-original/models/OC-4-4-1-1-2-20261105.joblib",
+            "sha256": "ba79bb8338ddff3ed42522cea4f4d714169f8e27dcd71ae121f1d586e4bf5113",
+            "cost": {
+              "seconds": 2.5080095790326595,
+              "parameters": 833,
+              "steps": 240,
+              "first_loss": 0.7211470007896423,
+              "last_loss": 0.6141695380210876,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-1",
+            "seed": 20261106,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6421637426900585,
+            "path": "cache/oc4-original/models/OC-4-4-1-1-2-20261106.joblib",
+            "sha256": "92e340e108fb477ecb679a95bd813774cce33c843b00dcd330a199945bf31df6",
+            "cost": {
+              "seconds": 2.6169492269982584,
+              "parameters": 833,
+              "steps": 240,
+              "first_loss": 0.6581745743751526,
+              "last_loss": 0.5879847407341003,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ],
+    "ungated-pooling": [
+      {
+        "param": 0.003,
+        "mean_dev_pauc": 0.6793762183235867,
+        "runs": [
+          {
+            "id": "ungated-pooling",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6757309941520467,
+            "path": "cache/oc4-original/models/ungated-pooling-0-20261104.joblib",
+            "sha256": "f6180e5405bd4f9fcb5f87d9e768584e71f49b0a6a9e9512d432af2dc4e41ed8",
+            "cost": {
+              "seconds": 2.1626583199831657,
+              "parameters": 561,
+              "steps": 240,
+              "first_loss": 0.7877683043479919,
+              "last_loss": 0.5057886242866516,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "ungated-pooling",
+            "seed": 20261105,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6739766081871346,
+            "path": "cache/oc4-original/models/ungated-pooling-0-20261105.joblib",
+            "sha256": "49cff5d3b47e6ac3df71836368f7732df34ebfd9449bda903b6e530da71b76f8",
+            "cost": {
+              "seconds": 2.2090010620304383,
+              "parameters": 561,
+              "steps": 240,
+              "first_loss": 0.6691215634346008,
+              "last_loss": 0.5044661164283752,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "ungated-pooling",
+            "seed": 20261106,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6884210526315789,
+            "path": "cache/oc4-original/models/ungated-pooling-0-20261106.joblib",
+            "sha256": "d7618459311ad22becd872ebc28e63f13dfe6736322ccf32f4c0b2b12b4abca8",
+            "cost": {
+              "seconds": 2.1306519780191593,
+              "parameters": 561,
+              "steps": 240,
+              "first_loss": 0.7378547787666321,
+              "last_loss": 0.4991714358329773,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.001,
+        "mean_dev_pauc": 0.6690253411306042,
+        "runs": [
+          {
+            "id": "ungated-pooling",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6793567251461988,
+            "path": "cache/oc4-original/models/ungated-pooling-1-20261104.joblib",
+            "sha256": "2207c9963a74e1cfe77f52b12041a7b9972b39fd6d8feb1931c92f1e5768cd67",
+            "cost": {
+              "seconds": 2.143595836008899,
+              "parameters": 561,
+              "steps": 240,
+              "first_loss": 0.7877683043479919,
+              "last_loss": 0.5417852401733398,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "ungated-pooling",
+            "seed": 20261105,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.673859649122807,
+            "path": "cache/oc4-original/models/ungated-pooling-1-20261105.joblib",
+            "sha256": "4bb6b9cb0f1efd1f089b0aa5c0804162eb25d443d76f7ee577460ce6706eca11",
+            "cost": {
+              "seconds": 2.15689815802034,
+              "parameters": 561,
+              "steps": 240,
+              "first_loss": 0.6691215634346008,
+              "last_loss": 0.5288698673248291,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "ungated-pooling",
+            "seed": 20261106,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.653859649122807,
+            "path": "cache/oc4-original/models/ungated-pooling-1-20261106.joblib",
+            "sha256": "f0f2a73cdb9d561e37c66ead6c3d0b13bccc57e396cd0f3b5b19a68e2be11749",
+            "cost": {
+              "seconds": 2.1665118989767507,
+              "parameters": 561,
+              "steps": 240,
+              "first_loss": 0.7378547787666321,
+              "last_loss": 0.5228052139282227,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.0003,
+        "mean_dev_pauc": 0.6352631578947369,
+        "runs": [
+          {
+            "id": "ungated-pooling",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6280701754385964,
+            "path": "cache/oc4-original/models/ungated-pooling-2-20261104.joblib",
+            "sha256": "1b5c4f97b6f79c5486f0709ceb46f1d48c675c1550a239936c431301498d20d3",
+            "cost": {
+              "seconds": 2.149807259964291,
+              "parameters": 561,
+              "steps": 240,
+              "first_loss": 0.7877683043479919,
+              "last_loss": 0.6520990133285522,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "ungated-pooling",
+            "seed": 20261105,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6377777777777778,
+            "path": "cache/oc4-original/models/ungated-pooling-2-20261105.joblib",
+            "sha256": "789106a8f14dcda250e6c07ed8302acf2a342ecd7921c69dc5ae168f9ea3e5fb",
+            "cost": {
+              "seconds": 2.1935962840216234,
+              "parameters": 561,
+              "steps": 240,
+              "first_loss": 0.6691215634346008,
+              "last_loss": 0.5878481864929199,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "ungated-pooling",
+            "seed": 20261106,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6399415204678363,
+            "path": "cache/oc4-original/models/ungated-pooling-2-20261106.joblib",
+            "sha256": "954ea3a569639f45bd8a5e9e294ef8095fee84c8894c42f77c00884aadd0453d",
+            "cost": {
+              "seconds": 2.170595214003697,
+              "parameters": 561,
+              "steps": 240,
+              "first_loss": 0.7378547787666321,
+              "last_loss": 0.6318440437316895,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ],
+    "OC-4-4-1-2": [
+      {
+        "param": 0.003,
+        "mean_dev_pauc": 0.6796296296296296,
+        "runs": [
+          {
+            "id": "OC-4-4-1-2",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6738011695906433,
+            "path": "cache/oc4-original/models/OC-4-4-1-2-0-20261104.joblib",
+            "sha256": "df2d3eacb12cb2f56d6a03369892a7166a071ade448bd2415da7c7c1587a3a92",
+            "cost": {
+              "seconds": 3.660789363028016,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.696738064289093,
+              "last_loss": 0.4995785355567932,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-2",
+            "seed": 20261105,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6808187134502924,
+            "path": "cache/oc4-original/models/OC-4-4-1-2-0-20261105.joblib",
+            "sha256": "20509f23ff7d138ab6707c400ff3f4c6fccfc9ba5a2cc4ea57ec28cb261ca9f4",
+            "cost": {
+              "seconds": 3.6865711910068057,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.6938236951828003,
+              "last_loss": 0.4965820610523224,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-2",
+            "seed": 20261106,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6842690058479531,
+            "path": "cache/oc4-original/models/OC-4-4-1-2-0-20261106.joblib",
+            "sha256": "88646e0557cf72b39106687e37725eae9677727c9cd6b9f2923321858e254ae2",
+            "cost": {
+              "seconds": 3.654162421997171,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.6877433657646179,
+              "last_loss": 0.4924331605434418,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.001,
+        "mean_dev_pauc": 0.6772904483430798,
+        "runs": [
+          {
+            "id": "OC-4-4-1-2",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6768421052631579,
+            "path": "cache/oc4-original/models/OC-4-4-1-2-1-20261104.joblib",
+            "sha256": "59f466b2edf556d963fe395f01e38c5016aca402a996f4c52d577c0610973db0",
+            "cost": {
+              "seconds": 3.67669015401043,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.696738064289093,
+              "last_loss": 0.5118191242218018,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-2",
+            "seed": 20261105,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6745614035087719,
+            "path": "cache/oc4-original/models/OC-4-4-1-2-1-20261105.joblib",
+            "sha256": "fdd926d649fcf99b8b06b65b77c22852d56812c99250eb9ffb05ac71025008d2",
+            "cost": {
+              "seconds": 3.666225786029827,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.6938236951828003,
+              "last_loss": 0.5041550397872925,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-2",
+            "seed": 20261106,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.68046783625731,
+            "path": "cache/oc4-original/models/OC-4-4-1-2-1-20261106.joblib",
+            "sha256": "0bdd47ca41d29794eae196b2fb9775083218a685f6abf22f3673887dbc3da453",
+            "cost": {
+              "seconds": 3.653038006974384,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.6877433657646179,
+              "last_loss": 0.5028359293937683,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.0003,
+        "mean_dev_pauc": 0.6391423001949318,
+        "runs": [
+          {
+            "id": "OC-4-4-1-2",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6333918128654971,
+            "path": "cache/oc4-original/models/OC-4-4-1-2-2-20261104.joblib",
+            "sha256": "217aa77bf8883d4ada05512a6ea3d4a0a083db2449864c5e296af6ded70836ce",
+            "cost": {
+              "seconds": 3.6514657780062407,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.696738064289093,
+              "last_loss": 0.5883901119232178,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-2",
+            "seed": 20261105,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6430994152046784,
+            "path": "cache/oc4-original/models/OC-4-4-1-2-2-20261105.joblib",
+            "sha256": "28ab2da975784f833693c54a96e5d2e9f3c533fd29977617c0f0b29426724a4a",
+            "cost": {
+              "seconds": 3.67570960795274,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.6938236951828003,
+              "last_loss": 0.5869889855384827,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-2",
+            "seed": 20261106,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6409356725146199,
+            "path": "cache/oc4-original/models/OC-4-4-1-2-2-20261106.joblib",
+            "sha256": "25ed7e8145eae8dd2705c556f7fc0691a2beb6aa13f88e25fa15787179cc345c",
+            "cost": {
+              "seconds": 3.653548769012559,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.6877433657646179,
+              "last_loss": 0.5897533893585205,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ],
+    "linear-encoded-attention": [
+      {
+        "param": 0.003,
+        "mean_dev_pauc": 0.6759649122807018,
+        "runs": [
+          {
+            "id": "linear-encoded-attention",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6786549707602338,
+            "path": "cache/oc4-original/models/linear-encoded-attention-0-20261104.joblib",
+            "sha256": "70e90b62a36833f6d3b61b0b7d0d367f7b050806544ea327c48d44a23d0ad489",
+            "cost": {
+              "seconds": 3.5838541139964946,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.6992643475532532,
+              "last_loss": 0.5127579569816589,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "linear-encoded-attention",
+            "seed": 20261105,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6729239766081871,
+            "path": "cache/oc4-original/models/linear-encoded-attention-0-20261105.joblib",
+            "sha256": "864ed1c25441ea964f6f1741559a6832167ab1845b2e448c22dca40bd516e45b",
+            "cost": {
+              "seconds": 3.5820223140181042,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.6897112131118774,
+              "last_loss": 0.5123873949050903,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "linear-encoded-attention",
+            "seed": 20261106,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6763157894736842,
+            "path": "cache/oc4-original/models/linear-encoded-attention-0-20261106.joblib",
+            "sha256": "53cb969dc11abb3516c64391db4683e7df4f9ad1b96b0482f3149c41b572bdba",
+            "cost": {
+              "seconds": 3.587876953999512,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.692114531993866,
+              "last_loss": 0.5085413455963135,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.001,
+        "mean_dev_pauc": 0.679766081871345,
+        "runs": [
+          {
+            "id": "linear-encoded-attention",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6798245614035088,
+            "path": "cache/oc4-original/models/linear-encoded-attention-1-20261104.joblib",
+            "sha256": "4c1f62b950b761e1722050da40f2d8b1020529cfb5357e0259f228a9a406421d",
+            "cost": {
+              "seconds": 3.587011353985872,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.6992643475532532,
+              "last_loss": 0.5234373211860657,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "linear-encoded-attention",
+            "seed": 20261105,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6791812865497076,
+            "path": "cache/oc4-original/models/linear-encoded-attention-1-20261105.joblib",
+            "sha256": "735af249c2adc5869d8771faf68f8fe2676d8f15eab89c753d7df0198e0af353",
+            "cost": {
+              "seconds": 3.6334447659901343,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.6897112131118774,
+              "last_loss": 0.5228130221366882,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "linear-encoded-attention",
+            "seed": 20261106,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6802923976608187,
+            "path": "cache/oc4-original/models/linear-encoded-attention-1-20261106.joblib",
+            "sha256": "093d2fe8753b2160eca58c51a6e98830ea4801e325f3b163dc47a15ed5d50dff",
+            "cost": {
+              "seconds": 3.5959296459914185,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.692114531993866,
+              "last_loss": 0.5229204297065735,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.0003,
+        "mean_dev_pauc": 0.6429629629629631,
+        "runs": [
+          {
+            "id": "linear-encoded-attention",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6388304093567252,
+            "path": "cache/oc4-original/models/linear-encoded-attention-2-20261104.joblib",
+            "sha256": "121d8500c1730a136497c811997e13e37abc712e6c3203599a1b2a6447b5fbc2",
+            "cost": {
+              "seconds": 3.607155726989731,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.6992643475532532,
+              "last_loss": 0.5747519731521606,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "linear-encoded-attention",
+            "seed": 20261105,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6508187134502924,
+            "path": "cache/oc4-original/models/linear-encoded-attention-2-20261105.joblib",
+            "sha256": "8daf685881e3c5169ca89e0d5c8f7202201c672527d020a808432925d52347a7",
+            "cost": {
+              "seconds": 3.5943388210143894,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.6897112131118774,
+              "last_loss": 0.5643420815467834,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "linear-encoded-attention",
+            "seed": 20261106,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6392397660818714,
+            "path": "cache/oc4-original/models/linear-encoded-attention-2-20261106.joblib",
+            "sha256": "a6d80bd4d937bc32212d39959ae25001997b2f53b6b14c1a013e24f28c522c65",
+            "cost": {
+              "seconds": 3.6307330070412718,
+              "parameters": 1425,
+              "steps": 240,
+              "first_loss": 0.692114531993866,
+              "last_loss": 0.5746945738792419,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ],
+    "OC-4-2-1-1": [
+      {
+        "param": 0.003,
+        "mean_dev_pauc": 0.6719493177387914,
+        "runs": [
+          {
+            "id": "OC-4-2-1-1",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6737426900584795,
+            "path": "cache/oc4-original/models/OC-4-2-1-1-0-20261104.joblib",
+            "sha256": "72890e0661a1b227747152e071780c86b9159b4ff36e7fbe0e181f9958171c03",
+            "cost": {
+              "seconds": 1.2950649250415154,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.7145168781280518,
+              "last_loss": 0.48352450132369995,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-2-1-1",
+            "seed": 20261105,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6726900584795321,
+            "path": "cache/oc4-original/models/OC-4-2-1-1-0-20261105.joblib",
+            "sha256": "c4b588a259e8df168a3863091da907371e44a914423c7cbcc1253a281eb8796e",
+            "cost": {
+              "seconds": 1.1982809850014746,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.7007487416267395,
+              "last_loss": 0.4821954369544983,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-2-1-1",
+            "seed": 20261106,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6694152046783626,
+            "path": "cache/oc4-original/models/OC-4-2-1-1-0-20261106.joblib",
+            "sha256": "cb1488f7a45b53dbf2598f35839dfe926366fda4a10bee80bce1c3836f42098f",
+            "cost": {
+              "seconds": 1.1355859879986383,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.7063397169113159,
+              "last_loss": 0.48020139336586,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.001,
+        "mean_dev_pauc": 0.6955750487329434,
+        "runs": [
+          {
+            "id": "OC-4-2-1-1",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6978947368421052,
+            "path": "cache/oc4-original/models/OC-4-2-1-1-1-20261104.joblib",
+            "sha256": "c27c7def190e5bcefa3ca1a6791b1bc0cb10db013291b0ea856d5025577ec34d",
+            "cost": {
+              "seconds": 1.1368930480093695,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.7145168781280518,
+              "last_loss": 0.5115444660186768,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-2-1-1",
+            "seed": 20261105,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6954385964912281,
+            "path": "cache/oc4-original/models/OC-4-2-1-1-1-20261105.joblib",
+            "sha256": "c6c95b8ad0b97b5c7dc88a5a47f060e083e179de6b873487499f0257ed1d2c32",
+            "cost": {
+              "seconds": 1.160984628018923,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.7007487416267395,
+              "last_loss": 0.5071395039558411,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-2-1-1",
+            "seed": 20261106,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.693391812865497,
+            "path": "cache/oc4-original/models/OC-4-2-1-1-1-20261106.joblib",
+            "sha256": "e4c3877e4787b22ce640f58e172aeedc43b2ffeef5df4c5b79014a8e0c4c7db5",
+            "cost": {
+              "seconds": 1.1188521060394123,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.7063397169113159,
+              "last_loss": 0.5057684779167175,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.0003,
+        "mean_dev_pauc": 0.6510526315789473,
+        "runs": [
+          {
+            "id": "OC-4-2-1-1",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6466081871345029,
+            "path": "cache/oc4-original/models/OC-4-2-1-1-2-20261104.joblib",
+            "sha256": "fe764f4d3174203397b7b51124da541a390244873a6045b93732c52bad382644",
+            "cost": {
+              "seconds": 1.1281316439853981,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.7145168781280518,
+              "last_loss": 0.5688401460647583,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-2-1-1",
+            "seed": 20261105,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6499415204678363,
+            "path": "cache/oc4-original/models/OC-4-2-1-1-2-20261105.joblib",
+            "sha256": "eadbabdb69bd0f206c08c38fc201d5479ccbfc35f625a807ba571ca7c2392f08",
+            "cost": {
+              "seconds": 1.1274286499829032,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.7007487416267395,
+              "last_loss": 0.5561147332191467,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-2-1-1",
+            "seed": 20261106,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6566081871345029,
+            "path": "cache/oc4-original/models/OC-4-2-1-1-2-20261106.joblib",
+            "sha256": "b64ce23e002dae2def1581f91e5b333f92e7416b604c5ecdc7677b9f1b591089",
+            "cost": {
+              "seconds": 1.1301484289579093,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.7063397169113159,
+              "last_loss": 0.5591510534286499,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ],
+    "linear-encoded-mlp": [
+      {
+        "param": 0.003,
+        "mean_dev_pauc": 0.6738011695906433,
+        "runs": [
+          {
+            "id": "linear-encoded-mlp",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6757894736842105,
+            "path": "cache/oc4-original/models/linear-encoded-mlp-0-20261104.joblib",
+            "sha256": "9f63106e09cd7099625067b375397e0a3a0c8f86d8774442a9c2e1bc18fed177",
+            "cost": {
+              "seconds": 1.011097060982138,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.6988762021064758,
+              "last_loss": 0.4918234050273895,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "linear-encoded-mlp",
+            "seed": 20261105,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6739766081871346,
+            "path": "cache/oc4-original/models/linear-encoded-mlp-0-20261105.joblib",
+            "sha256": "ce63d22f4d285ae63eb41e904c774aa4008ade0998c7db433a5a3baec02244c3",
+            "cost": {
+              "seconds": 1.1550282289972529,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.6983785033226013,
+              "last_loss": 0.49141180515289307,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "linear-encoded-mlp",
+            "seed": 20261106,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6716374269005847,
+            "path": "cache/oc4-original/models/linear-encoded-mlp-0-20261106.joblib",
+            "sha256": "6e0777b3c442f53e373db91674d734c44056f625531595c2a45a73715b5e12ff",
+            "cost": {
+              "seconds": 1.177487644017674,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.6993438601493835,
+              "last_loss": 0.4887194037437439,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.001,
+        "mean_dev_pauc": 0.6953021442495126,
+        "runs": [
+          {
+            "id": "linear-encoded-mlp",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6937426900584795,
+            "path": "cache/oc4-original/models/linear-encoded-mlp-1-20261104.joblib",
+            "sha256": "f5392b08f94a4fdc00fa5bf1440a8d0b98facb984cf2726475ad41faa2b6bb5a",
+            "cost": {
+              "seconds": 1.1135810100240633,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.6988762021064758,
+              "last_loss": 0.5242522954940796,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "linear-encoded-mlp",
+            "seed": 20261105,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6953801169590643,
+            "path": "cache/oc4-original/models/linear-encoded-mlp-1-20261105.joblib",
+            "sha256": "f06df8dbd9d10ed68e7c9f3a83120908edd1403b8db174e8d867f5d5141abef1",
+            "cost": {
+              "seconds": 1.1088812380330637,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.6983785033226013,
+              "last_loss": 0.5203858613967896,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "linear-encoded-mlp",
+            "seed": 20261106,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6967836257309942,
+            "path": "cache/oc4-original/models/linear-encoded-mlp-1-20261106.joblib",
+            "sha256": "b960763ac93ace3fcbd1a746ecaf847befc6d6507c9ecab996693fb4d74fcc9e",
+            "cost": {
+              "seconds": 1.1118685479741544,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.6993438601493835,
+              "last_loss": 0.5201190710067749,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.0003,
+        "mean_dev_pauc": 0.6330409356725146,
+        "runs": [
+          {
+            "id": "linear-encoded-mlp",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6307602339181286,
+            "path": "cache/oc4-original/models/linear-encoded-mlp-2-20261104.joblib",
+            "sha256": "f2a965d83fa3d4be08452c3f649f4b53f04cf59c8fea7fe582271c2f3cc274d9",
+            "cost": {
+              "seconds": 1.1107920960057527,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.6988762021064758,
+              "last_loss": 0.5863531827926636,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "linear-encoded-mlp",
+            "seed": 20261105,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6347953216374269,
+            "path": "cache/oc4-original/models/linear-encoded-mlp-2-20261105.joblib",
+            "sha256": "9126a617bae230d064fc46496a210b72bf2eb1115a247aa55c22b605acb71824",
+            "cost": {
+              "seconds": 1.114819836046081,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.6983785033226013,
+              "last_loss": 0.5845721960067749,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "linear-encoded-mlp",
+            "seed": 20261106,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6335672514619883,
+            "path": "cache/oc4-original/models/linear-encoded-mlp-2-20261106.joblib",
+            "sha256": "4fa2d10c5060d09602e2e5d106649dcf3c39c06d99fc18b7d3883418452f84e1",
+            "cost": {
+              "seconds": 1.101898285036441,
+              "parameters": 929,
+              "steps": 240,
+              "first_loss": 0.6993438601493835,
+              "last_loss": 0.5877147316932678,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ],
+    "OC-4-4-1-3": [
+      {
+        "param": 0.003,
+        "mean_dev_pauc": 0.6813060428849903,
+        "runs": [
+          {
+            "id": "OC-4-4-1-3",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6787719298245614,
+            "path": "cache/oc4-original/models/OC-4-4-1-3-0-20261104.joblib",
+            "sha256": "5206a40ce7bd4e357d3a4cd90c2997781611512c3498373e0d8536c841c0b966",
+            "cost": {
+              "seconds": 7.722130691050552,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 8.902627944946289,
+              "last_loss": 1.4078874588012695,
+              "optimizer": "LibAUC-SOPA-adam",
+              "libauc_dual": {
+                "min": 0.0,
+                "max": 1.7257040739059448,
+                "updated": true
+              },
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-3",
+            "seed": 20261105,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6821052631578948,
+            "path": "cache/oc4-original/models/OC-4-4-1-3-0-20261105.joblib",
+            "sha256": "8104c22a00c7d947d907139d0ab86de2265d6672706a8cb17687b24d55ebb6fd",
+            "cost": {
+              "seconds": 7.346359332033899,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 10.537755966186523,
+              "last_loss": 1.4180952310562134,
+              "optimizer": "LibAUC-SOPA-adam",
+              "libauc_dual": {
+                "min": 0.0,
+                "max": 1.737001657485962,
+                "updated": true
+              },
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-3",
+            "seed": 20261106,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6830409356725147,
+            "path": "cache/oc4-original/models/OC-4-4-1-3-0-20261106.joblib",
+            "sha256": "8737abc9dbf5cb299370b0c593b1de8fe7be671c2d4f054fd45d28e0093f847c",
+            "cost": {
+              "seconds": 7.332125342974905,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 9.725462913513184,
+              "last_loss": 1.4177228212356567,
+              "optimizer": "LibAUC-SOPA-adam",
+              "libauc_dual": {
+                "min": 0.0,
+                "max": 1.7366732358932495,
+                "updated": true
+              },
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.001,
+        "mean_dev_pauc": 0.6892007797270955,
+        "runs": [
+          {
+            "id": "OC-4-4-1-3",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6857894736842105,
+            "path": "cache/oc4-original/models/OC-4-4-1-3-1-20261104.joblib",
+            "sha256": "753dd64a789d2eb318e83cedf805c594a4ec45a99557e40219776fcdd72dc069",
+            "cost": {
+              "seconds": 7.2010141930077225,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 8.902627944946289,
+              "last_loss": 1.2220250368118286,
+              "optimizer": "LibAUC-SOPA-adam",
+              "libauc_dual": {
+                "min": 0.0,
+                "max": 1.5515936613082886,
+                "updated": true
+              },
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-3",
+            "seed": 20261105,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6896491228070175,
+            "path": "cache/oc4-original/models/OC-4-4-1-3-1-20261105.joblib",
+            "sha256": "d39d738fd7d7038ebf50d83f2b798e8480c79bcdbd7132fb4bf28a5051c5a9a3",
+            "cost": {
+              "seconds": 7.268963826994877,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 10.537755966186523,
+              "last_loss": 1.2043942213058472,
+              "optimizer": "LibAUC-SOPA-adam",
+              "libauc_dual": {
+                "min": 0.0,
+                "max": 1.5591880083084106,
+                "updated": true
+              },
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-3",
+            "seed": 20261106,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6921637426900585,
+            "path": "cache/oc4-original/models/OC-4-4-1-3-1-20261106.joblib",
+            "sha256": "a963e59eac7abf8a3aeb718366bd146f72472d7de6e4520f62baa08c7a345a9e",
+            "cost": {
+              "seconds": 7.12704491103068,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 9.725462913513184,
+              "last_loss": 1.2073054313659668,
+              "optimizer": "LibAUC-SOPA-adam",
+              "libauc_dual": {
+                "min": 0.0,
+                "max": 1.568359136581421,
+                "updated": true
+              },
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.0003,
+        "mean_dev_pauc": 0.6250292397660818,
+        "runs": [
+          {
+            "id": "OC-4-4-1-3",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6249122807017544,
+            "path": "cache/oc4-original/models/OC-4-4-1-3-2-20261104.joblib",
+            "sha256": "3d0a61087088da303c593e7208cf61d5b39b0043ff9af4729ecd3100cbecb875",
+            "cost": {
+              "seconds": 7.234213335963432,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 8.902627944946289,
+              "last_loss": 1.1548198461532593,
+              "optimizer": "LibAUC-SOPA-adam",
+              "libauc_dual": {
+                "min": 0.0,
+                "max": 1.4532965421676636,
+                "updated": true
+              },
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-3",
+            "seed": 20261105,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6250292397660819,
+            "path": "cache/oc4-original/models/OC-4-4-1-3-2-20261105.joblib",
+            "sha256": "073fb2f36227681f8b1a4c802ecae70f8e54d146a82e22f721ca4765e1b10eac",
+            "cost": {
+              "seconds": 7.1488373189931735,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 10.537755966186523,
+              "last_loss": 1.1232153177261353,
+              "optimizer": "LibAUC-SOPA-adam",
+              "libauc_dual": {
+                "min": 0.0,
+                "max": 1.4322491884231567,
+                "updated": true
+              },
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-1-3",
+            "seed": 20261106,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6251461988304093,
+            "path": "cache/oc4-original/models/OC-4-4-1-3-2-20261106.joblib",
+            "sha256": "2322e1d29fd2c5fe923c93b09a60128a417dcf68f246b636c6f4eba434b9085c",
+            "cost": {
+              "seconds": 7.268638078996446,
+              "parameters": 1377,
+              "steps": 240,
+              "first_loss": 9.725462913513184,
+              "last_loss": 1.1679396629333496,
+              "optimizer": "LibAUC-SOPA-adam",
+              "libauc_dual": {
+                "min": 0.0,
+                "max": 1.4657490253448486,
+                "updated": true
+              },
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ],
+    "OC-4-4-2-1": [
+      {
+        "param": 0.003,
+        "mean_dev_pauc": 0.6606237816764132,
+        "runs": [
+          {
+            "id": "OC-4-4-2-1",
+            "seed": 20261104,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6547953216374269,
+            "path": "cache/oc4-original/models/OC-4-4-2-1-0-20261104.joblib",
+            "sha256": "0e181a0a7c1b9279e5cb742b1c79d88cae91fd5c41ed9efd40a1f54349332064",
+            "cost": {
+              "seconds": 5.127288862015121,
+              "parameters": 3249,
+              "steps": 240,
+              "first_loss": 0.7139094471931458,
+              "last_loss": 0.4614434838294983,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-2-1",
+            "seed": 20261105,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.6777777777777778,
+            "path": "cache/oc4-original/models/OC-4-4-2-1-0-20261105.joblib",
+            "sha256": "b0409e51e02d8cff8908e52815363dc09e23f85e5c0568c7f56201e21c4f57f4",
+            "cost": {
+              "seconds": 5.146056517958641,
+              "parameters": 3249,
+              "steps": 240,
+              "first_loss": 0.698359489440918,
+              "last_loss": 0.4730408489704132,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-2-1",
+            "seed": 20261106,
+            "candidate": 0,
+            "param": 0.003,
+            "dev_pauc": 0.649298245614035,
+            "path": "cache/oc4-original/models/OC-4-4-2-1-0-20261106.joblib",
+            "sha256": "75c2b4177ed5873764d27cdbd36fd506ed1dcb2fa9f1ecf63cda01a0f8cf9b92",
+            "cost": {
+              "seconds": 5.099906520976219,
+              "parameters": 3249,
+              "steps": 240,
+              "first_loss": 0.6924422383308411,
+              "last_loss": 0.4535773992538452,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.001,
+        "mean_dev_pauc": 0.6601754385964912,
+        "runs": [
+          {
+            "id": "OC-4-4-2-1",
+            "seed": 20261104,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6760233918128655,
+            "path": "cache/oc4-original/models/OC-4-4-2-1-1-20261104.joblib",
+            "sha256": "b98090cb7ef275f7f2b329a11ea4bfa43cd7fd7b5504ba752a78804e39066f23",
+            "cost": {
+              "seconds": 5.154826963960659,
+              "parameters": 3249,
+              "steps": 240,
+              "first_loss": 0.7139094471931458,
+              "last_loss": 0.4773782193660736,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-2-1",
+            "seed": 20261105,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6537426900584795,
+            "path": "cache/oc4-original/models/OC-4-4-2-1-1-20261105.joblib",
+            "sha256": "e651437acf63acbd5274ac8e8ebff0164b3fe08e3532bc5f9f8752190d09b2f7",
+            "cost": {
+              "seconds": 5.141051167971455,
+              "parameters": 3249,
+              "steps": 240,
+              "first_loss": 0.698359489440918,
+              "last_loss": 0.47977617383003235,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-2-1",
+            "seed": 20261106,
+            "candidate": 1,
+            "param": 0.001,
+            "dev_pauc": 0.6507602339181286,
+            "path": "cache/oc4-original/models/OC-4-4-2-1-1-20261106.joblib",
+            "sha256": "72fe520f31b9ddd40edda0fb1bf2d5e2ef4e437e4e68ef905bdfe5afddc78366",
+            "cost": {
+              "seconds": 5.135083410015795,
+              "parameters": 3249,
+              "steps": 240,
+              "first_loss": 0.6924422383308411,
+              "last_loss": 0.47922393679618835,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      },
+      {
+        "param": 0.0003,
+        "mean_dev_pauc": 0.6432748538011696,
+        "runs": [
+          {
+            "id": "OC-4-4-2-1",
+            "seed": 20261104,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6628070175438596,
+            "path": "cache/oc4-original/models/OC-4-4-2-1-2-20261104.joblib",
+            "sha256": "2ccd7015eb22ac0fd123812fa42345363182dc5dc4c14ffa8b4a59bda8031707",
+            "cost": {
+              "seconds": 5.161288459028583,
+              "parameters": 3249,
+              "steps": 240,
+              "first_loss": 0.7139094471931458,
+              "last_loss": 0.4983882009983063,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-2-1",
+            "seed": 20261105,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.636140350877193,
+            "path": "cache/oc4-original/models/OC-4-4-2-1-2-20261105.joblib",
+            "sha256": "bf5cc94626d6f828805c2c1dc294798935436764861c6aed67f5854c03e46ba2",
+            "cost": {
+              "seconds": 5.129582612018567,
+              "parameters": 3249,
+              "steps": 240,
+              "first_loss": 0.698359489440918,
+              "last_loss": 0.5046095848083496,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          },
+          {
+            "id": "OC-4-4-2-1",
+            "seed": 20261106,
+            "candidate": 2,
+            "param": 0.0003,
+            "dev_pauc": 0.6308771929824561,
+            "path": "cache/oc4-original/models/OC-4-4-2-1-2-20261106.joblib",
+            "sha256": "db9934ac4b9654c82694642b1a910fd4422b32886a0edb9501caefd1689ade80",
+            "cost": {
+              "seconds": 5.0731705380021594,
+              "parameters": 3249,
+              "steps": 240,
+              "first_loss": 0.6924422383308411,
+              "last_loss": 0.5001650452613831,
+              "optimizer": "AdamW",
+              "libauc_dual": null,
+              "full_batch_size": 1600
+            },
+            "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+          }
+        ]
+      }
+    ]
+  },
+  "selected": {
+    "OC-4-1-3": {
+      "C": 0.001
+    },
+    "OC-4-1-3-1": {
+      "C": 1000.0,
+      "safe_weight": 2.0
+    },
+    "OC-4-1-3-2": {
+      "C": 10.0,
+      "gamma": 0.01
+    },
+    "OC-4-1-3-3": {
+      "C": 0.001
+    },
+    "linear-kernel-SVC": {
+      "C": 0.01
+    },
+    "OC-4-4-1": 0.001,
+    "OC-4-4-2": 0.0003,
+    "OC-4-2-1": 0.001,
+    "OC-4-4-1-1": 0.003,
+    "ungated-pooling": 0.003,
+    "OC-4-4-1-2": 0.003,
+    "linear-encoded-attention": 0.001,
+    "OC-4-2-1-1": 0.001,
+    "linear-encoded-mlp": 0.001,
+    "OC-4-4-1-3": 0.001,
+    "OC-4-4-2-1": 0.003
+  },
+  "runs": [
+    {
+      "id": "OC-4-1-3",
+      "seed": 20261104,
+      "candidate": 0,
+      "param": {
+        "C": 0.001
+      },
+      "dev_pauc": 0.68906432748538,
+      "path": "cache/oc4-original/models/OC-4-1-3-0-20261104.joblib",
+      "sha256": "e60c1addfd91b7290bf334e7078cc388b360c3dc115706aa82a268ebe1c2b30e",
+      "cost": {
+        "seconds": 0.0037014010013081133,
+        "solver": null
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-1-3-1",
+      "seed": 20261104,
+      "candidate": 7,
+      "param": {
+        "C": 1000.0,
+        "safe_weight": 2.0
+      },
+      "dev_pauc": 0.6776023391812865,
+      "path": "cache/oc4-original/models/OC-4-1-3-1-7-20261104.joblib",
+      "sha256": "4ab244117c84748055fbe1b9870d205fc7e38ab230ded318a8357226b6b1ffb0",
+      "cost": {
+        "seconds": 0.003898081020452082,
+        "solver": null
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-1-3-2",
+      "seed": 20261104,
+      "candidate": 3,
+      "param": {
+        "C": 10.0,
+        "gamma": 0.01
+      },
+      "dev_pauc": 0.675906432748538,
+      "path": "cache/oc4-original/models/OC-4-1-3-2-3-20261104.joblib",
+      "sha256": "070b537a2319515e006ab07f588d701ac483e7ad0bf0540761abf1b3dabe41bf",
+      "cost": {
+        "seconds": 0.063532194995787,
+        "solver": null
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-1-3-3",
+      "seed": 20261104,
+      "candidate": 0,
+      "param": {
+        "C": 0.001
+      },
+      "dev_pauc": 0.6576023391812865,
+      "path": "cache/oc4-original/models/OC-4-1-3-3-0-20261104.joblib",
+      "sha256": "e033aed2cbc28f69781a6574c65cf84b5efb1ea9addd94e6f8ecc967d2730f7b",
+      "cost": {
+        "seconds": 0.2888796590268612,
+        "solver": {
+          "iterations": 17,
+          "loss": 1.0000000653932541,
+          "xi": 0.9999999993634295,
+          "surrogate_gap": 6.602982460801599e-08,
+          "primal": 0.0010000000657115048,
+          "dual": 0.0009999999996122308,
+          "primal_dual_gap": 6.609927405767935e-11,
+          "beta": 0.1,
+          "negative_k": 80
+        }
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "linear-kernel-SVC",
+      "seed": 20261104,
+      "candidate": 1,
+      "param": {
+        "C": 0.01
+      },
+      "dev_pauc": 0.6854970760233918,
+      "path": "cache/oc4-original/models/linear-kernel-SVC-1-20261104.joblib",
+      "sha256": "7561f081d771cebfeaae2098229163e5d1fd188bdee5488144921436a5c312c0",
+      "cost": {
+        "seconds": 0.0487847660551779,
+        "solver": null
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-1",
+      "seed": 20261104,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.6852046783625731,
+      "path": "cache/oc4-original/models/OC-4-4-1-1-20261104.joblib",
+      "sha256": "8ce6a1b1f0063002829a094a6ac001bbac7dee840d320a497dde2fa4860d5669",
+      "cost": {
+        "seconds": 3.483746394980699,
+        "parameters": 1377,
+        "steps": 240,
+        "first_loss": 0.679419994354248,
+        "last_loss": 0.5251289010047913,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-1",
+      "seed": 20261105,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.6922807017543859,
+      "path": "cache/oc4-original/models/OC-4-4-1-1-20261105.joblib",
+      "sha256": "4dcc83cc13f903f55d90c24243c4db512cf1793541197f4b4eda181bbc1c624b",
+      "cost": {
+        "seconds": 3.50927723699715,
+        "parameters": 1377,
+        "steps": 240,
+        "first_loss": 0.700857400894165,
+        "last_loss": 0.5225361585617065,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-1",
+      "seed": 20261106,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.691345029239766,
+      "path": "cache/oc4-original/models/OC-4-4-1-1-20261106.joblib",
+      "sha256": "2a5719a5817d1051dcf743b1399130eb216ee4b97d43fe5ced8896350504b4c2",
+      "cost": {
+        "seconds": 3.467005905986298,
+        "parameters": 1377,
+        "steps": 240,
+        "first_loss": 0.7002331614494324,
+        "last_loss": 0.5238403081893921,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-2",
+      "seed": 20261104,
+      "candidate": 2,
+      "param": 0.0003,
+      "dev_pauc": 0.6794736842105263,
+      "path": "cache/oc4-original/models/OC-4-4-2-2-20261104.joblib",
+      "sha256": "497e90777c8b1c431ba59d95a49ad88c3e1f4259a4ecbd5e77060247f9e183f6",
+      "cost": {
+        "seconds": 6.499492227041628,
+        "parameters": 3601,
+        "steps": 240,
+        "first_loss": 0.7262968420982361,
+        "last_loss": 0.542864978313446,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-2",
+      "seed": 20261105,
+      "candidate": 2,
+      "param": 0.0003,
+      "dev_pauc": 0.6569590643274854,
+      "path": "cache/oc4-original/models/OC-4-4-2-2-20261105.joblib",
+      "sha256": "d91fac72dfbbfe06fcc542c94e928e6b8bb64617bcc8df42c09fe3fbd8e6ca86",
+      "cost": {
+        "seconds": 6.574602456006687,
+        "parameters": 3601,
+        "steps": 240,
+        "first_loss": 0.716315746307373,
+        "last_loss": 0.5503261685371399,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-2",
+      "seed": 20261106,
+      "candidate": 2,
+      "param": 0.0003,
+      "dev_pauc": 0.6753216374269005,
+      "path": "cache/oc4-original/models/OC-4-4-2-2-20261106.joblib",
+      "sha256": "cca48b324d9de08ac6c075c4c06b4c697f66b2495a953aa5163c02fb07a9b119",
+      "cost": {
+        "seconds": 6.56377915199846,
+        "parameters": 3601,
+        "steps": 240,
+        "first_loss": 0.6979678273200989,
+        "last_loss": 0.5388326048851013,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-2-1",
+      "seed": 20261104,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.6937426900584794,
+      "path": "cache/oc4-original/models/OC-4-2-1-1-20261104.joblib",
+      "sha256": "49466dddfbb465945093952c195505546f7bef8d92c87f8638cdda6b3d4ee1be",
+      "cost": {
+        "seconds": 1.1502737710252404,
+        "parameters": 257,
+        "steps": 240,
+        "first_loss": 0.7140531539916992,
+        "last_loss": 0.5263161659240723,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-2-1",
+      "seed": 20261105,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.696374269005848,
+      "path": "cache/oc4-original/models/OC-4-2-1-1-20261105.joblib",
+      "sha256": "775c3d38eeaf1801db3eb659b7af73461b072a06c0d1239f419fcfb64645a7e4",
+      "cost": {
+        "seconds": 1.1229656810173765,
+        "parameters": 257,
+        "steps": 240,
+        "first_loss": 0.6657427549362183,
+        "last_loss": 0.5204209089279175,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-2-1",
+      "seed": 20261106,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.6931578947368421,
+      "path": "cache/oc4-original/models/OC-4-2-1-1-20261106.joblib",
+      "sha256": "1e0c5e022c7220fa86993df56500b07b0bbfb2ed2e7b7f3c8466fe6f75cd1eef",
+      "cost": {
+        "seconds": 1.1529250330058858,
+        "parameters": 257,
+        "steps": 240,
+        "first_loss": 0.6891117691993713,
+        "last_loss": 0.5246095657348633,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-1-1",
+      "seed": 20261104,
+      "candidate": 0,
+      "param": 0.003,
+      "dev_pauc": 0.672514619883041,
+      "path": "cache/oc4-original/models/OC-4-4-1-1-0-20261104.joblib",
+      "sha256": "4fecbf17b5fe26d657f4f4e4ad00eb29374f0f8e5270d4a9ee2440107e17afda",
+      "cost": {
+        "seconds": 2.6278622479876503,
+        "parameters": 833,
+        "steps": 240,
+        "first_loss": 0.6804496049880981,
+        "last_loss": 0.5131565928459167,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-1-1",
+      "seed": 20261105,
+      "candidate": 0,
+      "param": 0.003,
+      "dev_pauc": 0.6827485380116959,
+      "path": "cache/oc4-original/models/OC-4-4-1-1-0-20261105.joblib",
+      "sha256": "f19dfbbb3a1dcd0f289de1cf0baa6b2e4f8e793503e7c8fffe5752eef40bdf8d",
+      "cost": {
+        "seconds": 2.626129337004386,
+        "parameters": 833,
+        "steps": 240,
+        "first_loss": 0.7211470007896423,
+        "last_loss": 0.49994707107543945,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-1-1",
+      "seed": 20261106,
+      "candidate": 0,
+      "param": 0.003,
+      "dev_pauc": 0.6756140350877193,
+      "path": "cache/oc4-original/models/OC-4-4-1-1-0-20261106.joblib",
+      "sha256": "7507ba395f49693fdf978305de1fe9effa5d42c2c960268986d7ce4e0f4e2531",
+      "cost": {
+        "seconds": 2.6137390070362017,
+        "parameters": 833,
+        "steps": 240,
+        "first_loss": 0.6581745743751526,
+        "last_loss": 0.5039504766464233,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "ungated-pooling",
+      "seed": 20261104,
+      "candidate": 0,
+      "param": 0.003,
+      "dev_pauc": 0.6757309941520467,
+      "path": "cache/oc4-original/models/ungated-pooling-0-20261104.joblib",
+      "sha256": "f6180e5405bd4f9fcb5f87d9e768584e71f49b0a6a9e9512d432af2dc4e41ed8",
+      "cost": {
+        "seconds": 2.1626583199831657,
+        "parameters": 561,
+        "steps": 240,
+        "first_loss": 0.7877683043479919,
+        "last_loss": 0.5057886242866516,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "ungated-pooling",
+      "seed": 20261105,
+      "candidate": 0,
+      "param": 0.003,
+      "dev_pauc": 0.6739766081871346,
+      "path": "cache/oc4-original/models/ungated-pooling-0-20261105.joblib",
+      "sha256": "49cff5d3b47e6ac3df71836368f7732df34ebfd9449bda903b6e530da71b76f8",
+      "cost": {
+        "seconds": 2.2090010620304383,
+        "parameters": 561,
+        "steps": 240,
+        "first_loss": 0.6691215634346008,
+        "last_loss": 0.5044661164283752,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "ungated-pooling",
+      "seed": 20261106,
+      "candidate": 0,
+      "param": 0.003,
+      "dev_pauc": 0.6884210526315789,
+      "path": "cache/oc4-original/models/ungated-pooling-0-20261106.joblib",
+      "sha256": "d7618459311ad22becd872ebc28e63f13dfe6736322ccf32f4c0b2b12b4abca8",
+      "cost": {
+        "seconds": 2.1306519780191593,
+        "parameters": 561,
+        "steps": 240,
+        "first_loss": 0.7378547787666321,
+        "last_loss": 0.4991714358329773,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-1-2",
+      "seed": 20261104,
+      "candidate": 0,
+      "param": 0.003,
+      "dev_pauc": 0.6738011695906433,
+      "path": "cache/oc4-original/models/OC-4-4-1-2-0-20261104.joblib",
+      "sha256": "df2d3eacb12cb2f56d6a03369892a7166a071ade448bd2415da7c7c1587a3a92",
+      "cost": {
+        "seconds": 3.660789363028016,
+        "parameters": 1425,
+        "steps": 240,
+        "first_loss": 0.696738064289093,
+        "last_loss": 0.4995785355567932,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-1-2",
+      "seed": 20261105,
+      "candidate": 0,
+      "param": 0.003,
+      "dev_pauc": 0.6808187134502924,
+      "path": "cache/oc4-original/models/OC-4-4-1-2-0-20261105.joblib",
+      "sha256": "20509f23ff7d138ab6707c400ff3f4c6fccfc9ba5a2cc4ea57ec28cb261ca9f4",
+      "cost": {
+        "seconds": 3.6865711910068057,
+        "parameters": 1425,
+        "steps": 240,
+        "first_loss": 0.6938236951828003,
+        "last_loss": 0.4965820610523224,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-1-2",
+      "seed": 20261106,
+      "candidate": 0,
+      "param": 0.003,
+      "dev_pauc": 0.6842690058479531,
+      "path": "cache/oc4-original/models/OC-4-4-1-2-0-20261106.joblib",
+      "sha256": "88646e0557cf72b39106687e37725eae9677727c9cd6b9f2923321858e254ae2",
+      "cost": {
+        "seconds": 3.654162421997171,
+        "parameters": 1425,
+        "steps": 240,
+        "first_loss": 0.6877433657646179,
+        "last_loss": 0.4924331605434418,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "linear-encoded-attention",
+      "seed": 20261104,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.6798245614035088,
+      "path": "cache/oc4-original/models/linear-encoded-attention-1-20261104.joblib",
+      "sha256": "4c1f62b950b761e1722050da40f2d8b1020529cfb5357e0259f228a9a406421d",
+      "cost": {
+        "seconds": 3.587011353985872,
+        "parameters": 1425,
+        "steps": 240,
+        "first_loss": 0.6992643475532532,
+        "last_loss": 0.5234373211860657,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "linear-encoded-attention",
+      "seed": 20261105,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.6791812865497076,
+      "path": "cache/oc4-original/models/linear-encoded-attention-1-20261105.joblib",
+      "sha256": "735af249c2adc5869d8771faf68f8fe2676d8f15eab89c753d7df0198e0af353",
+      "cost": {
+        "seconds": 3.6334447659901343,
+        "parameters": 1425,
+        "steps": 240,
+        "first_loss": 0.6897112131118774,
+        "last_loss": 0.5228130221366882,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "linear-encoded-attention",
+      "seed": 20261106,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.6802923976608187,
+      "path": "cache/oc4-original/models/linear-encoded-attention-1-20261106.joblib",
+      "sha256": "093d2fe8753b2160eca58c51a6e98830ea4801e325f3b163dc47a15ed5d50dff",
+      "cost": {
+        "seconds": 3.5959296459914185,
+        "parameters": 1425,
+        "steps": 240,
+        "first_loss": 0.692114531993866,
+        "last_loss": 0.5229204297065735,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-2-1-1",
+      "seed": 20261104,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.6978947368421052,
+      "path": "cache/oc4-original/models/OC-4-2-1-1-1-20261104.joblib",
+      "sha256": "c27c7def190e5bcefa3ca1a6791b1bc0cb10db013291b0ea856d5025577ec34d",
+      "cost": {
+        "seconds": 1.1368930480093695,
+        "parameters": 929,
+        "steps": 240,
+        "first_loss": 0.7145168781280518,
+        "last_loss": 0.5115444660186768,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-2-1-1",
+      "seed": 20261105,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.6954385964912281,
+      "path": "cache/oc4-original/models/OC-4-2-1-1-1-20261105.joblib",
+      "sha256": "c6c95b8ad0b97b5c7dc88a5a47f060e083e179de6b873487499f0257ed1d2c32",
+      "cost": {
+        "seconds": 1.160984628018923,
+        "parameters": 929,
+        "steps": 240,
+        "first_loss": 0.7007487416267395,
+        "last_loss": 0.5071395039558411,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-2-1-1",
+      "seed": 20261106,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.693391812865497,
+      "path": "cache/oc4-original/models/OC-4-2-1-1-1-20261106.joblib",
+      "sha256": "e4c3877e4787b22ce640f58e172aeedc43b2ffeef5df4c5b79014a8e0c4c7db5",
+      "cost": {
+        "seconds": 1.1188521060394123,
+        "parameters": 929,
+        "steps": 240,
+        "first_loss": 0.7063397169113159,
+        "last_loss": 0.5057684779167175,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "linear-encoded-mlp",
+      "seed": 20261104,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.6937426900584795,
+      "path": "cache/oc4-original/models/linear-encoded-mlp-1-20261104.joblib",
+      "sha256": "f5392b08f94a4fdc00fa5bf1440a8d0b98facb984cf2726475ad41faa2b6bb5a",
+      "cost": {
+        "seconds": 1.1135810100240633,
+        "parameters": 929,
+        "steps": 240,
+        "first_loss": 0.6988762021064758,
+        "last_loss": 0.5242522954940796,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "linear-encoded-mlp",
+      "seed": 20261105,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.6953801169590643,
+      "path": "cache/oc4-original/models/linear-encoded-mlp-1-20261105.joblib",
+      "sha256": "f06df8dbd9d10ed68e7c9f3a83120908edd1403b8db174e8d867f5d5141abef1",
+      "cost": {
+        "seconds": 1.1088812380330637,
+        "parameters": 929,
+        "steps": 240,
+        "first_loss": 0.6983785033226013,
+        "last_loss": 0.5203858613967896,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "linear-encoded-mlp",
+      "seed": 20261106,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.6967836257309942,
+      "path": "cache/oc4-original/models/linear-encoded-mlp-1-20261106.joblib",
+      "sha256": "b960763ac93ace3fcbd1a746ecaf847befc6d6507c9ecab996693fb4d74fcc9e",
+      "cost": {
+        "seconds": 1.1118685479741544,
+        "parameters": 929,
+        "steps": 240,
+        "first_loss": 0.6993438601493835,
+        "last_loss": 0.5201190710067749,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-1-3",
+      "seed": 20261104,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.6857894736842105,
+      "path": "cache/oc4-original/models/OC-4-4-1-3-1-20261104.joblib",
+      "sha256": "753dd64a789d2eb318e83cedf805c594a4ec45a99557e40219776fcdd72dc069",
+      "cost": {
+        "seconds": 7.2010141930077225,
+        "parameters": 1377,
+        "steps": 240,
+        "first_loss": 8.902627944946289,
+        "last_loss": 1.2220250368118286,
+        "optimizer": "LibAUC-SOPA-adam",
+        "libauc_dual": {
+          "min": 0.0,
+          "max": 1.5515936613082886,
+          "updated": true
+        },
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-1-3",
+      "seed": 20261105,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.6896491228070175,
+      "path": "cache/oc4-original/models/OC-4-4-1-3-1-20261105.joblib",
+      "sha256": "d39d738fd7d7038ebf50d83f2b798e8480c79bcdbd7132fb4bf28a5051c5a9a3",
+      "cost": {
+        "seconds": 7.268963826994877,
+        "parameters": 1377,
+        "steps": 240,
+        "first_loss": 10.537755966186523,
+        "last_loss": 1.2043942213058472,
+        "optimizer": "LibAUC-SOPA-adam",
+        "libauc_dual": {
+          "min": 0.0,
+          "max": 1.5591880083084106,
+          "updated": true
+        },
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-1-3",
+      "seed": 20261106,
+      "candidate": 1,
+      "param": 0.001,
+      "dev_pauc": 0.6921637426900585,
+      "path": "cache/oc4-original/models/OC-4-4-1-3-1-20261106.joblib",
+      "sha256": "a963e59eac7abf8a3aeb718366bd146f72472d7de6e4520f62baa08c7a345a9e",
+      "cost": {
+        "seconds": 7.12704491103068,
+        "parameters": 1377,
+        "steps": 240,
+        "first_loss": 9.725462913513184,
+        "last_loss": 1.2073054313659668,
+        "optimizer": "LibAUC-SOPA-adam",
+        "libauc_dual": {
+          "min": 0.0,
+          "max": 1.568359136581421,
+          "updated": true
+        },
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-2-1",
+      "seed": 20261104,
+      "candidate": 0,
+      "param": 0.003,
+      "dev_pauc": 0.6547953216374269,
+      "path": "cache/oc4-original/models/OC-4-4-2-1-0-20261104.joblib",
+      "sha256": "0e181a0a7c1b9279e5cb742b1c79d88cae91fd5c41ed9efd40a1f54349332064",
+      "cost": {
+        "seconds": 5.127288862015121,
+        "parameters": 3249,
+        "steps": 240,
+        "first_loss": 0.7139094471931458,
+        "last_loss": 0.4614434838294983,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-2-1",
+      "seed": 20261105,
+      "candidate": 0,
+      "param": 0.003,
+      "dev_pauc": 0.6777777777777778,
+      "path": "cache/oc4-original/models/OC-4-4-2-1-0-20261105.joblib",
+      "sha256": "b0409e51e02d8cff8908e52815363dc09e23f85e5c0568c7f56201e21c4f57f4",
+      "cost": {
+        "seconds": 5.146056517958641,
+        "parameters": 3249,
+        "steps": 240,
+        "first_loss": 0.698359489440918,
+        "last_loss": 0.4730408489704132,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    },
+    {
+      "id": "OC-4-4-2-1",
+      "seed": 20261106,
+      "candidate": 0,
+      "param": 0.003,
+      "dev_pauc": 0.649298245614035,
+      "path": "cache/oc4-original/models/OC-4-4-2-1-0-20261106.joblib",
+      "sha256": "75c2b4177ed5873764d27cdbd36fd506ed1dcb2fa9f1ecf63cda01a0f8cf9b92",
+      "cost": {
+        "seconds": 5.099906520976219,
+        "parameters": 3249,
+        "steps": 240,
+        "first_loss": 0.6924422383308411,
+        "last_loss": 0.4535773992538452,
+        "optimizer": "AdamW",
+        "libauc_dual": null,
+        "full_batch_size": 1600
+      },
+      "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d"
+    }
+  ],
+  "total_fits": 144,
+  "selected_models": 38,
+  "seconds": 387.80517702398356,
+  "source_lock_sha256": "d5dcf4332d8840c0fdf348834a5124355ec26aad50baac6ed8cf27fc8807e18d",
+  "no_cal_or_test_used": true,
+  "models_sealed": true
+}

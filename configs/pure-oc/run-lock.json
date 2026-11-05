@@ -1,0 +1,19 @@
+{
+  "source_commit": "d21b13ccda7eae29035d5ef9c5fc4095a04cb1af",
+  "sha256": {
+    "configs/pure-oc/analysis.py": "828606eee5f52defffaeb5afd8d73b16e264e7d37dc8768c914deb163e511da1",
+    "configs/pure-oc/test_contract.py": "36f147d3b85276cef3fb24d6413043e0d51f2a2bf1394785986b4ba13ff5b2f2",
+    "configs/pure-oc/build_manifest.py": "7e43f5d5c3cdb34b02fa26890c04876eeeb3d5a9104a44781e355dd015065702",
+    "configs/pure-oc/run.py": "f6686c5f793770cf04063a0b7233e07c89644861eec236caa99c73e5755c19ac",
+    "configs/pure-oc/evaluate.py": "21d3c36373f70b53944b6c0e9a5f8ac8894ac321924c8c6c7e7e9b735d387770",
+    "configs/pure-oc/manifest.json": "de2bd2982ec3b02f8781c5d8012d922689654bf0ae144e169fbf92721dc47298",
+    "configs/original-positions/core.py": "387a88d20af54b28f788c950e06c6c7f699d19459cf6c73575164dd48e98edf7",
+    "configs/original-positions/manifest.json": "45a1808f652e7dea14b3095f6e7de7bdab9d5fbcdc15129fed1e57af2dde5bdb",
+    "configs/artifacts-lock.json": "9376f884cc88facd00b464635259a9308209ce5f7b354d10fd187d8f7ccc8349",
+    "results/pure-oc/thresholds.json": "ceb09e449e321928aab81700c192fd62bd66e08a232fcb5869f22946b966f5e7",
+    "docs/direction-registry.md": "c0230a4eea22141e385d898a13a1815dcdcd8278962d430c45d98cda1cf12b37",
+    "docs/pure-oc-execution-2026-10-30.md": "2dceaa5763178e1915b592cc2676ba852e3203d8d92a4a3028cd94d559bb08f9"
+  },
+  "freeze_sha256": "ad04fccecc4c1b3c85ab509ab9645403bd0a292aa78b75134733f57e8dcbbcf3",
+  "scoring_started": false
+}

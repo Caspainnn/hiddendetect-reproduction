@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "evaluation_sha256": "bd11d831b2d0880716d3c19ae2addebe8e6c7b64f537416fba457008ff667478",
+  "model_reloads": 33,
+  "point_metric_sets": 39,
+  "independent_roc_replicates": 130000,
+  "maximum_point_difference": 2.220446049250313e-16,
+  "bootstrap_distributions_and_all_intervals_recomputed": true,
+  "libauc_auxiliary_states_retained": true,
+  "no_sample_data_exported": true
+}

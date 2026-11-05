@@ -1,0 +1,98 @@
+{
+  "auroc": {
+    "B0": 0.77624,
+    "B1": 0.801085,
+    "A": 0.829589,
+    "B": 0.828034
+  },
+  "contrasts": {
+    "B1-B0": {
+      "delta": 0.024845000000000006,
+      "ci99": [
+        0.019630925000000066,
+        0.030260004999999954
+      ]
+    },
+    "A-B0": {
+      "delta": 0.05334899999999998,
+      "ci99": [
+        0.03536725500000007,
+        0.07157818499999989
+      ]
+    },
+    "B-B0": {
+      "delta": 0.05179400000000001,
+      "ci99": [
+        0.03502990500000001,
+        0.0688520449999999
+      ]
+    },
+    "B-A": {
+      "delta": -0.001554999999999973,
+      "ci99": [
+        -0.003457085000000043,
+        0.0002730100000000769
+      ]
+    },
+    "B-B1": {
+      "delta": 0.026949,
+      "ci99": [
+        0.014971819999999985,
+        0.039148275000000024
+      ]
+    }
+  },
+  "bootstrap_repeats": 10000,
+  "seed": 20261031,
+  "intervals": {
+    "B0": [
+      16,
+      29
+    ],
+    "B1": [
+      12,
+      28
+    ],
+    "A": [
+      9,
+      19
+    ],
+    "B": [
+      8,
+      20
+    ]
+  },
+  "secondary": {
+    "B0": {
+      "threshold_safe400_ordinal381": 0.35267013497650623,
+      "pauc_standardized_fpr_0_1": 0.6450052631578947,
+      "tpr": 0.333,
+      "fpr": 0.045,
+      "historical_check_auroc": 0.7515222222222222
+    },
+    "B1": {
+      "threshold_safe400_ordinal381": 0.40922612976282835,
+      "pauc_standardized_fpr_0_1": 0.675178947368421,
+      "tpr": 0.407,
+      "fpr": 0.05,
+      "historical_check_auroc": 0.7711888888888888
+    },
+    "A": {
+      "threshold_safe400_ordinal381": 0.2297695456072688,
+      "pauc_standardized_fpr_0_1": 0.7169315789473685,
+      "tpr": 0.471,
+      "fpr": 0.038,
+      "historical_check_auroc": 0.8
+    },
+    "B": {
+      "threshold_safe400_ordinal381": 0.2664153167279437,
+      "pauc_standardized_fpr_0_1": 0.7148789473684211,
+      "tpr": 0.467,
+      "fpr": 0.039,
+      "historical_check_auroc": 0.7990444444444444
+    }
+  },
+  "manifest_sha256": "9cc0c5d74fbc2c66ccffd28f7d7b0aacc8490a587446eb73cdcad0b585917369",
+  "selection_sha256": "716f6e9fdcd997e3daec7d51fc117e3bc1c268550c894e582ece99f1c86b81b9",
+  "scope": "fresh same-source Aegis train; no unseen-domain claim"
+}

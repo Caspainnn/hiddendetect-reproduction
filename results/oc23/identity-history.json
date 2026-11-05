@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "probe_count": 16,
+  "maximum_F_difference": 0.0,
+  "model_sha256": {
+    "models/llava-v1.6-vicuna-7b/config.json": "7b21de0f57c8aa84d752cfb021b5018e4979a23809e29dfcf2c4d31e49b217dd",
+    "models/llava-v1.6-vicuna-7b/generation_config.json": "c0c3e65ffae56c31cd78c33b34687bcfa8cb338e6bd1bf914525e478fa4ffff6",
+    "models/llava-v1.6-vicuna-7b/model-00001-of-00003.safetensors": "f61fd54d6e47f55db4452dd5a263cb5323d1b8077cad86bf536ae0e6b46b5df5",
+    "models/llava-v1.6-vicuna-7b/model-00002-of-00003.safetensors": "a5219e366b4da0d6df6116a2b71c6bceea0b77dfcc5fdec4fa774f0f26c39ec4",
+    "models/llava-v1.6-vicuna-7b/model-00003-of-00003.safetensors": "52a8836fee344f7582a208e4c01d218aa53fa3a3edbfab4538f50aecd57c1646",
+    "models/llava-v1.6-vicuna-7b/model.safetensors.index.json": "3aa4216f08f95215796622b2fec456eb0caa3472b9e709b046cb386b77a1efb1",
+    "models/llava-v1.6-vicuna-7b/special_tokens_map.json": "719833ff26ac897a3ec8ed946028a135de2a351470af59b4008744ab1f0ee9b7",
+    "models/llava-v1.6-vicuna-7b/tokenizer.model": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+    "models/llava-v1.6-vicuna-7b/tokenizer_config.json": "e3d348c5c498caa305b77317e0aa4157e60f49bc1fa37e061273cc0b9a5efb52",
+    "models/clip-vit-large-patch14-336/config.json": "51b1c14aabcdf639c4a0370eeda1010b773bbe1df78319c7d0f5882c22ac0ac0",
+    "models/clip-vit-large-patch14-336/preprocessor_config.json": "d253881f65322dc546df59cf925a408e5538b8ecb5a1b496cdd36af9992686d4",
+    "models/clip-vit-large-patch14-336/pytorch_model.bin": "c6032c2e0caae3dc2d4fba35535fa6307dbb49df59c7e182b1bc4b3329b81801"
+  },
+  "probe_ids": [
+    "aegis:train.json:94a7bcabd08548ba8fe8ea6df9bf9318",
+    "aegis:train.json:ec6312eb0da84939af2a380315c5ceda",
+    "aegis:train.json:a3523eeb1ffe4b4f8bc3c85264c3f742",
+    "aegis:train.json:3b082264d1ec4c0498482f881dfea2c2",
+    "aegis:train.json:1163214b907541fc868abf75b8578b88",
+    "aegis:train.json:a336b8dbb4cc4b5c9a213688d09dd327",
+    "aegis:train.json:c8df5deb57624b5e9b69e0172bc9ee46",
+    "aegis:train.json:1772cd46d5d94fb6ae63889c6c25d525",
+    "aegis:train.json:109bb56628e84fc5a82cf4f779569b8b",
+    "aegis:train.json:b5ff6356c67f42e1babeb8a38ae6ee48",
+    "aegis:train.json:10999ed287e04157b5e287f984c8a578",
+    "aegis:train.json:062340e909cd4487a3ad81dd41ac42ce",
+    "aegis:train.json:a1419df70fa242219a9bfa59a38233a0",
+    "aegis:train.json:cb155b79f7b747ebb36a9a985b8926a7",
+    "aegis:train.json:5f96ee293ecd424dafa53fa1be5b7633",
+    "aegis:train.json:0d8123c996c143d49bb5483de69843e1"
+  ],
+  "source_lock_sha256": "3abea98302c0a47c3c4995f2985d1a43afd77e570cc88af88c87f81b276ce792"
+}

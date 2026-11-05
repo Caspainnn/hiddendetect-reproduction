@@ -1,0 +1,42 @@
+{
+  "source_commit": "4437cea0a3a1bf8047b04415f0e7235b4b4b4812",
+  "sha256": {
+    "configs/oc-confirmation/test_contract.py": "58b09aac75eaaa78813cafc1eceb7306969c08749b6ad2d2e7216a96fa3d913a",
+    "configs/oc-confirmation/report.py": "65917c5d5d81a10535305238311c0fc0c95e9a09e72855df43956d13cf505085",
+    "configs/oc-confirmation/core.py": "55ce559774b35bba9de6ec4eef55c3dba8708a8804885ce99c16ede9a326a146",
+    "configs/oc-confirmation/evaluate.py": "4d20dfe4fd0f1e12ec1894ce24ad4629b7ed5be71675b265b7c96e81bee2a8d1",
+    "configs/oc-confirmation/prepare.py": "b6353411128f9a6f16575686cc16704886f1e513cc41c747f68acee43ea17ccb",
+    "configs/oc-confirmation/verify.py": "41ac3e3d963859d7e02569e7bea6637543ee759291961dc2ff42be0d922c07c5",
+    "configs/oc-confirmation/stability.py": "fca6bd5ad8b898f43aee0b407c095cbd29462eb297050a03173bae887076d7ab",
+    "configs/oc-confirmation/acquire.py": "9028a7f56a040a6751e296f25b920b85e3d58212fd7378fbd18fbfca29b7057a",
+    "configs/oc-confirmation/source_metadata.py": "66385f47448ab1ed02b914acda33d3fd8f9b4f265dc2f82f6f28906e3f5e8af9",
+    "configs/oc-confirmation/extract.py": "a8900589590812031e02b17c1bda066ca85ed6ae9635e5000a44fab7ff1050bd",
+    "configs/oc-heads/core.py": "c0956f6b5f8dafc17eb32d600fb0d230f675338f4a7e631898efae4912e81540",
+    "configs/oc-heads/verify_statistics_independent.py": "6a1a705fdcf39f3ca1ed803c91429957f7aec5521769e2da23493434b407e32e",
+    "configs/original-positions/core.py": "387a88d20af54b28f788c950e06c6c7f699d19459cf6c73575164dd48e98edf7",
+    "configs/swarm/core.py": "9b0d0622220054f85949b44d68ba5b60b5039b87e350e68d560a73483923c6e1",
+    "configs/signal-selection/experiment_core.py": "ad35c2e9ed29d47854ea3db7cd999ef5e07c981226ce7872c91eec13fa45cc85",
+    "docs/oc-heads-confirmation-protocol-2026-11-04.md": "6efdf6b5689d77c724979b228b989f9efe42fbd13d0352b7a6f89fae4738e72d"
+  },
+  "manifest_sha256": "5612fe4d32306cb4996ef2fb936cc360c6d8aece68620314ed055a3a0fc9c974",
+  "models_sha256": {
+    "cache/oc-heads/models/OC-4-1-1-0-20261104.joblib": "ecc908fb63884bdf50f4dd9073b2a8812f61a466967ffe4e92218c0a0728faaa",
+    "cache/oc-heads/models/OC-4-1-1-0-20261105.joblib": "0a3d7ae1a5a8d76b55e90d96ee7de6a99c2984baaff67fbf2067e3e4f77a63d9",
+    "cache/oc-heads/models/OC-4-1-1-0-20261106.joblib": "8a35d03540591cc7e7efe429fb84e11fd07a672f28774046451b49c996bbb4f5",
+    "cache/oc-heads/models/OC-4-1-3-2-20261104.joblib": "cac2fd5023574ab22a84845f486b32f5772a3f6f261b2e99c46ff26681121a5f",
+    "cache/oc-heads/models/OC-4-1-3-2-20261105.joblib": "0b890a795a11a77f6b1aa4b50666077a9e52b5d6ba8af64f0df0187b8ddf5562",
+    "cache/oc-heads/models/OC-4-1-3-2-20261106.joblib": "f9036a0dafda1aae22d7a558763cc7c54828178d3f6c94506acfcfbaa75e6831",
+    "cache/oc-heads/models/OC-4-4-1-0-20261104.joblib": "25aa83a9a239a0eb2b93ae3ac8352b94990ebe8c2beaca06954a9c221c74fd5c",
+    "cache/oc-heads/models/OC-4-4-1-0-20261105.joblib": "0d9c43597a20cb0070ee1bc8aced43045eec51eb1da91f9e07612be685345058",
+    "cache/oc-heads/models/OC-4-4-1-0-20261106.joblib": "5a83e90aba97b5b6177fb8f52d5aff3904be8df18e9ee7467175db2808a2cee9"
+  },
+  "h1_result_sha256": {
+    "results/oc-heads/selection.json": "3231f6f79f4dc7fb32c4f1ebd21b28ecfabfc8f4d794c515c8dc25157c400efc",
+    "results/oc-heads/pre-evaluation-seal.json": "8aa96869e6dce03bd086c18e85129d06df8ea2a811d839cfdfafb88168100648",
+    "results/oc-heads/evaluation-complete.json": "c6c8975992be0f5619a69699e8e50e1eeece8999d814866acd4f80e2103cc70e",
+    "results/oc-heads/thresholds-20261104.json": "8306de4aff7c71aa0f933b62beb7db12b1526564c1718005a785407d8f6e5bc6",
+    "results/oc-heads/thresholds-20261105.json": "3b8a1aaea3b86a7964d81a0c1f263e21e51d0626b7f73c1b2207dac4173c745b",
+    "results/oc-heads/thresholds-20261106.json": "5a4e5feb94637d001ff842faee48711fcf166db674e8c7b9ea9b5c97ee4108b9"
+  },
+  "first_new_sample_not_scored": true
+}

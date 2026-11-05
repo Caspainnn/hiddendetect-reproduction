@@ -1,0 +1,31 @@
+{
+  "protocol": "pure OC fixed [16,29] last-token original F; no classifier or re-selection",
+  "run_id": "OC-A1-N",
+  "primary_family": [
+    "M vs B",
+    "top4 vs B",
+    "trim2 vs B",
+    "window4 vs B"
+  ],
+  "bootstrap_repeats": 10000,
+  "seed": 20261030,
+  "interval": 0.9875,
+  "calibration_n": 400,
+  "calibration_order_statistic": 381,
+  "selected_per_class": 1000,
+  "scoring_started": false,
+  "sha256": {
+    "configs/pure-oc/analysis.py": "828606eee5f52defffaeb5afd8d73b16e264e7d37dc8768c914deb163e511da1",
+    "configs/pure-oc/test_contract.py": "36f147d3b85276cef3fb24d6413043e0d51f2a2bf1394785986b4ba13ff5b2f2",
+    "configs/pure-oc/build_manifest.py": "f988f8687474ecf125950ef1cfa98f574cb2053cc83865ae8f4819c0a872ae55",
+    "configs/pure-oc/run.py": "f6686c5f793770cf04063a0b7233e07c89644861eec236caa99c73e5755c19ac",
+    "configs/pure-oc/evaluate.py": "21d3c36373f70b53944b6c0e9a5f8ac8894ac321924c8c6c7e7e9b735d387770",
+    "configs/pure-oc/manifest.json": "de2bd2982ec3b02f8781c5d8012d922689654bf0ae144e169fbf92721dc47298",
+    "configs/original-positions/core.py": "387a88d20af54b28f788c950e06c6c7f699d19459cf6c73575164dd48e98edf7",
+    "configs/original-positions/manifest.json": "45a1808f652e7dea14b3095f6e7de7bdab9d5fbcdc15129fed1e57af2dde5bdb",
+    "configs/artifacts-lock.json": "9376f884cc88facd00b464635259a9308209ce5f7b354d10fd187d8f7ccc8349",
+    "results/pure-oc/thresholds.json": "f268751f692babe24668bc8626de4b3c08dff7d1b0ea0171a472a57c7ff76c33",
+    "docs/direction-registry.md": "53e27a3bdb45cae36be2466dab2dbb115d2121e8d5a0af2ca5e963341fb14b3e",
+    "docs/pure-oc-execution-2026-10-30.md": "14bc402083bc4cc27d03a18846c4eac892b2294adbc6f587dec1f233108a6a1e"
+  }
+}

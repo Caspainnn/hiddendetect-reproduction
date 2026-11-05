@@ -1,0 +1,179 @@
+{
+  "run_id": "OC-A1-N",
+  "counts": [
+    1000,
+    1000
+  ],
+  "metrics": [
+    {
+      "name": "B",
+      "direction_id": "original-B",
+      "auroc": 0.759299,
+      "pauc": 0.6489894736842106,
+      "threshold": 0.35267013497650623,
+      "tpr": 0.346,
+      "fpr": 0.038
+    },
+    {
+      "name": "M",
+      "direction_id": "OC-1-M",
+      "auroc": 0.762188,
+      "pauc": 0.651721052631579,
+      "threshold": 0.026473923586308956,
+      "tpr": 0.357,
+      "fpr": 0.041,
+      "delta_auroc": 0.0028890000000000304,
+      "auroc_ci95": [
+        0.0023679999999999257,
+        0.0034269999999999605
+      ],
+      "delta_pauc": 0.0027315789473684182,
+      "pauc_ci9875": [
+        0.0015947368421052592,
+        0.0040368421052631165
+      ],
+      "delta_fpr": 0.003,
+      "fpr_delta_ci95": [
+        0.0,
+        0.007
+      ],
+      "delta_tpr": 0.011,
+      "tpr_delta_ci95": [
+        0.005,
+        0.018
+      ],
+      "decision": "confirmed_improvement"
+    },
+    {
+      "name": "top4",
+      "direction_id": "OC-1-1",
+      "auroc": 0.777979,
+      "pauc": 0.6531157894736842,
+      "threshold": 0.0323069067671895,
+      "tpr": 0.356,
+      "fpr": 0.045,
+      "delta_auroc": 0.01868000000000003,
+      "auroc_ci95": [
+        0.013835000000000042,
+        0.023613025000000103
+      ],
+      "delta_pauc": 0.004126315789473645,
+      "pauc_ci9875": [
+        -0.003300131578947338,
+        0.01144210526315792
+      ],
+      "delta_fpr": 0.007,
+      "fpr_delta_ci95": [
+        -0.001,
+        0.015
+      ],
+      "delta_tpr": 0.01,
+      "tpr_delta_ci95": [
+        -0.003,
+        0.023
+      ],
+      "decision": "unconfirmed"
+    },
+    {
+      "name": "trim2",
+      "direction_id": "OC-1-2",
+      "auroc": 0.7592490000000001,
+      "pauc": 0.6517947368421053,
+      "threshold": 0.02686008159071207,
+      "tpr": 0.354,
+      "fpr": 0.043,
+      "delta_auroc": -4.999999999988347e-05,
+      "auroc_ci95": [
+        -0.0009510250000001441,
+        0.0008589999999999431
+      ],
+      "delta_pauc": 0.002805263157894755,
+      "pauc_ci9875": [
+        0.0008499671052631761,
+        0.004689473684210522
+      ],
+      "delta_fpr": 0.005,
+      "fpr_delta_ci95": [
+        0.001,
+        0.01
+      ],
+      "delta_tpr": 0.008,
+      "tpr_delta_ci95": [
+        0.002,
+        0.015
+      ],
+      "decision": "confirmed_improvement"
+    },
+    {
+      "name": "window4",
+      "direction_id": "OC-1-3",
+      "auroc": 0.776797,
+      "pauc": 0.6507421052631579,
+      "threshold": 0.032040057703852654,
+      "tpr": 0.352,
+      "fpr": 0.042,
+      "delta_auroc": 0.017498000000000014,
+      "auroc_ci95": [
+        0.012375974999999945,
+        0.022857225000000012
+      ],
+      "delta_pauc": 0.001752631578947339,
+      "pauc_ci9875": [
+        -0.0060922039473683695,
+        0.009639967105263192
+      ],
+      "delta_fpr": 0.004,
+      "fpr_delta_ci95": [
+        -0.004,
+        0.012
+      ],
+      "delta_tpr": 0.006,
+      "tpr_delta_ci95": [
+        -0.008,
+        0.02
+      ],
+      "decision": "unconfirmed"
+    }
+  ],
+  "mechanism_descriptive": [
+    {
+      "comparison": "top4 vs M",
+      "delta_pauc": 0.0013947368421052264,
+      "pauc_ci95_descriptive": [
+        -0.004431578947368345,
+        0.007110657894736822
+      ],
+      "delta_auroc": 0.015791
+    },
+    {
+      "comparison": "trim2 vs M",
+      "delta_pauc": 7.368421052633689e-05,
+      "pauc_ci95_descriptive": [
+        -0.0014317105263158157,
+        0.0013842105263157656
+      ],
+      "delta_auroc": -0.002938999999999914
+    },
+    {
+      "comparison": "window4 vs top4",
+      "delta_pauc": -0.0023736842105263056,
+      "pauc_ci95_descriptive": [
+        -0.0038789473684209845,
+        -0.000673684210526379
+      ],
+      "delta_auroc": -0.0011820000000000164
+    }
+  ],
+  "bootstrap": {
+    "repeats": 10000,
+    "seed": 20261030,
+    "family": 4,
+    "primary": "standardized pAUC FPR<=0.1",
+    "primary_interval": 0.9875,
+    "conditional": "fixed calibration and rules; no calibration population uncertainty"
+  },
+  "manifest_sha256": "de2bd2982ec3b02f8781c5d8012d922689654bf0ae144e169fbf92721dc47298",
+  "scores_sha256": "c1496aa29f7073a51ac61a63c12f68ecc00d297ef969f0240851ae9782c25231",
+  "run_lock_sha256": "b9f205b9ce8e9ac32fdbe072471e1fd31af21e6961edb742eef99870eb34cba3",
+  "scope": "new same-source Aegis holdout; now historical, not cross-domain"
+}

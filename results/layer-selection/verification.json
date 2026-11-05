@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "rows": 3256,
+  "independent_sklearn_auroc": true,
+  "selectors_reproduced": true,
+  "independent_weighted_roc_bootstrap_ci": true,
+  "thresholds_recomputed": true,
+  "group_role_disjoint": true,
+  "frozen_source_hashes": true,
+  "verifier_sha256": "5723f8f9d0bd3bd9749d6c0d2eec14970e2e6a2dcfb2788871491d0750cbda28"
+}

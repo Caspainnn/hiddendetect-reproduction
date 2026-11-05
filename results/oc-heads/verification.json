@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "score_values_replayed": 67014,
+  "maximum_score_difference": 3.3306690738754696e-16,
+  "maximum_threshold_difference": 0.0,
+  "maximum_metric_difference": 0.0,
+  "floating_tolerance": 1e-12,
+  "confusion_counts_exact": true,
+  "selected_models": 24,
+  "selection_replayed": true,
+  "original_bitwise_verifier_failed_on_parallel_RF_roundoff": true,
+  "production_scores_unchanged": true,
+  "tied_bootstrap_vs_sklearn_replicates": 100,
+  "source_lock_sha256": "57c6f76f029e5763655711ea7712e373d132263f770d2652739201fb4da695c3",
+  "replay_verifier_sha256": "dae2bba5c8ff5c6ce05ed226b8289d0ba4e38b660eaa924dbd5a14767b4d7216"
+}

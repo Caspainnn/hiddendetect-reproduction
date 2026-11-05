@@ -1,0 +1,59 @@
+{
+  "run_id": "OC-H2",
+  "source_revision": "e36d8b80e81837c8a8f264bbb2a49f1b32c7e272",
+  "target_counts": {
+    "cal_normal": 400,
+    "test_normal": 1000,
+    "test_danger": 500
+  },
+  "actual_counts": {
+    "cal:0": 400,
+    "test:0": 1000,
+    "test:1": 500
+  },
+  "category_counts": {
+    "cal:0:privacy": 47,
+    "cal:0:sexual": 19,
+    "cal:0:illegal": 55,
+    "cal:0:harmful": 82,
+    "cal:0:violence": 31,
+    "cal:0:deception": 48,
+    "cal:0:hate": 31,
+    "cal:0:self-harm": 27,
+    "cal:0:unethical": 47,
+    "cal:0:harassment": 13,
+    "test:0:harmful": 209,
+    "test:0:illegal": 114,
+    "test:0:unethical": 159,
+    "test:0:harassment": 35,
+    "test:0:deception": 94,
+    "test:0:hate": 64,
+    "test:0:sexual": 63,
+    "test:0:violence": 82,
+    "test:0:privacy": 115,
+    "test:0:self-harm": 65,
+    "test:1:harassment": 63,
+    "test:1:deception": 61,
+    "test:1:privacy": 46,
+    "test:1:sexual": 53,
+    "test:1:illegal": 41,
+    "test:1:self-harm": 68,
+    "test:1:hate": 47,
+    "test:1:unethical": 49,
+    "test:1:violence": 50,
+    "test:1:harmful": 22
+  },
+  "available": {
+    "0": 5000,
+    "1": 653
+  },
+  "primary_seed": 20261104,
+  "seeds": [
+    20261104,
+    20261105,
+    20261106
+  ],
+  "new_source_unscored_at_freeze": true,
+  "model_selection_sha256": "3231f6f79f4dc7fb32c4f1ebd21b28ecfabfc8f4d794c515c8dc25157c400efc",
+  "history_worktree_count": 6
+}

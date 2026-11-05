@@ -1,0 +1,363 @@
+{
+  "run_id": "OC-A2",
+  "commit": "d20b76d6f0bfece198c0b4c9ff1cba9f7acf5917",
+  "sources": {
+    "configs/oc-attention/train.py": "57a3767eb0b0d0ccc255ee88b165214994b429456a42903c37ca0505b9d40100",
+    "configs/oc-attention/run.py": "80db7118bb4afd97e3251426b2771954f093df58d494a4cba59a2a95450e9ad6",
+    "configs/oc-attention/report.py": "e4869565c635645ba37ce1bbbfa4d83cae3a9f7c097beacaabc9b88e54c6a9a1",
+    "configs/oc-attention/core.py": "22b7800f15f8a349545b3fc4cc4804fe621e4fc51fe77baf5ec7a75c21f996e3",
+    "configs/oc-attention/evaluate.py": "1e34b7eac24e438c58ab9c67e0e7d935f4fb70c50827652b86d9d2960c5acb1c",
+    "configs/oc-attention/check.py": "8e984d6ca98e0f1f0b041910e1f3728b4609d2b375715197b55b3e2072132db6",
+    "configs/oc-attention/prepare.py": "ee297d642ca004665d27b658d4c128894d1b21a7ff5d3029e9d2dac8debe5e30",
+    "configs/oc-attention/verify.py": "301b30ce504a477df001e2177cdc3d59d59572249d25980feeb653ae3f8aa9fe",
+    "docs/oc-attention-protocol-2026-11-04.md": "a50980d038414d592296ee39984d1260f5a0e7bd5ae0fff2f71039da07cd28ef"
+  },
+  "inputs": {
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4r-worktree/cache/oc-retraining/features.npz": "3f25dc406d035703507e669303a3583aed2107987398e5d09ebd49293159d981",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4c-worktree/cache/oc-confirmation/features.npz": "d3f176048f19bb0f55174e31f0eafb05c5b65e73dbe369f598983a70e0f9e783",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4r-worktree/results/oc-retraining/source-lock.json": "349ee88ab50e9ab6f2ba935875338bce5c0cad20f5487f2c2a61f130360800da",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4r-worktree/results/oc-retraining/manifest.json": "e6373df3b61843efbba73ee40902fc62c78e57cd0e72a3d459c15f54940ec4bd",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4r-worktree/results/oc-retraining/training.json": "bb9e88b1f3bff1bf1cdf27e7e305c86912906ebf2a5caee1b703ae1189211cd2",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4r-worktree/results/oc-retraining/retraining.json": "d13af02e27b2dc05b87a29e9b6cfbe82516e3b5b6429fdaa023ddfdd17f5f8c5",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4r-worktree/cache/oc-retraining/frozen-scores.npz": "d1dd21b042b8e64ad6e0efec8159414976ed71944c89da1f04142299a2b701b8",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4r-worktree/results/oc-retraining/data-summary.json": "9a266c0f5bebfab0d75aef2f362d7ee1aea2be6568adbfcb90396f275dbb25e7",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4c-worktree/results/oc-confirmation/manifest.json": "5612fe4d32306cb4996ef2fb936cc360c6d8aece68620314ed055a3a0fc9c974",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4c-worktree/results/oc-confirmation/extraction.json": "3cf2b4a34fc400005c4dcb234c2ddd4e662c5d4e58791c7beb0cb7bcbbd5fc80",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/svm-worktree/results/oc-svm/evaluation.json": "d884631b3a99dff2cf51a2f9dd15fe96300c6f1cb82e9bccc05f7751e07652a4",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/svm-worktree/results/oc-svm/verification.json": "9568714dd241f80f76ee7a3147a60ca32047b86ec3f2948e0d55862b8a9a9859",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/svm-worktree/cache/oc-svm/frozen-scores.npz": "2cbdecf6afa10f0f898baf49a1e80b28849b7ee205fe72dde7c95e72537d77e0",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/configs/oc-heads/core.py": "c0956f6b5f8dafc17eb32d600fb0d230f675338f4a7e631898efae4912e81540",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/configs/oc-heads/verify_statistics_independent.py": "6a1a705fdcf39f3ca1ed803c91429957f7aec5521769e2da23493434b407e32e",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/configs/original-positions/core.py": "387a88d20af54b28f788c950e06c6c7f699d19459cf6c73575164dd48e98edf7",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/oc-attention/training-only.npz": "3bfe3d78aabc6ec4f11719f7a5a4b5c27bd9533d5d93a501664d9b65cf4eadd0",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4r-worktree/cache/oc-retraining/models/or_small-OC-4-4-1-20261104.joblib": "0d62a30427c991dcdbe9ed804c431ba8a2e7dba2fc3b346db8ca5bc0d51948d5"
+  },
+  "vendor_files": {
+    "cache/vendor/libauc/libauc/__init__.py": "ce2fcb6944ff3ac0a102db0f5db39e4694240a8852b0ec9e5df6af40f3341a81",
+    "cache/vendor/libauc/libauc/optimizers/adam.py": "5ef5ff47351c0763189ec089e8ebd2369107a9a6b9ac4015d2279b6b82de71c1",
+    "cache/vendor/libauc/libauc/optimizers/sopa_s.py": "bc1ff7e490ec6a5b906a5743061fd0ef8c1379286b1967ef965752e46afb8a4f",
+    "cache/vendor/libauc/libauc/optimizers/sota_s.py": "6f7db13e96f4977ef4819accebf350fea882a68a5c3f425cf70c732948cc3989",
+    "cache/vendor/libauc/libauc/optimizers/pesg.py": "2b5a4f52709c1d2f8af379e562707a979b07fcd5b7ed01415cdc6bdc5b8bd4e1",
+    "cache/vendor/libauc/libauc/optimizers/song.py": "3093477afb9a659d4d222f5dc1cff2ccc5f5c7ccf9ed8adfdef9461444381853",
+    "cache/vendor/libauc/libauc/optimizers/__init__.py": "8a11d5c480eee636617e43c8e7a4ef17c47b1e50ed38750a1442955a5509453c",
+    "cache/vendor/libauc/libauc/optimizers/adamw.py": "7951953cd266a93bb751fa9311a507e9dd5bc0d52c88285d21b9712f9580b7ce",
+    "cache/vendor/libauc/libauc/optimizers/isogclr.py": "4f3a02177acc585ad1e206c80bf825fe0bd7f5a7003d1cf3625bd9d3320ce499",
+    "cache/vendor/libauc/libauc/optimizers/midam.py": "06dfab564df1a2a9caf757eb96ce8799cbfcbd76f92604a91785d5df2b5499a9",
+    "cache/vendor/libauc/libauc/optimizers/sopa.py": "35c1f2a74d8106346068a6d7a525cc9e517772e86fe05623586da161ab61d6ca",
+    "cache/vendor/libauc/libauc/optimizers/sgd.py": "bcc91e66484f722d5c27d4782df5682cd9277aa8aa79c940d0e77792106901bd",
+    "cache/vendor/libauc/libauc/optimizers/lars.py": "419ff907dcd028748f16f1f10fdbd42af32bbfe503f35ab3e107182a821aa0c6",
+    "cache/vendor/libauc/libauc/optimizers/sogclr.py": "7d45defc8fd179d0c0cd2297ccff9caa7d4841c113c0f6c2cdbcfe06aeee4241",
+    "cache/vendor/libauc/libauc/optimizers/soap.py": "11004033ecf945504a8f247592f673123807f654a9b38fef773c2f8036a457d1",
+    "cache/vendor/libauc/libauc/optimizers/pdsca.py": "7c2e39630ed3894200f04642fdc7b8f73c3d03dc85f6214f64aa4481b9849a65",
+    "cache/vendor/libauc/libauc/metrics/metrics_k.py": "ab7803d960cfdf08004865397a258d36f48312832d00ddfdf9a6903020a52a12",
+    "cache/vendor/libauc/libauc/metrics/__init__.py": "30df3a364121ab41d9fe6f16f7c8b819261c065269c2e7248a26ec202b7136d5",
+    "cache/vendor/libauc/libauc/metrics/metrics.py": "7fe650aa7183faf9b4aee58e030ae4fd23272005050c91637cc583794bf281a1",
+    "cache/vendor/libauc/libauc/sampler/__init__.py": "b38baddb584299b626399e061ab44b2453196277f199f20473c695393d2530ef",
+    "cache/vendor/libauc/libauc/sampler/sampler.py": "a2926b3002b84487c4d8ebd5ea2e6662582ac15d4d7233b99262b4868f29aae6",
+    "cache/vendor/libauc/libauc/models/neumf.py": "45516c11a3784174cb530ff33219490882caeb02df530d20d3b6df2c93412d38",
+    "cache/vendor/libauc/libauc/models/gnn.py": "67d4763f72af32f753258040c4b04a6c00b0d04375060930f3d76e17a2b2f1b0",
+    "cache/vendor/libauc/libauc/models/resnet.py": "717087014d817bd9d63b680ccc483be7ef35077173035980ca60e5e66a980e4f",
+    "cache/vendor/libauc/libauc/models/__init__.py": "6a3985aea0394a3bd730733f0ffe74bb580e9f0e2a6cfa814759aef2706920ad",
+    "cache/vendor/libauc/libauc/models/resnet_cifar.py": "135e5af66b6ef006a00088a0a7e90c7ebfddf9314e82850fb8e6a4bb3d79ccfe",
+    "cache/vendor/libauc/libauc/models/densenet.py": "69890a93d7a30bd9f3827d0fb4084b3afc83f015e6858036b1c34d4874c8b825",
+    "cache/vendor/libauc/libauc/models/perceptron.py": "399b4498317aba7e27714ee2ae925e0654fc310645dc2d06ecb0201079514c2c",
+    "cache/vendor/libauc/libauc/models/mil_models.py": "34935842d587bb4c2682094821cf205a93161d1240b884aed36513d784edd522",
+    "cache/vendor/libauc/libauc/utils/__init__.py": "8d9e7f6fb033af9184bfbeef5283147164874a92a3abebeff7cf3919fa2a7863",
+    "cache/vendor/libauc/libauc/utils/utils.py": "8d54bf82ed7ab3f8dc7f4a61cb27e0a77ad05be70a53807d175d6c015a9efb92",
+    "cache/vendor/libauc/libauc/utils/paper_utils.py": "02274467b1c236d641faba8c341b00a8436aa0c098b9470da611fef18dfb8847",
+    "cache/vendor/libauc/libauc/datasets/melanoma.py": "b7d4ac628ec1d38fb23b9944cf3de6b422e0aa823b62d1ba828007a766d57b0a",
+    "cache/vendor/libauc/libauc/datasets/__init__.py": "9dced86fe882fd1f39abce7645dff7ff37830ada9d77fbff921f880ef4185d5f",
+    "cache/vendor/libauc/libauc/datasets/cat_vs_dog.py": "94b942f27b90126bf6b414d94e050982f3c418c65dd07fc53d8dfd687dd3d816",
+    "cache/vendor/libauc/libauc/datasets/cifar.py": "e1649bfb37b775373855f27efb7ecf721f142554c7bd26febcad3707ae4d16ae",
+    "cache/vendor/libauc/libauc/datasets/folder.py": "167c054a36ea21ea4e528031a4e05810c16a70aa12d0b7b85b7ba53de518852a",
+    "cache/vendor/libauc/libauc/datasets/chexpert.py": "b7742d381f4ba843eb4639de7e08944cad35e6319de152e909e8072f04f0bd78",
+    "cache/vendor/libauc/libauc/datasets/breastcancer.py": "ca1688ad30dc3a3d6146298a2ef8f19ab1caba95e0c2618d55e405e58fe198ba",
+    "cache/vendor/libauc/libauc/datasets/stl10.py": "344415cce8454377de47fa4e38ba6d1b2bb9301cea68f2c0f44954840f774d84",
+    "cache/vendor/libauc/libauc/datasets/movielens.py": "9d8e51872ac153d187f60217b96fed35d83e812777fc15036a0822965b228971",
+    "cache/vendor/libauc/libauc/datasets/musk2.py": "150704b951fd0f5e4fd24818ac79f639e0681c73a88cba4a506491bc9a88e31d",
+    "cache/vendor/libauc/libauc/datasets/webdataset.py": "2452b44dab66ff9cbcf6e16d59fab11d4f259ba0e99a55e848db0db8a9713453",
+    "cache/vendor/libauc/libauc/datasets/dataset.py": "2442c91d13302dc5c7cb5f87de3b4bf3eec53a34ef5aa84b377659e0f1cb4a14",
+    "cache/vendor/libauc/libauc/losses/mil.py": "00733bb09b1995ca0ac0940a62e52f9b2434211827a3461516b1110831c3bbe5",
+    "cache/vendor/libauc/libauc/losses/contrastive.py": "e74aa2432d4dbe8fa29fd819fc47e10fbbd3b9243b75d323b00a36933ae5f3ed",
+    "cache/vendor/libauc/libauc/losses/__init__.py": "d7f4e2e3db8dd61d9204be9612ff474c705183c8709169351093bad475792298",
+    "cache/vendor/libauc/libauc/losses/surrogate.py": "eb8abab7c25160ae6181f00ab1c4ff2d0ef86003c39ec10b930a1770986757f6",
+    "cache/vendor/libauc/libauc/losses/auc.py": "d21c653279508bd9e45571b95f3e64a28f54440ea9407eb61e3d535cf404dd28",
+    "cache/vendor/libauc/libauc/losses/perf_at_top.py": "0abceaa72f0c8a9fff41b7bd91d3f5b6824a326fdf918e3e976546e57c9596b7",
+    "cache/vendor/libauc/libauc/losses/ranking.py": "54501c7354e75bd611b9a3caf26215fb87b27382d01d39105021489d06a393b7",
+    "cache/vendor/libauc/libauc/losses/losses.py": "dd3bfcd91198b4b7bb10b8eef83c5cd4a24f6e30f8e7524a72857066d210e323",
+    "cache/vendor/rtdl/rtdl/functional.py": "cac0ab7f87b14251b30ad70baefdf4f75fbd28a53be7d9f220acf2a0ea2338a0",
+    "cache/vendor/rtdl/rtdl/__init__.py": "2840668e9526f6ffc72258a02a99d29151ad89e32e5d35accef24b917f4d3788",
+    "cache/vendor/rtdl/rtdl/data.py": "d2b2e59aef55f14111c6f1ead699ba7376bef82f13a15d45b56d22a5b9eb7e97",
+    "cache/vendor/rtdl/rtdl/modules.py": "c410ceb24e895d23ef9dc37d58101f553ae30cba30e7d39cae16a968ae6c512d",
+    "cache/vendor/rtdl/rtdl/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "cache/vendor/rtdl/rtdl/tests/test_modules.py": "eb61cfa2c6f471af825776fb72b462260d8053c81cd7aed0b39e20f4729ce297",
+    "cache/vendor/rtdl/rtdl/tests/test_vs_paper.py": "31c8c86f45acbbc89debb2c41aa7a66fcfd8ee7879206db980ef3ae3afbdebbe",
+    "cache/vendor/rtdl/rtdl/tests/test_data.py": "3331955500639d92f884119265361423c704429f958974f083d1aeb614c39d5b",
+    "cache/vendor/acquisition.json": "2fd3211b2515f439df1b86585158470d1a3e7796c8830e4c848a6ae24f4ae521"
+  },
+  "acquisition": [
+    {
+      "package": "libauc",
+      "version": "1.4.0",
+      "filename": "libauc-1.4.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/e2/1b/0f89637169e8b56fbd3f873460a45549f30b48cf780c3b3d6b099db407ec/libauc-1.4.0-py3-none-any.whl",
+      "sha256": "6034f0943c775cbc4322af23aa922b36bc9789053e25aeab6c3cc9c2bfc1ce4b"
+    },
+    {
+      "package": "rtdl",
+      "version": "0.0.13",
+      "filename": "rtdl-0.0.13-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/1e/c0/10df552fcc13497edc8d5634f8e7c54a7e87a10be30e261b2e7fbd50cb6a/rtdl-0.0.13-py3-none-any.whl",
+      "sha256": "0d3da6278eab053bf8be72f7d5d05d970a22e09396d746b2f88d8df9c6dc91ec"
+    }
+  ],
+  "names": [
+    "OC-4-4-1",
+    "OC-4-4-2",
+    "OC-4-2-1",
+    "OC-4-4-1-1",
+    "ungated-pooling",
+    "OC-4-4-1-2",
+    "linear-encoded-attention",
+    "OC-4-2-1-1",
+    "linear-encoded-mlp",
+    "OC-4-4-1-3",
+    "OC-4-4-2-1"
+  ],
+  "learning_rates": [
+    0.003,
+    0.001,
+    0.0003
+  ],
+  "contrasts": [
+    [
+      "OC-4-4-1-1",
+      [
+        [
+          "OC-4-4-1-1",
+          1
+        ],
+        [
+          "OC-4-4-1",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-1-2",
+      [
+        [
+          "OC-4-4-1-2",
+          1
+        ],
+        [
+          "OC-4-4-1",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-2-1-1",
+      [
+        [
+          "OC-4-2-1-1",
+          1
+        ],
+        [
+          "linear-encoded-mlp",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-1-3",
+      [
+        [
+          "OC-4-4-1-3",
+          1
+        ],
+        [
+          "OC-4-4-1",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-2-1",
+      [
+        [
+          "OC-4-4-2-1",
+          1
+        ],
+        [
+          "OC-4-4-2",
+          -1
+        ]
+      ]
+    ],
+    [
+      "gate-vs-ungated",
+      [
+        [
+          "OC-4-4-1-1",
+          1
+        ],
+        [
+          "ungated-pooling",
+          -1
+        ]
+      ]
+    ],
+    [
+      "encoding-vs-linear-interface",
+      [
+        [
+          "OC-4-4-1-2",
+          1
+        ],
+        [
+          "linear-encoded-attention",
+          -1
+        ]
+      ]
+    ],
+    [
+      "encoding-attention-specific",
+      [
+        [
+          "OC-4-4-1-2",
+          1
+        ],
+        [
+          "linear-encoded-attention",
+          -1
+        ],
+        [
+          "OC-4-2-1-1",
+          -1
+        ],
+        [
+          "linear-encoded-mlp",
+          1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-1-1-vs-SVM",
+      [
+        [
+          "OC-4-4-1-1",
+          1
+        ],
+        [
+          "SVM",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-1-2-vs-SVM",
+      [
+        [
+          "OC-4-4-1-2",
+          1
+        ],
+        [
+          "SVM",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-2-1-1-vs-SVM",
+      [
+        [
+          "OC-4-2-1-1",
+          1
+        ],
+        [
+          "SVM",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-1-3-vs-SVM",
+      [
+        [
+          "OC-4-4-1-3",
+          1
+        ],
+        [
+          "SVM",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-2-1-vs-SVM",
+      [
+        [
+          "OC-4-4-2-1",
+          1
+        ],
+        [
+          "SVM",
+          -1
+        ]
+      ]
+    ],
+    [
+      "ft-vs-attention",
+      [
+        [
+          "OC-4-4-2-1",
+          1
+        ],
+        [
+          "OC-4-4-1",
+          -1
+        ]
+      ]
+    ],
+    [
+      "attention-vs-SVM",
+      [
+        [
+          "OC-4-4-1",
+          1
+        ],
+        [
+          "SVM",
+          -1
+        ]
+      ]
+    ]
+  ],
+  "steps": 240,
+  "seeds": [
+    20261104,
+    20261105,
+    20261106
+  ],
+  "environment": {
+    "python": "3.10.21",
+    "torch": "2.1.2+cu121",
+    "numpy": "1.26.4"
+  },
+  "counts": {
+    "train": [
+      150,
+      150
+    ],
+    "calibration_safe": 400,
+    "test": [
+      1000,
+      500
+    ]
+  },
+  "historical_diagnostic": true,
+  "h3_near_duplicate_audit_reused": true,
+  "train_target_four_identity_fields_disjoint": true,
+  "before_training": true
+}

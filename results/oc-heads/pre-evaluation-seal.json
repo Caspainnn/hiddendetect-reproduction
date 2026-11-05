@@ -1,0 +1,31 @@
+{
+  "selection_sha256": "3231f6f79f4dc7fb32c4f1ebd21b28ecfabfc8f4d794c515c8dc25157c400efc",
+  "source_lock_sha256": "57c6f76f029e5763655711ea7712e373d132263f770d2652739201fb4da695c3",
+  "model_sha256": {
+    "cache/oc-heads/models/OC-4-1-1-0-20261104.joblib": "ecc908fb63884bdf50f4dd9073b2a8812f61a466967ffe4e92218c0a0728faaa",
+    "cache/oc-heads/models/OC-4-1-1-0-20261105.joblib": "0a3d7ae1a5a8d76b55e90d96ee7de6a99c2984baaff67fbf2067e3e4f77a63d9",
+    "cache/oc-heads/models/OC-4-1-1-0-20261106.joblib": "8a35d03540591cc7e7efe429fb84e11fd07a672f28774046451b49c996bbb4f5",
+    "cache/oc-heads/models/OC-4-2-1-2-20261104.joblib": "5c0de014ddd536528c330e443477f6e5a01856890149c4cc2e0ede741e164ceb",
+    "cache/oc-heads/models/OC-4-2-1-2-20261105.joblib": "4110ecef4a3c125b75d7552c87de1471d1f79ac7d7e1b3caa2974d1d802649cd",
+    "cache/oc-heads/models/OC-4-2-1-2-20261106.joblib": "23ffc193d38f0e6f7f738f0b612b154059e9b1cabc40fdc73e88e23355ec7908",
+    "cache/oc-heads/models/OC-4-3-1-0-20261104.joblib": "9d0447ca8807661c541e02df1383a31919bcf9f0703b1ab992a1a7d362e7900f",
+    "cache/oc-heads/models/OC-4-3-1-0-20261105.joblib": "f41afdc6e957f92ad6e87e04ea6024a1d530f9f66301b0602c147ef166b53d89",
+    "cache/oc-heads/models/OC-4-3-1-0-20261106.joblib": "f811280f3c05457948365bdb187a98a1eee12208b088324e739e0af4998397ab",
+    "cache/oc-heads/models/OC-4-4-1-0-20261104.joblib": "25aa83a9a239a0eb2b93ae3ac8352b94990ebe8c2beaca06954a9c221c74fd5c",
+    "cache/oc-heads/models/OC-4-4-1-0-20261105.joblib": "0d9c43597a20cb0070ee1bc8aced43045eec51eb1da91f9e07612be685345058",
+    "cache/oc-heads/models/OC-4-4-1-0-20261106.joblib": "5a83e90aba97b5b6177fb8f52d5aff3904be8df18e9ee7467175db2808a2cee9",
+    "cache/oc-heads/models/OC-4-1-2-2-20261104.joblib": "8cd498c31ca766655695f04ff142e19837773c5b0ceebaf08c76a72ae7a54560",
+    "cache/oc-heads/models/OC-4-1-2-2-20261105.joblib": "8cd498c31ca766655695f04ff142e19837773c5b0ceebaf08c76a72ae7a54560",
+    "cache/oc-heads/models/OC-4-1-2-2-20261106.joblib": "8cd498c31ca766655695f04ff142e19837773c5b0ceebaf08c76a72ae7a54560",
+    "cache/oc-heads/models/OC-4-1-3-2-20261104.joblib": "cac2fd5023574ab22a84845f486b32f5772a3f6f261b2e99c46ff26681121a5f",
+    "cache/oc-heads/models/OC-4-1-3-2-20261105.joblib": "0b890a795a11a77f6b1aa4b50666077a9e52b5d6ba8af64f0df0187b8ddf5562",
+    "cache/oc-heads/models/OC-4-1-3-2-20261106.joblib": "f9036a0dafda1aae22d7a558763cc7c54828178d3f6c94506acfcfbaa75e6831",
+    "cache/oc-heads/models/OC-4-3-2-1-20261104.joblib": "8b4b8d6613ad6303740424c118b2ee5c8e10cbc3e87fe900071546a593a0d650",
+    "cache/oc-heads/models/OC-4-3-2-1-20261105.joblib": "bc54e6d6e15b42db096806ed60bea165b634ef34f9b040876ca26a14e98429d8",
+    "cache/oc-heads/models/OC-4-3-2-1-20261106.joblib": "48c1ac9e56ee6607581b473130f44daf1059ca028a7e0858922bac5077b23019",
+    "cache/oc-heads/models/OC-4-4-2-2-20261104.joblib": "4f427e9303f8d8575b9d14f1e6b0e3bbaddfff73b56dcd99283fe38735a5992d",
+    "cache/oc-heads/models/OC-4-4-2-2-20261105.joblib": "f95a126a8daa580868f538176f3df84d69d11606454515128ce9f1e8d76479d4",
+    "cache/oc-heads/models/OC-4-4-2-2-20261106.joblib": "f9e758837ef6eb37bd2f6085ab63bb0f9cf8eaef49d85b897810b47452dcd1a0"
+  },
+  "before_loading_calibration_or_evaluation_arrays": true
+}

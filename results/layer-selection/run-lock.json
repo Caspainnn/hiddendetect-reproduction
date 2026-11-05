@@ -1,0 +1,11 @@
+{
+  "sources": {
+    "configs/layer-selection/test_contract.py": "f7588f4d6d9b6f336fa8bf9de87c1d24de7f0e6e9905990a0e7e4cde97f827bd",
+    "configs/layer-selection/run.py": "b7191c6b4c3c101af1f0b3bd398bebe27c7cd7f64f7718a7977e7d6eca890a19",
+    "configs/layer-selection/core.py": "7ddc3f06f18676464d9f3e69778f535f9df8a4a8f1ec4544126c264122458a9a"
+  },
+  "manifest_sha256": "9cc0c5d74fbc2c66ccffd28f7d7b0aacc8490a587446eb73cdcad0b585917369",
+  "model_lock_sha256": "9376f884cc88facd00b464635259a9308209ce5f7b354d10fd187d8f7ccc8349",
+  "remote_head": "f3ed04a3b65e597c93b1e0dae6f443bee4538f64",
+  "protocol_sha256": "cf5fefdd68869c36aa36c7bbac96e321cb9e17d49424cecb504dfad0d1dcdd0c"
+}

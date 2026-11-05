@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "numeric_values_checked": {
+    "historical-C": 88,
+    "new-confirmation": 88
+  },
+  "all_integrals_exact": true,
+  "max_cosine_reconstruction_difference": 9.20976474250157e-09,
+  "cosine_reconstruction_tolerance": 2e-07,
+  "history_scores_sha256": "87fcb9709c22673a0f4bdba543ba5f60b2e6e6348a820e57ba33a8d57e6cdcc5",
+  "confirmation_scores_sha256": "60a043436184341724c81cb62c3ed18f72ceea352ac7662d49b1e3150811c12e"
+}

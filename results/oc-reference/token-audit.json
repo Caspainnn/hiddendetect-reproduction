@@ -1,0 +1,360 @@
+{
+  "rules_sha256": "37d81b9790b4e0558222f12e272cb247892f97db1f0a9807647f8929c3c27458",
+  "author_list_exact": true,
+  "tokens": [
+    {
+      "string": "Sorry",
+      "full_encoding": [
+        8221
+      ],
+      "first_token_id": 8221,
+      "first_token_decoded": "Sorry"
+    },
+    {
+      "string": "sorry",
+      "full_encoding": [
+        7423
+      ],
+      "first_token_id": 7423,
+      "first_token_decoded": "sorry"
+    },
+    {
+      "string": "unfortunately",
+      "full_encoding": [
+        15428
+      ],
+      "first_token_id": 15428,
+      "first_token_decoded": "unfortunately"
+    },
+    {
+      "string": "unfortunate",
+      "full_encoding": [
+        443,
+        6477,
+        403
+      ],
+      "first_token_id": 443,
+      "first_token_decoded": "un"
+    },
+    {
+      "string": "sadly",
+      "full_encoding": [
+        14610,
+        368
+      ],
+      "first_token_id": 14610,
+      "first_token_decoded": "sad"
+    },
+    {
+      "string": "explicit",
+      "full_encoding": [
+        6261
+      ],
+      "first_token_id": 6261,
+      "first_token_decoded": "explicit"
+    },
+    {
+      "string": "deadly",
+      "full_encoding": [
+        7123,
+        368
+      ],
+      "first_token_id": 7123,
+      "first_token_decoded": "dead"
+    },
+    {
+      "string": "crim",
+      "full_encoding": [
+        15116
+      ],
+      "first_token_id": 15116,
+      "first_token_decoded": "crim"
+    },
+    {
+      "string": "criminal",
+      "full_encoding": [
+        22161
+      ],
+      "first_token_id": 22161,
+      "first_token_decoded": "criminal"
+    },
+    {
+      "string": "illegal",
+      "full_encoding": [
+        27302
+      ],
+      "first_token_id": 27302,
+      "first_token_decoded": "illegal"
+    },
+    {
+      "string": "dangerous",
+      "full_encoding": [
+        18215
+      ],
+      "first_token_id": 18215,
+      "first_token_decoded": "dangerous"
+    },
+    {
+      "string": "harmful",
+      "full_encoding": [
+        10311,
+        1319
+      ],
+      "first_token_id": 10311,
+      "first_token_decoded": "harm"
+    },
+    {
+      "string": "warning",
+      "full_encoding": [
+        9177
+      ],
+      "first_token_id": 9177,
+      "first_token_decoded": "warning"
+    },
+    {
+      "string": "alarm",
+      "full_encoding": [
+        21200
+      ],
+      "first_token_id": 21200,
+      "first_token_decoded": "alarm"
+    },
+    {
+      "string": "caution",
+      "full_encoding": [
+        5777,
+        918
+      ],
+      "first_token_id": 5777,
+      "first_token_decoded": "ca"
+    },
+    {
+      "string": "shame",
+      "full_encoding": [
+        28503
+      ],
+      "first_token_id": 28503,
+      "first_token_decoded": "shame"
+    },
+    {
+      "string": "conspiracy",
+      "full_encoding": [
+        21588,
+        29875,
+        10068
+      ],
+      "first_token_id": 21588,
+      "first_token_decoded": "consp"
+    },
+    {
+      "string": "Subject",
+      "full_encoding": [
+        3323,
+        622
+      ],
+      "first_token_id": 3323,
+      "first_token_decoded": "Sub"
+    },
+    {
+      "string": "contrary",
+      "full_encoding": [
+        21138
+      ],
+      "first_token_id": 21138,
+      "first_token_decoded": "contrary"
+    },
+    {
+      "string": "shouldn",
+      "full_encoding": [
+        9273
+      ],
+      "first_token_id": 9273,
+      "first_token_decoded": "shouldn"
+    },
+    {
+      "string": "cannot",
+      "full_encoding": [
+        2609
+      ],
+      "first_token_id": 2609,
+      "first_token_decoded": "cannot"
+    },
+    {
+      "string": "unable",
+      "full_encoding": [
+        9368
+      ],
+      "first_token_id": 9368,
+      "first_token_decoded": "unable"
+    },
+    {
+      "string": "refuse",
+      "full_encoding": [
+        26506
+      ],
+      "first_token_id": 26506,
+      "first_token_decoded": "refuse"
+    },
+    {
+      "string": "refusal",
+      "full_encoding": [
+        2143,
+        375,
+        284
+      ],
+      "first_token_id": 2143,
+      "first_token_decoded": "ref"
+    },
+    {
+      "string": "prohibited",
+      "full_encoding": [
+        21460,
+        1573
+      ],
+      "first_token_id": 21460,
+      "first_token_decoded": "prohib"
+    },
+    {
+      "string": "unethical",
+      "full_encoding": [
+        443,
+        621,
+        936
+      ],
+      "first_token_id": 443,
+      "first_token_decoded": "un"
+    },
+    {
+      "string": "unsafe",
+      "full_encoding": [
+        25110
+      ],
+      "first_token_id": 25110,
+      "first_token_decoded": "unsafe"
+    },
+    {
+      "string": "inappropriate",
+      "full_encoding": [
+        297,
+        932,
+        6649,
+        403
+      ],
+      "first_token_id": 297,
+      "first_token_decoded": "in"
+    },
+    {
+      "string": "apologize",
+      "full_encoding": [
+        27746,
+        675
+      ],
+      "first_token_id": 27746,
+      "first_token_decoded": "apolog"
+    },
+    {
+      "string": "apologies",
+      "full_encoding": [
+        3095,
+        11763
+      ],
+      "first_token_id": 3095,
+      "first_token_decoded": "ap"
+    }
+  ],
+  "reference_support_counts": [
+    20,
+    10,
+    29,
+    20
+  ],
+  "coordinates": [
+    {
+      "443": 1.0,
+      "3323": 1.0,
+      "5777": 1.0,
+      "6261": 1.0,
+      "7123": 1.0,
+      "7423": 1.0,
+      "8221": 1.0,
+      "9177": 1.0,
+      "9273": 1.0,
+      "10311": 1.0,
+      "14610": 1.0,
+      "15116": 1.0,
+      "15428": 1.0,
+      "18215": 1.0,
+      "21138": 1.0,
+      "21200": 1.0,
+      "21588": 1.0,
+      "22161": 1.0,
+      "27302": 1.0,
+      "28503": 1.0
+    },
+    {
+      "5777": 1.0,
+      "7423": 1.0,
+      "8221": 1.0,
+      "9177": 1.0,
+      "9273": 1.0,
+      "10311": 1.0,
+      "14610": 1.0,
+      "15428": 1.0,
+      "18215": 1.0,
+      "27302": 1.0
+    },
+    {
+      "297": 1.0,
+      "443": 1.0,
+      "2143": 1.0,
+      "2609": 1.0,
+      "3095": 1.0,
+      "3323": 1.0,
+      "5777": 1.0,
+      "6261": 1.0,
+      "7123": 1.0,
+      "7423": 1.0,
+      "8221": 1.0,
+      "9177": 1.0,
+      "9273": 1.0,
+      "9368": 1.0,
+      "10311": 1.0,
+      "14610": 1.0,
+      "15116": 1.0,
+      "15428": 1.0,
+      "18215": 1.0,
+      "21138": 1.0,
+      "21200": 1.0,
+      "21460": 1.0,
+      "21588": 1.0,
+      "22161": 1.0,
+      "25110": 1.0,
+      "26506": 1.0,
+      "27302": 1.0,
+      "27746": 1.0,
+      "28503": 1.0
+    },
+    {
+      "443": 1.0,
+      "3323": 1.0,
+      "5777": 1.0,
+      "6261": 1.0,
+      "7123": 1.0,
+      "7423": 2.0,
+      "8221": 2.0,
+      "9177": 1.0,
+      "9273": 2.0,
+      "10311": 1.0,
+      "14610": 2.0,
+      "15116": 1.0,
+      "15428": 2.0,
+      "18215": 1.0,
+      "21138": 1.0,
+      "21200": 1.0,
+      "21588": 1.0,
+      "22161": 1.0,
+      "27302": 1.0,
+      "28503": 1.0
+    }
+  ]
+}

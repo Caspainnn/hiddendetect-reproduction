@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "old_training_probes": 8,
+  "maximum_F_difference": 0.0,
+  "source_lock_sha256": "349ee88ab50e9ab6f2ba935875338bce5c0cad20f5487f2c2a61f130360800da"
+}

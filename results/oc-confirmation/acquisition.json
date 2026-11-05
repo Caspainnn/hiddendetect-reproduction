@@ -1,0 +1,29 @@
+[
+  {
+    "file": "README.md",
+    "bytes": 7764,
+    "sha256": "fe467de5f4e5810a06c1f40d146a0e0ff98148e3d4dfe5afcdcb0118912831ec",
+    "revision": "e36d8b80e81837c8a8f264bbb2a49f1b32c7e272",
+    "repo": "bench-llm/or-bench",
+    "url": "https://huggingface.co/datasets/bench-llm/or-bench/resolve/e36d8b80e81837c8a8f264bbb2a49f1b32c7e272/README.md",
+    "license": "cc-by-4.0"
+  },
+  {
+    "file": "or-bench-80k.csv",
+    "bytes": 11108548,
+    "sha256": "22e956020cdfdd43c328f02441f003c933ee4e7083d02d9d24e414e4b42ae2e6",
+    "revision": "e36d8b80e81837c8a8f264bbb2a49f1b32c7e272",
+    "repo": "bench-llm/or-bench",
+    "url": "https://huggingface.co/datasets/bench-llm/or-bench/resolve/e36d8b80e81837c8a8f264bbb2a49f1b32c7e272/or-bench-80k.csv",
+    "license": "cc-by-4.0"
+  },
+  {
+    "file": "or-bench-toxic.csv",
+    "bytes": 64721,
+    "sha256": "3be45901faae3b4b2b51bf7f8a2784c1650a1cc8c631dbc8b171d5312d4e0057",
+    "revision": "e36d8b80e81837c8a8f264bbb2a49f1b32c7e272",
+    "repo": "bench-llm/or-bench",
+    "url": "https://huggingface.co/datasets/bench-llm/or-bench/resolve/e36d8b80e81837c8a8f264bbb2a49f1b32c7e272/or-bench-toxic.csv",
+    "license": "cc-by-4.0"
+  }
+]

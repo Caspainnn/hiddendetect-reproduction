@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "dependency_sha256": {
+    "configs/original-positions/core.py": "387a88d20af54b28f788c950e06c6c7f699d19459cf6c73575164dd48e98edf7",
+    "configs/oc-heads/core.py": "c0956f6b5f8dafc17eb32d600fb0d230f675338f4a7e631898efae4912e81540"
+  },
+  "dependency_bytes_equal_frozen_commit": true,
+  "features_sha256_verified": true,
+  "selected_models": 24,
+  "dev_score_values_replayed": 14400,
+  "maximum_dev_score_difference": 2.220446049250313e-16,
+  "dev_backend": "training-context math SDPA, deterministic algorithms, threads2; test replay uses original evaluation context"
+}

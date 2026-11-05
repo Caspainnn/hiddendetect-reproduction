@@ -1,0 +1,9 @@
+{
+  "status": "not_performed",
+  "reason": "fewer than 30 genuinely unused samples in a class",
+  "available_fresh_per_class": {
+    "0": 10,
+    "1": 212
+  },
+  "no_historical_inputs_substituted": true
+}

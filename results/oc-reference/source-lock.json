@@ -1,0 +1,23 @@
+{
+  "run_id": "OC-RV1",
+  "source_commit": "60b15a0a94fd3bcfe5191f422422caf2e3ee26f9",
+  "sha256": {
+    "configs/oc-reference/core.py": "98326310dbe81827d76c14591f4f40f654d2f81c3d4ad40cab1cd668eb4c3b8c",
+    "configs/oc-reference/prepare.py": "ffddf376d09a48fd8485bcaa72ce321edc78748e68bb6b4d2a93edd739113fbb",
+    "configs/oc-reference/rules.json": "37d81b9790b4e0558222f12e272cb247892f97db1f0a9807647f8929c3c27458",
+    "configs/oc-reference/run.py": "b8bf8ba7b7a3d5d7cf2b15f2ae21896bdcfdea6692d9de25a9e01beb5263dfb6",
+    "configs/oc-reference/test_contract.py": "57a0914311262b121707c2037d3ee91d4cabe8d0580fa3d2be7f80770e38b65f",
+    "results/oc-reference/manifest.json": "af41e7a192b77d6d6794d93f22563810a99c9eb49b43d554e3bc6e37c27ae1ff",
+    "results/oc-reference/token-audit.json": "d861a49a1285e0f375db8b74f01021f1ba3f1e230f3e9065ee8f235e8f4ee001",
+    "configs/original-positions/core.py": "387a88d20af54b28f788c950e06c6c7f699d19459cf6c73575164dd48e98edf7",
+    "configs/original-positions/manifest.json": "45a1808f652e7dea14b3095f6e7de7bdab9d5fbcdc15129fed1e57af2dde5bdb",
+    "configs/artifacts-lock.json": "9376f884cc88facd00b464635259a9308209ce5f7b354d10fd187d8f7ccc8349",
+    "results/original-positions/scores.jsonl": "4a2e5947a621e2ad29e4f6374cd7719c882bd2685309f2f28e4574161d1f0f8d",
+    "docs/oc-cluster-plan-2026-10-30.md": "82f4a73d8cfde6a853591e29207db7091b7fa6b812eec528145e02786d3a3f3c"
+  },
+  "selected_per_class": {
+    "0": 300,
+    "1": 782
+  },
+  "rules_fixed_before_variant_scoring": true
+}

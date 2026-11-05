@@ -1,0 +1,21 @@
+{
+  "run_id": "OC-SA1",
+  "source_commit": "56aec3e8f72460dfc4fb569856db325fa60b4f6e",
+  "sha256": {
+    "configs/oc23/core.py": "5d117964609f9f5fb8923a37a07d3035ba78af5a6dbc35d4b9dece772e4313a4",
+    "configs/oc23/prepare.py": "d5292a16acef36d67bd017e9f1ac152a84a4c154a7d9cd820f6f12fc4cb3800e",
+    "configs/oc23/run.py": "92a0330615b713da0863c06920b807c61c328e6b7cdf3fea42c1dfba41806c7c",
+    "configs/oc23/test_contract.py": "3f32a3f451e8ea3f05653c654fd7a52a9648da2452c0f974c3c8fc9877e96a7f",
+    "results/oc23/manifest.json": "ec19f489fa26b8aa760e029a2cecb2f3865a7f0c2fa55e10124ff3e55f2b723f",
+    "results/oc23/token-audit.json": "58482232ee7ce4e8ddbb325b1d181069bc40952976cc96d74e03a4bf46f2e194",
+    "configs/artifacts-lock.json": "9376f884cc88facd00b464635259a9308209ce5f7b354d10fd187d8f7ccc8349",
+    "configs/original-positions/core.py": "387a88d20af54b28f788c950e06c6c7f699d19459cf6c73575164dd48e98edf7",
+    "docs/superpowers/plans/2026-10-30-oc23.md": "791b430514ba64ed19be4cceb37202ba8c2d8c9911efecd5284be3ae8fbe5a29",
+    "results/oc-reference/history-scores.jsonl": "87fcb9709c22673a0f4bdba543ba5f60b2e6e6348a820e57ba33a8d57e6cdcc5",
+    "results/oc-reference/confirmation-scores.jsonl": "60a043436184341724c81cb62c3ed18f72ceea352ac7662d49b1e3150811c12e",
+    "results/original-positions/scores.jsonl": "4a2e5947a621e2ad29e4f6374cd7719c882bd2685309f2f28e4574161d1f0f8d"
+  },
+  "confirmation_enabled": false,
+  "historical_only": true,
+  "family": 8
+}

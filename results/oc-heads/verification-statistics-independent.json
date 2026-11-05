@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "script_sha256": "6a1a705fdcf39f3ca1ed803c91429957f7aec5521769e2da23493434b407e32e",
+  "scores_sha256": "931760e81eb90d17f4fcac5f631d4072cb4b7bc96bb1fd48d0ec63e748aed119",
+  "source_lock_sha256": "57c6f76f029e5763655711ea7712e373d132263f770d2652739201fb4da695c3",
+  "point_metrics_checked": 54,
+  "bootstrap_repeats_per_cohort": 10000,
+  "bootstrap_intervals_checked": 32,
+  "maximum_point_metric_difference": 2.220446049250313e-16,
+  "maximum_threshold_difference": 0.0,
+  "maximum_interval_difference": 3.191891195797325e-16,
+  "confusion_counts_exact": true,
+  "tolerance": 1e-12,
+  "independent_tied_ROC": true,
+  "sklearn_self_test": {
+    "replicates": 4300,
+    "maximum_sklearn_difference": 2.220446049250313e-16
+  },
+  "independent_confirmation": false
+}

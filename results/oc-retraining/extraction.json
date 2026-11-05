@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "count": 300,
+  "seconds": 14.548050839453936,
+  "peak_allocated_bytes": 14288141824,
+  "features_sha256": "3f25dc406d035703507e669303a3583aed2107987398e5d09ebd49293159d981",
+  "F_scores_sha256": "dccc86b77ab94250268efecad4492a6b1491fa63ebacd51476b605cb6c1d596d",
+  "generation": false
+}

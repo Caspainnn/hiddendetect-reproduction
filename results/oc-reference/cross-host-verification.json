@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "all_176_numeric_values_identical": true,
+  "all_2482_integrals_exact": true,
+  "cosine_max_difference": 9.20976474250157e-09,
+  "frozen_scoring_changed": false
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "numeric_values_checked": {
+    "historical_C": 212,
+    "historical_RV": 212
+  },
+  "all_2482_original_F_and_integrals_exact": true,
+  "old_OC3_four_scores_exact": true,
+  "max_original_cosine_reconstruction_difference": 5.780401129973356e-09,
+  "max_layer_score_reconstruction_differences": [
+    3.3378601083100534e-07,
+    1.95180339090939e-06,
+    9.77406628632771e-07
+  ],
+  "layer_reconstruction_atol": 2e-05,
+  "no_independent_confirmation_performed": true,
+  "scores_sha256": "3e45ad35a098baa2731c277e0cdb7f90c54c293757ca1ad7c33a619442a8cfe0"
+}

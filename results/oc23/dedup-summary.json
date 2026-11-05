@@ -1,0 +1,9 @@
+{
+  "algorithm": "normalized exact + char3-5gram TFIDF65536 cosine>=.92 connected groups, historical priority",
+  "removed_count": 465,
+  "removed_by_role": {
+    "excluded": 9,
+    "confirmation": 456
+  },
+  "private_audit_retained_on_server": true
+}

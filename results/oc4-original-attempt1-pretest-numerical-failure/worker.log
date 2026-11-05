@@ -1,0 +1,59 @@
+OC_O1_DATA_SEALED 2891c5d32afa844c80b77747261eb0aadfd1d552
+OC_O1_CANDIDATE OC-4-1-3 0 0.689064
+OC_O1_CANDIDATE OC-4-1-3 1 0.678889
+OC_O1_CANDIDATE OC-4-1-3 2 0.675848
+OC_O1_CANDIDATE OC-4-1-3 3 0.676316
+OC_O1_CANDIDATE OC-4-1-3 4 0.676316
+OC_O1_CANDIDATE OC-4-1-3 5 0.676374
+OC_O1_CANDIDATE OC-4-1-3 6 0.676374
+OC_O1_CANDIDATE OC-4-1-3 7 0.676374
+OC_O1_CANDIDATE OC-4-1-3 8 0.676433
+OC_O1_CANDIDATE OC-4-1-3-1 0 0.675848
+OC_O1_CANDIDATE OC-4-1-3-1 1 0.677251
+OC_O1_CANDIDATE OC-4-1-3-1 2 0.677135
+OC_O1_CANDIDATE OC-4-1-3-1 3 0.676374
+OC_O1_CANDIDATE OC-4-1-3-1 4 0.677544
+OC_O1_CANDIDATE OC-4-1-3-1 5 0.677544
+OC_O1_CANDIDATE OC-4-1-3-1 6 0.676433
+OC_O1_CANDIDATE OC-4-1-3-1 7 0.677602
+OC_O1_CANDIDATE OC-4-1-3-1 8 0.677485
+OC_O1_CANDIDATE OC-4-1-3-2 0 0.67193
+OC_O1_CANDIDATE OC-4-1-3-2 1 0.668889
+OC_O1_CANDIDATE OC-4-1-3-2 2 0.604211
+OC_O1_CANDIDATE OC-4-1-3-2 3 0.675906
+OC_O1_CANDIDATE OC-4-1-3-2 4 0.629064
+OC_O1_CANDIDATE OC-4-1-3-2 5 0.591111
+OC_O1_CANDIDATE OC-4-1-3-2 6 0.663509
+OC_O1_CANDIDATE OC-4-1-3-2 7 0.622047
+OC_O1_CANDIDATE OC-4-1-3-2 8 0.567895
+OC_O1_CANDIDATE OC-4-1-3-3 0 0.657602
+OC_O1_CANDIDATE OC-4-1-3-3 1 0.587661
+OC_O1_CANDIDATE OC-4-1-3-3 2 0.515789
+OC_O1_CANDIDATE OC-4-1-3-3 3 0.481404
+OC_O1_CANDIDATE OC-4-1-3-3 4 0.59807
+OC_O1_CANDIDATE OC-4-1-3-3 5 0.478538
+OC_O1_CANDIDATE OC-4-1-3-3 6 0.543977
+OC_O1_CANDIDATE OC-4-1-3-3 7 0.520117
+OC_O1_CANDIDATE OC-4-1-3-3 8 0.479415
+OC_O1_CANDIDATE linear-kernel-SVC 0 0.671287
+OC_O1_CANDIDATE linear-kernel-SVC 1 0.685497
+OC_O1_CANDIDATE linear-kernel-SVC 2 0.672456
+OC_O1_CANDIDATE linear-kernel-SVC 3 0.672924
+OC_O1_CANDIDATE linear-kernel-SVC 4 0.674094
+OC_O1_CANDIDATE linear-kernel-SVC 5 0.675263
+OC_O1_CANDIDATE linear-kernel-SVC 6 0.675146
+OC_O1_CANDIDATE linear-kernel-SVC 7 0.675263
+Traceback (most recent call last):
+  File "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-original-worktree/configs/oc4-original/train.py", line 32, in <module>
+    if __name__=='__main__':main()
+  File "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-original-worktree/configs/oc4-original/train.py", line 17, in main
+    art,cost=svm.fit(name,param,x,y,seed) if name in SVM else attention.fit(name,param,seed,x,y)
+  File "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-original-worktree/configs/oc-svm/core.py", line 106, in fit
+    probability=False,tol=1e-5,max_iter=100000000,random_state=seed).fit(z,y)
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/site-packages/sklearn/svm/_base.py", line 252, in fit
+    fit(X, y, sample_weight, solver_type, kernel, random_seed=seed)
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/site-packages/sklearn/svm/_base.py", line 353, in _dense_fit
+    self._warn_from_fit_status()
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/site-packages/sklearn/svm/_base.py", line 299, in _warn_from_fit_status
+    warnings.warn(
+sklearn.exceptions.ConvergenceWarning: Solver terminated early (max_iter=100000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.

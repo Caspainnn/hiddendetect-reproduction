@@ -1,0 +1,22 @@
+{
+  "history_count": 27854,
+  "candidate_count": 3755,
+  "available": {
+    "0": 3600,
+    "1": 153
+  },
+  "n_per_class": 150,
+  "new_training_count": 300,
+  "old_matched_count": 300,
+  "rejected": {
+    "historical_exact": 1900
+  },
+  "removed_count": 9,
+  "historical_worktree_data_roots": 1,
+  "target_calibration_count": 400,
+  "target_test_counts": [
+    1000,
+    500
+  ],
+  "no_target_samples_in_training": true
+}

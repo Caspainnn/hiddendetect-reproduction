@@ -1,0 +1,10 @@
+{
+  "removed_count": 445,
+  "removed_by_role": {
+    "excluded": 8,
+    "confirmation": 437
+  },
+  "dedup_sha256": "63c6381efca902b089c44e45b7d7128fdabaf751cc639c555e189c088f308387",
+  "raw_audit_retained_on_server": true,
+  "algorithm": "normalized exact + char 3-5gram TFIDF max_features65536 cosine>=.92 connected groups historical first"
+}

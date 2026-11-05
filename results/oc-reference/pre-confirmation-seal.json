@@ -1,0 +1,21 @@
+{
+  "status": "frozen_before_confirmation_scoring",
+  "family": [
+    "OC-1-1",
+    "OC-1-2",
+    "OC-1-3"
+  ],
+  "sha256": {
+    "manifest.json": "af41e7a192b77d6d6794d93f22563810a99c9eb49b43d554e3bc6e37c27ae1ff",
+    "token-audit.json": "d861a49a1285e0f375db8b74f01021f1ba3f1e230f3e9065ee8f235e8f4ee001",
+    "source-lock-v2.json": "a4191a2fa820b207640ef0c287c98d6a86b189d27d4521d2d11e830a1279d175",
+    "thresholds.json": "ca02093d6ba4a2ca6890600c9dff64809556a01adadd6ab73f849377cd7142d3",
+    "historical-evaluation.json": "da91d548dcef6a781e47a42cf3a47f99ebed51024f939f61e52bbeb5b51496ff",
+    "history-scores.jsonl": "87fcb9709c22673a0f4bdba543ba5f60b2e6e6348a820e57ba33a8d57e6cdcc5",
+    "extraction-history.json": "819fe314c276c6289d44448789588b851a9ebb6c13bcf7bb3c9712262e6303b2",
+    "identity-history.json": "d179aae1f3b9db8d86b87870a2179cf375d18126dafb482d101ca514b18d0439"
+  },
+  "bootstrap_repeats": 10000,
+  "seed": 20261030,
+  "primary": "standardized pAUC FPR<=0.1"
+}

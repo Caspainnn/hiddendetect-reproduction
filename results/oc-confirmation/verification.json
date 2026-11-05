@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "frozen_score_values_replayed": 22800,
+  "maximum_frozen_score_difference": 0.0,
+  "independent_histogram_bootstrap_repeats": 10000,
+  "independent_intervals_checked": 12,
+  "maximum_interval_difference": 2.185751579730777e-16,
+  "confusion_counts_exact": true,
+  "phase_one_not_replaced_by_stability": true,
+  "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+  "stability_models_replayed": 15,
+  "maximum_stability_metric_difference": 0.0,
+  "calibration_bootstrap_ranges_replayed": true,
+  "maximum_calibration_range_difference": 1.1102230246251565e-16,
+  "mechanism_gate_replayed": true
+}

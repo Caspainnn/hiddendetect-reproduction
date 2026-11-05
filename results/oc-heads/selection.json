@@ -1,0 +1,289 @@
+{
+  "run_id": "OC-H1",
+  "selected": {
+    "OC-4-1-1": {
+      "candidate_index": 0,
+      "parameter": 0.1,
+      "mean_dev_pauc": 0.6795906432748536,
+      "models": [
+        {
+          "seed": 20261104,
+          "path": "cache/oc-heads/models/OC-4-1-1-0-20261104.joblib",
+          "sha256": "ecc908fb63884bdf50f4dd9073b2a8812f61a466967ffe4e92218c0a0728faaa",
+          "cost": {
+            "seconds": 2.3537309039384127,
+            "parameters": null
+          }
+        },
+        {
+          "seed": 20261105,
+          "path": "cache/oc-heads/models/OC-4-1-1-0-20261105.joblib",
+          "sha256": "0a3d7ae1a5a8d76b55e90d96ee7de6a99c2984baaff67fbf2067e3e4f77a63d9",
+          "cost": {
+            "seconds": 0.0038192346692085266,
+            "parameters": null
+          }
+        },
+        {
+          "seed": 20261106,
+          "path": "cache/oc-heads/models/OC-4-1-1-0-20261106.joblib",
+          "sha256": "8a35d03540591cc7e7efe429fb84e11fd07a672f28774046451b49c996bbb4f5",
+          "cost": {
+            "seconds": 0.0037406645715236664,
+            "parameters": null
+          }
+        }
+      ]
+    },
+    "OC-4-2-1": {
+      "candidate_index": 2,
+      "parameter": 0.0003,
+      "mean_dev_pauc": 0.6935087719298245,
+      "models": [
+        {
+          "seed": 20261104,
+          "path": "cache/oc-heads/models/OC-4-2-1-2-20261104.joblib",
+          "sha256": "5c0de014ddd536528c330e443477f6e5a01856890149c4cc2e0ede741e164ceb",
+          "cost": {
+            "seconds": 3.122926328331232,
+            "parameters": 257
+          }
+        },
+        {
+          "seed": 20261105,
+          "path": "cache/oc-heads/models/OC-4-2-1-2-20261105.joblib",
+          "sha256": "4110ecef4a3c125b75d7552c87de1471d1f79ac7d7e1b3caa2974d1d802649cd",
+          "cost": {
+            "seconds": 3.1494820192456245,
+            "parameters": 257
+          }
+        },
+        {
+          "seed": 20261106,
+          "path": "cache/oc-heads/models/OC-4-2-1-2-20261106.joblib",
+          "sha256": "23ffc193d38f0e6f7f738f0b612b154059e9b1cabc40fdc73e88e23355ec7908",
+          "cost": {
+            "seconds": 3.0279807914048433,
+            "parameters": 257
+          }
+        }
+      ]
+    },
+    "OC-4-3-1": {
+      "candidate_index": 0,
+      "parameter": 1,
+      "mean_dev_pauc": 0.6513742690058479,
+      "models": [
+        {
+          "seed": 20261104,
+          "path": "cache/oc-heads/models/OC-4-3-1-0-20261104.joblib",
+          "sha256": "9d0447ca8807661c541e02df1383a31919bcf9f0703b1ab992a1a7d362e7900f",
+          "cost": {
+            "seconds": 0.3669708054512739,
+            "parameters": null
+          }
+        },
+        {
+          "seed": 20261105,
+          "path": "cache/oc-heads/models/OC-4-3-1-0-20261105.joblib",
+          "sha256": "f41afdc6e957f92ad6e87e04ea6024a1d530f9f66301b0602c147ef166b53d89",
+          "cost": {
+            "seconds": 0.3483990468084812,
+            "parameters": null
+          }
+        },
+        {
+          "seed": 20261106,
+          "path": "cache/oc-heads/models/OC-4-3-1-0-20261106.joblib",
+          "sha256": "f811280f3c05457948365bdb187a98a1eee12208b088324e739e0af4998397ab",
+          "cost": {
+            "seconds": 0.34576026163995266,
+            "parameters": null
+          }
+        }
+      ]
+    },
+    "OC-4-4-1": {
+      "candidate_index": 0,
+      "parameter": 0.003,
+      "mean_dev_pauc": 0.6899025341130605,
+      "models": [
+        {
+          "seed": 20261104,
+          "path": "cache/oc-heads/models/OC-4-4-1-0-20261104.joblib",
+          "sha256": "25aa83a9a239a0eb2b93ae3ac8352b94990ebe8c2beaca06954a9c221c74fd5c",
+          "cost": {
+            "seconds": 10.372730270028114,
+            "parameters": 1377
+          }
+        },
+        {
+          "seed": 20261105,
+          "path": "cache/oc-heads/models/OC-4-4-1-0-20261105.joblib",
+          "sha256": "0d9c43597a20cb0070ee1bc8aced43045eec51eb1da91f9e07612be685345058",
+          "cost": {
+            "seconds": 10.248112918809056,
+            "parameters": 1377
+          }
+        },
+        {
+          "seed": 20261106,
+          "path": "cache/oc-heads/models/OC-4-4-1-0-20261106.joblib",
+          "sha256": "5a83e90aba97b5b6177fb8f52d5aff3904be8df18e9ee7467175db2808a2cee9",
+          "cost": {
+            "seconds": 10.34077756665647,
+            "parameters": 1377
+          }
+        }
+      ]
+    },
+    "OC-4-1-2": {
+      "candidate_index": 2,
+      "parameter": 10.0,
+      "mean_dev_pauc": 0.6753216374269005,
+      "models": [
+        {
+          "seed": 20261104,
+          "path": "cache/oc-heads/models/OC-4-1-2-2-20261104.joblib",
+          "sha256": "8cd498c31ca766655695f04ff142e19837773c5b0ceebaf08c76a72ae7a54560",
+          "cost": {
+            "seconds": 0.0008344929665327072,
+            "parameters": null
+          }
+        },
+        {
+          "seed": 20261105,
+          "path": "cache/oc-heads/models/OC-4-1-2-2-20261105.joblib",
+          "sha256": "8cd498c31ca766655695f04ff142e19837773c5b0ceebaf08c76a72ae7a54560",
+          "cost": {
+            "seconds": 0.0008514076471328735,
+            "parameters": null
+          }
+        },
+        {
+          "seed": 20261106,
+          "path": "cache/oc-heads/models/OC-4-1-2-2-20261106.joblib",
+          "sha256": "8cd498c31ca766655695f04ff142e19837773c5b0ceebaf08c76a72ae7a54560",
+          "cost": {
+            "seconds": 0.00084722600877285,
+            "parameters": null
+          }
+        }
+      ]
+    },
+    "OC-4-1-3": {
+      "candidate_index": 2,
+      "parameter": 10.0,
+      "mean_dev_pauc": 0.676374269005848,
+      "models": [
+        {
+          "seed": 20261104,
+          "path": "cache/oc-heads/models/OC-4-1-3-2-20261104.joblib",
+          "sha256": "cac2fd5023574ab22a84845f486b32f5772a3f6f261b2e99c46ff26681121a5f",
+          "cost": {
+            "seconds": 0.0039072707295417786,
+            "parameters": null
+          }
+        },
+        {
+          "seed": 20261105,
+          "path": "cache/oc-heads/models/OC-4-1-3-2-20261105.joblib",
+          "sha256": "0b890a795a11a77f6b1aa4b50666077a9e52b5d6ba8af64f0df0187b8ddf5562",
+          "cost": {
+            "seconds": 0.00370793417096138,
+            "parameters": null
+          }
+        },
+        {
+          "seed": 20261106,
+          "path": "cache/oc-heads/models/OC-4-1-3-2-20261106.joblib",
+          "sha256": "f9036a0dafda1aae22d7a558763cc7c54828178d3f6c94506acfcfbaa75e6831",
+          "cost": {
+            "seconds": 0.0036947615444660187,
+            "parameters": null
+          }
+        }
+      ]
+    },
+    "OC-4-3-2": {
+      "candidate_index": 1,
+      "parameter": 4,
+      "mean_dev_pauc": 0.6739961013645224,
+      "models": [
+        {
+          "seed": 20261104,
+          "path": "cache/oc-heads/models/OC-4-3-2-1-20261104.joblib",
+          "sha256": "8b4b8d6613ad6303740424c118b2ee5c8e10cbc3e87fe900071546a593a0d650",
+          "cost": {
+            "seconds": 0.45480182208120823,
+            "parameters": null
+          }
+        },
+        {
+          "seed": 20261105,
+          "path": "cache/oc-heads/models/OC-4-3-2-1-20261105.joblib",
+          "sha256": "bc54e6d6e15b42db096806ed60bea165b634ef34f9b040876ca26a14e98429d8",
+          "cost": {
+            "seconds": 0.4393742252141237,
+            "parameters": null
+          }
+        },
+        {
+          "seed": 20261106,
+          "path": "cache/oc-heads/models/OC-4-3-2-1-20261106.joblib",
+          "sha256": "48c1ac9e56ee6607581b473130f44daf1059ca028a7e0858922bac5077b23019",
+          "cost": {
+            "seconds": 0.4602487925440073,
+            "parameters": null
+          }
+        }
+      ]
+    },
+    "OC-4-4-2": {
+      "candidate_index": 2,
+      "parameter": 0.0003,
+      "mean_dev_pauc": 0.6888304093567251,
+      "models": [
+        {
+          "seed": 20261104,
+          "path": "cache/oc-heads/models/OC-4-4-2-2-20261104.joblib",
+          "sha256": "4f427e9303f8d8575b9d14f1e6b0e3bbaddfff73b56dcd99283fe38735a5992d",
+          "cost": {
+            "seconds": 18.55674210563302,
+            "parameters": 3601
+          }
+        },
+        {
+          "seed": 20261105,
+          "path": "cache/oc-heads/models/OC-4-4-2-2-20261105.joblib",
+          "sha256": "f95a126a8daa580868f538176f3df84d69d11606454515128ce9f1e8d76479d4",
+          "cost": {
+            "seconds": 18.46459498256445,
+            "parameters": 3601
+          }
+        },
+        {
+          "seed": 20261106,
+          "path": "cache/oc-heads/models/OC-4-4-2-2-20261106.joblib",
+          "sha256": "f9e758837ef6eb37bd2f6085ab63bb0f9cf8eaef49d85b897810b47452dcd1a0",
+          "cost": {
+            "seconds": 19.006640426814556,
+            "parameters": 3601
+          }
+        }
+      ]
+    }
+  },
+  "criterion": "mean of three fixed-seed dev pAUC; first grid entry wins exact ties",
+  "primary_seed": 20261104,
+  "seeds": [
+    20261104,
+    20261105,
+    20261106
+  ],
+  "search_sha256": "b580e1b5d4b0e33bf55cf437e5499dd60a0eed1d69ee62827294de457fe5cfdc",
+  "source_lock_sha256": "57c6f76f029e5763655711ea7712e373d132263f770d2652739201fb4da695c3",
+  "seconds": 305.3531486708671,
+  "fit_count": 72,
+  "test_or_calibration_used": false
+}

@@ -1,0 +1,175 @@
+{
+  "run_id": "OC-A1-H-ORP-T2",
+  "counts": [
+    500,
+    500
+  ],
+  "metrics": [
+    {
+      "name": "B",
+      "direction_id": "original-B",
+      "auroc": 0.7710680000000001,
+      "pauc": 0.6386526315789474,
+      "threshold": 0.35267013497650623,
+      "tpr": 0.298,
+      "fpr": 0.046
+    },
+    {
+      "name": "M",
+      "direction_id": "OC-1-M",
+      "auroc": 0.7736240000000001,
+      "pauc": 0.6406947368421052,
+      "threshold": 0.026473923586308956,
+      "tpr": 0.316,
+      "fpr": 0.048,
+      "delta_auroc": 0.0025560000000000027,
+      "auroc_ci95": [
+        0.0017238999999998424,
+        0.0034159999999999746
+      ],
+      "delta_pauc": 0.002042105263157845,
+      "pauc_ci9875": [
+        0.0002526315789473932,
+        0.004547368421052633
+      ],
+      "delta_fpr": 0.002,
+      "fpr_delta_ci95": [
+        0.0,
+        0.006
+      ],
+      "delta_tpr": 0.018,
+      "tpr_delta_ci95": [
+        0.008,
+        0.03
+      ],
+      "decision": "confirmed_improvement"
+    },
+    {
+      "name": "top4",
+      "direction_id": "OC-1-1",
+      "auroc": 0.7906839999999999,
+      "pauc": 0.6459368421052631,
+      "threshold": 0.0323069067671895,
+      "tpr": 0.326,
+      "fpr": 0.042,
+      "delta_auroc": 0.019615999999999856,
+      "auroc_ci95": [
+        0.012323900000000002,
+        0.02713620000000004
+      ],
+      "delta_pauc": 0.007284210526315782,
+      "pauc_ci9875": [
+        -0.006484736842105288,
+        0.020758157894736895
+      ],
+      "delta_fpr": -0.004,
+      "fpr_delta_ci95": [
+        -0.016,
+        0.006
+      ],
+      "delta_tpr": 0.028,
+      "tpr_delta_ci95": [
+        0.008,
+        0.048
+      ],
+      "decision": "unconfirmed"
+    },
+    {
+      "name": "trim2",
+      "direction_id": "OC-1-2",
+      "auroc": 0.771244,
+      "pauc": 0.6412631578947369,
+      "threshold": 0.02686008159071207,
+      "tpr": 0.31,
+      "fpr": 0.048,
+      "delta_auroc": 0.00017599999999995397,
+      "auroc_ci95": [
+        -0.0012039999999998747,
+        0.0015479999999998856
+      ],
+      "delta_pauc": 0.0026105263157895076,
+      "pauc_ci9875": [
+        -7.381578947370503e-05,
+        0.00576842105263159
+      ],
+      "delta_fpr": 0.002,
+      "fpr_delta_ci95": [
+        0.0,
+        0.006
+      ],
+      "delta_tpr": 0.012,
+      "tpr_delta_ci95": [
+        0.002,
+        0.024
+      ],
+      "decision": "unconfirmed"
+    },
+    {
+      "name": "window4",
+      "direction_id": "OC-1-3",
+      "auroc": 0.7899160000000001,
+      "pauc": 0.6439578947368421,
+      "threshold": 0.032040057703852654,
+      "tpr": 0.324,
+      "fpr": 0.04,
+      "delta_auroc": 0.018847999999999976,
+      "auroc_ci95": [
+        0.011078899999999984,
+        0.02678830000000003
+      ],
+      "delta_pauc": 0.005305263157894702,
+      "pauc_ci9875": [
+        -0.009915789473684267,
+        0.01969486842105264
+      ],
+      "delta_fpr": -0.006,
+      "fpr_delta_ci95": [
+        -0.018,
+        0.006
+      ],
+      "delta_tpr": 0.026,
+      "tpr_delta_ci95": [
+        0.006,
+        0.046
+      ],
+      "decision": "unconfirmed"
+    }
+  ],
+  "mechanism_descriptive": [
+    {
+      "comparison": "top4 vs M",
+      "delta_pauc": 0.005242105263157937,
+      "pauc_ci95_descriptive": [
+        -0.0061905263157894675,
+        0.015789473684210575
+      ],
+      "delta_auroc": 0.017059999999999853
+    },
+    {
+      "comparison": "trim2 vs M",
+      "delta_pauc": 0.0005684210526316624,
+      "pauc_ci95_descriptive": [
+        -0.0016421052631578892,
+        0.002757894736842073
+      ],
+      "delta_auroc": -0.0023800000000000487
+    },
+    {
+      "comparison": "window4 vs top4",
+      "delta_pauc": -0.00197894736842108,
+      "pauc_ci95_descriptive": [
+        -0.005621052631578971,
+        0.0011789473684210572
+      ],
+      "delta_auroc": -0.0007679999999998799
+    }
+  ],
+  "bootstrap": {
+    "repeats": 10000,
+    "seed": 20261030,
+    "family": 4,
+    "primary": "standardized pAUC FPR<=0.1",
+    "primary_interval": 0.9875,
+    "conditional": "fixed calibration and rules; no calibration population uncertainty"
+  }
+}

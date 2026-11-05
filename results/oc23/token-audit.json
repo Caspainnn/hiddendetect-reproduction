@@ -1,0 +1,178 @@
+{
+  "original_words": [
+    "Sorry",
+    "sorry",
+    "unfortunately",
+    "unfortunate",
+    "sadly",
+    "explicit",
+    "deadly",
+    "crim",
+    "criminal",
+    "illegal",
+    "dangerous",
+    "harmful",
+    "warning",
+    "alarm",
+    "caution",
+    "shame",
+    "conspiracy",
+    "Subject",
+    "contrary",
+    "shouldn"
+  ],
+  "tokens": [
+    {
+      "string": "Sorry",
+      "full_encoding": [
+        8221
+      ]
+    },
+    {
+      "string": "sorry",
+      "full_encoding": [
+        7423
+      ]
+    },
+    {
+      "string": "unfortunately",
+      "full_encoding": [
+        15428
+      ]
+    },
+    {
+      "string": "unfortunate",
+      "full_encoding": [
+        443,
+        6477,
+        403
+      ]
+    },
+    {
+      "string": "sadly",
+      "full_encoding": [
+        14610,
+        368
+      ]
+    },
+    {
+      "string": "explicit",
+      "full_encoding": [
+        6261
+      ]
+    },
+    {
+      "string": "deadly",
+      "full_encoding": [
+        7123,
+        368
+      ]
+    },
+    {
+      "string": "crim",
+      "full_encoding": [
+        15116
+      ]
+    },
+    {
+      "string": "criminal",
+      "full_encoding": [
+        22161
+      ]
+    },
+    {
+      "string": "illegal",
+      "full_encoding": [
+        27302
+      ]
+    },
+    {
+      "string": "dangerous",
+      "full_encoding": [
+        18215
+      ]
+    },
+    {
+      "string": "harmful",
+      "full_encoding": [
+        10311,
+        1319
+      ]
+    },
+    {
+      "string": "warning",
+      "full_encoding": [
+        9177
+      ]
+    },
+    {
+      "string": "alarm",
+      "full_encoding": [
+        21200
+      ]
+    },
+    {
+      "string": "caution",
+      "full_encoding": [
+        5777,
+        918
+      ]
+    },
+    {
+      "string": "shame",
+      "full_encoding": [
+        28503
+      ]
+    },
+    {
+      "string": "conspiracy",
+      "full_encoding": [
+        21588,
+        29875,
+        10068
+      ]
+    },
+    {
+      "string": "Subject",
+      "full_encoding": [
+        3323,
+        622
+      ]
+    },
+    {
+      "string": "contrary",
+      "full_encoding": [
+        21138
+      ]
+    },
+    {
+      "string": "shouldn",
+      "full_encoding": [
+        9273
+      ]
+    }
+  ],
+  "token_ids": [
+    443,
+    3323,
+    5777,
+    6261,
+    7123,
+    7423,
+    8221,
+    9177,
+    9273,
+    10311,
+    14610,
+    15116,
+    15428,
+    18215,
+    21138,
+    21200,
+    21588,
+    22161,
+    27302,
+    28503
+  ],
+  "support_count": 20
+}

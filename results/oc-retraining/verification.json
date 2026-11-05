@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "models_replayed": 27,
+  "new_models": 18,
+  "frozen_score_values_replayed": 57000,
+  "maximum_score_difference": 0.0,
+  "independent_histogram_bootstrap_repeats": 10000,
+  "independent_intervals_checked": 18,
+  "maximum_interval_difference": 3.191891195797325e-16,
+  "train_only_scalers": true,
+  "old_H2_outputs_exact": true,
+  "confusion_counts_exact": true,
+  "source_lock_sha256": "349ee88ab50e9ab6f2ba935875338bce5c0cad20f5487f2c2a61f130360800da"
+}

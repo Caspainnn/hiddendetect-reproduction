@@ -1,0 +1,12 @@
+{
+  "reason": "H3 predict explicitly enabled SDPA backends and disabled deterministic algorithms; original regression called H1 score directly under new backend settings. Restore exact H3 predict for historical replay only, then restore A2 setup.",
+  "test_access_before_failure": true,
+  "evaluation_written_before_failure": false,
+  "no_model_or_selection_change": true,
+  "source_lock_sha256": "48025c8943d7e30c3d87f5a282402f8b7abdd444836c0fb26b93307f58026533",
+  "training_sha256": "68bb8e032851f32a8832d3582a090918f61fb8b458420e8cd27b96d6c447538e",
+  "original_evaluate_sha256": "1e34b7eac24e438c58ab9c67e0e7d935f4fb70c50827652b86d9d2960c5acb1c",
+  "resume_source_sha256": "009e2f04ccbc1ea0220f27283b909722ec4e9988c564e0771bfe845037160a1e",
+  "generated_evaluate_sha256": "a7037208780538259fa6067984cd646629fc9dc80d549c68f325a132893c962e",
+  "h3_backend_sha256": "9fcfa19853a0b0045b3acc12eced492e6f70e63cdc5d3c3e4dd1c3d0d3c23813"
+}

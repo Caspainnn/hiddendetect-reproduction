@@ -1,0 +1,490 @@
+{
+  "run_id": "OC-O1",
+  "commit": "2891c5d32afa844c80b77747261eb0aadfd1d552",
+  "sources": {
+    "configs/oc4-original/train.py": "c6f4b259ce98512608306505b26210cc30ba1e9f6349e66a16d387f4c1fd2830",
+    "configs/oc4-original/run.py": "830b1aeacd2b3f026203befc0ecfbb94606bd38a5cffb1ec282812d0db615b51",
+    "configs/oc4-original/report.py": "a77d376a0782bb037c1d72434895f6035d007bd06374aa6275de21a8f62d7296",
+    "configs/oc4-original/core.py": "d40ceb5b0e778dd26884ac8534a15fa82cfe42b92f1581e68f427c9007fa8a24",
+    "configs/oc4-original/evaluate.py": "3b0083ebd5a339cae5384a053dc5fe3716494ceab66274f911911326b7c6e8f3",
+    "configs/oc4-original/prepare.py": "740e9f45311b5b8ecb600ec692609b7132faa534cd43c0b556394ebb85dec137",
+    "configs/oc4-original/verify.py": "7efcdf388b1260d1f9d7187eb9a3591cbe6fd437929c4dbde8ca8658e23761c8",
+    "docs/oc4-original-protocol-2026-11-04.md": "7e52b586879fd26e638afb37d8116e373c24037c62edf23a5483643f44df95de",
+    "configs/oc-svm/core.py": "7047bf40610294c95e9a5cd8b786da1096c50f649c6d4e02ae4a848b664bc6ca",
+    "configs/oc-attention/core.py": "22b7800f15f8a349545b3fc4cc4804fe621e4fc51fe77baf5ec7a75c21f996e3",
+    "configs/original-positions/core.py": "387a88d20af54b28f788c950e06c6c7f699d19459cf6c73575164dd48e98edf7",
+    "configs/oc-heads/verify_statistics_independent.py": "6a1a705fdcf39f3ca1ed803c91429957f7aec5521769e2da23493434b407e32e",
+    "configs/oc-heads/core.py": "c0956f6b5f8dafc17eb32d600fb0d230f675338f4a7e631898efae4912e81540"
+  },
+  "inputs": {
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/cache/oc-heads/features.npz": "1385d6caaa5215a8687597bd42d881e3156b7be85c7232c4ac679bb1bd9aec05",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/results/oc-heads/source-lock.json": "57c6f76f029e5763655711ea7712e373d132263f770d2652739201fb4da695c3",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/results/oc-heads/manifest.json": "923ff5361d2d2ee75e2fadf78689914138f66183b36cf1c03b2db057aa5f3209",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/results/oc-heads/selection.json": "3231f6f79f4dc7fb32c4f1ebd21b28ecfabfc8f4d794c515c8dc25157c400efc",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/results/oc-heads/scores.jsonl": "931760e81eb90d17f4fcac5f631d4072cb4b7bc96bb1fd48d0ec63e748aed119",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-original-worktree/cache/oc4-original/training-only.npz": "335471140c98636b8967432860c6f81bb31dd2f283774298313fa42a8e1952a0",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/cache/oc-heads/models/OC-4-1-3-2-20261104.joblib": "cac2fd5023574ab22a84845f486b32f5772a3f6f261b2e99c46ff26681121a5f",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/cache/oc-heads/models/OC-4-1-3-2-20261105.joblib": "0b890a795a11a77f6b1aa4b50666077a9e52b5d6ba8af64f0df0187b8ddf5562",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/cache/oc-heads/models/OC-4-1-3-2-20261106.joblib": "f9036a0dafda1aae22d7a558763cc7c54828178d3f6c94506acfcfbaa75e6831",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/cache/oc-heads/models/OC-4-4-1-0-20261104.joblib": "25aa83a9a239a0eb2b93ae3ac8352b94990ebe8c2beaca06954a9c221c74fd5c",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/cache/oc-heads/models/OC-4-4-1-0-20261105.joblib": "0d9c43597a20cb0070ee1bc8aced43045eec51eb1da91f9e07612be685345058",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/cache/oc-heads/models/OC-4-4-1-0-20261106.joblib": "5a83e90aba97b5b6177fb8f52d5aff3904be8df18e9ee7467175db2808a2cee9",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/cache/oc-heads/models/OC-4-4-2-2-20261104.joblib": "4f427e9303f8d8575b9d14f1e6b0e3bbaddfff73b56dcd99283fe38735a5992d",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/cache/oc-heads/models/OC-4-4-2-2-20261105.joblib": "f95a126a8daa580868f538176f3df84d69d11606454515128ce9f1e8d76479d4",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/cache/oc-heads/models/OC-4-4-2-2-20261106.joblib": "f9e758837ef6eb37bd2f6085ab63bb0f9cf8eaef49d85b897810b47452dcd1a0",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/cache/oc-heads/models/OC-4-2-1-2-20261104.joblib": "5c0de014ddd536528c330e443477f6e5a01856890149c4cc2e0ede741e164ceb",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/cache/oc-heads/models/OC-4-2-1-2-20261105.joblib": "4110ecef4a3c125b75d7552c87de1471d1f79ac7d7e1b3caa2974d1d802649cd",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/oc4-worktree/cache/oc-heads/models/OC-4-2-1-2-20261106.joblib": "23ffc193d38f0e6f7f738f0b612b154059e9b1cabc40fdc73e88e23355ec7908"
+  },
+  "vendor": {
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/__init__.py": "ce2fcb6944ff3ac0a102db0f5db39e4694240a8852b0ec9e5df6af40f3341a81",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/optimizers/adam.py": "5ef5ff47351c0763189ec089e8ebd2369107a9a6b9ac4015d2279b6b82de71c1",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/optimizers/sopa_s.py": "bc1ff7e490ec6a5b906a5743061fd0ef8c1379286b1967ef965752e46afb8a4f",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/optimizers/sota_s.py": "6f7db13e96f4977ef4819accebf350fea882a68a5c3f425cf70c732948cc3989",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/optimizers/pesg.py": "2b5a4f52709c1d2f8af379e562707a979b07fcd5b7ed01415cdc6bdc5b8bd4e1",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/optimizers/song.py": "3093477afb9a659d4d222f5dc1cff2ccc5f5c7ccf9ed8adfdef9461444381853",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/optimizers/__init__.py": "8a11d5c480eee636617e43c8e7a4ef17c47b1e50ed38750a1442955a5509453c",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/optimizers/adamw.py": "7951953cd266a93bb751fa9311a507e9dd5bc0d52c88285d21b9712f9580b7ce",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/optimizers/isogclr.py": "4f3a02177acc585ad1e206c80bf825fe0bd7f5a7003d1cf3625bd9d3320ce499",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/optimizers/midam.py": "06dfab564df1a2a9caf757eb96ce8799cbfcbd76f92604a91785d5df2b5499a9",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/optimizers/sopa.py": "35c1f2a74d8106346068a6d7a525cc9e517772e86fe05623586da161ab61d6ca",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/optimizers/sgd.py": "bcc91e66484f722d5c27d4782df5682cd9277aa8aa79c940d0e77792106901bd",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/optimizers/lars.py": "419ff907dcd028748f16f1f10fdbd42af32bbfe503f35ab3e107182a821aa0c6",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/optimizers/sogclr.py": "7d45defc8fd179d0c0cd2297ccff9caa7d4841c113c0f6c2cdbcfe06aeee4241",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/optimizers/soap.py": "11004033ecf945504a8f247592f673123807f654a9b38fef773c2f8036a457d1",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/optimizers/pdsca.py": "7c2e39630ed3894200f04642fdc7b8f73c3d03dc85f6214f64aa4481b9849a65",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/metrics/metrics_k.py": "ab7803d960cfdf08004865397a258d36f48312832d00ddfdf9a6903020a52a12",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/metrics/__init__.py": "30df3a364121ab41d9fe6f16f7c8b819261c065269c2e7248a26ec202b7136d5",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/metrics/metrics.py": "7fe650aa7183faf9b4aee58e030ae4fd23272005050c91637cc583794bf281a1",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/sampler/__init__.py": "b38baddb584299b626399e061ab44b2453196277f199f20473c695393d2530ef",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/sampler/sampler.py": "a2926b3002b84487c4d8ebd5ea2e6662582ac15d4d7233b99262b4868f29aae6",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/models/neumf.py": "45516c11a3784174cb530ff33219490882caeb02df530d20d3b6df2c93412d38",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/models/gnn.py": "67d4763f72af32f753258040c4b04a6c00b0d04375060930f3d76e17a2b2f1b0",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/models/resnet.py": "717087014d817bd9d63b680ccc483be7ef35077173035980ca60e5e66a980e4f",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/models/__init__.py": "6a3985aea0394a3bd730733f0ffe74bb580e9f0e2a6cfa814759aef2706920ad",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/models/resnet_cifar.py": "135e5af66b6ef006a00088a0a7e90c7ebfddf9314e82850fb8e6a4bb3d79ccfe",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/models/densenet.py": "69890a93d7a30bd9f3827d0fb4084b3afc83f015e6858036b1c34d4874c8b825",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/models/perceptron.py": "399b4498317aba7e27714ee2ae925e0654fc310645dc2d06ecb0201079514c2c",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/models/mil_models.py": "34935842d587bb4c2682094821cf205a93161d1240b884aed36513d784edd522",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/utils/__init__.py": "8d9e7f6fb033af9184bfbeef5283147164874a92a3abebeff7cf3919fa2a7863",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/utils/utils.py": "8d54bf82ed7ab3f8dc7f4a61cb27e0a77ad05be70a53807d175d6c015a9efb92",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/utils/paper_utils.py": "02274467b1c236d641faba8c341b00a8436aa0c098b9470da611fef18dfb8847",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/datasets/melanoma.py": "b7d4ac628ec1d38fb23b9944cf3de6b422e0aa823b62d1ba828007a766d57b0a",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/datasets/__init__.py": "9dced86fe882fd1f39abce7645dff7ff37830ada9d77fbff921f880ef4185d5f",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/datasets/cat_vs_dog.py": "94b942f27b90126bf6b414d94e050982f3c418c65dd07fc53d8dfd687dd3d816",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/datasets/cifar.py": "e1649bfb37b775373855f27efb7ecf721f142554c7bd26febcad3707ae4d16ae",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/datasets/folder.py": "167c054a36ea21ea4e528031a4e05810c16a70aa12d0b7b85b7ba53de518852a",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/datasets/chexpert.py": "b7742d381f4ba843eb4639de7e08944cad35e6319de152e909e8072f04f0bd78",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/datasets/breastcancer.py": "ca1688ad30dc3a3d6146298a2ef8f19ab1caba95e0c2618d55e405e58fe198ba",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/datasets/stl10.py": "344415cce8454377de47fa4e38ba6d1b2bb9301cea68f2c0f44954840f774d84",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/datasets/movielens.py": "9d8e51872ac153d187f60217b96fed35d83e812777fc15036a0822965b228971",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/datasets/musk2.py": "150704b951fd0f5e4fd24818ac79f639e0681c73a88cba4a506491bc9a88e31d",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/datasets/webdataset.py": "2452b44dab66ff9cbcf6e16d59fab11d4f259ba0e99a55e848db0db8a9713453",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/datasets/dataset.py": "2442c91d13302dc5c7cb5f87de3b4bf3eec53a34ef5aa84b377659e0f1cb4a14",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/losses/mil.py": "00733bb09b1995ca0ac0940a62e52f9b2434211827a3461516b1110831c3bbe5",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/losses/contrastive.py": "e74aa2432d4dbe8fa29fd819fc47e10fbbd3b9243b75d323b00a36933ae5f3ed",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/losses/__init__.py": "d7f4e2e3db8dd61d9204be9612ff474c705183c8709169351093bad475792298",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/losses/surrogate.py": "eb8abab7c25160ae6181f00ab1c4ff2d0ef86003c39ec10b930a1770986757f6",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/losses/auc.py": "d21c653279508bd9e45571b95f3e64a28f54440ea9407eb61e3d535cf404dd28",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/losses/perf_at_top.py": "0abceaa72f0c8a9fff41b7bd91d3f5b6824a326fdf918e3e976546e57c9596b7",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/losses/ranking.py": "54501c7354e75bd611b9a3caf26215fb87b27382d01d39105021489d06a393b7",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/libauc/libauc/losses/losses.py": "dd3bfcd91198b4b7bb10b8eef83c5cd4a24f6e30f8e7524a72857066d210e323",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/rtdl/rtdl/functional.py": "cac0ab7f87b14251b30ad70baefdf4f75fbd28a53be7d9f220acf2a0ea2338a0",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/rtdl/rtdl/__init__.py": "2840668e9526f6ffc72258a02a99d29151ad89e32e5d35accef24b917f4d3788",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/rtdl/rtdl/data.py": "d2b2e59aef55f14111c6f1ead699ba7376bef82f13a15d45b56d22a5b9eb7e97",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/rtdl/rtdl/modules.py": "c410ceb24e895d23ef9dc37d58101f553ae30cba30e7d39cae16a968ae6c512d",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/rtdl/rtdl/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/rtdl/rtdl/tests/test_modules.py": "eb61cfa2c6f471af825776fb72b462260d8053c81cd7aed0b39e20f4729ce297",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/rtdl/rtdl/tests/test_vs_paper.py": "31c8c86f45acbbc89debb2c41aa7a66fcfd8ee7879206db980ef3ae3afbdebbe",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/rtdl/rtdl/tests/test_data.py": "3331955500639d92f884119265361423c704429f958974f083d1aeb614c39d5b",
+    "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/cache/vendor/acquisition.json": "2fd3211b2515f439df1b86585158470d1a3e7796c8830e4c848a6ae24f4ae521"
+  },
+  "contrasts": [
+    [
+      "OC-4-1-3-1-vs-B",
+      [
+        [
+          "OC-4-1-3-1",
+          1
+        ],
+        [
+          "B",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-1-3-2-vs-B",
+      [
+        [
+          "OC-4-1-3-2",
+          1
+        ],
+        [
+          "B",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-1-3-3-vs-B",
+      [
+        [
+          "OC-4-1-3-3",
+          1
+        ],
+        [
+          "B",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-1-1-vs-B",
+      [
+        [
+          "OC-4-4-1-1",
+          1
+        ],
+        [
+          "B",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-1-2-vs-B",
+      [
+        [
+          "OC-4-4-1-2",
+          1
+        ],
+        [
+          "B",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-2-1-1-vs-B",
+      [
+        [
+          "OC-4-2-1-1",
+          1
+        ],
+        [
+          "B",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-1-3-vs-B",
+      [
+        [
+          "OC-4-4-1-3",
+          1
+        ],
+        [
+          "B",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-2-1-vs-B",
+      [
+        [
+          "OC-4-4-2-1",
+          1
+        ],
+        [
+          "B",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-1-3-1-vs-direct",
+      [
+        [
+          "OC-4-1-3-1",
+          1
+        ],
+        [
+          "OC-4-1-3",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-1-3-2-vs-direct",
+      [
+        [
+          "OC-4-1-3-2",
+          1
+        ],
+        [
+          "OC-4-1-3",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-1-3-3-vs-direct",
+      [
+        [
+          "OC-4-1-3-3",
+          1
+        ],
+        [
+          "OC-4-1-3",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-1-1-vs-direct",
+      [
+        [
+          "OC-4-4-1-1",
+          1
+        ],
+        [
+          "OC-4-4-1",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-1-2-vs-direct",
+      [
+        [
+          "OC-4-4-1-2",
+          1
+        ],
+        [
+          "OC-4-4-1",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-2-1-1-vs-direct",
+      [
+        [
+          "OC-4-2-1-1",
+          1
+        ],
+        [
+          "linear-encoded-mlp",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-1-3-vs-direct",
+      [
+        [
+          "OC-4-4-1-3",
+          1
+        ],
+        [
+          "OC-4-4-1",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-2-1-vs-direct",
+      [
+        [
+          "OC-4-4-2-1",
+          1
+        ],
+        [
+          "OC-4-4-2",
+          -1
+        ]
+      ]
+    ],
+    [
+      "rbf-vs-linear-svc",
+      [
+        [
+          "OC-4-1-3-2",
+          1
+        ],
+        [
+          "linear-kernel-SVC",
+          -1
+        ]
+      ]
+    ],
+    [
+      "gate-vs-ungated",
+      [
+        [
+          "OC-4-4-1-1",
+          1
+        ],
+        [
+          "ungated-pooling",
+          -1
+        ]
+      ]
+    ],
+    [
+      "encoding-vs-linear-interface",
+      [
+        [
+          "OC-4-4-1-2",
+          1
+        ],
+        [
+          "linear-encoded-attention",
+          -1
+        ]
+      ]
+    ],
+    [
+      "encoding-attention-specific",
+      [
+        [
+          "OC-4-4-1-2",
+          1
+        ],
+        [
+          "linear-encoded-attention",
+          -1
+        ],
+        [
+          "OC-4-2-1-1",
+          -1
+        ],
+        [
+          "linear-encoded-mlp",
+          1
+        ]
+      ]
+    ],
+    [
+      "ft-vs-attention",
+      [
+        [
+          "OC-4-4-2-1",
+          1
+        ],
+        [
+          "OC-4-4-1",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-1-1-vs-SVM",
+      [
+        [
+          "OC-4-4-1-1",
+          1
+        ],
+        [
+          "OC-4-1-3",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-1-2-vs-SVM",
+      [
+        [
+          "OC-4-4-1-2",
+          1
+        ],
+        [
+          "OC-4-1-3",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-2-1-1-vs-SVM",
+      [
+        [
+          "OC-4-2-1-1",
+          1
+        ],
+        [
+          "OC-4-1-3",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-1-3-vs-SVM",
+      [
+        [
+          "OC-4-4-1-3",
+          1
+        ],
+        [
+          "OC-4-1-3",
+          -1
+        ]
+      ]
+    ],
+    [
+      "OC-4-4-2-1-vs-SVM",
+      [
+        [
+          "OC-4-4-2-1",
+          1
+        ],
+        [
+          "OC-4-1-3",
+          -1
+        ]
+      ]
+    ],
+    [
+      "attention-vs-SVM",
+      [
+        [
+          "OC-4-4-1",
+          1
+        ],
+        [
+          "OC-4-1-3",
+          -1
+        ]
+      ]
+    ]
+  ],
+  "counts": {
+    "train": {
+      "0": 800,
+      "1": 800
+    },
+    "dev": {
+      "0": 300,
+      "1": 300
+    },
+    "cal": {
+      "0": 400
+    },
+    "C": {
+      "0": 500,
+      "1": 500
+    },
+    "RV": {
+      "0": 300,
+      "1": 782
+    }
+  },
+  "repeats": 20000,
+  "primary": "RV",
+  "supplementary": "C",
+  "historical": true,
+  "train_dev_test_disjoint": true,
+  "before_fit": true
+}

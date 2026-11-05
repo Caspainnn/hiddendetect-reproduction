@@ -1,0 +1,70 @@
+PASS: PLE boundaries/extrapolation, equivalent linear encoding, batch independence, gradients, official CVaR state/loss, six model reloads and threshold.
+OC_A2_LOCKED d20b76d6f0bfece198c0b4c9ff1cba9f7acf5917
+OC_A2_CV OC-4-4-1 0.003 0.812865
+OC_A2_CV OC-4-4-1 0.001 0.852632
+OC_A2_CV OC-4-4-1 0.0003 0.85731
+OC_A2_CV OC-4-4-2 0.003 0.819883
+OC_A2_CV OC-4-4-2 0.001 0.838596
+OC_A2_CV OC-4-4-2 0.0003 0.85614
+OC_A2_CV OC-4-2-1 0.003 0.85848
+OC_A2_CV OC-4-2-1 0.001 0.843275
+OC_A2_CV OC-4-2-1 0.0003 0.838596
+OC_A2_CV OC-4-4-1-1 0.003 0.846784
+OC_A2_CV OC-4-4-1-1 0.001 0.835088
+OC_A2_CV OC-4-4-1-1 0.0003 0.852632
+OC_A2_CV ungated-pooling 0.003 0.845614
+OC_A2_CV ungated-pooling 0.001 0.832749
+OC_A2_CV ungated-pooling 0.0003 0.843275
+OC_A2_CV OC-4-4-1-2 0.003 0.830409
+OC_A2_CV OC-4-4-1-2 0.001 0.85731
+OC_A2_CV OC-4-4-1-2 0.0003 0.842105
+OC_A2_CV linear-encoded-attention 0.003 0.814035
+OC_A2_CV linear-encoded-attention 0.001 0.859649
+OC_A2_CV linear-encoded-attention 0.0003 0.849123
+OC_A2_CV OC-4-2-1-1 0.003 0.887719
+OC_A2_CV OC-4-2-1-1 0.001 0.838596
+OC_A2_CV OC-4-2-1-1 0.0003 0.835088
+OC_A2_CV linear-encoded-mlp 0.003 0.847953
+OC_A2_CV linear-encoded-mlp 0.001 0.844444
+OC_A2_CV linear-encoded-mlp 0.0003 0.842105
+OC_A2_CV OC-4-4-1-3 0.003 0.864327
+OC_A2_CV OC-4-4-1-3 0.001 0.843275
+OC_A2_CV OC-4-4-1-3 0.0003 0.843275
+OC_A2_CV OC-4-4-2-1 0.003 0.802339
+OC_A2_CV OC-4-4-2-1 0.001 0.911111
+OC_A2_CV OC-4-4-2-1 0.0003 0.787135
+OC_A2_FIT OC-4-4-1
+OC_A2_FIT OC-4-4-2
+OC_A2_FIT OC-4-2-1
+OC_A2_FIT OC-4-4-1-1
+OC_A2_FIT ungated-pooling
+OC_A2_FIT OC-4-4-1-2
+OC_A2_FIT linear-encoded-attention
+OC_A2_FIT OC-4-2-1-1
+OC_A2_FIT linear-encoded-mlp
+OC_A2_FIT OC-4-4-1-3
+OC_A2_FIT OC-4-4-2-1
+OC_A2_MODELS_SEALED 33
+Traceback (most recent call last):
+  File "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/configs/oc-attention/evaluate.py", line 64, in <module>
+    if __name__=='__main__':main()
+  File "/home/u2026110998/HiddenDetect-reproduction/cache/attention-worktree/configs/oc-attention/evaluate.py", line 38, in main
+    replay[role]=oldcore.score(old,data[role+'_X']);np.testing.assert_allclose(replay[role],oldf[f'{SEEDS[0]}_{role}'][:,column],atol=1e-12,rtol=0)
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/site-packages/numpy/testing/_private/utils.py", line 1504, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/u2026110998/HiddenDetect-reproduction/env/lib/python3.10/site-packages/numpy/testing/_private/utils.py", line 797, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=0, atol=1e-12
+
+Mismatched elements: 211 / 400 (52.8%)
+Max absolute difference: 1.43051147e-06
+Max relative difference: 7.93392249e-07
+ x: array([-2.518856, -1.414267,  0.288999, -1.936151,  1.471662, -3.534342,
+       -4.792647, -4.293062,  1.235662,  1.060859, -2.651213, -0.440545,
+        3.299563, -3.391372, -3.583295, -5.886083, -5.932172, -3.404072,...
+ y: array([-2.518856, -1.414267,  0.288999, -1.936151,  1.471662, -3.534342,
+       -4.792647, -4.293061,  1.235662,  1.060859, -2.651213, -0.440545,
+        3.299562, -3.391372, -3.583295, -5.886084, -5.932172, -3.404072,...

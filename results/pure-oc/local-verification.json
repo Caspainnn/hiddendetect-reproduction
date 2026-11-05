@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "frozen_git_blobs_checked": [
+    "configs/pure-oc/analysis.py",
+    "configs/pure-oc/test_contract.py",
+    "configs/pure-oc/build_manifest.py",
+    "configs/pure-oc/run.py",
+    "configs/pure-oc/evaluate.py",
+    "configs/pure-oc/manifest.json",
+    "configs/original-positions/core.py",
+    "configs/original-positions/manifest.json",
+    "configs/artifacts-lock.json",
+    "results/pure-oc/thresholds.json",
+    "docs/direction-registry.md",
+    "docs/pure-oc-execution-2026-10-30.md"
+  ],
+  "replays": [
+    {
+      "batch": "C",
+      "numeric_values_checked": 91,
+      "maximum_difference_at_tolerance_1e_12": 0.0,
+      "all_scores_exact": true
+    },
+    {
+      "batch": "ORP-T2",
+      "numeric_values_checked": 91,
+      "maximum_difference_at_tolerance_1e_12": 0.0,
+      "all_scores_exact": true
+    },
+    {
+      "batch": "new",
+      "numeric_values_checked": 91,
+      "maximum_difference_at_tolerance_1e_12": 0.0,
+      "all_scores_exact": true
+    }
+  ],
+  "new_scores_sha256": "c1496aa29f7073a51ac61a63c12f68ecc00d297ef969f0240851ae9782c25231",
+  "manifest_sha256": "de2bd2982ec3b02f8781c5d8012d922689654bf0ae144e169fbf92721dc47298"
+}

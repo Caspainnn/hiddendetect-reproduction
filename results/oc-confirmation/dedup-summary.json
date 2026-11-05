@@ -1,0 +1,20 @@
+{
+  "raw_counts": {
+    "or-bench-80k.csv": 80359,
+    "or-bench-toxic.csv": 655
+  },
+  "historical_inputs": 25954,
+  "candidate_count": 5655,
+  "available": {
+    "0": 5000,
+    "1": 653
+  },
+  "removed_count": 9,
+  "removed_by_role": {
+    "excluded": 7,
+    "candidate": 2
+  },
+  "rejected": {},
+  "method": "NFKC/casefold word exact, then char3-5 TFIDF65536 cosine>=.92 connected groups, history first",
+  "private_audit_retained_on_host": true
+}

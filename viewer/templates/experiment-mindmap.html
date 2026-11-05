@@ -1,0 +1,18 @@
+<section class="section" id="mind-section" aria-labelledby="map-title">
+ <div class="bar">
+  <h2 id="map-title">实验思维导图 <small>方向 → 具体问题 → 对应实验 → 方法、结果</small></h2>
+  <div class="mind-toolbar" aria-label="思维导图操作">
+   <button id="mind-fullscreen" aria-pressed="false">全屏查看</button>
+   <button id="mind-expand-all">展开全部</button>
+   <button id="mind-collapse">收起到方向</button>
+   <button id="mind-reset">恢复默认</button>
+   <button id="mind-zoom-out" aria-label="缩小思维导图">−</button>
+   <output id="mind-zoom-value" aria-live="polite">80%</output>
+   <button id="mind-zoom-in" aria-label="放大思维导图">＋</button>
+  </div>
+ </div>
+ <div class="mind-viewport" id="mind-viewport" role="region" aria-label="可展开收起的实验思维导图" tabindex="0">
+  <div class="mind-canvas" id="mind-canvas"></div>
+ </div>
+ <div class="mind-foot">点击节点展开或收起下一层；圆圈数字表示直属子节点数。全屏时，按住鼠标左键拖动画布，滚轮向上放大、向下缩小。键盘 Enter 切换，← 收起，→ 展开，Esc 退出全屏。<br>同一分支内按同批对照比较；未执行项明确标记待验证，历史结果不能冒充新确认。检出率是危险样本被识别的比例，误报率是正常样本被误判危险的比例。</div>
+</section>

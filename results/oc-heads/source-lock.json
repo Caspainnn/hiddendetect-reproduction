@@ -1,0 +1,72 @@
+{
+  "source_commit": "1f30ea1b7ee0020ad4185a02b79a5e31fbfeb95c",
+  "sha256": {
+    "configs/oc-heads/core.py": "c0956f6b5f8dafc17eb32d600fb0d230f675338f4a7e631898efae4912e81540",
+    "configs/oc-heads/evaluate.py": "e78384eb91fe3b03a620d600972a49940142078a188f710693df43e94a1577d1",
+    "configs/oc-heads/prepare.py": "d82a6a99c53e3161acd207ce5dbb0dae1a7709483ad6c13fbc8162f9fbd1b053",
+    "configs/oc-heads/probe.py": "8175604b91ef301f6eac755a09610a85748565969f06260a866b710a1ab864f7",
+    "configs/oc-heads/test_contract.py": "5160675fffc9ad21d4186425e73b13e7d849aecb553b68d2dcaaf5842d49602e",
+    "configs/oc-heads/train.py": "5cc45c1b77b49eca326e4c20a869ceae6100dded0d9c886705df48d9af6daa05",
+    "configs/oc-heads/verify.py": "f2d4297236e6c496ceedbffba0aac39ac035ec21c090bb323f99387bad120a37",
+    "docs/oc-heads-protocol-2026-11-04.md": "acd3c9f9528ac537120e08b9dd2414743a3a0b671952ae50c67dee971983c143"
+  },
+  "manifest_sha256": "923ff5361d2d2ee75e2fadf78689914138f66183b36cf1c03b2db057aa5f3209",
+  "ids": [
+    "OC-4-1-1",
+    "OC-4-2-1",
+    "OC-4-3-1",
+    "OC-4-4-1",
+    "OC-4-1-2",
+    "OC-4-1-3",
+    "OC-4-3-2",
+    "OC-4-4-2"
+  ],
+  "grids": {
+    "OC-4-1-1": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "OC-4-2-1": [
+      0.003,
+      0.001,
+      0.0003
+    ],
+    "OC-4-3-1": [
+      1,
+      2,
+      3
+    ],
+    "OC-4-4-1": [
+      0.003,
+      0.001,
+      0.0003
+    ],
+    "OC-4-1-2": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "OC-4-1-3": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "OC-4-3-2": [
+      2,
+      4,
+      6
+    ],
+    "OC-4-4-2": [
+      0.003,
+      0.001,
+      0.0003
+    ]
+  },
+  "seeds": [
+    20261104,
+    20261105,
+    20261106
+  ],
+  "before_any_head_fit": true
+}

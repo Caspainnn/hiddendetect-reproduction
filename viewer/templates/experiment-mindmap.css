@@ -1,0 +1,45 @@
+.mind-toolbar{display:flex;gap:7px;align-items:center;flex-wrap:wrap}
+.mind-toolbar button{border:1px solid var(--line);background:var(--paper);border-radius:5px;padding:5px 10px}
+.mind-toolbar output{font-size:12px;color:var(--muted);min-width:38px;text-align:center}
+.mind-viewport{overflow:auto;height:650px;max-height:75vh;background:radial-gradient(#d6dfd2 .7px,transparent .7px);background-size:20px 20px;overscroll-behavior:contain;scrollbar-gutter:stable}
+.mind-canvas{display:inline-block;min-width:100%;min-height:100%;padding:35px 50px;zoom:.8}
+.mind-canvas ul{list-style:none;margin:0;padding:0}
+.mind-canvas .mind-children{position:relative;margin-left:42px}
+.mind-item{position:relative;display:flex;align-items:center;padding:10px 0;width:max-content}
+.mind-children>.mind-item{padding-left:28px}
+.mind-children>.mind-item:before{content:'';position:absolute;left:0;top:0;bottom:0;border-left:2px solid var(--branch-color,#b7cdb0)}
+.mind-children>.mind-item:first-child:before{top:50%}
+.mind-children>.mind-item:last-child:before{bottom:50%}
+.mind-children>.mind-item:only-child:before{display:none}
+.mind-children>.mind-item:after{content:'';position:absolute;left:0;top:50%;width:28px;border-top:2px solid var(--branch-color,#b7cdb0)}
+.mind-item>.mind-children:before{content:'';position:absolute;left:-42px;top:50%;width:42px;border-top:2px solid var(--branch-color,#b7cdb0)}
+.mind-node{position:relative;flex:0 0 auto;width:255px;box-sizing:border-box;white-space:pre-line;overflow-wrap:anywhere;font:inherit;line-height:1.6;text-align:left;border:1px solid var(--line);border-radius:9px;padding:13px 17px;color:var(--text);background:var(--paper)}
+button.mind-node{padding-right:44px;cursor:pointer}
+button.mind-node:hover{border-color:var(--green);background:var(--soft)}
+.mind-toggle{position:absolute;right:10px;top:50%;transform:translateY(-50%);width:23px;height:23px;display:grid;place-items:center;border-radius:50%;border:1px solid currentColor;font-size:15px;line-height:1;color:var(--muted)}
+.mind-node[aria-expanded=false] .mind-toggle{font-size:12px}
+.mind-item[data-kind=root]>.mind-node{background:var(--green);color:var(--paper);font-weight:600;width:210px}
+.mind-item[data-kind=root]>.mind-node .mind-toggle{color:inherit}
+.mind-item[data-kind=group]>.mind-node{width:230px;font-weight:600}
+.mind-item[data-kind=direction]>.mind-node{width:300px;font-weight:600}
+.mind-item[data-kind=question]>.mind-node{width:310px}
+.mind-item[data-kind=experiment]>.mind-node{width:260px}
+.mind-item[data-kind=method]>.mind-node,.mind-item[data-kind=result]>.mind-node,.mind-item[data-kind=evidence]>.mind-node{width:440px}
+.mind-item[data-kind=result]>.mind-node{font-weight:400}
+.mind-node .metric-improvement{font-weight:700}
+.mind-oc{--branch-color:#ffa57e}
+.mind-oc .mind-node{background:#fff0e7;border-color:#f1c9b3;color:#773d1c}
+.mind-oc button.mind-node:hover{background:#ffe1d0;border-color:#de9169}
+.mind-oc .mind-toggle{color:#a66d49}
+.mind-oc .mind-item[data-kind=evidence]>.mind-node{font-size:12px;font-weight:400;color:#876952}
+body.dark .mind-oc .mind-node{background:#3b3029;border-color:#75533d;color:#f3d5bb}
+body.dark .mind-oc button.mind-node:hover{background:#4a392e}
+body.dark .mind-oc .mind-item[data-kind=evidence]>.mind-node{color:#d1b59c}
+.mind-canvas [hidden]{display:none!important}
+.mind-foot{padding:10px 22px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+@media(max-width:800px){.mind-viewport{height:550px;max-height:70vh}.mind-canvas{padding:25px}.mind-toolbar{gap:5px}}
+.section.mind-fullscreen{position:fixed;inset:0;z-index:1000;width:100%;height:100vh;height:100dvh;max-width:none;margin:0;border:0;border-radius:0;display:flex;flex-direction:column;background:var(--paper)}
+.mind-fullscreen>.bar,.mind-fullscreen>.mind-foot{flex-shrink:0}
+.mind-fullscreen>.mind-viewport{flex:1;min-height:0;height:auto;max-height:none}
+.mind-fullscreen>.mind-viewport{cursor:grab;user-select:none;touch-action:none}
+.mind-viewport.mind-dragging,.mind-viewport.mind-dragging *{cursor:grabbing!important}

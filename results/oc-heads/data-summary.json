@@ -1,0 +1,37 @@
+{
+  "run_id": "OC-H1",
+  "counts": {
+    "train": {
+      "0": 800,
+      "1": 800
+    },
+    "dev": {
+      "0": 300,
+      "1": 300
+    },
+    "cal": {
+      "0": 400
+    },
+    "C": {
+      "0": 500,
+      "1": 500
+    },
+    "RV": {
+      "0": 300,
+      "1": 782
+    }
+  },
+  "available_fresh_per_class": {
+    "0": 10,
+    "1": 212
+  },
+  "independent_confirmation": false,
+  "confirmation_reason": "unchanged frozen source pool; prior full audit leaves fewer than 30 unused safe records",
+  "train_label_budget": 1600,
+  "selection_label_budget": 600,
+  "normal_calibration_budget": 400,
+  "fixed_features": "original F, last input token, 0-based layers16..29 inclusive, no other model information",
+  "training_F_cache_sha256": "853880fc6c1cae33468d3a8bcce2b6aef0dc7dea5ef13db6bb7316c11ead2b5d",
+  "history_scores_sha256": "3e45ad35a098baa2731c277e0cdb7f90c54c293757ca1ad7c33a619442a8cfe0",
+  "features_sha256": "1385d6caaa5215a8687597bd42d881e3156b7be85c7232c4ac679bb1bd9aec05"
+}

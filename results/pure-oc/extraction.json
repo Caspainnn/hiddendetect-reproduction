@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "rows": 2000,
+  "wall_seconds_scoring": 98.31312608905137,
+  "peak_allocated_bytes": 14710426624,
+  "generation_executed": false,
+  "scores_sha256": "c1496aa29f7073a51ac61a63c12f68ecc00d297ef969f0240851ae9782c25231",
+  "manifest_sha256": "de2bd2982ec3b02f8781c5d8012d922689654bf0ae144e169fbf92721dc47298",
+  "run_lock_sha256": "b9f205b9ce8e9ac32fdbe072471e1fd31af21e6961edb742eef99870eb34cba3"
+}

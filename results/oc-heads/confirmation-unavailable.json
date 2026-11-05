@@ -1,0 +1,9 @@
+{
+  "status": "not_performed",
+  "available_fresh_per_class": {
+    "0": 10,
+    "1": 212
+  },
+  "source_pool_unchanged": true,
+  "historical_samples_not_relabelled_as_fresh": true
+}

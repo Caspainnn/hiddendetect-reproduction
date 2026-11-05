@@ -1,0 +1,6 @@
+{
+  "cpu_all5_seconds_per_input_median": 4.802450001079706e-07,
+  "repeats": 30,
+  "rows_per_repeat": 10000,
+  "model_forwards_for_historical": 0
+}

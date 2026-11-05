@@ -1,0 +1,504 @@
+{
+  "run_id": "OC-H2",
+  "evidence": "post_confirmation_robustness_diagnostic",
+  "training_resamples": 5,
+  "fits": 15,
+  "train_pool_labels": 1600,
+  "sample_size": 1600,
+  "runs": [
+    {
+      "id": "OC-4-1-1",
+      "seed": 20261114,
+      "train_index_sha256": "a4ba28ff096b9bf836cbc84a1c468d05759ce7fd61913d8d47264efa6be3370f",
+      "train_unique_inputs": 1019,
+      "auroc": 0.926032,
+      "pauc": 0.8155368421052631,
+      "cost": {
+        "seconds": 0.22772127762436867,
+        "parameters": null
+      },
+      "model_sha256": "34d23f15df70fd1d8a8dd3386e39f1d1d093c37739a4d8ed5397f424f5c81299",
+      "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+      "old": {
+        "threshold": 1.0533966854810162,
+        "tpr": 0.696,
+        "fpr": 0.057
+      },
+      "new": {
+        "threshold": 1.0927923929270378,
+        "tpr": 0.686,
+        "fpr": 0.053
+      }
+    },
+    {
+      "id": "OC-4-1-3",
+      "seed": 20261114,
+      "train_index_sha256": "a4ba28ff096b9bf836cbc84a1c468d05759ce7fd61913d8d47264efa6be3370f",
+      "train_unique_inputs": 1019,
+      "auroc": 0.9181419999999999,
+      "pauc": 0.8274210526315791,
+      "cost": {
+        "seconds": 0.0036004353314638138,
+        "parameters": null
+      },
+      "model_sha256": "5e6138a03ee5a377857567c7db74a1f7dd68be0ef8fa6cf85db4d5b96117b225",
+      "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+      "old": {
+        "threshold": 0.480548703054959,
+        "tpr": 0.7,
+        "fpr": 0.041
+      },
+      "new": {
+        "threshold": 0.5036007944613131,
+        "tpr": 0.684,
+        "fpr": 0.034
+      }
+    },
+    {
+      "id": "OC-4-4-1",
+      "seed": 20261114,
+      "train_index_sha256": "a4ba28ff096b9bf836cbc84a1c468d05759ce7fd61913d8d47264efa6be3370f",
+      "train_unique_inputs": 1019,
+      "auroc": 0.904578,
+      "pauc": 0.806242105263158,
+      "cost": {
+        "seconds": 12.54877712763846,
+        "parameters": 1377
+      },
+      "model_sha256": "7274db096fe59eb77f8724f3e0e93c6df60af9f684fbdd56d66d4044de7bd71c",
+      "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+      "old": {
+        "threshold": 1.4037301540374756,
+        "tpr": 0.572,
+        "fpr": 0.023
+      },
+      "new": {
+        "threshold": 1.340453863143921,
+        "tpr": 0.61,
+        "fpr": 0.029
+      }
+    },
+    {
+      "id": "OC-4-1-1",
+      "seed": 20261115,
+      "train_index_sha256": "90a4104789259c3503eb9b72eb149654261db5915801bba577da8b12905b9db5",
+      "train_unique_inputs": 1018,
+      "auroc": 0.932882,
+      "pauc": 0.8257052631578947,
+      "cost": {
+        "seconds": 0.009597940370440483,
+        "parameters": null
+      },
+      "model_sha256": "0ee6b65f4a2ca02f5d6a8ad2592da3d1006a4742c87ab83f6ac0bdce39005ba9",
+      "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+      "old": {
+        "threshold": 1.0600154304364577,
+        "tpr": 0.734,
+        "fpr": 0.056
+      },
+      "new": {
+        "threshold": 1.0592736223675983,
+        "tpr": 0.734,
+        "fpr": 0.056
+      }
+    },
+    {
+      "id": "OC-4-1-3",
+      "seed": 20261115,
+      "train_index_sha256": "90a4104789259c3503eb9b72eb149654261db5915801bba577da8b12905b9db5",
+      "train_unique_inputs": 1018,
+      "auroc": 0.92619,
+      "pauc": 0.8403473684210527,
+      "cost": {
+        "seconds": 0.010143887251615524,
+        "parameters": null
+      },
+      "model_sha256": "39fe1a98e06524e80db7d0638604f691741950d2366ae6a6a41302ac497846fc",
+      "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+      "old": {
+        "threshold": 0.5173578545099191,
+        "tpr": 0.682,
+        "fpr": 0.027
+      },
+      "new": {
+        "threshold": 0.4635736797021773,
+        "tpr": 0.726,
+        "fpr": 0.04
+      }
+    },
+    {
+      "id": "OC-4-4-1",
+      "seed": 20261115,
+      "train_index_sha256": "90a4104789259c3503eb9b72eb149654261db5915801bba577da8b12905b9db5",
+      "train_unique_inputs": 1018,
+      "auroc": 0.897618,
+      "pauc": 0.7725052631578948,
+      "cost": {
+        "seconds": 9.920010320842266,
+        "parameters": 1377
+      },
+      "model_sha256": "fb30bb46326e62aaa5e6265b226932618136051fd7cb3e2a9069c240249d80fd",
+      "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+      "old": {
+        "threshold": 1.758445382118225,
+        "tpr": 0.528,
+        "fpr": 0.034
+      },
+      "new": {
+        "threshold": 1.7415354251861572,
+        "tpr": 0.528,
+        "fpr": 0.035
+      }
+    },
+    {
+      "id": "OC-4-1-1",
+      "seed": 20261116,
+      "train_index_sha256": "9399ab7577a59f6eaf142da138a6811a42d2e8d427a3ee02e5f3fc4df8473195",
+      "train_unique_inputs": 1017,
+      "auroc": 0.9259199999999999,
+      "pauc": 0.803578947368421,
+      "cost": {
+        "seconds": 0.008119011297821999,
+        "parameters": null
+      },
+      "model_sha256": "1726b22a2cdd099687b7b024c926e042f1515fd9fa736a114362489bba45b111",
+      "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+      "old": {
+        "threshold": 1.030158550372593,
+        "tpr": 0.712,
+        "fpr": 0.063
+      },
+      "new": {
+        "threshold": 1.0674837430601858,
+        "tpr": 0.694,
+        "fpr": 0.057
+      }
+    },
+    {
+      "id": "OC-4-1-3",
+      "seed": 20261116,
+      "train_index_sha256": "9399ab7577a59f6eaf142da138a6811a42d2e8d427a3ee02e5f3fc4df8473195",
+      "train_unique_inputs": 1017,
+      "auroc": 0.9210879999999999,
+      "pauc": 0.8134842105263158,
+      "cost": {
+        "seconds": 0.008501376956701279,
+        "parameters": null
+      },
+      "model_sha256": "2bc733a0e95f02c96224ff6a335c691f6550983c1e2e7703b9afc31d3c9f0e97",
+      "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+      "old": {
+        "threshold": 0.39821662268114844,
+        "tpr": 0.74,
+        "fpr": 0.067
+      },
+      "new": {
+        "threshold": 0.49090561350252115,
+        "tpr": 0.656,
+        "fpr": 0.04
+      }
+    },
+    {
+      "id": "OC-4-4-1",
+      "seed": 20261116,
+      "train_index_sha256": "9399ab7577a59f6eaf142da138a6811a42d2e8d427a3ee02e5f3fc4df8473195",
+      "train_unique_inputs": 1017,
+      "auroc": 0.9113619999999999,
+      "pauc": 0.7858315789473684,
+      "cost": {
+        "seconds": 7.801055250689387,
+        "parameters": 1377
+      },
+      "model_sha256": "4b433055f31b864ccc239d7ec846d94776e517654e00ba347ad569f7bb4f6544",
+      "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+      "old": {
+        "threshold": 1.3349741697311401,
+        "tpr": 0.598,
+        "fpr": 0.042
+      },
+      "new": {
+        "threshold": 1.3229999542236328,
+        "tpr": 0.606,
+        "fpr": 0.044
+      }
+    },
+    {
+      "id": "OC-4-1-1",
+      "seed": 20261117,
+      "train_index_sha256": "7bad24899b1968a7909da6c5ad15ffef6997aab690dc0251970553f0874d088a",
+      "train_unique_inputs": 997,
+      "auroc": 0.9293099999999999,
+      "pauc": 0.8195473684210526,
+      "cost": {
+        "seconds": 0.008026443421840668,
+        "parameters": null
+      },
+      "model_sha256": "99c0e38780ef5d996923ef9eb078cd3ebad4a05928cc29d42b0cde8beb8ccf7c",
+      "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+      "old": {
+        "threshold": 1.0762274632133821,
+        "tpr": 0.718,
+        "fpr": 0.057
+      },
+      "new": {
+        "threshold": 1.1537527809956214,
+        "tpr": 0.698,
+        "fpr": 0.052
+      }
+    },
+    {
+      "id": "OC-4-1-3",
+      "seed": 20261117,
+      "train_index_sha256": "7bad24899b1968a7909da6c5ad15ffef6997aab690dc0251970553f0874d088a",
+      "train_unique_inputs": 997,
+      "auroc": 0.918592,
+      "pauc": 0.8269894736842105,
+      "cost": {
+        "seconds": 0.008317384868860245,
+        "parameters": null
+      },
+      "model_sha256": "137feba214ebda533a11a9400f48651dbe5d6ece27089b192b32fbe3804a6f90",
+      "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+      "old": {
+        "threshold": 0.42257606182227697,
+        "tpr": 0.746,
+        "fpr": 0.053
+      },
+      "new": {
+        "threshold": 0.5154401748332537,
+        "tpr": 0.684,
+        "fpr": 0.035
+      }
+    },
+    {
+      "id": "OC-4-4-1",
+      "seed": 20261117,
+      "train_index_sha256": "7bad24899b1968a7909da6c5ad15ffef6997aab690dc0251970553f0874d088a",
+      "train_unique_inputs": 997,
+      "auroc": 0.913654,
+      "pauc": 0.7955368421052632,
+      "cost": {
+        "seconds": 9.416383188217878,
+        "parameters": 1377
+      },
+      "model_sha256": "401e53d36604b75c235de35b0ac065e5c4c3aefd8475e70f242bc7885bda88a7",
+      "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+      "old": {
+        "threshold": 1.3980424404144287,
+        "tpr": 0.58,
+        "fpr": 0.033
+      },
+      "new": {
+        "threshold": 1.3423407077789307,
+        "tpr": 0.6,
+        "fpr": 0.034
+      }
+    },
+    {
+      "id": "OC-4-1-1",
+      "seed": 20261118,
+      "train_index_sha256": "7020fd0587c9ac9ec7ca8979923526e5d00dcdf635e4338a2cfd57f7308332ec",
+      "train_unique_inputs": 1021,
+      "auroc": 0.925888,
+      "pauc": 0.8118736842105264,
+      "cost": {
+        "seconds": 0.00796571560204029,
+        "parameters": null
+      },
+      "model_sha256": "cb9c1c07ec0d8a592ae5e3afb0d84103205cf9104e2ed00242e90bc644628762",
+      "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+      "old": {
+        "threshold": 0.9474057306441679,
+        "tpr": 0.734,
+        "fpr": 0.064
+      },
+      "new": {
+        "threshold": 0.9836300393647152,
+        "tpr": 0.716,
+        "fpr": 0.061
+      }
+    },
+    {
+      "id": "OC-4-1-3",
+      "seed": 20261118,
+      "train_index_sha256": "7020fd0587c9ac9ec7ca8979923526e5d00dcdf635e4338a2cfd57f7308332ec",
+      "train_unique_inputs": 1021,
+      "auroc": 0.9256119999999999,
+      "pauc": 0.8323684210526316,
+      "cost": {
+        "seconds": 0.008543260395526886,
+        "parameters": null
+      },
+      "model_sha256": "0f2a7f1b8f5192ef8f4782113e93ecceb75939e8cc0d975a4d70872c0eae3431",
+      "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+      "old": {
+        "threshold": 0.450175418097194,
+        "tpr": 0.696,
+        "fpr": 0.036
+      },
+      "new": {
+        "threshold": 0.4099122948805739,
+        "tpr": 0.724,
+        "fpr": 0.045
+      }
+    },
+    {
+      "id": "OC-4-4-1",
+      "seed": 20261118,
+      "train_index_sha256": "7020fd0587c9ac9ec7ca8979923526e5d00dcdf635e4338a2cfd57f7308332ec",
+      "train_unique_inputs": 1021,
+      "auroc": 0.908266,
+      "pauc": 0.778463157894737,
+      "cost": {
+        "seconds": 10.083632435649633,
+        "parameters": 1377
+      },
+      "model_sha256": "bd73e876a9a99590dbc8c482e640050f46c485c420aaaca005cf9cc457163648",
+      "source_lock_sha256": "cb258c2dfcfa2332569e0f111b4c62433d516e7c9255b44d5bd62ed7793a6982",
+      "old": {
+        "threshold": 1.3780125379562378,
+        "tpr": 0.522,
+        "fpr": 0.035
+      },
+      "new": {
+        "threshold": 1.3230410814285278,
+        "tpr": 0.54,
+        "fpr": 0.036
+      }
+    }
+  ],
+  "calibration_resamples": 1000,
+  "calibration_variability": {
+    "old": [
+      {
+        "id": "B",
+        "threshold_range": [
+          0.3273835101397708,
+          0.3751984527334571
+        ],
+        "fpr_empirical95_range": [
+          0.021,
+          0.045099999999999904
+        ],
+        "tpr_empirical95_range": [
+          0.426,
+          0.6343499999999996
+        ]
+      },
+      {
+        "id": "OC-4-1-1",
+        "threshold_range": [
+          0.8305854861968246,
+          1.5172413728893335
+        ],
+        "fpr_empirical95_range": [
+          0.025,
+          0.094
+        ],
+        "tpr_empirical95_range": [
+          0.558,
+          0.814
+        ]
+      },
+      {
+        "id": "OC-4-1-3",
+        "threshold_range": [
+          0.31282193801514274,
+          0.6948276464921627
+        ],
+        "fpr_empirical95_range": [
+          0.016,
+          0.094
+        ],
+        "tpr_empirical95_range": [
+          0.52,
+          0.818
+        ]
+      },
+      {
+        "id": "OC-4-4-1",
+        "threshold_range": [
+          1.1364049911499023,
+          1.7845611572265625
+        ],
+        "fpr_empirical95_range": [
+          0.016,
+          0.052
+        ],
+        "tpr_empirical95_range": [
+          0.444,
+          0.704
+        ]
+      }
+    ],
+    "new": [
+      {
+        "id": "B",
+        "threshold_range": [
+          0.3090003067627549,
+          0.36433851905167103
+        ],
+        "fpr_empirical95_range": [
+          0.024,
+          0.069
+        ],
+        "tpr_empirical95_range": [
+          0.478,
+          0.688
+        ]
+      },
+      {
+        "id": "OC-4-1-1",
+        "threshold_range": [
+          0.9878513399681493,
+          1.3502902208104235
+        ],
+        "fpr_empirical95_range": [
+          0.038,
+          0.072
+        ],
+        "tpr_empirical95_range": [
+          0.626,
+          0.76
+        ]
+      },
+      {
+        "id": "OC-4-1-3",
+        "threshold_range": [
+          0.43189897112000525,
+          0.5385558389619333
+        ],
+        "fpr_empirical95_range": [
+          0.032,
+          0.052
+        ],
+        "tpr_empirical95_range": [
+          0.674,
+          0.742
+        ]
+      },
+      {
+        "id": "OC-4-4-1",
+        "threshold_range": [
+          1.1190341711044312,
+          1.6038295030593872
+        ],
+        "fpr_empirical95_range": [
+          0.024,
+          0.055
+        ],
+        "tpr_empirical95_range": [
+          0.518,
+          0.71
+        ]
+      }
+    ]
+  },
+  "calibration_scope": "fixed phase-one models and observed test; empirical ranges, not joint confidence intervals",
+  "seconds": 51.08612115122378,
+  "phase_one_confirmation_sha256": "4564e5adbc461e59c778d141ddda44e69ff5410ce30590fd92f08349e03ab9f6",
+  "mechanism_new_source_support_gate": false,
+  "attention_robust_wins_out_of_5": 0,
+  "mechanism_entry_gate": false,
+  "mechanism_experiments_executed": false
+}

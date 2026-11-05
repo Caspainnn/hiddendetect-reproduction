@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-11-05",
+  "rule": "Current registry IDs only; frozen experiment keys, manifests and results remain unchanged.",
+  "centroid": {
+    "add_group": "EI-2-7",
+    "add_history": "EI-2-7-1",
+    "add_matched": "EI-2-7-2",
+    "replace_group": "EI-3-1",
+    "replace_history": "EI-3-1-1",
+    "replace_matched": "EI-3-1-2",
+    "logits_history": "EI-3-2",
+    "history_run": "signal-selection",
+    "frozen_add_key": "all64",
+    "frozen_replace_key": "C32",
+    "frozen_logits_key": "first_logit"
+  },
+  "readout_groups": {
+    "position": "CFG-1：读取位置",
+    "layers": "CFG-2：读取层范围"
+  },
+  "readout": [
+    {"id":"CFG-1-1","topic":"position","title":"用户输入的不同位置","legacy_label":"EI-3 用户输入的不同位置","legacy_ids":"旧EI-3-1／EI-3-1-1～6","run":"ORP-U1","source":"results/original-positions/report-2026-10-30.md","status":"historical","note":"Six positions remain one experiment with six conditions, not six new projects."},
+    {"id":"CFG-1-2","topic":"position","title":"模板末尾位置与倒数第二确认","legacy_label":"EI-3 模板倒数第二个位置","legacy_ids":"旧EI-3-2／EI-3-2-1～3","run":"original-positions/original-template-confirm","source":"results/original-template-confirm/report-2026-10-30.md","status":"historical","note":"Last1/2/3 exploration plus fixed second-last confirmation; retain original batch boundaries."},
+    {"id":"CFG-2-1","topic":"layers","title":"原FDV规则选层","legacy_label":"EI-4 补充对照：原 FDV 方法","legacy_ids":"旧EI-4／FDV补充对照","run":"layer-selection","frozen_key":"B1","source":"results/layer-selection/report-2026-10-30.md","status":"completed"},
+    {"id":"CFG-2-2","topic":"layers","title":"直接穷举连续区间","legacy_label":"EI-4-1 直接穷举连续区间","legacy_ids":"旧EI-4-1","run":"layer-selection","frozen_key":"A","source":"results/layer-selection/report-2026-10-30.md","status":"completed"},
+    {"id":"CFG-2-3","topic":"layers","title":"重采样选层","legacy_label":"EI-4-2 重采样选层","legacy_ids":"旧EI-4-2","run":"layer-selection","frozen_key":"B","source":"results/layer-selection/report-2026-10-30.md","status":"completed"}
+  ]
+}

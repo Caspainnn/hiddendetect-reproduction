@@ -1,0 +1,12 @@
+{
+  "same_full_history_fuzzy_group_audit_pass": true,
+  "conflicts": [],
+  "unique_global_groups": 3256,
+  "rows": 3256,
+  "dependency_bytes_match_pre_run_head": true,
+  "dependencies": {
+    "configs/swarm/core.py": "9b0d0622220054f85949b44d68ba5b60b5039b87e350e68d560a73483923c6e1",
+    "configs/signal-selection/experiment_core.py": "ad35c2e9ed29d47854ea3db7cd999ef5e07c981226ce7872c91eec13fa45cc85"
+  },
+  "note": "Post-run audit of full-history fuzzy groups and tracked dependencies; source freeze itself did not explicitly list helper hashes."
+}
