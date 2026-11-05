@@ -6,7 +6,8 @@
     "EI-2词表信息待验证实验表单-2026-11-04.md": "vocabulary-design.md",
     "EI信息接口四分类方案-2026-11-04.md": "ei-interface-taxonomy.md",
     "实验思维导图标准.md": "mindmap-standard.md",
-    "ei-pca-numbering-v3.json": "ei-pca-numbering-v3.json"
+    "ei-pca-numbering-v3.json": "ei-pca-numbering-v3.json",
+    "OC-4-SVM与注意力改进安排-2026-11-04.md": "oc-svm-attention-design.md"
   },
   "science_base": "b7801ae905f81f67b8cfaeb258d13ebc4582d18c",
   "copied_science_files": [
