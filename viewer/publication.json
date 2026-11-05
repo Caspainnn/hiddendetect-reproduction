@@ -274,5 +274,7 @@
     "results/pure-oc/thresholds.json",
     "results/pure-oc/verification.json"
   ],
-  "frozen_conflicts": []
+  "frozen_conflicts": [],
+  "latest_run": "EI-PJ1",
+  "latest_run_verification": "results/ei2-pca-joint/final-verification.json"
 }

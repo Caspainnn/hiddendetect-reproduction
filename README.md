@@ -7,7 +7,7 @@
 - [实验编号与历史追溯](docs/experiment-numbering.md)：质心已分配EI-2-7／EI-3-1，位置与选层独立为CFG；历史32层结果与待验证14层方案分开。
 - [完整问题树](research-map.md)与[唯一方向登记](docs/direction-registry.md)。本分支整理当前维护文档，原冻结运行和指标不改。
 - [EI-PA2解除PCA32限制的结果](results/ei2-pca-uncapped/report-2026-11-05.md)：549次LR、24门训练及独立核验完成；未确认稳定总体AUROC增益。
-- [EI-2-3-4数量与方向的三组组合](docs/ei2-pca-joint-design-2026-11-05.md)仍待验证；质心C14两方案也仅登记，未产生新成绩。
+- [EI-2-3-4三组组合验证](results/ei2-pca-joint/report-2026-11-05.md)已完成EI-PJ1历史匹配验证及独立复核；组合2最值得独立确认，组合3在OR退步。质心C14两方案仍仅登记，未产生新成绩。
 
 下方按时间保留历史结果；旧EI-1质心、EI-3位置、EI-4选层必须结合上述新编号追溯，不与新版EI含义混用。
 

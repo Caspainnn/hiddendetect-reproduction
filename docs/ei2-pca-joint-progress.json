@@ -1,0 +1,7 @@
+{
+  "run_id": "EI-PJ1",
+  "status": "verified",
+  "new_verified_results": true,
+  "verification": "results/ei2-pca-joint/final-verification.json",
+  "independent_confirmation": false
+}

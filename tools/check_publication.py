@@ -9,8 +9,15 @@ expected={
  'ei2-pca-extended':'28debc00e0e3a033b4edd9722f35cb9ff405ca18611398ad0292094b1940d280',
  'ei2-pca-auto':'c4ad8320adb154970c8314866a15b59e8f53c67babbff6848e1935882193d3e6',
  'ei2-pca-select':'2a31cb393c62f88e8c3ea6bcc3d9eb28428a6c042b284e18574be8be9d29b449',
- 'ei2-pca-uncapped':'92cd29ce2e4c4da69764c50ae4982214304222e673b4705c108c709939f2ee24'}
+ 'ei2-pca-uncapped':'92cd29ce2e4c4da69764c50ae4982214304222e673b4705c108c709939f2ee24',
+ 'ei2-pca-joint':'72db26c76714f910b4eb5b3c79b9579c36b21fd1178c4b371910e36c5ac87226'}
 for name,value in expected.items():assert sha(ROOT/'results'/name/'evaluation.json')==value,name
+joint=ROOT/'results/ei2-pca-joint';final=json.loads((joint/'final-verification.json').read_text());assert final['passed'] and final['selected_entries_bound']==30 and final['selectors_described']==18
+for name,value in final['files'].items():assert sha(joint/name)==value,name
+assert sha(ROOT/'configs/ei2-pca-joint/audit_selected.py')==final['audit_code_sha256']
+source=json.loads((joint/'source-lock.json').read_text())
+for name,value in source['sources'].items():assert sha(ROOT/name)==value,name
+audit=json.loads((joint/'selected-entry-audit.json').read_text());assert audit['passed'] and len(audit['records'])==30 and all(r['exact_content_match'] for r in audit['records'])
 registry=json.loads((ROOT/'docs/experiment-numbering.json').read_text(encoding='utf-8'));assert len(registry['readout'])==5 and len({r['id'] for r in registry['readout']})==5
 for row in registry['readout']:assert (ROOT/row['source']).is_file()
 repair=json.loads((ROOT/'results/ei2-pca-uncapped/verification-repair-source.json').read_text());proof=json.loads((ROOT/'results/ei2-pca-uncapped/verification.json').read_text());assert repair['evaluation_sha256_unchanged']==proof['evaluation_sha256'] and repair['scores_sha256_unchanged']==proof['scores_sha256']
@@ -37,4 +44,4 @@ for name in ['README.md','research-map.md','docs/direction-registry.md','docs/ex
   url=urllib.parse.urlsplit(link)
   if url.scheme or not url.path:continue
   assert (path.parent/urllib.parse.unquote(url.path)).exists(),(name,link)
-print('PUBLICATION_SCOPE_NUMBERING_AND_SIX_FROZEN_HASHES_PASS',len(paths))
+print('PUBLICATION_SCOPE_NUMBERING_SEVEN_FROZEN_HASHES_AND_JOINT_AUDIT_PASS',len(paths))

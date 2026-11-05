@@ -1,6 +1,10 @@
-<!-- reproduction: {"id": "hiddendetect", "paper": "P02", "title": "HiddenDetect：原OC-4进阶变式验证", "status": "OC-O1原数据两组变式及复核完成", "stage": "RV1082主27比较、C1000补充与H1旧头回归", "updated": "2026-11-04", "next": "依据同批对照保留线索，在未用数据确认；不按历史测试继续搜索", "logic_map": "research-map.md"} -->
+<!-- reproduction: {"id": "hiddendetect", "paper": "P02", "title": "HiddenDetect：自动选数量与方向组合验证", "status": "EI-PJ1三组合历史匹配验证及复核完成", "stage": "588 LR、18稀疏器、12门、30最终头绑定", "updated": "2026-11-05", "next": "组合2优先在未使用来源确认；不按历史测试重选", "logic_map": "research-map.md"} -->
 
 # HiddenDetect复现进度
+
+## 2026-11-05：EI-PJ1同时自动选数量与具体方向
+
+EI-2-3-4三组组合完成训练、独立重算与最终模型绑定审计。固定原14F/14层/末位/L2头，训练侧确定变换；588 LR、18稀疏器、12 GPU门。组合2在历史OR同时超过两单组件获区间支持，C/RV相对仅解释率未确认；组合1未稳定超过两组件，组合3在OR差于原顺序门控。所有测试均为历史诊断，未进行独立新确认。[四指标报告](results/ei2-pca-joint/report-2026-11-05.md)。
 
 ## 2026-11-04：OC-O1回到原OC-4划分
 

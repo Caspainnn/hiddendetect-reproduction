@@ -262,7 +262,7 @@ def build_oc():
             batch=priority+'；具体配置与评估规则在评分前冻结。'
             source='docs/oc-heads-protocol-2026-11-04.md' if (REPO/'docs/oc-heads-protocol-2026-11-04.md').exists() else 'docs/oc4-boundary-update-2026-11-04.md'
             status='待验证'
-            source='../../docs/OC-4-SVM与注意力改进安排-2026-11-04.md'
+            source='../../docs/oc-svm-attention-design.md'
         experiment=node(ident+'：'+name,[node('方法：'+method,kind='method'),node(result_text,kind='result'),node('证据与结论：'+conclusion+'\n'+batch,kind='evidence')]+extra+confirmation_evidence(ident)+retraining_evidence(ident)+svm_baseline_evidence(ident)+attention_baseline_evidence(ident)+original_oc4_evidence(ident),id=ident.lower(),kind='experiment')
         target=head_nodes[ident.rsplit('-',1)[0]]['children'] if ident.count('-')==4 else classes[category]['children']
         target.append(node(question,[experiment],id=ident.lower()+'-question',kind='question'))
@@ -307,6 +307,38 @@ def pca_uncapped_result(ident):
     conclusion='；'.join(decisions)+'。完整方向范围不保证更准；全部为历史诊断，没有独立新来源确认。'
     leaves.append(node('结论：'+conclusion,kind='evidence'))
     leaves.append(node('边界：CV为覆盖至自然秩的离散网格，非全整数穷举。门控采用平均开度惩罚，方向变多时每方向惩罚会变化；初始化匹配末端开度。有效输入容量随方向数增加，额外选择预算单列。旧PA1冻结成绩保留。',kind='evidence'))
+    return leaves,'\n'.join(texts),conclusion
+
+
+def pca_joint_result(ident):
+    folder=REPO/'results/ei2-pca-joint'
+    if not (folder/'final-verification.json').exists():return None
+    proof=json.loads((folder/'final-verification.json').read_text(encoding='utf-8'))
+    assert proof['passed'] and proof['evaluation_sha256']==hashlib.sha256((folder/'evaluation.json').read_bytes()).hexdigest()
+    for filename,digest in proof['files'].items():assert hashlib.sha256((folder/filename).read_bytes()).hexdigest()==digest
+    result=json.loads((folder/'evaluation.json').read_text(encoding='utf-8'));assert result['run_id']=='EI-PJ1' and result['numbering_version']==3
+    chosen=result['selected'][ident];controls=result['controls'][ident];leaves=[];texts=[];decisions=[]
+    labels={'Q-CV':'仅PCA前缀CV选数量','Q-VAR':'仅解释率选数量','Q-GATE':'仅原顺序门控','S-EN':'仅EN方向筛选','S-L1':'仅L1方向筛选'}
+    leaves.append(node('实际选择：'+chosen['variant']['key']+'；最终C='+str(chosen['C'])+'；各seed每层数量'+str(chosen['counts_by_seed'])+'。'+('本次包含原PCA序号的跳选。' if not all(chosen['is_pca_prefix_by_seed']) else '本次恰好保留原PCA前缀。')+'具体坐标见本轮JSON。',kind='method'))
+    if 'pool_coverage' in chosen['variant']:
+        before=chosen['variant']['pool_coverage'];after=chosen['variant']['selected_coverage']
+        leaves.append(node(f"解释率边界：筛前池覆盖{min(before):.2%}～{max(before):.2%}，筛后所选原PCA坐标保留{min(after):.2%}～{max(after):.2%}；两者分母均为原残差总能量，筛后不保证仍达到池目标。",kind='evidence'))
+    def metric(label,b,m):
+        return (f"结果（{label}）：AUROC {b['auroc']:.6f} → {m['auroc']:.6f}；低误报pAUC {b['pauc']:.6f} → {m['pauc']:.6f}\n"
+                f"检出率 {b['tpr']:.2%} → {m['tpr']:.2%}；误报率 {b['fpr']:.2%} → {m['fpr']:.2%}（基线{b['fp']}条；组合{m['fp']}条）")
+    for role,label in [('C','历史C1000'),('RV','历史RV1082'),('OR_test','历史OR-Bench1500')]:
+        data=result['cohorts'][role];m=data[ident][0];intervals=[]
+        for control in controls:
+            text=metric(label+'；'+labels[control]+' → 本组合',data[control][0],m);texts.append(text);leaves.append(node(text,kind='result'));c=data['comparisons'][ident][control];lo,hi=c['ci991667'];intervals.append((lo,hi))
+            leaves.append(node(f"证据（组合−{labels[control]}）：AUROC差{c['delta_auroc']:+.6f}；本批六比较99.166667%区间[{lo:+.6f},{hi:+.6f}]。",kind='evidence'))
+        decision='同时优于两单组件获本批区间支持' if all(lo>0 for lo,hi in intervals) else ('至少比一个单组件更差获本批区间支持' if any(hi<0 for lo,hi in intervals) else '尚未确认同时优于两单组件');decisions.append(label+'：'+decision)
+        leaves.append(node(metric(label+'；同数量原PCA前缀 → 本组合，描述性、同C',data[ident+'-prefix'][0],m),kind='result'))
+    for control in controls:
+        b=result['cohorts']['OR_test'][control][0]['source_calibrated'];m=result['cohorts']['OR_test'][ident][0]['source_calibrated']
+        leaves.append(node(f"结果（OR来源400正常重新校准；{labels[control]} → 组合）：检出率 {b['tpr']:.2%} → {m['tpr']:.2%}；误报率 {b['fpr']:.2%} → {m['fpr']:.2%}（基线{b['fp']}/1000；组合{m['fp']}/1000）",kind='result'))
+    conclusion='；'.join(decisions)+'。全部为历史诊断，不代表未使用来源泛化；点值改善不等于组合增益确认。'
+    leaves.append(node('结论：'+conclusion,kind='evidence'))
+    leaves.append(node('边界：原14F/层/末位/最终L2头/标签池固定；PCA和排序/筛选只fit训练侧，CV每折重做排序和标准化。588 LR＋18稀疏选择器＋12 GPU门，额外选择预算不同；原坐标映射后重训，旧成绩不改。',kind='evidence'))
     return leaves,'\n'.join(texts),conclusion
 
 
@@ -371,6 +403,14 @@ def pca_automatic_children():
             source='docs/ei2-pca-joint-design-2026-11-05.md'
             leaves.append(node('结论：'+conclusion,kind='evidence'))
             leaves.append(node('设计来源：EN排序与CV选数量优先；解释率池＋L1次优先；EN重排＋门控探索。ARD外层未收敛，首轮不加入。L1/EN本来就会产生数量，此处增加明确组合结构，避免重复立项。',kind='evidence'))
+            joint=pca_joint_result(ident)
+            if joint:
+                leaves=[leaf for leaf in leaves if leaf.get('kind')!='result' and not leaf['label'].startswith('结论：')]+joint[0]
+                metric_text=joint[1];conclusion=joint[2];status='历史匹配验证完成';batch='EI-PJ1，历史组合诊断；588 LR、18稀疏选择器、12 GPU门；两单组件和同数量前缀分别比较，未使用新来源仍待确认。';source='results/ei2-pca-joint/report-2026-11-05.md'
+            elif (REPO/'docs/ei2-pca-joint-progress.json').exists():
+                progress=json.loads((REPO/'docs/ei2-pca-joint-progress.json').read_text(encoding='utf-8'))
+                if progress.get('status') in ['running','verifying']:
+                    leaves=[leaf for leaf in leaves if leaf.get('kind')!='result']+[node('结果：待验证；EI-PJ1已冻结并启动，正在训练或独立核验；暂无通过核验的新成绩。',kind='result')];batch='EI-PJ1执行中；通过独立核验后才回填新分数，旧成绩不改。'
         if gid=='EI-2-3-2' and (REPO/'docs/ei2-pca-uncapped-protocol-2026-11-05.md').exists():
             progress_path=REPO/'docs/ei2-pca-uncapped-preflight-2026-11-05.json'
             progress=json.loads(progress_path.read_text(encoding='utf-8')) if progress_path.exists() else {}
