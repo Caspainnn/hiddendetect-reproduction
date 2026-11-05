@@ -15,25 +15,33 @@ def main():
  data=load_data(check_hashes=True);rows=data['rows'];roles=data['roles'];train=roles['train'];dev=roles['dev'];y=np.array([r['label'] for r in rows])
  sources=list((ROOT/'configs/ei2-pca-auto').glob('*.py'))+[ROOT/'docs/ei2-pca-auto-protocol-2026-11-05.md',ROOT/'configs/ei2-vocabulary/core.py',ROOT/'configs/ei2-vocabulary/verify.py']
  for p in sources:assert p.read_bytes()==subprocess.check_output(['git','-C',str(ROOT),'show','HEAD:'+p.relative_to(ROOT).as_posix()])
- write(OUT/'source-lock.json',{'run_id':'EI-PA1','numbering_version':3,'source_commit':subprocess.check_output(['git','-C',str(ROOT),'rev-parse','HEAD'],text=True).strip(),'sources':{p.relative_to(ROOT).as_posix():digest(p) for p in sources},'parent_verification':digest(BASE/'results/ei2-pca-extended/verification.json'),'parent_basis':digest(BASE/'cache/ei2-pca-extended/transforms.joblib'),'history_only':True})
+ write(OUT/'source-lock.json',{'run_id':'EI-PA1','numbering_version':3,'source_commit':subprocess.check_output(['git','-C',str(ROOT),'rev-parse','HEAD'],text=True).strip(),'sources':{p.relative_to(ROOT).as_posix():digest(p) for p in sources},'parent_verification':digest(BASE/'results/ei2-pca-extended/verification.json'),'parent_basis':digest(BASE/'cache/ei2-pca-extended/transforms.joblib'),'history_only':True,'cv_resume':digest(CACHE/'cv-resume.json') if (CACHE/'cv-resume.json').exists() else None,'cv_resume_provenance':digest(CACHE/'cv-resume-provenance.json') if (CACHE/'cv-resume-provenance.json').exists() else None})
  write(OUT/'manifest.json',{'run_id':'EI-PA1','samples':rows,'history_only':True,'numbering_version':3})
- cvscores=np.zeros((3,32,3));cvrecords=[];folds=[]
- for fold,(ft,fv) in enumerate(StratifiedKFold(3,shuffle=True,random_state=SEEDS[0]).split(train,y[train])):
-  ti,vi=train[ft],train[fv];basis=[]
-  for l in range(14):
-   u,_=unit(data['z'][ti,l]);res=u-data['f'][ti,l,None].astype(np.float32)*data['rhat'];basis.append(PCA(n_components=32,svd_solver='randomized',iterated_power=4,random_state=SEEDS[0]).fit(res))
-  path=CACHE/f'fold-{fold}-basis.joblib';joblib.dump(basis,path)
-  folds.append({'fold':fold,'train_indices':ti.tolist(),'validation_indices':vi.tolist(),'basis_sha256':digest(path)})
-  ta,va=project(data,ti,basis),project(data,vi,basis)
-  for k in range(1,33):
-   x,mean,scale=pack(data['f'][ti],ta,[k]*14);d,_,_=pack(data['f'][vi],va,[k]*14,mean,scale)
-   for j,c in enumerate(GRID):
-    started=time.monotonic();head=LogisticRegression(C=c,solver='liblinear',max_iter=5000,random_state=SEEDS[0]).fit(x,y[ti]);assert head.n_iter_.max()<5000
-    auc=float(roc_auc_score(y[vi],head.decision_function(d)));cvscores[fold,k-1,j]=auc
-    path=CACHE/'cv'/f'f{fold}-k{k}-c{j}.joblib';path.parent.mkdir(exist_ok=True);joblib.dump({'head':head,'mean':mean,'scale':scale,'counts':[k]*14},path)
-    cvrecords.append({'fold':fold,'k':k,'C':c,'seed':SEEDS[0],'auroc':auc,'n_iter':head.n_iter_.tolist(),'path':path.relative_to(ROOT).as_posix(),'sha256':digest(path),'seconds':time.monotonic()-started})
-  print('CV_FOLD_COMPLETE',fold,flush=True)
- selection=choose_cv(cvscores);write(OUT/'cv-selection.json',{'selection':selection,'folds':folds,'scores':cvscores.tolist(),'records':cvrecords});print('CV_SELECTED',selection,flush=True)
+ resume=CACHE/'cv-resume.json'
+ if resume.exists():
+  frozen=json.loads(resume.read_text());provenance=json.loads((CACHE/'cv-resume-provenance.json').read_text());assert digest(resume)==provenance['cv_selection_sha256']
+  cvrecords=frozen['records'];folds=frozen['folds'];cvscores=np.asarray(frozen['scores']);selection=choose_cv(cvscores);assert selection==frozen['selection'] and len(cvrecords)==288
+  for record in cvrecords:assert digest(ROOT/record['path'])==record['sha256']
+  for fold in folds:assert digest(CACHE/f"fold-{fold['fold']}-basis.joblib")==fold['basis_sha256']
+  write(OUT/'cv-selection.json',frozen);print('CV_REUSED_VERIFIED_FROZEN_TRAINING',selection,flush=True)
+ else:
+  cvscores=np.zeros((3,32,3));cvrecords=[];folds=[]
+  for fold,(ft,fv) in enumerate(StratifiedKFold(3,shuffle=True,random_state=SEEDS[0]).split(train,y[train])):
+   ti,vi=train[ft],train[fv];basis=[]
+   for l in range(14):
+    u,_=unit(data['z'][ti,l]);res=u-data['f'][ti,l,None].astype(np.float32)*data['rhat'];basis.append(PCA(n_components=32,svd_solver='randomized',iterated_power=4,random_state=SEEDS[0]).fit(res))
+   path=CACHE/f'fold-{fold}-basis.joblib';joblib.dump(basis,path)
+   folds.append({'fold':fold,'train_indices':ti.tolist(),'validation_indices':vi.tolist(),'basis_sha256':digest(path)})
+   ta,va=project(data,ti,basis),project(data,vi,basis)
+   for k in range(1,33):
+    x,mean,scale=pack(data['f'][ti],ta,[k]*14);d,_,_=pack(data['f'][vi],va,[k]*14,mean,scale)
+    for j,c in enumerate(GRID):
+     started=time.monotonic();head=LogisticRegression(C=c,solver='liblinear',max_iter=5000,random_state=SEEDS[0]).fit(x,y[ti]);assert head.n_iter_.max()<5000
+     auc=float(roc_auc_score(y[vi],head.decision_function(d)));cvscores[fold,k-1,j]=auc
+     path=CACHE/'cv'/f'f{fold}-k{k}-c{j}.joblib';path.parent.mkdir(exist_ok=True);joblib.dump({'head':head,'mean':mean,'scale':scale,'counts':[k]*14},path)
+     cvrecords.append({'fold':fold,'k':k,'C':c,'seed':SEEDS[0],'auroc':auc,'n_iter':head.n_iter_.tolist(),'path':path.relative_to(ROOT).as_posix(),'sha256':digest(path),'seconds':time.monotonic()-started})
+   print('CV_FOLD_COMPLETE',fold,flush=True)
+  selection=choose_cv(cvscores);write(OUT/'cv-selection.json',{'selection':selection,'folds':folds,'scores':cvscores.tolist(),'records':cvrecords});print('CV_SELECTED',selection,flush=True)
  a={role:project(data,roles[role]) for role in ['train','dev']}
  variants={CV:[{'key':'cv-one-se','counts':[[selection['k']]*14]*3,'selection':selection}],VAR:[],GATE:[],'gate-no-penalty':[]}
  for tau in TAUS:

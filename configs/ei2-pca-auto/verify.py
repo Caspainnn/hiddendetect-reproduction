@@ -19,6 +19,10 @@ def main():
  assert done['lr_fits']==360 and done['gate_fits']==12
  assert digest(OUT/'evaluation.json')==done['evaluation_sha256'] and digest(OUT/'scores.npz')==done['scores_sha256'] and digest(OUT/'source-lock.json')==pre['source_lock']
  for name,sha in source['sources'].items():assert digest(ROOT/name)==sha
+ if source.get('cv_resume'):
+  assert digest(CACHE/'cv-resume.json')==source['cv_resume'] and digest(CACHE/'cv-resume-provenance.json')==source['cv_resume_provenance']
+  provenance=json.loads((CACHE/'cv-resume-provenance.json').read_text());assert provenance['cv_selection_sha256']==digest(CACHE/'cv-resume.json')
+  assert provenance['old_source_lock_sha256']==digest(OUT/'attempt-1/source-lock.json')
  assert digest(BASE/'results/ei2-pca-extended/verification.json')==source['parent_verification']
  assert digest(BASE/'cache/ei2-pca-extended/transforms.joblib')==source['parent_basis']==pre['parent_basis']
  assert digest(OUT/'cv-selection.json')==pre['cv_selection'] and digest(OUT/'gate-training.json')==pre['gate_training']

@@ -38,6 +38,13 @@ def choose_cv(scores):
 def prefix_gates(a):
  a=np.asarray(a,np.float64);return np.cumprod(1/(1+np.exp(-np.clip(a,-60,60))),axis=1)
 
+def torch_prefix_gates(a):
+ import torch
+ probability=torch.sigmoid(a);previous=torch.ones_like(probability[:,0]);parts=[]
+ for j in range(32):
+  previous=previous*probability[:,j];parts.append(previous)
+ return torch.stack(parts,dim=1)
+
 def load_data(check_hashes=False):
  parent=json.loads((PARENT/'results/ei2-vocabulary/verification.json').read_text());base=json.loads((BASE/'results/ei2-pca-extended/verification.json').read_text());assert parent['passed'] and base['passed']
  assert digest(BASE/'results/ei2-pca-extended/evaluation.json')==base['evaluation_sha256']
@@ -65,12 +72,12 @@ def fit_gate(x,y,lam,seed):
  w=torch.nn.Parameter(torch.randn(462,device=device)*.01);b=torch.nn.Parameter(torch.zeros((),device=device));a=torch.nn.Parameter(torch.full((14,32),float(np.log(99)),device=device)+torch.randn(14,32,device=device)*.01)
  optimizer=torch.optim.Adam([w,b,a],lr=.03);losses=[];started=time.monotonic()
  for step in range(STEPS):
-  optimizer.zero_grad();g=torch.cumprod(torch.sigmoid(a),dim=1)
+  optimizer.zero_grad();g=torch_prefix_gates(a)
   score=tx[:,:14]@w[:14]+(tx[:,14:].reshape(-1,14,32)*g).flatten(1)@w[14:]+b
   loss=torch.nn.functional.binary_cross_entropy_with_logits(score,ty)+w.square().sum()/(2*10*len(y))+lam*g.mean()
   assert torch.isfinite(loss);loss.backward();optimizer.step()
   if step in [0,STEPS-1]:losses.append(float(loss.detach().cpu()))
- with torch.no_grad():g=torch.cumprod(torch.sigmoid(a),dim=1).cpu().numpy()
+ with torch.no_grad():g=torch_prefix_gates(a).cpu().numpy()
  counts=(g>=.5).sum(1).astype(int).tolist()
  result={'seed':seed,'lambda':lam,'device':device,'steps':STEPS,'seconds':time.monotonic()-started,'loss_start_end':losses,'a':a.detach().cpu().numpy(),'soft_gates':g,'counts':counts,'weight':w.detach().cpu().numpy(),'bias':float(b.detach().cpu()),'threshold':.5,'minimum_threshold_margin':float(np.min(np.abs(g-.5)))}
  del tx,ty,w,b,a,optimizer
