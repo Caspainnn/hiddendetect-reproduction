@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "evaluation_sha256": "2a31cb393c62f88e8c3ea6bcc3d9eb28428a6c042b284e18574be8be9d29b449",
+  "scores_sha256": "6bc1b7baabfeaba6c16c2c37587d0608f57a3caedb79711dfc39f83841590225",
+  "source_lock_sha256": "2eadfacd4e26b798d5dd61ff272440040c644213fac276035ced17e3e136f4b7",
+  "verify_code_sha256": "759a244ed719516620166dbb1cb3d61ad9e51ab77412e6e37f3194e45e3ee6d4",
+  "selector_states_verified": 22,
+  "all_final_trial_heads_reloaded": 90,
+  "selected_final_heads_reloaded": 18,
+  "primary_intervals_recomputed": 18,
+  "conditional_stability_masks_verified": 15,
+  "maximum_kkt": 9.94559151512944e-08,
+  "maximum_map_gradient": 1.6741351360760603e-10,
+  "maximum_covariance_difference": 2.3575807972520124e-11,
+  "ard_outer_iteration_limit": [
+    "ard-posterior",
+    "EI-2-3-3-3-bootstrap-0",
+    "EI-2-3-3-3-bootstrap-1",
+    "EI-2-3-3-3-bootstrap-2",
+    "EI-2-3-3-3-bootstrap-3",
+    "EI-2-3-3-3-bootstrap-4"
+  ],
+  "prediction_max_difference": 0.0,
+  "reference_reproduction_max_difference": 0.0,
+  "seconds": 69.763636816293
+}
