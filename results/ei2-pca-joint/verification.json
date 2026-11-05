@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "evaluation_sha256": "72db26c76714f910b4eb5b3c79b9579c36b21fd1178c4b371910e36c5ac87226",
+  "scores_sha256": "f209b037f7dfd4000278666a5850110d9264936a115a6e6bf7750fc604a6024f",
+  "source_lock_sha256": "c9126c3765867fdb0bd5e67569ba38920ef31462948c7256238f46a9d25039d3",
+  "verify_code_sha256": "d9d8586b542b93de1f320259ad9d3c62d56e3d0c94fccfeea159eb97c4a1dba7",
+  "gate_numerics_audit_sha256": "1d28432c834aa501d9029709860eb5d94288dc65748c26a8d0e239f64f01d0ec",
+  "cv_heads_reloaded": 396,
+  "final_trial_heads_reloaded": 192,
+  "selector_states_verified": 18,
+  "gate_states_verified": 12,
+  "primary_intervals_recomputed": 18,
+  "maximum_kkt": 9.977466516396629e-08,
+  "prediction_max_difference": 0.0,
+  "reference_reproduction_max_difference": 0.0,
+  "ideal_gate_boundary_disagreements": 0,
+  "seconds": 362.9925069697201
+}

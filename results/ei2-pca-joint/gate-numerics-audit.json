@@ -1,0 +1,138 @@
+{
+  "passed": true,
+  "evaluation_sha256": "72db26c76714f910b4eb5b3c79b9579c36b21fd1178c4b371910e36c5ac87226",
+  "records": [
+    {
+      "path": "cache/ei2-pca-joint/gate-0.0-20261104.joblib",
+      "state_sha256": "4f1078a8766b6c22f9f064e57e773cdcf1c2e8240f1cadc935420ea1d80cb51f",
+      "gpu_replay_bitwise_identical": true,
+      "max_rounded_product_error": 3.973022064562848e-06,
+      "max_ideal_product_error": 6.314231404624948e-06,
+      "minimum_threshold_margin": 0.45299291610717773,
+      "rounded_hard_mask_mismatches": 0,
+      "ideal_hard_mask_mismatches": 0,
+      "ambiguous_ideal_coordinates": []
+    },
+    {
+      "path": "cache/ei2-pca-joint/gate-0.0-20261105.joblib",
+      "state_sha256": "999ebf3af1aa2f723f9b0f58d772d7000f66e21e574b8ed6c6ece207d2094475",
+      "gpu_replay_bitwise_identical": true,
+      "max_rounded_product_error": 4.023160469657228e-06,
+      "max_ideal_product_error": 7.400012881464413e-06,
+      "minimum_threshold_margin": 0.454004168510437,
+      "rounded_hard_mask_mismatches": 0,
+      "ideal_hard_mask_mismatches": 0,
+      "ambiguous_ideal_coordinates": []
+    },
+    {
+      "path": "cache/ei2-pca-joint/gate-0.0-20261106.joblib",
+      "state_sha256": "0a26ee4a57f596bef3d625ed4aa306dc966dfdb582af1534d09b0b148e81ab67",
+      "gpu_replay_bitwise_identical": true,
+      "max_rounded_product_error": 4.035078773778622e-06,
+      "max_ideal_product_error": 6.85278592416072e-06,
+      "minimum_threshold_margin": 0.4536552429199219,
+      "rounded_hard_mask_mismatches": 0,
+      "ideal_hard_mask_mismatches": 0,
+      "ambiguous_ideal_coordinates": []
+    },
+    {
+      "path": "cache/ei2-pca-joint/gate-0.01-20261104.joblib",
+      "state_sha256": "96dfaca2f47949671659ad63ece6e181af969dcc8874859c3e7eccee89ea0656",
+      "gpu_replay_bitwise_identical": true,
+      "max_rounded_product_error": 1.220322638606497e-06,
+      "max_ideal_product_error": 2.7048960440367864e-06,
+      "minimum_threshold_margin": 0.15801465511322021,
+      "rounded_hard_mask_mismatches": 0,
+      "ideal_hard_mask_mismatches": 0,
+      "ambiguous_ideal_coordinates": []
+    },
+    {
+      "path": "cache/ei2-pca-joint/gate-0.01-20261105.joblib",
+      "state_sha256": "7ac0529029a9dba9f07572df857118fcc9c275ed2c3b00a3f4c8de9b906ff1d7",
+      "gpu_replay_bitwise_identical": true,
+      "max_rounded_product_error": 1.2161778896180309e-06,
+      "max_ideal_product_error": 2.7643203495131274e-06,
+      "minimum_threshold_margin": 0.019916653633117676,
+      "rounded_hard_mask_mismatches": 0,
+      "ideal_hard_mask_mismatches": 0,
+      "ambiguous_ideal_coordinates": []
+    },
+    {
+      "path": "cache/ei2-pca-joint/gate-0.01-20261106.joblib",
+      "state_sha256": "368ab97a25054c38fa2f4e516e923e1abd9d32f9cde30598b918dfeb7f0a6793",
+      "gpu_replay_bitwise_identical": true,
+      "max_rounded_product_error": 1.24062826423188e-06,
+      "max_ideal_product_error": 3.1236477153750997e-06,
+      "minimum_threshold_margin": 0.1264151930809021,
+      "rounded_hard_mask_mismatches": 0,
+      "ideal_hard_mask_mismatches": 0,
+      "ambiguous_ideal_coordinates": []
+    },
+    {
+      "path": "cache/ei2-pca-joint/gate-0.1-20261104.joblib",
+      "state_sha256": "f10d81229eeb198e3e5bec3872a0aae341b0fee5ebeec6fb9b8af203f19a87fa",
+      "gpu_replay_bitwise_identical": true,
+      "max_rounded_product_error": 6.853461402833716e-07,
+      "max_ideal_product_error": 1.4431442201257028e-06,
+      "minimum_threshold_margin": 0.008156538009643555,
+      "rounded_hard_mask_mismatches": 0,
+      "ideal_hard_mask_mismatches": 0,
+      "ambiguous_ideal_coordinates": []
+    },
+    {
+      "path": "cache/ei2-pca-joint/gate-0.1-20261105.joblib",
+      "state_sha256": "8c5206665fe8bdf0aeef9dc50aec1b625bbac62dcbdb1827dcf5fc32f47d6c43",
+      "gpu_replay_bitwise_identical": true,
+      "max_rounded_product_error": 5.939763700890666e-07,
+      "max_ideal_product_error": 1.447500104334587e-06,
+      "minimum_threshold_margin": 0.012517422437667847,
+      "rounded_hard_mask_mismatches": 0,
+      "ideal_hard_mask_mismatches": 0,
+      "ambiguous_ideal_coordinates": []
+    },
+    {
+      "path": "cache/ei2-pca-joint/gate-0.1-20261106.joblib",
+      "state_sha256": "5eff1346f54657fe9d228fc923b63558e9979d32db1f6f99b3a96792ba4937ae",
+      "gpu_replay_bitwise_identical": true,
+      "max_rounded_product_error": 5.098932114311339e-07,
+      "max_ideal_product_error": 1.3581185461797318e-06,
+      "minimum_threshold_margin": 0.027464359998703003,
+      "rounded_hard_mask_mismatches": 0,
+      "ideal_hard_mask_mismatches": 0,
+      "ambiguous_ideal_coordinates": []
+    },
+    {
+      "path": "cache/ei2-pca-joint/gate-1.0-20261104.joblib",
+      "state_sha256": "10069fabf793a6d89f4b0517384cd85636739fae8ad4eb708ac997f9aea2d367",
+      "gpu_replay_bitwise_identical": true,
+      "max_rounded_product_error": 3.072579293217359e-07,
+      "max_ideal_product_error": 5.832621348123013e-07,
+      "minimum_threshold_margin": 0.0035791397094726562,
+      "rounded_hard_mask_mismatches": 0,
+      "ideal_hard_mask_mismatches": 0,
+      "ambiguous_ideal_coordinates": []
+    },
+    {
+      "path": "cache/ei2-pca-joint/gate-1.0-20261105.joblib",
+      "state_sha256": "30919799aec2eef1f3b2a4fc6f391b07ff3d74c0ff3277e1eb9fe17b0e6d3b6c",
+      "gpu_replay_bitwise_identical": true,
+      "max_rounded_product_error": 2.478602803002161e-07,
+      "max_ideal_product_error": 7.27178797843564e-07,
+      "minimum_threshold_margin": 0.0027934908866882324,
+      "rounded_hard_mask_mismatches": 0,
+      "ideal_hard_mask_mismatches": 0,
+      "ambiguous_ideal_coordinates": []
+    },
+    {
+      "path": "cache/ei2-pca-joint/gate-1.0-20261106.joblib",
+      "state_sha256": "b81b807dec20827608ecd79f477213153782f1fd2d15d5a77398860db0630e53",
+      "gpu_replay_bitwise_identical": true,
+      "max_rounded_product_error": 2.5714499651829925e-07,
+      "max_ideal_product_error": 5.630250079491361e-07,
+      "minimum_threshold_margin": 0.0015111863613128662,
+      "rounded_hard_mask_mismatches": 0,
+      "ideal_hard_mask_mismatches": 0,
+      "ambiguous_ideal_coordinates": []
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source_lock": "c9126c3765867fdb0bd5e67569ba38920ef31462948c7256238f46a9d25039d3",
+  "cv_selection": "905dfc0b8598cbbef70501cbc1cf02d77c6ee85307e585efc1b341d4b8b8a9ba",
+  "selectors": "a87fabd68695de45a7c4da515a6af722403b915ebbf5b46ecdf338dc1d3f2ea1",
+  "gates": "ae63c20a0835eabf856f9e22f29a0489deae1ddc3ae8708b19e14ed0f727dc48",
+  "search": "91696f124379601ee7c996d2057348bc20cd43bb964d8f1262a82b37fad53724",
+  "models": {
+    "EI-2-3-4-1": "cabed2385ada77fa0fecde6cdb77f295332fc7986fe0b028a2f38abed13d97ab",
+    "EI-2-3-4-2": "748d3f1d38257bd750856fa961c85be6ee7859012f6f5afc492deb05d34fa8e3",
+    "EI-2-3-4-3": "915bcd90664fae6ad0fc51bed055f564ff247658c984522ea2a7f39e3ea581de",
+    "ranked-gate-zero": "bcd8ce7f9ec80d1ef4d9c1443dbf892dc2bd528c2e1ff0521ca02367787cd184",
+    "S-EN": "d8020e5db8dfc6f8ecfa9592b54776a276e18416d2553963d819825992516c23",
+    "S-L1": "4d46c5f10dcb0b2f92fd306db1799623ed20e7a0ea59977fd9f0637f796bbcce",
+    "EI-2-3-4-1-prefix": "e72b9a1f9b4f6ce8e5ab9c6ace0e5c0ba4daf47f5d3aaf8a7c969e2f5eb9cc71",
+    "EI-2-3-4-2-prefix": "c5362eccfc7bdd7a445cd09a3d3f01cc70a2625ec2705be43b1a6134fc60a26e",
+    "EI-2-3-4-3-prefix": "402a165bf2ac4cf45943a8971efc9077fdcceb9a95e95981426cea9143df3fe2",
+    "same-tau-pool": "fb17b6ee00d8a799133a28a3c021ae5227ebecdadc1ebc05585864314768be1a"
+  },
+  "before_evaluation_projection": true
+}

@@ -1,0 +1,8 @@
+{
+  "lr_fits": 588,
+  "selector_fits": 18,
+  "gate_fits": 12,
+  "evaluation_sha256": "72db26c76714f910b4eb5b3c79b9579c36b21fd1178c4b371910e36c5ac87226",
+  "scores_sha256": "f209b037f7dfd4000278666a5850110d9264936a115a6e6bf7750fc604a6024f",
+  "independent_confirmation": false
+}

@@ -1,0 +1,2166 @@
+{
+  "passed": true,
+  "threshold": 1e-08,
+  "records": [
+    {
+      "key": "fold-0-EN",
+      "state_sha256": "97af3b0e7f2e62f02db8502ceaf5f82b8e81f21009faac9ce977a09dba3ee689",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 1065,
+          "exact_zero_count": 805,
+          "exact_zero_fraction": 0.755868544600939,
+          "threshold_zero_count": 805,
+          "threshold_zero_fraction": 0.755868544600939
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 1065,
+          "exact_zero_count": 813,
+          "exact_zero_fraction": 0.7633802816901408,
+          "threshold_zero_count": 813,
+          "threshold_zero_fraction": 0.7633802816901408
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 1065,
+          "exact_zero_count": 821,
+          "exact_zero_fraction": 0.7708920187793428,
+          "threshold_zero_count": 821,
+          "threshold_zero_fraction": 0.7708920187793428
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 1065,
+          "exact_zero_count": 803,
+          "exact_zero_fraction": 0.7539906103286385,
+          "threshold_zero_count": 803,
+          "threshold_zero_fraction": 0.7539906103286385
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 1065,
+          "exact_zero_count": 811,
+          "exact_zero_fraction": 0.7615023474178404,
+          "threshold_zero_count": 811,
+          "threshold_zero_fraction": 0.7615023474178404
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 1065,
+          "exact_zero_count": 801,
+          "exact_zero_fraction": 0.752112676056338,
+          "threshold_zero_count": 801,
+          "threshold_zero_fraction": 0.752112676056338
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 1065,
+          "exact_zero_count": 808,
+          "exact_zero_fraction": 0.7586854460093897,
+          "threshold_zero_count": 808,
+          "threshold_zero_fraction": 0.7586854460093897
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 1065,
+          "exact_zero_count": 807,
+          "exact_zero_fraction": 0.7577464788732394,
+          "threshold_zero_count": 807,
+          "threshold_zero_fraction": 0.7577464788732394
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 1065,
+          "exact_zero_count": 803,
+          "exact_zero_fraction": 0.7539906103286385,
+          "threshold_zero_count": 803,
+          "threshold_zero_fraction": 0.7539906103286385
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 1065,
+          "exact_zero_count": 795,
+          "exact_zero_fraction": 0.7464788732394366,
+          "threshold_zero_count": 795,
+          "threshold_zero_fraction": 0.7464788732394366
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 1065,
+          "exact_zero_count": 801,
+          "exact_zero_fraction": 0.752112676056338,
+          "threshold_zero_count": 801,
+          "threshold_zero_fraction": 0.752112676056338
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 1065,
+          "exact_zero_count": 817,
+          "exact_zero_fraction": 0.7671361502347418,
+          "threshold_zero_count": 817,
+          "threshold_zero_fraction": 0.7671361502347418
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 1065,
+          "exact_zero_count": 816,
+          "exact_zero_fraction": 0.7661971830985915,
+          "threshold_zero_count": 816,
+          "threshold_zero_fraction": 0.7661971830985915
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 1065,
+          "exact_zero_count": 816,
+          "exact_zero_fraction": 0.7661971830985915,
+          "threshold_zero_count": 816,
+          "threshold_zero_fraction": 0.7661971830985915
+        }
+      ]
+    },
+    {
+      "key": "fold-1-EN",
+      "state_sha256": "d35ca554010915d97933edb0351ce7c5256663223f82fcf4eb0aec04df71661d",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 1066,
+          "exact_zero_count": 810,
+          "exact_zero_fraction": 0.7598499061913696,
+          "threshold_zero_count": 810,
+          "threshold_zero_fraction": 0.7598499061913696
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 1066,
+          "exact_zero_count": 809,
+          "exact_zero_fraction": 0.7589118198874296,
+          "threshold_zero_count": 809,
+          "threshold_zero_fraction": 0.7589118198874296
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 1066,
+          "exact_zero_count": 820,
+          "exact_zero_fraction": 0.7692307692307693,
+          "threshold_zero_count": 820,
+          "threshold_zero_fraction": 0.7692307692307693
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 1066,
+          "exact_zero_count": 826,
+          "exact_zero_fraction": 0.774859287054409,
+          "threshold_zero_count": 826,
+          "threshold_zero_fraction": 0.774859287054409
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 1066,
+          "exact_zero_count": 816,
+          "exact_zero_fraction": 0.7654784240150094,
+          "threshold_zero_count": 816,
+          "threshold_zero_fraction": 0.7654784240150094
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 1066,
+          "exact_zero_count": 825,
+          "exact_zero_fraction": 0.773921200750469,
+          "threshold_zero_count": 825,
+          "threshold_zero_fraction": 0.773921200750469
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 1066,
+          "exact_zero_count": 798,
+          "exact_zero_fraction": 0.7485928705440901,
+          "threshold_zero_count": 798,
+          "threshold_zero_fraction": 0.7485928705440901
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 1066,
+          "exact_zero_count": 823,
+          "exact_zero_fraction": 0.7720450281425891,
+          "threshold_zero_count": 823,
+          "threshold_zero_fraction": 0.7720450281425891
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 1066,
+          "exact_zero_count": 814,
+          "exact_zero_fraction": 0.7636022514071295,
+          "threshold_zero_count": 814,
+          "threshold_zero_fraction": 0.7636022514071295
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 1066,
+          "exact_zero_count": 813,
+          "exact_zero_fraction": 0.7626641651031895,
+          "threshold_zero_count": 813,
+          "threshold_zero_fraction": 0.7626641651031895
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 1066,
+          "exact_zero_count": 814,
+          "exact_zero_fraction": 0.7636022514071295,
+          "threshold_zero_count": 814,
+          "threshold_zero_fraction": 0.7636022514071295
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 1066,
+          "exact_zero_count": 824,
+          "exact_zero_fraction": 0.7729831144465291,
+          "threshold_zero_count": 824,
+          "threshold_zero_fraction": 0.7729831144465291
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 1066,
+          "exact_zero_count": 808,
+          "exact_zero_fraction": 0.7579737335834896,
+          "threshold_zero_count": 808,
+          "threshold_zero_fraction": 0.7579737335834896
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 1066,
+          "exact_zero_count": 824,
+          "exact_zero_fraction": 0.7729831144465291,
+          "threshold_zero_count": 824,
+          "threshold_zero_fraction": 0.7729831144465291
+        }
+      ]
+    },
+    {
+      "key": "fold-2-EN",
+      "state_sha256": "622026a646521224a4752cb6a2cb10e9626cf290e6f0ba550c7d86d1df759085",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 1066,
+          "exact_zero_count": 821,
+          "exact_zero_fraction": 0.7701688555347092,
+          "threshold_zero_count": 821,
+          "threshold_zero_fraction": 0.7701688555347092
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 1066,
+          "exact_zero_count": 836,
+          "exact_zero_fraction": 0.7842401500938087,
+          "threshold_zero_count": 836,
+          "threshold_zero_fraction": 0.7842401500938087
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 1066,
+          "exact_zero_count": 828,
+          "exact_zero_fraction": 0.776735459662289,
+          "threshold_zero_count": 828,
+          "threshold_zero_fraction": 0.776735459662289
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 1066,
+          "exact_zero_count": 814,
+          "exact_zero_fraction": 0.7636022514071295,
+          "threshold_zero_count": 814,
+          "threshold_zero_fraction": 0.7636022514071295
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 1066,
+          "exact_zero_count": 810,
+          "exact_zero_fraction": 0.7598499061913696,
+          "threshold_zero_count": 810,
+          "threshold_zero_fraction": 0.7598499061913696
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 1066,
+          "exact_zero_count": 818,
+          "exact_zero_fraction": 0.7673545966228893,
+          "threshold_zero_count": 818,
+          "threshold_zero_fraction": 0.7673545966228893
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 1066,
+          "exact_zero_count": 808,
+          "exact_zero_fraction": 0.7579737335834896,
+          "threshold_zero_count": 808,
+          "threshold_zero_fraction": 0.7579737335834896
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 1066,
+          "exact_zero_count": 825,
+          "exact_zero_fraction": 0.773921200750469,
+          "threshold_zero_count": 825,
+          "threshold_zero_fraction": 0.773921200750469
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 1066,
+          "exact_zero_count": 796,
+          "exact_zero_fraction": 0.7467166979362101,
+          "threshold_zero_count": 796,
+          "threshold_zero_fraction": 0.7467166979362101
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 1066,
+          "exact_zero_count": 799,
+          "exact_zero_fraction": 0.7495309568480301,
+          "threshold_zero_count": 799,
+          "threshold_zero_fraction": 0.7495309568480301
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 1066,
+          "exact_zero_count": 818,
+          "exact_zero_fraction": 0.7673545966228893,
+          "threshold_zero_count": 818,
+          "threshold_zero_fraction": 0.7673545966228893
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 1066,
+          "exact_zero_count": 818,
+          "exact_zero_fraction": 0.7673545966228893,
+          "threshold_zero_count": 818,
+          "threshold_zero_fraction": 0.7673545966228893
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 1066,
+          "exact_zero_count": 813,
+          "exact_zero_fraction": 0.7626641651031895,
+          "threshold_zero_count": 813,
+          "threshold_zero_fraction": 0.7626641651031895
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 1066,
+          "exact_zero_count": 812,
+          "exact_zero_fraction": 0.7617260787992496,
+          "threshold_zero_count": 812,
+          "threshold_zero_fraction": 0.7617260787992496
+        }
+      ]
+    },
+    {
+      "key": "S-EN-0.0001",
+      "state_sha256": "81183f5a8d723abcc544aa47bef34232c1c4fdbcc4d96d648db985ca4697a98c",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 1599,
+          "exact_zero_count": 1309,
+          "exact_zero_fraction": 0.8186366479049406,
+          "threshold_zero_count": 1309,
+          "threshold_zero_fraction": 0.8186366479049406
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 1599,
+          "exact_zero_count": 1320,
+          "exact_zero_fraction": 0.8255159474671669,
+          "threshold_zero_count": 1320,
+          "threshold_zero_fraction": 0.8255159474671669
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 1599,
+          "exact_zero_count": 1298,
+          "exact_zero_fraction": 0.8117573483427142,
+          "threshold_zero_count": 1298,
+          "threshold_zero_fraction": 0.8117573483427142
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 1599,
+          "exact_zero_count": 1304,
+          "exact_zero_fraction": 0.815509693558474,
+          "threshold_zero_count": 1304,
+          "threshold_zero_fraction": 0.815509693558474
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 1599,
+          "exact_zero_count": 1313,
+          "exact_zero_fraction": 0.8211382113821138,
+          "threshold_zero_count": 1313,
+          "threshold_zero_fraction": 0.8211382113821138
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 1599,
+          "exact_zero_count": 1316,
+          "exact_zero_fraction": 0.8230143839899937,
+          "threshold_zero_count": 1316,
+          "threshold_zero_fraction": 0.8230143839899937
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 1599,
+          "exact_zero_count": 1297,
+          "exact_zero_fraction": 0.8111319574734209,
+          "threshold_zero_count": 1297,
+          "threshold_zero_fraction": 0.8111319574734209
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 1599,
+          "exact_zero_count": 1322,
+          "exact_zero_fraction": 0.8267667292057536,
+          "threshold_zero_count": 1322,
+          "threshold_zero_fraction": 0.8267667292057536
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 1599,
+          "exact_zero_count": 1318,
+          "exact_zero_fraction": 0.8242651657285803,
+          "threshold_zero_count": 1318,
+          "threshold_zero_fraction": 0.8242651657285803
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 1599,
+          "exact_zero_count": 1308,
+          "exact_zero_fraction": 0.8180112570356473,
+          "threshold_zero_count": 1308,
+          "threshold_zero_fraction": 0.8180112570356473
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 1599,
+          "exact_zero_count": 1316,
+          "exact_zero_fraction": 0.8230143839899937,
+          "threshold_zero_count": 1316,
+          "threshold_zero_fraction": 0.8230143839899937
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 1599,
+          "exact_zero_count": 1317,
+          "exact_zero_fraction": 0.8236397748592871,
+          "threshold_zero_count": 1317,
+          "threshold_zero_fraction": 0.8236397748592871
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 1599,
+          "exact_zero_count": 1316,
+          "exact_zero_fraction": 0.8230143839899937,
+          "threshold_zero_count": 1316,
+          "threshold_zero_fraction": 0.8230143839899937
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 1599,
+          "exact_zero_count": 1304,
+          "exact_zero_fraction": 0.815509693558474,
+          "threshold_zero_count": 1304,
+          "threshold_zero_fraction": 0.815509693558474
+        }
+      ]
+    },
+    {
+      "key": "S-EN-0.001",
+      "state_sha256": "0a2f88c7292a3524be25d4308e6b5510d9b21c3d40c8882dafaed5724d82282d",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 1599,
+          "exact_zero_count": 1460,
+          "exact_zero_fraction": 0.9130706691682301,
+          "threshold_zero_count": 1460,
+          "threshold_zero_fraction": 0.9130706691682301
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 1599,
+          "exact_zero_count": 1469,
+          "exact_zero_fraction": 0.9186991869918699,
+          "threshold_zero_count": 1469,
+          "threshold_zero_fraction": 0.9186991869918699
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 1599,
+          "exact_zero_count": 1461,
+          "exact_zero_fraction": 0.9136960600375235,
+          "threshold_zero_count": 1461,
+          "threshold_zero_fraction": 0.9136960600375235
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 1599,
+          "exact_zero_count": 1465,
+          "exact_zero_fraction": 0.9161976235146967,
+          "threshold_zero_count": 1465,
+          "threshold_zero_fraction": 0.9161976235146967
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 1599,
+          "exact_zero_count": 1478,
+          "exact_zero_fraction": 0.9243277048155097,
+          "threshold_zero_count": 1478,
+          "threshold_zero_fraction": 0.9243277048155097
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 1599,
+          "exact_zero_count": 1459,
+          "exact_zero_fraction": 0.9124452782989368,
+          "threshold_zero_count": 1459,
+          "threshold_zero_fraction": 0.9124452782989368
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 1599,
+          "exact_zero_count": 1470,
+          "exact_zero_fraction": 0.9193245778611632,
+          "threshold_zero_count": 1470,
+          "threshold_zero_fraction": 0.9193245778611632
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 1599,
+          "exact_zero_count": 1463,
+          "exact_zero_fraction": 0.9149468417761101,
+          "threshold_zero_count": 1463,
+          "threshold_zero_fraction": 0.9149468417761101
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 1599,
+          "exact_zero_count": 1475,
+          "exact_zero_fraction": 0.9224515322076298,
+          "threshold_zero_count": 1475,
+          "threshold_zero_fraction": 0.9224515322076298
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 1599,
+          "exact_zero_count": 1471,
+          "exact_zero_fraction": 0.9199499687304565,
+          "threshold_zero_count": 1471,
+          "threshold_zero_fraction": 0.9199499687304565
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 1599,
+          "exact_zero_count": 1460,
+          "exact_zero_fraction": 0.9130706691682301,
+          "threshold_zero_count": 1460,
+          "threshold_zero_fraction": 0.9130706691682301
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 1599,
+          "exact_zero_count": 1483,
+          "exact_zero_fraction": 0.9274546591619762,
+          "threshold_zero_count": 1483,
+          "threshold_zero_fraction": 0.9274546591619762
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 1599,
+          "exact_zero_count": 1471,
+          "exact_zero_fraction": 0.9199499687304565,
+          "threshold_zero_count": 1471,
+          "threshold_zero_fraction": 0.9199499687304565
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 1599,
+          "exact_zero_count": 1481,
+          "exact_zero_fraction": 0.9262038774233896,
+          "threshold_zero_count": 1481,
+          "threshold_zero_fraction": 0.9262038774233896
+        }
+      ]
+    },
+    {
+      "key": "S-EN-0.01",
+      "state_sha256": "74ea96e17cbb22edbb8ed9c606f4db7cb126859791506f1567b770e6c0c27c16",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 1599,
+          "exact_zero_count": 1593,
+          "exact_zero_fraction": 0.9962476547842402,
+          "threshold_zero_count": 1593,
+          "threshold_zero_fraction": 0.9962476547842402
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 1599,
+          "exact_zero_count": 1593,
+          "exact_zero_fraction": 0.9962476547842402,
+          "threshold_zero_count": 1593,
+          "threshold_zero_fraction": 0.9962476547842402
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 1599,
+          "exact_zero_count": 1595,
+          "exact_zero_fraction": 0.9974984365228268,
+          "threshold_zero_count": 1595,
+          "threshold_zero_fraction": 0.9974984365228268
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 1599,
+          "exact_zero_count": 1595,
+          "exact_zero_fraction": 0.9974984365228268,
+          "threshold_zero_count": 1595,
+          "threshold_zero_fraction": 0.9974984365228268
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 1599,
+          "exact_zero_count": 1593,
+          "exact_zero_fraction": 0.9962476547842402,
+          "threshold_zero_count": 1593,
+          "threshold_zero_fraction": 0.9962476547842402
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 1599,
+          "exact_zero_count": 1593,
+          "exact_zero_fraction": 0.9962476547842402,
+          "threshold_zero_count": 1593,
+          "threshold_zero_fraction": 0.9962476547842402
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 1599,
+          "exact_zero_count": 1594,
+          "exact_zero_fraction": 0.9968730456535334,
+          "threshold_zero_count": 1594,
+          "threshold_zero_fraction": 0.9968730456535334
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 1599,
+          "exact_zero_count": 1594,
+          "exact_zero_fraction": 0.9968730456535334,
+          "threshold_zero_count": 1594,
+          "threshold_zero_fraction": 0.9968730456535334
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 1599,
+          "exact_zero_count": 1594,
+          "exact_zero_fraction": 0.9968730456535334,
+          "threshold_zero_count": 1594,
+          "threshold_zero_fraction": 0.9968730456535334
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 1599,
+          "exact_zero_count": 1595,
+          "exact_zero_fraction": 0.9974984365228268,
+          "threshold_zero_count": 1595,
+          "threshold_zero_fraction": 0.9974984365228268
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 1599,
+          "exact_zero_count": 1596,
+          "exact_zero_fraction": 0.99812382739212,
+          "threshold_zero_count": 1596,
+          "threshold_zero_fraction": 0.99812382739212
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 1599,
+          "exact_zero_count": 1596,
+          "exact_zero_fraction": 0.99812382739212,
+          "threshold_zero_count": 1596,
+          "threshold_zero_fraction": 0.99812382739212
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 1599,
+          "exact_zero_count": 1598,
+          "exact_zero_fraction": 0.9993746091307066,
+          "threshold_zero_count": 1598,
+          "threshold_zero_fraction": 0.9993746091307066
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 1599,
+          "exact_zero_count": 1596,
+          "exact_zero_fraction": 0.99812382739212,
+          "threshold_zero_count": 1596,
+          "threshold_zero_fraction": 0.99812382739212
+        }
+      ]
+    },
+    {
+      "key": "S-L1-0.0001",
+      "state_sha256": "bec971c3e95f06932be7091e3ddaad143195c0e653166ce0b6a269d748c51a69",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 1599,
+          "exact_zero_count": 1453,
+          "exact_zero_fraction": 0.908692933083177,
+          "threshold_zero_count": 1453,
+          "threshold_zero_fraction": 0.908692933083177
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 1599,
+          "exact_zero_count": 1457,
+          "exact_zero_fraction": 0.9111944965603502,
+          "threshold_zero_count": 1457,
+          "threshold_zero_fraction": 0.9111944965603502
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 1599,
+          "exact_zero_count": 1442,
+          "exact_zero_fraction": 0.9018136335209506,
+          "threshold_zero_count": 1442,
+          "threshold_zero_fraction": 0.9018136335209506
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 1599,
+          "exact_zero_count": 1446,
+          "exact_zero_fraction": 0.9043151969981238,
+          "threshold_zero_count": 1446,
+          "threshold_zero_fraction": 0.9043151969981238
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 1599,
+          "exact_zero_count": 1457,
+          "exact_zero_fraction": 0.9111944965603502,
+          "threshold_zero_count": 1457,
+          "threshold_zero_fraction": 0.9111944965603502
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 1599,
+          "exact_zero_count": 1455,
+          "exact_zero_fraction": 0.9099437148217636,
+          "threshold_zero_count": 1455,
+          "threshold_zero_fraction": 0.9099437148217636
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 1599,
+          "exact_zero_count": 1455,
+          "exact_zero_fraction": 0.9099437148217636,
+          "threshold_zero_count": 1455,
+          "threshold_zero_fraction": 0.9099437148217636
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 1599,
+          "exact_zero_count": 1467,
+          "exact_zero_fraction": 0.9174484052532833,
+          "threshold_zero_count": 1467,
+          "threshold_zero_fraction": 0.9174484052532833
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 1599,
+          "exact_zero_count": 1458,
+          "exact_zero_fraction": 0.9118198874296435,
+          "threshold_zero_count": 1458,
+          "threshold_zero_fraction": 0.9118198874296435
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 1599,
+          "exact_zero_count": 1452,
+          "exact_zero_fraction": 0.9080675422138836,
+          "threshold_zero_count": 1452,
+          "threshold_zero_fraction": 0.9080675422138836
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 1599,
+          "exact_zero_count": 1453,
+          "exact_zero_fraction": 0.908692933083177,
+          "threshold_zero_count": 1453,
+          "threshold_zero_fraction": 0.908692933083177
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 1599,
+          "exact_zero_count": 1471,
+          "exact_zero_fraction": 0.9199499687304565,
+          "threshold_zero_count": 1471,
+          "threshold_zero_fraction": 0.9199499687304565
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 1599,
+          "exact_zero_count": 1458,
+          "exact_zero_fraction": 0.9118198874296435,
+          "threshold_zero_count": 1458,
+          "threshold_zero_fraction": 0.9118198874296435
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 1599,
+          "exact_zero_count": 1462,
+          "exact_zero_fraction": 0.9143214509068167,
+          "threshold_zero_count": 1462,
+          "threshold_zero_fraction": 0.9143214509068167
+        }
+      ]
+    },
+    {
+      "key": "S-L1-0.001",
+      "state_sha256": "91853f20320f40b47119767cdacdb04b7ed020b28d86a8c1c349a11f61e3d8cb",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 1599,
+          "exact_zero_count": 1548,
+          "exact_zero_fraction": 0.9681050656660413,
+          "threshold_zero_count": 1548,
+          "threshold_zero_fraction": 0.9681050656660413
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 1599,
+          "exact_zero_count": 1555,
+          "exact_zero_fraction": 0.9724828017510945,
+          "threshold_zero_count": 1555,
+          "threshold_zero_fraction": 0.9724828017510945
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 1599,
+          "exact_zero_count": 1545,
+          "exact_zero_fraction": 0.9662288930581614,
+          "threshold_zero_count": 1545,
+          "threshold_zero_fraction": 0.9662288930581614
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 1599,
+          "exact_zero_count": 1552,
+          "exact_zero_fraction": 0.9706066291432145,
+          "threshold_zero_count": 1552,
+          "threshold_zero_fraction": 0.9706066291432145
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 1599,
+          "exact_zero_count": 1547,
+          "exact_zero_fraction": 0.967479674796748,
+          "threshold_zero_count": 1547,
+          "threshold_zero_fraction": 0.967479674796748
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 1599,
+          "exact_zero_count": 1548,
+          "exact_zero_fraction": 0.9681050656660413,
+          "threshold_zero_count": 1548,
+          "threshold_zero_fraction": 0.9681050656660413
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 1599,
+          "exact_zero_count": 1550,
+          "exact_zero_fraction": 0.9693558474046279,
+          "threshold_zero_count": 1550,
+          "threshold_zero_fraction": 0.9693558474046279
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 1599,
+          "exact_zero_count": 1553,
+          "exact_zero_fraction": 0.9712320200125079,
+          "threshold_zero_count": 1553,
+          "threshold_zero_fraction": 0.9712320200125079
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 1599,
+          "exact_zero_count": 1549,
+          "exact_zero_fraction": 0.9687304565353346,
+          "threshold_zero_count": 1549,
+          "threshold_zero_fraction": 0.9687304565353346
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 1599,
+          "exact_zero_count": 1556,
+          "exact_zero_fraction": 0.9731081926203877,
+          "threshold_zero_count": 1556,
+          "threshold_zero_fraction": 0.9731081926203877
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 1599,
+          "exact_zero_count": 1552,
+          "exact_zero_fraction": 0.9706066291432145,
+          "threshold_zero_count": 1552,
+          "threshold_zero_fraction": 0.9706066291432145
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 1599,
+          "exact_zero_count": 1559,
+          "exact_zero_fraction": 0.9749843652282677,
+          "threshold_zero_count": 1559,
+          "threshold_zero_fraction": 0.9749843652282677
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 1599,
+          "exact_zero_count": 1562,
+          "exact_zero_fraction": 0.9768605378361476,
+          "threshold_zero_count": 1562,
+          "threshold_zero_fraction": 0.9768605378361476
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 1599,
+          "exact_zero_count": 1554,
+          "exact_zero_fraction": 0.9718574108818011,
+          "threshold_zero_count": 1554,
+          "threshold_zero_fraction": 0.9718574108818011
+        }
+      ]
+    },
+    {
+      "key": "S-L1-0.01",
+      "state_sha256": "12a8ebaaea9e37d50e2238779d7aeef439c295aa29cda48153cd201c49310e79",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 1599,
+          "exact_zero_count": 1599,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 1599,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 1599,
+          "exact_zero_count": 1599,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 1599,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 1599,
+          "exact_zero_count": 1598,
+          "exact_zero_fraction": 0.9993746091307066,
+          "threshold_zero_count": 1598,
+          "threshold_zero_fraction": 0.9993746091307066
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 1599,
+          "exact_zero_count": 1599,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 1599,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 1599,
+          "exact_zero_count": 1599,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 1599,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 1599,
+          "exact_zero_count": 1599,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 1599,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 1599,
+          "exact_zero_count": 1599,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 1599,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 1599,
+          "exact_zero_count": 1599,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 1599,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 1599,
+          "exact_zero_count": 1599,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 1599,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 1599,
+          "exact_zero_count": 1599,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 1599,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 1599,
+          "exact_zero_count": 1599,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 1599,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 1599,
+          "exact_zero_count": 1599,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 1599,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 1599,
+          "exact_zero_count": 1599,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 1599,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 1599,
+          "exact_zero_count": 1598,
+          "exact_zero_fraction": 0.9993746091307066,
+          "threshold_zero_count": 1598,
+          "threshold_zero_fraction": 0.9993746091307066
+        }
+      ]
+    },
+    {
+      "key": "pool-0.8-L1-0.0001",
+      "state_sha256": "0b1a31f455a157259cf17e9f2d8adf2c78c579fa9a10af7562fca07ec2c19910",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 189,
+          "exact_zero_count": 114,
+          "exact_zero_fraction": 0.6031746031746031,
+          "threshold_zero_count": 114,
+          "threshold_zero_fraction": 0.6031746031746031
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 197,
+          "exact_zero_count": 118,
+          "exact_zero_fraction": 0.5989847715736041,
+          "threshold_zero_count": 118,
+          "threshold_zero_fraction": 0.5989847715736041
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 203,
+          "exact_zero_count": 134,
+          "exact_zero_fraction": 0.6600985221674877,
+          "threshold_zero_count": 134,
+          "threshold_zero_fraction": 0.6600985221674877
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 212,
+          "exact_zero_count": 146,
+          "exact_zero_fraction": 0.6886792452830188,
+          "threshold_zero_count": 146,
+          "threshold_zero_fraction": 0.6886792452830188
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 236,
+          "exact_zero_count": 156,
+          "exact_zero_fraction": 0.6610169491525424,
+          "threshold_zero_count": 156,
+          "threshold_zero_fraction": 0.6610169491525424
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 254,
+          "exact_zero_count": 191,
+          "exact_zero_fraction": 0.7519685039370079,
+          "threshold_zero_count": 191,
+          "threshold_zero_fraction": 0.7519685039370079
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 276,
+          "exact_zero_count": 200,
+          "exact_zero_fraction": 0.7246376811594203,
+          "threshold_zero_count": 200,
+          "threshold_zero_fraction": 0.7246376811594203
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 297,
+          "exact_zero_count": 201,
+          "exact_zero_fraction": 0.6767676767676768,
+          "threshold_zero_count": 201,
+          "threshold_zero_fraction": 0.6767676767676768
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 319,
+          "exact_zero_count": 211,
+          "exact_zero_fraction": 0.6614420062695925,
+          "threshold_zero_count": 211,
+          "threshold_zero_fraction": 0.6614420062695925
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 329,
+          "exact_zero_count": 238,
+          "exact_zero_fraction": 0.723404255319149,
+          "threshold_zero_count": 238,
+          "threshold_zero_fraction": 0.723404255319149
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 340,
+          "exact_zero_count": 243,
+          "exact_zero_fraction": 0.7147058823529412,
+          "threshold_zero_count": 243,
+          "threshold_zero_fraction": 0.7147058823529412
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 341,
+          "exact_zero_count": 238,
+          "exact_zero_fraction": 0.6979472140762464,
+          "threshold_zero_count": 238,
+          "threshold_zero_fraction": 0.6979472140762464
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 346,
+          "exact_zero_count": 241,
+          "exact_zero_fraction": 0.6965317919075145,
+          "threshold_zero_count": 241,
+          "threshold_zero_fraction": 0.6965317919075145
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 350,
+          "exact_zero_count": 202,
+          "exact_zero_fraction": 0.5771428571428572,
+          "threshold_zero_count": 202,
+          "threshold_zero_fraction": 0.5771428571428572
+        }
+      ]
+    },
+    {
+      "key": "pool-0.8-L1-0.001",
+      "state_sha256": "e898f00e2ace3c7aaca3dc7d9b28f57eb0aeb24c9cf41635fbccaa3d574f4182",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 189,
+          "exact_zero_count": 168,
+          "exact_zero_fraction": 0.8888888888888888,
+          "threshold_zero_count": 168,
+          "threshold_zero_fraction": 0.8888888888888888
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 197,
+          "exact_zero_count": 178,
+          "exact_zero_fraction": 0.9035532994923858,
+          "threshold_zero_count": 178,
+          "threshold_zero_fraction": 0.9035532994923858
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 203,
+          "exact_zero_count": 188,
+          "exact_zero_fraction": 0.9261083743842364,
+          "threshold_zero_count": 188,
+          "threshold_zero_fraction": 0.9261083743842364
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 212,
+          "exact_zero_count": 196,
+          "exact_zero_fraction": 0.9245283018867925,
+          "threshold_zero_count": 196,
+          "threshold_zero_fraction": 0.9245283018867925
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 236,
+          "exact_zero_count": 217,
+          "exact_zero_fraction": 0.9194915254237288,
+          "threshold_zero_count": 217,
+          "threshold_zero_fraction": 0.9194915254237288
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 254,
+          "exact_zero_count": 242,
+          "exact_zero_fraction": 0.952755905511811,
+          "threshold_zero_count": 242,
+          "threshold_zero_fraction": 0.952755905511811
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 276,
+          "exact_zero_count": 254,
+          "exact_zero_fraction": 0.9202898550724637,
+          "threshold_zero_count": 254,
+          "threshold_zero_fraction": 0.9202898550724637
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 297,
+          "exact_zero_count": 270,
+          "exact_zero_fraction": 0.9090909090909091,
+          "threshold_zero_count": 270,
+          "threshold_zero_fraction": 0.9090909090909091
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 319,
+          "exact_zero_count": 300,
+          "exact_zero_fraction": 0.9404388714733543,
+          "threshold_zero_count": 300,
+          "threshold_zero_fraction": 0.9404388714733543
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 329,
+          "exact_zero_count": 311,
+          "exact_zero_fraction": 0.9452887537993921,
+          "threshold_zero_count": 311,
+          "threshold_zero_fraction": 0.9452887537993921
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 340,
+          "exact_zero_count": 319,
+          "exact_zero_fraction": 0.9382352941176471,
+          "threshold_zero_count": 319,
+          "threshold_zero_fraction": 0.9382352941176471
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 341,
+          "exact_zero_count": 318,
+          "exact_zero_fraction": 0.9325513196480938,
+          "threshold_zero_count": 318,
+          "threshold_zero_fraction": 0.9325513196480938
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 346,
+          "exact_zero_count": 324,
+          "exact_zero_fraction": 0.9364161849710982,
+          "threshold_zero_count": 324,
+          "threshold_zero_fraction": 0.9364161849710982
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 350,
+          "exact_zero_count": 314,
+          "exact_zero_fraction": 0.8971428571428571,
+          "threshold_zero_count": 314,
+          "threshold_zero_fraction": 0.8971428571428571
+        }
+      ]
+    },
+    {
+      "key": "pool-0.8-L1-0.01",
+      "state_sha256": "b2c82062f322e1685468687f6d7b481536cb186fd342ea4a1ece8947a39e184c",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 189,
+          "exact_zero_count": 189,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 189,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 197,
+          "exact_zero_count": 197,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 197,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 203,
+          "exact_zero_count": 202,
+          "exact_zero_fraction": 0.9950738916256158,
+          "threshold_zero_count": 202,
+          "threshold_zero_fraction": 0.9950738916256158
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 212,
+          "exact_zero_count": 212,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 212,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 236,
+          "exact_zero_count": 236,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 236,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 254,
+          "exact_zero_count": 254,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 254,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 276,
+          "exact_zero_count": 276,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 276,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 297,
+          "exact_zero_count": 297,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 297,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 319,
+          "exact_zero_count": 319,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 319,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 329,
+          "exact_zero_count": 329,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 329,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 340,
+          "exact_zero_count": 340,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 340,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 341,
+          "exact_zero_count": 341,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 341,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 346,
+          "exact_zero_count": 346,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 346,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 350,
+          "exact_zero_count": 349,
+          "exact_zero_fraction": 0.9971428571428571,
+          "threshold_zero_count": 349,
+          "threshold_zero_fraction": 0.9971428571428571
+        }
+      ]
+    },
+    {
+      "key": "pool-0.9-L1-0.0001",
+      "state_sha256": "4ac025fe53ed2503fcb195cc770eb63369a7c9a3ebc05c101fda869e06db62a6",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 409,
+          "exact_zero_count": 293,
+          "exact_zero_fraction": 0.7163814180929096,
+          "threshold_zero_count": 293,
+          "threshold_zero_fraction": 0.7163814180929096
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 424,
+          "exact_zero_count": 330,
+          "exact_zero_fraction": 0.7783018867924528,
+          "threshold_zero_count": 330,
+          "threshold_zero_fraction": 0.7783018867924528
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 431,
+          "exact_zero_count": 336,
+          "exact_zero_fraction": 0.7795823665893271,
+          "threshold_zero_count": 336,
+          "threshold_zero_fraction": 0.7795823665893271
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 445,
+          "exact_zero_count": 353,
+          "exact_zero_fraction": 0.7932584269662921,
+          "threshold_zero_count": 353,
+          "threshold_zero_fraction": 0.7932584269662921
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 476,
+          "exact_zero_count": 387,
+          "exact_zero_fraction": 0.8130252100840336,
+          "threshold_zero_count": 387,
+          "threshold_zero_fraction": 0.8130252100840336
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 500,
+          "exact_zero_count": 402,
+          "exact_zero_fraction": 0.804,
+          "threshold_zero_count": 402,
+          "threshold_zero_fraction": 0.804
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 527,
+          "exact_zero_count": 439,
+          "exact_zero_fraction": 0.8330170777988615,
+          "threshold_zero_count": 439,
+          "threshold_zero_fraction": 0.8330170777988615
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 555,
+          "exact_zero_count": 447,
+          "exact_zero_fraction": 0.8054054054054054,
+          "threshold_zero_count": 447,
+          "threshold_zero_fraction": 0.8054054054054054
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 580,
+          "exact_zero_count": 455,
+          "exact_zero_fraction": 0.7844827586206896,
+          "threshold_zero_count": 455,
+          "threshold_zero_fraction": 0.7844827586206896
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 593,
+          "exact_zero_count": 478,
+          "exact_zero_fraction": 0.806070826306914,
+          "threshold_zero_count": 478,
+          "threshold_zero_fraction": 0.806070826306914
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 606,
+          "exact_zero_count": 491,
+          "exact_zero_fraction": 0.8102310231023102,
+          "threshold_zero_count": 491,
+          "threshold_zero_fraction": 0.8102310231023102
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 609,
+          "exact_zero_count": 491,
+          "exact_zero_fraction": 0.80623973727422,
+          "threshold_zero_count": 491,
+          "threshold_zero_fraction": 0.80623973727422
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 613,
+          "exact_zero_count": 486,
+          "exact_zero_fraction": 0.7928221859706363,
+          "threshold_zero_count": 486,
+          "threshold_zero_fraction": 0.7928221859706363
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 614,
+          "exact_zero_count": 467,
+          "exact_zero_fraction": 0.760586319218241,
+          "threshold_zero_count": 467,
+          "threshold_zero_fraction": 0.760586319218241
+        }
+      ]
+    },
+    {
+      "key": "pool-0.9-L1-0.001",
+      "state_sha256": "339eea049dd433d22cdc6f7956824a228fef7dd5f021f44337678b8e8492ef70",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 409,
+          "exact_zero_count": 371,
+          "exact_zero_fraction": 0.9070904645476773,
+          "threshold_zero_count": 371,
+          "threshold_zero_fraction": 0.9070904645476773
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 424,
+          "exact_zero_count": 390,
+          "exact_zero_fraction": 0.9198113207547169,
+          "threshold_zero_count": 390,
+          "threshold_zero_fraction": 0.9198113207547169
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 431,
+          "exact_zero_count": 403,
+          "exact_zero_fraction": 0.9350348027842227,
+          "threshold_zero_count": 403,
+          "threshold_zero_fraction": 0.9350348027842227
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 445,
+          "exact_zero_count": 411,
+          "exact_zero_fraction": 0.9235955056179775,
+          "threshold_zero_count": 411,
+          "threshold_zero_fraction": 0.9235955056179775
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 476,
+          "exact_zero_count": 448,
+          "exact_zero_fraction": 0.9411764705882353,
+          "threshold_zero_count": 448,
+          "threshold_zero_fraction": 0.9411764705882353
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 500,
+          "exact_zero_count": 477,
+          "exact_zero_fraction": 0.954,
+          "threshold_zero_count": 477,
+          "threshold_zero_fraction": 0.954
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 527,
+          "exact_zero_count": 497,
+          "exact_zero_fraction": 0.9430740037950665,
+          "threshold_zero_count": 497,
+          "threshold_zero_fraction": 0.9430740037950665
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 555,
+          "exact_zero_count": 523,
+          "exact_zero_fraction": 0.9423423423423424,
+          "threshold_zero_count": 523,
+          "threshold_zero_fraction": 0.9423423423423424
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 580,
+          "exact_zero_count": 537,
+          "exact_zero_fraction": 0.9258620689655173,
+          "threshold_zero_count": 537,
+          "threshold_zero_fraction": 0.9258620689655173
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 593,
+          "exact_zero_count": 558,
+          "exact_zero_fraction": 0.9409780775716695,
+          "threshold_zero_count": 558,
+          "threshold_zero_fraction": 0.9409780775716695
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 606,
+          "exact_zero_count": 577,
+          "exact_zero_fraction": 0.9521452145214522,
+          "threshold_zero_count": 577,
+          "threshold_zero_fraction": 0.9521452145214522
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 609,
+          "exact_zero_count": 573,
+          "exact_zero_fraction": 0.9408866995073891,
+          "threshold_zero_count": 573,
+          "threshold_zero_fraction": 0.9408866995073891
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 613,
+          "exact_zero_count": 577,
+          "exact_zero_fraction": 0.9412724306688418,
+          "threshold_zero_count": 577,
+          "threshold_zero_fraction": 0.9412724306688418
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 614,
+          "exact_zero_count": 573,
+          "exact_zero_fraction": 0.9332247557003257,
+          "threshold_zero_count": 573,
+          "threshold_zero_fraction": 0.9332247557003257
+        }
+      ]
+    },
+    {
+      "key": "pool-0.9-L1-0.01",
+      "state_sha256": "5486c95c6a09e9233ba9d2fe8a3bd46986a6ff25ae443793d7273a15387ab717",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 409,
+          "exact_zero_count": 409,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 409,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 424,
+          "exact_zero_count": 424,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 424,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 431,
+          "exact_zero_count": 430,
+          "exact_zero_fraction": 0.9976798143851509,
+          "threshold_zero_count": 430,
+          "threshold_zero_fraction": 0.9976798143851509
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 445,
+          "exact_zero_count": 445,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 445,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 476,
+          "exact_zero_count": 476,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 476,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 500,
+          "exact_zero_count": 500,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 500,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 527,
+          "exact_zero_count": 527,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 527,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 555,
+          "exact_zero_count": 555,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 555,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 580,
+          "exact_zero_count": 580,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 580,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 593,
+          "exact_zero_count": 593,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 593,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 606,
+          "exact_zero_count": 606,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 606,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 609,
+          "exact_zero_count": 609,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 609,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 613,
+          "exact_zero_count": 613,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 613,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 614,
+          "exact_zero_count": 613,
+          "exact_zero_fraction": 0.998371335504886,
+          "threshold_zero_count": 613,
+          "threshold_zero_fraction": 0.998371335504886
+        }
+      ]
+    },
+    {
+      "key": "pool-0.95-L1-0.0001",
+      "state_sha256": "3eec9a81e28c773361d44bcb6f522ce975c4464af5c3a56a037f5a074820ba1f",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 648,
+          "exact_zero_count": 519,
+          "exact_zero_fraction": 0.8009259259259259,
+          "threshold_zero_count": 519,
+          "threshold_zero_fraction": 0.8009259259259259
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 667,
+          "exact_zero_count": 553,
+          "exact_zero_fraction": 0.8290854572713643,
+          "threshold_zero_count": 553,
+          "threshold_zero_fraction": 0.8290854572713643
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 674,
+          "exact_zero_count": 555,
+          "exact_zero_fraction": 0.8234421364985163,
+          "threshold_zero_count": 555,
+          "threshold_zero_fraction": 0.8234421364985163
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 691,
+          "exact_zero_count": 572,
+          "exact_zero_fraction": 0.8277858176555717,
+          "threshold_zero_count": 572,
+          "threshold_zero_fraction": 0.8277858176555717
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 724,
+          "exact_zero_count": 615,
+          "exact_zero_fraction": 0.8494475138121547,
+          "threshold_zero_count": 615,
+          "threshold_zero_fraction": 0.8494475138121547
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 750,
+          "exact_zero_count": 647,
+          "exact_zero_fraction": 0.8626666666666667,
+          "threshold_zero_count": 647,
+          "threshold_zero_fraction": 0.8626666666666667
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 778,
+          "exact_zero_count": 666,
+          "exact_zero_fraction": 0.8560411311053985,
+          "threshold_zero_count": 666,
+          "threshold_zero_fraction": 0.8560411311053985
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 806,
+          "exact_zero_count": 681,
+          "exact_zero_fraction": 0.8449131513647643,
+          "threshold_zero_count": 681,
+          "threshold_zero_fraction": 0.8449131513647643
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 830,
+          "exact_zero_count": 708,
+          "exact_zero_fraction": 0.8530120481927711,
+          "threshold_zero_count": 708,
+          "threshold_zero_fraction": 0.8530120481927711
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 843,
+          "exact_zero_count": 729,
+          "exact_zero_fraction": 0.8647686832740213,
+          "threshold_zero_count": 729,
+          "threshold_zero_fraction": 0.8647686832740213
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 857,
+          "exact_zero_count": 741,
+          "exact_zero_fraction": 0.8646441073512252,
+          "threshold_zero_count": 741,
+          "threshold_zero_fraction": 0.8646441073512252
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 860,
+          "exact_zero_count": 732,
+          "exact_zero_fraction": 0.8511627906976744,
+          "threshold_zero_count": 732,
+          "threshold_zero_fraction": 0.8511627906976744
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 863,
+          "exact_zero_count": 732,
+          "exact_zero_fraction": 0.8482039397450754,
+          "threshold_zero_count": 732,
+          "threshold_zero_fraction": 0.8482039397450754
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 861,
+          "exact_zero_count": 704,
+          "exact_zero_fraction": 0.8176538908246226,
+          "threshold_zero_count": 704,
+          "threshold_zero_fraction": 0.8176538908246226
+        }
+      ]
+    },
+    {
+      "key": "pool-0.95-L1-0.001",
+      "state_sha256": "ee31697999f851a9e033200dd7da520f613c02f894d520d60e1c3457bf163436",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 648,
+          "exact_zero_count": 607,
+          "exact_zero_fraction": 0.9367283950617284,
+          "threshold_zero_count": 607,
+          "threshold_zero_fraction": 0.9367283950617284
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 667,
+          "exact_zero_count": 630,
+          "exact_zero_fraction": 0.9445277361319341,
+          "threshold_zero_count": 630,
+          "threshold_zero_fraction": 0.9445277361319341
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 674,
+          "exact_zero_count": 634,
+          "exact_zero_fraction": 0.9406528189910979,
+          "threshold_zero_count": 634,
+          "threshold_zero_fraction": 0.9406528189910979
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 691,
+          "exact_zero_count": 656,
+          "exact_zero_fraction": 0.9493487698986975,
+          "threshold_zero_count": 656,
+          "threshold_zero_fraction": 0.9493487698986975
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 724,
+          "exact_zero_count": 673,
+          "exact_zero_fraction": 0.9295580110497238,
+          "threshold_zero_count": 673,
+          "threshold_zero_fraction": 0.9295580110497238
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 750,
+          "exact_zero_count": 714,
+          "exact_zero_fraction": 0.952,
+          "threshold_zero_count": 714,
+          "threshold_zero_fraction": 0.952
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 778,
+          "exact_zero_count": 737,
+          "exact_zero_fraction": 0.9473007712082262,
+          "threshold_zero_count": 737,
+          "threshold_zero_fraction": 0.9473007712082262
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 806,
+          "exact_zero_count": 761,
+          "exact_zero_fraction": 0.9441687344913151,
+          "threshold_zero_count": 761,
+          "threshold_zero_fraction": 0.9441687344913151
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 830,
+          "exact_zero_count": 785,
+          "exact_zero_fraction": 0.9457831325301205,
+          "threshold_zero_count": 785,
+          "threshold_zero_fraction": 0.9457831325301205
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 843,
+          "exact_zero_count": 803,
+          "exact_zero_fraction": 0.9525504151838672,
+          "threshold_zero_count": 803,
+          "threshold_zero_fraction": 0.9525504151838672
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 857,
+          "exact_zero_count": 822,
+          "exact_zero_fraction": 0.9591598599766628,
+          "threshold_zero_count": 822,
+          "threshold_zero_fraction": 0.9591598599766628
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 860,
+          "exact_zero_count": 826,
+          "exact_zero_fraction": 0.9604651162790697,
+          "threshold_zero_count": 826,
+          "threshold_zero_fraction": 0.9604651162790697
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 863,
+          "exact_zero_count": 827,
+          "exact_zero_fraction": 0.9582850521436849,
+          "threshold_zero_count": 827,
+          "threshold_zero_fraction": 0.9582850521436849
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 861,
+          "exact_zero_count": 815,
+          "exact_zero_fraction": 0.9465737514518002,
+          "threshold_zero_count": 815,
+          "threshold_zero_fraction": 0.9465737514518002
+        }
+      ]
+    },
+    {
+      "key": "pool-0.95-L1-0.01",
+      "state_sha256": "365751e45c7cb746b6c3dd15827ea15262ec52711ee0f19c3995ece231dfabe4",
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "layers": [
+        {
+          "layer_0based": 16,
+          "input_directions": 648,
+          "exact_zero_count": 648,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 648,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 17,
+          "input_directions": 667,
+          "exact_zero_count": 667,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 667,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 18,
+          "input_directions": 674,
+          "exact_zero_count": 673,
+          "exact_zero_fraction": 0.9985163204747775,
+          "threshold_zero_count": 673,
+          "threshold_zero_fraction": 0.9985163204747775
+        },
+        {
+          "layer_0based": 19,
+          "input_directions": 691,
+          "exact_zero_count": 691,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 691,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 20,
+          "input_directions": 724,
+          "exact_zero_count": 724,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 724,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 21,
+          "input_directions": 750,
+          "exact_zero_count": 750,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 750,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 22,
+          "input_directions": 778,
+          "exact_zero_count": 778,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 778,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 23,
+          "input_directions": 806,
+          "exact_zero_count": 806,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 806,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 24,
+          "input_directions": 830,
+          "exact_zero_count": 830,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 830,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 25,
+          "input_directions": 843,
+          "exact_zero_count": 843,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 843,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 26,
+          "input_directions": 857,
+          "exact_zero_count": 857,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 857,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 27,
+          "input_directions": 860,
+          "exact_zero_count": 860,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 860,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 28,
+          "input_directions": 863,
+          "exact_zero_count": 863,
+          "exact_zero_fraction": 1.0,
+          "threshold_zero_count": 863,
+          "threshold_zero_fraction": 1.0
+        },
+        {
+          "layer_0based": 29,
+          "input_directions": 861,
+          "exact_zero_count": 860,
+          "exact_zero_fraction": 0.9988385598141696,
+          "threshold_zero_count": 860,
+          "threshold_zero_fraction": 0.9988385598141696
+        }
+      ]
+    }
+  ]
+}
